@@ -35,3 +35,21 @@ See experiments/results/e003.json and e003_rows.jsonl.
   so this is not a strict like-for-like with the paper. Accuracy was ~0 for the first 50 epochs and only rose after
   epoch ~170, so the linb run (300 epochs total, guessed settings) is most likely undertrained. Next: rerun linb with
   the Ugaritic schedule (10 rounds x 150 epochs) before drawing any conclusion.
+
+## E004: LLM hypothesis agent does not beat exhaustive search (2026-10-15)
+Run `e004_20261015_211844`, 89 tasks x 4 modes, sonnet, 156 LLM calls, ~$3.00, 2h05m, 3 workers.
+
+| mode | test_in (n=15) | test_enc (n=28) | test_both (n=28) | test_null FDR (n=18) |
+|---|---|---|---|---|
+| none | 0.667 | 0.107 | 0.107 | 0.111 |
+| random | 0.667 | 0.143 | 0.179 | 0.111 |
+| llm | 0.667 | 0.250 | 0.286 | 0.111 |
+| exhaustive | 0.667 | 0.214 | 0.286 | 0.111 |
+(solved rate; FDR = decoys/nulls wrongly "solved")
+
+- Mechanism search helps on unseen encodings (none 3/28 -> llm 7/28), but the LLM matches exhaustive enumeration of the
+  same op library (7 vs 6 of 28 on test_enc, 8 vs 8 on test_both). Differences of one task are not significant at n=28.
+  Conclusion: the LLM adds no measurable value over brute force on this library; the bottleneck is the op library itself.
+- Gate 3 FAILS in every mode: null FDR 2/18 = 0.111 > 0.05. Identical across modes, so it is the base solver's
+  abstention, not the agent. (E003 had 0.0625 on a different null set.)
+- An earlier E004 run (e004_20261015_192214) was killed by a system hang at ~115 traces; its partial files are not used.
