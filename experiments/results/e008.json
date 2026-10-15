@@ -1,0 +1,111 @@
+{
+  "experiment": "e008",
+  "description": "NeuroDecipher external baseline: real-script positive control (lost script + KNOWN relative)",
+  "upstream": {
+    "repo": "https://github.com/j-luo93/NeuroDecipher",
+    "commit": "480bad2487820e3737fecfdd108214efa769e34b",
+    "submodules": {
+      "arglib": "91b41f5b71f035ee931ef3692d8f72a9e8520757",
+      "dev_misc": "6c711b48ab11c90fd25655895810e82d560037b0"
+    },
+    "paper": "Luo, Cao, Barzilay. ACL 2019. arXiv:1906.06718",
+    "licence_code": "NONE (no LICENSE file; GitHub license=null) -> not redistributed",
+    "licence_data": "NONE stated; Ugaritic-Hebrew from Snyder et al. 2010 (obtained privately by authors); Linear B extracted from a Linear B lexicon scan on archive.org -> kept in gitignored external/neurodecipher_data_private/"
+  },
+  "data_sha256": {
+    "README.md": "65198b9e4c73c85f3a6d96028f2dc5d120a735c3ad66671df433a963205f2a92",
+    "linear_b-greek.cog": "0e8099cd9f02c36fc14599d9bc12836489816c0b1d17f471e723b98c978b10fa",
+    "linear_b-greek.minoan-el.cog": "d9f83ab652fedf7e98674e0b3b2ec5905ea0f30cb1b74764737f131683554a40",
+    "linear_b-greek.names.cog": "525d035799ba0422e3d28e0584c5b564d0599f7f2c57a7b1df08ff89787cbd6f",
+    "linear_b-greek.names.minoan-el.cog": "b86fa64e39f1977d8d17dd72577c51c58441963484703b146f6ff3e6cba03a89",
+    "linear_b.el.raw": "54d618178d94197d7f187f2603a870e4efb439d2e4af264c680d47ad17f1653f",
+    "linear_b.minoan.raw": "6b66d9d807caceb6aff28ed8679bd3f7615068eccf04ad62d1f4472e9b81aef4",
+    "test.es-fr-en.toy.cog": "96ca612a5fb4e1feb3424c6d9902cb421cc82fef18399003de5b0c5c67137f7d",
+    "uga-heb.no_spe.cog": "b4ef9c91a245cb1ff1583c56a3c243fb3db8078da12fb9b895982dffebe4fa7e",
+    "uga-heb.small.no_spe.cog": "1130868034559949a62d0b63ed303a2260ebeadb3d909c1387ff30ef8e8d8c9d"
+  },
+  "env": {
+    "python": "3.10.20",
+    "torch": "2.5.1",
+    "numpy": "1.26.4",
+    "ortools": "9.14.6206",
+    "pandas": "2.3.3",
+    "machine": "arm64"
+  },
+  "threads": 2,
+  "patches": "external/neurodecipher_patches/VCL_PATCHES.md",
+  "paper_numbers_pct": {
+    "uga_noisy": {
+      "NeuroCipher": 65.9,
+      "Bayesian (Snyder+2010)": 60.4
+    },
+    "uga_noiseless": {
+      "NeuroCipher": 93.5,
+      "Matcher (Berg-Kirkpatrick&Klein 2011)": 90.4
+    },
+    "linb": {
+      "NeuroCipher": 84.7
+    },
+    "linb_names": {
+      "NeuroCipher": 67.3
+    }
+  },
+  "runs": {
+    "uga_small": {
+      "status": "PARTIAL (no status.json: still running or killed)",
+      "seconds": null,
+      "command": "/Users/arhampartapjain/voynich-ai-cryptolinguist/external/neurodecipher/.venv/bin/python -I -m nd.main --config UgaHebSmallNoSpe --cog_path /Users/arhampartapjain/voynich-ai-cryptolinguist/external/neurodecipher_data_private/uga-heb.small.no_spe.cog",
+      "note": "released upstream config UgaHebSmallNoSpe verbatim (10% noisy subset: 221 cognate pairs, 514 unpaired Ugaritic, 3800 unpaired Hebrew); upstream evaluates on the cognate-bearing Ugaritic words of the SAME 10% file, whereas the paper reports testing on the full dataset.",
+      "n_eval_lost_words": 221,
+      "final_epoch": 50,
+      "final_acc_pct": {
+        "mle": 28.05,
+        "flow_editFalse_cap3": 10.41,
+        "flow_editTrue_cap3": 3.17
+      },
+      "best_over_epochs_acc_pct_OPTIMISTIC": {
+        "mle": 28.05,
+        "flow_editFalse_cap3": 10.41,
+        "flow_editTrue_cap3": 3.17
+      },
+      "primary_metric": "flow_editTrue_cap3",
+      "primary_final_pct": 3.17,
+      "paper_pct": 65.9,
+      "curve_primary_pct": {
+        "10": 0.0,
+        "20": 0.45,
+        "30": 0.0,
+        "40": 0.0,
+        "50": 3.17
+      }
+    },
+    "linb": {
+      "status": "PARTIAL (no status.json: still running or killed)",
+      "seconds": null,
+      "command": "/Users/arhampartapjain/voynich-ai-cryptolinguist/external/neurodecipher/.venv/bin/python -I -m nd.main --config UgaHebSmallNoSpe --cog_path /Users/arhampartapjain/voynich-ai-cryptolinguist/external/neurodecipher_data_private/linear_b-greek.minoan-el.cog --lost_lang minoan --known_lang el --universal_charset_size 100 --momentum 0.9 --capacity 1 --num_cognates 919 --inc 919 --num_rounds 5 --num_epochs_per_M_step 60 --warm_up_steps 1",
+      "note": "NO upstream Linear B config; reconstructed from paper sec.5 (universal charset 100, flow decay gamma=0.9, capacity 1, all 919 pairs targeted from round 1). Paper's Linear-B-specific regulariser Omega_2 and random restarts are NOT in the released code -> single restart, Ugaritic regulariser. Epochs/rounds not given in paper: we use 5 rounds x 60 epochs.",
+      "n_eval_lost_words": 919,
+      "final_epoch": 20,
+      "final_acc_pct": {
+        "mle": 0.11,
+        "flow_editFalse_cap1": 0.44,
+        "flow_editTrue_cap1": 0.11
+      },
+      "best_over_epochs_acc_pct_OPTIMISTIC": {
+        "mle": 0.11,
+        "flow_editFalse_cap1": 0.44,
+        "flow_editTrue_cap1": 0.11
+      },
+      "primary_metric": "flow_editTrue_cap1",
+      "primary_final_pct": 0.11,
+      "paper_pct": 84.7,
+      "curve_primary_pct": {
+        "10": 0.11,
+        "20": 0.11
+      }
+    },
+    "linb_names": {
+      "status": "not_run"
+    }
+  }
+}

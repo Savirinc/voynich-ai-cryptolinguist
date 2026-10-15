@@ -8,3 +8,11 @@ data/raw/corpora/fetch.log
 checkpoints/*.pt
 .DS_Store
 data/derived/lm_cache/
+
+# NeuroDecipher (j-luo93/NeuroDecipher): upstream code and data carry NO licence
+# (GitHub license=null; no LICENSE file) -> not redistributed. Only our patch notes are tracked.
+external/neurodecipher/
+!external/neurodecipher_patches/VCL_PATCHES.md
+!external/neurodecipher_patches/vcl_patches.diff
+external/neurodecipher_data_private/
+external/neurodecipher_runs/
