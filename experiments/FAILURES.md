@@ -23,3 +23,10 @@ were deleted and nothing was changed afterwards.
   resamples of real ciphertext decode to locally fluent text that the calibrated confidence accepts
   (confidences 0.63-0.99). autocopy, grille, zipf_bag, one_time_pad, short_mono: 0 false discoveries.
 See experiments/results/e003.json and e003_rows.jsonl.
+
+## E008 linb: NeuroDecipher Linear B reproduction FAILED (2026-10-15)
+- Result: primary metric (flow, edit=True, cap 1) 0.0% final, 0.87% best-over-epochs vs paper 84.7% (919 lost words; chance ~0.1%). 403.6 s, ran alone.
+- Upstream ships NO Linear B config; our hyper-parameters (5 rounds x 60 epochs, capacity 1, charset 100, momentum 0.9) were guessed overrides on UgaHebSmallNoSpe. Cannot distinguish "wrong settings / undertrained" from "port bug" with this run alone.
+- Patches reviewed: ortools min-cost-flow port is a 1:1 API rename (cost scaling `dists*100 -> int64` is upstream); numpy ragged-array fix reproduces numpy<1.24 behaviour. No bug found yet.
+- Discriminating test: uga_small with the RELEASED upstream config (running). If it approaches 65.9%, port is fine and Linear B settings are the issue; if near chance, the port is broken.
+- Status: NOT a valid positive control. Not used for any claim.

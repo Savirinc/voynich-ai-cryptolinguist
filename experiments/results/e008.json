@@ -57,51 +57,76 @@
       "command": "/Users/arhampartapjain/voynich-ai-cryptolinguist/external/neurodecipher/.venv/bin/python -I -m nd.main --config UgaHebSmallNoSpe --cog_path /Users/arhampartapjain/voynich-ai-cryptolinguist/external/neurodecipher_data_private/uga-heb.small.no_spe.cog",
       "note": "released upstream config UgaHebSmallNoSpe verbatim (10% noisy subset: 221 cognate pairs, 514 unpaired Ugaritic, 3800 unpaired Hebrew); upstream evaluates on the cognate-bearing Ugaritic words of the SAME 10% file, whereas the paper reports testing on the full dataset.",
       "n_eval_lost_words": 221,
-      "final_epoch": 50,
+      "final_epoch": 20,
       "final_acc_pct": {
-        "mle": 28.05,
-        "flow_editFalse_cap3": 10.41,
-        "flow_editTrue_cap3": 3.17
+        "mle": 2.26,
+        "flow_editFalse_cap3": 2.26,
+        "flow_editTrue_cap3": 0.0
       },
       "best_over_epochs_acc_pct_OPTIMISTIC": {
-        "mle": 28.05,
-        "flow_editFalse_cap3": 10.41,
-        "flow_editTrue_cap3": 3.17
+        "mle": 2.26,
+        "flow_editFalse_cap3": 2.26,
+        "flow_editTrue_cap3": 0.0
       },
       "primary_metric": "flow_editTrue_cap3",
-      "primary_final_pct": 3.17,
+      "primary_final_pct": 0.0,
       "paper_pct": 65.9,
       "curve_primary_pct": {
         "10": 0.0,
-        "20": 0.45,
-        "30": 0.0,
-        "40": 0.0,
-        "50": 3.17
+        "20": 0.0
       }
     },
     "linb": {
-      "status": "PARTIAL (no status.json: still running or killed)",
-      "seconds": null,
+      "status": "complete",
+      "seconds": 403.6,
       "command": "/Users/arhampartapjain/voynich-ai-cryptolinguist/external/neurodecipher/.venv/bin/python -I -m nd.main --config UgaHebSmallNoSpe --cog_path /Users/arhampartapjain/voynich-ai-cryptolinguist/external/neurodecipher_data_private/linear_b-greek.minoan-el.cog --lost_lang minoan --known_lang el --universal_charset_size 100 --momentum 0.9 --capacity 1 --num_cognates 919 --inc 919 --num_rounds 5 --num_epochs_per_M_step 60 --warm_up_steps 1",
       "note": "NO upstream Linear B config; reconstructed from paper sec.5 (universal charset 100, flow decay gamma=0.9, capacity 1, all 919 pairs targeted from round 1). Paper's Linear-B-specific regulariser Omega_2 and random restarts are NOT in the released code -> single restart, Ugaritic regulariser. Epochs/rounds not given in paper: we use 5 rounds x 60 epochs.",
       "n_eval_lost_words": 919,
-      "final_epoch": 20,
+      "final_epoch": 300,
       "final_acc_pct": {
-        "mle": 0.11,
-        "flow_editFalse_cap1": 0.44,
-        "flow_editTrue_cap1": 0.11
+        "mle": 0.0,
+        "flow_editFalse_cap1": 0.22,
+        "flow_editTrue_cap1": 0.0
       },
       "best_over_epochs_acc_pct_OPTIMISTIC": {
-        "mle": 0.11,
-        "flow_editFalse_cap1": 0.44,
-        "flow_editTrue_cap1": 0.11
+        "mle": 0.44,
+        "flow_editFalse_cap1": 0.54,
+        "flow_editTrue_cap1": 0.87
       },
       "primary_metric": "flow_editTrue_cap1",
-      "primary_final_pct": 0.11,
+      "primary_final_pct": 0.0,
       "paper_pct": 84.7,
       "curve_primary_pct": {
-        "10": 0.11,
-        "20": 0.11
+        "10": 0.0,
+        "20": 0.22,
+        "30": 0.11,
+        "40": 0.11,
+        "50": 0.87,
+        "60": 0.22,
+        "70": 0.44,
+        "80": 0.33,
+        "90": 0.33,
+        "100": 0.11,
+        "110": 0.11,
+        "120": 0.22,
+        "130": 0.22,
+        "140": 0.0,
+        "150": 0.11,
+        "160": 0.22,
+        "170": 0.22,
+        "180": 0.11,
+        "190": 0.0,
+        "200": 0.22,
+        "210": 0.0,
+        "220": 0.22,
+        "230": 0.22,
+        "240": 0.11,
+        "250": 0.44,
+        "260": 0.11,
+        "270": 0.0,
+        "280": 0.11,
+        "290": 0.11,
+        "300": 0.0
       }
     },
     "linb_names": {
