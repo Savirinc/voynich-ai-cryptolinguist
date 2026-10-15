@@ -30,3 +30,8 @@ See experiments/results/e003.json and e003_rows.jsonl.
 - Patches reviewed: ortools min-cost-flow port is a 1:1 API rename (cost scaling `dists*100 -> int64` is upstream); numpy ragged-array fix reproduces numpy<1.24 behaviour. No bug found yet.
 - Discriminating test: uga_small with the RELEASED upstream config (running). If it approaches 65.9%, port is fine and Linear B settings are the issue; if near chance, the port is broken.
 - Status: NOT a valid positive control. Not used for any claim.
+- **Update (21:18): discriminating test resolved.** uga_small with the released upstream config: primary metric 73.3% final
+  (paper 65.9%), 2609.7 s. Port is functional. Caveat: upstream evaluates on the cognate-bearing words of the same 10% file,
+  so this is not a strict like-for-like with the paper. Accuracy was ~0 for the first 50 epochs and only rose after
+  epoch ~170, so the linb run (300 epochs total, guessed settings) is most likely undertrained. Next: rerun linb with
+  the Ugaritic schedule (10 rounds x 150 epochs) before drawing any conclusion.
