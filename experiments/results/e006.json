@@ -1,0 +1,563 @@
+{
+ "n_reference": 1024,
+ "N_SYM": 3000,
+ "classes": [
+  "abjad",
+  "autokey",
+  "boundary_noise",
+  "columnar",
+  "decoy_autocopy",
+  "decoy_grille",
+  "decoy_markov",
+  "decoy_zipf_bag",
+  "homophonic",
+  "mono",
+  "nomenclator",
+  "nulls",
+  "one_time_pad",
+  "plain",
+  "reversed_words",
+  "syllabary",
+  "verbose",
+  "vigenere"
+ ],
+ "positive_control_cv_accuracy": {
+  "abjad": 0.833,
+  "autokey": 0.9,
+  "boundary_noise": 0.967,
+  "columnar": 1.0,
+  "decoy_autocopy": 0.983,
+  "decoy_grille": 1.0,
+  "decoy_markov": 0.533,
+  "decoy_zipf_bag": 1.0,
+  "homophonic": 0.95,
+  "mono": 0.433,
+  "nomenclator": 1.0,
+  "nulls": 0.933,
+  "one_time_pad": 0.983,
+  "plain": 0.333,
+  "reversed_words": 0.65,
+  "syllabary": 1.0,
+  "verbose": 1.0,
+  "vigenere": 0.933
+ },
+ "positive_control_confusions": {
+  "abjad": {
+   "abjad": 50,
+   "nulls": 6,
+   "decoy_markov": 2
+  },
+  "autokey": {
+   "autokey": 54,
+   "homophonic": 4,
+   "decoy_autocopy": 1
+  },
+  "boundary_noise": {
+   "boundary_noise": 58,
+   "nomenclator": 1,
+   "decoy_markov": 1
+  },
+  "columnar": {
+   "columnar": 5
+  },
+  "decoy_autocopy": {
+   "decoy_autocopy": 59,
+   "decoy_markov": 1
+  },
+  "decoy_grille": {
+   "decoy_grille": 60
+  },
+  "decoy_markov": {
+   "decoy_markov": 32,
+   "nulls": 8,
+   "mono": 7
+  },
+  "decoy_zipf_bag": {
+   "decoy_zipf_bag": 60
+  },
+  "homophonic": {
+   "homophonic": 57,
+   "nulls": 1,
+   "boundary_noise": 1
+  },
+  "mono": {
+   "mono": 26,
+   "plain": 16,
+   "decoy_markov": 7
+  },
+  "nomenclator": {
+   "nomenclator": 59
+  },
+  "nulls": {
+   "nulls": 56,
+   "reversed_words": 2,
+   "decoy_markov": 1
+  },
+  "one_time_pad": {
+   "one_time_pad": 59,
+   "homophonic": 1
+  },
+  "plain": {
+   "plain": 20,
+   "mono": 19,
+   "nulls": 8
+  },
+  "reversed_words": {
+   "reversed_words": 39,
+   "nulls": 11,
+   "plain": 5
+  },
+  "syllabary": {
+   "syllabary": 60
+  },
+  "verbose": {
+   "verbose": 60
+  },
+  "vigenere": {
+   "vigenere": 56,
+   "homophonic": 4
+  }
+ },
+ "voynich": {
+  "eva_characters": {
+   "windows": 57,
+   "class_probability": {
+    "decoy_grille": 0.282,
+    "reversed_words": 0.188,
+    "decoy_autocopy": 0.176,
+    "plain": 0.108,
+    "decoy_markov": 0.083,
+    "mono": 0.058,
+    "abjad": 0.034,
+    "nulls": 0.032,
+    "boundary_noise": 0.017,
+    "verbose": 0.015,
+    "columnar": 0.006,
+    "syllabary": 0.001,
+    "autokey": 0.0,
+    "decoy_zipf_bag": 0.0,
+    "homophonic": 0.0,
+    "nomenclator": 0.0,
+    "one_time_pad": 0.0,
+    "vigenere": 0.0
+   },
+   "typicality": {
+    "abjad": {
+     "voynich_dist": 5.083,
+     "class_dist_p95": 5.051,
+     "inside_p95": false
+    },
+    "autokey": {
+     "voynich_dist": 7.023,
+     "class_dist_p95": 3.031,
+     "inside_p95": false
+    },
+    "boundary_noise": {
+     "voynich_dist": 5.109,
+     "class_dist_p95": 3.5,
+     "inside_p95": false
+    },
+    "columnar": {
+     "voynich_dist": 29.196,
+     "class_dist_p95": 2.659,
+     "inside_p95": false
+    },
+    "decoy_autocopy": {
+     "voynich_dist": 4.163,
+     "class_dist_p95": 3.768,
+     "inside_p95": false
+    },
+    "decoy_grille": {
+     "voynich_dist": 3.196,
+     "class_dist_p95": 2.862,
+     "inside_p95": false
+    },
+    "decoy_markov": {
+     "voynich_dist": 3.973,
+     "class_dist_p95": 5.144,
+     "inside_p95": true
+    },
+    "decoy_zipf_bag": {
+     "voynich_dist": 5.794,
+     "class_dist_p95": 1.804,
+     "inside_p95": false
+    },
+    "homophonic": {
+     "voynich_dist": 8.672,
+     "class_dist_p95": 6.745,
+     "inside_p95": false
+    },
+    "mono": {
+     "voynich_dist": 4.237,
+     "class_dist_p95": 4.064,
+     "inside_p95": false
+    },
+    "nomenclator": {
+     "voynich_dist": 7.465,
+     "class_dist_p95": 3.513,
+     "inside_p95": false
+    },
+    "nulls": {
+     "voynich_dist": 4.984,
+     "class_dist_p95": 4.401,
+     "inside_p95": false
+    },
+    "one_time_pad": {
+     "voynich_dist": 8.691,
+     "class_dist_p95": 2.87,
+     "inside_p95": false
+    },
+    "plain": {
+     "voynich_dist": 4.24,
+     "class_dist_p95": 4.849,
+     "inside_p95": true
+    },
+    "reversed_words": {
+     "voynich_dist": 4.265,
+     "class_dist_p95": 3.494,
+     "inside_p95": false
+    },
+    "syllabary": {
+     "voynich_dist": 14.115,
+     "class_dist_p95": 6.146,
+     "inside_p95": false
+    },
+    "verbose": {
+     "voynich_dist": 5.77,
+     "class_dist_p95": 4.017,
+     "inside_p95": false
+    },
+    "vigenere": {
+     "voynich_dist": 7.862,
+     "class_dist_p95": 3.978,
+     "inside_p95": false
+    }
+   },
+   "inside_any_class_p95": [
+    "decoy_markov",
+    "plain"
+   ],
+   "key_features": {
+    "h1": 3.8114,
+    "h_cond": 2.1206,
+    "types": 19.3333,
+    "ioc_x_types": 1.5703,
+    "wl_mean": 4.9957,
+    "word_ttr": 0.5982,
+    "init_entropy": 3.0548,
+    "final_entropy": 2.3832,
+    "never_init_mass": 0.2787
+   }
+  },
+  "eva_multiglyph_units": {
+   "windows": 49,
+   "class_probability": {
+    "decoy_grille": 0.2,
+    "reversed_words": 0.184,
+    "plain": 0.167,
+    "decoy_markov": 0.13,
+    "mono": 0.114,
+    "decoy_autocopy": 0.102,
+    "abjad": 0.043,
+    "boundary_noise": 0.029,
+    "nulls": 0.013,
+    "verbose": 0.007,
+    "columnar": 0.006,
+    "syllabary": 0.003,
+    "decoy_zipf_bag": 0.001,
+    "nomenclator": 0.001,
+    "vigenere": 0.001,
+    "autokey": 0.0,
+    "homophonic": 0.0,
+    "one_time_pad": 0.0
+   },
+   "typicality": {
+    "abjad": {
+     "voynich_dist": 4.265,
+     "class_dist_p95": 5.051,
+     "inside_p95": true
+    },
+    "autokey": {
+     "voynich_dist": 6.905,
+     "class_dist_p95": 3.031,
+     "inside_p95": false
+    },
+    "boundary_noise": {
+     "voynich_dist": 4.283,
+     "class_dist_p95": 3.5,
+     "inside_p95": false
+    },
+    "columnar": {
+     "voynich_dist": 29.39,
+     "class_dist_p95": 2.659,
+     "inside_p95": false
+    },
+    "decoy_autocopy": {
+     "voynich_dist": 4.205,
+     "class_dist_p95": 3.768,
+     "inside_p95": false
+    },
+    "decoy_grille": {
+     "voynich_dist": 4.196,
+     "class_dist_p95": 2.862,
+     "inside_p95": false
+    },
+    "decoy_markov": {
+     "voynich_dist": 3.442,
+     "class_dist_p95": 5.144,
+     "inside_p95": true
+    },
+    "decoy_zipf_bag": {
+     "voynich_dist": 5.737,
+     "class_dist_p95": 1.804,
+     "inside_p95": false
+    },
+    "homophonic": {
+     "voynich_dist": 8.436,
+     "class_dist_p95": 6.745,
+     "inside_p95": false
+    },
+    "mono": {
+     "voynich_dist": 3.412,
+     "class_dist_p95": 4.064,
+     "inside_p95": true
+    },
+    "nomenclator": {
+     "voynich_dist": 6.272,
+     "class_dist_p95": 3.513,
+     "inside_p95": false
+    },
+    "nulls": {
+     "voynich_dist": 4.944,
+     "class_dist_p95": 4.401,
+     "inside_p95": false
+    },
+    "one_time_pad": {
+     "voynich_dist": 8.519,
+     "class_dist_p95": 2.87,
+     "inside_p95": false
+    },
+    "plain": {
+     "voynich_dist": 3.51,
+     "class_dist_p95": 4.849,
+     "inside_p95": true
+    },
+    "reversed_words": {
+     "voynich_dist": 3.81,
+     "class_dist_p95": 3.494,
+     "inside_p95": false
+    },
+    "syllabary": {
+     "voynich_dist": 13.072,
+     "class_dist_p95": 6.146,
+     "inside_p95": false
+    },
+    "verbose": {
+     "voynich_dist": 6.585,
+     "class_dist_p95": 4.017,
+     "inside_p95": false
+    },
+    "vigenere": {
+     "voynich_dist": 7.637,
+     "class_dist_p95": 3.978,
+     "inside_p95": false
+    }
+   },
+   "inside_any_class_p95": [
+    "abjad",
+    "decoy_markov",
+    "mono",
+    "plain"
+   ],
+   "key_features": {
+    "h1": 3.9352,
+    "h_cond": 2.3927,
+    "types": 27.4286,
+    "ioc_x_types": 2.2555,
+    "wl_mean": 4.1218,
+    "word_ttr": 0.5781,
+    "init_entropy": 3.2752,
+    "final_entropy": 2.524,
+    "never_init_mass": 0.1286
+   }
+  }
+ },
+ "top_features": [
+  [
+   "h_cond",
+   0.0596
+  ],
+  [
+   "init_entropy",
+   0.0533
+  ],
+  [
+   "rare_types",
+   0.0484
+  ],
+  [
+   "h1_norm",
+   0.0468
+  ],
+  [
+   "word_ttr",
+   0.0465
+  ],
+  [
+   "pioc_max_x_types",
+   0.0463
+  ],
+  [
+   "pioc_max_ratio",
+   0.0455
+  ],
+  [
+   "types_per_sqrt_n",
+   0.0434
+  ],
+  [
+   "ioc_x_types",
+   0.0427
+  ],
+  [
+   "word_top_share",
+   0.042
+  ],
+  [
+   "log_types",
+   0.0385
+  ],
+  [
+   "mi_bigram",
+   0.0384
+  ]
+ ],
+ "reference_key_feature_means": {
+  "abjad": {
+   "h1": 3.896,
+   "h_cond": 3.45,
+   "types": 23.383,
+   "wl_mean": 3.082,
+   "word_ttr": 0.496
+  },
+  "autokey": {
+   "h1": 4.764,
+   "h_cond": 4.134,
+   "types": 30.35,
+   "wl_mean": 4.904,
+   "word_ttr": 0.796
+  },
+  "boundary_noise": {
+   "h1": 4.358,
+   "h_cond": 3.447,
+   "types": 33.15,
+   "wl_mean": 4.773,
+   "word_ttr": 0.751
+  },
+  "columnar": {
+   "h1": 4.517,
+   "h_cond": 4.146,
+   "types": 40.8,
+   "wl_mean": 3000.0,
+   "word_ttr": 1.0
+  },
+  "decoy_autocopy": {
+   "h1": 4.18,
+   "h_cond": 3.453,
+   "types": 22.2,
+   "wl_mean": 5.304,
+   "word_ttr": 0.692
+  },
+  "decoy_grille": {
+   "h1": 4.14,
+   "h_cond": 2.712,
+   "types": 20.383,
+   "wl_mean": 5.361,
+   "word_ttr": 0.793
+  },
+  "decoy_markov": {
+   "h1": 4.225,
+   "h_cond": 3.279,
+   "types": 30.833,
+   "wl_mean": 6.688,
+   "word_ttr": 0.704
+  },
+  "decoy_zipf_bag": {
+   "h1": 4.36,
+   "h_cond": 3.539,
+   "types": 22.167,
+   "wl_mean": 5.048,
+   "word_ttr": 0.374
+  },
+  "homophonic": {
+   "h1": 5.666,
+   "h_cond": 4.238,
+   "types": 58.683,
+   "wl_mean": 5.018,
+   "word_ttr": 0.872
+  },
+  "mono": {
+   "h1": 4.254,
+   "h_cond": 3.403,
+   "types": 30.033,
+   "wl_mean": 4.631,
+   "word_ttr": 0.561
+  },
+  "nomenclator": {
+   "h1": 4.809,
+   "h_cond": 3.525,
+   "types": 68.559,
+   "wl_mean": 3.954,
+   "word_ttr": 0.581
+  },
+  "nulls": {
+   "h1": 4.511,
+   "h_cond": 3.765,
+   "types": 34.117,
+   "wl_mean": 5.933,
+   "word_ttr": 0.805
+  },
+  "one_time_pad": {
+   "h1": 4.928,
+   "h_cond": 4.6,
+   "types": 31.667,
+   "wl_mean": 5.066,
+   "word_ttr": 0.966
+  },
+  "plain": {
+   "h1": 4.319,
+   "h_cond": 3.432,
+   "types": 31.983,
+   "wl_mean": 4.794,
+   "word_ttr": 0.59
+  },
+  "reversed_words": {
+   "h1": 4.36,
+   "h_cond": 3.492,
+   "types": 31.833,
+   "wl_mean": 4.919,
+   "word_ttr": 0.617
+  },
+  "syllabary": {
+   "h1": 7.332,
+   "h_cond": 2.659,
+   "types": 444.1,
+   "wl_mean": 2.266,
+   "word_ttr": 0.55
+  },
+  "verbose": {
+   "h1": 3.117,
+   "h_cond": 2.569,
+   "types": 9.883,
+   "wl_mean": 8.542,
+   "word_ttr": 0.658
+  },
+  "vigenere": {
+   "h1": 4.736,
+   "h_cond": 4.089,
+   "types": 30.533,
+   "wl_mean": 4.9,
+   "word_ttr": 0.769
+  }
+ }
+}
