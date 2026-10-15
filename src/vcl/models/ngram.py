@@ -106,14 +106,23 @@ class KneserNey(_Base):
         self.__dict__.update(state)
         self._cache = {}
 
-    def fit(self, lines):
+    def _grams(self, lines):
         n = self.order
-        raw = [None] + [Counter() for _ in range(n)]
         for ln in lines:
             padded = [BOS_ID] * (n - 1) + encode_line(ln)
             for i in range(n - 1, len(padded)):
-                for k in range(1, n + 1):
-                    raw[k][tuple(padded[i - k + 1:i + 1])] += 1
+                yield tuple(padded[i - n + 1:i + 1])
+
+    def fit(self, lines):
+        return self._fit_grams(self._grams(lines), self.order)
+
+    def _fit_grams(self, grams, n):
+        """grams: iterable of length-n tuples (context..., target); context symbols may be any ids."""
+        self._n = n
+        raw = [None] + [Counter() for _ in range(n)]
+        for g in grams:
+            for k in range(1, n + 1):
+                raw[k][g[n - k:]] += 1
         adj = [None] * (n + 1)
         adj[n] = raw[n]
         for k in range(n - 1, 0, -1):
@@ -150,7 +159,10 @@ class KneserNey(_Base):
 
     def dist(self, hist, line=None):
         n = self.order
-        ctx = tuple(hist[len(hist) - (n - 1):]) if n > 1 else ()
+        return self._dist_ctx(tuple(hist[len(hist) - (n - 1):]) if n > 1 else ())
+
+    def _dist_ctx(self, ctx):
+        n = len(ctx) + 1
         p = self._cache.get(ctx)
         if p is not None:
             return p
@@ -192,3 +204,44 @@ class VarietyMixKN(_Base):
         if m is None or self.lam == 0.0:
             return p
         return self.lam * m.dist(hist) + (1 - self.lam) * p
+
+
+COND_BASE = 64     # ids >= COND_BASE are conditioning symbols (never predicted)
+
+
+class ConditionedKN(KneserNey):
+    """KN char model whose context is (last order-1 stream symbols) + one conditioning symbol
+    c = (final glyph of the previous word in the line, or line-start; is the current word line-final).
+    The conditioning symbol sits nearest the target, so back-off drops old characters first and
+    the condition last. This mirrors the external R2 'M2 conditioned' description (previous
+    unit's final glyph + line-final position); their exact implementation is not available.
+    NB: the line-final flag is side information about layout (it makes '$' vs '_' predictable)."""
+
+    def __init__(self, order: int = 5):
+        super().__init__(order)
+        self.name = f"kn{order}+prevfinal+linefinal"
+
+    @staticmethod
+    def _conds(ln):
+        out = []
+        for i, w in enumerate(ln.words):
+            g = 26 if i == 0 else ord(ln.words[i - 1][-1]) - 97
+            c = COND_BASE + 2 * g + int(i == ln.n_words - 1)
+            out += [c] * (len(w) + 1)
+        return out
+
+    def _events(self, ln):
+        n = self.order
+        ids = encode_line(ln)
+        padded = [BOS_ID] * (n - 1) + ids
+        for j, (w, c) in enumerate(zip(ids, self._conds(ln))):
+            yield tuple(padded[j:j + n - 1]) + (c,), w
+
+    def fit(self, lines):
+        return self._fit_grams((ctx + (w,) for ln in lines for ctx, w in self._events(ln)), self.order + 1)
+
+    def line_bits(self, line):
+        return np.array([-math.log2(self._dist_ctx(ctx)[w]) for ctx, w in self._events(line)])
+
+    def sample_lines(self, *a, **k):
+        raise NotImplementedError("line-final flag requires the line length in advance; not used as a generator")

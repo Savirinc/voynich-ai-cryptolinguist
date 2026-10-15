@@ -1,0 +1,639 @@
+{
+ "protocol_section": "2 (P1-P6)",
+ "primary_model": "tf_d160_l4+variety",
+ "generator": "ancestral sampling (T=1) from frozen model; templates = DEV lines (variety, para-start) x2",
+ "p4_uses_variety_conditioned_counterpart": {
+  "kn4+variety": "kn4+variety",
+  "tf_d160_l4+variety": "tf_d160_l4+variety"
+ },
+ "reference_dev": {
+  "y_to_q": {
+   "odds_ratio": 4.919974922735373,
+   "table": [
+    2943,
+    7628,
+    1071,
+    13662
+   ],
+   "ci95": [
+    4.08543684985221,
+    5.722244069100032
+   ]
+  },
+  "line_final_m_vs_iin": {
+   "odds_ratio": 18.8727206859075,
+   "table": [
+    517,
+    240,
+    318,
+    2793
+   ],
+   "ci95": [
+    12.18063695093581,
+    29.731766903220468
+   ]
+  },
+  "q_to_o": {
+   "qo": 4387,
+   "q": 4487,
+   "share": 0.9777133942500558
+  },
+  "n_words": 28841,
+  "ttr": 0.21070697964703028,
+  "label_share_data": 0.4051803885291397,
+  "by_variety": {
+   "A": {
+    "y_to_q": {
+     "odds_ratio": 2.246266952407536,
+     "table": [
+      353,
+      1988,
+      381,
+      4820
+     ]
+    },
+    "line_final_m_vs_iin": {
+     "odds_ratio": 4.754583660462753,
+     "table": [
+      139,
+      147,
+      183,
+      922
+     ]
+    },
+    "q_to_o": {
+     "qo": 895,
+     "q": 917,
+     "share": 0.9760087241003271
+    }
+   },
+   "B": {
+    "y_to_q": {
+     "odds_ratio": 5.927949564150929,
+     "table": [
+      2571,
+      5486,
+      678,
+      8581
+     ]
+    },
+    "line_final_m_vs_iin": {
+     "odds_ratio": 59.70334353394537,
+     "table": [
+      360,
+      86,
+      127,
+      1826
+     ]
+    },
+    "q_to_o": {
+     "qo": 3460,
+     "q": 3534,
+     "share": 0.9790605546123373
+    }
+   }
+  }
+ },
+ "reference_locked_test": {
+  "y_to_q": {
+   "odds_ratio": 4.62937018868297,
+   "table": [
+    501,
+    1428,
+    230,
+    3039
+   ],
+   "ci95": [
+    3.0493379521326,
+    7.371913395720972
+   ]
+  },
+  "line_final_m_vs_iin": {
+   "odds_ratio": 23.15588378059774,
+   "table": [
+    110,
+    34,
+    104,
+    755
+   ],
+   "ci95": [
+    9.765094850948508,
+    50.265536723163855
+   ]
+  },
+  "q_to_o": {
+   "qo": 791,
+   "q": 808,
+   "share": 0.9789603960396039
+  },
+  "n_words": 5948,
+  "ttr": 0.35608607935440484,
+  "label_share_data": 0.3150684931506849,
+  "by_variety": {
+   "A": {
+    "y_to_q": {
+     "odds_ratio": 2.9274138408943915,
+     "table": [
+      91,
+      592,
+      68,
+      1298
+     ]
+    },
+    "line_final_m_vs_iin": {
+     "odds_ratio": 8.819478737997256,
+     "table": [
+      30,
+      13,
+      67,
+      263
+     ]
+    },
+    "q_to_o": {
+     "qo": 190,
+     "q": 195,
+     "share": 0.9743589743589743
+    }
+   },
+   "B": {
+    "y_to_q": {
+     "odds_ratio": 5.259171456158904,
+     "table": [
+      410,
+      836,
+      162,
+      1741
+     ]
+    },
+    "line_final_m_vs_iin": {
+     "odds_ratio": 49.17364341085271,
+     "table": [
+      80,
+      21,
+      37,
+      492
+     ]
+    },
+    "q_to_o": {
+     "qo": 601,
+     "q": 613,
+     "share": 0.9804241435562806
+    }
+   }
+  }
+ },
+ "models": {
+  "kn4+variety": {
+   "sample_stats": {
+    "y_to_q": {
+     "odds_ratio": 4.805809574130668,
+     "table": [
+      5664,
+      14723,
+      2098,
+      26213
+     ],
+     "ci95": [
+      4.508030434316019,
+      5.121484425390677
+     ]
+    },
+    "line_final_m_vs_iin": {
+     "odds_ratio": 20.59454931936878,
+     "table": [
+      1042,
+      438,
+      607,
+      5262
+     ],
+     "ci95": [
+      16.65348941297986,
+      25.730242629882866
+     ]
+    },
+    "q_to_o": {
+     "qo": 8508,
+     "q": 8700,
+     "share": 0.9779310344827586
+    },
+    "n_words": 55510,
+    "label_share_all_words": 0.12345523329129887,
+    "label_share_line_initial": 0.06503229594832648,
+    "by_variety": {
+     "A": {
+      "y_to_q": {
+       "odds_ratio": 2.209429644356086,
+       "table": [
+        650,
+        3772,
+        712,
+        9129
+       ]
+      },
+      "line_final_m_vs_iin": {
+       "odds_ratio": 5.246679371265636,
+       "table": [
+        266,
+        252,
+        345,
+        1717
+       ]
+      },
+      "q_to_o": {
+       "qo": 1656,
+       "q": 1702,
+       "share": 0.972972972972973
+      }
+     },
+     "B": {
+      "y_to_q": {
+       "odds_ratio": 5.7166788990252915,
+       "table": [
+        4874,
+        10557,
+        1327,
+        16436
+       ]
+      },
+      "line_final_m_vs_iin": {
+       "odds_ratio": 58.78255085669915,
+       "table": [
+        752,
+        175,
+        249,
+        3420
+       ]
+      },
+      "q_to_o": {
+       "qo": 6643,
+       "q": 6782,
+       "share": 0.9795045709230316
+      }
+     }
+    }
+   },
+   "vs_dev": {
+    "P1_y_to_q_OR": {
+     "sample": 4.805809574130668,
+     "sample_ci95_pseudoleaf": [
+      4.508030434316019,
+      5.121484425390677
+     ],
+     "heldout": 4.919974922735373,
+     "heldout_ci95": [
+      4.08543684985221,
+      5.722244069100032
+     ],
+     "pass": true
+    },
+    "P2_line_final_m_vs_iin_OR": {
+     "sample": 20.59454931936878,
+     "sample_ci95_pseudoleaf": [
+      16.65348941297986,
+      25.730242629882866
+     ],
+     "heldout": 18.8727206859075,
+     "heldout_ci95": [
+      12.18063695093581,
+      29.731766903220468
+     ],
+     "pass": true
+    },
+    "P3_q_to_o_share": {
+     "sample": 0.9779310344827586,
+     "heldout": 0.9777133942500558,
+     "tolerance": 0.02,
+     "pass": true
+    },
+    "P4_currier_AB_sign": {
+     "y_to_q": {
+      "heldout_A": 2.246266952407536,
+      "heldout_B": 5.927949564150929,
+      "sample_A": 2.209429644356086,
+      "sample_B": 5.7166788990252915,
+      "sign_match": true
+     },
+     "line_final_m_vs_iin": {
+      "heldout_A": 4.754583660462753,
+      "heldout_B": 59.70334353394537,
+      "sample_A": 5.246679371265636,
+      "sample_B": 58.78255085669915,
+      "sign_match": true
+     },
+     "pass": true
+    },
+    "P5_label_initial_share": {
+     "sample_all_words": 0.12345523329129887,
+     "sample_line_initial": 0.06503229594832648,
+     "data_label_share_reference_only": 0.4051803885291397,
+     "threshold": 0.55,
+     "pass": false
+    },
+    "P6_type_token_ratio": {
+     "matched_n": 28841,
+     "sample": 0.2258243472833813,
+     "heldout": 0.21070697964703028,
+     "rel_diff": 0.07174592726674342,
+     "tolerance": 0.1,
+     "pass": true
+    },
+    "n_pass": 5
+   },
+   "vs_locked_test": {
+    "P1_y_to_q_OR": {
+     "sample": 4.805809574130668,
+     "sample_ci95_pseudoleaf": [
+      4.508030434316019,
+      5.121484425390677
+     ],
+     "heldout": 4.62937018868297,
+     "heldout_ci95": [
+      3.0493379521326,
+      7.371913395720972
+     ],
+     "pass": true
+    },
+    "P2_line_final_m_vs_iin_OR": {
+     "sample": 20.59454931936878,
+     "sample_ci95_pseudoleaf": [
+      16.65348941297986,
+      25.730242629882866
+     ],
+     "heldout": 23.15588378059774,
+     "heldout_ci95": [
+      9.765094850948508,
+      50.265536723163855
+     ],
+     "pass": true
+    },
+    "P3_q_to_o_share": {
+     "sample": 0.9779310344827586,
+     "heldout": 0.9789603960396039,
+     "tolerance": 0.02,
+     "pass": true
+    },
+    "P4_currier_AB_sign": {
+     "y_to_q": {
+      "heldout_A": 2.9274138408943915,
+      "heldout_B": 5.259171456158904,
+      "sample_A": 2.209429644356086,
+      "sample_B": 5.7166788990252915,
+      "sign_match": true
+     },
+     "line_final_m_vs_iin": {
+      "heldout_A": 8.819478737997256,
+      "heldout_B": 49.17364341085271,
+      "sample_A": 5.246679371265636,
+      "sample_B": 58.78255085669915,
+      "sign_match": true
+     },
+     "pass": true
+    },
+    "P5_label_initial_share": {
+     "sample_all_words": 0.12345523329129887,
+     "sample_line_initial": 0.06503229594832648,
+     "data_label_share_reference_only": 0.3150684931506849,
+     "threshold": 0.55,
+     "pass": false
+    },
+    "P6_type_token_ratio": {
+     "matched_n": 5948,
+     "sample": 0.35810356422326833,
+     "heldout": 0.35608607935440484,
+     "rel_diff": 0.005665722379603432,
+     "tolerance": 0.1,
+     "pass": true
+    },
+    "n_pass": 5
+   }
+  },
+  "tf_d160_l4+variety": {
+   "sample_stats": {
+    "y_to_q": {
+     "odds_ratio": 6.678789980326036,
+     "table": [
+      6329,
+      17980,
+      1357,
+      25755
+     ],
+     "ci95": [
+      6.1417256672806015,
+      7.268863650949057
+     ]
+    },
+    "line_final_m_vs_iin": {
+     "odds_ratio": 30.339846057026673,
+     "table": [
+      1244,
+      340,
+      682,
+      5665
+     ],
+     "ci95": [
+      24.62628064061599,
+      37.62457274299945
+     ]
+    },
+    "q_to_o": {
+     "qo": 8451,
+     "q": 8644,
+     "share": 0.9776723739009717
+    },
+    "n_words": 58232,
+    "label_share_all_words": 0.12934469020469844,
+    "label_share_line_initial": 0.06269270298047276,
+    "by_variety": {
+     "A": {
+      "y_to_q": {
+       "odds_ratio": 2.371117312455808,
+       "table": [
+        637,
+        4806,
+        517,
+        9251
+       ]
+      },
+      "line_final_m_vs_iin": {
+       "odds_ratio": 8.201356659354703,
+       "table": [
+        348,
+        213,
+        410,
+        2062
+       ]
+      },
+      "q_to_o": {
+       "qo": 1463,
+       "q": 1504,
+       "share": 0.9727393617021277
+      }
+     },
+     "B": {
+      "y_to_q": {
+       "odds_ratio": 8.624685224819308,
+       "table": [
+        5649,
+        12791,
+        816,
+        15944
+       ]
+      },
+      "line_final_m_vs_iin": {
+       "odds_ratio": 107.87293870251715,
+       "table": [
+        859,
+        111,
+        249,
+        3491
+       ]
+      },
+      "q_to_o": {
+       "qo": 6911,
+       "q": 7058,
+       "share": 0.9791725701331822
+      }
+     }
+    }
+   },
+   "vs_dev": {
+    "P1_y_to_q_OR": {
+     "sample": 6.678789980326036,
+     "sample_ci95_pseudoleaf": [
+      6.1417256672806015,
+      7.268863650949057
+     ],
+     "heldout": 4.919974922735373,
+     "heldout_ci95": [
+      4.08543684985221,
+      5.722244069100032
+     ],
+     "pass": false
+    },
+    "P2_line_final_m_vs_iin_OR": {
+     "sample": 30.339846057026673,
+     "sample_ci95_pseudoleaf": [
+      24.62628064061599,
+      37.62457274299945
+     ],
+     "heldout": 18.8727206859075,
+     "heldout_ci95": [
+      12.18063695093581,
+      29.731766903220468
+     ],
+     "pass": false
+    },
+    "P3_q_to_o_share": {
+     "sample": 0.9776723739009717,
+     "heldout": 0.9777133942500558,
+     "tolerance": 0.02,
+     "pass": true
+    },
+    "P4_currier_AB_sign": {
+     "y_to_q": {
+      "heldout_A": 2.246266952407536,
+      "heldout_B": 5.927949564150929,
+      "sample_A": 2.371117312455808,
+      "sample_B": 8.624685224819308,
+      "sign_match": true
+     },
+     "line_final_m_vs_iin": {
+      "heldout_A": 4.754583660462753,
+      "heldout_B": 59.70334353394537,
+      "sample_A": 8.201356659354703,
+      "sample_B": 107.87293870251715,
+      "sign_match": true
+     },
+     "pass": true
+    },
+    "P5_label_initial_share": {
+     "sample_all_words": 0.12934469020469844,
+     "sample_line_initial": 0.06269270298047276,
+     "data_label_share_reference_only": 0.4051803885291397,
+     "threshold": 0.55,
+     "pass": false
+    },
+    "P6_type_token_ratio": {
+     "matched_n": 28841,
+     "sample": 0.2117124926320169,
+     "heldout": 0.21070697964703028,
+     "rel_diff": 0.004772091492512672,
+     "tolerance": 0.1,
+     "pass": true
+    },
+    "n_pass": 3
+   },
+   "vs_locked_test": {
+    "P1_y_to_q_OR": {
+     "sample": 6.678789980326036,
+     "sample_ci95_pseudoleaf": [
+      6.1417256672806015,
+      7.268863650949057
+     ],
+     "heldout": 4.62937018868297,
+     "heldout_ci95": [
+      3.0493379521326,
+      7.371913395720972
+     ],
+     "pass": true
+    },
+    "P2_line_final_m_vs_iin_OR": {
+     "sample": 30.339846057026673,
+     "sample_ci95_pseudoleaf": [
+      24.62628064061599,
+      37.62457274299945
+     ],
+     "heldout": 23.15588378059774,
+     "heldout_ci95": [
+      9.765094850948508,
+      50.265536723163855
+     ],
+     "pass": true
+    },
+    "P3_q_to_o_share": {
+     "sample": 0.9776723739009717,
+     "heldout": 0.9789603960396039,
+     "tolerance": 0.02,
+     "pass": true
+    },
+    "P4_currier_AB_sign": {
+     "y_to_q": {
+      "heldout_A": 2.9274138408943915,
+      "heldout_B": 5.259171456158904,
+      "sample_A": 2.371117312455808,
+      "sample_B": 8.624685224819308,
+      "sign_match": true
+     },
+     "line_final_m_vs_iin": {
+      "heldout_A": 8.819478737997256,
+      "heldout_B": 49.17364341085271,
+      "sample_A": 8.201356659354703,
+      "sample_B": 107.87293870251715,
+      "sign_match": true
+     },
+     "pass": true
+    },
+    "P5_label_initial_share": {
+     "sample_all_words": 0.12934469020469844,
+     "sample_line_initial": 0.06269270298047276,
+     "data_label_share_reference_only": 0.3150684931506849,
+     "threshold": 0.55,
+     "pass": false
+    },
+    "P6_type_token_ratio": {
+     "matched_n": 5948,
+     "sample": 0.33422999327505043,
+     "heldout": 0.35608607935440484,
+     "rel_diff": -0.06137865911237017,
+     "tolerance": 0.1,
+     "pass": true
+    },
+    "n_pass": 5
+   }
+  }
+ },
+ "notes": [
+  "P5 samples are prose-model words (the models never see labels); the threshold is absolute.",
+  "PPCs are threshold checks fixed in the protocol, not p-values; no Holm correction applies."
+ ]
+}

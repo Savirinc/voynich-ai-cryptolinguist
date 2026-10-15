@@ -1,0 +1,531 @@
+{
+ "unigram": [
+  {
+   "bits": 173753.90129,
+   "events": 43985,
+   "words": 7303,
+   "glyphs": 36682,
+   "bits_per_glyph": 3.9503,
+   "bits_per_word": 23.79213
+  },
+  {
+   "bits": 111952.82638,
+   "events": 28156,
+   "words": 4775,
+   "glyphs": 23381,
+   "bits_per_glyph": 3.97616,
+   "bits_per_word": 23.44562
+  },
+  {
+   "bits": 198788.35641,
+   "events": 50313,
+   "words": 8248,
+   "glyphs": 42065,
+   "bits_per_glyph": 3.95103,
+   "bits_per_word": 24.1014
+  },
+  {
+   "bits": 97090.75426,
+   "events": 24499,
+   "words": 4133,
+   "glyphs": 20366,
+   "bits_per_glyph": 3.96305,
+   "bits_per_word": 23.49159
+  },
+  {
+   "bits": 102420.47658,
+   "events": 25838,
+   "words": 4382,
+   "glyphs": 21456,
+   "bits_per_glyph": 3.96395,
+   "bits_per_word": 23.373
+  }
+ ],
+ "kn2": [
+  {
+   "bits": 93549.01224,
+   "events": 43985,
+   "words": 7303,
+   "glyphs": 36682,
+   "bits_per_glyph": 2.12684,
+   "bits_per_word": 12.80967
+  },
+  {
+   "bits": 63594.74681,
+   "events": 28156,
+   "words": 4775,
+   "glyphs": 23381,
+   "bits_per_glyph": 2.25866,
+   "bits_per_word": 13.31827
+  },
+  {
+   "bits": 108314.42368,
+   "events": 50313,
+   "words": 8248,
+   "glyphs": 42065,
+   "bits_per_glyph": 2.15281,
+   "bits_per_word": 13.1322
+  },
+  {
+   "bits": 54439.51483,
+   "events": 24499,
+   "words": 4133,
+   "glyphs": 20366,
+   "bits_per_glyph": 2.22211,
+   "bits_per_word": 13.17191
+  },
+  {
+   "bits": 55723.32243,
+   "events": 25838,
+   "words": 4382,
+   "glyphs": 21456,
+   "bits_per_glyph": 2.15664,
+   "bits_per_word": 12.71641
+  }
+ ],
+ "kn2+variety": [
+  {
+   "bits": 90874.93072,
+   "events": 43985,
+   "words": 7303,
+   "glyphs": 36682,
+   "bits_per_glyph": 2.06604,
+   "bits_per_word": 12.44351,
+   "lambda": 1.0
+  },
+  {
+   "bits": 62701.37997,
+   "events": 28156,
+   "words": 4775,
+   "glyphs": 23381,
+   "bits_per_glyph": 2.22693,
+   "bits_per_word": 13.13118,
+   "lambda": 1.0
+  },
+  {
+   "bits": 107065.01814,
+   "events": 50313,
+   "words": 8248,
+   "glyphs": 42065,
+   "bits_per_glyph": 2.12798,
+   "bits_per_word": 12.98072,
+   "lambda": 1.0
+  },
+  {
+   "bits": 52744.75951,
+   "events": 24499,
+   "words": 4133,
+   "glyphs": 20366,
+   "bits_per_glyph": 2.15294,
+   "bits_per_word": 12.76186,
+   "lambda": 1.0
+  },
+  {
+   "bits": 53303.24705,
+   "events": 25838,
+   "words": 4382,
+   "glyphs": 21456,
+   "bits_per_glyph": 2.06298,
+   "bits_per_word": 12.16414,
+   "lambda": 1.0
+  }
+ ],
+ "kn3": [
+  {
+   "bits": 81896.90874,
+   "events": 43985,
+   "words": 7303,
+   "glyphs": 36682,
+   "bits_per_glyph": 1.86193,
+   "bits_per_word": 11.21415
+  },
+  {
+   "bits": 56476.83848,
+   "events": 28156,
+   "words": 4775,
+   "glyphs": 23381,
+   "bits_per_glyph": 2.00585,
+   "bits_per_word": 11.82761
+  },
+  {
+   "bits": 95336.58452,
+   "events": 50313,
+   "words": 8248,
+   "glyphs": 42065,
+   "bits_per_glyph": 1.89487,
+   "bits_per_word": 11.55875
+  },
+  {
+   "bits": 48434.18252,
+   "events": 24499,
+   "words": 4133,
+   "glyphs": 20366,
+   "bits_per_glyph": 1.97699,
+   "bits_per_word": 11.71889
+  },
+  {
+   "bits": 48928.13346,
+   "events": 25838,
+   "words": 4382,
+   "glyphs": 21456,
+   "bits_per_glyph": 1.89365,
+   "bits_per_word": 11.16571
+  }
+ ],
+ "kn3+variety": [
+  {
+   "bits": 79527.36174,
+   "events": 43985,
+   "words": 7303,
+   "glyphs": 36682,
+   "bits_per_glyph": 1.80806,
+   "bits_per_word": 10.88968,
+   "lambda": 1.0
+  },
+  {
+   "bits": 55883.08903,
+   "events": 28156,
+   "words": 4775,
+   "glyphs": 23381,
+   "bits_per_glyph": 1.98477,
+   "bits_per_word": 11.70326,
+   "lambda": 1.0
+  },
+  {
+   "bits": 94352.29886,
+   "events": 50313,
+   "words": 8248,
+   "glyphs": 42065,
+   "bits_per_glyph": 1.87531,
+   "bits_per_word": 11.43942,
+   "lambda": 1.0
+  },
+  {
+   "bits": 46902.10198,
+   "events": 24499,
+   "words": 4133,
+   "glyphs": 20366,
+   "bits_per_glyph": 1.91445,
+   "bits_per_word": 11.3482,
+   "lambda": 1.0
+  },
+  {
+   "bits": 46900.02451,
+   "events": 25838,
+   "words": 4382,
+   "glyphs": 21456,
+   "bits_per_glyph": 1.81516,
+   "bits_per_word": 10.70288,
+   "lambda": 1.0
+  }
+ ],
+ "kn4": [
+  {
+   "bits": 80593.31518,
+   "events": 43985,
+   "words": 7303,
+   "glyphs": 36682,
+   "bits_per_glyph": 1.83229,
+   "bits_per_word": 11.03564
+  },
+  {
+   "bits": 55895.64318,
+   "events": 28156,
+   "words": 4775,
+   "glyphs": 23381,
+   "bits_per_glyph": 1.98521,
+   "bits_per_word": 11.70589
+  },
+  {
+   "bits": 94198.23568,
+   "events": 50313,
+   "words": 8248,
+   "glyphs": 42065,
+   "bits_per_glyph": 1.87224,
+   "bits_per_word": 11.42074
+  },
+  {
+   "bits": 47590.47579,
+   "events": 24499,
+   "words": 4133,
+   "glyphs": 20366,
+   "bits_per_glyph": 1.94255,
+   "bits_per_word": 11.51475
+  },
+  {
+   "bits": 48001.36726,
+   "events": 25838,
+   "words": 4382,
+   "glyphs": 21456,
+   "bits_per_glyph": 1.85778,
+   "bits_per_word": 10.95421
+  }
+ ],
+ "kn4+variety": [
+  {
+   "bits": 78676.26751,
+   "events": 43985,
+   "words": 7303,
+   "glyphs": 36682,
+   "bits_per_glyph": 1.78871,
+   "bits_per_word": 10.77314,
+   "lambda": 1.0
+  },
+  {
+   "bits": 55599.09165,
+   "events": 28156,
+   "words": 4775,
+   "glyphs": 23381,
+   "bits_per_glyph": 1.97468,
+   "bits_per_word": 11.64379,
+   "lambda": 1.0
+  },
+  {
+   "bits": 93520.61155,
+   "events": 50313,
+   "words": 8248,
+   "glyphs": 42065,
+   "bits_per_glyph": 1.85878,
+   "bits_per_word": 11.33858,
+   "lambda": 1.0
+  },
+  {
+   "bits": 46421.39402,
+   "events": 24499,
+   "words": 4133,
+   "glyphs": 20366,
+   "bits_per_glyph": 1.89483,
+   "bits_per_word": 11.23189,
+   "lambda": 1.0
+  },
+  {
+   "bits": 46391.10542,
+   "events": 25838,
+   "words": 4382,
+   "glyphs": 21456,
+   "bits_per_glyph": 1.79546,
+   "bits_per_word": 10.58674,
+   "lambda": 1.0
+  }
+ ],
+ "kn5": [
+  {
+   "bits": 80823.588,
+   "events": 43985,
+   "words": 7303,
+   "glyphs": 36682,
+   "bits_per_glyph": 1.83753,
+   "bits_per_word": 11.06718
+  },
+  {
+   "bits": 56424.17781,
+   "events": 28156,
+   "words": 4775,
+   "glyphs": 23381,
+   "bits_per_glyph": 2.00398,
+   "bits_per_word": 11.81658
+  },
+  {
+   "bits": 94779.70367,
+   "events": 50313,
+   "words": 8248,
+   "glyphs": 42065,
+   "bits_per_glyph": 1.8838,
+   "bits_per_word": 11.49123
+  },
+  {
+   "bits": 47852.56616,
+   "events": 24499,
+   "words": 4133,
+   "glyphs": 20366,
+   "bits_per_glyph": 1.95325,
+   "bits_per_word": 11.57817
+  },
+  {
+   "bits": 48193.82563,
+   "events": 25838,
+   "words": 4382,
+   "glyphs": 21456,
+   "bits_per_glyph": 1.86523,
+   "bits_per_word": 10.99813
+  }
+ ],
+ "kn5+variety": [
+  {
+   "bits": 79286.07771,
+   "events": 43985,
+   "words": 7303,
+   "glyphs": 36682,
+   "bits_per_glyph": 1.80257,
+   "bits_per_word": 10.85664,
+   "lambda": 1.0
+  },
+  {
+   "bits": 56468.83435,
+   "events": 28156,
+   "words": 4775,
+   "glyphs": 23381,
+   "bits_per_glyph": 2.00557,
+   "bits_per_word": 11.82593,
+   "lambda": 1.0
+  },
+  {
+   "bits": 94686.52631,
+   "events": 50313,
+   "words": 8248,
+   "glyphs": 42065,
+   "bits_per_glyph": 1.88195,
+   "bits_per_word": 11.47994,
+   "lambda": 1.0
+  },
+  {
+   "bits": 47018.81831,
+   "events": 24499,
+   "words": 4133,
+   "glyphs": 20366,
+   "bits_per_glyph": 1.91921,
+   "bits_per_word": 11.37644,
+   "lambda": 1.0
+  },
+  {
+   "bits": 46971.84122,
+   "events": 25838,
+   "words": 4382,
+   "glyphs": 21456,
+   "bits_per_glyph": 1.81794,
+   "bits_per_word": 10.71927,
+   "lambda": 1.0
+  }
+ ],
+ "kn6": [
+  {
+   "bits": 82343.4452,
+   "events": 43985,
+   "words": 7303,
+   "glyphs": 36682,
+   "bits_per_glyph": 1.87208,
+   "bits_per_word": 11.27529
+  },
+  {
+   "bits": 57520.95457,
+   "events": 28156,
+   "words": 4775,
+   "glyphs": 23381,
+   "bits_per_glyph": 2.04294,
+   "bits_per_word": 12.04627
+  },
+  {
+   "bits": 96507.86185,
+   "events": 50313,
+   "words": 8248,
+   "glyphs": 42065,
+   "bits_per_glyph": 1.91815,
+   "bits_per_word": 11.70076
+  },
+  {
+   "bits": 48714.56082,
+   "events": 24499,
+   "words": 4133,
+   "glyphs": 20366,
+   "bits_per_glyph": 1.98843,
+   "bits_per_word": 11.78673
+  },
+  {
+   "bits": 48771.06812,
+   "events": 25838,
+   "words": 4382,
+   "glyphs": 21456,
+   "bits_per_glyph": 1.88757,
+   "bits_per_word": 11.12986
+  }
+ ],
+ "kn6+variety": [
+  {
+   "bits": 81101.9014,
+   "events": 43985,
+   "words": 7303,
+   "glyphs": 36682,
+   "bits_per_glyph": 1.84385,
+   "bits_per_word": 11.10529,
+   "lambda": 1.0
+  },
+  {
+   "bits": 57703.15613,
+   "events": 28156,
+   "words": 4775,
+   "glyphs": 23381,
+   "bits_per_glyph": 2.04941,
+   "bits_per_word": 12.08443,
+   "lambda": 1.0
+  },
+  {
+   "bits": 96659.29236,
+   "events": 50313,
+   "words": 8248,
+   "glyphs": 42065,
+   "bits_per_glyph": 1.92116,
+   "bits_per_word": 11.71912,
+   "lambda": 1.0
+  },
+  {
+   "bits": 48070.73583,
+   "events": 24499,
+   "words": 4133,
+   "glyphs": 20366,
+   "bits_per_glyph": 1.96215,
+   "bits_per_word": 11.63095,
+   "lambda": 1.0
+  },
+  {
+   "bits": 47754.4761,
+   "events": 25838,
+   "words": 4382,
+   "glyphs": 21456,
+   "bits_per_glyph": 1.84823,
+   "bits_per_word": 10.89787,
+   "lambda": 1.0
+  }
+ ],
+ "kn4[merge_uncertain_spaces]": [
+  {
+   "bits": 80384.29448,
+   "events": 43476,
+   "words": 6794,
+   "glyphs": 36682,
+   "bits_per_glyph": 1.84893,
+   "bits_per_word": 11.83166
+  },
+  {
+   "bits": 55719.59237,
+   "events": 27839,
+   "words": 4458,
+   "glyphs": 23381,
+   "bits_per_glyph": 2.00149,
+   "bits_per_word": 12.49879
+  },
+  {
+   "bits": 93940.45265,
+   "events": 49720,
+   "words": 7655,
+   "glyphs": 42065,
+   "bits_per_glyph": 1.88939,
+   "bits_per_word": 12.27178
+  },
+  {
+   "bits": 47416.02212,
+   "events": 24205,
+   "words": 3839,
+   "glyphs": 20366,
+   "bits_per_glyph": 1.95894,
+   "bits_per_word": 12.35114
+  },
+  {
+   "bits": 47930.71923,
+   "events": 25545,
+   "words": 4089,
+   "glyphs": 21456,
+   "bits_per_glyph": 1.87632,
+   "bits_per_word": 11.72187
+  }
+ ]
+}

@@ -190,7 +190,7 @@ class TransformerLM:
         return b[0, y[0] != IGNORE].cpu().numpy()
 
     @torch.no_grad()
-    def score(self, lines: list[Line], bs: int = 256) -> dict:
+    def score(self, lines: list[Line], bs: int = 128) -> dict:
         self.net.eval()
         bits = 0.0
         for i in range(0, len(lines), bs):
@@ -202,26 +202,28 @@ class TransformerLM:
                 "bits_per_glyph": bits / events, "bits_per_word": bits / words}
 
     @torch.no_grad()
-    def sample_lines(self, conds, seed: int = 0, bs: int = 512) -> list[list[str]]:
-        self.net.eval()
+    def sample_lines(self, conds, seed: int = 0, bs: int = 256) -> list[list[str]]:
+        # sampling runs on a CPU copy: growing-length MPS forwards exhaust the MPS allocator cache
+        net = copy.deepcopy(self.net).to("cpu").eval()
+        dev = "cpu"
         g = torch.Generator(device="cpu").manual_seed(seed)
         out = []
         T = self.config.max_len
         for i in range(0, len(conds), bs):
             cc = conds[i:i + bs]
-            var = torch.tensor([VARIETIES.index(v if v in VARIETIES else "?") for v, _ in cc], device=self.device)
-            para = torch.tensor([int(p) for _, p in cc], device=self.device)
-            x = torch.full((len(cc), 1), BOS_ID, dtype=torch.long, device=self.device)
+            var = torch.tensor([VARIETIES.index(v if v in VARIETIES else "?") for v, _ in cc], device=dev)
+            para = torch.tensor([int(p) for _, p in cc], device=dev)
+            x = torch.full((len(cc), 1), BOS_ID, dtype=torch.long, device=dev)
             done = torch.zeros(len(cc), dtype=torch.bool)
             ids = []
             for _ in range(T):
-                p = F.softmax(self.net(x, var, para)[:, -1].float(), -1).cpu()
+                p = F.softmax(net(x, var, para)[:, -1].float(), -1).cpu()
                 w = torch.multinomial(p, 1, generator=g)[:, 0]
                 ids.append(w)
                 done |= w == LE_ID
                 if bool(done.all()) or x.shape[1] >= T:
                     break
-                x = torch.cat([x, w[:, None].to(self.device)], 1)
+                x = torch.cat([x, w[:, None]], 1)
             ids = torch.stack(ids, 1).tolist()
             out += [decode_events(s) for s in ids]
         return out

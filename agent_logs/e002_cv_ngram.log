@@ -1,0 +1,5 @@
+fold 0: unigram 3.9503, kn2 2.1268, kn2+variety 2.0660, kn3 1.8619, kn3+variety 1.8081, kn4 1.8323, kn4+variety 1.7887, kn5 1.8375, kn5+variety 1.8026, kn6 1.8721, kn6+variety 1.8438, kn4[merge_uncertain_spaces] 1.8489
+fold 1: unigram 3.9762, kn2 2.2587, kn2+variety 2.2269, kn3 2.0059, kn3+variety 1.9848, kn4 1.9852, kn4+variety 1.9747, kn5 2.0040, kn5+variety 2.0056, kn6 2.0429, kn6+variety 2.0494, kn4[merge_uncertain_spaces] 2.0015
+fold 2: unigram 3.9510, kn2 2.1528, kn2+variety 2.1280, kn3 1.8949, kn3+variety 1.8753, kn4 1.8722, kn4+variety 1.8588, kn5 1.8838, kn5+variety 1.8820, kn6 1.9182, kn6+variety 1.9212, kn4[merge_uncertain_spaces] 1.8894
+fold 3: unigram 3.9630, kn2 2.2221, kn2+variety 2.1529, kn3 1.9770, kn3+variety 1.9144, kn4 1.9425, kn4+variety 1.8948, kn5 1.9532, kn5+variety 1.9192, kn6 1.9884, kn6+variety 1.9622, kn4[merge_uncertain_spaces] 1.9589
+fold 4: unigram 3.9640, kn2 2.1566, kn2+variety 2.0630, kn3 1.8937, kn3+variety 1.8152, kn4 1.8578, kn4+variety 1.7955, kn5 1.8652, kn5+variety 1.8179, kn6 1.8876, kn6+variety 1.8482, kn4[merge_uncertain_spaces] 1.8763

@@ -1,0 +1,136 @@
+{
+ "tf_d160_l4": [
+  {
+   "bits": 76829.09766,
+   "events": 43985,
+   "words": 7303,
+   "glyphs": 36682,
+   "bits_per_glyph": 1.74671,
+   "bits_per_word": 10.52021,
+   "params": 1277468,
+   "epochs": 23,
+   "inner_val_bpg": 1.86706,
+   "train_seconds": 92.1,
+   "device": "mps"
+  },
+  {
+   "bits": 53211.52148,
+   "events": 28156,
+   "words": 4775,
+   "glyphs": 23381,
+   "bits_per_glyph": 1.88988,
+   "bits_per_word": 11.14377,
+   "params": 1277468,
+   "epochs": 31,
+   "inner_val_bpg": 1.77304,
+   "train_seconds": 177.9,
+   "device": "mps"
+  },
+  {
+   "bits": 92082.6875,
+   "events": 50313,
+   "words": 8248,
+   "glyphs": 42065,
+   "bits_per_glyph": 1.8302,
+   "bits_per_word": 11.16424,
+   "params": 1277468,
+   "epochs": 22,
+   "inner_val_bpg": 1.77974,
+   "train_seconds": 74.9,
+   "device": "mps"
+  },
+  {
+   "bits": 45450.67188,
+   "events": 24499,
+   "words": 4133,
+   "glyphs": 20366,
+   "bits_per_glyph": 1.85521,
+   "bits_per_word": 10.99702,
+   "params": 1277468,
+   "epochs": 21,
+   "inner_val_bpg": 1.77937,
+   "train_seconds": 99.4,
+   "device": "mps"
+  },
+  {
+   "bits": 45290.16797,
+   "events": 25838,
+   "words": 4382,
+   "glyphs": 21456,
+   "bits_per_glyph": 1.75285,
+   "bits_per_word": 10.3355,
+   "params": 1277468,
+   "epochs": 28,
+   "inner_val_bpg": 1.78405,
+   "train_seconds": 140.8,
+   "device": "mps"
+  }
+ ],
+ "tf_d160_l4+variety": [
+  {
+   "bits": 75407.8125,
+   "events": 43985,
+   "words": 7303,
+   "glyphs": 36682,
+   "bits_per_glyph": 1.7144,
+   "bits_per_word": 10.32559,
+   "params": 1278268,
+   "epochs": 26,
+   "inner_val_bpg": 1.81777,
+   "train_seconds": 135.7,
+   "device": "mps"
+  },
+  {
+   "bits": 53288.84766,
+   "events": 28156,
+   "words": 4775,
+   "glyphs": 23381,
+   "bits_per_glyph": 1.89263,
+   "bits_per_word": 11.15997,
+   "params": 1278268,
+   "epochs": 22,
+   "inner_val_bpg": 1.75058,
+   "train_seconds": 110.4,
+   "device": "mps"
+  },
+  {
+   "bits": 91038.99707,
+   "events": 50313,
+   "words": 8248,
+   "glyphs": 42065,
+   "bits_per_glyph": 1.80945,
+   "bits_per_word": 11.03771,
+   "params": 1278268,
+   "epochs": 22,
+   "inner_val_bpg": 1.7413,
+   "train_seconds": 74.0,
+   "device": "mps"
+  },
+  {
+   "bits": 44840.80078,
+   "events": 24499,
+   "words": 4133,
+   "glyphs": 20366,
+   "bits_per_glyph": 1.83031,
+   "bits_per_word": 10.84946,
+   "params": 1278268,
+   "epochs": 22,
+   "inner_val_bpg": 1.75598,
+   "train_seconds": 116.5,
+   "device": "mps"
+  },
+  {
+   "bits": 44322.72021,
+   "events": 25838,
+   "words": 4382,
+   "glyphs": 21456,
+   "bits_per_glyph": 1.71541,
+   "bits_per_word": 10.11472,
+   "params": 1278268,
+   "epochs": 28,
+   "inner_val_bpg": 1.75254,
+   "train_seconds": 127.4,
+   "device": "mps"
+  }
+ ]
+}

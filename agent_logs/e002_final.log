@@ -1,0 +1,39 @@
+pooled DEV CV:
+  tf_d160_l4+variety           1.7877 b/g  10.710 b/w
+  tf_d96_l3+variety            1.7953 b/g  10.756 b/w
+  tf_d96_l3                    1.8063 b/g  10.822 b/w
+  tf_d160_l4                   1.8107 b/g  10.848 b/w
+  kn4+variety                  1.8555 b/g  11.116 b/w
+  kn3+variety                  1.8726 b/g  11.219 b/w
+  kn5+variety                  1.8776 b/g  11.249 b/w
+  kn4                          1.8883 b/g  11.313 b/w
+  kn5                          1.8987 b/g  11.375 b/w
+  kn4[merge_uncertain_spaces]  1.9053 b/g  12.126 b/w
+  kn3                          1.9160 b/g  11.479 b/w
+  kn6+variety                  1.9173 b/g  11.487 b/w
+  kn6                          1.9322 b/g  11.576 b/w
+  kn2+variety                  2.1222 b/g  12.714 b/w
+  kn2                          2.1738 b/g  13.024 b/w
+  unigram                      3.9586 b/g  23.716 b/w
+best per class: {'unigram': 'unigram', 'kneser_ney': 'kn4+variety', 'transformer': 'tf_d160_l4+variety'} overall: tf_d160_l4+variety
+freezing unigram
+freezing kn4+variety
+freezing tf_d160_l4+variety
+  [tf_d160_l4+variety] ep 0 train 3.5351 val 2.3668 (7s)
+  [tf_d160_l4+variety] ep 1 train 2.2002 val 2.0656 (12s)
+  [tf_d160_l4+variety] ep 2 train 2.0501 val 2.0120 (16s)
+  [tf_d160_l4+variety] ep 3 train 1.9875 val 1.9310 (20s)
+  [tf_d160_l4+variety] ep 4 train 1.9344 val 1.8752 (24s)
+  [tf_d160_l4+variety] ep 5 train 1.8903 val 1.8453 (28s)
+  [tf_d160_l4+variety] ep 6 train 1.8589 val 1.8312 (31s)
+  [tf_d160_l4+variety] ep 7 train 1.8380 val 1.7909 (35s)
+  [tf_d160_l4+variety] ep 10 train 1.7968 val 1.7745 (46s)
+  [tf_d160_l4+variety] ep 14 train 1.7627 val 1.7692 (61s)
+  [tf_d160_l4+variety] ep 15 train 1.7549 val 1.7458 (65s)
+kn4+variety DEV: {'P1_y_to_q_OR': True, 'P2_line_final_m_vs_iin_OR': True, 'P3_q_to_o_share': True, 'P4_currier_AB_sign': True, 'P5_label_initial_share': False, 'P6_type_token_ratio': True}
+kn4+variety LOCKED: {'P1_y_to_q_OR': True, 'P2_line_final_m_vs_iin_OR': True, 'P3_q_to_o_share': True, 'P4_currier_AB_sign': True, 'P5_label_initial_share': False, 'P6_type_token_ratio': True}
+tf_d160_l4+variety DEV: {'P1_y_to_q_OR': False, 'P2_line_final_m_vs_iin_OR': False, 'P3_q_to_o_share': True, 'P4_currier_AB_sign': True, 'P5_label_initial_share': False, 'P6_type_token_ratio': True}
+tf_d160_l4+variety LOCKED: {'P1_y_to_q_OR': True, 'P2_line_final_m_vs_iin_OR': True, 'P3_q_to_o_share': True, 'P4_currier_AB_sign': True, 'P5_label_initial_share': False, 'P6_type_token_ratio': True}
+LOCKED_TEST unigram: 3.9710 b/g 23.748 b/w
+LOCKED_TEST kn4+variety: 1.9208 b/g 11.487 b/w
+LOCKED_TEST tf_d160_l4+variety: 1.8436 b/g 11.025 b/w

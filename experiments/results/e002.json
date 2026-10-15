@@ -1,0 +1,1071 @@
+{
+ "protocol": "eval/PROTOCOL_v1.md",
+ "corpus_docx_sha256": "6aedc059275bc18c0d4db15a6a6c2e851e9f93a7b532cbed907a34c0db69ddb7",
+ "stream": {
+  "dev": {
+   "lines": 3406,
+   "words": 28841,
+   "glyphs": 143950,
+   "events": 172791,
+   "leaves": 85
+  },
+  "description": "prose, clean tokens, lines; events = glyphs + one end symbol per word ('_' or line-final '$'); vocab a-z,_,$ (28)"
+ },
+ "cv_folds": 5,
+ "per_fold": {
+  "unigram": [
+   {
+    "bits": 173753.90129,
+    "events": 43985,
+    "words": 7303,
+    "glyphs": 36682,
+    "bits_per_glyph": 3.9503,
+    "bits_per_word": 23.79213
+   },
+   {
+    "bits": 111952.82638,
+    "events": 28156,
+    "words": 4775,
+    "glyphs": 23381,
+    "bits_per_glyph": 3.97616,
+    "bits_per_word": 23.44562
+   },
+   {
+    "bits": 198788.35641,
+    "events": 50313,
+    "words": 8248,
+    "glyphs": 42065,
+    "bits_per_glyph": 3.95103,
+    "bits_per_word": 24.1014
+   },
+   {
+    "bits": 97090.75426,
+    "events": 24499,
+    "words": 4133,
+    "glyphs": 20366,
+    "bits_per_glyph": 3.96305,
+    "bits_per_word": 23.49159
+   },
+   {
+    "bits": 102420.47658,
+    "events": 25838,
+    "words": 4382,
+    "glyphs": 21456,
+    "bits_per_glyph": 3.96395,
+    "bits_per_word": 23.373
+   }
+  ],
+  "kn2": [
+   {
+    "bits": 93549.01224,
+    "events": 43985,
+    "words": 7303,
+    "glyphs": 36682,
+    "bits_per_glyph": 2.12684,
+    "bits_per_word": 12.80967
+   },
+   {
+    "bits": 63594.74681,
+    "events": 28156,
+    "words": 4775,
+    "glyphs": 23381,
+    "bits_per_glyph": 2.25866,
+    "bits_per_word": 13.31827
+   },
+   {
+    "bits": 108314.42368,
+    "events": 50313,
+    "words": 8248,
+    "glyphs": 42065,
+    "bits_per_glyph": 2.15281,
+    "bits_per_word": 13.1322
+   },
+   {
+    "bits": 54439.51483,
+    "events": 24499,
+    "words": 4133,
+    "glyphs": 20366,
+    "bits_per_glyph": 2.22211,
+    "bits_per_word": 13.17191
+   },
+   {
+    "bits": 55723.32243,
+    "events": 25838,
+    "words": 4382,
+    "glyphs": 21456,
+    "bits_per_glyph": 2.15664,
+    "bits_per_word": 12.71641
+   }
+  ],
+  "kn2+variety": [
+   {
+    "bits": 90874.93072,
+    "events": 43985,
+    "words": 7303,
+    "glyphs": 36682,
+    "bits_per_glyph": 2.06604,
+    "bits_per_word": 12.44351,
+    "lambda": 1.0
+   },
+   {
+    "bits": 62701.37997,
+    "events": 28156,
+    "words": 4775,
+    "glyphs": 23381,
+    "bits_per_glyph": 2.22693,
+    "bits_per_word": 13.13118,
+    "lambda": 1.0
+   },
+   {
+    "bits": 107065.01814,
+    "events": 50313,
+    "words": 8248,
+    "glyphs": 42065,
+    "bits_per_glyph": 2.12798,
+    "bits_per_word": 12.98072,
+    "lambda": 1.0
+   },
+   {
+    "bits": 52744.75951,
+    "events": 24499,
+    "words": 4133,
+    "glyphs": 20366,
+    "bits_per_glyph": 2.15294,
+    "bits_per_word": 12.76186,
+    "lambda": 1.0
+   },
+   {
+    "bits": 53303.24705,
+    "events": 25838,
+    "words": 4382,
+    "glyphs": 21456,
+    "bits_per_glyph": 2.06298,
+    "bits_per_word": 12.16414,
+    "lambda": 1.0
+   }
+  ],
+  "kn3": [
+   {
+    "bits": 81896.90874,
+    "events": 43985,
+    "words": 7303,
+    "glyphs": 36682,
+    "bits_per_glyph": 1.86193,
+    "bits_per_word": 11.21415
+   },
+   {
+    "bits": 56476.83848,
+    "events": 28156,
+    "words": 4775,
+    "glyphs": 23381,
+    "bits_per_glyph": 2.00585,
+    "bits_per_word": 11.82761
+   },
+   {
+    "bits": 95336.58452,
+    "events": 50313,
+    "words": 8248,
+    "glyphs": 42065,
+    "bits_per_glyph": 1.89487,
+    "bits_per_word": 11.55875
+   },
+   {
+    "bits": 48434.18252,
+    "events": 24499,
+    "words": 4133,
+    "glyphs": 20366,
+    "bits_per_glyph": 1.97699,
+    "bits_per_word": 11.71889
+   },
+   {
+    "bits": 48928.13346,
+    "events": 25838,
+    "words": 4382,
+    "glyphs": 21456,
+    "bits_per_glyph": 1.89365,
+    "bits_per_word": 11.16571
+   }
+  ],
+  "kn3+variety": [
+   {
+    "bits": 79527.36174,
+    "events": 43985,
+    "words": 7303,
+    "glyphs": 36682,
+    "bits_per_glyph": 1.80806,
+    "bits_per_word": 10.88968,
+    "lambda": 1.0
+   },
+   {
+    "bits": 55883.08903,
+    "events": 28156,
+    "words": 4775,
+    "glyphs": 23381,
+    "bits_per_glyph": 1.98477,
+    "bits_per_word": 11.70326,
+    "lambda": 1.0
+   },
+   {
+    "bits": 94352.29886,
+    "events": 50313,
+    "words": 8248,
+    "glyphs": 42065,
+    "bits_per_glyph": 1.87531,
+    "bits_per_word": 11.43942,
+    "lambda": 1.0
+   },
+   {
+    "bits": 46902.10198,
+    "events": 24499,
+    "words": 4133,
+    "glyphs": 20366,
+    "bits_per_glyph": 1.91445,
+    "bits_per_word": 11.3482,
+    "lambda": 1.0
+   },
+   {
+    "bits": 46900.02451,
+    "events": 25838,
+    "words": 4382,
+    "glyphs": 21456,
+    "bits_per_glyph": 1.81516,
+    "bits_per_word": 10.70288,
+    "lambda": 1.0
+   }
+  ],
+  "kn4": [
+   {
+    "bits": 80593.31518,
+    "events": 43985,
+    "words": 7303,
+    "glyphs": 36682,
+    "bits_per_glyph": 1.83229,
+    "bits_per_word": 11.03564
+   },
+   {
+    "bits": 55895.64318,
+    "events": 28156,
+    "words": 4775,
+    "glyphs": 23381,
+    "bits_per_glyph": 1.98521,
+    "bits_per_word": 11.70589
+   },
+   {
+    "bits": 94198.23568,
+    "events": 50313,
+    "words": 8248,
+    "glyphs": 42065,
+    "bits_per_glyph": 1.87224,
+    "bits_per_word": 11.42074
+   },
+   {
+    "bits": 47590.47579,
+    "events": 24499,
+    "words": 4133,
+    "glyphs": 20366,
+    "bits_per_glyph": 1.94255,
+    "bits_per_word": 11.51475
+   },
+   {
+    "bits": 48001.36726,
+    "events": 25838,
+    "words": 4382,
+    "glyphs": 21456,
+    "bits_per_glyph": 1.85778,
+    "bits_per_word": 10.95421
+   }
+  ],
+  "kn4+variety": [
+   {
+    "bits": 78676.26751,
+    "events": 43985,
+    "words": 7303,
+    "glyphs": 36682,
+    "bits_per_glyph": 1.78871,
+    "bits_per_word": 10.77314,
+    "lambda": 1.0
+   },
+   {
+    "bits": 55599.09165,
+    "events": 28156,
+    "words": 4775,
+    "glyphs": 23381,
+    "bits_per_glyph": 1.97468,
+    "bits_per_word": 11.64379,
+    "lambda": 1.0
+   },
+   {
+    "bits": 93520.61155,
+    "events": 50313,
+    "words": 8248,
+    "glyphs": 42065,
+    "bits_per_glyph": 1.85878,
+    "bits_per_word": 11.33858,
+    "lambda": 1.0
+   },
+   {
+    "bits": 46421.39402,
+    "events": 24499,
+    "words": 4133,
+    "glyphs": 20366,
+    "bits_per_glyph": 1.89483,
+    "bits_per_word": 11.23189,
+    "lambda": 1.0
+   },
+   {
+    "bits": 46391.10542,
+    "events": 25838,
+    "words": 4382,
+    "glyphs": 21456,
+    "bits_per_glyph": 1.79546,
+    "bits_per_word": 10.58674,
+    "lambda": 1.0
+   }
+  ],
+  "kn5": [
+   {
+    "bits": 80823.588,
+    "events": 43985,
+    "words": 7303,
+    "glyphs": 36682,
+    "bits_per_glyph": 1.83753,
+    "bits_per_word": 11.06718
+   },
+   {
+    "bits": 56424.17781,
+    "events": 28156,
+    "words": 4775,
+    "glyphs": 23381,
+    "bits_per_glyph": 2.00398,
+    "bits_per_word": 11.81658
+   },
+   {
+    "bits": 94779.70367,
+    "events": 50313,
+    "words": 8248,
+    "glyphs": 42065,
+    "bits_per_glyph": 1.8838,
+    "bits_per_word": 11.49123
+   },
+   {
+    "bits": 47852.56616,
+    "events": 24499,
+    "words": 4133,
+    "glyphs": 20366,
+    "bits_per_glyph": 1.95325,
+    "bits_per_word": 11.57817
+   },
+   {
+    "bits": 48193.82563,
+    "events": 25838,
+    "words": 4382,
+    "glyphs": 21456,
+    "bits_per_glyph": 1.86523,
+    "bits_per_word": 10.99813
+   }
+  ],
+  "kn5+variety": [
+   {
+    "bits": 79286.07771,
+    "events": 43985,
+    "words": 7303,
+    "glyphs": 36682,
+    "bits_per_glyph": 1.80257,
+    "bits_per_word": 10.85664,
+    "lambda": 1.0
+   },
+   {
+    "bits": 56468.83435,
+    "events": 28156,
+    "words": 4775,
+    "glyphs": 23381,
+    "bits_per_glyph": 2.00557,
+    "bits_per_word": 11.82593,
+    "lambda": 1.0
+   },
+   {
+    "bits": 94686.52631,
+    "events": 50313,
+    "words": 8248,
+    "glyphs": 42065,
+    "bits_per_glyph": 1.88195,
+    "bits_per_word": 11.47994,
+    "lambda": 1.0
+   },
+   {
+    "bits": 47018.81831,
+    "events": 24499,
+    "words": 4133,
+    "glyphs": 20366,
+    "bits_per_glyph": 1.91921,
+    "bits_per_word": 11.37644,
+    "lambda": 1.0
+   },
+   {
+    "bits": 46971.84122,
+    "events": 25838,
+    "words": 4382,
+    "glyphs": 21456,
+    "bits_per_glyph": 1.81794,
+    "bits_per_word": 10.71927,
+    "lambda": 1.0
+   }
+  ],
+  "kn6": [
+   {
+    "bits": 82343.4452,
+    "events": 43985,
+    "words": 7303,
+    "glyphs": 36682,
+    "bits_per_glyph": 1.87208,
+    "bits_per_word": 11.27529
+   },
+   {
+    "bits": 57520.95457,
+    "events": 28156,
+    "words": 4775,
+    "glyphs": 23381,
+    "bits_per_glyph": 2.04294,
+    "bits_per_word": 12.04627
+   },
+   {
+    "bits": 96507.86185,
+    "events": 50313,
+    "words": 8248,
+    "glyphs": 42065,
+    "bits_per_glyph": 1.91815,
+    "bits_per_word": 11.70076
+   },
+   {
+    "bits": 48714.56082,
+    "events": 24499,
+    "words": 4133,
+    "glyphs": 20366,
+    "bits_per_glyph": 1.98843,
+    "bits_per_word": 11.78673
+   },
+   {
+    "bits": 48771.06812,
+    "events": 25838,
+    "words": 4382,
+    "glyphs": 21456,
+    "bits_per_glyph": 1.88757,
+    "bits_per_word": 11.12986
+   }
+  ],
+  "kn6+variety": [
+   {
+    "bits": 81101.9014,
+    "events": 43985,
+    "words": 7303,
+    "glyphs": 36682,
+    "bits_per_glyph": 1.84385,
+    "bits_per_word": 11.10529,
+    "lambda": 1.0
+   },
+   {
+    "bits": 57703.15613,
+    "events": 28156,
+    "words": 4775,
+    "glyphs": 23381,
+    "bits_per_glyph": 2.04941,
+    "bits_per_word": 12.08443,
+    "lambda": 1.0
+   },
+   {
+    "bits": 96659.29236,
+    "events": 50313,
+    "words": 8248,
+    "glyphs": 42065,
+    "bits_per_glyph": 1.92116,
+    "bits_per_word": 11.71912,
+    "lambda": 1.0
+   },
+   {
+    "bits": 48070.73583,
+    "events": 24499,
+    "words": 4133,
+    "glyphs": 20366,
+    "bits_per_glyph": 1.96215,
+    "bits_per_word": 11.63095,
+    "lambda": 1.0
+   },
+   {
+    "bits": 47754.4761,
+    "events": 25838,
+    "words": 4382,
+    "glyphs": 21456,
+    "bits_per_glyph": 1.84823,
+    "bits_per_word": 10.89787,
+    "lambda": 1.0
+   }
+  ],
+  "kn4[merge_uncertain_spaces]": [
+   {
+    "bits": 80384.29448,
+    "events": 43476,
+    "words": 6794,
+    "glyphs": 36682,
+    "bits_per_glyph": 1.84893,
+    "bits_per_word": 11.83166
+   },
+   {
+    "bits": 55719.59237,
+    "events": 27839,
+    "words": 4458,
+    "glyphs": 23381,
+    "bits_per_glyph": 2.00149,
+    "bits_per_word": 12.49879
+   },
+   {
+    "bits": 93940.45265,
+    "events": 49720,
+    "words": 7655,
+    "glyphs": 42065,
+    "bits_per_glyph": 1.88939,
+    "bits_per_word": 12.27178
+   },
+   {
+    "bits": 47416.02212,
+    "events": 24205,
+    "words": 3839,
+    "glyphs": 20366,
+    "bits_per_glyph": 1.95894,
+    "bits_per_word": 12.35114
+   },
+   {
+    "bits": 47930.71923,
+    "events": 25545,
+    "words": 4089,
+    "glyphs": 21456,
+    "bits_per_glyph": 1.87632,
+    "bits_per_word": 11.72187
+   }
+  ],
+  "tf_d96_l3": [
+   {
+    "bits": 75901.38086,
+    "events": 43985,
+    "words": 7303,
+    "glyphs": 36682,
+    "bits_per_glyph": 1.72562,
+    "bits_per_word": 10.39318,
+    "params": 359740,
+    "epochs": 37,
+    "inner_val_bpg": 1.84072,
+    "train_seconds": 134.6,
+    "device": "cpu"
+   },
+   {
+    "bits": 52978.83789,
+    "events": 28156,
+    "words": 4775,
+    "glyphs": 23381,
+    "bits_per_glyph": 1.88162,
+    "bits_per_word": 11.09504,
+    "params": 359740,
+    "epochs": 38,
+    "inner_val_bpg": 1.76543,
+    "train_seconds": 219.6,
+    "device": "cpu"
+   },
+   {
+    "bits": 92717.9873,
+    "events": 50313,
+    "words": 8248,
+    "glyphs": 42065,
+    "bits_per_glyph": 1.84282,
+    "bits_per_word": 11.24127,
+    "params": 359740,
+    "epochs": 22,
+    "inner_val_bpg": 1.78726,
+    "train_seconds": 95.6,
+    "device": "cpu"
+   },
+   {
+    "bits": 45127.01953,
+    "events": 24499,
+    "words": 4133,
+    "glyphs": 20366,
+    "bits_per_glyph": 1.84199,
+    "bits_per_word": 10.91871,
+    "params": 359740,
+    "epochs": 31,
+    "inner_val_bpg": 1.77412,
+    "train_seconds": 218.5,
+    "device": "cpu"
+   },
+   {
+    "bits": 45379.40137,
+    "events": 25838,
+    "words": 4382,
+    "glyphs": 21456,
+    "bits_per_glyph": 1.7563,
+    "bits_per_word": 10.35587,
+    "params": 359740,
+    "epochs": 28,
+    "inner_val_bpg": 1.78465,
+    "train_seconds": 197.1,
+    "device": "cpu"
+   }
+  ],
+  "tf_d96_l3+variety": [
+   {
+    "bits": 74662.39844,
+    "events": 43985,
+    "words": 7303,
+    "glyphs": 36682,
+    "bits_per_glyph": 1.69745,
+    "bits_per_word": 10.22352,
+    "params": 360220,
+    "epochs": 40,
+    "inner_val_bpg": 1.81185,
+    "train_seconds": 233.6,
+    "device": "cpu"
+   },
+   {
+    "bits": 53675.91016,
+    "events": 28156,
+    "words": 4775,
+    "glyphs": 23381,
+    "bits_per_glyph": 1.90638,
+    "bits_per_word": 11.24103,
+    "params": 360220,
+    "epochs": 22,
+    "inner_val_bpg": 1.75863,
+    "train_seconds": 82.6,
+    "device": "cpu"
+   },
+   {
+    "bits": 91987.66211,
+    "events": 50313,
+    "words": 8248,
+    "glyphs": 42065,
+    "bits_per_glyph": 1.82831,
+    "bits_per_word": 11.15272,
+    "params": 360220,
+    "epochs": 22,
+    "inner_val_bpg": 1.74521,
+    "train_seconds": 45.1,
+    "device": "cpu"
+   },
+   {
+    "bits": 44614.90039,
+    "events": 24499,
+    "words": 4133,
+    "glyphs": 20366,
+    "bits_per_glyph": 1.82109,
+    "bits_per_word": 10.7948,
+    "params": 360220,
+    "epochs": 31,
+    "inner_val_bpg": 1.7457,
+    "train_seconds": 94.2,
+    "device": "cpu"
+   },
+   {
+    "bits": 45263.73193,
+    "events": 25838,
+    "words": 4382,
+    "glyphs": 21456,
+    "bits_per_glyph": 1.75183,
+    "bits_per_word": 10.32947,
+    "params": 360220,
+    "epochs": 19,
+    "inner_val_bpg": 1.77611,
+    "train_seconds": 59.0,
+    "device": "cpu"
+   }
+  ],
+  "tf_d160_l4": [
+   {
+    "bits": 76829.09766,
+    "events": 43985,
+    "words": 7303,
+    "glyphs": 36682,
+    "bits_per_glyph": 1.74671,
+    "bits_per_word": 10.52021,
+    "params": 1277468,
+    "epochs": 23,
+    "inner_val_bpg": 1.86706,
+    "train_seconds": 92.1,
+    "device": "mps"
+   },
+   {
+    "bits": 53211.52148,
+    "events": 28156,
+    "words": 4775,
+    "glyphs": 23381,
+    "bits_per_glyph": 1.88988,
+    "bits_per_word": 11.14377,
+    "params": 1277468,
+    "epochs": 31,
+    "inner_val_bpg": 1.77304,
+    "train_seconds": 177.9,
+    "device": "mps"
+   },
+   {
+    "bits": 92082.6875,
+    "events": 50313,
+    "words": 8248,
+    "glyphs": 42065,
+    "bits_per_glyph": 1.8302,
+    "bits_per_word": 11.16424,
+    "params": 1277468,
+    "epochs": 22,
+    "inner_val_bpg": 1.77974,
+    "train_seconds": 74.9,
+    "device": "mps"
+   },
+   {
+    "bits": 45450.67188,
+    "events": 24499,
+    "words": 4133,
+    "glyphs": 20366,
+    "bits_per_glyph": 1.85521,
+    "bits_per_word": 10.99702,
+    "params": 1277468,
+    "epochs": 21,
+    "inner_val_bpg": 1.77937,
+    "train_seconds": 99.4,
+    "device": "mps"
+   },
+   {
+    "bits": 45290.16797,
+    "events": 25838,
+    "words": 4382,
+    "glyphs": 21456,
+    "bits_per_glyph": 1.75285,
+    "bits_per_word": 10.3355,
+    "params": 1277468,
+    "epochs": 28,
+    "inner_val_bpg": 1.78405,
+    "train_seconds": 140.8,
+    "device": "mps"
+   }
+  ],
+  "tf_d160_l4+variety": [
+   {
+    "bits": 75407.8125,
+    "events": 43985,
+    "words": 7303,
+    "glyphs": 36682,
+    "bits_per_glyph": 1.7144,
+    "bits_per_word": 10.32559,
+    "params": 1278268,
+    "epochs": 26,
+    "inner_val_bpg": 1.81777,
+    "train_seconds": 135.7,
+    "device": "mps"
+   },
+   {
+    "bits": 53288.84766,
+    "events": 28156,
+    "words": 4775,
+    "glyphs": 23381,
+    "bits_per_glyph": 1.89263,
+    "bits_per_word": 11.15997,
+    "params": 1278268,
+    "epochs": 22,
+    "inner_val_bpg": 1.75058,
+    "train_seconds": 110.4,
+    "device": "mps"
+   },
+   {
+    "bits": 91038.99707,
+    "events": 50313,
+    "words": 8248,
+    "glyphs": 42065,
+    "bits_per_glyph": 1.80945,
+    "bits_per_word": 11.03771,
+    "params": 1278268,
+    "epochs": 22,
+    "inner_val_bpg": 1.7413,
+    "train_seconds": 74.0,
+    "device": "mps"
+   },
+   {
+    "bits": 44840.80078,
+    "events": 24499,
+    "words": 4133,
+    "glyphs": 20366,
+    "bits_per_glyph": 1.83031,
+    "bits_per_word": 10.84946,
+    "params": 1278268,
+    "epochs": 22,
+    "inner_val_bpg": 1.75598,
+    "train_seconds": 116.5,
+    "device": "mps"
+   },
+   {
+    "bits": 44322.72021,
+    "events": 25838,
+    "words": 4382,
+    "glyphs": 21456,
+    "bits_per_glyph": 1.71541,
+    "bits_per_word": 10.11472,
+    "params": 1278268,
+    "epochs": 28,
+    "inner_val_bpg": 1.75254,
+    "train_seconds": 127.4,
+    "device": "mps"
+   }
+  ]
+ },
+ "pooled_dev_cv": {
+  "unigram": {
+   "bits_per_glyph": 3.95858,
+   "bits_per_word": 23.71646,
+   "events": 172791,
+   "words": 28841,
+   "fold_mean_bpg": 3.9609,
+   "fold_sd_bpg": 0.01068
+  },
+  "kn2": {
+   "bits_per_glyph": 2.17385,
+   "bits_per_word": 13.02386,
+   "events": 172791,
+   "words": 28841,
+   "fold_mean_bpg": 2.18341,
+   "fold_sd_bpg": 0.0548
+  },
+  "kn2+variety": {
+   "bits_per_glyph": 2.12216,
+   "bits_per_word": 12.71417,
+   "events": 172791,
+   "words": 28841,
+   "fold_mean_bpg": 2.12737,
+   "fold_sd_bpg": 0.06796
+  },
+  "kn3": {
+   "bits_per_glyph": 1.91603,
+   "bits_per_word": 11.47924,
+   "events": 172791,
+   "words": 28841,
+   "fold_mean_bpg": 1.92666,
+   "fold_sd_bpg": 0.06143
+  },
+  "kn3+variety": {
+   "bits_per_glyph": 1.87258,
+   "bits_per_word": 11.21892,
+   "events": 172791,
+   "words": 28841,
+   "fold_mean_bpg": 1.87955,
+   "fold_sd_bpg": 0.07342
+  },
+  "kn4": {
+   "bits_per_glyph": 1.88829,
+   "bits_per_word": 11.31303,
+   "events": 172791,
+   "words": 28841,
+   "fold_mean_bpg": 1.89801,
+   "fold_sd_bpg": 0.06362
+  },
+  "kn4+variety": {
+   "bits_per_glyph": 1.85547,
+   "bits_per_word": 11.11641,
+   "events": 172791,
+   "words": 28841,
+   "fold_mean_bpg": 1.86249,
+   "fold_sd_bpg": 0.07678
+  },
+  "kn5": {
+   "bits_per_glyph": 1.89867,
+   "bits_per_word": 11.37526,
+   "events": 172791,
+   "words": 28841,
+   "fold_mean_bpg": 1.90876,
+   "fold_sd_bpg": 0.06826
+  },
+  "kn5+variety": {
+   "bits_per_glyph": 1.8776,
+   "bits_per_word": 11.24899,
+   "events": 172791,
+   "words": 28841,
+   "fold_mean_bpg": 1.88545,
+   "fold_sd_bpg": 0.08217
+  },
+  "kn6": {
+   "bits_per_glyph": 1.93215,
+   "bits_per_word": 11.57581,
+   "events": 172791,
+   "words": 28841,
+   "fold_mean_bpg": 1.94183,
+   "fold_sd_bpg": 0.07205
+  },
+  "kn6+variety": {
+   "bits_per_glyph": 1.91728,
+   "bits_per_word": 11.48676,
+   "events": 172791,
+   "words": 28841,
+   "fold_mean_bpg": 1.92496,
+   "fold_sd_bpg": 0.08566
+  },
+  "kn4[merge_uncertain_spaces]": {
+   "bits_per_glyph": 1.90527,
+   "bits_per_word": 12.12562,
+   "events": 170785,
+   "words": 26835,
+   "fold_mean_bpg": 1.91501,
+   "fold_sd_bpg": 0.0631
+  },
+  "tf_d96_l3": {
+   "bits_per_glyph": 1.80626,
+   "bits_per_word": 10.82156,
+   "events": 172791,
+   "words": 28841,
+   "fold_mean_bpg": 1.80967,
+   "fold_sd_bpg": 0.06564
+  },
+  "tf_d96_l3+variety": {
+   "bits_per_glyph": 1.79526,
+   "bits_per_word": 10.75568,
+   "events": 172791,
+   "words": 28841,
+   "fold_mean_bpg": 1.80101,
+   "fold_sd_bpg": 0.07968
+  },
+  "tf_d160_l4": {
+   "bits_per_glyph": 1.81065,
+   "bits_per_word": 10.8479,
+   "events": 172791,
+   "words": 28841,
+   "fold_mean_bpg": 1.81497,
+   "fold_sd_bpg": 0.06321
+  },
+  "tf_d160_l4+variety": {
+   "bits_per_glyph": 1.7877,
+   "bits_per_word": 10.71042,
+   "events": 172791,
+   "words": 28841,
+   "fold_mean_bpg": 1.79244,
+   "fold_sd_bpg": 0.07711
+  }
+ },
+ "transformer_meta": {
+  "tf_d96_l3": {
+   "params": 359740,
+   "mean_train_seconds": 173.07999999999998,
+   "epochs": [
+    37,
+    38,
+    22,
+    31,
+    28
+   ],
+   "device": "cpu"
+  },
+  "tf_d96_l3+variety": {
+   "params": 360220,
+   "mean_train_seconds": 102.9,
+   "epochs": [
+    40,
+    22,
+    22,
+    31,
+    19
+   ],
+   "device": "cpu"
+  },
+  "tf_d160_l4": {
+   "params": 1277468,
+   "mean_train_seconds": 117.01999999999998,
+   "epochs": [
+    23,
+    31,
+    22,
+    21,
+    28
+   ],
+   "device": "mps"
+  },
+  "tf_d160_l4+variety": {
+   "params": 1278268,
+   "mean_train_seconds": 112.8,
+   "epochs": [
+    26,
+    22,
+    22,
+    22,
+    28
+   ],
+   "device": "mps"
+  }
+ },
+ "best_per_class": {
+  "unigram": "unigram",
+  "kneser_ney": "kn4+variety",
+  "transformer": "tf_d160_l4+variety"
+ },
+ "best_overall": "tf_d160_l4+variety",
+ "frozen": {
+  "unigram": {
+   "checkpoint": "checkpoints/e002_frozen_unigram.pkl",
+   "sha256": "828eab4f53dc62156eb719c6b8f19bdd8664a57bb603c30fb874db92966bfdfa"
+  },
+  "kn4+variety": {
+   "checkpoint": "checkpoints/e002_frozen_kn4_variety.pkl",
+   "sha256": "3972f487e26caf98a7f8ec20a4de98bd651c51794fe28c5b2d57db618ba8c73d",
+   "lambda": 1.0
+  },
+  "tf_d160_l4+variety": {
+   "checkpoint": "checkpoints/e002_frozen_tf_d160_l4_variety.pt",
+   "sha256": "26d55827f4ea48b1d8c2d9ddff670beddc45a38251f19d0328262943c71d0f64",
+   "name": "tf_d160_l4+variety",
+   "params": 1278268,
+   "config": {
+    "d_model": 160,
+    "n_layers": 4,
+    "n_heads": 4,
+    "d_ff": 640,
+    "dropout": 0.2,
+    "max_len": 192,
+    "cond": true,
+    "lr": 0.002,
+    "weight_decay": 0.1,
+    "batch_size": 64,
+    "max_epochs": 40,
+    "patience": 4,
+    "seed": 0
+   },
+   "device": "mps",
+   "epochs": 20,
+   "inner_val_bpg": 1.7457513631941217
+  }
+ },
+ "notes": [
+  "kn4[merge_uncertain_spaces] uses a different event stream (fewer words); not comparable to the default-stream rows.",
+  "Not comparable to the external 11.01 bits/word figure."
+ ],
+ "locked_test": {
+  "unigram": {
+   "bits": 141252.70419,
+   "events": 35571,
+   "words": 5948,
+   "glyphs": 29623,
+   "bits_per_glyph": 3.97101,
+   "bits_per_word": 23.74793,
+   "checkpoint": "checkpoints/e002_frozen_unigram.pkl",
+   "checkpoint_sha256": "828eab4f53dc62156eb719c6b8f19bdd8664a57bb603c30fb874db92966bfdfa"
+  },
+  "kn4+variety": {
+   "bits": 68325.41114,
+   "events": 35571,
+   "words": 5948,
+   "glyphs": 29623,
+   "bits_per_glyph": 1.92082,
+   "bits_per_word": 11.48712,
+   "checkpoint": "checkpoints/e002_frozen_kn4_variety.pkl",
+   "checkpoint_sha256": "3972f487e26caf98a7f8ec20a4de98bd651c51794fe28c5b2d57db618ba8c73d"
+  },
+  "tf_d160_l4+variety": {
+   "bits": 65577.82568,
+   "events": 35571,
+   "words": 5948,
+   "glyphs": 29623,
+   "bits_per_glyph": 1.84358,
+   "bits_per_word": 11.02519,
+   "checkpoint": "checkpoints/e002_frozen_tf_d160_l4_variety.pt",
+   "checkpoint_sha256": "26d55827f4ea48b1d8c2d9ddff670beddc45a38251f19d0328262943c71d0f64"
+  }
+ }
+}
