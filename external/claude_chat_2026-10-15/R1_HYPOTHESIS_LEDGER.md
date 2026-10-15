@@ -1,0 +1,27 @@
+# Hypothesis Ledger — Voynich MS 408 adversarial decipherment program
+Status codes: **FALSIFIED** (test failed with stated evidence) · **UNSUPPORTED** (tested, no signal; not excluded) · **OPEN** (not yet testable here) · **SUPPORTED** (positive evidence).
+Every row links to the script and result file that produced the evidence. Negative results are kept deliberately.
+
+| # | Hypothesis | Test | Evidence | Status |
+|---|---|---|---|---|
+| H1 | Schechter (2025/26): Voynichese = Latin/Occitan/Hebrew verbose-homophonic cipher; 87.8% decoded | Reproduce `decode.js`; compare with top-K frequency dictionary | 89.2% reproduced (4,063 entries). Any dictionary of the 4,063 most frequent types covers **89.4%** regardless of assigned meanings; coverage is invariant under shuffling all meanings (`phase2_adversarial.py`). | **FALSIFIED as evidence** — coverage is a Zipf statistic, not a decipherment statistic |
+| H1a | The glossary encodes generalizable cipher rules | Freeze rules (lookup + gallows-strip), split folios 50/50, decode word types unseen in training half | 18.3% of held-out tokens are unseen types; rules decode **5.0%** of them | **FALSIFIED** — it is a lookup table |
+| H1b | Decoded output is Latin/Occitan | 947 targets vs 13.3M-word Latin corpus + 80k-word Old French corpus | **583/947 (62%) targets attested in neither**; 25/36 "NOCERE conjugations" are not Latin forms | **FALSIFIED** |
+| H1c | Decoded text preserves Latin word order/syntax | Adjacent-pair Latin-bigram attestation: true dictionary vs within-line word-order shuffle | 11.9% vs 12.0% (z = −0.47); real medieval Latin = 48.8% | **FALSIFIED** — order carries zero information |
+| H1d | Meanings are non-arbitrary | Frequency-stratified meaning shuffle (200×) | z = 1.95, p ≈ 0.045 — marginal, attributable to hand-placing function words on frequent slots | **UNSUPPORTED** |
+| H1e | Reverse-encoding test validates the cipher | Audit of `publication/13-reverse-encoding-test.md` | Source words chosen from decoder output; encoded via the glossary's own reverse map; round trip is tautological | **INVALID TEST** |
+| H1f | Zodiac/plant/pharmacy semantics hold on illustrated pages | 361 nymph labels, 12 zodiac pages; 146 pharmacy jar labels; plant-name folio spread (`phase4_semantic.py`) | 0 sign names on 10/12 pages (3 hits = Hebrew TELI "dragon" on Aries/Libra); ARIETE 15× herbal, 1× zodiac; 1/93 jar labels an ingredient; BASILICUM/MANDRAGORA/VERBENA/ARUM each a single hapax on the folio chosen to match the drawing | **FALSIFIED** |
+| H2 | Monoalphabetic substitution of any tested language | h2 invariance under bijection | Voynich h2 2.0–2.5 vs languages 3.1–3.4 at all granularities | **FALSIFIED** |
+| H3 | Homophonic substitution | h2 can only rise under homophony | Voynich h2 far below plaintext | **FALSIFIED** |
+| H4 | Polyalphabetic cipher | IoC → 1, positional structure destroyed | IoC 1.6–2.7 (more skewed than plaintext); positional JSD 0.29/0.72 vs ≤0.20 | **FALSIFIED** |
+| H5 | Scribal abbreviation of Latin | Simulated abbreviation | h2 rises to 3.40, sd 2.07 — wrong direction | **FALSIFIED** (stand-alone) |
+| H6 | Verbose cipher (letter → glyph group) into Latin / Old French / Italian / Middle English / Occitan / German | ILS unit-mapping search with trigram LM + unigram-KL regularizer; positive control = real random verbose cipher of held-out text | Positive control recovers 85–92% of units in all 7 languages; Voynich A/B best mappings give ≤7.1% real words (≥5 letters) vs ≥17% for a real noisy cipher; output is language-shaped nonsense | **UNSUPPORTED** for Latin, Old French, Italian, Middle English, Occitan (modern proxy), German (modern proxy) at EVA-unit granularity |
+| H7 | Syllabary / shorthand | Alphabet size, h1, positional lock-in | ~32 units, h1 ≈ 4.0, 86% tokens fit 4-slot grammar | **UNSUPPORTED / weakened** |
+| H8 | Plain natural language (unknown) | h2 and wordlen sd across 7 languages, 2 families | outside range | **FALSIFIED for tested families; OPEN for untested** |
+| H9 | Structured non-linguistic generation (grille, self-citation) | Fingerprint match on 9 dimensions | my generators match entropy/length but not Zipf slope (−0.3 vs −0.9) | **OPEN** (published T&S model not reimplemented faithfully) |
+| H10 | Currier A and B are two languages | Word-JSD A/B vs within-language halves and cross-language | 0.476 bits ≈ Latin register difference (0.445), ≪ cross-language (0.756); glyph JSD 0.026 | **FALSIFIED** — one system, two registers/vocabularies |
+
+## What new evidence would move an OPEN hypothesis
+- H6: a unit inventory derived from the manuscript (not EVA conventions) — e.g. Stolfi "crust/mantle/core" or Cuva-style glyph groupings — plus corpora of Old Occitan, Middle High German, Hebrew/Arabic in Latin transliteration, Czech, Hungarian. The engine here is a drop-in: provide `lines`, `unit_fn`, corpus.
+- H9: a faithful reimplementation of Timm & Schinner (2020) with their exact edit operators, scored on the identical 9-dimension fingerprint; if it matches, nonlinguistic generation becomes the most parsimonious model and semantic decipherment claims require extraordinary evidence.
+- Any candidate decipherment: must pass the **pre-registered protocol** in `ledger/PROTOCOL.md` (frozen rules, held-out folios, zodiac-label prediction, shuffled-dictionary null, word-order null, lexicon attestation) *before* any glossary expansion.

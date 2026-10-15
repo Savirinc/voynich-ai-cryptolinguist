@@ -1,0 +1,163 @@
+{
+ "label": "APPROXIMATE comparison: tokenisation and scoring conventions not verified identical; their code is not available",
+ "external_reference": {
+  "blind_leaves": [
+   "24",
+   "33",
+   "34",
+   "35",
+   "36",
+   "37",
+   "38",
+   "39",
+   "40",
+   "72",
+   "80"
+  ],
+  "blind_tokens_their_corpus": 3019,
+  "best_bits_per_word_blind": 11.01,
+  "best_model": "content-free char 5-gram conditioned on previous unit's final glyph and line-final position",
+  "dev_5fold_bits_per_word": {
+   "plain_char_ngram": 12.0,
+   "conditioned": 11.7,
+   "word_KN": 12.73
+  }
+ },
+ "quire_E_leaves": [
+  "33",
+  "34",
+  "35",
+  "36",
+  "37",
+  "38",
+  "39",
+  "40"
+ ],
+ "excluded_because_in_our_LOCKED_TEST": [
+  "35",
+  "38"
+ ],
+ "blind_leaves_scored": [
+  "24",
+  "33",
+  "34",
+  "36",
+  "37",
+  "39",
+  "40",
+  "72",
+  "80"
+ ],
+ "blind_stream": {
+  "lines": 284,
+  "words": 2257,
+  "glyphs": 10648,
+  "events": 12905,
+  "leaves": 8,
+  "prose_tokens_all_incl_unclean": 2272
+ },
+ "train_stream": {
+  "lines": 3122,
+  "words": 26584,
+  "glyphs": 133302,
+  "events": 159886,
+  "leaves": 77
+ },
+ "scores_on_external_blind_minus_locked": {
+  "unigram": {
+   "bits": 51582.9889,
+   "events": 12905,
+   "words": 2257,
+   "glyphs": 10648,
+   "bits_per_glyph": 3.9971,
+   "bits_per_word": 22.8547
+  },
+  "kn2": {
+   "bits": 28547.8378,
+   "events": 12905,
+   "words": 2257,
+   "glyphs": 10648,
+   "bits_per_glyph": 2.2122,
+   "bits_per_word": 12.6486
+  },
+  "kn3": {
+   "bits": 25061.949,
+   "events": 12905,
+   "words": 2257,
+   "glyphs": 10648,
+   "bits_per_glyph": 1.942,
+   "bits_per_word": 11.1041
+  },
+  "kn4": {
+   "bits": 24748.8956,
+   "events": 12905,
+   "words": 2257,
+   "glyphs": 10648,
+   "bits_per_glyph": 1.9178,
+   "bits_per_word": 10.9654
+  },
+  "kn5": {
+   "bits": 24801.381,
+   "events": 12905,
+   "words": 2257,
+   "glyphs": 10648,
+   "bits_per_glyph": 1.9218,
+   "bits_per_word": 10.9886
+  },
+  "kn6": {
+   "bits": 25156.3002,
+   "events": 12905,
+   "words": 2257,
+   "glyphs": 10648,
+   "bits_per_glyph": 1.9493,
+   "bits_per_word": 11.1459
+  },
+  "kn4+variety": {
+   "bits": 24190.413,
+   "events": 12905,
+   "words": 2257,
+   "glyphs": 10648,
+   "bits_per_glyph": 1.8745,
+   "bits_per_word": 10.7179
+  },
+  "kn3+prevfinal+linefinal": {
+   "bits": 24121.6699,
+   "events": 12905,
+   "words": 2257,
+   "glyphs": 10648,
+   "bits_per_glyph": 1.8692,
+   "bits_per_word": 10.6875
+  },
+  "kn4+prevfinal+linefinal": {
+   "bits": 24034.3166,
+   "events": 12905,
+   "words": 2257,
+   "glyphs": 10648,
+   "bits_per_glyph": 1.8624,
+   "bits_per_word": 10.6488
+  },
+  "kn5+prevfinal+linefinal": {
+   "bits": 24258.3036,
+   "events": 12905,
+   "words": 2257,
+   "glyphs": 10648,
+   "bits_per_glyph": 1.8798,
+   "bits_per_word": 10.748
+  },
+  "kn6+prevfinal+linefinal": {
+   "bits": 24599.132,
+   "events": 12905,
+   "words": 2257,
+   "glyphs": 10648,
+   "bits_per_glyph": 1.9062,
+   "bits_per_word": 10.899
+  }
+ },
+ "lambda_variety": 1.0,
+ "notes": [
+  "Leaves 35 and 38 (quire E) are in our LOCKED_TEST and were not loaded; the blind set here is therefore smaller than theirs and not the same text.",
+  "Our bits/word = sum of glyph bits incl. one end symbol per word ('_' or line-final '$'), clean tokens only, uncertain spaces as boundaries; their tokenisation ('lossless' ZL3b units) and exact scoring are unknown.",
+  "The conditioned model is given the line-final flag of each word as side information (as described for theirs), which makes the end symbol nearly free; it is not a pure left-to-right model.",
+  "These leaves are DEV leaves for us, so the hyper-parameter choices (n, model classes) were informed by DEV CV that included them (e002); not a blind result for us either."
+ ]
+}

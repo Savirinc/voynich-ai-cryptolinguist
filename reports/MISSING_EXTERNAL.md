@@ -1,4 +1,11 @@
-# Missing external repositories and evidence (NOT imported)
+# Missing external repositories and evidence
+
+**Update 2026-10-15:** the seven Markdown reports from the external Claude conversation (rounds R1, R2 and Operation
+Exemplar) were imported verbatim into `external/claude_chat_2026-10-15/` (see its `PROVENANCE.md`; two of them were
+independently re-supplied by the owner and match byte-for-byte apart from a trailing newline). They supply the exact R2
+blind split (leaves 24, 72, 80 + quire E) and full result tables. The **code tarballs were not imported** (owner's
+decision: the reports suffice for now), so rows 1–5 remain *reported, not reproduced*. Row 1 is Claude round 1
+(`voynich-lab`), not Codex.
 
 These are cited in `data/raw/handoff/RESEARCH_CONTEXT.md` as **user-reported**. Their code, logs, splits and
 outputs are not in this repository. Nothing below has been rerun here, and no code has been invented to stand in
