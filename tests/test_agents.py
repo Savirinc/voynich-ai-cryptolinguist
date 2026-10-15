@@ -56,3 +56,16 @@ def test_describe_hides_raw_glyphs():
 
 def test_extract_json_takes_last_object():
     assert extract_json('blah {"a": 1} then {"b": {"c": 2}}') == {"b": {"c": 2}}
+
+
+def test_drop_symbols_accepts_int_and_g_ids():
+    from vcl.agents.cryptolinguist import run_pipeline
+    syms, key, _, _ = ENCODERS["mono"](PLAIN.strip(), random.Random(5))
+    _, idmap = describe(syms)
+    seen = {}
+
+    def spy(task, **_):
+        seen["n"] = len(task.symbols); return Prediction(task.task_id, 0.5)
+    run_pipeline(PublicTask("t", syms, "x"), [{"op": "drop_symbols", "args": {"drop": [0, "g1"]}}], idmap, spy)
+    top2 = {idmap["g0"], idmap["g1"]}
+    assert seen["n"] == sum(s not in top2 for s in syms)

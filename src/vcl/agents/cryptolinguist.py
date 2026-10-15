@@ -100,7 +100,11 @@ def run_pipeline(task: PublicTask, pipeline, idmap, solve, **kw) -> Prediction:
     for step in pipeline:
         step = dict(step)
         if step.get("op") == "drop_symbols":
-            step["args"] = {"drop": [idmap[g] for g in (step.get("args") or {}).get("drop", []) if g in idmap]}
+            req = [g if str(g).startswith("g") else f"g{g}" for g in (step.get("args") or {}).get("drop", [])]
+            unknown = [g for g in req if g not in idmap]
+            if unknown or not req:
+                raise ValueError(f"drop_symbols: unknown glyph ids {unknown[:5]}")
+            step["args"] = {"drop": [idmap[g] for g in req]}
         if step.get("op") not in OPS:
             raise ValueError(f"unknown op {step.get('op')}")
         pipe.append(step)

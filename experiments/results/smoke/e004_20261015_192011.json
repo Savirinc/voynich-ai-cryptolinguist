@@ -1,0 +1,57 @@
+{
+ "run": "e004_20261015_192011",
+ "model": "sonnet",
+ "n_tasks": 2,
+ "command": "experiments/e004_agent_ablation.py --limit 2 --modes llm --workers 2 --max-llm-calls 10",
+ "by_mode": {
+  "llm": {
+   "test_in": {
+    "n": 2,
+    "n_language_tasks": 2,
+    "n_null_tasks": 0,
+    "mean_char_acc": 0.0,
+    "solved_rate": 0.0,
+    "mean_word_acc": 0.0,
+    "family_id_acc": 1.0,
+    "language_id_acc": 0.5,
+    "abstention_rate": 1.0,
+    "selective_solved_rate": null,
+    "ece": 0.0693764027983605,
+    "by_family": {
+     "columnar": {
+      "n": 2,
+      "solved_rate": 0.0,
+      "mean_char_acc": 0.0
+     }
+    },
+    "by_language_family": {
+     "slavic": {
+      "n": 2,
+      "solved_rate": 0.0
+     }
+    }
+   },
+   "test_enc": {
+    "n": 0,
+    "n_language_tasks": 0,
+    "n_null_tasks": 0,
+    "by_family": {},
+    "by_language_family": {}
+   },
+   "test_both": {
+    "n": 0,
+    "n_language_tasks": 0,
+    "n_null_tasks": 0,
+    "by_family": {},
+    "by_language_family": {}
+   },
+   "test_null": {
+    "n": 0,
+    "n_language_tasks": 0,
+    "n_null_tasks": 0,
+    "by_family": {},
+    "by_language_family": {}
+   }
+  }
+ }
+}
