@@ -1,0 +1,219 @@
+{
+ "noise_floor_median_voynich_window_distance": 0.989,
+ "features": [
+  "h1",
+  "h_cond",
+  "types",
+  "ioc_x_types",
+  "wl_mean",
+  "wl_std",
+  "word_ttr",
+  "word_top_share",
+  "init_entropy",
+  "final_entropy",
+  "never_init_mass",
+  "double_rate"
+ ],
+ "voynich_mean": {
+  "h1": 3.811,
+  "h_cond": 2.121,
+  "types": 19.333,
+  "ioc_x_types": 1.57,
+  "wl_mean": 4.996,
+  "wl_std": 1.761,
+  "word_ttr": 0.598,
+  "word_top_share": 0.039,
+  "init_entropy": 3.055,
+  "final_entropy": 2.383,
+  "never_init_mass": 0.279,
+  "double_rate": 0.058
+ },
+ "trials": 400,
+ "best": {
+  "positional_verbose": {
+   "distance": 3.308,
+   "within_noise_floor": false,
+   "info": {
+    "params": {
+     "n_glyphs": 17,
+     "p_two": 0.18904130528243995,
+     "p_three": 0.0438987657508329,
+     "shared": 0.8947647936352195
+    },
+    "lang": "en",
+    "book": "77804",
+    "refine": 29
+   },
+   "median_trial_distance": 8.249
+  },
+  "slot_grammar": {
+   "distance": 1.148,
+   "within_noise_floor": false,
+   "info": {
+    "params": {
+     "n_glyphs": 20,
+     "n_prefix": 22,
+     "n_core": 55,
+     "n_suffix": 8,
+     "zipf": 1.4331778925351963,
+     "p_empty": 0.36918657980440683
+    },
+    "refine": 274
+   },
+   "median_trial_distance": 3.0
+  }
+ },
+ "word_length_dispersion": {
+  "plaintext_word_length_mean_sd_by_language": {
+   "he": [
+    4.05,
+    1.52
+   ],
+   "enm": [
+    3.81,
+    2.06
+   ],
+   "fur": [
+    3.43,
+    2.09
+   ],
+   "en": [
+    4.39,
+    2.29
+   ],
+   "fy": [
+    4.05,
+    2.3
+   ],
+   "cy": [
+    3.73,
+    2.32
+   ],
+   "af": [
+    4.17,
+    2.33
+   ],
+   "cs": [
+    4.48,
+    2.37
+   ],
+   "is": [
+    4.46,
+    2.44
+   ],
+   "no": [
+    4.4,
+    2.45
+   ],
+   "da": [
+    4.49,
+    2.49
+   ],
+   "sr": [
+    4.51,
+    2.49
+   ],
+   "sl": [
+    4.63,
+    2.52
+   ],
+   "ceb": [
+    4.61,
+    2.54
+   ],
+   "ca": [
+    4.21,
+    2.55
+   ],
+   "ro": [
+    4.5,
+    2.58
+   ],
+   "fr": [
+    4.26,
+    2.59
+   ],
+   "gl": [
+    3.99,
+    2.62
+   ],
+   "eo": [
+    4.77,
+    2.63
+   ],
+   "bg": [
+    4.43,
+    2.66
+   ],
+   "sv": [
+    4.83,
+    2.67
+   ],
+   "ga": [
+    4.28,
+    2.69
+   ],
+   "es": [
+    4.52,
+    2.71
+   ],
+   "el": [
+    4.92,
+    2.75
+   ],
+   "la": [
+    5.46,
+    2.76
+   ],
+   "pt": [
+    4.48,
+    2.79
+   ],
+   "it": [
+    4.82,
+    2.8
+   ],
+   "nl": [
+    5.03,
+    2.8
+   ],
+   "tl": [
+    4.54,
+    2.84
+   ],
+   "pl": [
+    5.22,
+    2.89
+   ],
+   "de": [
+    5.31,
+    2.9
+   ],
+   "ilo": [
+    4.64,
+    2.97
+   ],
+   "ru": [
+    5.44,
+    3.02
+   ],
+   "fi": [
+    6.44,
+    3.06
+   ],
+   "hu": [
+    5.59,
+    3.23
+   ],
+   "te": [
+    6.79,
+    3.39
+   ]
+  },
+  "voynich_word_length_mean_sd": [
+   5.0,
+   1.76
+  ]
+ },
+ "verdict": "Not both mechanisms reach the noise floor; see distances."
+}

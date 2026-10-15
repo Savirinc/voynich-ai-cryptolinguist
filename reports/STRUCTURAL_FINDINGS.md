@@ -106,3 +106,23 @@ Reference: 60 streams × 18 classes (13 encoders over 36 languages, raw plaintex
 - **Consequence for the curriculum (Milestone 3):** add generators that hit ~20 types, h_cond ≈ 2.1, word length ≈ 5
   (e.g. slot/positional grammars over syllable codes, verbose ciphers with positional glyph constraints) as both
   linguistic encodings and decoys, then re-test whether solvers can tell them apart. No semantic claim.
+
+## E007 — identifiability: language encoding vs meaningless generator, fitted to Voynich's fingerprint
+Command: `.venv/bin/python experiments/e007_identifiability.py --trials 400` → `experiments/results/e007.json`.
+12 fingerprint features, standardised by Voynich's own window-to-window spread (DEV leaves, 3,000-glyph windows).
+Noise floor = median distance of a Voynich window from the Voynich mean = 0.99.
+
+| Mechanism (src/vcl/synthetic/voynichlike.py) | best distance | median | reaches noise floor? |
+|---|---|---|---|
+| positional_verbose (real text, la/it/de/en/fi/tl; positional code tables, 1–3 glyphs/letter) | 3.31 | 8.25 | no |
+| slot_grammar (no underlying text; prefix/core/suffix slots) | 1.15 | 3.00 | no (close) |
+
+- The letter-level language encodings fail mainly on **word-length dispersion** (z ≈ 21 for the best fit before
+  refinement) and on h_cond. Direct check on plaintext: Voynich word length is 5.00 ± 1.76 glyphs
+  (**CV 0.35**); every one of the 36 corpus languages has a higher CV (min: Hebrew, unpointed script, 4.05 ± 1.52,
+  CV 0.375; English 0.52; Latin 0.51). A code that maps each letter to ≥1 glyph cannot reduce word-length CV below
+  the plaintext's, so **no letter-level encoding of these 36 languages, as written, reproduces Voynich word lengths**.
+- A meaningless slot grammar comes much closer but not within noise; the search is small (400+400 trials).
+- **Not tested here** (open hypotheses): syllable- or morpheme-level codes, encodings of abbreviated or
+  stenographic text, mixed schemes. The low-CV observation constrains them (word lengths must be regularised
+  by the mechanism) but does not exclude them. Nothing here bears on meaning.
