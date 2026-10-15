@@ -1,0 +1,493 @@
+{
+  "method": "Conservative clean EVA running-text tokens P loci; glyph positions are EVA codepoint positions, so multi-codepoint glyphs may be split.",
+  "tokens": 30161,
+  "distinct": 5759,
+  "folios": 206,
+  "glyph_positions": {
+    "i": {
+      "initial": 6,
+      "middle": 9824,
+      "final": 7,
+      "total": 9837,
+      "pct_final": 0.07,
+      "pct_initial": 0.06
+    },
+    "n": {
+      "initial": 0,
+      "middle": 50,
+      "final": 5198,
+      "total": 5248,
+      "pct_final": 99.05,
+      "pct_initial": 0.0
+    },
+    "m": {
+      "initial": 1,
+      "middle": 23,
+      "final": 764,
+      "total": 788,
+      "pct_final": 96.95,
+      "pct_initial": 0.13
+    },
+    "q": {
+      "initial": 5038,
+      "middle": 27,
+      "final": 0,
+      "total": 5065,
+      "pct_final": 0.0,
+      "pct_initial": 99.47
+    },
+    "o": {
+      "initial": 6379,
+      "middle": 12419,
+      "final": 879,
+      "total": 19677,
+      "pct_final": 4.47,
+      "pct_initial": 32.42
+    },
+    "a": {
+      "initial": 1662,
+      "middle": 9697,
+      "final": 37,
+      "total": 11396,
+      "pct_final": 0.32,
+      "pct_initial": 14.58
+    },
+    "y": {
+      "initial": 1272,
+      "middle": 320,
+      "final": 12466,
+      "total": 14058,
+      "pct_final": 88.68,
+      "pct_initial": 9.05
+    },
+    "l": {
+      "initial": 1183,
+      "middle": 2349,
+      "final": 4819,
+      "total": 8351,
+      "pct_final": 57.71,
+      "pct_initial": 14.17
+    },
+    "r": {
+      "initial": 315,
+      "middle": 763,
+      "final": 4522,
+      "total": 5600,
+      "pct_final": 80.75,
+      "pct_initial": 5.62
+    },
+    "d": {
+      "initial": 2807,
+      "middle": 7138,
+      "final": 432,
+      "total": 10377,
+      "pct_final": 4.16,
+      "pct_initial": 27.05
+    },
+    "e": {
+      "initial": 84,
+      "middle": 16448,
+      "final": 70,
+      "total": 16602,
+      "pct_final": 0.42,
+      "pct_initial": 0.51
+    },
+    "k": {
+      "initial": 1047,
+      "middle": 7992,
+      "final": 62,
+      "total": 9101,
+      "pct_final": 0.68,
+      "pct_initial": 11.5
+    },
+    "t": {
+      "initial": 739,
+      "middle": 4451,
+      "final": 50,
+      "total": 5240,
+      "pct_final": 0.95,
+      "pct_initial": 14.1
+    },
+    "p": {
+      "initial": 186,
+      "middle": 831,
+      "final": 25,
+      "total": 1042,
+      "pct_final": 2.4,
+      "pct_initial": 17.85
+    },
+    "f": {
+      "initial": 69,
+      "middle": 254,
+      "final": 12,
+      "total": 335,
+      "pct_final": 3.58,
+      "pct_initial": 20.6
+    },
+    "s": {
+      "initial": 3582,
+      "middle": 1162,
+      "final": 674,
+      "total": 5418,
+      "pct_final": 12.44,
+      "pct_initial": 66.11
+    },
+    "h": {
+      "initial": 0,
+      "middle": 14408,
+      "final": 50,
+      "total": 14458,
+      "pct_final": 0.35,
+      "pct_initial": 0.0
+    }
+  },
+  "n_final_preceded_by": [
+    [
+      "i",
+      5111
+    ],
+    [
+      "a",
+      82
+    ],
+    [
+      "o",
+      3
+    ],
+    [
+      "e",
+      1
+    ],
+    [
+      "r",
+      1
+    ]
+  ],
+  "line_final_among_word_final": {
+    "m": {
+      "at_last_parsed_token": 543,
+      "all": 764,
+      "pct": 71.07
+    },
+    "n": {
+      "at_last_parsed_token": 685,
+      "all": 5198,
+      "pct": 13.18
+    },
+    "y": {
+      "at_last_parsed_token": 1527,
+      "all": 12466,
+      "pct": 12.25
+    }
+  },
+  "words_ending_i_examples": [
+    [
+      "okai",
+      2
+    ],
+    [
+      "dai",
+      1
+    ],
+    [
+      "okaii",
+      1
+    ],
+    [
+      "sai",
+      1
+    ],
+    [
+      "qokaiii",
+      1
+    ],
+    [
+      "chsi",
+      1
+    ]
+  ],
+  "words_ending_n_examples": [
+    [
+      "daiin",
+      732
+    ],
+    [
+      "aiin",
+      446
+    ],
+    [
+      "qokain",
+      274
+    ],
+    [
+      "qokaiin",
+      262
+    ],
+    [
+      "okaiin",
+      196
+    ],
+    [
+      "dain",
+      182
+    ],
+    [
+      "otaiin",
+      133
+    ],
+    [
+      "okain",
+      127
+    ],
+    [
+      "saiin",
+      112
+    ],
+    [
+      "ain",
+      101
+    ],
+    [
+      "otain",
+      90
+    ],
+    [
+      "kaiin",
+      75
+    ],
+    [
+      "qotaiin",
+      75
+    ],
+    [
+      "raiin",
+      60
+    ],
+    [
+      "qotain",
+      60
+    ],
+    [
+      "sain",
+      59
+    ],
+    [
+      "odaiin",
+      53
+    ],
+    [
+      "lkaiin",
+      46
+    ],
+    [
+      "chaiin",
+      45
+    ],
+    [
+      "ykaiin",
+      44
+    ]
+  ],
+  "words_ending_m_examples": [
+    [
+      "dam",
+      72
+    ],
+    [
+      "am",
+      66
+    ],
+    [
+      "otam",
+      41
+    ],
+    [
+      "qokam",
+      25
+    ],
+    [
+      "okam",
+      25
+    ],
+    [
+      "om",
+      20
+    ],
+    [
+      "cham",
+      15
+    ],
+    [
+      "chom",
+      11
+    ],
+    [
+      "ram",
+      11
+    ],
+    [
+      "qotam",
+      11
+    ],
+    [
+      "chdam",
+      10
+    ],
+    [
+      "ytam",
+      10
+    ],
+    [
+      "alam",
+      10
+    ],
+    [
+      "aram",
+      8
+    ],
+    [
+      "daim",
+      8
+    ],
+    [
+      "oram",
+      8
+    ],
+    [
+      "kam",
+      7
+    ],
+    [
+      "daram",
+      7
+    ],
+    [
+      "sam",
+      7
+    ],
+    [
+      "olkam",
+      7
+    ]
+  ],
+  "common_m_medial_examples": [
+    [
+      "daimg",
+      1
+    ],
+    [
+      "damo",
+      1
+    ],
+    [
+      "mol",
+      1
+    ],
+    [
+      "faimy",
+      1
+    ],
+    [
+      "amam",
+      1
+    ],
+    [
+      "omy",
+      1
+    ],
+    [
+      "amy",
+      1
+    ],
+    [
+      "amom",
+      1
+    ],
+    [
+      "ramshy",
+      1
+    ],
+    [
+      "amod",
+      1
+    ],
+    [
+      "cheamy",
+      1
+    ],
+    [
+      "dama",
+      1
+    ],
+    [
+      "deeomchol",
+      1
+    ],
+    [
+      "qokomo",
+      1
+    ],
+    [
+      "qokamdy",
+      1
+    ],
+    [
+      "amchy",
+      1
+    ],
+    [
+      "ofaramoty",
+      1
+    ],
+    [
+      "cheamar",
+      1
+    ],
+    [
+      "amd",
+      1
+    ],
+    [
+      "aman",
+      1
+    ]
+  ],
+  "final_n_vs_i_minimal_pairs": [
+    {
+      "stem": "qokaii",
+      "n_form": "qokaiin",
+      "n_freq": 262,
+      "i_form": "qokaiii",
+      "i_freq": 1
+    },
+    {
+      "stem": "okai",
+      "n_form": "okain",
+      "n_freq": 127,
+      "i_form": "okaii",
+      "i_freq": 1
+    },
+    {
+      "stem": "da",
+      "n_form": "dan",
+      "n_freq": 9,
+      "i_form": "dai",
+      "i_freq": 1
+    },
+    {
+      "stem": "oka",
+      "n_form": "okan",
+      "n_freq": 5,
+      "i_form": "okai",
+      "i_freq": 2
+    },
+    {
+      "stem": "sa",
+      "n_form": "san",
+      "n_freq": 3,
+      "i_form": "sai",
+      "i_freq": 1
+    }
+  ],
+  "num_final_n_vs_i_minimal_pairs": 5
+}

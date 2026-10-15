@@ -1,0 +1,47 @@
+{
+ "experiment": "064",
+ "workdir": "/var/folders/6r/b0psq1g938q0ldzv4_fkhd740000gn/T/legacy064_2j414bkx",
+ "fields": 282,
+ "differing": [
+  {
+   "key": "q_operator.+prev_final_and_line.fold_results.0.auc",
+   "archived": 0.7675498144839907,
+   "rerun": 0.7675443177133434
+  },
+  {
+   "key": "q_operator.+prev_final_and_line.fold_results.0.loss_nats",
+   "archived": 0.5705694048369494,
+   "rerun": 0.5705663464139179
+  },
+  {
+   "key": "q_operator.+prev_final_exact.auc",
+   "archived": 0.7777,
+   "rerun": 0.777704
+  },
+  {
+   "key": "q_operator.+prev_final_exact.fold_results.0.auc",
+   "archived": 0.7696853098804453,
+   "rerun": 0.7696908066510926
+  },
+  {
+   "key": "q_operator.+prev_final_exact.fold_results.1.auc",
+   "archived": 0.7929338512624354,
+   "rerun": 0.7929398571401879
+  },
+  {
+   "key": "q_operator.+prev_final_y.fold_results.0.auc",
+   "archived": 0.7646227841143328,
+   "rerun": 0.7646255324996565
+  },
+  {
+   "key": "q_operator.stem+variety.auc",
+   "archived": 0.704004,
+   "rerun": 0.704
+  },
+  {
+   "key": "q_operator.stem+variety.fold_results.2.auc",
+   "archived": 0.6812048748572895,
+   "rerun": 0.6812063255349736
+  }
+ ]
+}

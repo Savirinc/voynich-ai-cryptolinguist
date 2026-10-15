@@ -1,0 +1,91 @@
+{
+  "sample": {
+    "f1r": {
+      "lines": 25,
+      "tokens": 197
+    },
+    "f1v_f2r": {
+      "lines": 23,
+      "tokens": 189
+    },
+    "f3r": {
+      "lines": 19,
+      "tokens": 112
+    }
+  },
+  "tests": {
+    "f1r": {
+      "prefix_1": {
+        "js_bits": 0.22274,
+        "permutation_p": 0.0035,
+        "null_mean": 0.09486
+      },
+      "prefix_2": {
+        "js_bits": 0.48979,
+        "permutation_p": 0.003,
+        "null_mean": 0.33331
+      },
+      "suffix_1": {
+        "js_bits": 0.1559,
+        "permutation_p": 0.04348,
+        "null_mean": 0.0874
+      },
+      "suffix_2": {
+        "js_bits": 0.34229,
+        "permutation_p": 0.07646,
+        "null_mean": 0.27114
+      }
+    },
+    "f1v_f2r": {
+      "prefix_1": {
+        "js_bits": 0.10528,
+        "permutation_p": 0.49025,
+        "null_mean": 0.1095
+      },
+      "prefix_2": {
+        "js_bits": 0.42123,
+        "permutation_p": 0.12094,
+        "null_mean": 0.36567
+      },
+      "suffix_1": {
+        "js_bits": 0.0702,
+        "permutation_p": 0.57371,
+        "null_mean": 0.0819
+      },
+      "suffix_2": {
+        "js_bits": 0.41233,
+        "permutation_p": 0.01199,
+        "null_mean": 0.275
+      }
+    },
+    "f3r": {
+      "prefix_1": {
+        "js_bits": 0.33338,
+        "permutation_p": 0.0015,
+        "null_mean": 0.12911
+      },
+      "prefix_2": {
+        "js_bits": 0.51094,
+        "permutation_p": 0.0005,
+        "null_mean": 0.28918
+      },
+      "suffix_1": {
+        "js_bits": 0.03224,
+        "permutation_p": 0.9925,
+        "null_mean": 0.10521
+      },
+      "suffix_2": {
+        "js_bits": 0.25403,
+        "permutation_p": 0.43878,
+        "null_mean": 0.24963
+      }
+    }
+  },
+  "caveats": [
+    "Only four opening folios, f1v and f2r bundled in one file.",
+    "Transcription uncertain tokens dropped, biasing word selection.",
+    "Four comparisons per group; interpret p-values with multiple-testing caution.",
+    "Within-line shuffling can affect contexts but is a valid positional null, not a natural-language control.",
+    "No verified full-corpus data; no language or decipherment inferred."
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "method": "Cross-sign label-morphology agreement conditional on traditional Chaldean decan rulers; provisional slot order, permutations cyclically rotate decan rulers within sign. No chart epoch involved.",
+  "variants": [
+    {
+      "labels_usable": 232,
+      "folio_panels": 12,
+      "mode": "record",
+      "reverse": false,
+      "tests": {
+        "first_glyph": {
+          "effect_pp": 1.247,
+          "same_ruler_pairs": 2963,
+          "null_avg_effect_pp": 1.12,
+          "null_95pct_effect_pp": [
+            -0.33,
+            2.748
+          ],
+          "p_two_sided": 0.4306,
+          "p_positive": 0.4306
+        },
+        "first_two_EVA": {
+          "effect_pp": 2.851,
+          "same_ruler_pairs": 2963,
+          "null_avg_effect_pp": 0.913,
+          "null_95pct_effect_pp": [
+            -0.534,
+            2.428
+          ],
+          "p_two_sided": 0.005,
+          "p_positive": 0.005
+        },
+        "last_two_EVA": {
+          "effect_pp": -0.433,
+          "same_ruler_pairs": 2963,
+          "null_avg_effect_pp": 0.028,
+          "null_95pct_effect_pp": [
+            -0.818,
+            1.068
+          ],
+          "p_two_sided": 0.3986,
+          "p_positive": 0.8382
+        }
+      }
+    },
+    {
+      "labels_usable": 232,
+      "folio_panels": 12,
+      "mode": "record",
+      "reverse": true,
+      "tests": {
+        "first_glyph": {
+          "effect_pp": 0.633,
+          "same_ruler_pairs": 2988,
+          "null_avg_effect_pp": 1.291,
+          "null_95pct_effect_pp": [
+            -0.438,
+            3.306
+          ],
+          "p_two_sided": 0.7582,
+          "p_positive": 0.7413
+        },
+        "first_two_EVA": {
+          "effect_pp": -0.183,
+          "same_ruler_pairs": 2988,
+          "null_avg_effect_pp": 1.104,
+          "null_95pct_effect_pp": [
+            -0.335,
+            2.835
+          ],
+          "p_two_sided": 0.9251,
+          "p_positive": 0.96
+        },
+        "last_two_EVA": {
+          "effect_pp": 0.112,
+          "same_ruler_pairs": 2988,
+          "null_avg_effect_pp": 0.011,
+          "null_95pct_effect_pp": [
+            -0.881,
+            1.105
+          ],
+          "p_two_sided": 0.8541,
+          "p_positive": 0.4026
+        }
+      }
+    },
+    {
+      "labels_usable": 232,
+      "folio_panels": 12,
+      "mode": "outer_first",
+      "reverse": false,
+      "tests": {
+        "first_glyph": {
+          "effect_pp": 2.579,
+          "same_ruler_pairs": 2975,
+          "null_avg_effect_pp": 1.517,
+          "null_95pct_effect_pp": [
+            -0.257,
+            3.462
+          ],
+          "p_two_sided": 0.1628,
+          "p_positive": 0.1628
+        },
+        "first_two_EVA": {
+          "effect_pp": 2.271,
+          "same_ruler_pairs": 2975,
+          "null_avg_effect_pp": 1.22,
+          "null_95pct_effect_pp": [
+            -0.336,
+            2.732
+          ],
+          "p_two_sided": 0.1019,
+          "p_positive": 0.1019
+        },
+        "last_two_EVA": {
+          "effect_pp": -0.503,
+          "same_ruler_pairs": 2975,
+          "null_avg_effect_pp": 0.037,
+          "null_95pct_effect_pp": [
+            -0.848,
+            1.107
+          ],
+          "p_two_sided": 0.3037,
+          "p_positive": 0.8761
+        }
+      }
+    },
+    {
+      "labels_usable": 232,
+      "folio_panels": 12,
+      "mode": "inner_first",
+      "reverse": false,
+      "tests": {
+        "first_glyph": {
+          "effect_pp": 0.127,
+          "same_ruler_pairs": 2938,
+          "null_avg_effect_pp": 0.856,
+          "null_95pct_effect_pp": [
+            -0.572,
+            2.84
+          ],
+          "p_two_sided": 0.9361,
+          "p_positive": 0.8152
+        },
+        "first_two_EVA": {
+          "effect_pp": 0.659,
+          "same_ruler_pairs": 2938,
+          "null_avg_effect_pp": 0.605,
+          "null_95pct_effect_pp": [
+            -0.813,
+            2.093
+          ],
+          "p_two_sided": 0.5235,
+          "p_positive": 0.4795
+        },
+        "last_two_EVA": {
+          "effect_pp": 0.137,
+          "same_ruler_pairs": 2938,
+          "null_avg_effect_pp": 0.051,
+          "null_95pct_effect_pp": [
+            -0.909,
+            1.261
+          ],
+          "p_two_sided": 0.8102,
+          "p_positive": 0.4346
+        }
+      }
+    }
+  ]
+}

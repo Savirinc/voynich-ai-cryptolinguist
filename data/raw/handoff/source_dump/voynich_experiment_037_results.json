@@ -1,0 +1,49 @@
+{
+  "experiment": "037",
+  "method": "same provisional ordinal labels across different signs, compared with labels shuffled within each sign; 1200 iterations",
+  "usable_labels": 232,
+  "same_position_pairs": 807,
+  "metrics": [
+    "exact_word",
+    "same_2_prefix",
+    "same_2_suffix",
+    "sequence_similarity"
+  ],
+  "observed": [
+    0.0012391573729863693,
+    0.17100371747211895,
+    0.06691449814126393,
+    0.3698418264365989
+  ],
+  "null_mean": [
+    0.0016594382486575941,
+    0.15574659231722385,
+    0.07208384964890541,
+    0.3705270924992421
+  ],
+  "null_95percent": [
+    [
+      0.0,
+      0.004956629491945477
+    ],
+    [
+      0.137546468401487,
+      0.1771995043370508
+    ],
+    [
+      0.057001239157372985,
+      0.09045848822800495
+    ],
+    [
+      0.3613676225726,
+      0.3813744909599726
+    ]
+  ],
+  "one_sided_p": [
+    0.7518734388009992,
+    0.09575353871773522,
+    0.7535387177352206,
+    0.5253955037468776
+  ],
+  "caveat": "Sequence order and ring start ambiguous; metrics dependent and exploratory."
+}

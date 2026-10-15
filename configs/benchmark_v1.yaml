@@ -1,0 +1,20 @@
+# Known-answer benchmark v1 (see eval/PROTOCOL_v1.md section 3). Solvers/agents may be tuned ONLY on
+# train_language_families x train_encodings using books with role 'tune' (and 'ref' for language models).
+seed: 20261015
+train_language_families: [germanic, romance, slavic]
+heldout_language_families: [uralic, austronesian, celtic, hellenic, semitic, dravidian, constructed]
+train_encodings: [mono, homophonic, vigenere, columnar, nulls]
+heldout_encodings: [verbose, abjad, syllabary, autokey, boundary_noise, reversed_words, nomenclator]
+non_identifiable: [one_time_pad, short_mono]
+decoys: [autocopy, grille, markov, zipf_bag]
+plaintext_lengths: [300, 1000, 3000]
+short_mono_length: 24
+# per language, books ranked by salted hash get roles in this cycle
+book_role_cycle: [ref, test, tune, ref, test, tune]
+tasks_per_split:
+  tune: 150
+  test_in: 120
+  test_lang: 120
+  test_enc: 140
+  test_both: 140
+  test_null: 80

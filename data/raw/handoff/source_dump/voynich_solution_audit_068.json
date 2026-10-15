@@ -1,0 +1,454 @@
+{
+  "total_tokens": 33007,
+  "most_common": [
+    [
+      "daiin",
+      768
+    ],
+    [
+      "ol",
+      515
+    ],
+    [
+      "chedy",
+      484
+    ],
+    [
+      "aiin",
+      451
+    ],
+    [
+      "shedy",
+      422
+    ],
+    [
+      "chol",
+      362
+    ],
+    [
+      "or",
+      350
+    ],
+    [
+      "chey",
+      332
+    ],
+    [
+      "ar",
+      327
+    ],
+    [
+      "qokeey",
+      303
+    ],
+    [
+      "qokeedy",
+      302
+    ],
+    [
+      "qokain",
+      276
+    ],
+    [
+      "dar",
+      266
+    ],
+    [
+      "qokedy",
+      266
+    ],
+    [
+      "qokaiin",
+      265
+    ],
+    [
+      "shey",
+      260
+    ],
+    [
+      "al",
+      214
+    ],
+    [
+      "dal",
+      207
+    ],
+    [
+      "dy",
+      206
+    ],
+    [
+      "okaiin",
+      205
+    ]
+  ],
+  "claims": [
+    {
+      "EVA": "chedy",
+      "claimed_plaintext": "DEUS",
+      "total": 484,
+      "distinct_folios": 77,
+      "sections": {
+        "S": 198,
+        "B": 180,
+        "H": 60,
+        "T": 40,
+        "C": 5,
+        "P": 1
+      },
+      "first_examples": [
+        {
+          "folio": "f26r",
+          "line_id": 2
+        },
+        {
+          "folio": "f26v",
+          "line_id": 2
+        },
+        {
+          "folio": "f26v",
+          "line_id": 3
+        },
+        {
+          "folio": "f26v",
+          "line_id": 6
+        },
+        {
+          "folio": "f31r",
+          "line_id": 4
+        },
+        {
+          "folio": "f31r",
+          "line_id": 7
+        }
+      ]
+    },
+    {
+      "EVA": "shedy",
+      "claimed_plaintext": "HEUS",
+      "total": 422,
+      "distinct_folios": 66,
+      "sections": {
+        "B": 218,
+        "S": 117,
+        "T": 43,
+        "H": 35,
+        "C": 8,
+        "P": 1
+      },
+      "first_examples": [
+        {
+          "folio": "f26r",
+          "line_id": 5
+        },
+        {
+          "folio": "f26r",
+          "line_id": 8
+        },
+        {
+          "folio": "f26v",
+          "line_id": 1
+        },
+        {
+          "folio": "f26v",
+          "line_id": 6
+        },
+        {
+          "folio": "f31r",
+          "line_id": 8
+        },
+        {
+          "folio": "f33r",
+          "line_id": 3
+        }
+      ]
+    },
+    {
+      "EVA": "lchedy",
+      "claimed_plaintext": "MEUS",
+      "total": 115,
+      "distinct_folios": 37,
+      "sections": {
+        "S": 52,
+        "B": 51,
+        "T": 9,
+        "H": 3
+      },
+      "first_examples": [
+        {
+          "folio": "f39r",
+          "line_id": 8
+        },
+        {
+          "folio": "f46v",
+          "line_id": 7
+        },
+        {
+          "folio": "f58v",
+          "line_id": 7
+        },
+        {
+          "folio": "f66r",
+          "line_id": 78
+        },
+        {
+          "folio": "f75r",
+          "line_id": 10
+        },
+        {
+          "folio": "f75r",
+          "line_id": 25
+        }
+      ]
+    },
+    {
+      "EVA": "qol",
+      "claimed_plaintext": "NON",
+      "total": 138,
+      "distinct_folios": 36,
+      "sections": {
+        "B": 101,
+        "S": 27,
+        "T": 4,
+        "P": 4,
+        "H": 2
+      },
+      "first_examples": [
+        {
+          "folio": "f18v",
+          "line_id": 5
+        },
+        {
+          "folio": "f38v",
+          "line_id": 7
+        },
+        {
+          "folio": "f75r",
+          "line_id": 18
+        },
+        {
+          "folio": "f75r",
+          "line_id": 19
+        },
+        {
+          "folio": "f75r",
+          "line_id": 23
+        },
+        {
+          "folio": "f75v",
+          "line_id": 12
+        }
+      ]
+    },
+    {
+      "EVA": "qokol",
+      "claimed_plaintext": "NOCET",
+      "total": 94,
+      "distinct_folios": 55,
+      "sections": {
+        "H": 32,
+        "P": 22,
+        "B": 21,
+        "S": 14,
+        "T": 4,
+        "C": 1
+      },
+      "first_examples": [
+        {
+          "folio": "f3r",
+          "line_id": 5
+        },
+        {
+          "folio": "f3r",
+          "line_id": 16
+        },
+        {
+          "folio": "f10v",
+          "line_id": 6
+        },
+        {
+          "folio": "f10v",
+          "line_id": 7
+        },
+        {
+          "folio": "f13v",
+          "line_id": 2
+        },
+        {
+          "folio": "f16r",
+          "line_id": 11
+        }
+      ]
+    },
+    {
+      "EVA": "chol",
+      "claimed_plaintext": "DAT",
+      "total": 362,
+      "distinct_folios": 138,
+      "sections": {
+        "H": 211,
+        "S": 70,
+        "P": 43,
+        "T": 19,
+        "B": 10,
+        "C": 6,
+        "A": 3
+      },
+      "first_examples": [
+        {
+          "folio": "f1r",
+          "line_id": 14
+        },
+        {
+          "folio": "f1r",
+          "line_id": 15
+        },
+        {
+          "folio": "f1r",
+          "line_id": 15
+        },
+        {
+          "folio": "f1r",
+          "line_id": 16
+        },
+        {
+          "folio": "f1r",
+          "line_id": 22
+        },
+        {
+          "folio": "f1r",
+          "line_id": 23
+        }
+      ]
+    },
+    {
+      "EVA": "daiin",
+      "claimed_plaintext": "OLEUM",
+      "total": 768,
+      "distinct_folios": 190,
+      "sections": {
+        "H": 411,
+        "S": 129,
+        "P": 94,
+        "B": 80,
+        "T": 31,
+        "C": 17,
+        "A": 4,
+        "Z": 2
+      },
+      "first_examples": [
+        {
+          "folio": "f1r",
+          "line_id": 4
+        },
+        {
+          "folio": "f1r",
+          "line_id": 9
+        },
+        {
+          "folio": "f1r",
+          "line_id": 12
+        },
+        {
+          "folio": "f1r",
+          "line_id": 15
+        },
+        {
+          "folio": "f1r",
+          "line_id": 24
+        },
+        {
+          "folio": "f1r",
+          "line_id": 24
+        }
+      ]
+    },
+    {
+      "EVA": "oly",
+      "claimed_plaintext": "FLOS",
+      "total": 48,
+      "distinct_folios": 28,
+      "sections": {
+        "B": 24,
+        "S": 9,
+        "H": 7,
+        "T": 6,
+        "A": 1,
+        "P": 1
+      },
+      "first_examples": [
+        {
+          "folio": "f3v",
+          "line_id": 1
+        },
+        {
+          "folio": "f38r",
+          "line_id": 1
+        },
+        {
+          "folio": "f40v",
+          "line_id": 5
+        },
+        {
+          "folio": "f41v",
+          "line_id": 7
+        },
+        {
+          "folio": "f47r",
+          "line_id": 1
+        },
+        {
+          "folio": "f48v",
+          "line_id": 9
+        }
+      ]
+    },
+    {
+      "EVA": "okaiin",
+      "claimed_plaintext": "FOCUM",
+      "total": 205,
+      "distinct_folios": 89,
+      "sections": {
+        "S": 98,
+        "H": 56,
+        "B": 31,
+        "T": 11,
+        "P": 6,
+        "C": 2,
+        "Z": 1
+      },
+      "first_examples": [
+        {
+          "folio": "f1r",
+          "line_id": 4
+        },
+        {
+          "folio": "f4r",
+          "line_id": 4
+        },
+        {
+          "folio": "f6r",
+          "line_id": 7
+        },
+        {
+          "folio": "f15r",
+          "line_id": 11
+        },
+        {
+          "folio": "f15v",
+          "line_id": 3
+        },
+        {
+          "folio": "f16v",
+          "line_id": 9
+        }
+      ]
+    }
+  ],
+  "claim_line_colocations": {
+    "chedy & qol": 42,
+    "chedy & chol": 14,
+    "qol & qokol": 1,
+    "chedy & shedy": 72
+  }
+}

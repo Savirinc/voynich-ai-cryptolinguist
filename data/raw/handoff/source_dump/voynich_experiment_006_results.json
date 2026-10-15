@@ -1,0 +1,210 @@
+{
+  "test_A_known_caesar": {
+    "shift_used": 11,
+    "best_shift": 11,
+    "top_3": [
+      [
+        11,
+        66.784
+      ],
+      [
+        24,
+        2733.859
+      ],
+      [
+        17,
+        2804.653
+      ]
+    ],
+    "exactly_recovered": true,
+    "english_original_metrics": {
+      "n_characters": 782,
+      "distinct_characters": 24,
+      "index_coincidence": 0.07084,
+      "conditional_entropy_bits": 3.2017,
+      "top_symbols": [
+        [
+          "e",
+          115
+        ],
+        [
+          "t",
+          71
+        ],
+        [
+          "s",
+          66
+        ],
+        [
+          "n",
+          66
+        ],
+        [
+          "a",
+          59
+        ],
+        [
+          "o",
+          57
+        ],
+        [
+          "i",
+          52
+        ],
+        [
+          "r",
+          48
+        ]
+      ]
+    },
+    "english_cipher_metrics": {
+      "n_characters": 782,
+      "distinct_characters": 24,
+      "index_coincidence": 0.07084,
+      "conditional_entropy_bits": 3.2017,
+      "top_symbols": [
+        [
+          "p",
+          115
+        ],
+        [
+          "e",
+          71
+        ],
+        [
+          "d",
+          66
+        ],
+        [
+          "y",
+          66
+        ],
+        [
+          "l",
+          59
+        ],
+        [
+          "z",
+          57
+        ],
+        [
+          "t",
+          52
+        ],
+        [
+          "c",
+          48
+        ]
+      ]
+    }
+  },
+  "test_B_voynich": {
+    "sample_files": [
+      "voynich_f1r_sample.txt",
+      "voynich_heldout_f1v_f2r.txt",
+      "voynich_f3r_reference.txt"
+    ],
+    "accepted_tokens": 437,
+    "voynich_metrics": {
+      "n_characters": 2019,
+      "distinct_characters": 20,
+      "index_coincidence": 0.08017,
+      "conditional_entropy_bits": 2.2875,
+      "top_symbols": [
+        [
+          "o",
+          297
+        ],
+        [
+          "h",
+          254
+        ],
+        [
+          "c",
+          179
+        ],
+        [
+          "y",
+          158
+        ],
+        [
+          "a",
+          153
+        ],
+        [
+          "i",
+          132
+        ],
+        [
+          "d",
+          122
+        ],
+        [
+          "s",
+          116
+        ]
+      ]
+    },
+    "shuffled_voynich_metrics": {
+      "n_characters": 2019,
+      "distinct_characters": 20,
+      "index_coincidence": 0.08017,
+      "conditional_entropy_bits": 3.7334,
+      "top_symbols": [
+        [
+          "o",
+          297
+        ],
+        [
+          "h",
+          254
+        ],
+        [
+          "c",
+          179
+        ],
+        [
+          "y",
+          158
+        ],
+        [
+          "a",
+          153
+        ],
+        [
+          "i",
+          132
+        ],
+        [
+          "d",
+          122
+        ],
+        [
+          "s",
+          116
+        ]
+      ]
+    },
+    "caesar_scan_top3": [
+      [
+        0,
+        1938.883
+      ],
+      [
+        22,
+        4387.801
+      ],
+      [
+        16,
+        6707.124
+      ]
+    ]
+  },
+  "warnings": [
+    "Caesar ciphertext recovery is a toy calibration, not a Voynich decipherment.",
+    "EVA characters are not guaranteed to correspond one-to-one with genuine Voynich glyphs.",
+    "Samples are early Currier A folios; not representative of full manuscript.",
+    "Shuffling concatenated letters destroys word boundaries and is only a coarse order baseline.",
+    "English baseline is a short authored demonstration, not a medieval language corpus."
+  ]
+}

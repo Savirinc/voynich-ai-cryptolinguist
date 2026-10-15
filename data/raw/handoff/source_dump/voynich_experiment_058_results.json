@@ -1,0 +1,436 @@
+{
+  "experiment": "058",
+  "source": "User-supplied IVTFF EVA ZL3b DOCX",
+  "dataset": {
+    "clean_running_tokens": 32132,
+    "train": 23760,
+    "validation": 2216,
+    "test": 6156,
+    "training_word_types": 5694,
+    "training_leaves": 77,
+    "test_leaves": 15,
+    "q_pairs_training_min2": 158,
+    "m_pairs_training_min2": 53
+  },
+  "models": {
+    "raw": {
+      "validation_bits_per_word": 11.28834,
+      "test_bits_per_word": 11.34276,
+      "params": [
+        0.15,
+        0.2,
+        3
+      ],
+      "merged_types": 0,
+      "test_unseen_word_tokens": 916
+    },
+    "q_only": {
+      "validation_bits_per_word": 11.28441,
+      "test_bits_per_word": 11.3415,
+      "params": [
+        0.15,
+        0.2,
+        3
+      ],
+      "merged_types": 158,
+      "test_unseen_word_tokens": 916
+    },
+    "m_only": {
+      "validation_bits_per_word": 11.27604,
+      "test_bits_per_word": 11.332,
+      "params": [
+        0.15,
+        0.2,
+        3
+      ],
+      "merged_types": 53,
+      "test_unseen_word_tokens": 916
+    },
+    "q_and_m": {
+      "validation_bits_per_word": 11.27175,
+      "test_bits_per_word": 11.33027,
+      "params": [
+        0.15,
+        0.2,
+        3
+      ],
+      "merged_types": 208,
+      "test_unseen_word_tokens": 916
+    }
+  },
+  "controls": [
+    {
+      "iteration": 0,
+      "test_bits_per_word": 11.34577,
+      "merged_types": 211
+    },
+    {
+      "iteration": 1,
+      "test_bits_per_word": 11.34315,
+      "merged_types": 211
+    },
+    {
+      "iteration": 2,
+      "test_bits_per_word": 11.34076,
+      "merged_types": 211
+    },
+    {
+      "iteration": 3,
+      "test_bits_per_word": 11.34163,
+      "merged_types": 211
+    },
+    {
+      "iteration": 4,
+      "test_bits_per_word": 11.34726,
+      "merged_types": 211
+    },
+    {
+      "iteration": 5,
+      "test_bits_per_word": 11.33104,
+      "merged_types": 211
+    },
+    {
+      "iteration": 6,
+      "test_bits_per_word": 11.34174,
+      "merged_types": 211
+    },
+    {
+      "iteration": 7,
+      "test_bits_per_word": 11.33663,
+      "merged_types": 211
+    },
+    {
+      "iteration": 8,
+      "test_bits_per_word": 11.33422,
+      "merged_types": 211
+    },
+    {
+      "iteration": 9,
+      "test_bits_per_word": 11.34206,
+      "merged_types": 211
+    },
+    {
+      "iteration": 10,
+      "test_bits_per_word": 11.35008,
+      "merged_types": 211
+    },
+    {
+      "iteration": 11,
+      "test_bits_per_word": 11.33435,
+      "merged_types": 211
+    },
+    {
+      "iteration": 12,
+      "test_bits_per_word": 11.3348,
+      "merged_types": 211
+    },
+    {
+      "iteration": 13,
+      "test_bits_per_word": 11.33584,
+      "merged_types": 211
+    },
+    {
+      "iteration": 14,
+      "test_bits_per_word": 11.33858,
+      "merged_types": 211
+    },
+    {
+      "iteration": 15,
+      "test_bits_per_word": 11.33531,
+      "merged_types": 211
+    },
+    {
+      "iteration": 16,
+      "test_bits_per_word": 11.3345,
+      "merged_types": 211
+    },
+    {
+      "iteration": 17,
+      "test_bits_per_word": 11.33743,
+      "merged_types": 211
+    },
+    {
+      "iteration": 18,
+      "test_bits_per_word": 11.33825,
+      "merged_types": 211
+    },
+    {
+      "iteration": 19,
+      "test_bits_per_word": 11.34391,
+      "merged_types": 210
+    }
+  ],
+  "method": "Held-out original word probability: P(canonical word | preceding canonical word) * P(original surface | canonical, preceding word ends y, line ends). Character ngram fallback for unseen word forms. Parameters selected on the original validation split, then fixed across five follow-up splits.",
+  "control_summary": {
+    "mean_test_bits_per_word": 11.3393655,
+    "sd": 0.004901613484353929,
+    "min": 11.33104,
+    "max": 11.35008,
+    "empirical_fraction_controls_not_worse_than_true": 0.047619047619047616,
+    "warning": "Random controls preserve approximate sizes and train-frequency ranks, not exact distribution of contextual word features."
+  },
+  "m_only_placebos": {
+    "runs": [
+      {
+        "iteration": 0,
+        "test_bits_per_word": 11.33628,
+        "merged_types": 53
+      },
+      {
+        "iteration": 1,
+        "test_bits_per_word": 11.33389,
+        "merged_types": 53
+      },
+      {
+        "iteration": 2,
+        "test_bits_per_word": 11.33358,
+        "merged_types": 53
+      },
+      {
+        "iteration": 3,
+        "test_bits_per_word": 11.3291,
+        "merged_types": 53
+      },
+      {
+        "iteration": 4,
+        "test_bits_per_word": 11.33279,
+        "merged_types": 53
+      },
+      {
+        "iteration": 5,
+        "test_bits_per_word": 11.33351,
+        "merged_types": 53
+      },
+      {
+        "iteration": 6,
+        "test_bits_per_word": 11.334,
+        "merged_types": 53
+      },
+      {
+        "iteration": 7,
+        "test_bits_per_word": 11.33034,
+        "merged_types": 53
+      },
+      {
+        "iteration": 8,
+        "test_bits_per_word": 11.32789,
+        "merged_types": 53
+      },
+      {
+        "iteration": 9,
+        "test_bits_per_word": 11.33214,
+        "merged_types": 53
+      },
+      {
+        "iteration": 10,
+        "test_bits_per_word": 11.33183,
+        "merged_types": 53
+      },
+      {
+        "iteration": 11,
+        "test_bits_per_word": 11.33035,
+        "merged_types": 53
+      },
+      {
+        "iteration": 12,
+        "test_bits_per_word": 11.3303,
+        "merged_types": 53
+      },
+      {
+        "iteration": 13,
+        "test_bits_per_word": 11.33062,
+        "merged_types": 53
+      },
+      {
+        "iteration": 14,
+        "test_bits_per_word": 11.3299,
+        "merged_types": 53
+      },
+      {
+        "iteration": 15,
+        "test_bits_per_word": 11.33273,
+        "merged_types": 53
+      },
+      {
+        "iteration": 16,
+        "test_bits_per_word": 11.33451,
+        "merged_types": 53
+      },
+      {
+        "iteration": 17,
+        "test_bits_per_word": 11.33124,
+        "merged_types": 53
+      },
+      {
+        "iteration": 18,
+        "test_bits_per_word": 11.33165,
+        "merged_types": 53
+      },
+      {
+        "iteration": 19,
+        "test_bits_per_word": 11.33326,
+        "merged_types": 53
+      },
+      {
+        "iteration": 20,
+        "test_bits_per_word": 11.33273,
+        "merged_types": 53
+      },
+      {
+        "iteration": 21,
+        "test_bits_per_word": 11.32955,
+        "merged_types": 53
+      },
+      {
+        "iteration": 22,
+        "test_bits_per_word": 11.33252,
+        "merged_types": 53
+      },
+      {
+        "iteration": 23,
+        "test_bits_per_word": 11.33051,
+        "merged_types": 53
+      },
+      {
+        "iteration": 24,
+        "test_bits_per_word": 11.33283,
+        "merged_types": 53
+      },
+      {
+        "iteration": 25,
+        "test_bits_per_word": 11.33044,
+        "merged_types": 53
+      },
+      {
+        "iteration": 26,
+        "test_bits_per_word": 11.33144,
+        "merged_types": 53
+      },
+      {
+        "iteration": 27,
+        "test_bits_per_word": 11.33121,
+        "merged_types": 53
+      },
+      {
+        "iteration": 28,
+        "test_bits_per_word": 11.33422,
+        "merged_types": 53
+      },
+      {
+        "iteration": 29,
+        "test_bits_per_word": 11.33201,
+        "merged_types": 53
+      },
+      {
+        "iteration": 30,
+        "test_bits_per_word": 11.33374,
+        "merged_types": 53
+      },
+      {
+        "iteration": 31,
+        "test_bits_per_word": 11.33292,
+        "merged_types": 53
+      },
+      {
+        "iteration": 32,
+        "test_bits_per_word": 11.33122,
+        "merged_types": 53
+      },
+      {
+        "iteration": 33,
+        "test_bits_per_word": 11.33359,
+        "merged_types": 53
+      },
+      {
+        "iteration": 34,
+        "test_bits_per_word": 11.33314,
+        "merged_types": 53
+      },
+      {
+        "iteration": 35,
+        "test_bits_per_word": 11.32844,
+        "merged_types": 53
+      },
+      {
+        "iteration": 36,
+        "test_bits_per_word": 11.3345,
+        "merged_types": 53
+      },
+      {
+        "iteration": 37,
+        "test_bits_per_word": 11.33047,
+        "merged_types": 53
+      },
+      {
+        "iteration": 38,
+        "test_bits_per_word": 11.33311,
+        "merged_types": 53
+      },
+      {
+        "iteration": 39,
+        "test_bits_per_word": 11.33299,
+        "merged_types": 53
+      },
+      {
+        "iteration": 40,
+        "test_bits_per_word": 11.33507,
+        "merged_types": 53
+      },
+      {
+        "iteration": 41,
+        "test_bits_per_word": 11.33204,
+        "merged_types": 53
+      },
+      {
+        "iteration": 42,
+        "test_bits_per_word": 11.33663,
+        "merged_types": 53
+      },
+      {
+        "iteration": 43,
+        "test_bits_per_word": 11.33098,
+        "merged_types": 53
+      },
+      {
+        "iteration": 44,
+        "test_bits_per_word": 11.33599,
+        "merged_types": 53
+      },
+      {
+        "iteration": 45,
+        "test_bits_per_word": 11.3368,
+        "merged_types": 53
+      },
+      {
+        "iteration": 46,
+        "test_bits_per_word": 11.32997,
+        "merged_types": 53
+      },
+      {
+        "iteration": 47,
+        "test_bits_per_word": 11.33308,
+        "merged_types": 53
+      },
+      {
+        "iteration": 48,
+        "test_bits_per_word": 11.33353,
+        "merged_types": 53
+      },
+      {
+        "iteration": 49,
+        "test_bits_per_word": 11.33111,
+        "merged_types": 53
+      }
+    ],
+    "mean_test_bits_per_word": 11.332333799999999,
+    "minimum_test_bits_per_word": 11.32789,
+    "empirical_p_lower_is_better": 0.43137254901960786
+  },
+  "limitations": [
+    "No claim of underlying semantic identity; reversible normalization is evaluated on reconstruction of exact original EVA words, not just shorter vocabulary.",
+    "Only transcription-clear running-text words; labels and visually ambiguous glyphs excluded.",
+    "Line boundary metadata comes from IVTFF and could contain transcription artifacts.",
+    "No exhaustive search of medieval French or other language was conducted.",
+    "Unigram/bigram models and randomized controls are model-class-dependent; any apparent gains require replication with other heldout splits and stronger neural baselines."
+  ]
+}

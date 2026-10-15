@@ -1,0 +1,13 @@
+context,segmentation,bits_per_word,difference_vs_raw,beats_raw_in_folds
+2,EVA_raw,11.61642,0.0,0
+2,bench_glyphs,11.56983,-0.04658,5
+2,common_endings_control,11.64343,0.02701,0
+2,learned_8,11.56189,-0.05453,5
+2,minim_groups,11.61869,0.00227,2
+2,qo_and_bench,11.57468,-0.04174,5
+3,EVA_raw,11.66411,0.0,0
+3,bench_glyphs,11.76214,0.09803,0
+3,common_endings_control,11.88431,0.2202,0
+3,learned_8,11.93019,0.26608,0
+3,minim_groups,11.70277,0.03866,0
+3,qo_and_bench,11.78973,0.12562,0

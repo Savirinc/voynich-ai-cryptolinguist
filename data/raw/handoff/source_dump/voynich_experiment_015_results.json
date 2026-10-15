@@ -1,0 +1,805 @@
+{
+  "method": "clean-paragraph-word parsing inherited from Experiment 014; compare prefix/suffix distributions and word-family changes, without inferring meaning",
+  "groups": {
+    "A": {
+      "n": 10823,
+      "unique": 2966,
+      "prefix_top": [
+        [
+          "ch",
+          2088
+        ],
+        [
+          "qo",
+          1026
+        ],
+        [
+          "da",
+          1023
+        ],
+        [
+          "sh",
+          961
+        ],
+        [
+          "ok",
+          554
+        ],
+        [
+          "ot",
+          425
+        ],
+        [
+          "ct",
+          386
+        ],
+        [
+          "yk",
+          197
+        ],
+        [
+          "yt",
+          175
+        ],
+        [
+          "do",
+          174
+        ],
+        [
+          "ol",
+          158
+        ],
+        [
+          "kc",
+          140
+        ]
+      ],
+      "suffix_top": [
+        [
+          "in",
+          1651
+        ],
+        [
+          "ol",
+          1469
+        ],
+        [
+          "or",
+          1004
+        ],
+        [
+          "hy",
+          972
+        ],
+        [
+          "ey",
+          939
+        ],
+        [
+          "dy",
+          593
+        ],
+        [
+          "ar",
+          461
+        ],
+        [
+          "al",
+          383
+        ],
+        [
+          "ho",
+          300
+        ],
+        [
+          "ky",
+          182
+        ],
+        [
+          "am",
+          172
+        ],
+        [
+          "ty",
+          155
+        ]
+      ],
+      "initial_top": [
+        [
+          "c",
+          2718
+        ],
+        [
+          "o",
+          1829
+        ],
+        [
+          "d",
+          1634
+        ],
+        [
+          "s",
+          1459
+        ],
+        [
+          "q",
+          1068
+        ],
+        [
+          "y",
+          672
+        ],
+        [
+          "k",
+          455
+        ],
+        [
+          "t",
+          335
+        ],
+        [
+          "a",
+          273
+        ],
+        [
+          "p",
+          116
+        ]
+      ],
+      "final_top": [
+        [
+          "y",
+          3426
+        ],
+        [
+          "l",
+          2041
+        ],
+        [
+          "r",
+          1814
+        ],
+        [
+          "n",
+          1720
+        ],
+        [
+          "o",
+          574
+        ],
+        [
+          "s",
+          512
+        ],
+        [
+          "m",
+          317
+        ],
+        [
+          "d",
+          192
+        ],
+        [
+          "g",
+          54
+        ],
+        [
+          "h",
+          34
+        ]
+      ],
+      "frequent_word_forms": 339
+    },
+    "B": {
+      "n": 22537,
+      "unique": 4508,
+      "prefix_top": [
+        [
+          "qo",
+          3985
+        ],
+        [
+          "ch",
+          3299
+        ],
+        [
+          "sh",
+          1949
+        ],
+        [
+          "ok",
+          1398
+        ],
+        [
+          "ot",
+          1369
+        ],
+        [
+          "da",
+          1004
+        ],
+        [
+          "ol",
+          791
+        ],
+        [
+          "ai",
+          627
+        ],
+        [
+          "lk",
+          407
+        ],
+        [
+          "lc",
+          303
+        ],
+        [
+          "sa",
+          288
+        ],
+        [
+          "yk",
+          284
+        ]
+      ],
+      "suffix_top": [
+        [
+          "dy",
+          5302
+        ],
+        [
+          "in",
+          3830
+        ],
+        [
+          "ey",
+          2587
+        ],
+        [
+          "ar",
+          1533
+        ],
+        [
+          "ol",
+          1193
+        ],
+        [
+          "al",
+          1146
+        ],
+        [
+          "hy",
+          889
+        ],
+        [
+          "or",
+          607
+        ],
+        [
+          "ky",
+          429
+        ],
+        [
+          "am",
+          399
+        ],
+        [
+          "ir",
+          368
+        ],
+        [
+          "eo",
+          245
+        ]
+      ],
+      "initial_top": [
+        [
+          "o",
+          5073
+        ],
+        [
+          "q",
+          4089
+        ],
+        [
+          "c",
+          3430
+        ],
+        [
+          "s",
+          2580
+        ],
+        [
+          "d",
+          1498
+        ],
+        [
+          "a",
+          1431
+        ],
+        [
+          "l",
+          1308
+        ],
+        [
+          "y",
+          950
+        ],
+        [
+          "k",
+          700
+        ],
+        [
+          "t",
+          582
+        ]
+      ],
+      "final_top": [
+        [
+          "y",
+          10154
+        ],
+        [
+          "n",
+          3871
+        ],
+        [
+          "l",
+          3211
+        ],
+        [
+          "r",
+          3146
+        ],
+        [
+          "m",
+          529
+        ],
+        [
+          "s",
+          514
+        ],
+        [
+          "o",
+          511
+        ],
+        [
+          "d",
+          355
+        ],
+        [
+          "k",
+          51
+        ],
+        [
+          "e",
+          43
+        ]
+      ],
+      "frequent_word_forms": 606
+    }
+  },
+  "vocab": {
+    "A_unique": 2966,
+    "B_unique": 4508,
+    "shared_types": 1060,
+    "type_jaccard": 0.1653,
+    "shared_token_fraction_A": 0.7669,
+    "shared_token_fraction_B": 0.6797
+  },
+  "prefix": {
+    "cosine": 0.8956,
+    "largest_relative_differences": [
+      {
+        "unit": "qo",
+        "A_pct": 10.55,
+        "B_pct": 19.5,
+        "absolute_percentage_point_difference": 8.95
+      },
+      {
+        "unit": "da",
+        "A_pct": 10.51,
+        "B_pct": 4.91,
+        "absolute_percentage_point_difference": 5.6
+      },
+      {
+        "unit": "ch",
+        "A_pct": 21.46,
+        "B_pct": 16.14,
+        "absolute_percentage_point_difference": 5.32
+      },
+      {
+        "unit": "ct",
+        "A_pct": 3.97,
+        "B_pct": 0.28,
+        "absolute_percentage_point_difference": 3.69
+      },
+      {
+        "unit": "ot",
+        "A_pct": 4.37,
+        "B_pct": 6.7,
+        "absolute_percentage_point_difference": 2.33
+      },
+      {
+        "unit": "ol",
+        "A_pct": 1.62,
+        "B_pct": 3.87,
+        "absolute_percentage_point_difference": 2.25
+      },
+      {
+        "unit": "lk",
+        "A_pct": 0.06,
+        "B_pct": 1.99,
+        "absolute_percentage_point_difference": 1.93
+      },
+      {
+        "unit": "ai",
+        "A_pct": 1.21,
+        "B_pct": 3.07,
+        "absolute_percentage_point_difference": 1.86
+      },
+      {
+        "unit": "lc",
+        "A_pct": 0.11,
+        "B_pct": 1.48,
+        "absolute_percentage_point_difference": 1.37
+      },
+      {
+        "unit": "ck",
+        "A_pct": 1.43,
+        "B_pct": 0.14,
+        "absolute_percentage_point_difference": 1.29
+      },
+      {
+        "unit": "do",
+        "A_pct": 1.79,
+        "B_pct": 0.5,
+        "absolute_percentage_point_difference": 1.28
+      },
+      {
+        "unit": "ok",
+        "A_pct": 5.69,
+        "B_pct": 6.84,
+        "absolute_percentage_point_difference": 1.15
+      }
+    ]
+  },
+  "suffix": {
+    "cosine": 0.7497,
+    "largest_relative_differences": [
+      {
+        "unit": "dy",
+        "A_pct": 6.1,
+        "B_pct": 25.94,
+        "absolute_percentage_point_difference": 19.85
+      },
+      {
+        "unit": "ol",
+        "A_pct": 15.1,
+        "B_pct": 5.84,
+        "absolute_percentage_point_difference": 9.26
+      },
+      {
+        "unit": "or",
+        "A_pct": 10.32,
+        "B_pct": 2.97,
+        "absolute_percentage_point_difference": 7.35
+      },
+      {
+        "unit": "hy",
+        "A_pct": 9.99,
+        "B_pct": 4.35,
+        "absolute_percentage_point_difference": 5.64
+      },
+      {
+        "unit": "ey",
+        "A_pct": 9.65,
+        "B_pct": 12.66,
+        "absolute_percentage_point_difference": 3.01
+      },
+      {
+        "unit": "ho",
+        "A_pct": 3.08,
+        "B_pct": 0.31,
+        "absolute_percentage_point_difference": 2.77
+      },
+      {
+        "unit": "ar",
+        "A_pct": 4.74,
+        "B_pct": 7.5,
+        "absolute_percentage_point_difference": 2.76
+      },
+      {
+        "unit": "in",
+        "A_pct": 16.97,
+        "B_pct": 18.74,
+        "absolute_percentage_point_difference": 1.77
+      },
+      {
+        "unit": "al",
+        "A_pct": 3.94,
+        "B_pct": 5.61,
+        "absolute_percentage_point_difference": 1.67
+      },
+      {
+        "unit": "ed",
+        "A_pct": 0.02,
+        "B_pct": 0.88,
+        "absolute_percentage_point_difference": 0.86
+      },
+      {
+        "unit": "os",
+        "A_pct": 1.36,
+        "B_pct": 0.6,
+        "absolute_percentage_point_difference": 0.76
+      },
+      {
+        "unit": "od",
+        "A_pct": 0.98,
+        "B_pct": 0.38,
+        "absolute_percentage_point_difference": 0.59
+      }
+    ]
+  },
+  "word_families": {
+    "frequent_word_threshold": 15,
+    "eligible_word_forms": 334,
+    "edit_distance_1_pairs": 922,
+    "examples": [
+      {
+        "words": [
+          "daiin",
+          "aiin"
+        ],
+        "A_counts": [
+          497,
+          84
+        ],
+        "B_counts": [
+          305,
+          367
+        ]
+      },
+      {
+        "words": [
+          "daiin",
+          "dain"
+        ],
+        "A_counts": [
+          497,
+          98
+        ],
+        "B_counts": [
+          305,
+          110
+        ]
+      },
+      {
+        "words": [
+          "daiin",
+          "saiin"
+        ],
+        "A_counts": [
+          497,
+          36
+        ],
+        "B_counts": [
+          305,
+          84
+        ]
+      },
+      {
+        "words": [
+          "shedy",
+          "chedy"
+        ],
+        "A_counts": [
+          2,
+          1
+        ],
+        "B_counts": [
+          421,
+          488
+        ]
+      },
+      {
+        "words": [
+          "or",
+          "ol"
+        ],
+        "A_counts": [
+          103,
+          106
+        ],
+        "B_counts": [
+          256,
+          417
+        ]
+      },
+      {
+        "words": [
+          "daiin",
+          "kaiin"
+        ],
+        "A_counts": [
+          497,
+          18
+        ],
+        "B_counts": [
+          305,
+          59
+        ]
+      },
+      {
+        "words": [
+          "daiin",
+          "raiin"
+        ],
+        "A_counts": [
+          497,
+          4
+        ],
+        "B_counts": [
+          305,
+          57
+        ]
+      },
+      {
+        "words": [
+          "daiin",
+          "odaiin"
+        ],
+        "A_counts": [
+          497,
+          28
+        ],
+        "B_counts": [
+          305,
+          29
+        ]
+      },
+      {
+        "words": [
+          "daiin",
+          "taiin"
+        ],
+        "A_counts": [
+          497,
+          16
+        ],
+        "B_counts": [
+          305,
+          29
+        ]
+      },
+      {
+        "words": [
+          "daiin",
+          "oaiin"
+        ],
+        "A_counts": [
+          497,
+          12
+        ],
+        "B_counts": [
+          305,
+          10
+        ]
+      },
+      {
+        "words": [
+          "daiin",
+          "daiiin"
+        ],
+        "A_counts": [
+          497,
+          12
+        ],
+        "B_counts": [
+          305,
+          8
+        ]
+      },
+      {
+        "words": [
+          "chey",
+          "chedy"
+        ],
+        "A_counts": [
+          87,
+          1
+        ],
+        "B_counts": [
+          246,
+          488
+        ]
+      },
+      {
+        "words": [
+          "daiin",
+          "daiir"
+        ],
+        "A_counts": [
+          497,
+          9
+        ],
+        "B_counts": [
+          305,
+          7
+        ]
+      },
+      {
+        "words": [
+          "daiin",
+          "ydaiin"
+        ],
+        "A_counts": [
+          497,
+          11
+        ],
+        "B_counts": [
+          305,
+          4
+        ]
+      },
+      {
+        "words": [
+          "ol",
+          "al"
+        ],
+        "A_counts": [
+          106,
+          27
+        ],
+        "B_counts": [
+          417,
+          185
+        ]
+      },
+      {
+        "words": [
+          "ol",
+          "l"
+        ],
+        "A_counts": [
+          106,
+          28
+        ],
+        "B_counts": [
+          417,
+          134
+        ]
+      },
+      {
+        "words": [
+          "shey",
+          "shedy"
+        ],
+        "A_counts": [
+          59,
+          2
+        ],
+        "B_counts": [
+          199,
+          421
+        ]
+      },
+      {
+        "words": [
+          "ar",
+          "or"
+        ],
+        "A_counts": [
+          52,
+          103
+        ],
+        "B_counts": [
+          260,
+          256
+        ]
+      }
+    ],
+    "caveat": "Orthographic resemblance cannot establish etymological or grammatical relation"
+  }
+}

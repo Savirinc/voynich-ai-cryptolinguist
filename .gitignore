@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/raw/corpora/pg/
+data/raw/corpora/pg_catalog.csv
+data/raw/corpora/fetch.log
+checkpoints/*.pt
+.DS_Store
+data/derived/lm_cache/

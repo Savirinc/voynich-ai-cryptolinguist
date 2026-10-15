@@ -1,0 +1,68 @@
+{
+  "experiment": 41,
+  "train_signs": [
+    "Pisces",
+    "Aries"
+  ],
+  "held_out_sign": "Taurus",
+  "train_clean": 43,
+  "test_clean": 17,
+  "original_sign_label_counts": {
+    "Aries": 30,
+    "Pisces": 29,
+    "Taurus": 30
+  },
+  "method": "Position-conditioned category likelihood from Pisces and Aries (slot +/-2), tested on Taurus EVA categories. Permutations randomly reassign Taurus labels to slots. Provisional transcription order, not validated degree order. 5000 shuffles per feature.",
+  "metrics": {
+    "prefix1": {
+      "n_test": 17,
+      "mean_log_probability": -1.4653205452854545,
+      "shuffled_mean": -1.3929850551542855,
+      "difference": -0.07233549013116902,
+      "shuffle_95_pct": [
+        -1.5204951126726063,
+        -1.1798485833222885
+      ],
+      "p_better_than_shuffle": 0.6140771845630874
+    },
+    "prefix2": {
+      "n_test": 17,
+      "mean_log_probability": -2.359254050290203,
+      "shuffled_mean": -2.3660693356363423,
+      "difference": 0.006815285346139177,
+      "shuffle_95_pct": [
+        -2.468001348266769,
+        -2.187957562516255
+      ],
+      "p_better_than_shuffle": 0.36532693461307736
+    },
+    "suffix2": {
+      "n_test": 17,
+      "mean_log_probability": -3.458750187063159,
+      "shuffled_mean": -3.341372062992237,
+      "difference": -0.11737812407092196,
+      "shuffle_95_pct": [
+        -3.729169552983674,
+        -2.9258563481739572
+      ],
+      "p_better_than_shuffle": 0.7068586282743451
+    },
+    "length_bucket": {
+      "n_test": 17,
+      "mean_log_probability": -0.7757041261589429,
+      "shuffled_mean": -0.7653505210682029,
+      "difference": -0.010353605090740015,
+      "shuffle_95_pct": [
+        -0.8045521704021654,
+        -0.7378290595969921
+      ],
+      "p_better_than_shuffle": 0.6476704659068186
+    }
+  },
+  "limitations": [
+    "No decipherment or translations are inferred",
+    "Provisional label order is not verified zodiac-degree order",
+    "Small sample and multiple tested features",
+    "A negative result does not eliminate unknown language/complex cipher"
+  ]
+}

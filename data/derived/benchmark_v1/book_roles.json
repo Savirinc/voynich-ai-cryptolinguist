@@ -1,0 +1,912 @@
+{
+ "18203": {
+  "lang": "af",
+  "family": "germanic",
+  "role": "ref"
+ },
+ "42302": {
+  "lang": "af",
+  "family": "germanic",
+  "role": "tune"
+ },
+ "66835": {
+  "lang": "af",
+  "family": "germanic",
+  "role": "test"
+ },
+ "72345": {
+  "lang": "af",
+  "family": "germanic",
+  "role": "test"
+ },
+ "76953": {
+  "lang": "af",
+  "family": "germanic",
+  "role": "tune"
+ },
+ "77225": {
+  "lang": "af",
+  "family": "germanic",
+  "role": "ref"
+ },
+ "10752": {
+  "lang": "bg",
+  "family": "slavic",
+  "role": "ref"
+ },
+ "2890": {
+  "lang": "bg",
+  "family": "slavic",
+  "role": "test"
+ },
+ "2894": {
+  "lang": "bg",
+  "family": "slavic",
+  "role": "tune"
+ },
+ "4909": {
+  "lang": "bg",
+  "family": "slavic",
+  "role": "ref"
+ },
+ "18198": {
+  "lang": "ca",
+  "family": "romance",
+  "role": "ref"
+ },
+ "36231": {
+  "lang": "ca",
+  "family": "romance",
+  "role": "tune"
+ },
+ "63871": {
+  "lang": "ca",
+  "family": "romance",
+  "role": "ref"
+ },
+ "73408": {
+  "lang": "ca",
+  "family": "romance",
+  "role": "tune"
+ },
+ "73457": {
+  "lang": "ca",
+  "family": "romance",
+  "role": "test"
+ },
+ "74977": {
+  "lang": "ca",
+  "family": "romance",
+  "role": "test"
+ },
+ "20820": {
+  "lang": "ceb",
+  "family": "austronesian",
+  "role": "ref"
+ },
+ "47869": {
+  "lang": "ceb",
+  "family": "austronesian",
+  "role": "test"
+ },
+ "13083": {
+  "lang": "cs",
+  "family": "slavic",
+  "role": "ref"
+ },
+ "16843": {
+  "lang": "cs",
+  "family": "slavic",
+  "role": "test"
+ },
+ "27960": {
+  "lang": "cs",
+  "family": "slavic",
+  "role": "tune"
+ },
+ "37525": {
+  "lang": "cs",
+  "family": "slavic",
+  "role": "tune"
+ },
+ "59765": {
+  "lang": "cs",
+  "family": "slavic",
+  "role": "test"
+ },
+ "68828": {
+  "lang": "cs",
+  "family": "slavic",
+  "role": "ref"
+ },
+ "14354": {
+  "lang": "cy",
+  "family": "celtic",
+  "role": "tune"
+ },
+ "14547": {
+  "lang": "cy",
+  "family": "celtic",
+  "role": "test"
+ },
+ "22528": {
+  "lang": "cy",
+  "family": "celtic",
+  "role": "test"
+ },
+ "2734": {
+  "lang": "cy",
+  "family": "celtic",
+  "role": "ref"
+ },
+ "56275": {
+  "lang": "cy",
+  "family": "celtic",
+  "role": "tune"
+ },
+ "8194": {
+  "lang": "cy",
+  "family": "celtic",
+  "role": "ref"
+ },
+ "12698": {
+  "lang": "da",
+  "family": "germanic",
+  "role": "test"
+ },
+ "34747": {
+  "lang": "da",
+  "family": "germanic",
+  "role": "ref"
+ },
+ "43781": {
+  "lang": "da",
+  "family": "germanic",
+  "role": "tune"
+ },
+ "51384": {
+  "lang": "da",
+  "family": "germanic",
+  "role": "test"
+ },
+ "65485": {
+  "lang": "da",
+  "family": "germanic",
+  "role": "tune"
+ },
+ "76723": {
+  "lang": "da",
+  "family": "germanic",
+  "role": "ref"
+ },
+ "23532": {
+  "lang": "de",
+  "family": "germanic",
+  "role": "test"
+ },
+ "29746": {
+  "lang": "de",
+  "family": "germanic",
+  "role": "test"
+ },
+ "31170": {
+  "lang": "de",
+  "family": "germanic",
+  "role": "ref"
+ },
+ "39667": {
+  "lang": "de",
+  "family": "germanic",
+  "role": "ref"
+ },
+ "58520": {
+  "lang": "de",
+  "family": "germanic",
+  "role": "tune"
+ },
+ "79333": {
+  "lang": "de",
+  "family": "germanic",
+  "role": "tune"
+ },
+ "32179": {
+  "lang": "el",
+  "family": "hellenic",
+  "role": "test"
+ },
+ "34874": {
+  "lang": "el",
+  "family": "hellenic",
+  "role": "tune"
+ },
+ "35320": {
+  "lang": "el",
+  "family": "hellenic",
+  "role": "tune"
+ },
+ "37395": {
+  "lang": "el",
+  "family": "hellenic",
+  "role": "test"
+ },
+ "38915": {
+  "lang": "el",
+  "family": "hellenic",
+  "role": "ref"
+ },
+ "39365": {
+  "lang": "el",
+  "family": "hellenic",
+  "role": "ref"
+ },
+ "15390": {
+  "lang": "en",
+  "family": "germanic",
+  "role": "test"
+ },
+ "27767": {
+  "lang": "en",
+  "family": "germanic",
+  "role": "ref"
+ },
+ "38857": {
+  "lang": "en",
+  "family": "germanic",
+  "role": "tune"
+ },
+ "63580": {
+  "lang": "en",
+  "family": "germanic",
+  "role": "tune"
+ },
+ "77804": {
+  "lang": "en",
+  "family": "germanic",
+  "role": "ref"
+ },
+ "78299": {
+  "lang": "en",
+  "family": "germanic",
+  "role": "test"
+ },
+ "17179": {
+  "lang": "enm",
+  "family": "germanic",
+  "role": "test"
+ },
+ "17400": {
+  "lang": "enm",
+  "family": "germanic",
+  "role": "ref"
+ },
+ "22120": {
+  "lang": "enm",
+  "family": "germanic",
+  "role": "tune"
+ },
+ "18836": {
+  "lang": "eo",
+  "family": "constructed",
+  "role": "ref"
+ },
+ "20006": {
+  "lang": "eo",
+  "family": "constructed",
+  "role": "test"
+ },
+ "23093": {
+  "lang": "eo",
+  "family": "constructed",
+  "role": "tune"
+ },
+ "48033": {
+  "lang": "eo",
+  "family": "constructed",
+  "role": "tune"
+ },
+ "62394": {
+  "lang": "eo",
+  "family": "constructed",
+  "role": "ref"
+ },
+ "78054": {
+  "lang": "eo",
+  "family": "constructed",
+  "role": "test"
+ },
+ "12503": {
+  "lang": "es",
+  "family": "romance",
+  "role": "ref"
+ },
+ "2000": {
+  "lang": "es",
+  "family": "romance",
+  "role": "ref"
+ },
+ "25320": {
+  "lang": "es",
+  "family": "romance",
+  "role": "tune"
+ },
+ "54522": {
+  "lang": "es",
+  "family": "romance",
+  "role": "tune"
+ },
+ "58077": {
+  "lang": "es",
+  "family": "romance",
+  "role": "test"
+ },
+ "63030": {
+  "lang": "es",
+  "family": "romance",
+  "role": "test"
+ },
+ "47876": {
+  "lang": "fi",
+  "family": "uralic",
+  "role": "tune"
+ },
+ "57571": {
+  "lang": "fi",
+  "family": "uralic",
+  "role": "test"
+ },
+ "59562": {
+  "lang": "fi",
+  "family": "uralic",
+  "role": "test"
+ },
+ "59582": {
+  "lang": "fi",
+  "family": "uralic",
+  "role": "tune"
+ },
+ "74424": {
+  "lang": "fi",
+  "family": "uralic",
+  "role": "ref"
+ },
+ "78303": {
+  "lang": "fi",
+  "family": "uralic",
+  "role": "ref"
+ },
+ "13668": {
+  "lang": "fr",
+  "family": "romance",
+  "role": "test"
+ },
+ "22780": {
+  "lang": "fr",
+  "family": "romance",
+  "role": "ref"
+ },
+ "65263": {
+  "lang": "fr",
+  "family": "romance",
+  "role": "ref"
+ },
+ "70746": {
+  "lang": "fr",
+  "family": "romance",
+  "role": "tune"
+ },
+ "74694": {
+  "lang": "fr",
+  "family": "romance",
+  "role": "tune"
+ },
+ "76416": {
+  "lang": "fr",
+  "family": "romance",
+  "role": "test"
+ },
+ "16190": {
+  "lang": "fur",
+  "family": "romance",
+  "role": "tune"
+ },
+ "27460": {
+  "lang": "fur",
+  "family": "romance",
+  "role": "test"
+ },
+ "28487": {
+  "lang": "fur",
+  "family": "romance",
+  "role": "ref"
+ },
+ "19864": {
+  "lang": "fy",
+  "family": "germanic",
+  "role": "ref"
+ },
+ "60480": {
+  "lang": "fy",
+  "family": "germanic",
+  "role": "tune"
+ },
+ "63023": {
+  "lang": "fy",
+  "family": "germanic",
+  "role": "test"
+ },
+ "73963": {
+  "lang": "fy",
+  "family": "germanic",
+  "role": "test"
+ },
+ "73982": {
+  "lang": "fy",
+  "family": "germanic",
+  "role": "ref"
+ },
+ "79329": {
+  "lang": "fy",
+  "family": "germanic",
+  "role": "tune"
+ },
+ "16122": {
+  "lang": "ga",
+  "family": "celtic",
+  "role": "tune"
+ },
+ "50913": {
+  "lang": "ga",
+  "family": "celtic",
+  "role": "test"
+ },
+ "78815": {
+  "lang": "ga",
+  "family": "celtic",
+  "role": "test"
+ },
+ "78840": {
+  "lang": "ga",
+  "family": "celtic",
+  "role": "ref"
+ },
+ "79587": {
+  "lang": "ga",
+  "family": "celtic",
+  "role": "ref"
+ },
+ "21564": {
+  "lang": "gl",
+  "family": "romance",
+  "role": "ref"
+ },
+ "65703": {
+  "lang": "gl",
+  "family": "romance",
+  "role": "test"
+ },
+ "18291": {
+  "lang": "he",
+  "family": "semitic",
+  "role": "test"
+ },
+ "43740": {
+  "lang": "he",
+  "family": "semitic",
+  "role": "tune"
+ },
+ "45252": {
+  "lang": "he",
+  "family": "semitic",
+  "role": "ref"
+ },
+ "4778": {
+  "lang": "he",
+  "family": "semitic",
+  "role": "tune"
+ },
+ "5139": {
+  "lang": "he",
+  "family": "semitic",
+  "role": "ref"
+ },
+ "61024": {
+  "lang": "he",
+  "family": "semitic",
+  "role": "test"
+ },
+ "43324": {
+  "lang": "hu",
+  "family": "uralic",
+  "role": "test"
+ },
+ "62692": {
+  "lang": "hu",
+  "family": "uralic",
+  "role": "ref"
+ },
+ "64932": {
+  "lang": "hu",
+  "family": "uralic",
+  "role": "test"
+ },
+ "66589": {
+  "lang": "hu",
+  "family": "uralic",
+  "role": "tune"
+ },
+ "68489": {
+  "lang": "hu",
+  "family": "uralic",
+  "role": "ref"
+ },
+ "73913": {
+  "lang": "hu",
+  "family": "uralic",
+  "role": "tune"
+ },
+ "15548": {
+  "lang": "ilo",
+  "family": "austronesian",
+  "role": "test"
+ },
+ "15624": {
+  "lang": "ilo",
+  "family": "austronesian",
+  "role": "ref"
+ },
+ "15178": {
+  "lang": "is",
+  "family": "germanic",
+  "role": "tune"
+ },
+ "16696": {
+  "lang": "is",
+  "family": "germanic",
+  "role": "ref"
+ },
+ "16846": {
+  "lang": "is",
+  "family": "germanic",
+  "role": "tune"
+ },
+ "17025": {
+  "lang": "is",
+  "family": "germanic",
+  "role": "ref"
+ },
+ "19960": {
+  "lang": "is",
+  "family": "germanic",
+  "role": "test"
+ },
+ "22137": {
+  "lang": "is",
+  "family": "germanic",
+  "role": "test"
+ },
+ "17906": {
+  "lang": "it",
+  "family": "romance",
+  "role": "ref"
+ },
+ "25318": {
+  "lang": "it",
+  "family": "romance",
+  "role": "test"
+ },
+ "30032": {
+  "lang": "it",
+  "family": "romance",
+  "role": "tune"
+ },
+ "62339": {
+  "lang": "it",
+  "family": "romance",
+  "role": "ref"
+ },
+ "65179": {
+  "lang": "it",
+  "family": "romance",
+  "role": "tune"
+ },
+ "76652": {
+  "lang": "it",
+  "family": "romance",
+  "role": "test"
+ },
+ "29645": {
+  "lang": "la",
+  "family": "romance",
+  "role": "test"
+ },
+ "45527": {
+  "lang": "la",
+  "family": "romance",
+  "role": "tune"
+ },
+ "49697": {
+  "lang": "la",
+  "family": "romance",
+  "role": "test"
+ },
+ "51139": {
+  "lang": "la",
+  "family": "romance",
+  "role": "ref"
+ },
+ "52692": {
+  "lang": "la",
+  "family": "romance",
+  "role": "ref"
+ },
+ "828": {
+  "lang": "la",
+  "family": "romance",
+  "role": "tune"
+ },
+ "15215": {
+  "lang": "nl",
+  "family": "germanic",
+  "role": "test"
+ },
+ "15690": {
+  "lang": "nl",
+  "family": "germanic",
+  "role": "tune"
+ },
+ "18877": {
+  "lang": "nl",
+  "family": "germanic",
+  "role": "tune"
+ },
+ "28581": {
+  "lang": "nl",
+  "family": "germanic",
+  "role": "ref"
+ },
+ "49879": {
+  "lang": "nl",
+  "family": "germanic",
+  "role": "test"
+ },
+ "62067": {
+  "lang": "nl",
+  "family": "germanic",
+  "role": "ref"
+ },
+ "34062": {
+  "lang": "no",
+  "family": "germanic",
+  "role": "ref"
+ },
+ "34183": {
+  "lang": "no",
+  "family": "germanic",
+  "role": "test"
+ },
+ "56863": {
+  "lang": "no",
+  "family": "germanic",
+  "role": "tune"
+ },
+ "59635": {
+  "lang": "no",
+  "family": "germanic",
+  "role": "test"
+ },
+ "63200": {
+  "lang": "no",
+  "family": "germanic",
+  "role": "tune"
+ },
+ "77368": {
+  "lang": "no",
+  "family": "germanic",
+  "role": "ref"
+ },
+ "27178": {
+  "lang": "pl",
+  "family": "slavic",
+  "role": "tune"
+ },
+ "27871": {
+  "lang": "pl",
+  "family": "slavic",
+  "role": "ref"
+ },
+ "31536": {
+  "lang": "pl",
+  "family": "slavic",
+  "role": "ref"
+ },
+ "33598": {
+  "lang": "pl",
+  "family": "slavic",
+  "role": "test"
+ },
+ "36526": {
+  "lang": "pl",
+  "family": "slavic",
+  "role": "tune"
+ },
+ "6000": {
+  "lang": "pl",
+  "family": "slavic",
+  "role": "test"
+ },
+ "17610": {
+  "lang": "pt",
+  "family": "romance",
+  "role": "tune"
+ },
+ "20508": {
+  "lang": "pt",
+  "family": "romance",
+  "role": "ref"
+ },
+ "26325": {
+  "lang": "pt",
+  "family": "romance",
+  "role": "ref"
+ },
+ "28364": {
+  "lang": "pt",
+  "family": "romance",
+  "role": "test"
+ },
+ "34039": {
+  "lang": "pt",
+  "family": "romance",
+  "role": "test"
+ },
+ "71274": {
+  "lang": "pt",
+  "family": "romance",
+  "role": "tune"
+ },
+ "11756": {
+  "lang": "ro",
+  "family": "romance",
+  "role": "ref"
+ },
+ "35323": {
+  "lang": "ro",
+  "family": "romance",
+  "role": "test"
+ },
+ "62916": {
+  "lang": "ro",
+  "family": "romance",
+  "role": "test"
+ },
+ "64597": {
+  "lang": "ro",
+  "family": "romance",
+  "role": "tune"
+ },
+ "65565": {
+  "lang": "ro",
+  "family": "romance",
+  "role": "ref"
+ },
+ "14741": {
+  "lang": "ru",
+  "family": "slavic",
+  "role": "ref"
+ },
+ "16527": {
+  "lang": "ru",
+  "family": "slavic",
+  "role": "tune"
+ },
+ "30774": {
+  "lang": "ru",
+  "family": "slavic",
+  "role": "ref"
+ },
+ "37196": {
+  "lang": "ru",
+  "family": "slavic",
+  "role": "test"
+ },
+ "34126": {
+  "lang": "sl",
+  "family": "slavic",
+  "role": "test"
+ },
+ "59722": {
+  "lang": "sl",
+  "family": "slavic",
+  "role": "ref"
+ },
+ "75797": {
+  "lang": "sl",
+  "family": "slavic",
+  "role": "ref"
+ },
+ "78286": {
+  "lang": "sl",
+  "family": "slavic",
+  "role": "tune"
+ },
+ "11291": {
+  "lang": "sr",
+  "family": "slavic",
+  "role": "test"
+ },
+ "11292": {
+  "lang": "sr",
+  "family": "slavic",
+  "role": "ref"
+ },
+ "15008": {
+  "lang": "sr",
+  "family": "slavic",
+  "role": "tune"
+ },
+ "15719": {
+  "lang": "sv",
+  "family": "germanic",
+  "role": "test"
+ },
+ "15731": {
+  "lang": "sv",
+  "family": "germanic",
+  "role": "tune"
+ },
+ "30525": {
+  "lang": "sv",
+  "family": "germanic",
+  "role": "test"
+ },
+ "49720": {
+  "lang": "sv",
+  "family": "germanic",
+  "role": "ref"
+ },
+ "65225": {
+  "lang": "sv",
+  "family": "germanic",
+  "role": "tune"
+ },
+ "71070": {
+  "lang": "sv",
+  "family": "germanic",
+  "role": "ref"
+ },
+ "39004": {
+  "lang": "te",
+  "family": "dravidian",
+  "role": "ref"
+ },
+ "15628": {
+  "lang": "tl",
+  "family": "austronesian",
+  "role": "test"
+ },
+ "15981": {
+  "lang": "tl",
+  "family": "austronesian",
+  "role": "test"
+ },
+ "18282": {
+  "lang": "tl",
+  "family": "austronesian",
+  "role": "ref"
+ },
+ "18306": {
+  "lang": "tl",
+  "family": "austronesian",
+  "role": "tune"
+ },
+ "18858": {
+  "lang": "tl",
+  "family": "austronesian",
+  "role": "ref"
+ },
+ "18955": {
+  "lang": "tl",
+  "family": "austronesian",
+  "role": "tune"
+ }
+}

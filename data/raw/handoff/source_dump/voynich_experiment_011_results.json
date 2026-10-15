@@ -1,0 +1,71 @@
+{
+  "method": "Greedy nonoverlapping reversible digraph tokenization, respecting word boundaries. Compare baseline (letters only), ch/sh and five most frequent within-word digraphs chosen independently per corpus.",
+  "middle_english_source": "local hand-extracted Chaucer sample, not a representative language corpus",
+  "voynich_source": "four early local EVA folio samples, ambiguous tokens excluded",
+  "middle_english_pairs": [
+    "th",
+    "he",
+    "ha",
+    "nd",
+    "en"
+  ],
+  "voynich_pairs": [
+    "ch",
+    "ho",
+    "ol",
+    "ai",
+    "da"
+  ],
+  "middle_english": {
+    "letters": {
+      "words": 243,
+      "units": 1044,
+      "distinct_units": 23,
+      "H_next_unit_bits": 2.7002,
+      "units_per_word": 4.296
+    },
+    "ch_sh": {
+      "words": 243,
+      "units": 1034,
+      "distinct_units": 25,
+      "H_next_unit_bits": 2.6796,
+      "units_per_word": 4.255
+    },
+    "five_common_pairs": {
+      "words": 243,
+      "units": 949,
+      "distinct_units": 28,
+      "H_next_unit_bits": 2.7804,
+      "units_per_word": 3.905
+    }
+  },
+  "voynich": {
+    "letters": {
+      "words": 504,
+      "units": 2325,
+      "distinct_units": 20,
+      "H_next_unit_bits": 2.0653,
+      "units_per_word": 4.613
+    },
+    "ch_sh": {
+      "words": 504,
+      "units": 2099,
+      "distinct_units": 22,
+      "H_next_unit_bits": 2.1904,
+      "units_per_word": 4.165
+    },
+    "five_common_pairs": {
+      "words": 504,
+      "units": 1910,
+      "distinct_units": 25,
+      "H_next_unit_bits": 2.3849,
+      "units_per_word": 3.79
+    }
+  },
+  "limitations": [
+    "A digraph token is a reversible recoding, not a demonstrated medieval cipher.",
+    "Entropy per token cannot be compared directly across tokenizations with different units per word.",
+    "Different reference genres, text lengths, and EVA glyph conventions confound language inference.",
+    "No plaintext, cipher key, or matched historical-language result recovered."
+  ]
+}

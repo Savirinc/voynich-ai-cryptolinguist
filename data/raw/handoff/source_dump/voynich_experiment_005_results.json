@@ -1,0 +1,94 @@
+{
+  "mode": "heldout_sample",
+  "source": "f1v,f2r,f3r",
+  "tests": {
+    "f1v": {
+      "lines": 10,
+      "tokens": 92,
+      "results": {
+        "initial": {
+          "p": 0.07299,
+          "stat": 17.045,
+          "observed_y": 1,
+          "expected_y": 0.29,
+          "observed_final_o": 1,
+          "expected_final_o": 1.15
+        },
+        "final": {
+          "p": 0.29554,
+          "stat": 7.167,
+          "observed_y": 4,
+          "expected_y": 3.68,
+          "observed_final_o": 1,
+          "expected_final_o": 1.0
+        }
+      }
+    },
+    "f2r": {
+      "lines": 13,
+      "tokens": 97,
+      "results": {
+        "initial": {
+          "p": 0.18496,
+          "stat": 10.523,
+          "observed_y": 1,
+          "expected_y": 1.57,
+          "observed_final_o": 2,
+          "expected_final_o": 0.62
+        },
+        "final": {
+          "p": 0.5199,
+          "stat": 4.744,
+          "observed_y": 2,
+          "expected_y": 4.45,
+          "observed_final_o": 1,
+          "expected_final_o": 0.38
+        }
+      }
+    },
+    "f3r": {
+      "lines": 20,
+      "tokens": 114,
+      "results": {
+        "initial": {
+          "p": 0.0002,
+          "stat": 32.175,
+          "observed_y": 5,
+          "expected_y": 1.46,
+          "observed_final_o": 5,
+          "expected_final_o": 3.55
+        },
+        "final": {
+          "p": 0.84263,
+          "stat": 3.32,
+          "observed_y": 2,
+          "expected_y": 3.39,
+          "observed_final_o": 1,
+          "expected_final_o": 0.97
+        }
+      }
+    },
+    "pooled_3_folios": {
+      "lines": 43,
+      "tokens": 303,
+      "results": {
+        "initial": {
+          "p": 0.0014,
+          "stat": 33.185,
+          "observed_y": 7,
+          "expected_y": 3.32,
+          "observed_final_o": 8,
+          "expected_final_o": 5.32
+        },
+        "final": {
+          "p": 0.22855,
+          "stat": 12.041,
+          "observed_y": 8,
+          "expected_y": 11.51,
+          "observed_final_o": 3,
+          "expected_final_o": 2.35
+        }
+      }
+    }
+  }
+}

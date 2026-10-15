@@ -1,0 +1,703 @@
+{
+  "method": "IVTFF EVA ZL3b running text; conservative clear word forms, preserve physical line and paragraph boundaries",
+  "counts": {
+    "running_lines": 4119,
+    "running_tokens": 32132,
+    "word_types": 6846,
+    "allographs_word_final": {
+      "m": {
+        "final": 848,
+        "internal": 42
+      },
+      "n": {
+        "final": 5561,
+        "internal": 146
+      },
+      "i": {
+        "final": 7,
+        "internal": 10704
+      },
+      "q": {
+        "final": 0,
+        "internal": 5215
+      }
+    }
+  },
+  "pairs": {
+    "iin_vs_m": {
+      "pair": "iin -> m",
+      "matched_families": 42,
+      "matched_total": 3318,
+      "four_cell": {
+        "short_at_line_end": 357,
+        "long_at_line_end": 287,
+        "short_internal": 138,
+        "long_internal": 2536
+      },
+      "unadjusted_OR": 22.858960763520678,
+      "unadjusted_CI95": [
+        18.13873447332935,
+        28.807527226140955
+      ],
+      "fisher_p": 7.998837521790948e-181,
+      "matched_stem_currier": {
+        "strata": 63,
+        "odds_ratio": 19.890554002978487,
+        "confint": [
+          15.16745204043665,
+          26.08441665024798
+        ],
+        "test_p": 0.0
+      },
+      "line_fill_proxy": {
+        "iin": {
+          "n": 217,
+          "median": 1.0535714285714286,
+          "mean": 1.098393749841112
+        },
+        "m": {
+          "n": 314,
+          "median": 1.1346153846153846,
+          "mean": 1.138093551093615
+        }
+      },
+      "line_fill_MW_p": 0.0001347542413495477,
+      "paragraph_end_vs_ordinary_end": {
+        "paragraph_short": 34,
+        "paragraph_long": 65,
+        "ordinary_short": 323,
+        "ordinary_long": 222,
+        "OR": 0.3595141700404858,
+        "p": 5.381923761978502e-06
+      },
+      "examples": [
+        {
+          "stem": "da",
+          "long": "daiin",
+          "short": "dam",
+          "long_n": 763,
+          "short_n": 76
+        },
+        {
+          "stem": "a",
+          "long": "aiin",
+          "short": "am",
+          "long_n": 451,
+          "short_n": 70
+        },
+        {
+          "stem": "ota",
+          "long": "otaiin",
+          "short": "otam",
+          "long_n": 136,
+          "short_n": 43
+        },
+        {
+          "stem": "oka",
+          "long": "okaiin",
+          "short": "okam",
+          "long_n": 201,
+          "short_n": 27
+        },
+        {
+          "stem": "qoka",
+          "long": "qokaiin",
+          "short": "qokam",
+          "long_n": 265,
+          "short_n": 25
+        },
+        {
+          "stem": "o",
+          "long": "oiin",
+          "short": "om",
+          "long_n": 29,
+          "short_n": 20
+        },
+        {
+          "stem": "cha",
+          "long": "chaiin",
+          "short": "cham",
+          "long_n": 45,
+          "short_n": 17
+        },
+        {
+          "stem": "cho",
+          "long": "choiin",
+          "short": "chom",
+          "long_n": 12,
+          "short_n": 13
+        },
+        {
+          "stem": "qota",
+          "long": "qotaiin",
+          "short": "qotam",
+          "long_n": 75,
+          "short_n": 11
+        },
+        {
+          "stem": "yta",
+          "long": "ytaiin",
+          "short": "ytam",
+          "long_n": 38,
+          "short_n": 11
+        },
+        {
+          "stem": "ra",
+          "long": "raiin",
+          "short": "ram",
+          "long_n": 61,
+          "short_n": 11
+        },
+        {
+          "stem": "olka",
+          "long": "olkaiin",
+          "short": "olkam",
+          "long_n": 28,
+          "short_n": 11
+        }
+      ]
+    },
+    "in_vs_m": {
+      "pair": "in -> m",
+      "matched_families": 33,
+      "matched_total": 2897,
+      "four_cell": {
+        "short_at_line_end": 327,
+        "long_at_line_end": 276,
+        "short_internal": 122,
+        "long_internal": 2172
+      },
+      "unadjusted_OR": 21.093014967925875,
+      "unadjusted_CI95": [
+        16.546979803968426,
+        26.888005286042713
+      ],
+      "fisher_p": 6.102690912003671e-157,
+      "matched_stem_currier": {
+        "strata": 50,
+        "odds_ratio": 20.077723859451535,
+        "confint": [
+          14.394955443004084,
+          28.003907130695737
+        ],
+        "test_p": 0.0
+      },
+      "line_fill_proxy": {
+        "in": {
+          "n": 210,
+          "median": 1.0714285714285714,
+          "mean": 1.0960003273006191
+        },
+        "m": {
+          "n": 288,
+          "median": 1.1343180015860428,
+          "mean": 1.1316833642127266
+        }
+      },
+      "line_fill_MW_p": 0.0006133171425871555,
+      "paragraph_end_vs_ordinary_end": {
+        "paragraph_short": 30,
+        "paragraph_long": 63,
+        "ordinary_short": 297,
+        "ordinary_long": 213,
+        "OR": 0.3415103415103415,
+        "p": 4.6396893909448895e-06
+      },
+      "examples": [
+        {
+          "stem": "da",
+          "long": "dain",
+          "short": "dam",
+          "long_n": 187,
+          "short_n": 76
+        },
+        {
+          "stem": "a",
+          "long": "ain",
+          "short": "am",
+          "long_n": 103,
+          "short_n": 70
+        },
+        {
+          "stem": "ota",
+          "long": "otain",
+          "short": "otam",
+          "long_n": 93,
+          "short_n": 43
+        },
+        {
+          "stem": "oka",
+          "long": "okain",
+          "short": "okam",
+          "long_n": 132,
+          "short_n": 27
+        },
+        {
+          "stem": "qoka",
+          "long": "qokain",
+          "short": "qokam",
+          "long_n": 276,
+          "short_n": 25
+        },
+        {
+          "stem": "o",
+          "long": "oin",
+          "short": "om",
+          "long_n": 8,
+          "short_n": 20
+        },
+        {
+          "stem": "cha",
+          "long": "chain",
+          "short": "cham",
+          "long_n": 19,
+          "short_n": 17
+        },
+        {
+          "stem": "yta",
+          "long": "ytain",
+          "short": "ytam",
+          "long_n": 12,
+          "short_n": 11
+        },
+        {
+          "stem": "ra",
+          "long": "rain",
+          "short": "ram",
+          "long_n": 21,
+          "short_n": 11
+        },
+        {
+          "stem": "qota",
+          "long": "qotain",
+          "short": "qotam",
+          "long_n": 60,
+          "short_n": 11
+        },
+        {
+          "stem": "olka",
+          "long": "olkain",
+          "short": "olkam",
+          "long_n": 34,
+          "short_n": 11
+        },
+        {
+          "stem": "chda",
+          "long": "chdain",
+          "short": "chdam",
+          "long_n": 8,
+          "short_n": 10
+        }
+      ]
+    },
+    "iin_vs_n": {
+      "pair": "iin -> n",
+      "matched_families": 15,
+      "matched_total": 2632,
+      "four_cell": {
+        "short_at_line_end": 72,
+        "long_at_line_end": 228,
+        "short_internal": 469,
+        "long_internal": 1863
+      },
+      "unadjusted_OR": 1.2544046683873864,
+      "unadjusted_CI95": [
+        0.9446087193848617,
+        1.6658019768193209
+      ],
+      "fisher_p": 0.12875312628801305,
+      "matched_stem_currier": {
+        "strata": 23,
+        "odds_ratio": 1.9911734949068638,
+        "confint": [
+          1.1709830738294214,
+          3.3858490147545615
+        ],
+        "test_p": 0.0032984716938109226
+      },
+      "line_fill_proxy": {
+        "iin": {
+          "n": 174,
+          "median": 1.051064754454585,
+          "mean": 1.1008243422232329
+        },
+        "n": {
+          "n": 58,
+          "median": 1.0909090909090908,
+          "mean": 1.0484409720263062
+        }
+      },
+      "line_fill_MW_p": 0.9576577854577165,
+      "paragraph_end_vs_ordinary_end": {
+        "paragraph_short": 14,
+        "paragraph_long": 49,
+        "ordinary_short": 58,
+        "ordinary_long": 179,
+        "OR": 0.8817733990147784,
+        "p": 0.8682628445604209
+      },
+      "examples": [
+        {
+          "stem": "dai",
+          "long": "daiiin",
+          "short": "dain",
+          "long_n": 19,
+          "short_n": 187
+        },
+        {
+          "stem": "okai",
+          "long": "okaiiin",
+          "short": "okain",
+          "long_n": 7,
+          "short_n": 132
+        },
+        {
+          "stem": "ai",
+          "long": "aiiin",
+          "short": "ain",
+          "long_n": 44,
+          "short_n": 103
+        },
+        {
+          "stem": "kai",
+          "long": "kaiiin",
+          "short": "kain",
+          "long_n": 4,
+          "short_n": 41
+        },
+        {
+          "stem": "odai",
+          "long": "odaiiin",
+          "short": "odain",
+          "long_n": 5,
+          "short_n": 17
+        },
+        {
+          "stem": "da",
+          "long": "daiin",
+          "short": "dan",
+          "long_n": 763,
+          "short_n": 11
+        },
+        {
+          "stem": "cha",
+          "long": "chaiin",
+          "short": "chan",
+          "long_n": 45,
+          "short_n": 11
+        },
+        {
+          "stem": "qoka",
+          "long": "qokaiin",
+          "short": "qokan",
+          "long_n": 265,
+          "short_n": 8
+        },
+        {
+          "stem": "oi",
+          "long": "oiiin",
+          "short": "oin",
+          "long_n": 12,
+          "short_n": 8
+        },
+        {
+          "stem": "oka",
+          "long": "okaiin",
+          "short": "okan",
+          "long_n": 201,
+          "short_n": 5
+        },
+        {
+          "stem": "soi",
+          "long": "soiiin",
+          "short": "soin",
+          "long_n": 6,
+          "short_n": 5
+        },
+        {
+          "stem": "sha",
+          "long": "shaiin",
+          "short": "shan",
+          "long_n": 20,
+          "short_n": 4
+        }
+      ]
+    },
+    "l_vs_r": {
+      "pair": "l -> r",
+      "matched_families": 125,
+      "matched_total": 7476,
+      "four_cell": {
+        "short_at_line_end": 213,
+        "long_at_line_end": 307,
+        "short_internal": 3186,
+        "long_internal": 3770
+      },
+      "unadjusted_OR": 0.8209879951170737,
+      "unadjusted_CI95": [
+        0.6850394647616167,
+        0.9839159972497382
+      ],
+      "fisher_p": 0.03564892514386543,
+      "matched_stem_currier": {
+        "strata": 113,
+        "odds_ratio": 0.6707096060176913,
+        "confint": [
+          0.5511747973917442,
+          0.8161682604741404
+        ],
+        "test_p": 4.925233268271434e-05
+      },
+      "line_fill_proxy": {
+        "l": {
+          "n": 263,
+          "median": 1.1363636363636365,
+          "mean": 1.1196047068792694
+        },
+        "r": {
+          "n": 170,
+          "median": 1.1195238095238096,
+          "mean": 1.1240510214755846
+        }
+      },
+      "line_fill_MW_p": 0.8092163313465622,
+      "paragraph_end_vs_ordinary_end": {
+        "paragraph_short": 39,
+        "paragraph_long": 40,
+        "ordinary_short": 174,
+        "ordinary_long": 267,
+        "OR": 1.4961206896551724,
+        "p": 0.10720114924951918
+      },
+      "examples": [
+        {
+          "stem": "o",
+          "long": "ol",
+          "short": "or",
+          "long_n": 515,
+          "short_n": 349
+        },
+        {
+          "stem": "a",
+          "long": "al",
+          "short": "ar",
+          "long_n": 211,
+          "short_n": 319
+        },
+        {
+          "stem": "da",
+          "long": "dal",
+          "short": "dar",
+          "long_n": 203,
+          "short_n": 262
+        },
+        {
+          "stem": "cho",
+          "long": "chol",
+          "short": "chor",
+          "long_n": 360,
+          "short_n": 195
+        },
+        {
+          "stem": "qoka",
+          "long": "qokal",
+          "short": "qokar",
+          "long_n": 185,
+          "short_n": 150
+        },
+        {
+          "stem": "ota",
+          "long": "otal",
+          "short": "otar",
+          "long_n": 117,
+          "short_n": 120
+        },
+        {
+          "stem": "oka",
+          "long": "okal",
+          "short": "okar",
+          "long_n": 131,
+          "short_n": 116
+        },
+        {
+          "stem": "sho",
+          "long": "shol",
+          "short": "shor",
+          "long_n": 166,
+          "short_n": 88
+        },
+        {
+          "stem": "cheo",
+          "long": "cheol",
+          "short": "cheor",
+          "long_n": 159,
+          "short_n": 81
+        },
+        {
+          "stem": "cha",
+          "long": "chal",
+          "short": "char",
+          "long_n": 43,
+          "short_n": 76
+        },
+        {
+          "stem": "sa",
+          "long": "sal",
+          "short": "sar",
+          "long_n": 41,
+          "short_n": 64
+        },
+        {
+          "stem": "qota",
+          "long": "qotal",
+          "short": "qotar",
+          "long_n": 58,
+          "short_n": 63
+        }
+      ]
+    },
+    "ey_vs_dy": {
+      "pair": "ey -> dy",
+      "matched_families": 81,
+      "matched_total": 6171,
+      "four_cell": {
+        "short_at_line_end": 223,
+        "long_at_line_end": 110,
+        "short_internal": 3336,
+        "long_internal": 2502
+      },
+      "unadjusted_OR": 1.5204545454545455,
+      "unadjusted_CI95": [
+        1.2030253736326049,
+        1.9216402874469956
+      ],
+      "fisher_p": 0.00039719775720971074,
+      "matched_stem_currier": {
+        "strata": 65,
+        "odds_ratio": 2.076669214164762,
+        "confint": [
+          1.544044558613627,
+          2.7930249816960355
+        ],
+        "test_p": 7.746143501075053e-07
+      },
+      "line_fill_proxy": {
+        "ey": {
+          "n": 63,
+          "median": 1.0819672131147542,
+          "mean": 1.0428705197561055
+        },
+        "dy": {
+          "n": 157,
+          "median": 1.0857142857142856,
+          "mean": 1.060807019575821
+        }
+      },
+      "line_fill_MW_p": 0.8568204961061587,
+      "paragraph_end_vs_ordinary_end": {
+        "paragraph_short": 65,
+        "paragraph_long": 47,
+        "ordinary_short": 158,
+        "ordinary_long": 63,
+        "OR": 0.5514408833827094,
+        "p": 0.018860144671370926
+      },
+      "examples": [
+        {
+          "stem": "che",
+          "long": "cheey",
+          "short": "chedy",
+          "long_n": 172,
+          "short_n": 484
+        },
+        {
+          "stem": "she",
+          "long": "sheey",
+          "short": "shedy",
+          "long_n": 141,
+          "short_n": 421
+        },
+        {
+          "stem": "qokee",
+          "long": "qokeeey",
+          "short": "qokeedy",
+          "long_n": 27,
+          "short_n": 302
+        },
+        {
+          "stem": "qoke",
+          "long": "qokeey",
+          "short": "qokedy",
+          "long_n": 303,
+          "short_n": 266
+        },
+        {
+          "stem": "ote",
+          "long": "oteey",
+          "short": "otedy",
+          "long_n": 99,
+          "short_n": 137
+        },
+        {
+          "stem": "ch",
+          "long": "chey",
+          "short": "chdy",
+          "long_n": 331,
+          "short_n": 131
+        },
+        {
+          "stem": "lche",
+          "long": "lcheey",
+          "short": "lchedy",
+          "long_n": 13,
+          "short_n": 115
+        },
+        {
+          "stem": "oke",
+          "long": "okeey",
+          "short": "okedy",
+          "long_n": 154,
+          "short_n": 105
+        },
+        {
+          "stem": "okee",
+          "long": "okeeey",
+          "short": "okeedy",
+          "long_n": 23,
+          "short_n": 101
+        },
+        {
+          "stem": "qote",
+          "long": "qoteey",
+          "short": "qotedy",
+          "long_n": 41,
+          "short_n": 87
+        },
+        {
+          "stem": "otee",
+          "long": "oteeey",
+          "short": "oteedy",
+          "long_n": 6,
+          "short_n": 87
+        },
+        {
+          "stem": "shee",
+          "long": "sheeey",
+          "short": "sheedy",
+          "long_n": 4,
+          "short_n": 82
+        }
+      ]
+    }
+  },
+  "within_folio_stem_line_length": {
+    "comparable_groups": 26,
+    "matched_line_ending_occurrences": 69,
+    "observed_mean_difference_characters_before_final_word_m_minus_iin": 0.28205128205128216,
+    "pairwise_group_permutation_two_sided_p": 0.9003049847507625,
+    "num_permutations": 20000,
+    "group_positive_differences": 15,
+    "group_negative_differences": 10,
+    "interpretation_caveat": "EVA length is not physical pixel width; tiny within-folio+stem sample; no image geometry validated."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "folio": "f72r1",
+  "feature_grounding": "inner 5 figures stand in tubs; outer 10 do not, as documented by Zandbergen; ring assignment from previously prepared provisional slot map",
+  "inner_labels": [
+    "ofaralar",
+    "otchoshy",
+    "otchdal",
+    "okeey.ary",
+    "otainy"
+  ],
+  "outer_labels": [
+    "oshod[a:o]dy",
+    "chdaiirdainy",
+    "oaiin,ar,ary",
+    "okalam",
+    "ytalshdy",
+    "char.alif",
+    "otaraldy",
+    "otaiin.otain",
+    "otalef,ys.ainam",
+    "ochol,sharam"
+  ],
+  "starts_ot": {
+    "inner_mean": 0.6,
+    "outer_mean": 0.3,
+    "difference": 0.3,
+    "permutation_two_sided_p": 0.5804195804195804
+  },
+  "starts_o": {
+    "inner_mean": 1.0,
+    "outer_mean": 0.7,
+    "difference": 0.30000000000000004,
+    "permutation_two_sided_p": 0.5054945054945055
+  },
+  "length": {
+    "inner_mean": 7.4,
+    "outer_mean": 9.6,
+    "difference": -2.1999999999999993,
+    "permutation_two_sided_p": 0.06793206793206794
+  }
+}

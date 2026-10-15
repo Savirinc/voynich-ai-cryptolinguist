@@ -1,0 +1,196 @@
+{
+  "source": "IVTFF Eva.txt.docx, ZL v3b (2025)",
+  "folio_split_seed": 20261012,
+  "folios_total": 179,
+  "folios_train": 143,
+  "folios_test": 36,
+  "train_word_tokens": 22245,
+  "test_word_tokens": 6140,
+  "test_word_oov_fraction": 0.1634,
+  "unique_train_words": 5302,
+  "alphabet_size_including_space_newline": 27,
+  "char_models": {
+    "order_0": {
+      "bits_per_character": 3.9684,
+      "perplexity": 15.653,
+      "unseen_context_rate": 0.0
+    },
+    "order_1": {
+      "bits_per_character": 2.1303,
+      "perplexity": 4.378,
+      "unseen_context_rate": 0.0
+    },
+    "order_2": {
+      "bits_per_character": 1.8801,
+      "perplexity": 3.681,
+      "unseen_context_rate": 0.0003
+    },
+    "order_3": {
+      "bits_per_character": 1.8932,
+      "perplexity": 3.715,
+      "unseen_context_rate": 0.0038
+    }
+  },
+  "word_bigram": {
+    "seen_previous_word_fraction": 0.8661,
+    "top_1_accuracy_when_previous_seen": 0.0275,
+    "global_most_common_word_baseline_accuracy": 0.0248
+  },
+  "example_next_word_predictions": {
+    "daiin": [
+      [
+        "chedy",
+        9
+      ],
+      [
+        "chey",
+        8
+      ],
+      [
+        "shey",
+        8
+      ],
+      [
+        "okaiin",
+        8
+      ],
+      [
+        "cthy",
+        7
+      ]
+    ],
+    "chol": [
+      [
+        "daiin",
+        21
+      ],
+      [
+        "chol",
+        17
+      ],
+      [
+        "chy",
+        7
+      ],
+      [
+        "shol",
+        6
+      ],
+      [
+        "cthol",
+        5
+      ]
+    ],
+    "qokedy": [
+      [
+        "qokeedy",
+        11
+      ],
+      [
+        "qokedy",
+        9
+      ],
+      [
+        "shedy",
+        8
+      ],
+      [
+        "chedy",
+        8
+      ],
+      [
+        "otedy",
+        7
+      ]
+    ],
+    "chedy": [
+      [
+        "qokain",
+        13
+      ],
+      [
+        "qokeey",
+        12
+      ],
+      [
+        "qokeedy",
+        11
+      ],
+      [
+        "qokedy",
+        11
+      ],
+      [
+        "qol",
+        9
+      ]
+    ],
+    "ol": [
+      [
+        "shedy",
+        19
+      ],
+      [
+        "chedy",
+        18
+      ],
+      [
+        "aiin",
+        12
+      ],
+      [
+        "cheey",
+        9
+      ],
+      [
+        "sheey",
+        6
+      ]
+    ],
+    "ot": [
+      [
+        "olkchy",
+        1
+      ],
+      [
+        "kar",
+        1
+      ],
+      [
+        "dy",
+        1
+      ],
+      [
+        "dain",
+        1
+      ],
+      [
+        "chedar",
+        1
+      ]
+    ],
+    "<BOS>": [
+      [
+        "daiin",
+        110
+      ],
+      [
+        "saiin",
+        43
+      ],
+      [
+        "dain",
+        35
+      ],
+      [
+        "sho",
+        28
+      ],
+      [
+        "or",
+        27
+      ]
+    ]
+  },
+  "caveat": "This predicts EVA surface forms, not meaning; all metrics are held-out folio comparisons; conservative regex rejects many editorial/uncertain forms."
+}

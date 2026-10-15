@@ -1,0 +1,72 @@
+{
+  "dataset": "uploaded ZL3b docx; conservative parser from experiment 014",
+  "task": "predict final 2 EVA characters of token from immediate word context, using folio holdout",
+  "groups": {
+    "A": {
+      "train_folios": 91,
+      "test_folios": 23,
+      "train_tokens": 4873,
+      "test_tokens": 1195,
+      "classes": [
+        "OTHER",
+        "ey",
+        "hy",
+        "in",
+        "ol",
+        "or"
+      ],
+      "baseline_majority_accuracy": 0.2912,
+      "models": {
+        "context": {
+          "accuracy": 0.3197,
+          "log_loss": 1.6795
+        },
+        "stem": {
+          "accuracy": 0.5674,
+          "log_loss": 0.9717
+        },
+        "combined": {
+          "accuracy": 0.5883,
+          "log_loss": 0.942
+        }
+      },
+      "shuffled_context": {
+        "accuracy": 0.2854,
+        "log_loss": 1.7585
+      }
+    },
+    "B": {
+      "train_folios": 65,
+      "test_folios": 17,
+      "train_tokens": 11270,
+      "test_tokens": 3424,
+      "classes": [
+        "OTHER",
+        "al",
+        "ar",
+        "dy",
+        "ey",
+        "in"
+      ],
+      "baseline_majority_accuracy": 0.2564,
+      "models": {
+        "context": {
+          "accuracy": 0.3548,
+          "log_loss": 1.554
+        },
+        "stem": {
+          "accuracy": 0.6361,
+          "log_loss": 0.8597
+        },
+        "combined": {
+          "accuracy": 0.6673,
+          "log_loss": 0.823
+        }
+      },
+      "shuffled_context": {
+        "accuracy": 0.2518,
+        "log_loss": 1.7161
+      }
+    }
+  }
+}

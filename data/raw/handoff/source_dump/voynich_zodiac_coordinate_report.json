@@ -1,0 +1,103 @@
+{
+  "source": "User-provided Zandbergen-Landini IVTFF EVA version 3b; not independent celestial coordinates",
+  "clock_position_records": 298,
+  "counts_by_panel": {
+    "f70v2": 29,
+    "f70v1": 15,
+    "f71r": 15,
+    "f71v": 15,
+    "f72r1": 15,
+    "f72r2": 29,
+    "f72r3": 30,
+    "f72v3": 30,
+    "f72v2": 30,
+    "f72v1": 30,
+    "f73r": 30,
+    "f73v": 30
+  },
+  "without_parseable_clock_position": 1,
+  "clock_positions_are_transcriber_page_locations_not_star_coordinates": true,
+  "no_verified_starting_degree_or_direction": true,
+  "examples": [
+    {
+      "folio": "f70v2",
+      "record": 2,
+      "loc": "@Lz",
+      "clock_position": "09:00",
+      "angle_clockwise_from_top_deg": 270.0,
+      "raw_transcription": "otalalg",
+      "unambiguous_simple": true
+    },
+    {
+      "folio": "f70v2",
+      "record": 3,
+      "loc": "&Lz",
+      "clock_position": "10:00",
+      "angle_clockwise_from_top_deg": 300.0,
+      "raw_transcription": "ykary",
+      "unambiguous_simple": true
+    },
+    {
+      "folio": "f70v2",
+      "record": 4,
+      "loc": "&Lz",
+      "clock_position": "10:30",
+      "angle_clockwise_from_top_deg": 315.0,
+      "raw_transcription": "otar?",
+      "unambiguous_simple": false
+    },
+    {
+      "folio": "f70v2",
+      "record": 5,
+      "loc": "&Lz",
+      "clock_position": "11:00",
+      "angle_clockwise_from_top_deg": 330.0,
+      "raw_transcription": "oty",
+      "unambiguous_simple": true
+    },
+    {
+      "folio": "f70v2",
+      "record": 6,
+      "loc": "&Lz",
+      "clock_position": "11:30",
+      "angle_clockwise_from_top_deg": 345.0,
+      "raw_transcription": "oky.ody",
+      "unambiguous_simple": true
+    },
+    {
+      "folio": "f70v2",
+      "record": 7,
+      "loc": "&Lz",
+      "clock_position": "00:00",
+      "angle_clockwise_from_top_deg": 0.0,
+      "raw_transcription": "oty.ar",
+      "unambiguous_simple": true
+    },
+    {
+      "folio": "f70v2",
+      "record": 8,
+      "loc": "&Lz",
+      "clock_position": "00:30",
+      "angle_clockwise_from_top_deg": 15.0,
+      "raw_transcription": "okala",
+      "unambiguous_simple": true
+    },
+    {
+      "folio": "f70v2",
+      "record": 9,
+      "loc": "&Lz",
+      "clock_position": "01:00",
+      "angle_clockwise_from_top_deg": 30.0,
+      "raw_transcription": "otody",
+      "unambiguous_simple": true
+    }
+  ],
+  "omissions": [
+    {
+      "folio": "f70v2",
+      "record": "33",
+      "reason": "no recorded clock position",
+      "raw": "otolal"
+    }
+  ]
+}

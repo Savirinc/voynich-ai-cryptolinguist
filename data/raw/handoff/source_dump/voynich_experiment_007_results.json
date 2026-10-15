@@ -1,0 +1,167 @@
+{
+  "scope": {
+    "files": [
+      "voynich_f1r_sample.txt",
+      "voynich_heldout_f1v_f2r.txt",
+      "voynich_f3r_reference.txt"
+    ],
+    "tokens": 437,
+    "folio_scope": "opening folios only, transcription-derived"
+  },
+  "EVA_character_units": {
+    "units": 2019,
+    "unit_types": 20,
+    "within_word_transitions": 1582,
+    "index_of_coincidence": 0.08017,
+    "conditional_entropy_bits": 2.0539,
+    "top_units": [
+      [
+        "o",
+        297
+      ],
+      [
+        "h",
+        254
+      ],
+      [
+        "c",
+        179
+      ],
+      [
+        "y",
+        158
+      ],
+      [
+        "a",
+        153
+      ],
+      [
+        "i",
+        132
+      ],
+      [
+        "d",
+        122
+      ],
+      [
+        "s",
+        116
+      ],
+      [
+        "l",
+        108
+      ],
+      [
+        "e",
+        105
+      ]
+    ]
+  },
+  "EVA_ch_sh_as_merged_units": {
+    "units": 1822,
+    "unit_types": 22,
+    "within_word_transitions": 1385,
+    "index_of_coincidence": 0.074,
+    "conditional_entropy_bits": 2.1808,
+    "top_units": [
+      [
+        "o",
+        297
+      ],
+      [
+        "y",
+        158
+      ],
+      [
+        "a",
+        153
+      ],
+      [
+        "i",
+        132
+      ],
+      [
+        "ch",
+        122
+      ],
+      [
+        "d",
+        122
+      ],
+      [
+        "l",
+        108
+      ],
+      [
+        "e",
+        105
+      ],
+      [
+        "k",
+        88
+      ],
+      [
+        "r",
+        86
+      ]
+    ]
+  },
+  "random_bijective_substitution": {
+    "invariants_equal": false,
+    "metric_values": {
+      "units": 2019,
+      "unit_types": 20,
+      "within_word_transitions": 1582,
+      "index_of_coincidence": 0.08017,
+      "conditional_entropy_bits": 2.0539,
+      "top_units": [
+        [
+          "f",
+          297
+        ],
+        [
+          "y",
+          254
+        ],
+        [
+          "a",
+          179
+        ],
+        [
+          "q",
+          158
+        ],
+        [
+          "l",
+          153
+        ],
+        [
+          "n",
+          132
+        ],
+        [
+          "r",
+          122
+        ],
+        [
+          "i",
+          116
+        ],
+        [
+          "s",
+          108
+        ],
+        [
+          "o",
+          105
+        ]
+      ]
+    }
+  },
+  "limitations": [
+    "Merging ch/sh is a sensitivity analysis only: not a verified glyph segmentation.",
+    "Entropy is measured inside words; experiment 006 joined all words into a single string, so figures are not directly comparable.",
+    "Different symbol inventories can have different entropy values, and directly comparing raw bits per symbol can mislead.",
+    "No medieval language reference corpus or full Voynich corpus was used."
+  ]
+}

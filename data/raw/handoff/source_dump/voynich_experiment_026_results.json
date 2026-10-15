@@ -1,0 +1,48 @@
+{
+  "n_usable": 232,
+  "results": {
+    "start_1_period7": {
+      "observed_MI_bits": 0.14354277330618911,
+      "null_mean": 0.10658791768876781,
+      "null_sd": 0.021420723078892832,
+      "permutation_p": 0.05094905094905095,
+      "n": 232
+    },
+    "start_1_period10": {
+      "observed_MI_bits": 0.14110973371308616,
+      "null_mean": 0.1564832364126151,
+      "null_sd": 0.02284912756698974,
+      "permutation_p": 0.7472527472527473,
+      "n": 232
+    },
+    "start_2_period7": {
+      "observed_MI_bits": 0.2686665914554348,
+      "null_mean": 0.24859457313262456,
+      "null_sd": 0.032695464708146334,
+      "permutation_p": 0.26373626373626374,
+      "n": 232
+    },
+    "start_2_period10": {
+      "observed_MI_bits": 0.3191451410397037,
+      "null_mean": 0.3581965727355259,
+      "null_sd": 0.03452929105577403,
+      "permutation_p": 0.8851148851148851,
+      "n": 232
+    },
+    "end_2_period7": {
+      "observed_MI_bits": 0.3481197844439519,
+      "null_mean": 0.33942231506470155,
+      "null_sd": 0.03924814635280593,
+      "permutation_p": 0.3946053946053946,
+      "n": 232
+    },
+    "end_2_period10": {
+      "observed_MI_bits": 0.44498397403280504,
+      "null_mean": 0.4932236455729286,
+      "null_sd": 0.042932931244111884,
+      "permutation_p": 0.8671328671328671,
+      "n": 232
+    }
+  },
+  "caveat": "Transcription order is not confirmed zodiac degree sequence, so negative results do not rule out planetary cycles. Feature tests exploratory and not corrected for multiple comparisons."
+}

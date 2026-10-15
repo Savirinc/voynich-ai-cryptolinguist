@@ -1,0 +1,96 @@
+{
+  "source": "/mnt/data/IVTFF Eva.txt.docx",
+  "method": "running-text folio.number lines; exact lower-case EVA words only; split on spaces dot comma; editor-uncertain tokens excluded",
+  "lines": 3815,
+  "tokens": 26792,
+  "types": 5327,
+  "all_q_glyph_instances": 4564,
+  "q_at_start": 4538,
+  "q_inside_word": 26,
+  "qo_initial": 4454,
+  "q_prefix_detachment": {
+    "count": 4152,
+    "fraction": 0.9149
+  },
+  "prefix_detachment_comparators": {
+    "q": {
+      "tokens": 4538,
+      "with_attested_stripped_form": 4152,
+      "fraction": 0.9149
+    },
+    "o": {
+      "tokens": 5657,
+      "with_attested_stripped_form": 4143,
+      "fraction": 0.7324
+    },
+    "d": {
+      "tokens": 2437,
+      "with_attested_stripped_form": 2076,
+      "fraction": 0.8519
+    },
+    "s": {
+      "tokens": 3184,
+      "with_attested_stripped_form": 581,
+      "fraction": 0.1825
+    },
+    "c": {
+      "tokens": 5213,
+      "with_attested_stripped_form": 0,
+      "fraction": 0.0
+    },
+    "h": {
+      "tokens": 0,
+      "with_attested_stripped_form": 0,
+      "fraction": null
+    }
+  },
+  "first_following_o_association": {
+    "q_then_o": 4454,
+    "q_then_not_o": 84,
+    "nonq_then_o": 978,
+    "nonq_then_not_o": 21276,
+    "odds_ratio": 1153.5118317265556,
+    "fisher_p": 0.0
+  },
+  "folio_heldout": {
+    "train": {
+      "folios": 143,
+      "tokens": 21462,
+      "q_initial_fraction": 0.1656,
+      "qo_given_q_initial": 0.982
+    },
+    "held_out": {
+      "folios": 36,
+      "tokens": 5330,
+      "q_initial_fraction": 0.1844,
+      "qo_given_q_initial": 0.9797
+    }
+  },
+  "illustrative_pairs": {
+    "qokedy": {
+      "with_q": 257,
+      "without_q": 96
+    },
+    "qokeedy": {
+      "with_q": 294,
+      "without_q": 98
+    },
+    "qokain": {
+      "with_q": 265,
+      "without_q": 124
+    },
+    "qokaiin": {
+      "with_q": 238,
+      "without_q": 184
+    },
+    "qokal": {
+      "with_q": 168,
+      "without_q": 118
+    },
+    "qotedy": {
+      "with_q": 85,
+      "without_q": 127
+    }
+  },
+  "limitation": "Evidence for productive graphic prefix, not evidence for meaning/sound. Stripped counterparts may occur by chance due to frequent short word forms."
+}

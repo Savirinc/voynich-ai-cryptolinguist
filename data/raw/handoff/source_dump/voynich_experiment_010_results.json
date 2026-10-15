@@ -1,0 +1,262 @@
+{
+  "status": "pilot_real_middle_english_not_language_identification",
+  "voynich_source": "local early-folio samples, normalized EVA",
+  "chaucer_source": "Canterbury Tales General Prologue, Gutenberg 22120 lines 1344-1385, hand-extracted and orthographically simplified",
+  "chaucer_word_count": 243,
+  "matched_word_count": 243,
+  "chaucer": {
+    "tokens": 243,
+    "characters": 1044,
+    "vocabulary": 145,
+    "types_per_token": 0.5967,
+    "mean_word_length": 4.2963,
+    "char_entropy": 4.0996,
+    "within_word_conditional_entropy": 2.7002,
+    "top_words": [
+      [
+        "the",
+        12
+      ],
+      [
+        "to",
+        12
+      ],
+      [
+        "and",
+        12
+      ],
+      [
+        "in",
+        10
+      ],
+      [
+        "that",
+        9
+      ],
+      [
+        "with",
+        5
+      ],
+      [
+        "of",
+        5
+      ],
+      [
+        "whan",
+        4
+      ],
+      [
+        "hath",
+        4
+      ],
+      [
+        "i",
+        4
+      ],
+      [
+        "his",
+        3
+      ],
+      [
+        "every",
+        3
+      ]
+    ],
+    "top_characters": [
+      [
+        "e",
+        155
+      ],
+      [
+        "t",
+        94
+      ],
+      [
+        "n",
+        81
+      ],
+      [
+        "h",
+        80
+      ],
+      [
+        "a",
+        79
+      ],
+      [
+        "o",
+        72
+      ],
+      [
+        "r",
+        70
+      ],
+      [
+        "s",
+        59
+      ],
+      [
+        "i",
+        49
+      ],
+      [
+        "l",
+        43
+      ],
+      [
+        "d",
+        42
+      ],
+      [
+        "w",
+        36
+      ]
+    ],
+    "word_length_histogram": {
+      "1": 8,
+      "2": 42,
+      "3": 48,
+      "4": 54,
+      "5": 31,
+      "6": 27,
+      "7": 12,
+      "8": 9,
+      "9": 5,
+      "10": 3,
+      "11": 4
+    }
+  },
+  "voynich_complete_local_sample": {
+    "tokens": 504,
+    "characters": 2325,
+    "vocabulary": 323,
+    "types_per_token": 0.6409,
+    "mean_word_length": 4.6131,
+    "char_entropy": 3.8451,
+    "within_word_conditional_entropy": 2.0653,
+    "top_words": [
+      [
+        "chol",
+        21
+      ],
+      [
+        "daiin",
+        13
+      ],
+      [
+        "chor",
+        11
+      ],
+      [
+        "shol",
+        9
+      ],
+      [
+        "cthy",
+        9
+      ],
+      [
+        "dain",
+        8
+      ],
+      [
+        "or",
+        7
+      ],
+      [
+        "dar",
+        7
+      ],
+      [
+        "s",
+        6
+      ],
+      [
+        "sho",
+        6
+      ],
+      [
+        "dan",
+        5
+      ],
+      [
+        "chy",
+        5
+      ]
+    ],
+    "top_characters": [
+      [
+        "o",
+        340
+      ],
+      [
+        "h",
+        288
+      ],
+      [
+        "c",
+        207
+      ],
+      [
+        "y",
+        183
+      ],
+      [
+        "a",
+        179
+      ],
+      [
+        "i",
+        156
+      ],
+      [
+        "d",
+        146
+      ],
+      [
+        "s",
+        132
+      ],
+      [
+        "l",
+        127
+      ],
+      [
+        "e",
+        114
+      ],
+      [
+        "r",
+        97
+      ],
+      [
+        "k",
+        96
+      ]
+    ],
+    "word_length_histogram": {
+      "1": 19,
+      "2": 31,
+      "3": 65,
+      "4": 141,
+      "5": 113,
+      "6": 64,
+      "7": 43,
+      "8": 18,
+      "9": 9,
+      "10": 1
+    }
+  },
+  "voynich_equal_size_entropy_mean": 2.0168945,
+  "voynich_equal_size_entropy_range": [
+    1.9223,
+    2.1154
+  ],
+  "chaucer_shuffled_character_entropy_mean": 3.680478,
+  "limitations": [
+    "Chaucer excerpt short and poetic; manual punctuation removal and conversion of diacritics",
+    "Different alphabets and EVA encoding bias comparisons",
+    "No cipher simulation and no language-family identification",
+    "Sampling without replacement from small early folio sample; not independent across repeats"
+  ]
+}

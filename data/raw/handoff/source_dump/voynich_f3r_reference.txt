@@ -1,0 +1,21 @@
+# ZL3b version 3b, f3r lines 1-20; extracted from public source https://www.voynich.nu/data/ZL3b-n.txt
+<f3r.1> tsheos.qopal.chol.cthol.daimg
+<f3r.2> ycheor.chor.dam.qotcham.cham
+<f3r.3> ochor.qocheor.chol.daiin.cthy
+<f3r.4> schey.chor.chal.chag.cham.cho
+<f3r.5> qokol.chololy.s.cham.cthol
+<f3r.6> ychtaiin.chor.cthom.otaldam
+<f3r.7> otchol.qodaiin.chom.shom.damo
+<f3r.8> ysheor.chor.chol.oky.dago
+<f3r.9> sho.vor.sheoldam.otchody.ol
+<f3r.10> ydar.cholcthom
+<f3r.11> pcheol.shol.sols.sheol.shey
+<f3r.12> okadaiin.qokchor.qo,schodam.octhy
+<f3r.13> qokeey.qot,shey.qokody.qokshey.cheody
+<f3r.14> chor.qodair.okeey.qokeey
+<f3r.15> tsheoarom.shor.or.chor.olchsy.chom.otchom<->oporar
+<f3r.16> oteol.chol.s.cheol.ekshy.qokeom.qokol.daiin<->soleeg
+<f3r.17> soeom.okeom.yteody.qokeeodal.sam
+<f3r.18> pcheoldom.shodaiin.qopchor.qopol.opchol,qoty<->otolom
+<f3r.19> otchor.ol,cheor.qoeor.dair.qoteol.qosaiin<->chor.cthy
+<f3r.20> ycheor.chol.odaiin.chol.s.aiin.okol,or.am

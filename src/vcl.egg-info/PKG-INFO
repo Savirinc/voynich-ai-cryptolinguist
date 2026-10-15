@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: vcl
+Version: 0.1.0
+Summary: Voynich AI Cryptolinguist: learning to decipher unknown writing systems, with known-answer controls
+Requires-Python: <3.12,>=3.11
+Requires-Dist: numpy==2.2.6
+Requires-Dist: torch==2.7.1
+Requires-Dist: pyyaml==6.0.2
+Provides-Extra: dev
+Requires-Dist: pytest==8.4.1; extra == "dev"
+Provides-Extra: repro
+Requires-Dist: python-docx==1.2.0; extra == "repro"
+Requires-Dist: pandas==2.3.1; extra == "repro"
+Requires-Dist: scipy==1.16.0; extra == "repro"
+Requires-Dist: scikit-learn==1.7.1; extra == "repro"

@@ -1,0 +1,189 @@
+{
+  "source": "User-supplied ZL3b IVTFF 2025 transcription",
+  "tokenization": "Strict Latin lower-case strings with length >=2; ambiguous readings excluded; tags by IVTFF locus class; does not equate all labels with semantic names",
+  "all_records": 5225,
+  "prose": {
+    "records": 4024,
+    "folios": 196,
+    "tokens": 32318,
+    "types": 6410,
+    "top_words": [
+      [
+        "daiin",
+        802
+      ],
+      [
+        "ol",
+        523
+      ],
+      [
+        "chedy",
+        489
+      ],
+      [
+        "aiin",
+        451
+      ],
+      [
+        "shedy",
+        423
+      ],
+      [
+        "chol",
+        372
+      ],
+      [
+        "or",
+        359
+      ],
+      [
+        "chey",
+        333
+      ],
+      [
+        "ar",
+        312
+      ],
+      [
+        "qokeedy",
+        306
+      ],
+      [
+        "qokeey",
+        302
+      ],
+      [
+        "dar",
+        280
+      ]
+    ]
+  },
+  "all_label_loci": {
+    "records": 892,
+    "folios": 56,
+    "tokens": 878,
+    "types": 676,
+    "top_words": [
+      [
+        "otaly",
+        9
+      ],
+      [
+        "ar",
+        8
+      ],
+      [
+        "okal",
+        7
+      ],
+      [
+        "okol",
+        7
+      ],
+      [
+        "oky",
+        7
+      ],
+      [
+        "otal",
+        7
+      ],
+      [
+        "otar",
+        6
+      ],
+      [
+        "okeey",
+        6
+      ],
+      [
+        "otedy",
+        6
+      ],
+      [
+        "air",
+        5
+      ],
+      [
+        "daiin",
+        5
+      ],
+      [
+        "dy",
+        5
+      ]
+    ]
+  },
+  "zodiac_label_loci": {
+    "records": 299,
+    "folios": 12,
+    "tokens": 319,
+    "types": 259,
+    "top_words": [
+      [
+        "otaly",
+        6
+      ],
+      [
+        "ar",
+        5
+      ],
+      [
+        "otal",
+        5
+      ],
+      [
+        "oky",
+        4
+      ],
+      [
+        "otar",
+        4
+      ],
+      [
+        "okeey",
+        4
+      ],
+      [
+        "okal",
+        4
+      ],
+      [
+        "okaly",
+        4
+      ],
+      [
+        "am",
+        3
+      ],
+      [
+        "ary",
+        3
+      ],
+      [
+        "okeody",
+        3
+      ],
+      [
+        "oty",
+        2
+      ]
+    ]
+  },
+  "zodiac_label_record_folios": {
+    "f70v2": 30,
+    "f70v1": 15,
+    "f71r": 15,
+    "f71v": 15,
+    "f72r1": 15,
+    "f72r2": 29,
+    "f72r3": 30,
+    "f72v3": 30,
+    "f72v2": 30,
+    "f72v1": 30,
+    "f73r": 30,
+    "f73v": 30
+  },
+  "label_token_in_prose_vocabulary_pct": 58.93416927899686,
+  "label_type_in_prose_vocabulary_pct": 51.737451737451735
+}

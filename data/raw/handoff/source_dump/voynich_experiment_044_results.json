@@ -1,0 +1,97 @@
+{
+  "train": 7462,
+  "heldout": 1619,
+  "heldout_folios": 36,
+  "q_fraction_train": 0.46569284374162423,
+  "heldout_stem_seen_fraction": 0.8851142680667079,
+  "models": {
+    "constant": {
+      "logloss": 0.68918,
+      "auc": 0.5
+    },
+    "stem_only": {
+      "logloss": 0.60826,
+      "auc": 0.71989,
+      "accuracy": 0.65287
+    },
+    "stem_plus_previous_word_and_line_position": {
+      "logloss": 0.54838,
+      "auc": 0.79191,
+      "accuracy": 0.7202
+    }
+  },
+  "shared_stems_with_at_least_five_each": 84,
+  "most_common_shared_stems": [
+    [
+      "okaiin",
+      184,
+      238
+    ],
+    [
+      "okeey",
+      140,
+      270
+    ],
+    [
+      "okeedy",
+      98,
+      294
+    ],
+    [
+      "okain",
+      124,
+      265
+    ],
+    [
+      "okedy",
+      96,
+      257
+    ],
+    [
+      "okal",
+      118,
+      168
+    ],
+    [
+      "okar",
+      96,
+      118
+    ],
+    [
+      "otedy",
+      127,
+      85
+    ],
+    [
+      "oky",
+      64,
+      124
+    ],
+    [
+      "otaiin",
+      118,
+      62
+    ],
+    [
+      "oteedy",
+      83,
+      73
+    ],
+    [
+      "oty",
+      85,
+      70
+    ]
+  ],
+  "line_position": {
+    "inside_line": {
+      "0": 4245,
+      "1": 3703
+    },
+    "line_start": {
+      "0": 626,
+      "1": 507
+    }
+  },
+  "caveat": "Predicts surface q prefix choice among o/qo words; not an interpretation or proof of a grammatical operator. Prefix choices can be script mechanics."
+}

@@ -1,0 +1,207 @@
+{
+  "source": "Uploaded ZL3b manuscript transcription",
+  "method": "For each Currier group separately: contexts = first EVA glyph of preceding/following word, with line boundaries. Compare cosine similarity of edit-distance-1 word pairs to random pairs matched on length and frequency. Bootstrap random pair sets, 1500 replicates.",
+  "caveats": [
+    "EVA characters are not necessarily manuscript glyphs",
+    "word contexts may depend on spelling and topic, not grammar",
+    "baseline matching approximates frequency and length, but does not control all confounding",
+    "parser excludes uncertain tokens but may retain editorial fragments",
+    "hypothesis explored after inspecting manuscript; p-values are exploratory"
+  ],
+  "groups": {
+    "A": {
+      "eligible_words": 112,
+      "edit1_pairs_compared": 145,
+      "mean_cosine_edit1": 0.7976,
+      "mean_matched_control": 0.7165,
+      "p_one_sided": 0.00067,
+      "illustrative_pairs": [
+        {
+          "pair": [
+            "chor",
+            "chol"
+          ],
+          "count": [
+            177,
+            273
+          ],
+          "cosine": 0.964
+        },
+        {
+          "pair": [
+            "shol",
+            "chol"
+          ],
+          "count": [
+            117,
+            273
+          ],
+          "cosine": 0.909
+        },
+        {
+          "pair": [
+            "y",
+            "s"
+          ],
+          "count": [
+            88,
+            197
+          ],
+          "cosine": 0.62
+        },
+        {
+          "pair": [
+            "chor",
+            "shor"
+          ],
+          "count": [
+            177,
+            67
+          ],
+          "cosine": 0.789
+        },
+        {
+          "pair": [
+            "shol",
+            "sho"
+          ],
+          "count": [
+            117,
+            103
+          ],
+          "cosine": 0.846
+        },
+        {
+          "pair": [
+            "y",
+            "dy"
+          ],
+          "count": [
+            88,
+            124
+          ],
+          "cosine": 0.691
+        },
+        {
+          "pair": [
+            "or",
+            "ol"
+          ],
+          "count": [
+            103,
+            106
+          ],
+          "cosine": 0.893
+        },
+        {
+          "pair": [
+            "chy",
+            "cthy"
+          ],
+          "count": [
+            106,
+            93
+          ],
+          "cosine": 0.828
+        }
+      ]
+    },
+    "B": {
+      "eligible_words": 236,
+      "edit1_pairs_compared": 404,
+      "mean_cosine_edit1": 0.787,
+      "mean_matched_control": 0.6529,
+      "p_one_sided": 0.00067,
+      "illustrative_pairs": [
+        {
+          "pair": [
+            "chedy",
+            "shedy"
+          ],
+          "count": [
+            488,
+            421
+          ],
+          "cosine": 0.979
+        },
+        {
+          "pair": [
+            "chedy",
+            "chey"
+          ],
+          "count": [
+            488,
+            246
+          ],
+          "cosine": 0.949
+        },
+        {
+          "pair": [
+            "ol",
+            "or"
+          ],
+          "count": [
+            417,
+            256
+          ],
+          "cosine": 0.753
+        },
+        {
+          "pair": [
+            "aiin",
+            "daiin"
+          ],
+          "count": [
+            367,
+            305
+          ],
+          "cosine": 0.742
+        },
+        {
+          "pair": [
+            "shedy",
+            "shey"
+          ],
+          "count": [
+            421,
+            199
+          ],
+          "cosine": 0.965
+        },
+        {
+          "pair": [
+            "ol",
+            "al"
+          ],
+          "count": [
+            417,
+            185
+          ],
+          "cosine": 0.937
+        },
+        {
+          "pair": [
+            "qokedy",
+            "qokeedy"
+          ],
+          "count": [
+            272,
+            306
+          ],
+          "cosine": 0.97
+        },
+        {
+          "pair": [
+            "qokeedy",
+            "qokeey"
+          ],
+          "count": [
+            306,
+            262
+          ],
+          "cosine": 0.961
+        }
+      ]
+    }
+  }
+}

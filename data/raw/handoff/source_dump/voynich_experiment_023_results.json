@@ -1,0 +1,121 @@
+{
+  "purpose": "test how well annotated clock positions constrain geometric degree hypotheses",
+  "caveat": "clock annotations are transcriber approximations, not measured nymph/star centroids; no zodiac longitude assigned",
+  "panels": {
+    "f70v2": {
+      "labels": 29,
+      "unique_clock_angles": 21,
+      "duplicate_positions": 8,
+      "median_sorted_angular_gap_deg": 15.0,
+      "zero_gaps": 8,
+      "ideal_even_spacing_deg": 12.413793103448276,
+      "distinct_angles_allow_one_to_one_degree_assignment": false
+    },
+    "f70v1": {
+      "labels": 15,
+      "unique_clock_angles": 12,
+      "duplicate_positions": 3,
+      "median_sorted_angular_gap_deg": 30.0,
+      "zero_gaps": 3,
+      "ideal_even_spacing_deg": 24.0,
+      "distinct_angles_allow_one_to_one_degree_assignment": false
+    },
+    "f71r": {
+      "labels": 15,
+      "unique_clock_angles": 13,
+      "duplicate_positions": 2,
+      "median_sorted_angular_gap_deg": 30.0,
+      "zero_gaps": 2,
+      "ideal_even_spacing_deg": 24.0,
+      "distinct_angles_allow_one_to_one_degree_assignment": false
+    },
+    "f71v": {
+      "labels": 15,
+      "unique_clock_angles": 11,
+      "duplicate_positions": 4,
+      "median_sorted_angular_gap_deg": 30.0,
+      "zero_gaps": 4,
+      "ideal_even_spacing_deg": 24.0,
+      "distinct_angles_allow_one_to_one_degree_assignment": false
+    },
+    "f72r1": {
+      "labels": 15,
+      "unique_clock_angles": 12,
+      "duplicate_positions": 3,
+      "median_sorted_angular_gap_deg": 30.0,
+      "zero_gaps": 3,
+      "ideal_even_spacing_deg": 24.0,
+      "distinct_angles_allow_one_to_one_degree_assignment": false
+    },
+    "f72r2": {
+      "labels": 29,
+      "unique_clock_angles": 20,
+      "duplicate_positions": 9,
+      "median_sorted_angular_gap_deg": 15.0,
+      "zero_gaps": 9,
+      "ideal_even_spacing_deg": 12.413793103448276,
+      "distinct_angles_allow_one_to_one_degree_assignment": false
+    },
+    "f72r3": {
+      "labels": 30,
+      "unique_clock_angles": 18,
+      "duplicate_positions": 12,
+      "median_sorted_angular_gap_deg": 15.0,
+      "zero_gaps": 12,
+      "ideal_even_spacing_deg": 12.0,
+      "distinct_angles_allow_one_to_one_degree_assignment": false
+    },
+    "f72v3": {
+      "labels": 30,
+      "unique_clock_angles": 21,
+      "duplicate_positions": 9,
+      "median_sorted_angular_gap_deg": 15.0,
+      "zero_gaps": 9,
+      "ideal_even_spacing_deg": 12.0,
+      "distinct_angles_allow_one_to_one_degree_assignment": false
+    },
+    "f72v2": {
+      "labels": 30,
+      "unique_clock_angles": 22,
+      "duplicate_positions": 8,
+      "median_sorted_angular_gap_deg": 15.0,
+      "zero_gaps": 8,
+      "ideal_even_spacing_deg": 12.0,
+      "distinct_angles_allow_one_to_one_degree_assignment": false
+    },
+    "f72v1": {
+      "labels": 30,
+      "unique_clock_angles": 22,
+      "duplicate_positions": 8,
+      "median_sorted_angular_gap_deg": 15.0,
+      "zero_gaps": 8,
+      "ideal_even_spacing_deg": 12.0,
+      "distinct_angles_allow_one_to_one_degree_assignment": false
+    },
+    "f73r": {
+      "labels": 30,
+      "unique_clock_angles": 22,
+      "duplicate_positions": 8,
+      "median_sorted_angular_gap_deg": 15.0,
+      "zero_gaps": 8,
+      "ideal_even_spacing_deg": 12.0,
+      "distinct_angles_allow_one_to_one_degree_assignment": false
+    },
+    "f73v": {
+      "labels": 30,
+      "unique_clock_angles": 21,
+      "duplicate_positions": 9,
+      "median_sorted_angular_gap_deg": 15.0,
+      "zero_gaps": 9,
+      "ideal_even_spacing_deg": 12.0,
+      "distinct_angles_allow_one_to_one_degree_assignment": false
+    }
+  },
+  "totals": {
+    "records": 298,
+    "unique_position_count_sum": 215,
+    "duplicate_annotations": 83,
+    "panels_with_duplicate_angles": 12,
+    "panels_with_30_records": 6
+  }
+}

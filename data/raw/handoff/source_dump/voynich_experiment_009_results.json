@@ -1,0 +1,54 @@
+{
+  "eva_characters": {
+    "observed_H2": 2.0653,
+    "word_bootstrap_95pct_interval": [
+      1.9589,
+      2.0836
+    ],
+    "shuffled_char_null_mean_min_max": [
+      3.7141,
+      3.6792,
+      3.7525
+    ],
+    "delta_vs_null_mean": -1.6488
+  },
+  "ch_sh_as_single_units": {
+    "observed_H2": 2.1904,
+    "word_bootstrap_95pct_interval": [
+      2.0594,
+      2.2071
+    ],
+    "shuffled_char_null_mean_min_max": [
+      3.8137,
+      3.7565,
+      3.862
+    ],
+    "delta_vs_null_mean": -1.6233
+  },
+  "ch_sh_ck_ct_ph_as_units": {
+    "observed_H2": 2.1167,
+    "word_bootstrap_95pct_interval": [
+      1.9736,
+      2.132
+    ],
+    "shuffled_char_null_mean_min_max": [
+      3.7885,
+      3.7134,
+      3.8419
+    ],
+    "delta_vs_null_mean": -1.6718
+  },
+  "n_words": 504,
+  "source_files": [
+    "voynich_f1r_sample.txt",
+    "voynich_heldout_f1v_f2r.txt",
+    "voynich_f3r_reference.txt"
+  ],
+  "limitations": [
+    "Not a medieval language comparison.",
+    "Sample is four early folios and contains selection/annotation effects.",
+    "Segmentation choices are hypothetical; no proof of correct glyph inventory.",
+    "Word bootstrap describes sample variation, not generalization to manuscript.",
+    "Shuffled-character null is intentionally simple and does not represent a natural-language alternative."
+  ]
+}

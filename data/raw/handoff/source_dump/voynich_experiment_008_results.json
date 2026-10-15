@@ -1,0 +1,500 @@
+{
+  "source_samples": [
+    "voynich_f1r_sample.txt",
+    "voynich_heldout_f1v_f2r.txt",
+    "voynich_f3r_reference.txt"
+  ],
+  "method": "Within-word adjacent unit entropy; strict plain a-z EVA tokens only; no uncertain glyphs or markup retained.",
+  "voynich_all_samples": {
+    "tokens": 504,
+    "characters": 2325,
+    "vocabulary": 323,
+    "types_per_token": 0.6409,
+    "mean_word_length": 4.6131,
+    "char_entropy": 3.8451,
+    "within_word_conditional_entropy": 2.0653,
+    "top_words": [
+      [
+        "chol",
+        21
+      ],
+      [
+        "daiin",
+        13
+      ],
+      [
+        "chor",
+        11
+      ],
+      [
+        "shol",
+        9
+      ],
+      [
+        "cthy",
+        9
+      ],
+      [
+        "dain",
+        8
+      ],
+      [
+        "or",
+        7
+      ],
+      [
+        "dar",
+        7
+      ],
+      [
+        "s",
+        6
+      ],
+      [
+        "sho",
+        6
+      ],
+      [
+        "dan",
+        5
+      ],
+      [
+        "chy",
+        5
+      ]
+    ],
+    "top_characters": [
+      [
+        "o",
+        340
+      ],
+      [
+        "h",
+        288
+      ],
+      [
+        "c",
+        207
+      ],
+      [
+        "y",
+        183
+      ],
+      [
+        "a",
+        179
+      ],
+      [
+        "i",
+        156
+      ],
+      [
+        "d",
+        146
+      ],
+      [
+        "s",
+        132
+      ],
+      [
+        "l",
+        127
+      ],
+      [
+        "e",
+        114
+      ],
+      [
+        "r",
+        97
+      ],
+      [
+        "k",
+        96
+      ]
+    ],
+    "word_length_histogram": {
+      "1": 19,
+      "2": 31,
+      "3": 65,
+      "4": 141,
+      "5": 113,
+      "6": 64,
+      "7": 43,
+      "8": 18,
+      "9": 9,
+      "10": 1
+    }
+  },
+  "voynich_by_source": {
+    "voynich_f1r_sample.txt": {
+      "tokens": 201,
+      "characters": 934,
+      "vocabulary": 153,
+      "types_per_token": 0.7612,
+      "mean_word_length": 4.6468,
+      "char_entropy": 3.7833,
+      "within_word_conditional_entropy": 1.9421,
+      "top_words": [
+        [
+          "daiin",
+          7
+        ],
+        [
+          "chol",
+          7
+        ],
+        [
+          "dain",
+          6
+        ],
+        [
+          "or",
+          4
+        ],
+        [
+          "dar",
+          4
+        ],
+        [
+          "shol",
+          3
+        ],
+        [
+          "y",
+          3
+        ],
+        [
+          "cthar",
+          3
+        ],
+        [
+          "shody",
+          3
+        ],
+        [
+          "sho",
+          3
+        ],
+        [
+          "cthy",
+          3
+        ],
+        [
+          "shey",
+          3
+        ]
+      ],
+      "top_characters": [
+        [
+          "h",
+          118
+        ],
+        [
+          "o",
+          106
+        ],
+        [
+          "a",
+          87
+        ],
+        [
+          "i",
+          85
+        ],
+        [
+          "y",
+          76
+        ],
+        [
+          "c",
+          75
+        ],
+        [
+          "s",
+          64
+        ],
+        [
+          "d",
+          58
+        ],
+        [
+          "e",
+          49
+        ],
+        [
+          "n",
+          48
+        ],
+        [
+          "k",
+          43
+        ],
+        [
+          "r",
+          43
+        ]
+      ],
+      "word_length_histogram": {
+        "1": 7,
+        "2": 12,
+        "3": 25,
+        "4": 54,
+        "5": 50,
+        "6": 25,
+        "7": 19,
+        "8": 3,
+        "9": 5,
+        "10": 1
+      }
+    },
+    "voynich_heldout_f1v_f2r.txt": {
+      "tokens": 189,
+      "characters": 828,
+      "vocabulary": 134,
+      "types_per_token": 0.709,
+      "mean_word_length": 4.381,
+      "char_entropy": 3.7411,
+      "within_word_conditional_entropy": 1.9287,
+      "top_words": [
+        [
+          "chol",
+          8
+        ],
+        [
+          "shol",
+          5
+        ],
+        [
+          "cthy",
+          4
+        ],
+        [
+          "dol",
+          4
+        ],
+        [
+          "chy",
+          4
+        ],
+        [
+          "daiin",
+          4
+        ],
+        [
+          "dan",
+          4
+        ],
+        [
+          "chody",
+          3
+        ],
+        [
+          "dal",
+          3
+        ],
+        [
+          "dar",
+          3
+        ],
+        [
+          "cthey",
+          3
+        ],
+        [
+          "shor",
+          3
+        ]
+      ],
+      "top_characters": [
+        [
+          "o",
+          116
+        ],
+        [
+          "h",
+          105
+        ],
+        [
+          "y",
+          82
+        ],
+        [
+          "c",
+          81
+        ],
+        [
+          "d",
+          66
+        ],
+        [
+          "l",
+          60
+        ],
+        [
+          "a",
+          59
+        ],
+        [
+          "i",
+          50
+        ],
+        [
+          "s",
+          41
+        ],
+        [
+          "k",
+          38
+        ],
+        [
+          "n",
+          32
+        ],
+        [
+          "e",
+          30
+        ]
+      ],
+      "word_length_histogram": {
+        "1": 9,
+        "2": 13,
+        "3": 33,
+        "4": 52,
+        "5": 41,
+        "6": 17,
+        "7": 13,
+        "8": 11
+      }
+    },
+    "voynich_f3r_reference.txt": {
+      "tokens": 114,
+      "characters": 563,
+      "vocabulary": 89,
+      "types_per_token": 0.7807,
+      "mean_word_length": 4.9386,
+      "char_entropy": 3.8037,
+      "within_word_conditional_entropy": 1.8341,
+      "top_words": [
+        [
+          "chor",
+          7
+        ],
+        [
+          "chol",
+          6
+        ],
+        [
+          "cham",
+          3
+        ],
+        [
+          "s",
+          3
+        ],
+        [
+          "cthol",
+          2
+        ],
+        [
+          "ycheor",
+          2
+        ],
+        [
+          "daiin",
+          2
+        ],
+        [
+          "cthy",
+          2
+        ],
+        [
+          "qokol",
+          2
+        ],
+        [
+          "chom",
+          2
+        ],
+        [
+          "ol",
+          2
+        ],
+        [
+          "shey",
+          2
+        ]
+      ],
+      "top_characters": [
+        [
+          "o",
+          118
+        ],
+        [
+          "h",
+          65
+        ],
+        [
+          "c",
+          51
+        ],
+        [
+          "e",
+          35
+        ],
+        [
+          "l",
+          35
+        ],
+        [
+          "a",
+          33
+        ],
+        [
+          "s",
+          27
+        ],
+        [
+          "r",
+          27
+        ],
+        [
+          "y",
+          25
+        ],
+        [
+          "m",
+          24
+        ],
+        [
+          "t",
+          22
+        ],
+        [
+          "q",
+          22
+        ]
+      ],
+      "word_length_histogram": {
+        "1": 3,
+        "2": 6,
+        "3": 7,
+        "4": 35,
+        "5": 22,
+        "6": 22,
+        "7": 11,
+        "8": 4,
+        "9": 4
+      }
+    }
+  },
+  "reference_corpora": {},
+  "comparison_complete": false,
+  "caveats": [
+    "No legitimate language-family ranking without historical corpora and comparable transliteration.",
+    "Unequal corpus sizes and genres bias lexical measures; match by words and bootstrap in later runs.",
+    "EVA multigraphs and accents/romanization can bias entropy; segment and normalize.",
+    "Short early Currier A samples are not manuscript-wide evidence.",
+    "Statistical resemblance cannot identify the plaintext language."
+  ]
+}

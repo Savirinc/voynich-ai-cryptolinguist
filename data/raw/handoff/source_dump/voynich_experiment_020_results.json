@@ -1,0 +1,59 @@
+{
+  "method": "EVA character initial comparisons and suffix comparisons; paragraph flags from <%> or @P/*P; line-level shuffle null preserves line token inventory; multiple exploratory tests; non-independent text units; avoid grammar claims",
+  "groups": {
+    "A": {
+      "line_count": 1504,
+      "paragraph_start_count": 232,
+      "folios": 114,
+      "comparisons": {
+        "paragraph_start_vs_ordinary_start": {
+          "observed_tv": 0.7035,
+          "null_mean_tv": 0.1923,
+          "p_ge_obs": 0.002
+        },
+        "ordinary_start_vs_interior": {
+          "observed_tv": 0.29,
+          "null_mean_tv": 0.0534,
+          "p_ge_obs": 0.002
+        },
+        "line_end_vs_interior": {
+          "observed_tv": 0.1775,
+          "null_mean_tv": 0.0399,
+          "p_ge_obs": 0.002
+        },
+        "paragraph_start_suffix_vs_ordinary_start": {
+          "observed_tv": 0.2269,
+          "null_mean_tv": 0.1722,
+          "p_ge_obs": 0.016
+        }
+      }
+    },
+    "B": {
+      "line_count": 2435,
+      "paragraph_start_count": 480,
+      "folios": 82,
+      "comparisons": {
+        "paragraph_start_vs_ordinary_start": {
+          "observed_tv": 0.7475,
+          "null_mean_tv": 0.1423,
+          "p_ge_obs": 0.002
+        },
+        "ordinary_start_vs_interior": {
+          "observed_tv": 0.4226,
+          "null_mean_tv": 0.0443,
+          "p_ge_obs": 0.002
+        },
+        "line_end_vs_interior": {
+          "observed_tv": 0.1933,
+          "null_mean_tv": 0.0295,
+          "p_ge_obs": 0.002
+        },
+        "paragraph_start_suffix_vs_ordinary_start": {
+          "observed_tv": 0.2599,
+          "null_mean_tv": 0.164,
+          "p_ge_obs": 0.002
+        }
+      }
+    }
+  }
+}

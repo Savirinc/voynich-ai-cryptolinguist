@@ -1,0 +1,90 @@
+{
+  "source": "/mnt/data/IVTFF Eva.txt.docx",
+  "rows": 298,
+  "panels": {
+    "f70v2": {
+      "count": 29,
+      "rings": {
+        "outer": 19,
+        "inner": 10
+      }
+    },
+    "f70v1": {
+      "count": 15,
+      "rings": {
+        "outer": 10,
+        "inner": 5
+      }
+    },
+    "f71r": {
+      "count": 15,
+      "rings": {
+        "outer": 10,
+        "inner": 5
+      }
+    },
+    "f71v": {
+      "count": 15,
+      "rings": {
+        "outer": 10,
+        "inner": 5
+      }
+    },
+    "f72r1": {
+      "count": 15,
+      "rings": {
+        "outer": 10,
+        "inner": 5
+      }
+    },
+    "f72r2": {
+      "count": 29,
+      "rings": {
+        "outer": 20,
+        "inner": 9
+      }
+    },
+    "f72r3": {
+      "count": 30,
+      "rings": {
+        "outer": 12,
+        "middle": 11,
+        "inner": 7
+      }
+    },
+    "f72v3": {
+      "count": 30,
+      "rings": {
+        "outer": 18,
+        "inner": 12
+      }
+    },
+    "f72v2": {
+      "count": 30,
+      "rings": {
+        "outer": 18,
+        "inner": 12
+      }
+    },
+    "f72v1": {
+      "count": 30,
+      "rings": {
+        "outer": 20,
+        "inner": 10
+      }
+    },
+    "f73r": {
+      "count": 30,
+      "rings": {
+        "unspecified": 30
+      }
+    },
+    "f73v": {
+      "count": 30,
+      "rings": {
+        "unspecified": 30
+      }
+    }
+  },
+  "warning": "These are transcription-order labels, not celestial degree assignments. Ring markers are inferred only from explicit comments and may be incomplete. Image-level verification required."
+}

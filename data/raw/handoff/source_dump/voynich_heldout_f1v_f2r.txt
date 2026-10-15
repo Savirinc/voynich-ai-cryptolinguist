@@ -1,0 +1,24 @@
+# Directly transcribed from ZL3b public text, folios f1v and f2r; uncertain glyphs kept as-is.
+<f1v.1> kchsy.chydaiin.ol<->o,l,tchey.char.cfhar,am
+<f1v.2> yteey.char.or.ochy<->dcho.lkody.okodar.chody
+<f1v.3> da,ckhy.ckhockhy.shy<->dksheey.cthy.kotchody.dal
+<f1v.4> dol.chokeo.dair.dam<->sochey.chokody
+<f1v.5> potoy.shol.dair.cphoal<->dar.chey.tody.otoaiin.shoshy
+<f1v.6> choky.chol.ctho,l,shol.okal<->dolchey.chodo.lol.chy.cthy
+<f1v.7> qo.ol,choees.cheol.dol.cthey<->ykol.dol.dolo.ykol.do,lchiody
+<f1v.8> okolshol.kol,kechy.chol.ky<->chol.cthol.chody.chol.daiin
+<f1v.9> shor.okol.chol.dol,ky.dar<->shol.dchor.o,tcho.dar.shody
+<f1v.10> taor.chotchey.dal.chody<->schody.pol.chodar
+<f2r.1> kydainy.ypchol.daiin.otchal<->ypchaiin.ckholsy
+<f2r.2> dorchory<->chkar.s<->shor.cthy.{cto}
+<f2r.3> qotaiin<->cthey.y<->chor.chy.ydy<->chaiin
+<f2r.4> {c'o}aiidy<->chtod,dy<->cphy.dals<->chokaiin.d
+<f2r.5> otochor.al<->shodaiin<->chol,dan<->ytchaiin.dan
+<f2r.6> saiin.dain,d<->dkol.sor<->ytoldy<->dchol.dchy.cthy
+<f2r.7> shor.ckhy.daiiny<->chol,dan
+<f2r.8> kydain.shaiin.qoy.s.shol.fodan<->yksh.olsheey.daiildy
+<f2r.9> dls,sho.kol.sheey.qokey.ykody.so<->chol,yky.dain.daiisol
+<f2r.10> qo'ky.cholaiin.shol.sheky.daiin<->cthey.keol.saiin.e'a'iin
+<f2r.11> ychain.dal.chy.dalor.shan.dan<->olsaiin.sheey.ckhor
+<f2r.12> okol.chy.chor.cthor.yor.an.chan<->saiin.chety.chyky.sal
+<f2r.13> sho.ykeey.chey.daiin.chcthy

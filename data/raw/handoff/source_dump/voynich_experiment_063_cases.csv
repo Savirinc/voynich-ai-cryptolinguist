@@ -1,0 +1,6 @@
+folio,line_a,word_a,line_b,word_b,audit_status,raw_a,raw_b
+f46v,1,daiin,3,dam,High: independent transcribers agree on both; both physically at line ends,"<f46v.1,@P0>      <%>pody,lshed.ypdy,shedy.opchedy.ytedy.oepchol.yfchey.tochsy.oka[s:r].ykchdy.daiin","<f46v.3,+P0>      ytchey.keody.chockhdy.chotal.okalshdy.sh[?:d]y<!funny d>.qokar.oty.qoty.shedy.chedy.dam"
+f34v,2,oldam,9,oldaiin,Medium: Stolfi records oldaiiin with one extra i; other transcribers read oldaiin,"<f34v.2,+P0>      tol.qokchy.dychedy.okchy.chckhdy.chdaiin.ckhy.loees.ykar.aiin.oldam","<f34v.9,+P0>      lsheody.cphy.qokeey.keedy.kchdy.chedy.qokedy.chdy.kal,shs.oldaiin"
+f3r,20,aiin,20,am,"Medium-high: word boundary differs near s/aiin between transcribers, am stable","<f3r.20,+P0>      ycheor.chol.odaiin.chol.s.aiin.okol,or.am<$>","<f3r.20,+P0>      ycheor.chol.odaiin.chol.s.aiin.okol,or.am<$>"
+f8r,19,kaiin,19,kam,"Low: ZL has dai,kam and comma indicates uncertain boundary; cannot use as a secure independent token","<f8r.19,+P0>      sair.cheain.cphol.dar<->shol.kaiin.shol.kaiin.dai,kam","<f8r.19,+P0>      sair.cheain.cphol.dar<->shol.kaiin.shol.kaiin.dai,kam"
+f6r,2,daiin,3,dam,Medium: two different line positions; daiin not at end of line,"<f6r.2,+P0>       daiin.chckhy.chor.chor.kar.cthy<->cthor.chotols","<f6r.3,+P0>       foeear.kshor.choky.os.cheoeees<->ykeor.ytaiin.dam"

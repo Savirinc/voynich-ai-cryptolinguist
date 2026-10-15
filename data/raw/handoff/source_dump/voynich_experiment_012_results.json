@@ -1,0 +1,94 @@
+{
+  "lines": 69,
+  "tokens": 502,
+  "unique_forms": 321,
+  "repeated_types": 64,
+  "one_edit_pairs_among_repeated_types": 89,
+  "observed_context_jaccard": 0.01258,
+  "frequency_matched_non_near_null_mean": 0.01051,
+  "one_sided_randomization_p": 0.24138,
+  "top_pair_overlaps": [
+    [
+      "oky",
+      "ky",
+      0.143
+    ],
+    [
+      "chy",
+      "chey",
+      0.111
+    ],
+    [
+      "okol",
+      "qokol",
+      0.111
+    ],
+    [
+      "kol",
+      "okol",
+      0.083
+    ],
+    [
+      "s",
+      "l",
+      0.071
+    ],
+    [
+      "cthy",
+      "ckhy",
+      0.067
+    ],
+    [
+      "daiin",
+      "dain",
+      0.061
+    ],
+    [
+      "shey",
+      "chey",
+      0.056
+    ],
+    [
+      "dan",
+      "dain",
+      0.053
+    ],
+    [
+      "cthey",
+      "cthy",
+      0.053
+    ],
+    [
+      "chol",
+      "cthol",
+      0.05
+    ],
+    [
+      "chy",
+      "cthy",
+      0.048
+    ],
+    [
+      "shol",
+      "shor",
+      0.043
+    ],
+    [
+      "daiin",
+      "odaiin",
+      0.043
+    ],
+    [
+      "chor",
+      "shor",
+      0.038
+    ]
+  ],
+  "caveats": [
+    "Tokens are drawn from simplified transcriptions of four opening folios, not full corpus.",
+    "Word contexts are exact immediately neighboring words; sparse data yields low overlap.",
+    "One edit apart does not demonstrate morphological relation; orthographic/cipher variants possible.",
+    "Frequency-binned control is exploratory and not calibrated for manuscript-wide inference.",
+    "Significant positional regularity would not itself imply natural-language grammar."
+  ]
+}

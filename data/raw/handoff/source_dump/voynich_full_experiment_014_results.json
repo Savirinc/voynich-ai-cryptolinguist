@@ -1,0 +1,267 @@
+{
+  "source": "IVTFF Eva.txt.docx",
+  "docx_paragraphs": 8511,
+  "folio_headers": 226,
+  "loci_total": 5225,
+  "text_lines_clean_2plus": 3998,
+  "rules": "paragraph-text loci with at least 2 lowercase unambiguous EVA tokens; editorial segments excluded, incomplete fragments may survive if not marked; results depend on transcription convention",
+  "groups": {
+    "A": {
+      "folio_count": 114,
+      "line_count": 1546,
+      "token_count": 10823,
+      "unique_words": 2966,
+      "top_words": [
+        [
+          "daiin",
+          497
+        ],
+        [
+          "chol",
+          273
+        ],
+        [
+          "s",
+          197
+        ],
+        [
+          "chor",
+          177
+        ],
+        [
+          "dy",
+          124
+        ],
+        [
+          "shol",
+          117
+        ],
+        [
+          "chy",
+          106
+        ],
+        [
+          "ol",
+          106
+        ],
+        [
+          "or",
+          103
+        ],
+        [
+          "sho",
+          103
+        ],
+        [
+          "dain",
+          98
+        ],
+        [
+          "dar",
+          97
+        ]
+      ],
+      "mean_token_length": 4.769,
+      "top_prefix_2": [
+        [
+          "ch",
+          2090
+        ],
+        [
+          "qo",
+          1044
+        ],
+        [
+          "da",
+          1029
+        ],
+        [
+          "sh",
+          971
+        ],
+        [
+          "ok",
+          558
+        ],
+        [
+          "ot",
+          426
+        ],
+        [
+          "ct",
+          386
+        ],
+        [
+          "ol",
+          264
+        ]
+      ],
+      "top_suffix_2": [
+        [
+          "in",
+          1651
+        ],
+        [
+          "ol",
+          1575
+        ],
+        [
+          "or",
+          1107
+        ],
+        [
+          "hy",
+          972
+        ],
+        [
+          "ey",
+          940
+        ],
+        [
+          "dy",
+          717
+        ],
+        [
+          "ar",
+          513
+        ],
+        [
+          "al",
+          410
+        ]
+      ]
+    },
+    "B": {
+      "folio_count": 82,
+      "line_count": 2452,
+      "token_count": 22537,
+      "unique_words": 4508,
+      "top_words": [
+        [
+          "chedy",
+          488
+        ],
+        [
+          "shedy",
+          421
+        ],
+        [
+          "ol",
+          417
+        ],
+        [
+          "aiin",
+          367
+        ],
+        [
+          "qokeedy",
+          306
+        ],
+        [
+          "daiin",
+          305
+        ],
+        [
+          "qokain",
+          273
+        ],
+        [
+          "qokedy",
+          272
+        ],
+        [
+          "qokeey",
+          262
+        ],
+        [
+          "ar",
+          260
+        ],
+        [
+          "or",
+          256
+        ],
+        [
+          "chey",
+          246
+        ]
+      ],
+      "mean_token_length": 5.079,
+      "top_prefix_2": [
+        [
+          "qo",
+          4015
+        ],
+        [
+          "ch",
+          3304
+        ],
+        [
+          "sh",
+          1956
+        ],
+        [
+          "ok",
+          1401
+        ],
+        [
+          "ot",
+          1379
+        ],
+        [
+          "ol",
+          1208
+        ],
+        [
+          "da",
+          1006
+        ],
+        [
+          "ai",
+          627
+        ]
+      ],
+      "top_suffix_2": [
+        [
+          "dy",
+          5414
+        ],
+        [
+          "in",
+          3830
+        ],
+        [
+          "ey",
+          2587
+        ],
+        [
+          "ar",
+          1793
+        ],
+        [
+          "ol",
+          1610
+        ],
+        [
+          "al",
+          1331
+        ],
+        [
+          "hy",
+          889
+        ],
+        [
+          "or",
+          863
+        ]
+      ]
+    }
+  },
+  "word_js_divergence_bits": 0.4626,
+  "folio_label_permutation": {
+    "trials": 300,
+    "p_ge_obs": 0.00332,
+    "mean_js": 0.1949,
+    "note": "Randomizes folio A/B assignment while preserving folio text. Does not control for topical section or scribe."
+  }
+}

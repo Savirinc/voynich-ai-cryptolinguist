@@ -1,0 +1,7 @@
+pyproject.toml
+src/vcl.egg-info/PKG-INFO
+src/vcl.egg-info/SOURCES.txt
+src/vcl.egg-info/dependency_links.txt
+src/vcl.egg-info/requires.txt
+src/vcl.egg-info/top_level.txt
+src/vcl/corpus/ivtff.py

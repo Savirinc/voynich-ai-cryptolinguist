@@ -1,0 +1,171 @@
+{
+  "description": "Five diagnostics across genuine Voynich and two synthetic nulls; sample parsed without ambiguous glyphs; artificial parameters chosen beforehand; no claim to identify meaning.",
+  "groups": {
+    "A": {
+      "real": {
+        "tokens": 10739,
+        "lines": 1504,
+        "types": 2933,
+        "type_token": 0.2731,
+        "repeated_neighbor": 0.0104,
+        "one_edit_neighbor": 0.0428,
+        "line_start_initial_TV": 0.2669,
+        "suffix_top5_mass": 0.6207,
+        "repeated_type_token_mass": 0.8159
+      },
+      "iid": [
+        {
+          "tokens": 10739,
+          "lines": 1504,
+          "types": 2160,
+          "type_token": 0.2011,
+          "repeated_neighbor": 0.005,
+          "one_edit_neighbor": 0.0212,
+          "line_start_initial_TV": 0.0351,
+          "suffix_top5_mass": 0.6206,
+          "repeated_type_token_mass": 0.9202
+        },
+        {
+          "tokens": 10739,
+          "lines": 1504,
+          "types": 2165,
+          "type_token": 0.2016,
+          "repeated_neighbor": 0.0047,
+          "one_edit_neighbor": 0.0207,
+          "line_start_initial_TV": 0.049,
+          "suffix_top5_mass": 0.6232,
+          "repeated_type_token_mass": 0.9168
+        },
+        {
+          "tokens": 10739,
+          "lines": 1504,
+          "types": 2216,
+          "type_token": 0.2064,
+          "repeated_neighbor": 0.0068,
+          "one_edit_neighbor": 0.0178,
+          "line_start_initial_TV": 0.0312,
+          "suffix_top5_mass": 0.6116,
+          "repeated_type_token_mass": 0.9143
+        }
+      ],
+      "copy_mutate": [
+        {
+          "tokens": 10739,
+          "lines": 1504,
+          "types": 5762,
+          "type_token": 0.5365,
+          "repeated_neighbor": 0.0295,
+          "one_edit_neighbor": 0.6293,
+          "line_start_initial_TV": 0.1192,
+          "suffix_top5_mass": 0.4479,
+          "repeated_type_token_mass": 0.5709
+        },
+        {
+          "tokens": 10739,
+          "lines": 1504,
+          "types": 5631,
+          "type_token": 0.5244,
+          "repeated_neighbor": 0.0302,
+          "one_edit_neighbor": 0.6191,
+          "line_start_initial_TV": 0.1074,
+          "suffix_top5_mass": 0.4688,
+          "repeated_type_token_mass": 0.5798
+        },
+        {
+          "tokens": 10739,
+          "lines": 1504,
+          "types": 5717,
+          "type_token": 0.5324,
+          "repeated_neighbor": 0.0293,
+          "one_edit_neighbor": 0.6263,
+          "line_start_initial_TV": 0.1232,
+          "suffix_top5_mass": 0.4553,
+          "repeated_type_token_mass": 0.571
+        }
+      ]
+    },
+    "B": {
+      "real": {
+        "tokens": 22503,
+        "lines": 2435,
+        "types": 4499,
+        "type_token": 0.1999,
+        "repeated_neighbor": 0.0096,
+        "one_edit_neighbor": 0.0346,
+        "line_start_initial_TV": 0.4579,
+        "suffix_top5_mass": 0.707,
+        "repeated_type_token_mass": 0.8661
+      },
+      "iid": [
+        {
+          "tokens": 22503,
+          "lines": 2435,
+          "types": 3331,
+          "type_token": 0.148,
+          "repeated_neighbor": 0.005,
+          "one_edit_neighbor": 0.0197,
+          "line_start_initial_TV": 0.0383,
+          "suffix_top5_mass": 0.7041,
+          "repeated_type_token_mass": 0.942
+        },
+        {
+          "tokens": 22503,
+          "lines": 2435,
+          "types": 3341,
+          "type_token": 0.1485,
+          "repeated_neighbor": 0.0039,
+          "one_edit_neighbor": 0.0197,
+          "line_start_initial_TV": 0.0279,
+          "suffix_top5_mass": 0.7118,
+          "repeated_type_token_mass": 0.9409
+        },
+        {
+          "tokens": 22503,
+          "lines": 2435,
+          "types": 3314,
+          "type_token": 0.1473,
+          "repeated_neighbor": 0.0044,
+          "one_edit_neighbor": 0.0217,
+          "line_start_initial_TV": 0.0281,
+          "suffix_top5_mass": 0.7081,
+          "repeated_type_token_mass": 0.9426
+        }
+      ],
+      "copy_mutate": [
+        {
+          "tokens": 22503,
+          "lines": 2435,
+          "types": 11070,
+          "type_token": 0.4919,
+          "repeated_neighbor": 0.0268,
+          "one_edit_neighbor": 0.6297,
+          "line_start_initial_TV": 0.1077,
+          "suffix_top5_mass": 0.518,
+          "repeated_type_token_mass": 0.6015
+        },
+        {
+          "tokens": 22503,
+          "lines": 2435,
+          "types": 11236,
+          "type_token": 0.4993,
+          "repeated_neighbor": 0.0255,
+          "one_edit_neighbor": 0.6376,
+          "line_start_initial_TV": 0.1077,
+          "suffix_top5_mass": 0.5187,
+          "repeated_type_token_mass": 0.5933
+        },
+        {
+          "tokens": 22503,
+          "lines": 2435,
+          "types": 11195,
+          "type_token": 0.4975,
+          "repeated_neighbor": 0.0264,
+          "one_edit_neighbor": 0.6366,
+          "line_start_initial_TV": 0.1028,
+          "suffix_top5_mass": 0.5157,
+          "repeated_type_token_mass": 0.5986
+        }
+      ]
+    }
+  }
+}

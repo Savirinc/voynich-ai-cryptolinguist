@@ -1,0 +1,95 @@
+VOYNICH MANUSCRIPT | f99v (left) and f100r (right)
+Existing IVTFF Eva transcription from user-supplied document, version 3b 2025-05-13
+This is TRANSLITERATION, not a decoded translation.
+
+Legend: @Lf label of plant fragment; @Lc container label; @P0 main text; punctuation/markup preserved exactly.
+
+
+=================================================================
+F99V
+=================================================================
+# Top row of labels. Petersen ID in curly brackets.
+<f99v.1,@Lc>      <!95a>okaramy
+<f99v.2,@Lf>      <!95b>otoldy
+<f99v.3,@Lf>      <!96>otor<->chy
+<f99v.4,@Lf>      <!97>oldy
+<f99v.5,@Lf>      <!98>dar<->ary
+<f99v.6,@Lf>      <!99>otaly
+<f99v.7,@Lf>      <!100>olsy
+<f99v.8,@Lf>      <!101>arol
+<f99v.9,@Lf>      <!102>otoky
+<f99v.10,@P0>     <%>sol.cheols.ockhey.qo{ckhh}y.qkoldy.s<->ok.oleees.oteey.dain
+<f99v.11,+P0>     okoiin.choty.qokchol.qokeol.okoldy<->q{kh}oldy.toly.daiin
+<f99v.12,+P0>     qokeo.qokeol.chockhy.otol.daiin.oty<->oto{ck}ey.da.chor,aiin
+<f99v.13,+P0>     okoraiin.okol.shocthy<->qokor.oloiram<$>
+# Second row of labels. Petersen ID in curly brackets.
+<f99v.14,@Lc>     <!103a>okoldody
+<f99v.15,@Lf>     <!103b>oeeesary
+<f99v.16,@Lf>     <!104>daiiinc
+<f99v.17,@Lf>     <!105>sary
+<f99v.18,@Lf>     <!106>saiino
+<f99v.19,@Lf>     <!107>otolsar
+<f99v.20,@Lf>     <!108>osary
+<f99v.21,@P0>     <%>doror.okeeody.opar.okor.eosaiin.otoraiin.shey.ols,aiiin.qoetal
+<f99v.22,+P0>     doiin.otey.o.keeol,s,aiin.okeol.qokeol.ctheol.qokeol.dy.qokaiin
+<f99v.23,+P0>     qokeey.chol.okeoldy.qokol.qokeolo.lchol.okeol.sheodol.qokeechom
+<f99v.24,+P0>     shokeeey.cholshey.okol.qokey.okeodal,oldy<$>
+# Third row of labels. Petersen ID in curly brackets.
+<f99v.25,@Lc>     <!109a>darolaly
+<f99v.26,@Lf>     <!109b>okechy
+<f99v.27,@Lf>     <!110>otal
+<f99v.28,@Lf>     <!110b>chor.olekor
+<f99v.29,@Lf>     <!111>okeodor
+<f99v.30,@Lf>     <!112>olky
+<f99v.31,@Lf>     <!113>doldam
+<f99v.32,@P0>     <%>qokeeoy.chokol.qokeeo.dy.qokeeol.olpchey.daiir.okeedy<->okolol
+<f99v.33,+P0>     dol.okeeol.okeor.okal.okaiin.ckheol.okolaiin.okolaiin.cheoldy
+<f99v.34,+P0>     yoiin,ol.ol.olaiin.qockhey.qokol.olshy.qokeeor.or.aiin.doldam
+<f99v.35,+P0>     ol,okeeey.oqoeeol.cheol.chody.okoiin<$>
+<f99v.36,@Lc>     <!114a>oralas
+<f99v.37,@P0>     <%>{c@132;}eol,so{c@133;h}ey.qokol.olkeol.daiin<->okoly
+<f99v.38,+P0>     ol.cheey.qokeol.okeol.okeol.shokol<->ykey
+<f99v.39,+P0>     dar.shol.okchey.ckhey.qokololal<->okeol
+<f99v.40,+P0>     or.aiin.okeody.okol.odaiin.qoky<->olaldy
+<f99v.41,+P0>     qockhol.oiin.shody.qokol.aiidal<->aiidaiim
+<f99v.42,+P0>     ol,sheol.olkeol.okol.or.oraloly<->ykeol.okal.okaldaly
+<f99v.43,+P0>     ychol,olkeeoldy<$>
+<f99v.44,@Lf>     <!114b>koleearol
+
+=================================================================
+F100R
+=================================================================
+# pharmaceutical
+# two rows of plants, with (mostly) one word captions
+# 4 line text paragraph
+# one row of plants with one word captions in staggered order
+# 6 line text paragraph
+# First row of labels, Petersen nr. in curly brackets
+<f100r.1,@Lf>     <!115>chosaroshol
+<f100r.2,@Lf>     <!116>sochorcfhy
+<f100r.3,@Lf>     <!117>otear
+<f100r.4,@Lf>     <!118>chofa[r:n]y
+<f100r.5,@Lf>     <!119>sar,char<->daiindy
+<f100r.6,@Lf>     <!120>o[r:s]aro
+<f100r.7,@Lf>     <!121>chalsain
+<f100r.8,@Lf>     <!122>soity
+<f100r.9,@Lf>     <!123>sosam
+<f100r.10,@Lf>    <!124>dakocth
+<f100r.11,@Lf>    <!125>sofam
+<f100r.12,@P0>    <%>pcheol.sheod.qocpheeckhy.shodol.{c@132;h}da,@168;oto.cho[?:ch]os.sheey.ch{cthh'}o.s
+<f100r.13,+P0>    dsheor.cthey.qokeey.oteey.ykeeodain.[r:s]orarydaiin.daiin.deeomchol
+<f100r.14,+P0>    shor.chkeey.qoteey.qokeody.qoteold.qokeol.so.raiin.otal.yk[eee:ech]o
+<f100r.15,+P0>    dcheor.shol.qokeeol.chor.chol.qokeeody.dareu<$>
+# Next row of plants, Petersen locus in curly brackets
+<f100r.16,@Lf>    <!126/1st half>okeeos
+<f100r.17,@Lf>    <!127>shockhey
+<f100r.18,@Lf>    <!126/2nd half>orol
+<f100r.19,@Lf>    <!128>olcheom
+<f100r.20,@Lf>    <!130>oteol
+<f100r.21,@Lf>    <!129>okols
+<f100r.22,@P0>    <%>folshody.choldaiin.fchod,ycheol.cphol.qotees.shey.aseso,alcfhy
+<f100r.23,+P0>    soiin.chol.cphol.shol.shol.qockhol.chor.chol.sho.keey.{chkhh}y.ykeeam
+<f100r.24,+P0>    saiichor.sheor.qockhody.odeor.yk,sheey.cholsheody.sai.cheol.raiin
+<f100r.25,+P0>    sheor.qkeeody.chol.daiin.ctheol.olcheol.cheky.cheol.cheockhy.okeol
+<f100r.26,+P0>    yaiin.chekeey.chol.cholody.chos.olchor.qokeol.okeeol.cheols.al
+<f100r.27,+P0>    chol.cheol.cho.chckheody.otolchey<$>

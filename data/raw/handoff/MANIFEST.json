@@ -1,0 +1,721 @@
+{
+  "created": "2026-10-15",
+  "files": [
+    {
+      "path": "source_dump/IVTFF Eva.txt.docx",
+      "size": 365002,
+      "sha256": "6aedc059275bc18c0d4db15a6a6c2e851e9f93a7b532cbed907a34c0db69ddb7"
+    },
+    {
+      "path": "source_dump/Screenshot 2026-10-12 at 4.25.48\u202fPM.png",
+      "size": 2985492,
+      "sha256": "cbf95ada4de25e2d0a38eae4c68a75c91805bcb35d2e07d61b11fadbc8d7f7c5"
+    },
+    {
+      "path": "source_dump/Screenshot 2026-10-12 at 4.38.35\u202fPM.png",
+      "size": 752294,
+      "sha256": "d0774f909697b8d903172447671417dc82c6200da39bc3a4ac247062053d24b2"
+    },
+    {
+      "path": "source_dump/VOYNICH_069_ADVERSARIAL_DECIPHERMENT_AUDIT.md",
+      "size": 4434,
+      "sha256": "6289eac26551c77ece84318fdf08a025b1d5e88b184d7077ba3ee8f601716710"
+    },
+    {
+      "path": "source_dump/VOYNICH_DECISIVE_AUDIT_068.md",
+      "size": 3537,
+      "sha256": "96b9b1a3f13bdf5f5533e66de095d285cde3345caac56779a563536a0c2a1a22"
+    },
+    {
+      "path": "source_dump/VOYNICH_EXPERIMENT_059_FINDINGS.md",
+      "size": 4786,
+      "sha256": "809ab4c614482647bff107ad0961a9b167dba6da170625357c10df27cc202426"
+    },
+    {
+      "path": "source_dump/VOYNICH_EXPERIMENT_065_JOINT_TOURNAMENT.zip",
+      "size": 550073,
+      "sha256": "111518a83bb60de90503cfd569df271d8a7cee04d60f61b6cc4714b075f479de"
+    },
+    {
+      "path": "source_dump/VOYNICH_EXPERIMENT_067_IMAGE_TO_TEXT.zip",
+      "size": 11119,
+      "sha256": "4562889fd5045e931a3d2b9b21aa07809d304e6c4434a2820d6343068b4e7e5b"
+    },
+    {
+      "path": "source_dump/VOYNICH_EXPERIMENT_067_REPORT.md",
+      "size": 7775,
+      "sha256": "e4ef46db6b1d301d0b6342488547f7b653ed56e53428d44bbae78e6a18b5fd7b"
+    },
+    {
+      "path": "source_dump/VOYNICH_GLYPH_AND_ALPHABET_EXP_060_062.md",
+      "size": 7491,
+      "sha256": "6c00bc4745faef8386cb82e3fe9bc2b730642ac81db8d6c8e514c63354d76f42"
+    },
+    {
+      "path": "source_dump/VOYNICH_RESEARCH_LEDGER_THROUGH_058.md",
+      "size": 7320,
+      "sha256": "d6a1444541d62c155e6ff02e49c899479e830bc4906b53b116b965f832f9d090"
+    },
+    {
+      "path": "source_dump/Voynich_047_048_Reproducible_Results.zip",
+      "size": 9580,
+      "sha256": "abb896fc44d6d9ffb6a63d461d7c2514a17b0bc51d8c9614d57fcc6c77b19159"
+    },
+    {
+      "path": "source_dump/Voynich_069_Full_Corpus_Adversarial_Audit.zip",
+      "size": 4835,
+      "sha256": "4991b20d2c256a9301a163c5145877300e46f44ff8b63f98fca721185b15351b"
+    },
+    {
+      "path": "source_dump/Voynich_Decipherment_Experiments_052_053.zip",
+      "size": 11929,
+      "sha256": "da3dd36e012431ba3346ffd430c5e7e37bfa39a2035eaf4f594b233f6bf56b5a"
+    },
+    {
+      "path": "source_dump/Voynich_Decipherment_Hypotheses_052_053.md",
+      "size": 5231,
+      "sha256": "b330b25bfa471c30c3f9fe95f50d919739606fc6e7d354804d817ad71597719b"
+    },
+    {
+      "path": "source_dump/Voynich_Experiment_057_Findings.md",
+      "size": 5028,
+      "sha256": "583ca8d1ddf1d9bad5874ba905ca0cbada63d461a0d8457b3dc6b2800df512a1"
+    },
+    {
+      "path": "source_dump/Voynich_Experiment_057_Reproducibility.zip",
+      "size": 14795,
+      "sha256": "245446da2beea4d75b0ef7ada09f32eff90571597898cf1b1fa253b3e244b04f"
+    },
+    {
+      "path": "source_dump/Voynich_Experiment_059_results.json",
+      "size": 16308,
+      "sha256": "60aa0a4520818a268fb722b3274f3a6ff80e58baa5786a772728d0b936da780f"
+    },
+    {
+      "path": "source_dump/Voynich_Experiment_063_Findings.md",
+      "size": 4797,
+      "sha256": "d8bc3e7e9ae94921fbe72172346d485767afc66c6e6a5fac03225e7a896de8ec"
+    },
+    {
+      "path": "source_dump/Voynich_Experiment_063_Image_Audit_Pack.zip",
+      "size": 10162,
+      "sha256": "dd2e4d4ef2e5a6fdc0697540227fa6f0c0a5ac76385f7f8ab31f6d0f86e52e7a"
+    },
+    {
+      "path": "source_dump/Voynich_Experiment_064_Hypothesis_Tournament.zip",
+      "size": 556516,
+      "sha256": "e0bd3eff0a20898221268f417827b741da01acc748a2b4822bff07038e04ecbe"
+    },
+    {
+      "path": "source_dump/Voynich_Experiment_066_Context_and_Zodiac.zip",
+      "size": 187920,
+      "sha256": "f459a2c8a56bcdbc4a58b22cba9d348384cf2bbcca8acbb3d5b9fdd7371c7cf2"
+    },
+    {
+      "path": "source_dump/Voynich_Experiments_047_048_README.md",
+      "size": 3726,
+      "sha256": "8676cd84d899808bdae0ed8d8c1b2ebeb5904cd777e28900e4889bbf05ae134b"
+    },
+    {
+      "path": "source_dump/Voynich_Glyph_Experiments_060_062.zip",
+      "size": 353840,
+      "sha256": "747dafde0ef15e6bdc723c2feb5fa6d5f3cfcf8624fad11f3e4d24fc24e017c1"
+    },
+    {
+      "path": "source_dump/Voynich_Research_Project_Through_058.zip",
+      "size": 449443,
+      "sha256": "c7a50cf556fa5e8fc92b89ba74aa07e67df08ba186a68a80c0cf5f3abf4b8933"
+    },
+    {
+      "path": "source_dump/voynich_066/EXPERIMENT_066_REPORT.md",
+      "size": 4481,
+      "sha256": "6b21352dcc18b08dc39b27f3ba670149e1af276cf40acc1d02948f9b718fe35a"
+    },
+    {
+      "path": "source_dump/voynich_066/q_context_cv.csv",
+      "size": 1196,
+      "sha256": "9e164840656229045286227880d124df649fd517555f6917478193ca89e1a92b"
+    },
+    {
+      "path": "source_dump/voynich_066/zodiac_panel_distances.csv",
+      "size": 2429,
+      "sha256": "adc38e353db4fe87d58730abdb6de8c9b18a6e11d10aba42f78e865ee7a2592b"
+    },
+    {
+      "path": "source_dump/voynich_067_cancer_coded_attributes.csv",
+      "size": 1288,
+      "sha256": "21cf6b9be0ac37eb71d5dbb4097e908f65906c04673fbf0da8dbabc28112b607"
+    },
+    {
+      "path": "source_dump/voynich_067_pisces_coded_attributes.csv",
+      "size": 1165,
+      "sha256": "f8f6f9f94a839d0532f55f25d26d39dfb7cc33efe53058a800438dacd441452f"
+    },
+    {
+      "path": "source_dump/voynich_067_star_count_by_sign.csv",
+      "size": 556,
+      "sha256": "5b38c996eefae753bed494b9c631927c5d23dc26dc2f352d57a2d48786b6e8a1"
+    },
+    {
+      "path": "source_dump/voynich_candidate_label_matches_030.csv",
+      "size": 550,
+      "sha256": "b2b6b841da9d4ca193c243c06bb640ed854979030023e555012626a764fb3819"
+    },
+    {
+      "path": "source_dump/voynich_experiment_002.py",
+      "size": 1790,
+      "sha256": "26dbc2bc08d6081ee66e6376b1e4a6010f84355910477581352d4f9b232cba73"
+    },
+    {
+      "path": "source_dump/voynich_experiment_003.py",
+      "size": 2530,
+      "sha256": "8c45e35a3c4afa66ab1d4eb323b4f5e5da7bf4a1b3d8ce72bba042fb73734d0e"
+    },
+    {
+      "path": "source_dump/voynich_experiment_003_results.json",
+      "size": 7106,
+      "sha256": "b9217d7cf3c703239242577abd50a3613995146cf71579fcc7ca6da734a3e52d"
+    },
+    {
+      "path": "source_dump/voynich_experiment_004.py",
+      "size": 1312,
+      "sha256": "99e63ff05b97464fe43381221e3a161ed4de3fb6e77db74bfd7d8fc5030e31bc"
+    },
+    {
+      "path": "source_dump/voynich_experiment_005.py",
+      "size": 3733,
+      "sha256": "1b9b51518888506a443924ecf8178b43d8bb73206d0713756f6e11c825fd44c7"
+    },
+    {
+      "path": "source_dump/voynich_experiment_005_results.json",
+      "size": 2069,
+      "sha256": "821d9f3443a255b9f3547fdc60cc61c5f34c6590234cb5cc565b51e5269fa62c"
+    },
+    {
+      "path": "source_dump/voynich_experiment_006.py",
+      "size": 4189,
+      "sha256": "71edc7c92a4526a3a54df2665b99442bef545ae67bea2dfa1e4fd2915348e403"
+    },
+    {
+      "path": "source_dump/voynich_experiment_006_results.json",
+      "size": 3505,
+      "sha256": "802a5e7c20776076849e6396a678507b3186f22aa5fb4d85abc05a2e0176f150"
+    },
+    {
+      "path": "source_dump/voynich_experiment_007.py",
+      "size": 2765,
+      "sha256": "10d012e297dae78fdcf7242976150563e37a2f79e1d41aa4e7c789c6486b7772"
+    },
+    {
+      "path": "source_dump/voynich_experiment_007_results.json",
+      "size": 2739,
+      "sha256": "ffad4d4eb5c7d41e1d2cc62e1da96eb7f9aa356d03b64b9c0e31bd0fd938860f"
+    },
+    {
+      "path": "source_dump/voynich_experiment_008.py",
+      "size": 4123,
+      "sha256": "3b19ef7b5e22cdc0c9ab0b28b431688adc5fef95fed2f87639ecdbbe4d29c030"
+    },
+    {
+      "path": "source_dump/voynich_experiment_008_results.json",
+      "size": 7420,
+      "sha256": "6731d3f55acf739e6f3f91a74e1784ce8e0dfd90c37341c5abfc85723b9f6d39"
+    },
+    {
+      "path": "source_dump/voynich_experiment_009.py",
+      "size": 2729,
+      "sha256": "7f87cbbc71bf52623b07e15ba220f1f4bb22b4e357cac99ba3e96b31dfa48c59"
+    },
+    {
+      "path": "source_dump/voynich_experiment_009_results.json",
+      "size": 1327,
+      "sha256": "3fd9711f39c22ac4fe443d7b06079daf6c2615bc401fd664f3d3a7b1b47682e0"
+    },
+    {
+      "path": "source_dump/voynich_experiment_010.py",
+      "size": 2424,
+      "sha256": "c217e4d21e0959cb047851accf06ffddd942aaffff7aacafbf1c44ae08ab61c4"
+    },
+    {
+      "path": "source_dump/voynich_experiment_010_results.json",
+      "size": 3828,
+      "sha256": "adcf78f02f8a64697537ed93f5cb3e2019adc33073070572db464ad6d3dce6e3"
+    },
+    {
+      "path": "source_dump/voynich_experiment_011.py",
+      "size": 2789,
+      "sha256": "bc1b945ae79fb004d6e42be971660e1f840844c0596684e3b1f56fe8ef7578e7"
+    },
+    {
+      "path": "source_dump/voynich_experiment_011_results.json",
+      "size": 1962,
+      "sha256": "eb455022ed0024cb79a95162099d0c5cfcdfd984bc355e21977941cc3dd7be36"
+    },
+    {
+      "path": "source_dump/voynich_experiment_012.py",
+      "size": 3214,
+      "sha256": "85b5635185012cb6acc0a9b2a78c43ea76e8aa9df62aa2f6c3c51e39350f8e97"
+    },
+    {
+      "path": "source_dump/voynich_experiment_012_results.json",
+      "size": 1575,
+      "sha256": "ba0510592ca2bd949627899a80f2e57e34a48b0c952fa3b37a0365bbe428496f"
+    },
+    {
+      "path": "source_dump/voynich_experiment_013.py",
+      "size": 2556,
+      "sha256": "b9a65055aa1afb7de4bd7da4c4a6a9049101628b6a2a249338efe3a6de2a62a0"
+    },
+    {
+      "path": "source_dump/voynich_experiment_013_results.json",
+      "size": 2135,
+      "sha256": "1781e255b5f0f6f385568ca57905a0f64f754c11cb09264388c2de9dd653df1c"
+    },
+    {
+      "path": "source_dump/voynich_experiment_015.py",
+      "size": 3672,
+      "sha256": "192099bc9ebc8bce0147b844b86a771686c79dbea7febb217db92a004b99fbe7"
+    },
+    {
+      "path": "source_dump/voynich_experiment_015_results.json",
+      "size": 12672,
+      "sha256": "9862563c20624e1bf4f6c9ae21d4fa7489468728a414f2fa49a86af2d06dc8a4"
+    },
+    {
+      "path": "source_dump/voynich_experiment_016.py",
+      "size": 3925,
+      "sha256": "71b0c7c1dfb909b154b064bfe286f01cf93bad463a638fe3bd1a800c4755f1f1"
+    },
+    {
+      "path": "source_dump/voynich_experiment_016_results.json",
+      "size": 4154,
+      "sha256": "55ffb4262715d5ceb9911ed25a8e5333770e9adfb8a472e9295de121e4e7018c"
+    },
+    {
+      "path": "source_dump/voynich_experiment_017.py",
+      "size": 3563,
+      "sha256": "a893f92ca36b356df1549ffccee8c1ba9145bf1dcca711c0be79c38918d46bcd"
+    },
+    {
+      "path": "source_dump/voynich_experiment_017_results.json",
+      "size": 1536,
+      "sha256": "dee5056b12b1dac34cf8d3bc100a53fbf889df6d5cc006a04af90ea68bf6f6da"
+    },
+    {
+      "path": "source_dump/voynich_experiment_018.py",
+      "size": 4251,
+      "sha256": "2fc7c809f68fca7d80bc40dc7f2b7084f262838ea5991bbff342ea9387af0ee7"
+    },
+    {
+      "path": "source_dump/voynich_experiment_018_results.json",
+      "size": 4124,
+      "sha256": "e6d50a7fc0add324dff72f0388b66ee67cda4a8d9287f3355087edabd6edf98b"
+    },
+    {
+      "path": "source_dump/voynich_experiment_019.py",
+      "size": 3427,
+      "sha256": "5892bdae7e9cccd210581191fe8321227b4fd4001b4edb3ee9002d10f5a7bca5"
+    },
+    {
+      "path": "source_dump/voynich_experiment_019_results.json",
+      "size": 5001,
+      "sha256": "68762aa9ec6153c6869fd43c2f2cd2697211750a8fb9e192bce34d7bddcf6cfb"
+    },
+    {
+      "path": "source_dump/voynich_experiment_020.py",
+      "size": 3078,
+      "sha256": "513b4ba77fe7dc6d86a533d09a1e96e9f206a6243e4a85a266c6b8a237b45572"
+    },
+    {
+      "path": "source_dump/voynich_experiment_020_results.json",
+      "size": 1717,
+      "sha256": "b3bc536b84c6a01a3e134032f4611b552b072e983b6c1a4a77a06d616804e39d"
+    },
+    {
+      "path": "source_dump/voynich_experiment_021.py",
+      "size": 2148,
+      "sha256": "eef42c3c82bd2b9ae17bd7af7a38759de84b7fcd00d66f0ecdf7c1e4940f7be0"
+    },
+    {
+      "path": "source_dump/voynich_experiment_021_results.json",
+      "size": 2561,
+      "sha256": "87c9019186341df6e4a5da0b603bbb432ea342227c21849503041f2dab89b8c4"
+    },
+    {
+      "path": "source_dump/voynich_experiment_023.py",
+      "size": 2067,
+      "sha256": "a4db4a23a1ba7323f5d0945b4d58df995eac2f60581a60e7b06c06b2daa196a1"
+    },
+    {
+      "path": "source_dump/voynich_experiment_023_results.json",
+      "size": 3787,
+      "sha256": "c0ee541ad7ec07a378486e742f039a47d11cb3e3893d5f97135f300182462748"
+    },
+    {
+      "path": "source_dump/voynich_experiment_024.py",
+      "size": 729,
+      "sha256": "ebdfc478937b2e6f800679f8d95d42d2db979c39f20c794dca90de8b82cc9251"
+    },
+    {
+      "path": "source_dump/voynich_experiment_024_results.json",
+      "size": 1685,
+      "sha256": "9e4b0052fe18573d9d8dbf878c24347d221c068a9636a1bfeb5d65377f7009dc"
+    },
+    {
+      "path": "source_dump/voynich_experiment_025.py",
+      "size": 2884,
+      "sha256": "5195b354d7f0c28bc0c48e2e480b46b986b909e4b7f1731c0268a7ae8b506356"
+    },
+    {
+      "path": "source_dump/voynich_experiment_025_results.json",
+      "size": 1545,
+      "sha256": "452fbc066fcd652789e222b3affc7c7e5bf4bc92a122fe5c39c48b4991d9818b"
+    },
+    {
+      "path": "source_dump/voynich_experiment_026.py",
+      "size": 2384,
+      "sha256": "8c5d39ecf2ad4303f73cf64cd24a729c703957a4dd632b1f4477947954422b28"
+    },
+    {
+      "path": "source_dump/voynich_experiment_026_results.json",
+      "size": 1528,
+      "sha256": "575dc895a803d82bef9922e6c26bacfc55ada889a85a89daa3c5eb3d1a5109e1"
+    },
+    {
+      "path": "source_dump/voynich_experiment_028.py",
+      "size": 4046,
+      "sha256": "13322894aadbfb06505480c8983a145f6f4a305d4273ff75a119d8f8e285a696"
+    },
+    {
+      "path": "source_dump/voynich_experiment_028_results.json",
+      "size": 4307,
+      "sha256": "b37bb4eb7ef5a80ac2e2cddbaba069ca41de7d1c25616b4496441c4c1482d7cf"
+    },
+    {
+      "path": "source_dump/voynich_experiment_029.py",
+      "size": 3048,
+      "sha256": "0373ee7f1bb3d74408b5970ee69385e0c951c11d16bc252fc5587f787755ecca"
+    },
+    {
+      "path": "source_dump/voynich_experiment_029_results.json",
+      "size": 1896,
+      "sha256": "f8457563733d90f82e5d1f55492d936fc4d292808854336950a7d5b0e3966480"
+    },
+    {
+      "path": "source_dump/voynich_experiment_030.py",
+      "size": 2690,
+      "sha256": "e8a02b58f4273dd3551e1b591317c677fa4fa40fbbc0bfa2d329cb4ff1b246a7"
+    },
+    {
+      "path": "source_dump/voynich_experiment_030_results.json",
+      "size": 3216,
+      "sha256": "a5a15244ef1cc57509caa8ab0f14d19e59e2f7490acc28e86a9f2dfb27f60aee"
+    },
+    {
+      "path": "source_dump/voynich_experiment_037.py",
+      "size": 2199,
+      "sha256": "f536d0001a06b212016cfa90eb62f66d2ed8ef471db22e3044af7f8353f59dd1"
+    },
+    {
+      "path": "source_dump/voynich_experiment_037_results.json",
+      "size": 1042,
+      "sha256": "84b9178da76ad997f884a16429ec949a13725abdd29ee66b4b3a3b676419043f"
+    },
+    {
+      "path": "source_dump/voynich_experiment_039.py",
+      "size": 1959,
+      "sha256": "246d1e38bbeb965e31d553de80ee386c235986560872311ba8c282b53a9dbf28"
+    },
+    {
+      "path": "source_dump/voynich_experiment_039_results.json",
+      "size": 3282,
+      "sha256": "d67ade1c20033b889c6af7f13b0d9d66c51f914fa57071e14f236a4d867372bd"
+    },
+    {
+      "path": "source_dump/voynich_experiment_040.py",
+      "size": 1322,
+      "sha256": "badf171211d6e161564a987a20d5f48098ea300b709169281e4dff4589f161da"
+    },
+    {
+      "path": "source_dump/voynich_experiment_040_results.json",
+      "size": 951,
+      "sha256": "76b2f8562987e5354f1a7e11fe94a638a59d781e0ee5939f3cb39050c86b20f3"
+    },
+    {
+      "path": "source_dump/voynich_experiment_041.py",
+      "size": 2625,
+      "sha256": "7d4d7282c543577fb84e8480e5af5d7962dd85a3fbe8a67b785ce8b3ef79ec3c"
+    },
+    {
+      "path": "source_dump/voynich_experiment_041_results.json",
+      "size": 2080,
+      "sha256": "34a21c293743a487c5a499b488c5241266e4f5f6e02f5d16fffcc433b5fa5ffb"
+    },
+    {
+      "path": "source_dump/voynich_experiment_043.py",
+      "size": 3208,
+      "sha256": "b2dbf65ac7a491fbe41eca8a2fe684e71c7a2eeed073a172882f55e2670796df"
+    },
+    {
+      "path": "source_dump/voynich_experiment_043_results.json",
+      "size": 2184,
+      "sha256": "43404f0caa23d14f7358f38c4cc5b292a2e1c49e7819feaa47d02b7c1098e1a8"
+    },
+    {
+      "path": "source_dump/voynich_experiment_044.py",
+      "size": 3107,
+      "sha256": "abd07ed037f66931a84ad429e9be7749fc3ba75b131a2615a68737a3865d6ede"
+    },
+    {
+      "path": "source_dump/voynich_experiment_044_results.json",
+      "size": 1440,
+      "sha256": "eed812947023fb97bdfdf1e45f8b8e5996bbc7271c48db41885eea0f8c4db905"
+    },
+    {
+      "path": "source_dump/voynich_experiment_045.py",
+      "size": 1604,
+      "sha256": "01b444aa5380bab5d04ddb85c804db8c4e98b575883440cd3e10cd293e159585"
+    },
+    {
+      "path": "source_dump/voynich_experiment_045_results.json",
+      "size": 1473,
+      "sha256": "605ea5ddd5004709e050fb6ca3433961058cc123dbbac630d5e9166bde85277a"
+    },
+    {
+      "path": "source_dump/voynich_experiment_049.py",
+      "size": 4732,
+      "sha256": "0fcda7081d92bd37c1c515b7de73919840f519c0737bb97263e3c9575f4ae467"
+    },
+    {
+      "path": "source_dump/voynich_experiment_049_results.json",
+      "size": 5117,
+      "sha256": "1a02c739c1c5943fb110a03d0866141ddfffdff014b3ed94aaf5c967aa65e24b"
+    },
+    {
+      "path": "source_dump/voynich_experiment_050.py",
+      "size": 4763,
+      "sha256": "577cccbcf45895407d91bac6cd79f0a733729648d2589c25b2e21b07f6162234"
+    },
+    {
+      "path": "source_dump/voynich_experiment_050_results.json",
+      "size": 5813,
+      "sha256": "413517adc3ccc06a7da915d36c81aaf9a227b63030b6074b7bcb20733cfbd76b"
+    },
+    {
+      "path": "source_dump/voynich_experiment_051.py",
+      "size": 3840,
+      "sha256": "40ea8258066c56dc4127262b4d446b235eb045417c160a24bed8cadb7833e924"
+    },
+    {
+      "path": "source_dump/voynich_experiment_051_results.json",
+      "size": 6583,
+      "sha256": "4c50df4ff6b61b45f0df3bbe4cb67ccf468ac03e20f2ed5747cfb1613250b383"
+    },
+    {
+      "path": "source_dump/voynich_experiment_058.py",
+      "size": 11616,
+      "sha256": "0b31806b4727eb4842b4a852481a272677aba82f8f64f8aa9fa37cfd601feec3"
+    },
+    {
+      "path": "source_dump/voynich_experiment_058_results.json",
+      "size": 10221,
+      "sha256": "f95dc52d8b110f312c80553a859c25380bf98598fa58170e197781a8966a7909"
+    },
+    {
+      "path": "source_dump/voynich_experiment_059.py",
+      "size": 9183,
+      "sha256": "73081d4118bf1b92adf004aefecdc02320facf1e14896d0b8a9d10d7633f9e24"
+    },
+    {
+      "path": "source_dump/voynich_experiment_063_cases.csv",
+      "size": 1368,
+      "sha256": "ec3b259cb2c6a7720527fb4bdd1e716c888738d6f461151040da3f93bd2c2b1a"
+    },
+    {
+      "path": "source_dump/voynich_experiment_063_image_audit.html",
+      "size": 13475,
+      "sha256": "b886b9a08472349f8a9991664ed69ec77059add21a084ec87337f5a58027261f"
+    },
+    {
+      "path": "source_dump/voynich_f1r_sample.txt",
+      "size": 1252,
+      "sha256": "bf914175d822972818b8f3c82b542d8ea24551f0adce26c67ff7669108630203"
+    },
+    {
+      "path": "source_dump/voynich_f3r_reference.txt",
+      "size": 959,
+      "sha256": "b709a727e999cd6b260078b753f7fd68c6459832120f09ce37e2ae2353b63d85"
+    },
+    {
+      "path": "source_dump/voynich_f99v_f100r_EVA_transcription.txt",
+      "size": 4538,
+      "sha256": "6c2e68a1537ed80d98c1f4d4dbfc5c2043bca84e3ca3c1bb8d37bec95f178db4"
+    },
+    {
+      "path": "source_dump/voynich_f99v_f100r_image_labels.csv",
+      "size": 2370,
+      "sha256": "b852578128882665c328bbca58055c5023da7a146efc72f9b58a01f814c98eec"
+    },
+    {
+      "path": "source_dump/voynich_full_corpus_analysis.py",
+      "size": 4437,
+      "sha256": "05eaca5b9f3dc63331a20484e01c93e18ec073ad5c3d2828136ed79ac2ce9928"
+    },
+    {
+      "path": "source_dump/voynich_full_experiment_014.py",
+      "size": 4413,
+      "sha256": "c2849941037cda94ff4b6c602ab2543b22ac610175e66f5f109d62cc7e424634"
+    },
+    {
+      "path": "source_dump/voynich_full_experiment_014_results.json",
+      "size": 4047,
+      "sha256": "1ccb0cc4199fe1cbb200d5fbde115535fde4154e9b06ee0d4bc738599cf7c74c"
+    },
+    {
+      "path": "source_dump/voynich_glyph_image_audit_queue.csv",
+      "size": 17798,
+      "sha256": "6fed09adf5236f0289602b9c533c2ec238ae4f7352cf909a6287fbe84c4e28a9"
+    },
+    {
+      "path": "source_dump/voynich_heldout_f1v_f2r.txt",
+      "size": 1394,
+      "sha256": "00b0e203a2891592ab6c21965c759e82cdffbe1d538f30fded0f7595294622b6"
+    },
+    {
+      "path": "source_dump/voynich_historical_comparanda_031.csv",
+      "size": 1576,
+      "sha256": "78622bff609283bc86b47b7d458529a6b80df6403b9c5b8b1d792babe7fc0069"
+    },
+    {
+      "path": "source_dump/voynich_historical_reference_027.py",
+      "size": 2780,
+      "sha256": "66609969b3db239b41ec02ca603d3b70b484ed686c4e57ced7d622c75c55e489"
+    },
+    {
+      "path": "source_dump/voynich_historical_zodiac_reference_027.csv",
+      "size": 11258,
+      "sha256": "bf63bbb484ca8c404953ec8f20b49ee22198cb9ab88ec1fcc2d8b098a58ff323"
+    },
+    {
+      "path": "source_dump/voynich_joint_065/EXPERIMENT_065_REPORT.md",
+      "size": 8866,
+      "sha256": "d7d34837bb97e423ef5bb934208db1c4537aaf5dec4fae89d27bfccaaebd3ed7"
+    },
+    {
+      "path": "source_dump/voynich_joint_065/context_placebo_scores.csv",
+      "size": 720,
+      "sha256": "d2cb43a2cbb1a0d38ad7cd700424988e1cdd5c19e3ea14435b930aa5d97d0670"
+    },
+    {
+      "path": "source_dump/voynich_middle_english_pilot.txt",
+      "size": 1287,
+      "sha256": "fd2a6994aed935f3cc3044d01a8e56718be1757a42995193a165926f21a33e65"
+    },
+    {
+      "path": "source_dump/voynich_mini_lm.py",
+      "size": 3712,
+      "sha256": "a3e5e63b1ef25f1af2e9ee2109f3885e436adbc87916364b323c558629e46108"
+    },
+    {
+      "path": "source_dump/voynich_mini_lm_results.json",
+      "size": 2894,
+      "sha256": "dc67f62c8c9d9837a9bbfc2ade296c820cce5bc2accae33b9b9cb884564f820e"
+    },
+    {
+      "path": "source_dump/voynich_parser_validation_results.json",
+      "size": 1340,
+      "sha256": "3987782bfd404d2d8f226e48dc2fa25c2b92736f85e45ce930a5597a443374b6"
+    },
+    {
+      "path": "source_dump/voynich_probe.py",
+      "size": 1821,
+      "sha256": "1029645f27ca7572b8a032f6f30468c92b853268555e8ba0d9ae69e09e280925"
+    },
+    {
+      "path": "source_dump/voynich_solution_audit_068.json",
+      "size": 7315,
+      "sha256": "32c767f97cd8506057f076d70c96516ecf747529986ff099d3e56f1ac5e4bee4"
+    },
+    {
+      "path": "source_dump/voynich_solution_audit_068.py",
+      "size": 1205,
+      "sha256": "7ada92832ba24c8ed720b35b0f52942c4ffa86a189c62eb71d9d27ea3db6649a"
+    },
+    {
+      "path": "source_dump/voynich_star_label_crop.png",
+      "size": 180426,
+      "sha256": "bdf7c3303449b81aa3b6cbb4ab85f09b6ae382a9429e328aac92754a889f8422"
+    },
+    {
+      "path": "source_dump/voynich_tournament_064/TOURNAMENT_REPORT.md",
+      "size": 11367,
+      "sha256": "fe5331d9c08dd2d8250d9c3bd5afb276af85a168734c98c6428a8cb255ec36ab"
+    },
+    {
+      "path": "source_dump/voynich_tournament_064/glyph_position_table.csv",
+      "size": 777,
+      "sha256": "bc48ab97e34c7d838ca30f71a1e323b0f24e6fb32968aaeb55c944343583e585"
+    },
+    {
+      "path": "source_dump/voynich_tournament_064/historical_corpus_manifest.csv",
+      "size": 1664,
+      "sha256": "57c659bc1306b4125be192a1f4331865211b352c4426936e53887f576ee53623"
+    },
+    {
+      "path": "source_dump/voynich_tournament_064/hypothesis_survival_matrix.csv",
+      "size": 4377,
+      "sha256": "c05cbb1405fec4278ea98c7152da61acac704f10d6f51f2deb81a1605f9b970c"
+    },
+    {
+      "path": "source_dump/voynich_tournament_064/indexed_clean_corpus.csv",
+      "size": 1308166,
+      "sha256": "4eed081241f1c4e15c757371944ab59a7aa52ded645f987f7ef0a33cb5381213"
+    },
+    {
+      "path": "source_dump/voynich_tournament_064/proposed_readings_audit.csv",
+      "size": 1045,
+      "sha256": "3644f6111dff293d848922cf4f23bafd2de4d51b44c4e059c14d6db7e165ba91"
+    },
+    {
+      "path": "source_dump/voynich_tournament_064/segmentation_crossvalidation.csv",
+      "size": 2759,
+      "sha256": "987ebaafda7afa13f982d404cf08c8754ed660bcb7ef0faed4d77a258be4c6d3"
+    },
+    {
+      "path": "source_dump/voynich_tournament_064/segmentation_summary.csv",
+      "size": 478,
+      "sha256": "db8e9b509aad66fa52865641ecbec1509b76e49a346e9da2ad55014f385797f8"
+    },
+    {
+      "path": "source_dump/voynich_tournament_064/zodiac_position_stronger_controls.csv",
+      "size": 423,
+      "sha256": "1ccd42a90094e637c53113c5416e140dd8b7b4611ad8c042d870ff52da9c4d83"
+    },
+    {
+      "path": "source_dump/voynich_zodiac_clock_positions.csv",
+      "size": 11552,
+      "sha256": "08dd9bdb54df98f89e7f49611a5d5e8711eb2cd5044b1e7812a5ea6f584595a8"
+    },
+    {
+      "path": "source_dump/voynich_zodiac_coordinate_experiment.py",
+      "size": 2128,
+      "sha256": "f4e52c94490eb19a7c43942ebdd61591476a3f14da431797b3bb3feb0c8a788c"
+    },
+    {
+      "path": "source_dump/voynich_zodiac_coordinate_report.json",
+      "size": 2494,
+      "sha256": "fdb51f99312c314e1c04257754b0a692678fac8fdc220dc8efd88f52363f1593"
+    },
+    {
+      "path": "source_dump/voynich_zodiac_coverage_027.csv",
+      "size": 388,
+      "sha256": "07334bcf7c48db545f96ce4b9daed9698822b9fcced8a41b74d1807a57086aed"
+    },
+    {
+      "path": "source_dump/voynich_zodiac_slot_map.csv",
+      "size": 30424,
+      "sha256": "965e70f541750b0032442db20af23b55f874b81de9959f7511ea51e43a78f620"
+    }
+  ],
+  "notes": "Original files copied unmodified; Codex/Claude external repositories not present in this dump."
+}

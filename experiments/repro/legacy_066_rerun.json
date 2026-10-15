@@ -1,0 +1,112 @@
+{
+ "experiment": "066",
+ "workdir": "/var/folders/6r/b0psq1g938q0ldzv4_fkhd740000gn/T/legacy066_phejm0iz",
+ "fields": 165,
+ "differing": [
+  {
+   "key": "q_context.five_fold.0.auc",
+   "archived": 0.7112330593906937,
+   "rerun": 0.7112118918976128
+  },
+  {
+   "key": "q_context.five_fold.0.logloss_nats",
+   "archived": 0.6175400891678496,
+   "rerun": 0.6175436757653325
+  },
+  {
+   "key": "q_context.five_fold.11.logloss_nats",
+   "archived": 0.5542222027437333,
+   "rerun": 0.5542251846713754
+  },
+  {
+   "key": "q_context.five_fold.15.auc",
+   "archived": 0.7348814573933005,
+   "rerun": 0.7348870835255595
+  },
+  {
+   "key": "q_context.five_fold.15.logloss_nats",
+   "archived": 0.6017999311140957,
+   "rerun": 0.6018009775614356
+  },
+  {
+   "key": "q_context.five_fold.19.auc",
+   "archived": 0.8134200132776722,
+   "rerun": 0.8134211385041239
+  },
+  {
+   "key": "q_context.five_fold.2.auc",
+   "archived": 0.7841894702305668,
+   "rerun": 0.7841841783572967
+  },
+  {
+   "key": "q_context.five_fold.2.logloss_nats",
+   "archived": 0.562527294833581,
+   "rerun": 0.5625289474619273
+  },
+  {
+   "key": "q_context.five_fold.4.auc",
+   "archived": 0.7915054850266446,
+   "rerun": 0.7915001931533744
+  },
+  {
+   "key": "q_context.five_fold.5.logloss_nats",
+   "archived": 0.5868436019041494,
+   "rerun": 0.5868425788940997
+  },
+  {
+   "key": "q_context.five_fold.6.auc",
+   "archived": 0.7654682131074555,
+   "rerun": 0.7654625052797407
+  },
+  {
+   "key": "q_context.five_fold.6.logloss_nats",
+   "archived": 0.5725887493278927,
+   "rerun": 0.5725986953145089
+  },
+  {
+   "key": "q_context.five_fold.7.logloss_nats",
+   "archived": 0.5624949632520855,
+   "rerun": 0.5624928159838486
+  },
+  {
+   "key": "q_context.improvement_level1_to3_95pct_clusterbootstrap.1",
+   "archived": 0.013767864671530709,
+   "rerun": 0.013769560336639364
+  },
+  {
+   "key": "q_context.improvement_level1_to3_mean",
+   "archived": 0.009843877969303796,
+   "rerun": 0.009845966881286038
+  },
+  {
+   "key": "q_context.weighted_heldout_logloss_nats.1",
+   "archived": 0.5611197480663566,
+   "rerun": 0.5611218332544579
+  },
+  {
+   "key": "zodiac.sensitivity_note",
+   "archived": "The most similar pair overall, f70v1 and f70v2, belongs to DIFFERENT zodiac signs but the same physical leaf; proximity, scribal practice, vocabulary register and sample size can explain similarity.",
+   "rerun": null
+  },
+  {
+   "key": "zodiac.size_matched_exact_pairing_p",
+   "archived": "1/3 (one of three pairings; NOT significant)",
+   "rerun": null
+  },
+  {
+   "key": "zodiac.size_matched_four_panel_mean_for_the_three_pairings.0",
+   "archived": 0.3463412537460009,
+   "rerun": null
+  },
+  {
+   "key": "zodiac.size_matched_four_panel_mean_for_the_three_pairings.1",
+   "archived": 0.41711211011453975,
+   "rerun": null
+  },
+  {
+   "key": "zodiac.size_matched_four_panel_mean_for_the_three_pairings.2",
+   "archived": 0.46067152823899826,
+   "rerun": null
+  }
+ ]
+}

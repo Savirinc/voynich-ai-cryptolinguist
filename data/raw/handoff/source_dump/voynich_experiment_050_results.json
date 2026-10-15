@@ -1,0 +1,267 @@
+{
+  "source": "user-uploaded IVTFF EVA transcription ZL v3b, parsed P-lines; initial adjacent clean words within each line",
+  "tokens": 30161,
+  "folios": 206,
+  "comparisons": [
+    {
+      "contrast": "q + o... versus o...",
+      "matched_stems": 186,
+      "eligible_tokens_with_predecessor": 6912,
+      "raw_table_y_vs_other_qform_first": [
+        [
+          2651,
+          1311
+        ],
+        [
+          887,
+          2063
+        ]
+      ],
+      "raw_rates": {
+        "after_y": 0.6691,
+        "after_non_y": 0.3007
+      },
+      "informative_strata": 232,
+      "adjusted_OR_y": 4.424,
+      "adjusted_OR_CI": [
+        3.948,
+        4.957
+      ],
+      "stratified_p": 0.0
+    },
+    {
+      "contrast": "d + o... versus o...",
+      "matched_stems": 9,
+      "eligible_tokens_with_predecessor": 196,
+      "raw_table_y_vs_other_qform_first": [
+        [
+          14,
+          36
+        ],
+        [
+          13,
+          133
+        ]
+      ],
+      "raw_rates": {
+        "after_y": 0.28,
+        "after_non_y": 0.089
+      },
+      "informative_strata": 10,
+      "adjusted_OR_y": 4.28,
+      "adjusted_OR_CI": [
+        1.634,
+        11.206
+      ],
+      "stratified_p": 0.0015088210222307108
+    },
+    {
+      "contrast": "y + o... versus o...",
+      "matched_stems": 2,
+      "eligible_tokens_with_predecessor": 47,
+      "raw_table_y_vs_other_qform_first": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          42
+        ]
+      ],
+      "raw_rates": {
+        "after_y": 0.0,
+        "after_non_y": 0.0
+      },
+      "informative_strata": 0
+    },
+    {
+      "contrast": "l + o... versus o...",
+      "matched_stems": 11,
+      "eligible_tokens_with_predecessor": 528,
+      "raw_table_y_vs_other_qform_first": [
+        [
+          18,
+          177
+        ],
+        [
+          9,
+          324
+        ]
+      ],
+      "raw_rates": {
+        "after_y": 0.0923,
+        "after_non_y": 0.027
+      },
+      "informative_strata": 11,
+      "adjusted_OR_y": 7.022,
+      "adjusted_OR_CI": [
+        2.591,
+        19.029
+      ],
+      "stratified_p": 4.486175533613412e-06
+    },
+    {
+      "contrast": "ch + o... versus o...",
+      "matched_stems": 76,
+      "eligible_tokens_with_predecessor": 2900,
+      "raw_table_y_vs_other_qform_first": [
+        [
+          141,
+          898
+        ],
+        [
+          297,
+          1564
+        ]
+      ],
+      "raw_rates": {
+        "after_y": 0.1357,
+        "after_non_y": 0.1596
+      },
+      "informative_strata": 89,
+      "adjusted_OR_y": 1.246,
+      "adjusted_OR_CI": [
+        0.951,
+        1.633
+      ],
+      "stratified_p": 0.11357660731850938
+    },
+    {
+      "contrast": "sh + o... versus o...",
+      "matched_stems": 30,
+      "eligible_tokens_with_predecessor": 1389,
+      "raw_table_y_vs_other_qform_first": [
+        [
+          45,
+          449
+        ],
+        [
+          86,
+          809
+        ]
+      ],
+      "raw_rates": {
+        "after_y": 0.0911,
+        "after_non_y": 0.0961
+      },
+      "informative_strata": 42,
+      "adjusted_OR_y": 1.44,
+      "adjusted_OR_CI": [
+        0.875,
+        2.368
+      ],
+      "stratified_p": 0.15956905138534627
+    },
+    {
+      "contrast": "t + o... versus o...",
+      "matched_stems": 14,
+      "eligible_tokens_with_predecessor": 507,
+      "raw_table_y_vs_other_qform_first": [
+        [
+          11,
+          156
+        ],
+        [
+          5,
+          335
+        ]
+      ],
+      "raw_rates": {
+        "after_y": 0.0659,
+        "after_non_y": 0.0147
+      },
+      "informative_strata": 9,
+      "adjusted_OR_y": 10.286,
+      "adjusted_OR_CI": [
+        2.659,
+        39.796
+      ],
+      "stratified_p": 0.00012166199475205364
+    },
+    {
+      "contrast": "k + o... versus o...",
+      "matched_stems": 4,
+      "eligible_tokens_with_predecessor": 132,
+      "raw_table_y_vs_other_qform_first": [
+        [
+          7,
+          22
+        ],
+        [
+          4,
+          99
+        ]
+      ],
+      "raw_rates": {
+        "after_y": 0.2414,
+        "after_non_y": 0.0388
+      },
+      "informative_strata": 5,
+      "adjusted_OR_y": 5.941,
+      "adjusted_OR_CI": [
+        1.539,
+        22.938
+      ],
+      "stratified_p": 0.0031955308987047237
+    },
+    {
+      "contrast": "o + stem versus bare stem",
+      "matched_stems": 238,
+      "eligible_tokens_with_predecessor": 9728,
+      "raw_table_y_vs_other_qform_first": [
+        [
+          1304,
+          2594
+        ],
+        [
+          2054,
+          3776
+        ]
+      ],
+      "raw_rates": {
+        "after_y": 0.3345,
+        "after_non_y": 0.3523
+      },
+      "informative_strata": 263,
+      "adjusted_OR_y": 0.451,
+      "adjusted_OR_CI": [
+        0.398,
+        0.511
+      ],
+      "stratified_p": 0.0
+    },
+    {
+      "contrast": "ch + residual versus sh + residual",
+      "matched_stems": 99,
+      "eligible_tokens_with_predecessor": 3405,
+      "raw_table_y_vs_other_qform_first": [
+        [
+          593,
+          317
+        ],
+        [
+          1534,
+          961
+        ]
+      ],
+      "raw_rates": {
+        "after_y": 0.6516,
+        "after_non_y": 0.6148
+      },
+      "informative_strata": 118,
+      "adjusted_OR_y": 1.152,
+      "adjusted_OR_CI": [
+        0.973,
+        1.364
+      ],
+      "stratified_p": 0.10082618976800928
+    }
+  ],
+  "notes": [
+    "All comparisons are syntactic surface form contrasts; no phonetic or semantic values are assigned.",
+    "CMH odds ratios control for exact shared remainder and Currier A/B where metadata present.",
+    "Pairs filtered to at least 2 instances of each form; this is exploratory, multiple contrasts.",
+    "The split is on visual EVA string sequences; an EVA digraph need not equal two manuscript glyphs."
+  ]
+}

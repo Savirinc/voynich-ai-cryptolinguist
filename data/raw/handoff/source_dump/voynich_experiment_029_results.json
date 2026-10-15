@@ -1,0 +1,75 @@
+{
+  "scope": "Exploratory leave-one-zodiac-sign-out test; fixed transcription order previously selected among four; not a pre-registered blind validation.",
+  "labels": 232,
+  "n_signs": 10,
+  "observed_mean_log_likelihood_gain_nats": -0.46000524100928025,
+  "control_mean_gain_nats": -0.3608719100508459,
+  "control_95pct": [
+    -0.4797628646532134,
+    -0.23754193218027947
+  ],
+  "p_one_sided": 0.9326683291770573,
+  "per_sign": [
+    {
+      "sign": "Aries",
+      "n": 22,
+      "mean_log_gain_nats": -0.15824779188895688,
+      "positive_share": 0.45454545454545453
+    },
+    {
+      "sign": "Taurus",
+      "n": 17,
+      "mean_log_gain_nats": -0.5600993309828289,
+      "positive_share": 0.35294117647058826
+    },
+    {
+      "sign": "Gemini",
+      "n": 26,
+      "mean_log_gain_nats": 0.039768584727020544,
+      "positive_share": 0.6923076923076923
+    },
+    {
+      "sign": "Cancer",
+      "n": 19,
+      "mean_log_gain_nats": -1.0569626701927586,
+      "positive_share": 0.3157894736842105
+    },
+    {
+      "sign": "Leo",
+      "n": 23,
+      "mean_log_gain_nats": -0.5498539732308637,
+      "positive_share": 0.43478260869565216
+    },
+    {
+      "sign": "Virgo",
+      "n": 22,
+      "mean_log_gain_nats": -0.4711783444438355,
+      "positive_share": 0.5
+    },
+    {
+      "sign": "Libra",
+      "n": 27,
+      "mean_log_gain_nats": -0.7430068215946783,
+      "positive_share": 0.37037037037037035
+    },
+    {
+      "sign": "Scorpio",
+      "n": 28,
+      "mean_log_gain_nats": -0.3971125496693367,
+      "positive_share": 0.5714285714285714
+    },
+    {
+      "sign": "Sagittarius",
+      "n": 27,
+      "mean_log_gain_nats": -0.6284304805800771,
+      "positive_share": 0.3333333333333333
+    },
+    {
+      "sign": "Pisces",
+      "n": 21,
+      "mean_log_gain_nats": -0.16710689636161552,
+      "positive_share": 0.7142857142857143
+    }
+  ],
+  "n_permutations": 400
+}

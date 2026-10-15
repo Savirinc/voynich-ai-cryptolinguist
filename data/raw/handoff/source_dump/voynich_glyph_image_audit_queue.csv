@@ -1,0 +1,123 @@
+audit_type,folio,line,locus,word,comparison_locus,comparison_word,line_end,comparison_line_end,question
+PRIORITY matched -iin / -m,f46v,1,f46v.1,daiin,f46v.3,dam,True,True,Compare glyph strokes in both contexts on one folio; photograph at native resolution.
+PRIORITY matched -iin / -m,f34v,9,f34v.9,oldaiin,f34v.2,oldam,True,True,Compare glyph strokes in both contexts on one folio; photograph at native resolution.
+PRIORITY matched -iin / -m,f3r,20,f3r.20,aiin,f3r.20,am,False,True,Compare glyph strokes in both contexts on one folio; photograph at native resolution.
+PRIORITY matched -iin / -m,f8r,19,f8r.19,kaiin,f8r.19,kam,False,True,Compare glyph strokes in both contexts on one folio; photograph at native resolution.
+PRIORITY matched -iin / -m,f6r,2,f6r.2,daiin,f6r.3,dam,False,True,Compare glyph strokes in both contexts on one folio; photograph at native resolution.
+"matched -iin / -m, same folio and stem",f101r,1,f101r.1,aiin,f101r.3,am,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f102v1,11,f102v1.11,daiin,f102v1.20,dam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f103r,12,f103r.12,aiin,f103r.6,am,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f103r,9,f103r.9,otaiin,f103r.40,otam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f103r,7,f103r.7,saiin,f103r.48,sam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f103v,5,f103v.5,qokaiin,f103v.6,qokam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f104r,35,f104r.35,chedaiin,f104r.6,chedam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f104r,14,f104r.14,daiin,f104r.9,dam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f104r,37,f104r.37,okaiin,f104r.44,okam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f104r,8,f104r.8,qokaiin,f104r.24,qokam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f104r,5,f104r.5,qotaiin,f104r.12,qotam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f104v,13,f104v.13,aiin,f104v.32,am,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f104v,4,f104v.4,chedaiin,f104v.12,chedam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f104v,25,f104v.25,daiin,f104v.1,dam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f104v,34,f104v.34,okaiin,f104v.38,okam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f104v,2,f104v.2,otaiin,f104v.20,otam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f104v,41,f104v.41,raiin,f104v.15,ram,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f105r,5,f105r.5,daiin,f105r.20,dam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f105r,36,f105r.36,otaiin,f105r.36,otam,True,False,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f105v,6,f105v.6,aiin,f105v.12,am,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f105v,35,f105v.35,odaiin,f105v.10,odam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f105v,11,f105v.11,okaiin,f105v.9,okam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f106r,19,f106r.19,qokaiin,f106r.4,qokam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f106v,1,f106v.1,aiin,f106v.9,am,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f106v,21,f106v.21,lkaiin,f106v.13,lkam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f106v,5,f106v.5,otaiin,f106v.12,otam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f106v,7,f106v.7,qotaiin,f106v.16,qotam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f107r,2,f107r.2,aiin,f107r.6,am,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f107r,15,f107r.15,oiin,f107r.25,om,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f107r,1,f107r.1,otaiin,f107r.41,otam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f107r,15,f107r.15,otaraiin,f107r.11,otaram,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f107v,1,f107v.1,lkaiin,f107v.17,lkam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f107v,4,f107v.4,otaiin,f107v.12,otam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f107v,3,f107v.3,qokaiin,f107v.27,qokam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f108r,11,f108r.11,okaiin,f108r.50,okam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f108r,13,f108r.13,raiin,f108r.37,ram,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f108v,1,f108v.1,aiin,f108v.7,am,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f108v,2,f108v.2,daiin,f108v.5,dam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f108v,25,f108v.25,kaiin,f108v.31,kam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f108v,25,f108v.25,okaiin,f108v.2,okam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f108v,22,f108v.22,otaiin,f108v.38,otam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f108v,5,f108v.5,raraiin,f108v.17,raram,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f10r,4,f10r.4,aiin,f10r.7,am,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f111r,7,f111r.7,aiin,f111r.4,am,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f111r,2,f111r.2,daiin,f111r.35,dam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f111v,5,f111v.5,aiin,f111v.8,am,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f111v,43,f111v.43,laiin,f111v.23,lam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f111v,17,f111v.17,saiin,f111v.34,sam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f112r,1,f112r.1,aiin,f112r.17,am,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f112r,2,f112r.2,olaiin,f112r.36,olam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f112v,7,f112v.7,aiin,f112v.1,am,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f112v,17,f112v.17,chdaiin,f112v.34,chdam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f112v,8,f112v.8,otaiin,f112v.13,otam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f112v,13,f112v.13,qokaiin,f112v.37,qokam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f112v,20,f112v.20,qotaiin,f112v.3,qotam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f113r,17,f113r.17,chedaiin,f113r.43,chedam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f113r,5,f113r.5,qokaiin,f113r.27,qokam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f113v,37,f113v.37,olaiin,f113v.3,olam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f113v,25,f113v.25,opaiin,f113v.18,opam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f113v,7,f113v.7,qotaiin,f113v.25,qotam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f113v,22,f113v.22,raiin,f113v.11,ram,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f114r,12,f114r.12,okaiin,f114r.12,okam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f114r,38,f114r.38,raiin,f114r.30,ram,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f114v,7,f114v.7,aiin,f114v.24,am,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f114v,32,f114v.32,chetaiin,f114v.28,chetam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f114v,4,f114v.4,daiin,f114v.16,dam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f114v,7,f114v.7,otaiin,f114v.11,otam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f115r,11,f115r.11,daiin,f115r.14,dam,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f115r,43,f115r.43,oiin,f115r.15,om,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+"matched -iin / -m, same folio and stem",f115r,31,f115r.31,raiin,f115r.19,ram,False,True,Are the last ink strokes genuinely allographs/ligatures of the same sign?
+medial-m exception,f1v,4,f1v.4,damsochey,,,False,,"Check glyph reading against scan, not just EVA transcription."
+medial-n exception,f2r,1,f2r.1,kydainy,,,False,,"Check glyph reading against scan, not just EVA transcription."
+medial-n exception,f2r,3,f2r.3,qotaiincthey,,,False,,"Check glyph reading against scan, not just EVA transcription."
+medial-n exception,f2r,5,f2r.5,alshodaiinchol,,,False,,"Check glyph reading against scan, not just EVA transcription."
+medial-n exception,f2r,5,f2r.5,danytchaiin,,,False,,"Check glyph reading against scan, not just EVA transcription."
+medial-n exception,f2r,7,f2r.7,daiinychol,,,False,,"Check glyph reading against scan, not just EVA transcription."
+medial-n exception,f2r,8,f2r.8,fodanyksh,,,False,,"Check glyph reading against scan, not just EVA transcription."
+medial-n exception,f2r,10,f2r.10,daiincthey,,,False,,"Check glyph reading against scan, not just EVA transcription."
+medial-n exception,f2r,11,f2r.11,danolsaiin,,,False,,"Check glyph reading against scan, not just EVA transcription."
+medial-n exception,f2r,12,f2r.12,chansaiin,,,False,,"Check glyph reading against scan, not just EVA transcription."
+medial-n exception,f2v,3,f2v.3,chodainchcthy,,,False,,"Check glyph reading against scan, not just EVA transcription."
+medial-m exception,f3r,1,f3r.1,daimg,,,True,,"Check glyph reading against scan, not just EVA transcription."
+medial-m exception,f3r,7,f3r.7,damo,,,True,,"Check glyph reading against scan, not just EVA transcription."
+medial-m exception,f3r,15,f3r.15,otchomoporar,,,True,,"Check glyph reading against scan, not just EVA transcription."
+medial-n exception,f3r,16,f3r.16,daiinsoleeg,,,True,,"Check glyph reading against scan, not just EVA transcription."
+medial-n exception,f3r,19,f3r.19,qosaiinchor,,,False,,"Check glyph reading against scan, not just EVA transcription."
+final-i exception,f3v,3,f3v.3,okai,,,True,,"Check glyph reading against scan, not just EVA transcription."
+medial-n exception,f4r,3,f4r.3,qotaiindaiin,,,False,,"Check glyph reading against scan, not just EVA transcription."
+medial-n exception,f4v,3,f4v.3,qodaiino,,,False,,"Check glyph reading against scan, not just EVA transcription."
+medial-n exception,f4v,5,f4v.5,qotchoiinchodain,,,True,,"Check glyph reading against scan, not just EVA transcription."
+medial-m exception,f6r,4,f6r.4,otchamyaiir,,,False,,"Check glyph reading against scan, not just EVA transcription."
+medial-n exception,f6r,5,f6r.5,cthaiinodam,,,True,,"Check glyph reading against scan, not just EVA transcription."
+medial-n exception,f6r,6,f6r.6,cthaiinydaiin,,,True,,"Check glyph reading against scan, not just EVA transcription."
+medial-n exception,f7r,4,f7r.4,daiinychey,,,False,,"Check glyph reading against scan, not just EVA transcription."
+medial-n exception,f7r,7,f7r.7,dainshody,,,False,,"Check glyph reading against scan, not just EVA transcription."
+final-i exception,f8r,19,f8r.19,dai,,,False,,"Check glyph reading against scan, not just EVA transcription."
+medial-n exception,f8v,6,f8v.6,cthanytchy,,,False,,"Check glyph reading against scan, not just EVA transcription."
+medial-m exception,f11v,2,f11v.2,damykchy,,,False,,"Check glyph reading against scan, not just EVA transcription."
+medial-m exception,f17r,10,f17r.10,mol,,,True,,"Check glyph reading against scan, not just EVA transcription."
+medial-m exception,f23v,8,f23v.8,damchor,,,False,,"Check glyph reading against scan, not just EVA transcription."
+medial-m exception,f32v,1,f32v.1,daiioamo,,,False,,"Check glyph reading against scan, not just EVA transcription."
+medial-m exception,f34r,2,f34r.2,lamocthedy,,,False,,"Check glyph reading against scan, not just EVA transcription."
+medial-m exception,f37r,6,f37r.6,qotomodydchol,,,False,,"Check glyph reading against scan, not just EVA transcription."
+final-i exception,f39v,3,f39v.3,okaii,,,False,,"Check glyph reading against scan, not just EVA transcription."
+medial-m exception,f39v,9,f39v.9,ydamshody,,,False,,"Check glyph reading against scan, not just EVA transcription."
+medial-m exception,f39v,12,f39v.12,amokar,,,False,,"Check glyph reading against scan, not just EVA transcription."
+medial-m exception,f40r,6,f40r.6,amo,,,False,,"Check glyph reading against scan, not just EVA transcription."
+medial-m exception,f40v,15,f40v.15,faimy,,,True,,"Check glyph reading against scan, not just EVA transcription."
+medial-m exception,f43v,13,f43v.13,amam,,,True,,"Check glyph reading against scan, not just EVA transcription."
+medial-m exception,f45v,8,f45v.8,pchomotor,,,False,,"Check glyph reading against scan, not just EVA transcription."
+medial-m exception,f52r,4,f52r.4,damychcthod,,,True,,"Check glyph reading against scan, not just EVA transcription."
+medial-m exception,f54r,11,f54r.11,damor,,,False,,"Check glyph reading against scan, not just EVA transcription."
+medial-m exception,f58r,29,f58r.29,omy,,,True,,"Check glyph reading against scan, not just EVA transcription."
+final-i exception,f82v,17,f82v.17,okai,,,False,,"Check glyph reading against scan, not just EVA transcription."
+final-i exception,f100r,24,f100r.24,sai,,,False,,"Check glyph reading against scan, not just EVA transcription."
+final-i exception,f107v,40,f107v.40,qokaiii,,,False,,"Check glyph reading against scan, not just EVA transcription."
+final-i exception,f115r,35,f115r.35,chsi,,,False,,"Check glyph reading against scan, not just EVA transcription."

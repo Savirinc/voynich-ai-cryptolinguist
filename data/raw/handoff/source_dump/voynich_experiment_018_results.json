@@ -1,0 +1,165 @@
+{
+  "description": "Observed versus word-copy/mutate generated controls; identical evaluation protocol; generated control retains folio and line lengths but is not frequency matched on output or conditioned on section.",
+  "groups": {
+    "A": {
+      "observed": {
+        "train": 4873,
+        "test": 1195,
+        "majority": 0.2912,
+        "stem": {
+          "accuracy": 0.5674,
+          "log_loss": 0.9717
+        },
+        "combined": {
+          "accuracy": 0.5883,
+          "log_loss": 0.942
+        },
+        "context": {
+          "accuracy": 0.3197,
+          "log_loss": 1.6795
+        },
+        "context_gain_accuracy": 0.0209,
+        "context_gain_logloss": 0.0297
+      },
+      "mechanical_controls": [
+        {
+          "train": 5265,
+          "test": 1265,
+          "majority": 0.5352,
+          "stem": {
+            "accuracy": 0.5913,
+            "log_loss": 1.0601
+          },
+          "combined": {
+            "accuracy": 0.6213,
+            "log_loss": 1.0123
+          },
+          "context": {
+            "accuracy": 0.5636,
+            "log_loss": 1.318
+          },
+          "context_gain_accuracy": 0.03,
+          "context_gain_logloss": 0.0478
+        },
+        {
+          "train": 5240,
+          "test": 1304,
+          "majority": 0.5222,
+          "stem": {
+            "accuracy": 0.5805,
+            "log_loss": 1.1203
+          },
+          "combined": {
+            "accuracy": 0.5851,
+            "log_loss": 1.0841
+          },
+          "context": {
+            "accuracy": 0.5314,
+            "log_loss": 1.373
+          },
+          "context_gain_accuracy": 0.0046,
+          "context_gain_logloss": 0.0362
+        },
+        {
+          "train": 5244,
+          "test": 1286,
+          "majority": 0.528,
+          "stem": {
+            "accuracy": 0.5949,
+            "log_loss": 1.0417
+          },
+          "combined": {
+            "accuracy": 0.6104,
+            "log_loss": 0.9934
+          },
+          "context": {
+            "accuracy": 0.535,
+            "log_loss": 1.3521
+          },
+          "context_gain_accuracy": 0.0155,
+          "context_gain_logloss": 0.0483
+        }
+      ]
+    },
+    "B": {
+      "observed": {
+        "train": 11270,
+        "test": 3424,
+        "majority": 0.2564,
+        "stem": {
+          "accuracy": 0.6361,
+          "log_loss": 0.8597
+        },
+        "combined": {
+          "accuracy": 0.6673,
+          "log_loss": 0.823
+        },
+        "context": {
+          "accuracy": 0.3548,
+          "log_loss": 1.554
+        },
+        "context_gain_accuracy": 0.0312,
+        "context_gain_logloss": 0.0367
+      },
+      "mechanical_controls": [
+        {
+          "train": 11876,
+          "test": 3607,
+          "majority": 0.4652,
+          "stem": {
+            "accuracy": 0.5611,
+            "log_loss": 1.0532
+          },
+          "combined": {
+            "accuracy": 0.6113,
+            "log_loss": 0.9916
+          },
+          "context": {
+            "accuracy": 0.5068,
+            "log_loss": 1.3479
+          },
+          "context_gain_accuracy": 0.0502,
+          "context_gain_logloss": 0.0616
+        },
+        {
+          "train": 11894,
+          "test": 3626,
+          "majority": 0.4699,
+          "stem": {
+            "accuracy": 0.5632,
+            "log_loss": 1.0634
+          },
+          "combined": {
+            "accuracy": 0.6106,
+            "log_loss": 0.9867
+          },
+          "context": {
+            "accuracy": 0.5212,
+            "log_loss": 1.3194
+          },
+          "context_gain_accuracy": 0.0474,
+          "context_gain_logloss": 0.0767
+        },
+        {
+          "train": 11826,
+          "test": 3672,
+          "majority": 0.4673,
+          "stem": {
+            "accuracy": 0.5635,
+            "log_loss": 1.05
+          },
+          "combined": {
+            "accuracy": 0.6054,
+            "log_loss": 0.9763
+          },
+          "context": {
+            "accuracy": 0.5153,
+            "log_loss": 1.3228
+          },
+          "context_gain_accuracy": 0.0419,
+          "context_gain_logloss": 0.0737
+        }
+      ]
+    }
+  }
+}

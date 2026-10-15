@@ -1,0 +1,207 @@
+{
+ "source_docx_sha256": "6aedc059275bc18c0d4db15a6a6c2e851e9f93a7b532cbed907a34c0db69ddb7",
+ "pages": 227,
+ "all_tokens": 39020,
+ "tokens_by_mode": {
+  "prose": 35069,
+  "label": 1199,
+  "circle": 2398,
+  "radial": 354
+ },
+ "prose": {
+  "tokens": 35069,
+  "clean": 34789,
+  "uncertain_glyph": 166,
+  "alternative_reading": 650,
+  "ligature_braces": 383,
+  "rare_glyph": 117,
+  "single_glyph_words": 1113,
+  "uncertain_space_before": 2463
+ },
+ "leaves": 103,
+ "bifolios": 52,
+ "locked_test_leaves": [
+  "1",
+  "8",
+  "9",
+  "30",
+  "35",
+  "38",
+  "51",
+  "52",
+  "56",
+  "75",
+  "86",
+  "87",
+  "102",
+  "105",
+  "114"
+ ],
+ "locked_test_prose_tokens": 6004,
+ "legacy064_reproduction": {
+  "prose_tokens": 32132,
+  "prose_types": 6846,
+  "label_tokens": 875,
+  "prose_folios": 206,
+  "prose_leaves": 99,
+  "currier_A": 9878,
+  "currier_B": 21760,
+  "targets": {
+   "prose_tokens": 32132,
+   "prose_types": 6846,
+   "label_tokens": 875,
+   "prose_folios": 206,
+   "prose_leaves": 99,
+   "currier_A": 9878,
+   "currier_B": 21760
+  },
+  "exact_match": true
+ },
+ "effects_dev_only": {
+  "y_to_q": {
+   "odds_ratio": 4.92,
+   "ci95_leaf_bootstrap": [
+    4.085,
+    5.722
+   ],
+   "table": [
+    2943,
+    7628,
+    1071,
+    13662
+   ],
+   "per_fold_odds_ratio": [
+    5.912,
+    3.511,
+    5.312,
+    4.107,
+    5.055
+   ]
+  },
+  "line_final_m_vs_iin": {
+   "odds_ratio": 18.873,
+   "ci95_leaf_bootstrap": [
+    12.181,
+    29.732
+   ],
+   "table": [
+    517,
+    240,
+    318,
+    2793
+   ],
+   "per_fold_odds_ratio": [
+    17.967,
+    16.521,
+    41.066,
+    17.927,
+    7.865
+   ]
+  },
+  "q_followed_by_o": {
+   "qo": 4387,
+   "q": 4487,
+   "share": 0.9777
+  }
+ },
+ "effects_by_currier_dev_only": {
+  "A": {
+   "y_to_q": {
+    "odds_ratio": 2.246,
+    "ci95_leaf_bootstrap": [
+     1.903,
+     2.676
+    ],
+    "table": [
+     353,
+     1988,
+     381,
+     4820
+    ],
+    "per_fold_odds_ratio": [
+     2.602,
+     2.197,
+     2.63,
+     2.389,
+     1.654
+    ]
+   },
+   "line_final_m_vs_iin": {
+    "odds_ratio": 4.755,
+    "ci95_leaf_bootstrap": [
+     3.294,
+     7.297
+    ],
+    "table": [
+     139,
+     147,
+     183,
+     922
+    ],
+    "per_fold_odds_ratio": [
+     4.91,
+     5.309,
+     8.681,
+     6.088,
+     3.156
+    ]
+   },
+   "q_followed_by_o": {
+    "qo": 895,
+    "q": 917,
+    "share": 0.976
+   }
+  },
+  "B": {
+   "y_to_q": {
+    "odds_ratio": 5.928,
+    "ci95_leaf_bootstrap": [
+     5.026,
+     6.951
+    ],
+    "table": [
+     2571,
+     5486,
+     678,
+     8581
+    ],
+    "per_fold_odds_ratio": [
+     6.462,
+     4.557,
+     6.067,
+     4.689,
+     7.755
+    ]
+   },
+   "line_final_m_vs_iin": {
+    "odds_ratio": 59.703,
+    "ci95_leaf_bootstrap": [
+     38.978,
+     93.355
+    ],
+    "table": [
+     360,
+     86,
+     127,
+     1826
+    ],
+    "per_fold_odds_ratio": [
+     32.276,
+     72.94,
+     87.21,
+     46.488,
+     601.138
+    ]
+   },
+   "q_followed_by_o": {
+    "qo": 3460,
+    "q": 3534,
+    "share": 0.9791
+   }
+  }
+ },
+ "derived_hashes": {
+  "tokens.csv": "55c896ecd972b174c492dd3be6580a3cafe41469700062cf89ebfe3dcc11bbe9",
+  "splits.json": "36584bce0d9fb8c0a5293c9427866aa6e6b37f88547b58d893f1b46185e1b6b6"
+ }
+}

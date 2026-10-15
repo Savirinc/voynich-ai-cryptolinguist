@@ -1,0 +1,11 @@
+sign,recorded_labels,expected_degree_slots,missing_vs_30,reading_order_verified,matching_rulers_calculated
+Aries,30,30,0,False,False
+Taurus,30,30,0,False,False
+Gemini,29,30,1,False,False
+Cancer,30,30,0,False,False
+Leo,30,30,0,False,False
+Virgo,30,30,0,False,False
+Libra,30,30,0,False,False
+Scorpio,30,30,0,False,False
+Sagittarius,30,30,0,False,False
+Pisces,29,30,1,False,False

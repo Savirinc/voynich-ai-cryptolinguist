@@ -1,0 +1,8 @@
+candidate,resource,url,qualification,current_data_status,selection_note
+Old French / Picard / Anglo-Norman,"Open Medieval French (Yvain, other critical editions)",https://github.com/OpenMedFr/texts,"Texts c.12th–15th; many literary, some earlier than Voynich",NOT INGESTED,Match later French samples and medical/astrological genre
+Old French / Anglo-Norman,"Base de français médiéval, Chanson de Roland",https://txm-bfm.huma-num.fr/txm/catalog/roland,"Norman c.1100; 29,312 words; chronological mismatch",NOT INGESTED,"Use as historical negative control, not 15th-century proxy"
+Latin,CLTK/Perseus Latin texts,https://github.com/cltk/lat_text_perseus,Classical/late antique more than 15th-century; genre matters,NOT INGESTED,Find matching 14th/15th-century technical Latin
+Middle High German,BAdW Mittelhochdeutsch-Korpus,https://github.com/badw-dh/Mittelhochdeutsch-Korpus,1.1m annotated word forms from >100 texts,NOT INGESTED,Date and region align subset and preserve original orthography
+Old Occitan / Gascon,UD Old Occitan CorAG,https://github.com/UniversalDependencies/UD_Old_Occitan-CorAG,51k word forms incl. 1460 Bearn legal texts,NOT INGESTED,"Select chronological/genre matches, strip linguistic annotation"
+Old Occitan (handwriting),CATMuS HTR Occitan,https://github.com/HTRogene/occitan,"14th-century ground truth handwriting, relatively small",NOT INGESTED,"Compare scribal ligatures, not alone language frequencies"
+Persian/Arabic,Awaiting authentic era-matched sample,,Any Urdu/Farsi analogy concerns positional letter shapes not proven language identity,NOT INGESTED,Collect historical Persian/Arabic transliterations and run identical tests

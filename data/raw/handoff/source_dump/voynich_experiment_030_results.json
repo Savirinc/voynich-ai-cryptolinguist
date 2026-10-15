@@ -1,0 +1,161 @@
+{
+  "source": "/mnt/data/voynich_zodiac_slot_map.csv",
+  "usable_labels": 232,
+  "shared_across_sign_exact_forms": 21,
+  "cross_sign_identical_word_pairs": 40,
+  "observed_within_two_provisional_slots": 0.2,
+  "observed_same_provisional_slot": 0.025,
+  "cyclic_shift_null_mean": 0.16049000000000002,
+  "cyclic_shift_null_95_interval": [
+    0.05,
+    0.3
+  ],
+  "one_sided_p": 0.3135372925414917,
+  "examples_closest": [
+    {
+      "word": "otaly",
+      "sign_a": "Aries",
+      "sign_b": "Scorpio",
+      "slot_a": 4,
+      "slot_b": 4,
+      "distance": 0
+    },
+    {
+      "word": "okaly",
+      "sign_a": "Gemini",
+      "sign_b": "Leo",
+      "slot_a": 8,
+      "slot_b": 7,
+      "distance": 1
+    },
+    {
+      "word": "okaly",
+      "sign_a": "Gemini",
+      "sign_b": "Leo",
+      "slot_a": 16,
+      "slot_b": 15,
+      "distance": 1
+    },
+    {
+      "word": "okeody",
+      "sign_a": "Scorpio",
+      "sign_b": "Sagittarius",
+      "slot_a": 5,
+      "slot_b": 4,
+      "distance": 1
+    },
+    {
+      "word": "okeos",
+      "sign_a": "Scorpio",
+      "sign_b": "Sagittarius",
+      "slot_a": 18,
+      "slot_b": 17,
+      "distance": 1
+    },
+    {
+      "word": "oky",
+      "sign_a": "Scorpio",
+      "sign_b": "Sagittarius",
+      "slot_a": 23,
+      "slot_b": 22,
+      "distance": 1
+    },
+    {
+      "word": "otalaiin",
+      "sign_a": "Aries",
+      "sign_b": "Taurus",
+      "slot_a": 11,
+      "slot_b": 12,
+      "distance": 1
+    },
+    {
+      "word": "oeedy",
+      "sign_a": "Leo",
+      "sign_b": "Virgo",
+      "slot_a": 22,
+      "slot_b": 20,
+      "distance": 2
+    },
+    {
+      "word": "oky",
+      "sign_a": "Leo",
+      "sign_b": "Sagittarius",
+      "slot_a": 19,
+      "slot_b": 22,
+      "distance": 3
+    },
+    {
+      "word": "okary",
+      "sign_a": "Leo",
+      "sign_b": "Scorpio",
+      "slot_a": 24,
+      "slot_b": 20,
+      "distance": 4
+    },
+    {
+      "word": "oky",
+      "sign_a": "Leo",
+      "sign_b": "Scorpio",
+      "slot_a": 19,
+      "slot_b": 23,
+      "distance": 4
+    },
+    {
+      "word": "okydy",
+      "sign_a": "Pisces",
+      "sign_b": "Libra",
+      "slot_a": 17,
+      "slot_b": 21,
+      "distance": 4
+    },
+    {
+      "word": "otaly",
+      "sign_a": "Aries",
+      "sign_b": "Scorpio",
+      "slot_a": 4,
+      "slot_b": 0,
+      "distance": 4
+    },
+    {
+      "word": "okal",
+      "sign_a": "Gemini",
+      "sign_b": "Libra",
+      "slot_a": 9,
+      "slot_b": 14,
+      "distance": 5
+    },
+    {
+      "word": "otal",
+      "sign_a": "Gemini",
+      "sign_b": "Scorpio",
+      "slot_a": 20,
+      "slot_b": 25,
+      "distance": 5
+    },
+    {
+      "word": "oeeodaiin",
+      "sign_a": "Cancer",
+      "sign_b": "Virgo",
+      "slot_a": 8,
+      "slot_b": 1,
+      "distance": 7
+    },
+    {
+      "word": "okal",
+      "sign_a": "Gemini",
+      "sign_b": "Libra",
+      "slot_a": 7,
+      "slot_b": 14,
+      "distance": 7
+    },
+    {
+      "word": "okaly",
+      "sign_a": "Gemini",
+      "sign_b": "Leo",
+      "slot_a": 8,
+      "slot_b": 15,
+      "distance": 7
+    }
+  ],
+  "caveat": "Transcription order is not independently established astronomical order. Only an ordinal control; no semantic identifications."
+}

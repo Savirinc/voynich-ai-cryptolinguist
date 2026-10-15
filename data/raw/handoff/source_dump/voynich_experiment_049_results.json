@@ -1,0 +1,233 @@
+{
+  "parser": "Only running P loci, clean EVA lower-case tokens, 2-20 chars; partial annotation exclusions; digitized source annotated; label loci separately counted",
+  "running_tokens": 30070,
+  "running_lines": 4020,
+  "q_word_initial_count": 5033,
+  "q_following_character_counts": {
+    "o": 4937,
+    "e": 51,
+    "k": 14,
+    "y": 6,
+    "c": 16,
+    "a": 5,
+    "f": 1,
+    "s": 2,
+    "p": 1
+  },
+  "q_following_character_percent": {
+    "o": 98.093,
+    "e": 1.013,
+    "k": 0.278,
+    "y": 0.119,
+    "c": 0.318,
+    "a": 0.099,
+    "f": 0.02,
+    "s": 0.04,
+    "p": 0.02
+  },
+  "labels_total_clean_tokens": 871,
+  "labels_q_initial": 9,
+  "labels_q_following": {
+    "o": 8,
+    "k": 1
+  },
+  "q_pair_forms_min5_each": 98,
+  "most_frequent_pairs": [
+    {
+      "base": "ol",
+      "q_form": "qol",
+      "base_tokens": 514,
+      "q_tokens": 137,
+      "q_share": 0.21,
+      "folios_with_both": 34
+    },
+    {
+      "base": "okaiin",
+      "q_form": "qokaiin",
+      "base_tokens": 195,
+      "q_tokens": 262,
+      "q_share": 0.573,
+      "folios_with_both": 55
+    },
+    {
+      "base": "okeey",
+      "q_form": "qokeey",
+      "base_tokens": 150,
+      "q_tokens": 294,
+      "q_share": 0.662,
+      "folios_with_both": 38
+    },
+    {
+      "base": "okain",
+      "q_form": "qokain",
+      "base_tokens": 127,
+      "q_tokens": 274,
+      "q_share": 0.683,
+      "folios_with_both": 31
+    },
+    {
+      "base": "okeedy",
+      "q_form": "qokeedy",
+      "base_tokens": 98,
+      "q_tokens": 298,
+      "q_share": 0.753,
+      "folios_with_both": 36
+    },
+    {
+      "base": "or",
+      "q_form": "qor",
+      "base_tokens": 346,
+      "q_tokens": 20,
+      "q_share": 0.055,
+      "folios_with_both": 15
+    },
+    {
+      "base": "okedy",
+      "q_form": "qokedy",
+      "base_tokens": 100,
+      "q_tokens": 265,
+      "q_share": 0.726,
+      "folios_with_both": 37
+    },
+    {
+      "base": "okal",
+      "q_form": "qokal",
+      "base_tokens": 129,
+      "q_tokens": 184,
+      "q_share": 0.588,
+      "folios_with_both": 41
+    },
+    {
+      "base": "okar",
+      "q_form": "qokar",
+      "base_tokens": 114,
+      "q_tokens": 148,
+      "q_share": 0.565,
+      "folios_with_both": 37
+    },
+    {
+      "base": "otedy",
+      "q_form": "qotedy",
+      "base_tokens": 133,
+      "q_tokens": 87,
+      "q_share": 0.395,
+      "folios_with_both": 33
+    },
+    {
+      "base": "otaiin",
+      "q_form": "qotaiin",
+      "base_tokens": 133,
+      "q_tokens": 75,
+      "q_share": 0.361,
+      "folios_with_both": 22
+    },
+    {
+      "base": "oky",
+      "q_form": "qoky",
+      "base_tokens": 74,
+      "q_tokens": 134,
+      "q_share": 0.644,
+      "folios_with_both": 29
+    },
+    {
+      "base": "otar",
+      "q_form": "qotar",
+      "base_tokens": 120,
+      "q_tokens": 62,
+      "q_share": 0.341,
+      "folios_with_both": 27
+    },
+    {
+      "base": "otal",
+      "q_form": "qotal",
+      "base_tokens": 117,
+      "q_tokens": 58,
+      "q_share": 0.331,
+      "folios_with_both": 25
+    },
+    {
+      "base": "oty",
+      "q_form": "qoty",
+      "base_tokens": 94,
+      "q_tokens": 78,
+      "q_share": 0.453,
+      "folios_with_both": 27
+    },
+    {
+      "base": "okey",
+      "q_form": "qokey",
+      "base_tokens": 55,
+      "q_tokens": 106,
+      "q_share": 0.658,
+      "folios_with_both": 18
+    },
+    {
+      "base": "oteedy",
+      "q_form": "qoteedy",
+      "base_tokens": 85,
+      "q_tokens": 74,
+      "q_share": 0.465,
+      "folios_with_both": 25
+    },
+    {
+      "base": "okol",
+      "q_form": "qokol",
+      "base_tokens": 57,
+      "q_tokens": 94,
+      "q_share": 0.623,
+      "folios_with_both": 14
+    },
+    {
+      "base": "otain",
+      "q_form": "qotain",
+      "base_tokens": 90,
+      "q_tokens": 60,
+      "q_share": 0.4,
+      "folios_with_both": 23
+    },
+    {
+      "base": "oteey",
+      "q_form": "qoteey",
+      "base_tokens": 97,
+      "q_tokens": 41,
+      "q_share": 0.297,
+      "folios_with_both": 19
+    }
+  ],
+  "q_eligible_line_start": {
+    "with_q": 540,
+    "without_q": 570,
+    "rate": 0.4865
+  },
+  "q_eligible_within_line": {
+    "with_q": 4147,
+    "without_q": 4854,
+    "rate": 0.4607
+  },
+  "q_line_initial_vs_internal_OR": 1.1089,
+  "q_line_initial_vs_internal_fisher_p": 0.11071589219402575,
+  "prev_terminal_rates": {
+    "y": {
+      "with_q": 3019,
+      "without_q": 1850,
+      "rate": 0.62
+    },
+    "n": {
+      "with_q": 347,
+      "without_q": 1134,
+      "rate": 0.2343
+    },
+    "l": {
+      "with_q": 357,
+      "without_q": 658,
+      "rate": 0.3517
+    },
+    "r": {
+      "with_q": 223,
+      "without_q": 870,
+      "rate": 0.204
+    }
+  },
+  "interpretation": "The observed q/qo distributions and nearby-word dependency establish spelling constraints; neither synonym nor antonym meaning can be inferred without an independent semantic anchor.",
+  "caveat": "Line-start rates from transcribed lines, which may differ from actual author-intended grammatical units. Counts depend on IVTFF token selection. Label classification includes all annotated @L/&L rather than strictly zodiac labels."
+}

@@ -1,0 +1,58 @@
+{
+  "source": "https://www.voynich.nu/data/ZL3b-n.txt",
+  "source_lines": 26,
+  "parsed_paragraph_lines": 23,
+  "folio_count": 2,
+  "tokens": 189,
+  "parsing_notes": "Conservative text-only paragraphs; uncertain words omitted; EVA letters are not necessarily individual glyphs",
+  "groups": {
+    "all": {
+      "eligible_lines": 23,
+      "eligible_tokens": 166,
+      "initial": {
+        "JS_bits": 0.10528,
+        "permutation_p": 0.518272
+      },
+      "ending": {
+        "JS_bits": 0.0702,
+        "permutation_p": 0.581395
+      }
+    },
+    "Currier A": {
+      "eligible_lines": 23,
+      "eligible_tokens": 166,
+      "initial": {
+        "JS_bits": 0.10528,
+        "permutation_p": 0.518272
+      },
+      "ending": {
+        "JS_bits": 0.0702,
+        "permutation_p": 0.581395
+      }
+    },
+    "Currier B": {
+      "eligible_lines": 0,
+      "eligible_tokens": 0,
+      "initial": {
+        "JS_bits": null,
+        "permutation_p": 0.003322
+      },
+      "ending": {
+        "JS_bits": null,
+        "permutation_p": 0.003322
+      }
+    },
+    "not_paragraph_openings": {
+      "eligible_lines": 23,
+      "eligible_tokens": 166,
+      "initial": {
+        "JS_bits": 0.10528,
+        "permutation_p": 0.518272
+      },
+      "ending": {
+        "JS_bits": 0.0702,
+        "permutation_p": 0.581395
+      }
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "experiment": 39,
+  "change_from_038": "Preserve original ring lengths and spatial slots. Ambiguous tokens marked missing rather than deleted. Same-size ring pairs only, different signs. Optimize rotations/direction in both real and permuted controls.",
+  "pairs": 23,
+  "mean_optimized_prefix2_agreement": 0.4133333333333333,
+  "null_mean": 0.4180756560885674,
+  "null_95pct": [
+    0.38894092320722756,
+    0.4457446846631628
+  ],
+  "p_one_sided": 0.6249167221852099,
+  "pairs_data": [
+    {
+      "a": "f70v1:inner",
+      "b": "f71v:inner",
+      "n": 5,
+      "observed_best": 0.0
+    },
+    {
+      "a": "f70v1:inner",
+      "b": "f72r1:inner",
+      "n": 5,
+      "observed_best": 0.0
+    },
+    {
+      "a": "f70v1:outer",
+      "b": "f70v2:inner",
+      "n": 10,
+      "observed_best": 0.6
+    },
+    {
+      "a": "f70v1:outer",
+      "b": "f71v:outer",
+      "n": 10,
+      "observed_best": 0.6666666666666666
+    },
+    {
+      "a": "f70v1:outer",
+      "b": "f72r1:outer",
+      "n": 10,
+      "observed_best": 0.6666666666666666
+    },
+    {
+      "a": "f70v1:outer",
+      "b": "f72v1:inner",
+      "n": 10,
+      "observed_best": 0.2857142857142857
+    },
+    {
+      "a": "f70v2:inner",
+      "b": "f71r:outer",
+      "n": 10,
+      "observed_best": 0.6666666666666666
+    },
+    {
+      "a": "f70v2:inner",
+      "b": "f71v:outer",
+      "n": 10,
+      "observed_best": 0.5
+    },
+    {
+      "a": "f70v2:inner",
+      "b": "f72r1:outer",
+      "n": 10,
+      "observed_best": 0.5
+    },
+    {
+      "a": "f70v2:inner",
+      "b": "f72v1:inner",
+      "n": 10,
+      "observed_best": 0.25
+    },
+    {
+      "a": "f71r:inner",
+      "b": "f71v:inner",
+      "n": 5,
+      "observed_best": 0.6666666666666666
+    },
+    {
+      "a": "f71r:inner",
+      "b": "f72r1:inner",
+      "n": 5,
+      "observed_best": 0.75
+    },
+    {
+      "a": "f71r:outer",
+      "b": "f71v:outer",
+      "n": 10,
+      "observed_best": 0.5
+    },
+    {
+      "a": "f71r:outer",
+      "b": "f72r1:outer",
+      "n": 10,
+      "observed_best": 0.6666666666666666
+    },
+    {
+      "a": "f71r:outer",
+      "b": "f72v1:inner",
+      "n": 10,
+      "observed_best": 0.25
+    },
+    {
+      "a": "f71v:outer",
+      "b": "f72v1:inner",
+      "n": 10,
+      "observed_best": 0.3333333333333333
+    },
+    {
+      "a": "f72r1:outer",
+      "b": "f72v1:inner",
+      "n": 10,
+      "observed_best": 0.25
+    },
+    {
+      "a": "f72r2:outer",
+      "b": "f72v1:outer",
+      "n": 20,
+      "observed_best": 0.2857142857142857
+    },
+    {
+      "a": "f72r3:outer",
+      "b": "f72v2:inner",
+      "n": 12,
+      "observed_best": 0.4
+    },
+    {
+      "a": "f72r3:outer",
+      "b": "f72v3:inner",
+      "n": 12,
+      "observed_best": 0.2
+    },
+    {
+      "a": "f72v2:inner",
+      "b": "f72v3:inner",
+      "n": 12,
+      "observed_best": 0.42857142857142855
+    },
+    {
+      "a": "f72v2:outer",
+      "b": "f72v3:outer",
+      "n": 18,
+      "observed_best": 0.4
+    },
+    {
+      "a": "f73r:unspecified",
+      "b": "f73v:unspecified",
+      "n": 30,
+      "observed_best": 0.24
+    }
+  ],
+  "caveats": [
+    "Still exploratory and rings may not map directly to degrees",
+    "Same ring size does not imply corresponding degree locations",
+    "No word meanings established"
+  ]
+}

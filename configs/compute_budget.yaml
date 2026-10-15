@@ -1,0 +1,14 @@
+# Stop-loss compute limits. No cloud spending is authorised by this file.
+local_cpu_gpu:
+  device: "Apple M5 (MPS), 16 GB"
+  max_wall_clock_hours_per_experiment: 2
+  max_total_local_hours_milestone_1: 8
+cloud_gpu:
+  authorised: false
+  max_usd: 0
+  scale_up_rule: "only if OOD transfer (Gate 2) improves on the CPU/MPS pilot; requires explicit owner approval"
+llm_agent:
+  backend: "claude -p (Claude Code CLI, user subscription)"
+  max_calls_per_experiment: 200
+  max_parallel: 4
+  stop_loss: "abort a run if positive-control (Gate 1) accuracy < 0.5 after 30 tasks"
