@@ -5,7 +5,7 @@
 "Neural Decipherment via Minimum-Cost Flow: from Ugaritic to Linear B", arXiv:1906.06718,
 code https://github.com/j-luo93/NeuroDecipher @ `480bad2487820e3737fecfdd108214efa769e34b`
 (submodules arglib `91b41f5`, dev_misc `6c711b4`). Driver: `experiments/e008_neurodecipher_baseline.py`;
-results: `experiments/results/e008.json`; patches: `external/neurodecipher_patches/VCL_PATCHES.md` + `vcl_patches.diff`.
+results: `experiments/results/e008.json`; patches: `external/neurodecipher_patches/VCL_PATCHES.md` (the `vcl_patches.diff` is kept local only: it quotes unlicensed upstream code).
 
 ### 1.1 What it solves
 
@@ -70,7 +70,7 @@ assumptions 1 and 4 are not established, so NeuroDecipher is recorded here as a 
 
 | Item | Licence | Handling |
 |---|---|---|
-| NeuroDecipher code (main repo) | **none** (no LICENSE file; GitHub `license: null`) -> all rights reserved | cloned to `external/neurodecipher/`, **gitignored**; only `VCL_PATCHES.md` + `vcl_patches.diff` tracked |
+| NeuroDecipher code (main repo) | **none** (no LICENSE file; GitHub `license: null`) -> all rights reserved | cloned to `external/neurodecipher/`, **gitignored**; only `VCL_PATCHES.md` tracked (diff kept local) |
 | `arglib`, `dev_misc` submodules (same author) | **none** | gitignored with the clone |
 | vendored `editdistance/` (H. Tanaka) | MIT | gitignored with the clone (unmodified apart from build flags) |
 | `uga-heb.no_spe.cog`, `uga-heb.small.no_spe.cog` | **none stated**; Ugaritic-Hebrew cognates of Snyder, Barzilay & Knight (ACL 2010), "obtained from Ben Snyder" per upstream README | moved to `external/neurodecipher_data_private/`, **gitignored, not committed** |
