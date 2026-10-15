@@ -1,0 +1,69 @@
+{
+ "command": "experiments/e003_tune.py --skip-clf --n-cal 300",
+ "seed": 3003,
+ "calibration_solve_seconds": 329.3,
+ "calibration": {
+  "n": 251,
+  "solved_rate": 0.42231075697211157,
+  "threshold": 0.6199999999999999,
+  "oof_answered_rate": 0.3784860557768924,
+  "oof_selective_solved": 0.9578947368421052,
+  "oof_ece": 0.047056528967458155,
+  "by_family": {
+   "mono": {
+    "n": 37,
+    "solved_rate": 0.8378378378378378,
+    "mean_char_acc": 0.8916889852010927,
+    "family_id_acc": 0.8918918918918919,
+    "lang_id_acc": 0.8108108108108109
+   },
+   "homophonic": {
+    "n": 40,
+    "solved_rate": 0.45,
+    "mean_char_acc": 0.6645966133870491,
+    "family_id_acc": 0.975,
+    "lang_id_acc": 0.55
+   },
+   "vigenere": {
+    "n": 55,
+    "solved_rate": 0.23636363636363636,
+    "mean_char_acc": 0.45209072094267344,
+    "family_id_acc": 0.9636363636363636,
+    "lang_id_acc": 0.21818181818181817
+   },
+   "columnar": {
+    "n": 68,
+    "solved_rate": 0.36764705882352944,
+    "mean_char_acc": 0.4819844687753112,
+    "family_id_acc": 1.0,
+    "lang_id_acc": 0.39705882352941174
+   },
+   "nulls": {
+    "n": 51,
+    "solved_rate": 0.37254901960784315,
+    "mean_char_acc": 0.597512554799299,
+    "family_id_acc": 0.8235294117647058,
+    "lang_id_acc": 0.47058823529411764
+   }
+  },
+  "by_length": {
+   "60": 0.0,
+   "100": 0.03225806451612903,
+   "150": 0.24444444444444444,
+   "300": 0.48936170212765956,
+   "1000": 0.7,
+   "3000": 0.7777777777777778
+  },
+  "mean_seconds": 12.824780876494023,
+  "coef": {
+   "gap": -2.057,
+   "lex": 1.559,
+   "has_lex": -0.223,
+   "log_n": 0.09,
+   "margin": 0.94,
+   "p_family": 0.31,
+   "p_unknown": -0.186,
+   "types_per_sqrt_n": -2.12
+  }
+ }
+}
