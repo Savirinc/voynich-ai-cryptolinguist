@@ -77,3 +77,25 @@ Note: E004's agent modes used v1 abstention; their 0.111 null FDR predates this 
   released code, so the released code cannot reproduce the Linear B result as shipped. Not pursued further (would mean
   re-implementing unreleased method details from the paper text).
 - Status: Linear B is NOT available as a positive control. Ugaritic (uga_small) is the only validated real-script control.
+
+## E009 (2026-10-16): Neural decipherer v1 (Qwen2.5-0.5B + LoRA, SFT and SFT+GRPO) solves nothing -> negative
+- Operating point (calibrated abstention): both variants abstain on 100% of test tasks -> char acc 0.0 and solved 0/N on
+  test_in, test_lang, test_enc, test_both. The calibrator was fitted on 250 tune-role dev tasks of which **0** reached
+  char acc >= 0.9, so no threshold met the 0.95 selective-precision target and the operating threshold is "never answer".
+  Gate 1 PARTIAL (every family VOID), Gate 2 FAIL on all three axes, Gate 3 PASS **trivially** (FDR 0/80 because it
+  never answers; not evidence of good abstention).
+- Forced-answer diagnostic (same decodes, never abstain; scored through vcl.eval.score.evaluate): char acc
+  SFT 0.259 / 0.208 / 0.205 / 0.182 and SFT+GRPO 0.258 / 0.203 / 0.256 / 0.211 on test_in / test_lang / test_enc /
+  test_both, vs a no-learning frequency-rank baseline 0.222 / 0.192 / 0.200 / 0.190. The network learned little beyond
+  frequency analysis. Forced null FDR 0.84: the one_time_pad abstention training did not transfer (the model never
+  emitted '<fam:noise>' on dev noise tasks either).
+- Training failures along the way (all before any test number was seen):
+  * SFT attempt 1 (lr 3e-4, left-padded prompts, no non-finite guard) diverged to NaN between steps 250 and 300
+    (val token acc 0.17 at step 250). Replaced by v1 as run: right-padded prompts, aligned per-step cipher hint,
+    <null> deletion token, lr 2e-4, skip-non-finite guard (3 steps skipped in 2900). Val token acc plateaued at 0.32.
+  * E009 SFT eval attempt 1 was stopped during the dev stage to add the forced-answer diagnostic and to fix a dev-set
+    construction bug (nulls and noise both on i%10==9 -> 25 tasks each); no test split had been scored.
+  * GRPO attempt 1 (bf16 LoRA, lr 2e-5, micro-batch 8) degraded the policy within 40 steps (window reward -0.04 ->
+    -0.63, sampled char acc 0.21 -> 0.13); stopped. Attempt 2 (fp32 LoRA master weights, lr 5e-6) is the reported one:
+    204 steps, window reward 0.00 -> 0.07, sampled char acc 0.235 -> ~0.27, but noise-abstention fell 0.017 -> 0.
+- Status: negative result. Not a basis for any Voynich claim. See reports/NEURAL_DECIPHERER.md, experiments/results/e009.json.

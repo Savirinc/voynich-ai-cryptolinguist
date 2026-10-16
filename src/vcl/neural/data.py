@@ -25,8 +25,8 @@ import numpy as np
 from vcl.synthetic.corpora import load_books
 from vcl.synthetic.encoders import ENCODERS, decode
 
-from .representation import (BOUNDARY, TRAIN_FAMILIES, WINDOW, OutVocab, rank_encode, window_bounds,
-                             window_inputs)
+from .representation import (BOUNDARY, IN_PAD, N_FEAT, NULL_CHAR, TRAIN_FAMILIES, WINDOW, OutVocab, hint_inputs,
+                             rank_encode, window_bounds, window_inputs)
 
 ROOT = Path(__file__).resolve().parents[3]
 TRAIN_LANG_FAMILIES = ("germanic", "romance", "slavic")
@@ -79,42 +79,58 @@ def gen_task(rng: random.Random, role: str, family: str | None = None, length: i
             "length": len(plain)}
 
 
-def window_target(task: dict, a: int, b: int) -> str | None:
-    """Plaintext the model should emit for cipher window [a, b) (None => abstain)."""
+def window_target_raw(task: dict, a: int, b: int) -> str | None:
+    """ALIGNED target for cipher window [a, b): exactly one character per cipher symbol (' ' for a boundary,
+    NULL_CHAR for a null symbol). None => abstain (noise)."""
     fam, syms, key = task["family"], task["symbols"], task["key"]
     if fam == "noise":
         return None
-    if fam in ("mono", "homophonic", "nulls"):
-        return decode(fam, syms[a:b], key)           # stateless decoders: exact on any slice
-    if fam == "vigenere":
+    w = syms[a:b]
+    if fam in ("mono", "homophonic"):
+        raw = decode(fam, w, key)                     # stateless 1:1 decoders: exact on any slice
+    elif fam == "nulls":
+        inv = {g: c for c, g in key["key"].items()}
+        raw = "".join(" " if s == BOUNDARY else inv.get(s, NULL_CHAR) for s in w)
+    elif fam == "vigenere":
         plain = task["plain"]
         assert len(plain) == len(syms)
-        return plain[a:b]                             # 1:1 aligned, spaces <-> boundaries
-    if fam == "columnar":
+        raw = plain[a:b]                              # 1:1 aligned, spaces <-> boundaries
+    elif fam == "columnar":
         # only the substitution layer is recoverable from a window: letters in CIPHER order
         inv = {g: c for c, g in key["glyph"].items()}
-        return "".join(inv[s] for s in syms[a:b])
-    raise ValueError(fam)
+        raw = "".join(inv[s] for s in w)
+    else:
+        raise ValueError(fam)
+    assert len(raw) == len(w)
+    return raw
 
 
-def target_ids(task: dict, text: str | None, vocab: OutVocab) -> list[int]:
+def window_target(task: dict, a: int, b: int) -> str | None:
+    """Plaintext the window decodes to (nulls deleted); None => abstain. Used for rewards and dev scoring."""
+    raw = window_target_raw(task, a, b)
+    return None if raw is None else raw.replace(NULL_CHAR, "")
+
+
+def target_ids(task: dict, raw: str | None, vocab: OutVocab) -> list[int]:
+    """[family token] + one id per cipher symbol (noise: just '<fam:noise>')."""
     fam_tok = vocab.fam_ids[task["family"]]
-    if text is None:
-        return [fam_tok, vocab.abstain, vocab.eos]
-    return [fam_tok] + vocab.encode_text(text) + [vocab.eos]
+    if raw is None:
+        return [fam_tok]
+    return [fam_tok] + vocab.encode_text(raw)
 
 
 def task_windows(task: dict, vocab: OutVocab | None = None, window: int = WINDOW) -> list[dict]:
-    """All windows of a task as model examples (prompt ids, logf, and if vocab is given, target ids)."""
+    """All windows of a task as model examples (prompt ids/features, aligned hints, and if vocab is given, targets)."""
     enc = rank_encode(task["symbols"])
     out = []
     for a, b in window_bounds(len(task["symbols"]), window):
-        ids, lf = window_inputs(enc, a, b, window)
-        ex = {"ids": ids, "logf": lf, "a": a, "b": b}
+        ids, ft = window_inputs(enc, a, b, window)
+        hid, hft = hint_inputs(enc, a, b)
+        ex = {"ids": ids, "feats": ft, "hint_ids": hid, "hint_feats": hft, "a": a, "b": b}
         if vocab is not None:
-            txt = window_target(task, a, b)
-            ex["target_text"] = txt
-            ex["target"] = target_ids(task, txt, vocab)
+            raw = window_target_raw(task, a, b)
+            ex["target_text"] = None if raw is None else raw.replace(NULL_CHAR, "")
+            ex["target"] = target_ids(task, raw, vocab)
             ex["family"] = task["family"]
         out.append(ex)
     return out
@@ -133,17 +149,32 @@ def example_stream(seed: int, role: str, vocab: OutVocab, p_noise: float = 0.1, 
             yield w
 
 
-def pad_batch(examples: list[dict], pad_out: int) -> tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
-    """Stack prompts and teacher-forcing targets. Returns ids [B,P], logf [B,P], out [B,T], mask [B,T]."""
+def pad_hints(examples: list[dict], T: int) -> tuple[np.ndarray, np.ndarray]:
+    """Hints for answer input positions 0..T-1 (position t carries cipher symbol t; beyond the window: PAD)."""
+    hid = np.full((len(examples), T), IN_PAD, np.int32)
+    hft = np.zeros((len(examples), T, N_FEAT), np.float32)
+    for i, e in enumerate(examples):
+        n = min(T, len(e["hint_ids"]))
+        hid[i, :n] = e["hint_ids"][:n]
+        hft[i, :n] = e["hint_feats"][:n]
+    return hid, hft
+
+
+def pad_batch(examples: list[dict], pad_out: int):
+    """Stack prompts, teacher-forcing targets and hints.
+    Returns ids [B,P], feats [B,P,F], out [B,T], mask [B,T], hint_ids [B,T-1], hint_feats [B,T-1,F]
+    (answer input position t = out[:, t] embedding + hint of cipher symbol t, predicting out[:, t+1])."""
     ids = np.stack([e["ids"] for e in examples])
-    lf = np.stack([e["logf"] for e in examples])
-    T = max(len(e["target"]) for e in examples)
+    lf = np.stack([e["feats"] for e in examples])
+    T = max(2, max(len(e["target"]) for e in examples))
     out = np.full((len(examples), T), pad_out, np.int32)
     mask = np.zeros((len(examples), T), np.float32)
     for i, e in enumerate(examples):
         out[i, : len(e["target"])] = e["target"]
         mask[i, : len(e["target"])] = 1.0
-    return ids, lf, out, mask
+    hid, hft = pad_hints(examples, T - 1)
+    return ids, lf, out, mask, hid, hft
 
 
-__all__ = ["books_for", "gen_task", "task_windows", "example_stream", "pad_batch", "window_target", "BOUNDARY"]
+__all__ = ["books_for", "gen_task", "task_windows", "example_stream", "pad_batch", "pad_hints", "window_target",
+           "window_target_raw", "BOUNDARY"]

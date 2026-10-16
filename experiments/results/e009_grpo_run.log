@@ -1,0 +1,23 @@
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Fetching 7 files: 100%|██████████| 7/7 [00:00<00:00, 3057.71it/s]
+{'step': 10, 'reward10': -0.0115, 'char_acc10': 0.2101, 'elapsed': 103.4, 'peak_gb': 6.47}
+{'step': 20, 'reward10': 0.058, 'char_acc10': 0.2415, 'elapsed': 205.9, 'peak_gb': 6.5}
+{'step': 30, 'reward10': 0.0343, 'char_acc10': 0.2518, 'elapsed': 302.6, 'peak_gb': 6.5}
+{'step': 40, 'reward10': -0.0919, 'char_acc10': 0.2381, 'elapsed': 402.7, 'peak_gb': 6.52}
+{'step': 50, 'reward10': 0.0111, 'char_acc10': 0.2412, 'elapsed': 501.3, 'peak_gb': 6.52}
+{'step': 60, 'reward10': 0.0166, 'char_acc10': 0.2564, 'elapsed': 596.6, 'peak_gb': 6.52}
+{'step': 70, 'reward10': 0.0867, 'char_acc10': 0.2685, 'elapsed': 698.1, 'peak_gb': 6.54}
+{'step': 80, 'reward10': 0.0366, 'char_acc10': 0.2609, 'elapsed': 800.6, 'peak_gb': 6.54}
+{'step': 90, 'reward10': 0.102, 'char_acc10': 0.2776, 'elapsed': 900.2, 'peak_gb': 6.54}
+{'step': 100, 'reward10': 0.1272, 'char_acc10': 0.2876, 'elapsed': 999.8, 'peak_gb': 6.54}
+{'step': 110, 'reward10': -0.0085, 'char_acc10': 0.2594, 'elapsed': 1094.1, 'peak_gb': 6.54}
+{'step': 120, 'reward10': 0.1021, 'char_acc10': 0.2746, 'elapsed': 1190.9, 'peak_gb': 6.54}
+{'step': 130, 'reward10': 0.1073, 'char_acc10': 0.2688, 'elapsed': 1291.6, 'peak_gb': 6.54}
+{'step': 140, 'reward10': 0.0093, 'char_acc10': 0.2536, 'elapsed': 1388.1, 'peak_gb': 6.54}
+{'step': 150, 'reward10': 0.0761, 'char_acc10': 0.2601, 'elapsed': 1490.5, 'peak_gb': 6.54}
+{'step': 160, 'reward10': 0.072, 'char_acc10': 0.2799, 'elapsed': 1590.9, 'peak_gb': 6.54}
+{'step': 170, 'reward10': 0.0491, 'char_acc10': 0.2601, 'elapsed': 1690.5, 'peak_gb': 6.54}
+{'step': 180, 'reward10': 0.1325, 'char_acc10': 0.2851, 'elapsed': 1814.1, 'peak_gb': 6.54}
+{'step': 190, 'reward10': -0.0555, 'char_acc10': 0.2594, 'elapsed': 1936.0, 'peak_gb': 6.54}
+{'step': 200, 'reward10': 0.103, 'char_acc10': 0.2844, 'elapsed': 2058.2, 'peak_gb': 6.54}
+wall-clock cap reached
+{'final': {'step': 204, 'sha256': '2e5a5d091fc8c4cc27ee77c525f5aaa591054ba04458ead514f336603e3b78bf', 'wall_s': 2112.1, 'peak_gb': 6.54, 'size_bytes': 35765701, 'reward_first50': -8.763866499066352e-06, 'reward_last50': 0.0554663881380111}}

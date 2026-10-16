@@ -1,0 +1,64 @@
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Fetching 7 files: 100%|██████████| 7/7 [00:00<00:00, 2963.57it/s]
+{
+ "n": 250,
+ "seed": 90090,
+ "role": "tune",
+ "agg_by_family": {
+  "homophonic": "concat",
+  "vigenere": "vote",
+  "columnar": "concat",
+  "nulls": "vote"
+ },
+ "threshold": 1.01,
+ "margin": 0.0,
+ "solved_rate": 0.0,
+ "oof_answered_rate": null,
+ "oof_selective_solved": null,
+ "selfnull_gaps_correct": [],
+ "selfnull_gaps_wrong": [],
+ "by_family": {
+  "mono": {
+   "n": 45,
+   "concat_char_acc": 0.33401353515657495,
+   "vote_char_acc": 0.3379036066575191,
+   "family_id_acc": 0.0
+  },
+  "homophonic": {
+   "n": 45,
+   "concat_char_acc": 0.29085498850107283,
+   "vote_char_acc": 0.3034639789920946,
+   "family_id_acc": 0.24444444444444444
+  },
+  "vigenere": {
+   "n": 45,
+   "concat_char_acc": 0.2957285514337969,
+   "vote_char_acc": 0.29374944278094184,
+   "family_id_acc": 0.6
+  },
+  "columnar": {
+   "n": 45,
+   "concat_char_acc": 0.10491504953727927,
+   "vote_char_acc": 0.09905330696604663,
+   "family_id_acc": 0.8444444444444444
+  },
+  "nulls": {
+   "n": 45,
+   "concat_char_acc": 0.24649096657329872,
+   "vote_char_acc": 0.2598592027884153,
+   "family_id_acc": 0.4
+  },
+  "noise": {
+   "n": 25,
+   "concat_char_acc": 0.0,
+   "vote_char_acc": 0.0,
+   "family_id_acc": 0.0
+  }
+ },
+ "seconds": 145.6
+}
+test_in {'n': 120, 'mean_char_acc': 0.0, 'solved_rate': 0.0, 'abstention_rate': 1.0, 'null_false_discovery_rate': None, 'seconds': 82.9}
+test_lang {'n': 120, 'mean_char_acc': 0.0, 'solved_rate': 0.0, 'abstention_rate': 1.0, 'null_false_discovery_rate': None, 'seconds': 76.8}
+test_enc {'n': 140, 'mean_char_acc': 0.0, 'solved_rate': 0.0, 'abstention_rate': 1.0, 'null_false_discovery_rate': None, 'seconds': 100.7}
+test_both {'n': 140, 'mean_char_acc': 0.0, 'solved_rate': 0.0, 'abstention_rate': 1.0, 'null_false_discovery_rate': None, 'seconds': 85.2}
+test_null {'n': 80, 'mean_char_acc': None, 'solved_rate': None, 'abstention_rate': None, 'null_false_discovery_rate': 0.0, 'seconds': 42.2}
+done sft 541.4 s

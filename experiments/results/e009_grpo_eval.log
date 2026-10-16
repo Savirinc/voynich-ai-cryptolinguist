@@ -1,0 +1,62 @@
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Fetching 7 files: 100%|██████████| 7/7 [00:00<00:00, 1056.61it/s]
+{
+ "n": 250,
+ "seed": 90090,
+ "role": "tune",
+ "agg_by_family": {
+  "vigenere": "concat",
+  "columnar": "concat"
+ },
+ "threshold": 1.01,
+ "margin": 0.0,
+ "solved_rate": 0.0,
+ "oof_answered_rate": null,
+ "oof_selective_solved": null,
+ "selfnull_gaps_correct": [],
+ "selfnull_gaps_wrong": [],
+ "by_family": {
+  "mono": {
+   "n": 45,
+   "concat_char_acc": 0.3060487171219156,
+   "vote_char_acc": 0.2974262934867621,
+   "family_id_acc": 0.0
+  },
+  "homophonic": {
+   "n": 45,
+   "concat_char_acc": 0.2739103105822363,
+   "vote_char_acc": 0.2696838521844888,
+   "family_id_acc": 0.0
+  },
+  "vigenere": {
+   "n": 45,
+   "concat_char_acc": 0.28096976671750024,
+   "vote_char_acc": 0.26366891213963434,
+   "family_id_acc": 0.2222222222222222
+  },
+  "columnar": {
+   "n": 45,
+   "concat_char_acc": 0.13315992316236094,
+   "vote_char_acc": 0.11225104252219861,
+   "family_id_acc": 1.0
+  },
+  "nulls": {
+   "n": 45,
+   "concat_char_acc": 0.2893674410760671,
+   "vote_char_acc": 0.28380860417330944,
+   "family_id_acc": 0.0
+  },
+  "noise": {
+   "n": 25,
+   "concat_char_acc": 0.0,
+   "vote_char_acc": 0.0,
+   "family_id_acc": 0.0
+  }
+ },
+ "seconds": 242.3
+}
+test_in {'n': 120, 'mean_char_acc': 0.0, 'solved_rate': 0.0, 'abstention_rate': 1.0, 'null_false_discovery_rate': None, 'seconds': 136.7}
+test_lang {'n': 120, 'mean_char_acc': 0.0, 'solved_rate': 0.0, 'abstention_rate': 1.0, 'null_false_discovery_rate': None, 'seconds': 127.7}
+test_enc {'n': 140, 'mean_char_acc': 0.0, 'solved_rate': 0.0, 'abstention_rate': 1.0, 'null_false_discovery_rate': None, 'seconds': 164.0}
+test_both {'n': 140, 'mean_char_acc': 0.0, 'solved_rate': 0.0, 'abstention_rate': 1.0, 'null_false_discovery_rate': None, 'seconds': 141.5}
+test_null {'n': 80, 'mean_char_acc': None, 'solved_rate': None, 'abstention_rate': None, 'null_false_discovery_rate': 0.0, 'seconds': 69.5}
+done grpo 889.7 s

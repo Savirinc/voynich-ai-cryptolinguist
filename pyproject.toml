@@ -12,6 +12,8 @@ dependencies = [
 [project.optional-dependencies]
 dev = ["pytest==8.4.1"]
 repro = ["python-docx==1.2.0", "pandas==2.3.1", "scipy==1.16.0", "scikit-learn==1.7.1"]
+# neural decipherer (E009): Apple-Silicon MLX + Qwen2.5-0.5B base weights fetched from the HF hub at first use
+neural = ["mlx==0.32.4", "mlx-metal==0.32.4", "mlx-lm==0.32.0", "scikit-learn==1.7.1"]
 
 [build-system]
 requires = ["setuptools>=68"]

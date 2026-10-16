@@ -1,7 +1,8 @@
 """Neural decipherer v1: a small pretrained LM (Qwen2.5-0.5B, MLX) fine-tuned with LoRA to decipher.
 
 Modules
-  representation  relabelling-invariant cipher encoding (frequency-rank ids) + windowing + output vocabulary
+  representation  relabelling-invariant cipher encoding (frequency-rank ids + symbol-profile features), windowing,
+                  aligned hints, output vocabulary
   data            self-generated training/tuning tasks (tune/ref books, TRAIN families x TRAIN encodings only)
   model           MLX model wrapper: rank embeddings in, restricted character vocabulary out, batched generation
   reward          own copy of the scoring logic (char accuracy) + RL reward
