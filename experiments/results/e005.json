@@ -1,0 +1,250 @@
+{
+ "margin": 0.005060384591966893,
+ "calibration": {
+  "answered": 85,
+  "correct": 78,
+  "wrong_answered_gaps": [
+   -0.14582781812185108,
+   0.6366078988359336,
+   0.6786749014993222,
+   0.7665796174209355,
+   0.8171609142486356,
+   0.8449218668420564,
+   0.932319475328326
+  ]
+ },
+ "splits": {
+  "test_null": {
+   "n": 80,
+   "n_language_tasks": 0,
+   "n_null_tasks": 80,
+   "null_false_discovery_rate": 0.0125,
+   "by_family": {},
+   "by_language_family": {},
+   "null_by_kind": {
+    "autocopy": {
+     "n": 14,
+     "fdr": 0.0
+    },
+    "grille": {
+     "n": 14,
+     "fdr": 0.0
+    },
+    "markov": {
+     "n": 13,
+     "fdr": 0.07692307692307693
+    },
+    "one_time_pad": {
+     "n": 13,
+     "fdr": 0.0
+    },
+    "short_mono": {
+     "n": 13,
+     "fdr": 0.0
+    },
+    "zipf_bag": {
+     "n": 13,
+     "fdr": 0.0
+    }
+   }
+  },
+  "test_in": {
+   "n": 120,
+   "n_language_tasks": 120,
+   "n_null_tasks": 0,
+   "mean_char_acc": 0.6920200496871483,
+   "solved_rate": 0.6916666666666667,
+   "mean_word_acc": 0.5863203680165863,
+   "family_id_acc": 0.925,
+   "language_id_acc": 0.7,
+   "abstention_rate": 0.2833333333333333,
+   "selective_solved_rate": 0.9651162790697675,
+   "ece": 0.06606180263006264,
+   "by_family": {
+    "columnar": {
+     "n": 26,
+     "solved_rate": 0.5,
+     "mean_char_acc": 0.5231444405615002
+    },
+    "homophonic": {
+     "n": 31,
+     "solved_rate": 0.8064516129032258,
+     "mean_char_acc": 0.7929813850643088
+    },
+    "mono": {
+     "n": 22,
+     "solved_rate": 0.7727272727272727,
+     "mean_char_acc": 0.78297655750408
+    },
+    "nulls": {
+     "n": 21,
+     "solved_rate": 0.7142857142857143,
+     "mean_char_acc": 0.7012132782460236
+    },
+    "vigenere": {
+     "n": 20,
+     "solved_rate": 0.65,
+     "mean_char_acc": 0.645363223130448
+    }
+   },
+   "by_language_family": {
+    "germanic": {
+     "n": 49,
+     "solved_rate": 0.6530612244897959
+    },
+    "romance": {
+     "n": 44,
+     "solved_rate": 0.7954545454545454
+    },
+    "slavic": {
+     "n": 27,
+     "solved_rate": 0.5925925925925926
+    }
+   }
+  },
+  "test_lang": {
+   "n": 120,
+   "n_language_tasks": 120,
+   "n_null_tasks": 0,
+   "mean_char_acc": 0.648414485004884,
+   "solved_rate": 0.6333333333333333,
+   "mean_word_acc": 0.5538825901914053,
+   "family_id_acc": 0.8166666666666667,
+   "language_id_acc": 0.7333333333333333,
+   "abstention_rate": 0.3416666666666667,
+   "selective_solved_rate": 0.9620253164556962,
+   "ece": 0.08248825670908808,
+   "by_family": {
+    "columnar": {
+     "n": 22,
+     "solved_rate": 0.6363636363636364,
+     "mean_char_acc": 0.6354886788409
+    },
+    "homophonic": {
+     "n": 31,
+     "solved_rate": 0.6774193548387096,
+     "mean_char_acc": 0.6643413860234177
+    },
+    "mono": {
+     "n": 26,
+     "solved_rate": 0.8076923076923077,
+     "mean_char_acc": 0.8384738435688269
+    },
+    "nulls": {
+     "n": 21,
+     "solved_rate": 0.8095238095238095,
+     "mean_char_acc": 0.8780525927091486
+    },
+    "vigenere": {
+     "n": 20,
+     "solved_rate": 0.15,
+     "mean_char_acc": 0.14974899598393573
+    }
+   },
+   "by_language_family": {
+    "austronesian": {
+     "n": 36,
+     "solved_rate": 0.6111111111111112
+    },
+    "celtic": {
+     "n": 24,
+     "solved_rate": 0.75
+    },
+    "constructed": {
+     "n": 12,
+     "solved_rate": 0.75
+    },
+    "hellenic": {
+     "n": 12,
+     "solved_rate": 0.3333333333333333
+    },
+    "semitic": {
+     "n": 12,
+     "solved_rate": 0.5833333333333334
+    },
+    "uralic": {
+     "n": 24,
+     "solved_rate": 0.6666666666666666
+    }
+   }
+  }
+ },
+ "command": "experiments/e005_selfnull_v2.py --workers 4",
+ "gates": {
+  "gate1": {
+   "gate": 1,
+   "status": "PARTIAL",
+   "per_family": {
+    "mono": {
+     "mean_char_acc": 0.783,
+     "pass": false
+    },
+    "homophonic": {
+     "mean_char_acc": 0.793,
+     "pass": false
+    },
+    "vigenere": {
+     "mean_char_acc": 0.6454,
+     "pass": false
+    },
+    "columnar": {
+     "mean_char_acc": 0.5231,
+     "pass": false
+    },
+    "nulls": {
+     "mean_char_acc": 0.7012,
+     "pass": false
+    }
+   },
+   "void_families_for_voynich": [
+    "mono",
+    "homophonic",
+    "vigenere",
+    "columnar",
+    "nulls"
+   ]
+  },
+  "gate2_test_lang_R1": {
+   "gate": 2,
+   "axis": "test_lang_R1",
+   "status": "PASS",
+   "in_family_char_acc": 0.692,
+   "ood_char_acc": 0.6484,
+   "ratio": 0.937,
+   "ood_solved": "76/120",
+   "p_vs_random_key": 8.626432784818541e-120
+  },
+  "gate3": {
+   "gate": 3,
+   "status": "PASS",
+   "fdr": 0.0125,
+   "by_kind": {
+    "autocopy": {
+     "n": 14,
+     "fdr": 0.0
+    },
+    "grille": {
+     "n": 14,
+     "fdr": 0.0
+    },
+    "markov": {
+     "n": 13,
+     "fdr": 0.07692307692307693
+    },
+    "one_time_pad": {
+     "n": 13,
+     "fdr": 0.0
+    },
+    "short_mono": {
+     "n": 13,
+     "fdr": 0.0
+    },
+    "zipf_bag": {
+     "n": 13,
+     "fdr": 0.0
+    }
+   }
+  }
+ },
+ "wall_s": 2589
+}

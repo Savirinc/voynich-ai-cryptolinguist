@@ -53,3 +53,17 @@ Run `e004_20261015_211844`, 89 tasks x 4 modes, sonnet, 156 LLM calls, ~$3.00, 2
 - Gate 3 FAILS in every mode: null FDR 2/18 = 0.111 > 0.05. Identical across modes, so it is the base solver's
   abstention, not the agent. (E003 had 0.0625 on a different null set.)
 - An earlier E004 run (e004_20261015_192214) was killed by a system hang at ~115 traces; its partial files are not used.
+
+## E005 (2026-10-16): solver v2 self-null abstention -> Gate 3 PASSES (fixes E003 failure)
+v2 = v1 + abstain unless the answer beats scrambled-text ("self-null") re-solves by a margin. Margin 0.0051 set on
+tune-family ciphers only (85 answered, 78 correct; 5th percentile of correct gaps). No decoys used for calibration.
+v2 was created after seeing E003's Gate 3 failure, so this is a new version, not a retroactive fix; v1 numbers stand.
+
+| split | v1 (E003) | v2 (E005) |
+|---|---|---|
+| test_null FDR (n=80) | 0.0625 (5/80) FAIL | **0.0125 (1/80) PASS** (the 1 is a markov decoy) |
+| test_in solved (n=120) | 0.700 | 0.692 |
+| test_lang R1 solved (n=120) | 0.667 | 0.633 (Gate 2 ratio 0.937, PASS) |
+
+Gate 1 still PARTIAL (no family reaches 0.90 char acc; all VOID for Voynich), unchanged by abstention. Wall 43 min, 4 workers.
+Note: E004's agent modes used v1 abstention; their 0.111 null FDR predates this fix.

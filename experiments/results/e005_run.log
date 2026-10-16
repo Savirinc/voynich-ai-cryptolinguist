@@ -1,0 +1,80 @@
+calibration: 85 answered, 78 correct, margin=0.0051
+test_null {'solved_rate': None, 'mean_char_acc': None, 'abstention_rate': None, 'null_false_discovery_rate': 0.0125}
+test_in {'solved_rate': 0.6916666666666667, 'mean_char_acc': 0.6920200496871483, 'abstention_rate': 0.2833333333333333, 'null_false_discovery_rate': None}
+test_lang {'solved_rate': 0.6333333333333333, 'mean_char_acc': 0.648414485004884, 'abstention_rate': 0.3416666666666667, 'null_false_discovery_rate': None}
+{
+ "gate1": {
+  "gate": 1,
+  "status": "PARTIAL",
+  "per_family": {
+   "mono": {
+    "mean_char_acc": 0.783,
+    "pass": false
+   },
+   "homophonic": {
+    "mean_char_acc": 0.793,
+    "pass": false
+   },
+   "vigenere": {
+    "mean_char_acc": 0.6454,
+    "pass": false
+   },
+   "columnar": {
+    "mean_char_acc": 0.5231,
+    "pass": false
+   },
+   "nulls": {
+    "mean_char_acc": 0.7012,
+    "pass": false
+   }
+  },
+  "void_families_for_voynich": [
+   "mono",
+   "homophonic",
+   "vigenere",
+   "columnar",
+   "nulls"
+  ]
+ },
+ "gate2_test_lang_R1": {
+  "gate": 2,
+  "axis": "test_lang_R1",
+  "status": "PASS",
+  "in_family_char_acc": 0.692,
+  "ood_char_acc": 0.6484,
+  "ratio": 0.937,
+  "ood_solved": "76/120",
+  "p_vs_random_key": 8.626432784818541e-120
+ },
+ "gate3": {
+  "gate": 3,
+  "status": "PASS",
+  "fdr": 0.0125,
+  "by_kind": {
+   "autocopy": {
+    "n": 14,
+    "fdr": 0.0
+   },
+   "grille": {
+    "n": 14,
+    "fdr": 0.0
+   },
+   "markov": {
+    "n": 13,
+    "fdr": 0.07692307692307693
+   },
+   "one_time_pad": {
+    "n": 13,
+    "fdr": 0.0
+   },
+   "short_mono": {
+    "n": 13,
+    "fdr": 0.0
+   },
+   "zipf_bag": {
+    "n": 13,
+    "fdr": 0.0
+   }
+  }
+ }
+}
