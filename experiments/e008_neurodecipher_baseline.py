@@ -55,6 +55,15 @@ RUN_SPECS = {
               "--num_cognates", "919", "--inc", "919", "--num_rounds", "5", "--num_epochs_per_M_step", "60",
               "--warm_up_steps", "1"],
     ),
+    "linb_long": dict(
+        paper_key="linb",
+        note="as linb, changing ONLY the schedule to the released Ugaritic one (10 rounds x 150 epochs). Added "
+             "2026-10-16 after linb (5x60) scored 0.0% and uga_small showed accuracy only rises after ~170 epochs.",
+        args=["--cog_path", str(DATA / "linear_b-greek.minoan-el.cog"), "--lost_lang", "minoan", "--known_lang", "el",
+              "--universal_charset_size", "100", "--momentum", "0.9", "--capacity", "1",
+              "--num_cognates", "919", "--inc", "919", "--num_rounds", "10", "--num_epochs_per_M_step", "150",
+              "--warm_up_steps", "1"],
+    ),
     "linb_names": dict(
         paper_key="linb_names",
         note="as linb but Greek side restricted to names (455 pairs, 464 unpaired Linear B words); cognate "

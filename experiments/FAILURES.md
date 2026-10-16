@@ -67,3 +67,13 @@ v2 was created after seeing E003's Gate 3 failure, so this is a new version, not
 
 Gate 1 still PARTIAL (no family reaches 0.90 char acc; all VOID for Voynich), unchanged by abstention. Wall 43 min, 4 workers.
 Note: E004's agent modes used v1 abstention; their 0.111 null FDR predates this fix.
+
+## E008 linb_long (2026-10-16): Linear B still fails with the full schedule -> undertraining ruled out
+- linb_long = linb with only the schedule changed to the Ugaritic one (10 rounds x 150 epochs): primary metric 0.33% final,
+  1.31% best-over-epochs (paper 84.7%; chance ~0.1%). 1995 s, ran alone. The curve never leaves the noise floor.
+- Ruled out: undertraining (this run); charset mismatch (all 70 Linear B signs and 28 Greek letters in the data are in the
+  registered `minoan`/`el` charsets, 0 unknown tokens); port bugs (uga_small reproduces at 73.3%).
+- Most likely cause: the paper's Linear-B-specific components (regulariser Omega_2, random restarts) are absent from the
+  released code, so the released code cannot reproduce the Linear B result as shipped. Not pursued further (would mean
+  re-implementing unreleased method details from the paper text).
+- Status: Linear B is NOT available as a positive control. Ugaritic (uga_small) is the only validated real-script control.
