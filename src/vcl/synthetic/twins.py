@@ -48,6 +48,7 @@ import re
 from collections import Counter
 from itertools import accumulate
 from dataclasses import dataclass, field
+from vcl.synthetic import naibbe_exact as _NX  # noqa: E402  faithful Naibbe port (published tables)
 
 VOWELS = set("aeiouyàáâãäåæèéêëìíîïòóôõöøùúûüýÿœαεηιουωаеёиоуыэюяאוי")
 
@@ -659,6 +660,11 @@ FAMILIES = {
                      "VERIFIED (paper exists; design via secondary sources); tables APPROXIMATED",
                      NAIBBE_DEFAULTS, NAIBBE_BOUNDS, naibbe_key, naibbe_encode, naibbe_decode, 0.45,
                      "spaces of the plaintext are dropped (respacing); decode returns letters only"),
+    "naibbe_exact": Family("naibbe_exact", True, "Greshko, Cryptologia 2025, doi:10.1080/01611194.2025.2566408",
+                           "VERIFIED: author's published tables + reference code (github greshko/naibbe-cipher "
+                           "@ f2675ec), faithful port; see vcl.synthetic.naibbe_exact",
+                           _NX.DEFAULTS, _NX.BOUNDS, _NX.key, _NX.encode, _NX.decode, 0.45,
+                           "no free parameters; Latin/Italian alphabet (w->uu, j->i, k->c, diacritics stripped)"),
     "abbreviation": Family("abbreviation", True, "Cappelli, Lexicon abbreviaturarum 1899 (practice); data-driven signs",
                            "background reference, not re-verified; sign inventory is an approximation",
                            ABBREV_DEFAULTS, ABBREV_BOUNDS, abbreviation_key, abbreviation_encode,

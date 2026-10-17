@@ -143,3 +143,37 @@ of known-answer Voynich twins. For the meaningful families, the matching `decode
 Commands (seed 11011):
 `caffeinate -ims .venv/bin/python experiments/e011_twin_search.py --scale 3` (search, 3,296 s), then
 `... --scale 3 --reuse-search` (final evaluation and analysis, 74 s).
+
+## Addendum (2026-10-17): E011c — the FAITHFUL Naibbe cipher with the author's published tables
+
+E011's `naibbe` family was an approximation because the tables were believed paywalled. They are in fact public:
+the paper is open access and the tables + reference code are on GitHub (greshko/naibbe-cipher @ `f2675ec`, modified
+MIT licence covering software and datasets, citation required). Vendored in `external/naibbe/` (tables sha256
+`4e7cfd54…`); faithful port in `src/vcl/synthetic/naibbe_exact.py` (decode round-trip 99.5% char accuracy; a few
+table entries are not uniquely decodable by a greedy parser). Scored with the unchanged E011 machinery, no search
+(the cipher has no free parameters), 20 samples on tune text + 20 on ref text per language
+(`experiments/e011c_naibbe_exact.py` → `experiments/results/e011c.json`).
+
+| source language | fit (tune) | fit (ref) | held-out | held-out w/o type_hapax |
+|---|---|---|---|---|
+| la | **1.15** ± 0.08 | 1.16 | 2.15 | 2.03 |
+| fr | 1.14 | 1.17 | 1.95 | 1.91 |
+| de | 1.14 | 1.16 | 2.04 | 1.99 |
+| es | 1.17 | 1.25 | 2.15 | 2.06 |
+| it | 1.23 | 1.26 | 2.01 | 1.93 |
+| enm | 1.29 | 1.29 | 2.05 | 1.93 |
+| cs | 1.37 | 1.42 | 2.25 | 2.13 |
+| *E011 Naibbe-style approx. (best, it)* | *2.11* | | *4.23* | *1.81* |
+| *Voynich DEV noise floor (median / p90)* | *0.99 / 1.29* | | *0.97 / 1.22* | |
+
+- On the 10 fitted features the real Naibbe cipher is **inside Voynich's own block-to-block variation** (1.14–1.23 for
+  la/fr/de/es/it vs p90 1.29) — the first mechanism in this project to get there. h_cond is now near-matched (z ≈ +1.3–1.5;
+  the approximation and all other families were +1.8 to +4.5).
+- Held-out features are still outside (≈2.0 vs p90 1.22). Largest misses (la): y→q line effect z −3.3, adjacent word
+  repeats −3.1, share of once-only word types +3.0, 1-glyph words −3.0, line-final m −2.3. Greshko's cipher has no
+  line mechanism and no word-repetition mechanism, consistent with his own description of it as a proof of concept.
+- The source language is **not identifiable**: Latin, French, German, Spanish and Italian all score within one sd of
+  each other. A Naibbe-type cipher erases the language signal at this level of statistics.
+- Not a decipherment and not a claim that Voynich *is* Naibbe-enciphered: it shows a hand-executable 15th-century-style
+  verbose homophonic cipher reproduces Voynich's core character/word statistics, while missing its line- and
+  repetition-level behaviour.

@@ -98,3 +98,19 @@ def test_random_params_within_bounds(fam):
         p = T.perturb_params(fam, T.random_params(fam, rng), rng)
         for k, (lo, hi) in T.FAMILIES[fam].bounds.items():
             assert lo <= p[k] <= hi
+
+
+def test_naibbe_exact_tables_and_roundtrip():
+    import hashlib
+    from vcl.synthetic import naibbe_exact as NX
+    assert hashlib.sha256(NX.TABLES_CSV.read_bytes()).hexdigest() == NX.TABLES_SHA256
+    tab = NX.load_tables()
+    assert len(tab) == 414   # 3 states x 6 tables x 23 letters
+    plain = "in principio erat verbum et verbum erat apud deum et deus erat verbum " * 20
+    k = dict(NX.key({}, 0, plain), space_removal=0.0)
+    words, grams = NX.encode_tokens(plain, k, 3)
+    assert not any(len(g) == 2 and w in k["unigrams"] for w, g in zip(words, grams))   # unambiguous bigrams
+    p = "".join(grams)
+    d = NX.decode(words, k)
+    assert len(d) == len(p) and sum(a == b for a, b in zip(d, p)) / len(p) > 0.97
+    assert NX.encode(plain, k, 3) == NX.encode(plain, k, 3)   # seeded, deterministic
