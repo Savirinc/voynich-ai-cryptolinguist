@@ -1,0 +1,22 @@
+  search la:shufchar  best 1.370 median 2.13
+  search la:shufword  best 0.706 median 1.36
+  search la:real      best 0.784 median 1.32
+  search it:real      best 1.053 median 1.85
+  search it:shufword  best 0.799 median 1.30
+  search it:shufchar  best 1.459 median 2.30
+  search fr:shufword  best 0.774 median 1.29
+  search fr:real      best 0.765 median 1.43
+  search fr:shufchar  best 0.912 median 1.80
+  search de:shufword  best 0.900 median 1.86
+  search de:shufchar  best 0.828 median 2.07
+  search de:real      best 0.700 median 1.53
+la real vs shufword: fit 1.10 vs 1.04 (p 3.2e-01); held 0.99 vs 0.88 (p 5.1e-03)
+la real vs shufchar: fit 1.10 vs 1.64 (p 7.9e-08); held 0.99 vs 1.07 (p 6.0e-02)
+it real vs shufword: fit 1.31 vs 0.94 (p 9.2e-08); held 1.08 vs 0.94 (p 9.0e-03)
+it real vs shufchar: fit 1.31 vs 1.76 (p 3.9e-07); held 1.08 vs 1.21 (p 3.2e-02)
+fr real vs shufword: fit 1.01 vs 0.99 (p 6.9e-01); held 0.93 vs 0.69 (p 8.3e-05)
+fr real vs shufchar: fit 1.01 vs 1.19 (p 2.2e-04); held 0.93 vs 0.78 (p 1.1e-02)
+de real vs shufword: fit 1.09 vs 1.27 (p 5.6e-04); held 0.85 vs 0.70 (p 3.0e-04)
+de real vs shufchar: fit 1.09 vs 1.02 (p 6.4e-02); held 0.85 vs 0.85 (p 9.2e-01)
+{'la': 'REAL FAVOURED', 'it': 'REAL FAVOURED', 'fr': 'REAL FAVOURED', 'de': 'NOT DISTINGUISHABLE'}
+MEANING DETECTABLE (real beats letter-shuffled in >= 3 of 4 languages)
