@@ -140,3 +140,13 @@ Real set: 5 usable tier-B + 67 tier-C word-level anchors (no tier-A word-level; 
 plausible reliabilities is ~0 (best case mono rB=0.4/rC=0.15: 0.53); sufficient only if tier B >=0.8 reliable AND
 mechanism is simple substitution with known segmentation and plaintext form. Random-key comparisons are passed
 almost always and are therefore not evidence. See reports/ANCHORS.md, experiments/results/e010.json.
+
+## E010C (2026-10-17): zodiac month names are NOT written with Greshko's Naibbe tables (pre-registered, negative)
+Prereg `reports/E010C_PREREG.md` (sha256 280c500f..., written 08:32Z before any Voynich matching, read-only).
+For each of the 12 zodiac pages, searched the ring text for runs of >= 2 consecutive words that are valid Naibbe
+encryptions (published tables) of consecutive letters of the page's month name. Own-month score is 0 on all 12
+pages (no 2-word run anywhere); T = -0.17, p = 1.0 (10k permutations). Positive control (true encryption inserted):
+power 1.00; false-positive control (wrong month inserted): 0.00. Verdict NEGATIVE.
+Scope: rules out only the specific hypothesis "month names enciphered with Greshko's 2025 tables". It does not test
+other verbose-homophonic tables (the tables are a modern reconstruction). Labels were not tested (one Naibbe word
+encodes only 1-2 letters).

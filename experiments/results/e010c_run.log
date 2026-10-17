@@ -1,0 +1,30 @@
+{
+ "primary": {
+  "T": -0.16666666666666666,
+  "p": 1.0,
+  "null_mean": -0.027462962962962956,
+  "n_perm": 10000,
+  "alpha": 0.01,
+  "max_own_score": 0.0
+ },
+ "controls": {
+  "power_inserted_true_month": 1.0,
+  "false_positive_inserted_wrong_month": 0.0,
+  "n_replicates": 200,
+  "n_perm_each": 1000
+ },
+ "verdict": "NEGATIVE",
+ "wall_s": 9
+}
+f70v2 mars 0 [] | best other: septembr 2.0
+f70v1 aberil 0 [] | best other: novembre 2.0
+f71r aberil 0 [] | best other: octembre 2.0
+f71v may 0 [] | best other: iong 2.0
+f72r1 may 0 [] | best other: augst 2.0
+f72r2 iong 0 [] | best other: mars 0.0
+f72r3 iollet 0 [] | best other: mars 0.0
+f72v3 augst 0 [] | best other: mars 0.0
+f72v2 septembr 0 [] | best other: mars 0.0
+f72v1 octembre 0 [] | best other: mars 0.0
+f73r novembre 0 [] | best other: septembr 2.0
+f73v decebre 0 [] | best other: mars 0.0

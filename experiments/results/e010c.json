@@ -1,0 +1,387 @@
+{
+ "experiment": "e010c",
+ "prereg": "reports/E010C_PREREG.md",
+ "prereg_sha256": "280c500f2a6f05d7a4c172504dab8ce605d499cd17387ce2d2485382afc35036",
+ "seed": 20261018,
+ "tables_sha256": "4e7cfd54b7ec66515d39a51e11ec97e8e19b643b0b189124eebc3982e707dcec",
+ "months": [
+  "mars",
+  "aberil",
+  "may",
+  "iong",
+  "iollet",
+  "augst",
+  "septembr",
+  "octembre",
+  "novembre",
+  "decebre"
+ ],
+ "pages": [
+  "f70v2",
+  "f70v1",
+  "f71r",
+  "f71v",
+  "f72r1",
+  "f72r2",
+  "f72r3",
+  "f72v3",
+  "f72v2",
+  "f72v1",
+  "f73r",
+  "f73v"
+ ],
+ "score_matrix": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   2.0,
+   2.0,
+   0.0,
+   0.0
+  ],
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   2.0,
+   0.0
+  ],
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   2.0,
+   0.0,
+   0.0
+  ],
+  [
+   0.0,
+   0.0,
+   0.0,
+   2.0,
+   0.0,
+   0.0,
+   2.0,
+   0.0,
+   2.0,
+   0.0
+  ],
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   2.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   2.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ]
+ ],
+ "primary": {
+  "T": -0.16666666666666666,
+  "p": 1.0,
+  "null_mean": -0.027462962962962956,
+  "n_perm": 10000,
+  "alpha": 0.01,
+  "max_own_score": 0.0
+ },
+ "own_month_runs": [
+  {
+   "folio": "f70v2",
+   "month": "mars",
+   "own_score": 0,
+   "run_words": [],
+   "letters_start": null,
+   "best_other_month": "septembr",
+   "best_other_score": 2.0
+  },
+  {
+   "folio": "f70v1",
+   "month": "aberil",
+   "own_score": 0,
+   "run_words": [],
+   "letters_start": null,
+   "best_other_month": "novembre",
+   "best_other_score": 2.0
+  },
+  {
+   "folio": "f71r",
+   "month": "aberil",
+   "own_score": 0,
+   "run_words": [],
+   "letters_start": null,
+   "best_other_month": "octembre",
+   "best_other_score": 2.0
+  },
+  {
+   "folio": "f71v",
+   "month": "may",
+   "own_score": 0,
+   "run_words": [],
+   "letters_start": null,
+   "best_other_month": "iong",
+   "best_other_score": 2.0
+  },
+  {
+   "folio": "f72r1",
+   "month": "may",
+   "own_score": 0,
+   "run_words": [],
+   "letters_start": null,
+   "best_other_month": "augst",
+   "best_other_score": 2.0
+  },
+  {
+   "folio": "f72r2",
+   "month": "iong",
+   "own_score": 0,
+   "run_words": [],
+   "letters_start": null,
+   "best_other_month": "mars",
+   "best_other_score": 0.0
+  },
+  {
+   "folio": "f72r3",
+   "month": "iollet",
+   "own_score": 0,
+   "run_words": [],
+   "letters_start": null,
+   "best_other_month": "mars",
+   "best_other_score": 0.0
+  },
+  {
+   "folio": "f72v3",
+   "month": "augst",
+   "own_score": 0,
+   "run_words": [],
+   "letters_start": null,
+   "best_other_month": "mars",
+   "best_other_score": 0.0
+  },
+  {
+   "folio": "f72v2",
+   "month": "septembr",
+   "own_score": 0,
+   "run_words": [],
+   "letters_start": null,
+   "best_other_month": "mars",
+   "best_other_score": 0.0
+  },
+  {
+   "folio": "f72v1",
+   "month": "octembre",
+   "own_score": 0,
+   "run_words": [],
+   "letters_start": null,
+   "best_other_month": "mars",
+   "best_other_score": 0.0
+  },
+  {
+   "folio": "f73r",
+   "month": "novembre",
+   "own_score": 0,
+   "run_words": [],
+   "letters_start": null,
+   "best_other_month": "septembr",
+   "best_other_score": 2.0
+  },
+  {
+   "folio": "f73v",
+   "month": "decebre",
+   "own_score": 0,
+   "run_words": [],
+   "letters_start": null,
+   "best_other_month": "mars",
+   "best_other_score": 0.0
+  }
+ ],
+ "chance_on_non_zodiac_DEV_lines": {
+  "mars": {
+   "n_lines": 3450,
+   "share_ge2": 0.024057971014492755,
+   "share_ge3": 0.0017391304347826088,
+   "share_ge4": 0.0,
+   "max": 3,
+   "exact_full_name_lines": 0
+  },
+  "aberil": {
+   "n_lines": 3450,
+   "share_ge2": 0.035072463768115944,
+   "share_ge3": 0.0026086956521739132,
+   "share_ge4": 0.0005797101449275362,
+   "max": 4,
+   "exact_full_name_lines": 0
+  },
+  "may": {
+   "n_lines": 3450,
+   "share_ge2": 0.009565217391304347,
+   "share_ge3": 0.0,
+   "share_ge4": 0.0,
+   "max": 2,
+   "exact_full_name_lines": 0
+  },
+  "iong": {
+   "n_lines": 3450,
+   "share_ge2": 0.011014492753623189,
+   "share_ge3": 0.0008695652173913044,
+   "share_ge4": 0.0,
+   "max": 3,
+   "exact_full_name_lines": 0
+  },
+  "iollet": {
+   "n_lines": 3450,
+   "share_ge2": 0.035942028985507246,
+   "share_ge3": 0.004057971014492754,
+   "share_ge4": 0.0,
+   "max": 3,
+   "exact_full_name_lines": 0
+  },
+  "augst": {
+   "n_lines": 3450,
+   "share_ge2": 0.014202898550724638,
+   "share_ge3": 0.0005797101449275362,
+   "share_ge4": 0.0,
+   "max": 3,
+   "exact_full_name_lines": 0
+  },
+  "septembr": {
+   "n_lines": 3450,
+   "share_ge2": 0.03304347826086956,
+   "share_ge3": 0.002898550724637681,
+   "share_ge4": 0.0002898550724637681,
+   "max": 4,
+   "exact_full_name_lines": 0
+  },
+  "octembre": {
+   "n_lines": 3450,
+   "share_ge2": 0.036231884057971016,
+   "share_ge3": 0.002318840579710145,
+   "share_ge4": 0.0002898550724637681,
+   "max": 4,
+   "exact_full_name_lines": 0
+  },
+  "novembre": {
+   "n_lines": 3450,
+   "share_ge2": 0.029275362318840578,
+   "share_ge3": 0.0017391304347826088,
+   "share_ge4": 0.0002898550724637681,
+   "max": 4,
+   "exact_full_name_lines": 0
+  },
+  "decebre": {
+   "n_lines": 3450,
+   "share_ge2": 0.029565217391304348,
+   "share_ge3": 0.0026086956521739132,
+   "share_ge4": 0.0,
+   "max": 3,
+   "exact_full_name_lines": 0
+  }
+ },
+ "controls": {
+  "power_inserted_true_month": 1.0,
+  "false_positive_inserted_wrong_month": 0.0,
+  "n_replicates": 200,
+  "n_perm_each": 1000
+ },
+ "verdict": "NEGATIVE",
+ "wall_s": 9
+}
