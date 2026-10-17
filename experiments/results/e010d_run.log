@@ -1,0 +1,398 @@
+synthetic 0 1400 1 s
+synthetic 200 1400 3 s
+synthetic 400 1400 5 s
+synthetic 600 1400 7 s
+synthetic 800 1400 9 s
+synthetic 1000 1400 12 s
+synthetic 1200 1400 14 s
+{
+ "a1": {
+  "n": 200,
+  "rate_p_below_alpha": {
+   "T1": 0.67,
+   "T2": 0.615,
+   "T3": 0.01
+  },
+  "rate_holm_reject": {
+   "T1": 0.54,
+   "T2": 0.315,
+   "T3": 0.005
+  },
+  "codebook_joint_T1_T2_holm": 0.315,
+  "median_p": {
+   "T1": 0.0026936026936026937,
+   "T2": 0.007246376811594203,
+   "T3": 0.3605072463768116
+  }
+ },
+ "a2": {
+  "n": 200,
+  "rate_p_below_alpha": {
+   "T1": 0.99,
+   "T2": 0.8,
+   "T3": 0.05
+  },
+  "rate_holm_reject": {
+   "T1": 0.795,
+   "T2": 0.555,
+   "T3": 0.03
+  },
+  "codebook_joint_T1_T2_holm": 0.555,
+  "median_p": {
+   "T1": 0.0006734006734006734,
+   "T2": 0.0036231884057971015,
+   "T3": 0.15579710144927536
+  }
+ },
+ "b": {
+  "n": 200,
+  "rate_p_below_alpha": {
+   "T1": 0.005,
+   "T2": 0.01,
+   "T3": 0.0
+  },
+  "rate_holm_reject": {
+   "T1": 0.005,
+   "T2": 0.005,
+   "T3": 0.0
+  },
+  "codebook_joint_T1_T2_holm": 0.005,
+  "median_p": {
+   "T1": 1.0,
+   "T2": 1.0,
+   "T3": 0.7391304347826086
+  }
+ },
+ "c": {
+  "n": 200,
+  "rate_p_below_alpha": {
+   "T1": 0.02,
+   "T2": 0.02,
+   "T3": 0.0
+  },
+  "rate_holm_reject": {
+   "T1": 0.015,
+   "T2": 0.01,
+   "T3": 0.0
+  },
+  "codebook_joint_T1_T2_holm": 0.01,
+  "median_p": {
+   "T1": 1.0,
+   "T2": 1.0,
+   "T3": 0.7971014492753623
+  }
+ },
+ "d": {
+  "n": 200,
+  "rate_p_below_alpha": {
+   "T1": 0.43,
+   "T2": 0.005,
+   "T3": 0.0
+  },
+  "rate_holm_reject": {
+   "T1": 0.165,
+   "T2": 0.005,
+   "T3": 0.0
+  },
+  "codebook_joint_T1_T2_holm": 0.005,
+  "median_p": {
+   "T1": 0.013468013468013467,
+   "T2": 0.3442028985507246,
+   "T3": 0.5797101449275363
+  }
+ },
+ "a1+d": {
+  "n": 200,
+  "rate_p_below_alpha": {
+   "T1": 0.7,
+   "T2": 0.02,
+   "T3": 0.025
+  },
+  "rate_holm_reject": {
+   "T1": 0.365,
+   "T2": 0.01,
+   "T3": 0.01
+  },
+  "codebook_joint_T1_T2_holm": 0.01,
+  "median_p": {
+   "T1": 0.0053872053872053875,
+   "T2": 0.16304347826086957,
+   "T3": 0.45108695652173914
+  }
+ },
+ "b+d": {
+  "n": 200,
+  "rate_p_below_alpha": {
+   "T1": 0.475,
+   "T2": 0.01,
+   "T3": 0.0
+  },
+  "rate_holm_reject": {
+   "T1": 0.185,
+   "T2": 0.005,
+   "T3": 0.0
+  },
+  "codebook_joint_T1_T2_holm": 0.005,
+  "median_p": {
+   "T1": 0.010437710437710438,
+   "T2": 0.3532608695652174,
+   "T3": 0.6666666666666666
+  }
+ }
+}
+{
+ "decision": {
+  "codebook_a1": "UNINFORMATIVE (power < 0.8)",
+  "codebook_a2_scoped": "UNINFORMATIVE (power < 0.8)",
+  "verbose_b": "UNINFORMATIVE (power < 0.8)"
+ },
+ "power_used": {
+  "codebook_a1_joint": 0.315,
+  "codebook_a2_joint": 0.555,
+  "verbose_b_T3": 0.0
+ },
+ "calibration_flags": {
+  "fpr_c_gt_0.03": {
+   "T1": false,
+   "T2": false,
+   "T3": false
+  },
+  "holm_reject_drift_d_gt_0.03": {
+   "T1": true,
+   "T2": false,
+   "T3": false
+  }
+ },
+ "wall_s": 16.2
+}
+{
+ "T1": {
+  "T": 0.0030286338894418563,
+  "p": 0.4101010101010101
+ },
+ "T2": {
+  "T": 2.2505328849506157,
+  "p": 0.2463768115942029
+ },
+ "T3": {
+  "T": 0.005747223154732195,
+  "p": 0.39492753623188404
+ }
+} {
+ "T2": {
+  "p": 0.2463768115942029,
+  "holm_threshold": 0.0033333333333333335,
+  "reject": false
+ },
+ "T3": {
+  "p": 0.39492753623188404,
+  "holm_threshold": 0.005,
+  "reject": false
+ },
+ "T1": {
+  "p": 0.4101010101010101,
+  "holm_threshold": 0.01,
+  "reject": false
+ }
+}
+{
+ "T1stat_zodiac_adjacency_null_45": {
+  "T": -1.798612632587834,
+  "p": 0.4888888888888889
+ },
+ "T3stat_all_relabel_null_1485": {
+  "T": -0.0006802711331650724,
+  "p": 0.5050505050505051
+ },
+ "T1_K0": {
+  "T": 4.991957701238805,
+  "p": 0.1286195286195286
+ },
+ "T2_K0": {
+  "T": 5.324130204314393,
+  "p": 0.10144927536231885
+ },
+ "T1_K10": {
+  "T": -0.5725857966815315,
+  "p": 0.509090909090909
+ },
+ "T2_K10": {
+  "T": -0.8311231464144893,
+  "p": 0.5144927536231884
+ },
+ "T1_unnormalised": {
+  "T": -0.7498426009221886,
+  "p": 0.38047138047138046
+ },
+ "T2_unnormalised": {
+  "T": 0.881055073041205,
+  "p": 0.26811594202898553
+ }
+}
+{
+ "f70v1|f71r": {
+  "month": "aberil",
+  "s": 0.0,
+  "c": 0.15262688065504976,
+  "shared_types_f_rest_le_10": [],
+  "n_shared_word_types_total": 8,
+  "top15_shared_T3_features_by_idf": [
+   {
+    "feature": "N:hekea",
+    "idf": 9.689
+   },
+   {
+    "feature": "N:ekea",
+    "idf": 9.689
+   },
+   {
+    "feature": "W:oteo",
+    "idf": 7.897
+   },
+   {
+    "feature": "N:alody",
+    "idf": 7.674
+   },
+   {
+    "feature": "N:eokee",
+    "idf": 7.492
+   },
+   {
+    "feature": "N:shs",
+    "idf": 7.492
+   },
+   {
+    "feature": "N:oteo$",
+    "idf": 7.492
+   },
+   {
+    "feature": "N:teo$",
+    "idf": 7.387
+   },
+   {
+    "feature": "N:otala",
+    "idf": 7.387
+   },
+   {
+    "feature": "N:^otec",
+    "idf": 7.387
+   },
+   {
+    "feature": "N:tala",
+    "idf": 7.291
+   },
+   {
+    "feature": "N:keoda",
+    "idf": 7.291
+   },
+   {
+    "feature": "N:otech",
+    "idf": 7.291
+   },
+   {
+    "feature": "N:alod",
+    "idf": 7.247
+   },
+   {
+    "feature": "N:ekey$",
+    "idf": 7.204
+   }
+  ]
+ },
+ "f71v|f72r1": {
+  "month": "may",
+  "s": 14.546697672396965,
+  "c": 0.17693394477514512,
+  "shared_types_f_rest_le_10": [
+   {
+    "word": "okeodaly",
+    "f_rest": 0,
+    "counted_in_T1": true,
+    "locus_types": {
+     "f71v": [
+      "C"
+     ],
+     "f72r1": [
+      "C"
+     ]
+    }
+   },
+   {
+    "word": "oteodar",
+    "f_rest": 4,
+    "counted_in_T1": false,
+    "locus_types": {
+     "f71v": [
+      "C"
+     ],
+     "f72r1": [
+      "C"
+     ]
+    }
+   }
+  ],
+  "n_shared_word_types_total": 16,
+  "top15_shared_T3_features_by_idf": [
+   {
+    "feature": "W:okeodaly",
+    "idf": 10.381
+   },
+   {
+    "feature": "B:al oteey",
+    "idf": 10.381
+   },
+   {
+    "feature": "B:okeo dar",
+    "idf": 10.381
+   },
+   {
+    "feature": "N:^at",
+    "idf": 8.995
+   },
+   {
+    "feature": "W:oteodar",
+    "idf": 8.772
+   },
+   {
+    "feature": "N:eols$",
+    "idf": 8.184
+   },
+   {
+    "feature": "N:odaly",
+    "idf": 8.079
+   },
+   {
+    "feature": "N:^arol",
+    "idf": 7.984
+   },
+   {
+    "feature": "N:tos$",
+    "idf": 7.897
+   },
+   {
+    "feature": "N:eols",
+    "idf": 7.742
+   },
+   {
+    "feature": "W:okeo",
+    "idf": 7.609
+   },
+   {
+    "feature": "N:lshdy",
+    "idf": 7.548
+   },
+   {
+    "feature": "N:okala",
+    "idf": 7.491
+   },
+   {
+    "feature": "N:ochey",
+    "idf": 7.437
+   },
+   {
+    "feature": "N:tos",
+    "idf": 7.337
+   }
+  ]
+ }
+}

@@ -146,3 +146,68 @@ alignment between ring text and nymphs.
   were not collected. Adding single-proposer IDs adds tier C anchors, which section 3 shows contribute
   essentially no power.
 - No frontier plot was made: matplotlib is not in the environment. The tables above are the frontier.
+
+## 6. Addendum: E010D, do the two pages of the same month share material? (pre-registered)
+Prereg `reports/E010D_PREREG.md` (sha256 `59fbea3e…b3af`, read-only, locked 2026-10-17T08:51:41Z before any
+statistic on the zodiac text). Script `experiments/e010d_zodiac_shared.py`, results `experiments/results/e010d.json`,
+log `experiments/results/e010d_run.log`.
+
+**Design.** April (f70v1, f71r) and May (f71v, f72r1) each have two pages. They are the only place in the
+manuscript where one known meaning is repeated, and none of these tests needs the cipher tables. Both pairs are
+consecutive pages and facing pages of one opening (f70v1|f71r crosses the J/K quire boundary). Everything is hand
+4, so adjacency is the main confound. The control set is the 23 other consecutive pairs of the contiguous hand-4
+circular-diagram run f67r1–f73v.
+- **T1** (codebook): rarity-weighted count of shared word types with f_rest ≤ 3 (rest of DEV = everything except the
+  two pages), normalised by n_p·n_q. Same-month pairs are compared with the 64 other zodiac pairs (exact, 1,485
+  relabelings).
+- **T2**: the same statistic compared with the 23 adjacent controls (exact, 276 configurations).
+- **T3** (verbose, Naibbe-like, tables unknown): idf-weighted cosine over n-grams (n = 3–5, with word-boundary
+  marks), whole words and same-line word bigrams, with the T2 null.
+
+Holm across the three tests at α = 0.01.
+
+**Power and false-positive rate** (200 synthetic manuscripts each; same 26-page line layout; filler drawn from DEV
+outside the run; Holm-rejection rate, with the unadjusted p < 0.01 rate in brackets):
+
+| mechanism | T1 | T2 | T3 | codebook (T1∧T2) |
+|---|---|---|---|---|
+| a1 random codebook (codeword = random DEV type) | 0.54 (0.67) | 0.32 (0.62) | 0.005 | **0.315** |
+| a2 novel codeword (absent from DEV) | 0.795 (0.99) | 0.56 (0.80) | 0.03 | **0.555** |
+| b random Naibbe-like tables (month enciphered in the ring) | 0.005 | 0.005 | **0.00** | – |
+| c no insertion (FPR) | 0.015 (0.02) | 0.01 (0.02) | 0.00 | 0.01 |
+| d adjacency drift ρ = 0.25, no insertion | 0.165 (0.43) | 0.005 | 0.00 | 0.005 |
+| a1 + d | 0.365 | 0.01 | 0.01 | 0.01 |
+| b + d | 0.185 | 0.005 | 0.00 | 0.005 |
+
+T1 fires on pure drift (43% unadjusted), which is why T2 exists. T2 and T3 stay calibrated under drift. Under
+drift, however, the adjacency-controlled codebook test loses all power (a1 + d: 0.01). T3 has no power at all
+against a Naibbe-like month name: a 2–4-word insertion of common-looking chunks is lost among about 100 tokens.
+
+**Real pages.**
+
+| test | statistic | p | Holm threshold | reject | power | verdict |
+|---|---|---|---|---|---|---|
+| T1 | 0.003 | 0.410 | 0.010 | no | 0.315 (a1, joint) | codebook **UNINFORMATIVE** |
+| T2 | 2.25 | 0.246 | 0.0033 | no | (joint above) | |
+| T3 | 0.0057 | 0.395 | 0.005 | no | 0.00 (b) | verbose **UNINFORMATIVE** |
+
+The secondary analyses agree, and none is near significance: T1's statistic under the zodiac-only adjacency null
+gives p = 0.49; T3 under all relabelings gives p = 0.51; with K = 0 the T1/T2 p are 0.13/0.10; with K = 10 they are
+0.51/0.51.
+
+**Descriptive only (no readings).**
+- April pair (f70v1, f71r): 8 shared word types in total, **none** with f_rest ≤ 10. Under a1, about 85% of DEV
+  word types have count ≤ 3, so a random codeword would usually have been counted (exploratory figure, computed
+  after the run).
+- May pair (f71v, f72r1): 16 shared types. Two have f_rest ≤ 10, both in ring (C) text on both pages: `okeodaly`
+  (f_rest 0, the only item counted in T1) and `oteodar` (f_rest 4). The top shared T3 features include the
+  bigrams `okeo dar` and `al oteey`.
+- For comparison, the largest adjacent-pair score is the other facing opening across a quire boundary,
+  f72v1|f73r (s = 27.8, versus 14.5 for May and 0 for April).
+
+**Reading.** No same-month effect is detected. Under the codebook mechanism the design is underpowered (0.32 at
+best), because there are only two duplicated months and an adjacency-controlled comparison has 276
+configurations. It is therefore not a negative. The April pair fails even the weak descriptive prediction of one
+shared rare word. Under verbose ciphers with unknown tables, this kind of sharing test has essentially zero power
+at this text size. The result constrains nothing about Naibbe-like schemes beyond E010C's specific tables.
+**No decipherment.**
