@@ -331,3 +331,7 @@ date,experiment,model,checkpoint_sha256,split,metric,value,command,notes
 2026-10-17,E015,naibbe_rep/de:shufchar,prereg=3f103b502152,voynich_DEV_fingerprint,heldout_rms_z,0.8509,experiments/e015_shuffled_controls.py --workers 3,pre-registered; MEANING DETECTABLE (real beats letter-shuffled in >= 3 of 4 languages)
 2026-10-17,E015,naibbe_rep/de:real,prereg=3f103b502152,voynich_DEV_fingerprint,fit_rms_z,1.088,experiments/e015_shuffled_controls.py --workers 3,pre-registered; MEANING DETECTABLE (real beats letter-shuffled in >= 3 of 4 languages)
 2026-10-17,E015,naibbe_rep/de:real,prereg=3f103b502152,voynich_DEV_fingerprint,heldout_rms_z,0.8531,experiments/e015_shuffled_controls.py --workers 3,pre-registered; MEANING DETECTABLE (real beats letter-shuffled in >= 3 of 4 languages)
+2026-10-17,E016,verbose_homophonic_attack,prereg=d890d133c4e9,synthetic_known_answer,n_cracked_of_8,3,experiments/e016_verbose_known_answer.py --workers 3,NOT CRACKABLE
+2026-10-17,E016,verbose_homophonic_attack,prereg=d890d133c4e9,synthetic_known_answer,language_id_correct_of_8,4,experiments/e016_verbose_known_answer.py --workers 3,NOT IDENTIFIED
+2026-10-17,E016,verbose_homophonic_attack,prereg=d890d133c4e9,synthetic_known_answer,control_min_gap,0.1998,experiments/e016_verbose_known_answer.py --workers 3,confidence threshold for step 3
+2026-10-17,E016,verbose_homophonic_attack,prereg=d890d133c4e9,synthetic_known_answer,quarter_size_cracked,2,experiments/e016_verbose_known_answer.py --workers 3,10k letters

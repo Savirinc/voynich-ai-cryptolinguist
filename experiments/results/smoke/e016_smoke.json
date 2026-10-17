@@ -1,0 +1,189 @@
+{
+ "experiment": "e016",
+ "prereg": "reports/E016_PREREG.md",
+ "prereg_sha256": null,
+ "seed": 16016,
+ "command": "experiments/e016_verbose_known_answer.py --smoke",
+ "iters": 20000,
+ "restarts": 1,
+ "tasks": [
+  {
+   "plain_lang": "la",
+   "key": 0,
+   "true_lm_acc": 0.1311,
+   "true_lm_gap": 0.7420454124082263,
+   "picked_lm": "la",
+   "picked_acc": 0.1311,
+   "gaps": {
+    "la": 0.742
+   }
+  },
+  {
+   "plain_lang": "it",
+   "key": 0,
+   "true_lm_acc": 0.7435,
+   "true_lm_gap": 0.6182588560874147,
+   "picked_lm": "it",
+   "picked_acc": 0.7435,
+   "gaps": {
+    "it": 0.6183
+   }
+  }
+ ],
+ "rows": [
+  {
+   "tag": "A",
+   "kind": "real",
+   "plain_lang": "it",
+   "key": 0,
+   "size": 40000,
+   "lm": "it",
+   "char_acc": 0.7435,
+   "per_char": -2.5547014696890993,
+   "gap": 0.6182588560874147,
+   "restart_per_char": [
+    -2.5547
+   ],
+   "n_words": 26211,
+   "n_components": 38176,
+   "n_symbols": 385,
+   "n_unparsed": 1225,
+   "preview": "ancoedasoliafaatsropcusavenodelticonfidentialeintraserradaitertisidadanodelleilenuelcaroesimpaticoti",
+   "truth_preview": "anchedasoliaquattrocchiusavanodeltuconfidenzialeinpresenzadeiterzisidavanodelleimaquelcaroesimpatico",
+   "wall_s": 3
+  },
+  {
+   "tag": "A",
+   "kind": "real",
+   "plain_lang": "la",
+   "key": 0,
+   "size": 40000,
+   "lm": "la",
+   "char_acc": 0.1311,
+   "per_char": -2.649747858392113,
+   "gap": 0.7420454124082263,
+   "restart_per_char": [
+    -2.6497
+   ],
+   "n_words": 26284,
+   "n_components": 38322,
+   "n_symbols": 402,
+   "n_unparsed": 1197,
+   "preview": "orttetestastiimeresenetanoretterianarencitiosteniasemsinonumeritiasimdanuriastitentedereriorieasttie",
+   "truth_preview": "cumpatrescilicetfuissesempertestamuranteoriginemsaeculispiritualiterapudpatreminenarrabilitergenitum",
+   "wall_s": 3
+  },
+  {
+   "tag": "C",
+   "kind": "shufchar",
+   "plain_lang": "la",
+   "key": 0,
+   "size": 40000,
+   "lm": "la",
+   "char_acc": 0.078275,
+   "per_char": -2.7134613618749386,
+   "gap": 0.8057589158910519,
+   "restart_per_char": [
+    -2.7135
+   ],
+   "n_words": 26279,
+   "n_components": 38328,
+   "n_symbols": 397,
+   "n_unparsed": 1178,
+   "preview": "tessmerendenssteretevetererisependenmecetenussmastiitidesrereteriinoviteatetestasssdeicememeindisdes",
+   "truth_preview": "lerssreeemeeotsietortienpesiocmecnetnvmmeaasnseacumdsairtidaietaeoqvrueteieuinvsnrcnuoisitrfroeealic",
+   "wall_s": 3
+  },
+  {
+   "tag": "B",
+   "kind": "real",
+   "plain_lang": "la",
+   "key": 0,
+   "size": 10000,
+   "lm": "la",
+   "char_acc": 0.1022,
+   "per_char": -2.6973650350489753,
+   "gap": 0.7896625890650886,
+   "restart_per_char": [
+    -2.6974
+   ],
+   "n_words": 6541,
+   "n_components": 9553,
+   "n_symbols": 375,
+   "n_unparsed": 311,
+   "preview": "ostieramiasistamusiteenenenutetcaniariteniterentertuseteisataserresatinturititsititiasaamenarialiiam",
+   "truth_preview": "cumpatrescilicetfuissesempertestamuranteoriginemsaeculispiritualiterapudpatreminenarrabilitergenitum",
+   "wall_s": 1
+  },
+  {
+   "tag": "B",
+   "kind": "real",
+   "plain_lang": "it",
+   "key": 0,
+   "size": 10000,
+   "lm": "it",
+   "char_acc": 0.2948,
+   "per_char": -2.773597395867594,
+   "gap": 0.8371547822659093,
+   "restart_per_char": [
+    -2.7736
+   ],
+   "n_words": 6499,
+   "n_components": 9519,
+   "n_symbols": 379,
+   "n_unparsed": 304,
+   "preview": "ililadinaiaigieetrecrmaitedineviitaiendidinilrnanariosaieelgenidimanosasaliaemieeiiieriotimritapetae",
+   "truth_preview": "anchedasoliaquattrocchiusavanodeltuconfidenzialeinpresenzadeiterzisidavanodelleimaquelcaroesimpatico",
+   "wall_s": 1
+  },
+  {
+   "tag": "C",
+   "kind": "rugg",
+   "plain_lang": null,
+   "key": 0,
+   "size": 40000,
+   "lm": "la",
+   "char_acc": null,
+   "per_char": -2.5228883070513004,
+   "gap": 0.6151858610674137,
+   "restart_per_char": [
+    -2.5229
+   ],
+   "n_words": 28553,
+   "n_components": 22806,
+   "n_symbols": 293,
+   "n_unparsed": 15512,
+   "preview": "aminisdtitstesitetenetenenimeceretiitotiseriirdisensonereteriisids",
+   "truth_preview": null,
+   "wall_s": 2
+  }
+ ],
+ "crackable": {
+  "n_cracked": 0,
+  "n": 2,
+  "verdict": "NOT CRACKABLE"
+ },
+ "language_id": {
+  "n_correct": 2,
+  "n": 2,
+  "verdict": "IDENTIFIED"
+ },
+ "confidence_threshold": {
+  "control_min_gap": 0.6151858610674137,
+  "control_gaps": [
+   0.8058,
+   0.6152
+  ],
+  "successes_below_threshold": 0,
+  "n_successes": 0
+ },
+ "quarter_size": {
+  "n_cracked": 0,
+  "n": 2,
+  "accs": [
+   0.102,
+   0.295
+  ]
+ },
+ "wall_s": 6
+}
