@@ -1,0 +1,64 @@
+{
+ "H2-A-Na": {
+  "p": 9.999000099990002e-05,
+  "holm_threshold": 0.00125,
+  "reject": true
+ },
+ "H1-T1-N2": {
+  "p": 0.16498350164983502,
+  "holm_threshold": 0.0014285714285714286,
+  "reject": false
+ },
+ "H1-T1-N1": {
+  "p": 0.18838116188381163,
+  "holm_threshold": 0.0016666666666666668,
+  "reject": false
+ },
+ "H1-T2-N1": {
+  "p": 0.24097590240975902,
+  "holm_threshold": 0.002,
+  "reject": false
+ },
+ "H1-T3-N1": {
+  "p": 0.3453273363318341,
+  "holm_threshold": 0.0025,
+  "reject": false
+ },
+ "H2-O-Nb": {
+  "p": 0.9587041295870413,
+  "holm_threshold": 0.0033333333333333335,
+  "reject": false
+ },
+ "H2-A-Nb": {
+  "p": 0.9999000099990001,
+  "holm_threshold": 0.005,
+  "reject": false
+ },
+ "H2-O-Na": {
+  "p": 1.0,
+  "holm_threshold": 0.01,
+  "reject": false
+ }
+}
+0 1800 37
+100 1800 120
+200 1800 205
+300 1800 297
+400 1800 379
+500 1800 478
+600 1800 587
+700 1800 668
+800 1800 753
+900 1800 841
+1000 1800 925
+1100 1800 1024
+1200 1800 1129
+1300 1800 1227
+1400 1800 1327
+1500 1800 1427
+1600 1800 1536
+1700 1800 1673
+{
+ "H1": "negative (test was powered on synthetic controls and did not fire)",
+ "H2": "negative (test was powered on synthetic controls and did not fire)"
+} 1810.3

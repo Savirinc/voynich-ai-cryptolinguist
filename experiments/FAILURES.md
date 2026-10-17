@@ -99,3 +99,44 @@ Note: E004's agent modes used v1 abstention; their 0.111 null FDR predates this 
     -0.63, sampled char acc 0.21 -> 0.13); stopped. Attempt 2 (fp32 LoRA master weights, lr 5e-6) is the reported one:
     204 steps, window reward 0.00 -> 0.07, sampled char acc 0.235 -> ~0.27, but noise-abstention fell 0.017 -> 0.
 - Status: negative result. Not a basis for any Voynich claim. See reports/NEURAL_DECIPHERER.md, experiments/results/e009.json.
+
+## E010B (2026-10-17): pre-registered zodiac month-name (H1) and day-label (H2) tests -> both negative (with limits)
+Prereg `reports/E010B_PREREG.md` (sha256 dfb39b9e...8597, written 06:35Z before any statistic; unchanged; disclosure:
+label lists had been viewed while building the anchor dataset). Leaves 70-73: none LOCKED_TEST. 299 labels counted
+(30 / 15+15 / f72r2 29), matching voynich.nu.
+- H1 (month name in Voynichese near the annotation; predicted pairs = 2 same-month + 6 '-bre' pairs): T1 p=0.19
+  (z=1.0), T1/N2 p=0.17, T2 p=0.24, search-corrected T3 p=0.35. None survives Holm (alpha 0.01).
+  The best single word-choice looks "significant" (p=1e-4, z=8.0) ONLY against random selections, i.e. before
+  correcting for the search: a worked example of how searching manufactures anchors.
+  Power (synthetic, same structure): mono 0.75-0.97, but homophonic/verbose 0.01-0.11. So H1 is negative only
+  for one-glyph-per-letter spellings of the month names; against homophonic/verbose spelling it is uninformative.
+- H2 (labels are day labels): exact recurrence O=34 vs within-zodiac shuffle 40.3 (p=0.96); ordered alignment A
+  BELOW shuffle (z=-3.6, p=0.9999): labels are more alike within a page than across pages (page-level style, cf.
+  forum reports of per-folio prefix drift), the opposite of a repeated day sequence. Power of A/Nb = 1.0 for all
+  mechanisms -> negative. A vs other-section labels (Na) is significant (z=6.9) but Na fires on 99-100% of
+  structure-free synthetic controls in 5 of 6 mechanism x language cells (0.10 in verbose/la): a style
+  confound, predicted in the prereg -> not evidence.
+- Note: the N2 null for T1 is slightly anti-conservative on controls (false-positive rate 0.03-0.05 at alpha 0.01).
+
+## E011 (2026-10-17): Voynich twins -> NO TWIN (no family reaches Voynich's own variation)
+- Five mechanism families (Naibbe-style verbose homophonic cipher, abbreviation, syllabary over 8 languages;
+  Rugg grille and Timm-Schinner self-citation as meaningless decoys), 900 evals per family x language (decoys 2,700),
+  fitted to DEV-only Voynich fingerprint (14 blocks of ~12k symbols). Best re-evaluated fit distance 2.11
+  (naibbe/it) vs Voynich leave-one-block-out noise floor 0.99 (p90 1.29); Currier A-vs-B distance is 1.43.
+- Every family misses low h_cond (z +1.8 to +4.5), rare word types (type_hapax) and the line-position effects
+  (y->q, line-final m), which none has a mechanism for. Abbreviation fails on word length (z +11).
+- Held-out ranking: Naibbe-style beats Rugg robustly (p 7e-8) and self-citation only without type_hapax (p 8e-8;
+  with it p 0.018) -> automatic verdict "mixed". The meaningful-vs-meaningless classifier does not transfer across
+  mechanisms (leave-one-family-out AUC 0.0), so its Voynich output is not used.
+- Process note: first run's English-contamination filter contained "to" (common Czech word) -> 0 cs/ref chunks;
+  fixed and final eval/analysis rerun with --reuse-search (same searched parameters). Both ledger row sets kept.
+See reports/VOYNICH_TWINS.md, experiments/results/e011.json.
+
+## E010 (2026-10-17): semantic-anchor power analysis -> the real anchor set is INSUFFICIENT
+Known-answer simulation (de/fr/pl tune books; mono / verbose homophonic / flexible-anagram; 200 optimised wrong-key
+fits per cell). Distinguishing the true key from keys optimised on wrong anchors needs N>=3-5 at r>=0.8 (mono),
+N>=10 at r>=0.8 (verbose), N>=20 at r>=0.8 (flexible); at r<=0.3 not reached by N=40 except mono T2 (N=20).
+Real set: 5 usable tier-B + 67 tier-C word-level anchors (no tier-A word-level; tier D L0 only, locked). Power at
+plausible reliabilities is ~0 (best case mono rB=0.4/rC=0.15: 0.53); sufficient only if tier B >=0.8 reliable AND
+mechanism is simple substitution with known segmentation and plaintext form. Random-key comparisons are passed
+almost always and are therefore not evidence. See reports/ANCHORS.md, experiments/results/e010.json.

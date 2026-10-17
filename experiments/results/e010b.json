@@ -1,0 +1,625 @@
+{
+ "experiment": "E010B",
+ "prereg": "reports/E010B_PREREG.md",
+ "prereg_sha256": "dfb39b9e6cbc7fc9782707ddbe58fccf3d07ca092304750a2db7836b99c98597",
+ "prereg_written_utc": "2026-10-17T06:35Z",
+ "seed": 20261017,
+ "alpha_familywise": 0.01,
+ "command": "experiments/e010b_zodiac_months.py --workers 3",
+ "locked_zodiac_leaves": [],
+ "page_counts": [
+  {
+   "folio": "f70v2",
+   "sign": "Pisces",
+   "month_latin_script": "mars",
+   "leaf": "70",
+   "locked": false,
+   "n_labels": 30,
+   "groups": [
+    [
+     "Nymph labels, outer ring:",
+     19
+    ],
+    [
+     "Inner ring:",
+     10
+    ],
+    [
+     "Central star:",
+     1
+    ]
+   ],
+   "n_labels_excluded_unclean": 1,
+   "n_text_rings": 3,
+   "K_size": 14,
+   "F_size": 127
+  },
+  {
+   "folio": "f70v1",
+   "sign": "Aries (dark)",
+   "month_latin_script": "aberil",
+   "leaf": "70",
+   "locked": false,
+   "n_labels": 15,
+   "groups": [
+    [
+     "Nymph labels, outer ring:",
+     10
+    ],
+    [
+     "Inner ring:",
+     5
+    ]
+   ],
+   "n_labels_excluded_unclean": 0,
+   "n_text_rings": 2,
+   "K_size": 11,
+   "F_size": 85
+  },
+  {
+   "folio": "f71r",
+   "sign": "Aries (light)",
+   "month_latin_script": "aberil",
+   "leaf": "71",
+   "locked": false,
+   "n_labels": 15,
+   "groups": [
+    [
+     "Nymph labels, outer ring",
+     10
+    ],
+    [
+     "Nymph labels, inner ring",
+     5
+    ]
+   ],
+   "n_labels_excluded_unclean": 0,
+   "n_text_rings": 3,
+   "K_size": 6,
+   "F_size": 90
+  },
+  {
+   "folio": "f71v",
+   "sign": "Taurus (light)",
+   "month_latin_script": "may",
+   "leaf": "71",
+   "locked": false,
+   "n_labels": 15,
+   "groups": [
+    [
+     "Nymph labels, outer ring:",
+     10
+    ],
+    [
+     "Nymph labels, inner ring:",
+     5
+    ]
+   ],
+   "n_labels_excluded_unclean": 0,
+   "n_text_rings": 3,
+   "K_size": 7,
+   "F_size": 99
+  },
+  {
+   "folio": "f72r1",
+   "sign": "Taurus (dark)",
+   "month_latin_script": "may",
+   "leaf": "72",
+   "locked": false,
+   "n_labels": 15,
+   "groups": [
+    [
+     "Nymph labels, outer ring",
+     10
+    ],
+    [
+     "Nymph labels, inner ring",
+     5
+    ]
+   ],
+   "n_labels_excluded_unclean": 0,
+   "n_text_rings": 3,
+   "K_size": 7,
+   "F_size": 104
+  },
+  {
+   "folio": "f72r2",
+   "sign": "Gemini",
+   "month_latin_script": "jong",
+   "leaf": "72",
+   "locked": false,
+   "n_labels": 29,
+   "groups": [
+    [
+     "Top row of nymphs",
+     5
+    ],
+    [
+     "Nymph labels, second ring:",
+     15
+    ],
+    [
+     "Nymph labels, inner ring:",
+     9
+    ]
+   ],
+   "n_labels_excluded_unclean": 0,
+   "n_text_rings": 3,
+   "K_size": 10,
+   "F_size": 112
+  },
+  {
+   "folio": "f72r3",
+   "sign": "Cancer",
+   "month_latin_script": "iollet",
+   "leaf": "72",
+   "locked": false,
+   "n_labels": 30,
+   "groups": [
+    [
+     "Outer band of labels",
+     12
+    ],
+    [
+     "Middle band of labels",
+     11
+    ],
+    [
+     "Inner band of labels",
+     7
+    ]
+   ],
+   "n_labels_excluded_unclean": 2,
+   "n_text_rings": 4,
+   "K_size": 9,
+   "F_size": 160
+  },
+  {
+   "folio": "f72v3",
+   "sign": "Leo",
+   "month_latin_script": "augst",
+   "leaf": "72",
+   "locked": false,
+   "n_labels": 30,
+   "groups": [
+    [
+     "Outer band of labels",
+     18
+    ],
+    [
+     "Inner band of labels",
+     12
+    ]
+   ],
+   "n_labels_excluded_unclean": 0,
+   "n_text_rings": 3,
+   "K_size": 14,
+   "F_size": 115
+  },
+  {
+   "folio": "f72v2",
+   "sign": "Virgo",
+   "month_latin_script": "septe(m)b(r)",
+   "leaf": "72",
+   "locked": false,
+   "n_labels": 30,
+   "groups": [
+    [
+     "Outer band of labels",
+     18
+    ],
+    [
+     "Inner band of labels",
+     12
+    ]
+   ],
+   "n_labels_excluded_unclean": 0,
+   "n_text_rings": 3,
+   "K_size": 13,
+   "F_size": 106
+  },
+  {
+   "folio": "f72v1",
+   "sign": "Libra",
+   "month_latin_script": "octe(m)bre",
+   "leaf": "72",
+   "locked": false,
+   "n_labels": 30,
+   "groups": [
+    [
+     "Outer band of labels",
+     20
+    ],
+    [
+     "Inner band of labels",
+     10
+    ]
+   ],
+   "n_labels_excluded_unclean": 2,
+   "n_text_rings": 3,
+   "K_size": 11,
+   "F_size": 100
+  },
+  {
+   "folio": "f73r",
+   "sign": "Scorpius",
+   "month_latin_script": "nove(m)bre",
+   "leaf": "73",
+   "locked": false,
+   "n_labels": 30,
+   "groups": [
+    [
+     "Top four nymphs with labels",
+     4
+    ],
+    [
+     "Outer full circle of labels",
+     16
+    ],
+    [
+     "Inner full circle of labels",
+     10
+    ]
+   ],
+   "n_labels_excluded_unclean": 0,
+   "n_text_rings": 3,
+   "K_size": 11,
+   "F_size": 95
+  },
+  {
+   "folio": "f73v",
+   "sign": "Sagittarius",
+   "month_latin_script": "decebre",
+   "leaf": "73",
+   "locked": false,
+   "n_labels": 30,
+   "groups": [
+    [
+     "Top four nymphs with labels",
+     4
+    ],
+    [
+     "Outer full circle of labels",
+     16
+    ],
+    [
+     "Inner full circle of labels",
+     10
+    ]
+   ],
+   "n_labels_excluded_unclean": 1,
+   "n_text_rings": 3,
+   "K_size": 10,
+   "F_size": 98
+  }
+ ],
+ "total_labels": 299,
+ "voynich": {
+  "H1": {
+   "K_sizes": [
+    14,
+    11,
+    6,
+    7,
+    7,
+    10,
+    9,
+    14,
+    13,
+    11,
+    11,
+    10
+   ],
+   "T1_N1": {
+    "obs": 0.375,
+    "null_mean": 0.0028112068965515467,
+    "null_sd": 0.36023326300402125,
+    "z": 1.033188301379303,
+    "p": 0.18838116188381163,
+    "n_null": 10000
+   },
+   "T2_N1": {
+    "obs": 0.06863542720237752,
+    "null_mean": -0.000662503784192029,
+    "null_sd": 0.0949284612901306,
+    "z": 0.7300016248527798,
+    "p": 0.24097590240975902,
+    "n_null": 10000
+   },
+   "T1_N2": {
+    "obs": 0.375,
+    "null_mean": 0.03991077586206878,
+    "null_sd": 0.34231321076693677,
+    "z": 0.9788965590523938,
+    "p": 0.16498350164983502,
+    "n_null": 10000
+   },
+   "T3_N1": {
+    "obs": 3.1982758620689653,
+    "null_mean": 3.058478448275863,
+    "null_sd": 0.44338919973627744,
+    "z": 0.31529278087118945,
+    "p": 0.3453273363318341,
+    "n_null": 2000
+   },
+   "T3_uncorrected_vs_random_selection": {
+    "obs": 3.1982758620689653,
+    "null_mean": 0.06635431034482754,
+    "null_sd": 0.3900794771366529,
+    "z": 8.0289318851475,
+    "p": 9.999000099990002e-05,
+    "n_null": 10000
+   }
+  },
+  "H2": {
+   "O_Nb": {
+    "obs": 34.0,
+    "null_mean": 40.2987,
+    "null_sd": 3.8689893137614115,
+    "z": -1.6279962256800427,
+    "p": 0.9587041295870413,
+    "n_null": 10000
+   },
+   "A_Nb": {
+    "obs": 0.32813518202486486,
+    "null_mean": 0.34140929879455,
+    "null_sd": 0.003655330550332654,
+    "z": -3.6314408743354654,
+    "p": 0.9999000099990001,
+    "n_null": 10000
+   },
+   "O_Na": {
+    "obs": 34.0,
+    "null_mean": 78.3072,
+    "null_sd": 9.05978080088034,
+    "z": -4.8905377485175645,
+    "p": 1.0,
+    "n_null": 10000
+   },
+   "A_Na": {
+    "obs": 0.32813518202486486,
+    "null_mean": 0.28641416124993124,
+    "null_sd": 0.00601441739167204,
+    "z": 6.936834951412468,
+    "p": 9.999000099990002e-05,
+    "n_null": 10000
+   }
+  },
+  "n_other_labels_pool": 631,
+  "holm": {
+   "H2-A-Na": {
+    "p": 9.999000099990002e-05,
+    "holm_threshold": 0.00125,
+    "reject": true
+   },
+   "H1-T1-N2": {
+    "p": 0.16498350164983502,
+    "holm_threshold": 0.0014285714285714286,
+    "reject": false
+   },
+   "H1-T1-N1": {
+    "p": 0.18838116188381163,
+    "holm_threshold": 0.0016666666666666668,
+    "reject": false
+   },
+   "H1-T2-N1": {
+    "p": 0.24097590240975902,
+    "holm_threshold": 0.002,
+    "reject": false
+   },
+   "H1-T3-N1": {
+    "p": 0.3453273363318341,
+    "holm_threshold": 0.0025,
+    "reject": false
+   },
+   "H2-O-Nb": {
+    "p": 0.9587041295870413,
+    "holm_threshold": 0.0033333333333333335,
+    "reject": false
+   },
+   "H2-A-Nb": {
+    "p": 0.9999000099990001,
+    "holm_threshold": 0.005,
+    "reject": false
+   },
+   "H2-O-Na": {
+    "p": 1.0,
+    "holm_threshold": 0.01,
+    "reject": false
+   }
+  }
+ },
+ "voynich_wall_s": 26.2,
+ "synthetic": {
+  "reps": 100,
+  "perm": 1000,
+  "search_perm": 100,
+  "rate_p_below_alpha": {
+   "mono|fr|h1": {
+    "H1-T1-N1": 0.75,
+    "H1-T1-N2": 0.8,
+    "H1-T2-N1": 0.3,
+    "H1-T3-N1": 0.97,
+    "H2-O-Nb": 0.0,
+    "H2-A-Nb": 0.0,
+    "H2-O-Na": 0.0,
+    "H2-A-Na": 0.0
+   },
+   "mono|fr|h2": {
+    "H1-T1-N1": 0.0,
+    "H1-T1-N2": 0.0,
+    "H1-T2-N1": 0.0,
+    "H1-T3-N1": 0.0,
+    "H2-O-Nb": 1.0,
+    "H2-A-Nb": 1.0,
+    "H2-O-Na": 1.0,
+    "H2-A-Na": 1.0
+   },
+   "mono|fr|control": {
+    "H1-T1-N1": 0.01,
+    "H1-T1-N2": 0.0,
+    "H1-T2-N1": 0.02,
+    "H1-T3-N1": 0.0,
+    "H2-O-Nb": 0.0,
+    "H2-A-Nb": 0.0,
+    "H2-O-Na": 1.0,
+    "H2-A-Na": 1.0
+   },
+   "mono|la|h1": {
+    "H1-T1-N1": 0.85,
+    "H1-T1-N2": 0.59,
+    "H1-T2-N1": 0.06,
+    "H1-T3-N1": 0.91,
+    "H2-O-Nb": 0.0,
+    "H2-A-Nb": 0.02,
+    "H2-O-Na": 0.0,
+    "H2-A-Na": 0.0
+   },
+   "mono|la|h2": {
+    "H1-T1-N1": 0.0,
+    "H1-T1-N2": 0.0,
+    "H1-T2-N1": 0.0,
+    "H1-T3-N1": 0.0,
+    "H2-O-Nb": 1.0,
+    "H2-A-Nb": 1.0,
+    "H2-O-Na": 1.0,
+    "H2-A-Na": 1.0
+   },
+   "mono|la|control": {
+    "H1-T1-N1": 0.01,
+    "H1-T1-N2": 0.0,
+    "H1-T2-N1": 0.01,
+    "H1-T3-N1": 0.03,
+    "H2-O-Nb": 0.0,
+    "H2-A-Nb": 0.0,
+    "H2-O-Na": 1.0,
+    "H2-A-Na": 1.0
+   },
+   "homophonic|fr|h1": {
+    "H1-T1-N1": 0.04,
+    "H1-T1-N2": 0.09,
+    "H1-T2-N1": 0.06,
+    "H1-T3-N1": 0.04,
+    "H2-O-Nb": 0.0,
+    "H2-A-Nb": 0.01,
+    "H2-O-Na": 0.0,
+    "H2-A-Na": 0.0
+   },
+   "homophonic|fr|h2": {
+    "H1-T1-N1": 0.0,
+    "H1-T1-N2": 0.04,
+    "H1-T2-N1": 0.0,
+    "H1-T3-N1": 0.0,
+    "H2-O-Nb": 0.0,
+    "H2-A-Nb": 1.0,
+    "H2-O-Na": 0.0,
+    "H2-A-Na": 1.0
+   },
+   "homophonic|fr|control": {
+    "H1-T1-N1": 0.0,
+    "H1-T1-N2": 0.03,
+    "H1-T2-N1": 0.0,
+    "H1-T3-N1": 0.01,
+    "H2-O-Nb": 0.0,
+    "H2-A-Nb": 0.0,
+    "H2-O-Na": 0.0,
+    "H2-A-Na": 1.0
+   },
+   "homophonic|la|h1": {
+    "H1-T1-N1": 0.1,
+    "H1-T1-N2": 0.11,
+    "H1-T2-N1": 0.0,
+    "H1-T3-N1": 0.01,
+    "H2-O-Nb": 0.0,
+    "H2-A-Nb": 0.01,
+    "H2-O-Na": 0.0,
+    "H2-A-Na": 0.0
+   },
+   "homophonic|la|h2": {
+    "H1-T1-N1": 0.01,
+    "H1-T1-N2": 0.06,
+    "H1-T2-N1": 0.0,
+    "H1-T3-N1": 0.03,
+    "H2-O-Nb": 0.0,
+    "H2-A-Nb": 1.0,
+    "H2-O-Na": 0.0,
+    "H2-A-Na": 1.0
+   },
+   "homophonic|la|control": {
+    "H1-T1-N1": 0.01,
+    "H1-T1-N2": 0.04,
+    "H1-T2-N1": 0.02,
+    "H1-T3-N1": 0.01,
+    "H2-O-Nb": 0.0,
+    "H2-A-Nb": 0.01,
+    "H2-O-Na": 0.0,
+    "H2-A-Na": 1.0
+   },
+   "verbose_homophonic|fr|h1": {
+    "H1-T1-N1": 0.07,
+    "H1-T1-N2": 0.09,
+    "H1-T2-N1": 0.05,
+    "H1-T3-N1": 0.06,
+    "H2-O-Nb": 0.0,
+    "H2-A-Nb": 0.01,
+    "H2-O-Na": 0.0,
+    "H2-A-Na": 0.0
+   },
+   "verbose_homophonic|fr|h2": {
+    "H1-T1-N1": 0.0,
+    "H1-T1-N2": 0.05,
+    "H1-T2-N1": 0.0,
+    "H1-T3-N1": 0.0,
+    "H2-O-Nb": 0.0,
+    "H2-A-Nb": 1.0,
+    "H2-O-Na": 0.0,
+    "H2-A-Na": 1.0
+   },
+   "verbose_homophonic|fr|control": {
+    "H1-T1-N1": 0.02,
+    "H1-T1-N2": 0.05,
+    "H1-T2-N1": 0.01,
+    "H1-T3-N1": 0.01,
+    "H2-O-Nb": 0.0,
+    "H2-A-Nb": 0.01,
+    "H2-O-Na": 0.0,
+    "H2-A-Na": 0.99
+   },
+   "verbose_homophonic|la|h1": {
+    "H1-T1-N1": 0.05,
+    "H1-T1-N2": 0.04,
+    "H1-T2-N1": 0.02,
+    "H1-T3-N1": 0.03,
+    "H2-O-Nb": 0.0,
+    "H2-A-Nb": 0.01,
+    "H2-O-Na": 0.0,
+    "H2-A-Na": 0.0
+   },
+   "verbose_homophonic|la|h2": {
+    "H1-T1-N1": 0.0,
+    "H1-T1-N2": 0.07,
+    "H1-T2-N1": 0.0,
+    "H1-T3-N1": 0.0,
+    "H2-O-Nb": 0.0,
+    "H2-A-Nb": 1.0,
+    "H2-O-Na": 0.0,
+    "H2-A-Na": 1.0
+   },
+   "verbose_homophonic|la|control": {
+    "H1-T1-N1": 0.0,
+    "H1-T1-N2": 0.03,
+    "H1-T2-N1": 0.01,
+    "H1-T3-N1": 0.0,
+    "H2-O-Nb": 0.0,
+    "H2-A-Nb": 0.02,
+    "H2-O-Na": 0.0,
+    "H2-A-Na": 0.1
+   }
+  }
+ },
+ "decision": {
+  "H1": "negative (test was powered on synthetic controls and did not fire)",
+  "H2": "negative (test was powered on synthetic controls and did not fire)"
+ },
+ "wall_s": 1810.3
+}
