@@ -150,3 +150,35 @@ power 1.00; false-positive control (wrong month inserted): 0.00. Verdict NEGATIV
 Scope: rules out only the specific hypothesis "month names enciphered with Greshko's 2025 tables". It does not test
 other verbose-homophonic tables (the tables are a modern reconstruction). Labels were not tested (one Naibbe word
 encodes only 1-2 letters).
+
+## E010D (2026-10-17): same-month page pairs (April f70v1/f71r, May f71v/f72r1) share no excess material -> UNINFORMATIVE
+Prereg `reports/E010D_PREREG.md` (sha256 59fbea3e...b3af, locked 08:51:41Z before any statistic, read-only; unchanged).
+- T1 codebook (shared word types rare in rest of DEV, size-normalised; vs 64 other zodiac pairs, exact 1,485): p=0.41.
+  T2 same statistic vs 23 other consecutive pairs of hand-4 run f67r1-f73v (exact 276): p=0.25. T3 Naibbe-like chunk
+  cosine (n-grams/words/bigrams, idf) vs same adjacency null: p=0.39. None survives Holm (alpha 0.01).
+- Power (200 synthetic manuscripts each): codebook joint T1&T2 0.315 (random DEV-type codeword), 0.555 (novel
+  codeword); T3 vs random Naibbe-like tables 0.00. FPR (no insertion) <= 0.02 for all; under synthetic adjacency drift
+  T1 fires 43% unadjusted (confound confirmed), T2/T3 stay <= 0.005, but codebook power under drift falls to 0.01.
+- Verdicts: codebook UNINFORMATIVE (power < 0.8), verbose UNINFORMATIVE (power 0). Descriptive: April pair shares no
+  word type with rest-of-DEV count <= 10; May pair shares one (f_rest 0) plus one with f_rest 4, both in ring text.
+- Design limit, for any successor: two duplicated months x ~25 adjacent controls cap the exact adjacency-aware p at
+  1/276; a single codeword per page cannot reach Holm alpha reliably. More power needs more replicated meanings
+  (e.g. repeated plant/star labels), not a better statistic.
+See reports/ANCHORS.md section 6, experiments/results/e010d.json.
+
+## E012 (2026-10-17): unit inventories -> no inventory makes Voynich language-like on a discriminating test; solver v2 finds nothing (where not VOID)
+Replicates Rozanova & Temerev (arXiv:2608.17096) on DEV-only data: collapsed h_cond 2.68 (paper 2.69), token-order
+share 0.75% (0.79%), edge-glyph MI 0.191 bits (0.197), uncertain-separator internality 0.48 (0.49), BPE trough at 64
+merges, erased-space crossing 2.2%/18.5%/60.1% (2.5/20.3/60.0). Disagreement: hapax share 67.8% sits inside our 32
+languages (56-73%), so it does not discriminate here.
+- Negative: raw / composite-collapsed / Zattera-slot inventories are far outside the 32-language letter and syllable
+  clouds (h_cond 2.31-2.68 vs >= 2.95; RMS z 3.7-12). BPE V=80-300 lands inside the matched-procedure cloud, but so do
+  the meaningless self-citation generator and naibbe_exact -> not evidence.
+- Solver v2 (E005 margin) at matched unit scales: Gate 1 passes only for raw EVA (6/6) and BPE-80 on 750-token
+  windows (4/4); Voynich answered 0/6 and 0/3 there. All other scales VOID (solver cannot crack matched homophonic
+  ciphers with >= 40 types in 250-token windows, nor any space-erased stream). Two Voynich windows answered in VOID
+  scales (conf 0.72 bpe40, 0.65 collapsed); a naibbe_exact/fr cipher was answered WRONGLY at conf 0.68 (char acc 0.0)
+  in the collapsed inventory -> these are false-discovery-range answers, not readings. Decoy FPR 0/57.
+- Process note: the naibbe/syllable false-answer rates were added after the run by --stage resummarise (no new solver
+  calls); ledger rows marked REANALYSIS.
+See reports/UNIT_INVENTORIES.md, experiments/results/e012.json.

@@ -1,0 +1,271 @@
+replication done 20 s
+  lang af 34 s
+  lang bg 37 s
+  lang ca 40 s
+  lang cs 43 s
+  lang cy 45 s
+  lang da 48 s
+  lang de 51 s
+  lang el 54 s
+  lang en 57 s
+  lang enm 59 s
+  lang eo 62 s
+  lang es 65 s
+  lang fi 69 s
+  lang fr 72 s
+  lang fur 74 s
+  lang fy 77 s
+  lang ga 79 s
+  lang he 82 s
+  lang hu 85 s
+  lang is 88 s
+  lang it 91 s
+  lang la 94 s
+  lang nl 97 s
+  lang no 100 s
+  lang pl 103 s
+  lang pt 106 s
+  lang ro 109 s
+  lang ru 112 s
+  lang sl 115 s
+  lang sr 117 s
+  lang sv 120 s
+  lang tl 123 s
+  twin naibbe_exact/la 129 s
+  twin naibbe_exact/it 133 s
+  twin naibbe_exact/fr 136 s
+  twin naibbe/it 139 s
+  twin syllabary/cs 142 s
+  twin abbreviation/enm 147 s
+  twin rugg_grille 150 s
+  twin self_citation 154 s
+solver tasks: 228 Counter({'voynich': 57, 'ka_letters_homophonic': 43, 'ka_syllables': 27, 'naibbe_exact': 27, 'decoy_rugg_grille': 19, 'decoy_self_citation': 19, 'decoy_markov3_voynich_units': 19, 'ka_letters_mono': 17})
+  [1/228] bpe150         decoy_rugg_grille              ans=0 conf=0.001 acc=- 11.6s
+  [2/228] bpe150         decoy_markov3_voynich_units    ans=0 conf=0.000 acc=- 11.8s
+  [3/228] bpe150         decoy_markov3_voynich_units    ans=0 conf=0.000 acc=- 11.9s
+  [4/228] bpe150         decoy_rugg_grille              ans=0 conf=0.000 acc=- 11.3s
+  [5/228] bpe150         decoy_self_citation            ans=0 conf=0.082 acc=- 11.2s
+  [6/228] bpe150         decoy_self_citation            ans=0 conf=0.025 acc=- 11.4s
+  [7/228] bpe150         ka_letters_homophonic          ans=0 conf=0.001 acc=- 11.4s
+  [8/228] bpe150         ka_letters_homophonic          ans=0 conf=0.001 acc=- 11.3s
+  [9/228] bpe150         ka_letters_homophonic          ans=0 conf=0.001 acc=- 11.4s
+  [10/228] bpe150         ka_letters_homophonic          ans=0 conf=0.110 acc=- 11.5s
+  [11/228] bpe150         ka_letters_homophonic          ans=0 conf=0.079 acc=- 11.3s
+  [12/228] bpe150         ka_letters_homophonic          ans=0 conf=0.000 acc=- 11.5s
+  [13/228] bpe150         ka_syllables                   ans=0 conf=0.000 acc=- 11.1s
+  [14/228] bpe150         ka_syllables                   ans=0 conf=0.000 acc=- 11.6s
+  [15/228] bpe150         ka_syllables                   ans=0 conf=0.000 acc=- 11.5s
+  [16/228] bpe150         naibbe_exact                   ans=0 conf=0.000 acc=- 11.4s
+  [17/228] bpe150         naibbe_exact                   ans=0 conf=0.000 acc=- 11.4s
+  [18/228] bpe150         naibbe_exact                   ans=0 conf=0.000 acc=- 11.4s
+  [19/228] bpe150@w750    decoy_rugg_grille              ans=0 conf=0.046 acc=- 13.9s
+  [20/228] bpe150@w750    decoy_self_citation            ans=0 conf=0.021 acc=- 18.5s
+  [21/228] bpe150@w750    decoy_markov3_voynich_units    ans=0 conf=0.002 acc=- 19.7s
+  [22/228] bpe150@w750    ka_letters_homophonic          ans=0 conf=0.003 acc=- 21.1s
+  [23/228] bpe150@w750    ka_letters_homophonic          ans=0 conf=0.351 acc=- 21.0s
+  [24/228] bpe150@w750    ka_letters_homophonic          ans=0 conf=0.348 acc=- 21.0s
+  [25/228] bpe150@w750    ka_syllables                   ans=0 conf=0.000 acc=- 20.8s
+  [26/228] bpe300         decoy_markov3_voynich_units    ans=0 conf=0.000 acc=- 12.9s
+  [27/228] bpe150@w750    ka_letters_homophonic          ans=1 conf=0.633 acc=0.9762 56.6s
+  [28/228] bpe150@w750    naibbe_exact                   ans=0 conf=0.003 acc=- 19.9s
+  [29/228] bpe300         decoy_markov3_voynich_units    ans=0 conf=0.000 acc=- 11.3s
+  [30/228] bpe300         decoy_rugg_grille              ans=0 conf=0.000 acc=- 10.1s
+  [31/228] bpe300         decoy_rugg_grille              ans=0 conf=0.000 acc=- 10.7s
+  [32/228] bpe300         decoy_self_citation            ans=0 conf=0.004 acc=- 11.2s
+  [33/228] bpe300         decoy_self_citation            ans=0 conf=0.016 acc=- 11.0s
+  [34/228] bpe300         ka_letters_homophonic          ans=0 conf=0.000 acc=- 11.3s
+  [35/228] bpe300         ka_letters_homophonic          ans=0 conf=0.000 acc=- 11.2s
+  [36/228] bpe300         ka_letters_homophonic          ans=0 conf=0.000 acc=- 11.2s
+  [37/228] bpe300         ka_letters_homophonic          ans=0 conf=0.000 acc=- 11.2s
+  [38/228] bpe300         ka_letters_homophonic          ans=0 conf=0.000 acc=- 11.2s
+  [39/228] bpe300         ka_letters_homophonic          ans=0 conf=0.000 acc=- 11.2s
+  [40/228] bpe300         ka_syllables                   ans=0 conf=0.000 acc=- 11.1s
+  [41/228] bpe300         ka_syllables                   ans=0 conf=0.000 acc=- 11.1s
+  [42/228] bpe300         ka_syllables                   ans=0 conf=0.000 acc=- 11.3s
+  [43/228] bpe300         naibbe_exact                   ans=0 conf=0.000 acc=- 11.2s
+  [44/228] bpe300         naibbe_exact                   ans=0 conf=0.000 acc=- 12.3s
+  [45/228] bpe300         naibbe_exact                   ans=0 conf=0.000 acc=- 12.4s
+  [46/228] bpe300@w750    decoy_markov3_voynich_units    ans=0 conf=0.000 acc=- 19.1s
+  [47/228] bpe300@w750    decoy_rugg_grille              ans=0 conf=0.000 acc=- 13.2s
+  [48/228] bpe300@w750    decoy_self_citation            ans=0 conf=0.002 acc=- 18.5s
+  [49/228] bpe300@w750    ka_letters_homophonic          ans=0 conf=0.000 acc=- 19.9s
+  [50/228] bpe300@w750    ka_letters_homophonic          ans=0 conf=0.000 acc=- 19.9s
+  [51/228] bpe300@w750    ka_letters_homophonic          ans=0 conf=0.001 acc=- 20.1s
+  [52/228] bpe300@w750    ka_letters_homophonic          ans=0 conf=0.000 acc=- 20.1s
+  [53/228] bpe300@w750    ka_syllables                   ans=0 conf=0.000 acc=- 19.2s
+  [54/228] bpe300@w750    naibbe_exact                   ans=0 conf=0.000 acc=- 19.1s
+  [55/228] bpe40          decoy_markov3_voynich_units    ans=0 conf=0.565 acc=- 12.1s
+  [56/228] bpe40          decoy_markov3_voynich_units    ans=0 conf=0.482 acc=- 10.7s
+  [57/228] bpe40          decoy_rugg_grille              ans=0 conf=0.089 acc=- 17.4s
+  [58/228] bpe40          decoy_rugg_grille              ans=0 conf=0.198 acc=- 17.6s
+  [59/228] bpe40          decoy_self_citation            ans=0 conf=0.155 acc=- 16.3s
+  [60/228] bpe40          ka_letters_homophonic          ans=1 conf=0.972 acc=0.9988 20.6s
+  [61/228] bpe40          decoy_self_citation            ans=0 conf=0.667 acc=- 31.1s
+  [62/228] bpe40          ka_letters_homophonic          ans=0 conf=0.055 acc=- 10.9s
+  [63/228] bpe40          ka_letters_homophonic          ans=1 conf=0.986 acc=0.9791 31.7s
+  [64/228] bpe40          ka_letters_homophonic          ans=0 conf=0.006 acc=- 14.6s
+  [65/228] bpe40          ka_letters_homophonic          ans=0 conf=0.068 acc=- 15.5s
+  [66/228] bpe40          ka_syllables                   ans=0 conf=0.000 acc=- 14.6s
+  [67/228] bpe40          ka_syllables                   ans=0 conf=0.000 acc=- 13.7s
+  [68/228] bpe40          ka_letters_mono                ans=1 conf=0.998 acc=0.9975 34.6s
+  [69/228] bpe40          ka_syllables                   ans=0 conf=0.000 acc=- 14.5s
+  [70/228] bpe40          naibbe_exact                   ans=0 conf=0.158 acc=- 16.8s
+  [71/228] bpe40          naibbe_exact                   ans=0 conf=0.226 acc=- 13.5s
+  [72/228] bpe40          naibbe_exact                   ans=0 conf=0.198 acc=- 26.0s
+  [73/228] bpe80          decoy_markov3_voynich_units    ans=0 conf=0.015 acc=- 11.5s
+  [74/228] bpe80          decoy_markov3_voynich_units    ans=0 conf=0.018 acc=- 11.4s
+  [75/228] bpe80          decoy_rugg_grille              ans=0 conf=0.044 acc=- 11.2s
+  [76/228] bpe80          decoy_rugg_grille              ans=0 conf=0.032 acc=- 11.2s
+  [77/228] bpe80          ka_letters_homophonic          ans=0 conf=0.054 acc=- 5.8s
+  [78/228] bpe80          decoy_self_citation            ans=0 conf=0.187 acc=- 16.8s
+  [79/228] bpe80          decoy_self_citation            ans=0 conf=0.042 acc=- 17.1s
+  [80/228] bpe80          ka_letters_homophonic          ans=0 conf=0.080 acc=- 5.8s
+  [81/228] bpe80          ka_letters_homophonic          ans=0 conf=0.608 acc=- 5.8s
+  [82/228] bpe80          ka_letters_homophonic          ans=1 conf=0.933 acc=0.9888 16.6s
+  [83/228] bpe80          ka_letters_homophonic          ans=1 conf=0.979 acc=1.0 16.5s
+  [84/228] bpe80          ka_letters_homophonic          ans=1 conf=0.823 acc=0.9865 16.6s
+  [85/228] bpe80          ka_syllables                   ans=0 conf=0.000 acc=- 11.7s
+  [86/228] bpe80          ka_syllables                   ans=0 conf=0.000 acc=- 11.2s
+  [87/228] bpe80          ka_syllables                   ans=0 conf=0.000 acc=- 11.6s
+  [88/228] bpe80          naibbe_exact                   ans=0 conf=0.009 acc=- 11.5s
+  [89/228] bpe80          naibbe_exact                   ans=0 conf=0.008 acc=- 11.8s
+  [90/228] bpe80          naibbe_exact                   ans=0 conf=0.023 acc=- 17.4s
+  [91/228] bpe80@w750     decoy_rugg_grille              ans=0 conf=0.290 acc=- 14.4s
+  [92/228] bpe80@w750     decoy_markov3_voynich_units    ans=0 conf=0.058 acc=- 19.9s
+  [93/228] bpe80@w750     decoy_self_citation            ans=0 conf=0.222 acc=- 19.1s
+  [94/228] bpe80@w750     ka_letters_homophonic          ans=1 conf=0.988 acc=0.9939 29.9s
+  [95/228] bpe80@w750     ka_letters_homophonic          ans=1 conf=0.993 acc=0.9877 29.3s
+  [96/228] bpe80@w750     ka_letters_homophonic          ans=1 conf=0.997 acc=0.9929 29.6s
+  [97/228] bpe80@w750     ka_syllables                   ans=0 conf=0.000 acc=- 21.0s
+  [98/228] bpe80@w750     naibbe_exact                   ans=0 conf=0.034 acc=- 20.5s
+  [99/228] bpe80@w750     ka_letters_homophonic          ans=1 conf=0.996 acc=0.9995 29.3s
+  [100/228] collapsed      decoy_markov3_voynich_units    ans=0 conf=0.435 acc=- 4.4s
+  [101/228] collapsed      decoy_markov3_voynich_units    ans=0 conf=0.541 acc=- 9.2s
+  [102/228] collapsed      decoy_self_citation            ans=0 conf=0.583 acc=- 4.0s
+  [103/228] collapsed      decoy_rugg_grille              ans=0 conf=0.086 acc=- 9.0s
+  [104/228] collapsed      decoy_rugg_grille              ans=0 conf=0.226 acc=- 9.1s
+  [105/228] collapsed      decoy_self_citation            ans=0 conf=0.208 acc=- 4.6s
+  [106/228] collapsed      ka_letters_homophonic          ans=0 conf=0.038 acc=- 13.2s
+  [107/228] collapsed      ka_letters_mono                ans=1 conf=0.991 acc=1.0 24.8s
+  [108/228] collapsed      ka_letters_mono                ans=1 conf=0.990 acc=0.998 14.8s
+  [109/228] collapsed      ka_letters_mono                ans=1 conf=0.998 acc=1.0 26.2s
+  [110/228] collapsed      ka_letters_mono                ans=1 conf=0.999 acc=0.997 15.4s
+  [111/228] collapsed      ka_letters_mono                ans=1 conf=1.000 acc=1.0 14.9s
+  [112/228] collapsed      ka_syllables                   ans=0 conf=0.000 acc=- 16.0s
+  [113/228] collapsed      ka_syllables                   ans=0 conf=0.000 acc=- 15.6s
+  [114/228] collapsed      ka_syllables                   ans=0 conf=0.000 acc=- 15.4s
+  [115/228] collapsed      naibbe_exact                   ans=1 conf=0.683 acc=0.0 18.2s
+  [116/228] collapsed      naibbe_exact                   ans=0 conf=0.167 acc=- 9.0s
+  [117/228] collapsed      naibbe_exact                   ans=0 conf=0.588 acc=- 8.7s
+  [118/228] erased_bpe80   decoy_markov3_voynich_units    ans=0 conf=0.008 acc=- 12.5s
+  [119/228] erased_bpe80   decoy_markov3_voynich_units    ans=0 conf=0.004 acc=- 12.1s
+  [120/228] erased_bpe80   decoy_rugg_grille              ans=0 conf=0.019 acc=- 12.4s
+  [121/228] erased_bpe80   decoy_rugg_grille              ans=0 conf=0.027 acc=- 12.2s
+  [122/228] erased_bpe80   decoy_self_citation            ans=0 conf=0.078 acc=- 12.8s
+  [123/228] erased_bpe80   decoy_self_citation            ans=0 conf=0.049 acc=- 12.9s
+  [124/228] erased_bpe80   ka_letters_homophonic          ans=0 conf=0.021 acc=- 12.0s
+  [125/228] erased_bpe80   ka_letters_homophonic          ans=0 conf=0.003 acc=- 12.1s
+  [126/228] erased_bpe80   ka_letters_homophonic          ans=0 conf=0.002 acc=- 12.1s
+  [127/228] erased_bpe80   ka_letters_homophonic          ans=0 conf=0.007 acc=- 12.0s
+  [128/228] erased_bpe80   ka_letters_homophonic          ans=0 conf=0.016 acc=- 12.2s
+  [129/228] erased_bpe80   ka_letters_homophonic          ans=0 conf=0.020 acc=- 12.2s
+  [130/228] erased_bpe80   ka_syllables                   ans=0 conf=0.000 acc=- 13.3s
+  [131/228] erased_bpe80   ka_syllables                   ans=0 conf=0.000 acc=- 16.6s
+  [132/228] erased_bpe80   ka_syllables                   ans=0 conf=0.000 acc=- 15.0s
+  [133/228] erased_bpe80   naibbe_exact                   ans=0 conf=0.005 acc=- 12.3s
+  [134/228] erased_bpe80   naibbe_exact                   ans=0 conf=0.005 acc=- 12.2s
+  [135/228] erased_bpe80   naibbe_exact                   ans=0 conf=0.003 acc=- 12.3s
+  [136/228] raw            decoy_markov3_voynich_units    ans=0 conf=0.395 acc=- 8.4s
+  [137/228] raw            decoy_markov3_voynich_units    ans=0 conf=0.212 acc=- 13.6s
+  [138/228] raw            decoy_rugg_grille              ans=0 conf=0.145 acc=- 14.0s
+  [139/228] raw            decoy_rugg_grille              ans=0 conf=0.014 acc=- 13.9s
+  [140/228] raw            decoy_self_citation            ans=0 conf=0.012 acc=- 9.5s
+  [141/228] raw            decoy_self_citation            ans=0 conf=0.125 acc=- 14.2s
+  [142/228] raw            ka_letters_mono                ans=1 conf=0.975 acc=0.9851 15.9s
+  [143/228] raw            ka_letters_mono                ans=1 conf=0.999 acc=1.0 20.8s
+  [144/228] raw            ka_letters_mono                ans=1 conf=0.992 acc=0.9935 31.6s
+  [145/228] raw            ka_letters_mono                ans=1 conf=1.000 acc=0.994 20.7s
+  [146/228] raw            ka_letters_mono                ans=1 conf=1.000 acc=0.9992 22.4s
+  [147/228] raw            ka_syllables                   ans=0 conf=0.000 acc=- 16.9s
+  [148/228] raw            ka_letters_mono                ans=1 conf=0.998 acc=0.9992 29.8s
+  [149/228] raw            ka_syllables                   ans=0 conf=0.000 acc=- 16.7s
+  [150/228] raw            ka_syllables                   ans=0 conf=0.000 acc=- 16.5s
+  [151/228] raw            naibbe_exact                   ans=0 conf=0.359 acc=- 15.2s
+  [152/228] raw            naibbe_exact                   ans=0 conf=0.076 acc=- 15.2s
+  [153/228] slot           decoy_markov3_voynich_units    ans=0 conf=0.305 acc=- 9.1s
+  [154/228] slot           decoy_markov3_voynich_units    ans=0 conf=0.376 acc=- 8.9s
+  [155/228] raw            naibbe_exact                   ans=0 conf=0.202 acc=- 13.8s
+  [156/228] slot           decoy_self_citation            ans=0 conf=0.382 acc=- 3.8s
+  [157/228] slot           decoy_rugg_grille              ans=0 conf=0.148 acc=- 8.8s
+  [158/228] slot           decoy_self_citation            ans=0 conf=0.283 acc=- 3.8s
+  [159/228] slot           decoy_rugg_grille              ans=0 conf=0.128 acc=- 9.0s
+  [160/228] slot           ka_letters_homophonic          ans=0 conf=0.069 acc=- 12.2s
+  [161/228] slot           ka_letters_mono                ans=1 conf=0.997 acc=1.0 20.1s
+  [162/228] slot           ka_letters_mono                ans=1 conf=0.997 acc=1.0 21.5s
+  [163/228] slot           ka_letters_mono                ans=1 conf=0.969 acc=1.0 39.1s
+  [164/228] slot           ka_letters_mono                ans=1 conf=0.998 acc=0.9933 23.0s
+  [165/228] slot           ka_letters_mono                ans=1 conf=1.000 acc=0.9943 15.3s
+  [166/228] slot           ka_syllables                   ans=0 conf=0.000 acc=- 15.7s
+  [167/228] slot           ka_syllables                   ans=0 conf=0.000 acc=- 15.6s
+  [168/228] slot           ka_syllables                   ans=0 conf=0.000 acc=- 16.0s
+  [169/228] slot           naibbe_exact                   ans=0 conf=0.365 acc=- 10.1s
+  [170/228] slot           naibbe_exact                   ans=0 conf=0.277 acc=- 9.8s
+  [171/228] slot           naibbe_exact                   ans=0 conf=0.515 acc=- 8.9s
+  [172/228] bpe150         voynich                        ans=0 conf=0.000 acc=- 11.3s
+  [173/228] bpe150         voynich                        ans=0 conf=0.001 acc=- 10.9s
+  [174/228] bpe150         voynich                        ans=0 conf=0.001 acc=- 11.1s
+  [175/228] bpe150         voynich                        ans=0 conf=0.002 acc=- 10.9s
+  [176/228] bpe150         voynich                        ans=0 conf=0.001 acc=- 11.7s
+  [177/228] bpe150         voynich                        ans=0 conf=0.000 acc=- 12.3s
+  [178/228] bpe150@w750    voynich                        ans=0 conf=0.003 acc=- 19.2s
+  [179/228] bpe150@w750    voynich                        ans=0 conf=0.004 acc=- 18.2s
+  [180/228] bpe150@w750    voynich                        ans=0 conf=0.001 acc=- 19.5s
+  [181/228] bpe300         voynich                        ans=0 conf=0.000 acc=- 12.2s
+  [182/228] bpe300         voynich                        ans=0 conf=0.000 acc=- 11.3s
+  [183/228] bpe300         voynich                        ans=0 conf=0.000 acc=- 11.0s
+  [184/228] bpe300         voynich                        ans=0 conf=0.000 acc=- 10.8s
+  [185/228] bpe300         voynich                        ans=0 conf=0.000 acc=- 11.3s
+  [186/228] bpe300         voynich                        ans=0 conf=0.000 acc=- 12.2s
+  [187/228] bpe300@w750    voynich                        ans=0 conf=0.000 acc=- 18.8s
+  [188/228] bpe300@w750    voynich                        ans=0 conf=0.000 acc=- 17.9s
+  [189/228] bpe300@w750    voynich                        ans=0 conf=0.000 acc=- 19.1s
+  [190/228] bpe40          voynich                        ans=0 conf=0.513 acc=- 12.4s
+  [191/228] bpe40          voynich                        ans=1 conf=0.725 acc=- 14.7s
+  [192/228] bpe40          voynich                        ans=0 conf=0.272 acc=- 15.6s
+  [193/228] bpe40          voynich                        ans=0 conf=0.914 acc=- 33.0s
+  [194/228] bpe40          voynich                        ans=0 conf=0.475 acc=- 11.4s
+  [195/228] bpe80          voynich                        ans=0 conf=0.042 acc=- 10.9s
+  [196/228] bpe80          voynich                        ans=0 conf=0.006 acc=- 17.0s
+  [197/228] bpe40          voynich                        ans=0 conf=0.662 acc=- 30.4s
+  [198/228] bpe80          voynich                        ans=0 conf=0.011 acc=- 11.3s
+  [199/228] bpe80          voynich                        ans=0 conf=0.023 acc=- 11.2s
+  [200/228] bpe80          voynich                        ans=0 conf=0.051 acc=- 16.8s
+  [201/228] bpe80          voynich                        ans=0 conf=0.006 acc=- 12.3s
+  [202/228] bpe80@w750     voynich                        ans=0 conf=0.047 acc=- 19.6s
+  [203/228] bpe80@w750     voynich                        ans=0 conf=0.223 acc=- 18.1s
+  [204/228] bpe80@w750     voynich                        ans=0 conf=0.046 acc=- 20.0s
+  [205/228] collapsed      voynich                        ans=0 conf=0.334 acc=- 10.8s
+  [206/228] collapsed      voynich                        ans=0 conf=0.265 acc=- 9.5s
+  [207/228] collapsed      voynich                        ans=0 conf=0.573 acc=- 3.8s
+  [208/228] collapsed      voynich                        ans=0 conf=0.445 acc=- 9.2s
+  [209/228] collapsed      voynich                        ans=0 conf=0.531 acc=- 4.1s
+  [210/228] erased_bpe80   voynich                        ans=0 conf=0.006 acc=- 12.0s
+  [211/228] collapsed      voynich                        ans=1 conf=0.651 acc=- 20.1s
+  [212/228] erased_bpe80   voynich                        ans=0 conf=0.013 acc=- 11.9s
+  [213/228] erased_bpe80   voynich                        ans=0 conf=0.020 acc=- 12.1s
+  [214/228] erased_bpe80   voynich                        ans=0 conf=0.013 acc=- 11.8s
+  [215/228] erased_bpe80   voynich                        ans=0 conf=0.013 acc=- 11.7s
+  [216/228] raw            voynich                        ans=0 conf=0.333 acc=- 8.5s
+  [217/228] raw            voynich                        ans=0 conf=0.300 acc=- 9.3s
+  [218/228] erased_bpe80   voynich                        ans=0 conf=0.010 acc=- 12.0s
+  [219/228] raw            voynich                        ans=0 conf=0.119 acc=- 9.6s
+  [220/228] raw            voynich                        ans=0 conf=0.351 acc=- 4.0s
+  [221/228] raw            voynich                        ans=0 conf=0.250 acc=- 13.3s
+  [222/228] raw            voynich                        ans=0 conf=0.132 acc=- 14.5s
+  [223/228] slot           voynich                        ans=0 conf=0.304 acc=- 4.0s
+  [224/228] slot           voynich                        ans=0 conf=0.406 acc=- 9.0s
+  [225/228] slot           voynich                        ans=0 conf=0.227 acc=- 9.5s
+  [226/228] slot           voynich                        ans=0 conf=0.541 acc=- 3.6s
+  [227/228] slot           voynich                        ans=0 conf=0.502 acc=- 4.0s
+  [228/228] slot           voynich                        ans=0 conf=0.436 acc=- 7.9s
+written /Users/arhampartapjain/voynich-ai-cryptolinguist/experiments/results/e012.json
