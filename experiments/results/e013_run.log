@@ -1,0 +1,22 @@
+DEV blocks 14; edge_excess mean 0.201 sd 0.064; floors {'fit': {'median': 1.0014431932240802, 'p90': 1.3671667371269303}, 'held': {'median': 0.9823787473255494, 'p90': 1.1177323257229042}}
+  search naibbe_edge        la   best 0.768 median 1.44 (300 evals, 16.7 s)
+  search rugg_edge          None best 1.038 median 2.35 (900 evals, 21.5 s)
+  search naibbe_edge        it   best 0.762 median 1.35 (300 evals, 15.3 s)
+  search self_citation_edge None best 1.947 median 3.35 (900 evals, 38.9 s)
+  search naibbe_edge        fr   best 0.743 median 1.27 (300 evals, 17.5 s)
+  search naibbe_edge        de   best 0.826 median 1.42 (300 evals, 17.6 s)
+naibbe_edge        la   fit 0.99 (none 1.89) held 1.88 edge z -0.02 effects {'sandhi': 0.698, 'respacing': 0.175, 'line_end': 0.149}
+rugg_edge          None fit 1.47 (none 1.81) held 3.37 edge z 2.05 effects {'sandhi': 0.404, 'respacing': -0.07, 'line_end': 0.044}
+naibbe_edge        it   fit 1.02 (none 1.79) held 1.55 edge z 0.4 effects {'sandhi': 0.656, 'respacing': -0.012, 'line_end': 0.119}
+self_citation_edge None fit 2.86 (none 2.98) held 5.49 edge z 0.64 effects {'sandhi': 0.406, 'respacing': -0.058, 'line_end': 0.127}
+naibbe_edge        fr   fit 0.96 (none 1.82) held 1.58 edge z -0.03 effects {'sandhi': 0.626, 'respacing': 0.195, 'line_end': 0.127}
+naibbe_edge        de   fit 0.94 (none 1.82) held 1.70 edge z 0.14 effects {'sandhi': 0.542, 'respacing': 0.276, 'line_end': 0.171}
+TWINS: ['naibbe_edge/la', 'naibbe_edge/it', 'naibbe_edge/fr', 'naibbe_edge/de']; identifiability: MEANINGFUL FAVOURED
+{
+ "best_meaningful": "naibbe_edge/de",
+ "best_meaningless": "rugg_edge",
+ "held_meaningful": 1.7043170627243154,
+ "held_meaningless": 3.36626300883703,
+ "mannwhitney_p": 6.795615128173357e-08,
+ "verdict": "MEANINGFUL FAVOURED"
+}
