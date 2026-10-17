@@ -1,0 +1,22 @@
+DEV blocks 14; edge_excess mean 0.201 sd 0.064; floors {'fit': {'median': 0.9895020679854301, 'p90': 1.3964339638703418}, 'held': {'median': 0.9866530347693249, 'p90': 1.1124711420002282}}
+  search naibbe_rep         la   best 0.809 median 1.36 (300 evals, 18.5 s)
+  search rugg_rep           None best 1.091 median 3.61 (900 evals, 23.3 s)
+  search naibbe_rep         it   best 0.722 median 1.49 (300 evals, 18.0 s)
+  search naibbe_rep         fr   best 0.779 median 1.58 (300 evals, 14.8 s)
+  search self_citation_rep  None best 2.224 median 4.51 (900 evals, 45.3 s)
+  search naibbe_rep         de   best 0.654 median 1.47 (300 evals, 18.2 s)
+naibbe_rep         la   fit 1.13 (none 2.07) held 0.92 edge z 0.04 adj z 2.26 effects {'nulls': 0.319, 'ditto': 0.125, 'memory': -0.009, 'sandhi': 0.487}
+rugg_rep           None fit 1.45 (none 2.10) held 2.20 edge z 0.66 adj z 0.94 effects {'nulls': 0.204, 'ditto': 0.149, 'sandhi': 0.495}
+naibbe_rep         it   fit 0.93 (none 1.93) held 0.96 edge z 0.51 adj z 0.92 effects {'nulls': 0.059, 'ditto': 0.057, 'memory': 0.145, 'sandhi': 0.543}
+naibbe_rep         fr   fit 1.07 (none 2.01) held 0.68 edge z -0.55 adj z 1.07 effects {'nulls': 0.151, 'ditto': 0.128, 'memory': -0.009, 'sandhi': 0.495}
+self_citation_rep  None fit 3.71 (none 3.46) held 9.43 edge z 2.41 adj z 2.41 effects {'nulls': -0.136, 'ditto': -0.316, 'sandhi': 0.005}
+naibbe_rep         de   fit 0.93 (none 1.98) held 0.77 edge z -0.12 adj z 0.66 effects {'nulls': 0.367, 'ditto': -0.045, 'memory': 0.099, 'sandhi': 0.492}
+TWINS: ['naibbe_rep/la', 'naibbe_rep/it', 'naibbe_rep/fr', 'naibbe_rep/de']; identifiability: MEANINGFUL FAVOURED
+{
+ "best_meaningful": "naibbe_rep/de",
+ "best_meaningless": "rugg_rep",
+ "held_meaningful": 0.7669596802008709,
+ "held_meaningless": 2.20168044810637,
+ "mannwhitney_p": 6.795615128173357e-08,
+ "verdict": "MEANINGFUL FAVOURED"
+}
