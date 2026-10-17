@@ -1,0 +1,252 @@
+Voynich DEV blocks 14; floors {'fit': {'median': 0.99383813825664, 'p90': 1.2885522550163933}, 'held': {'median': 0.9666472071095624, 'p90': 1.215710826470269}, 'all': {'median': 0.9825624263534803, 'p90': 1.2980115159701933}}; width (49.73135642982971, 18.195900042907734); A/B fit 1.43 held 1.20
+plaintext chunks: {'la/tune': 13, 'la/ref': 18, 'it/tune': 64, 'it/ref': 13, 'de/tune': 62, 'de/ref': 30, 'enm/tune': 32, 'enm/ref': 2, 'fr/tune': 52, 'fr/ref': 43, 'es/tune': 36, 'es/ref': 39, 'cs/tune': 34, 'cs/ref': 7, 'he/tune': 31, 'he/ref': 28}
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: divide by zero encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: overflow encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: invalid value encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: divide by zero encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: overflow encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: invalid value encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: divide by zero encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: overflow encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: invalid value encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: divide by zero encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: overflow encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: invalid value encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: divide by zero encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: overflow encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: invalid value encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: divide by zero encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: overflow encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: invalid value encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: divide by zero encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: overflow encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: invalid value encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: divide by zero encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: overflow encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: invalid value encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: divide by zero encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: overflow encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: invalid value encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: divide by zero encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: overflow encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: invalid value encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: divide by zero encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: overflow encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: invalid value encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: divide by zero encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: overflow encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: invalid value encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+{
+ "floors": {
+  "fit": {
+   "median": 0.99383813825664,
+   "p90": 1.2885522550163933
+  },
+  "held": {
+   "median": 0.9666472071095624,
+   "p90": 1.215710826470269
+  },
+  "all": {
+   "median": 0.9825624263534803,
+   "p90": 1.2980115159701933
+  }
+ },
+ "ident": {
+  "best_meaningful": "naibbe/it",
+  "best_meaningless": "rugg_grille",
+  "best_meaningful_fit": 2.112,
+  "best_meaningless_fit": 2.432,
+  "best_meaningful_held": 4.235,
+  "best_meaningless_held": 9.768,
+  "mannwhitney_held_p": 6.795615128173357e-08,
+  "pairwise_heldout": {
+   "naibbe/it vs rugg_grille [held]": {
+    "mean_meaningful": 4.235,
+    "mean_meaningless": 9.768,
+    "mannwhitney_p": 6.795615128173357e-08
+   },
+   "naibbe/it vs rugg_grille [held_without_type_hapax]": {
+    "mean_meaningful": 1.806,
+    "mean_meaningless": 3.868,
+    "mannwhitney_p": 1.657079293385879e-07
+   },
+   "naibbe/it vs self_citation [held]": {
+    "mean_meaningful": 4.235,
+    "mean_meaningless": 5.532,
+    "mannwhitney_p": 0.017938612870324677
+   },
+   "naibbe/it vs self_citation [held_without_type_hapax]": {
+    "mean_meaningful": 1.806,
+    "mean_meaningless": 5.407,
+    "mannwhitney_p": 7.898033666674663e-08
+   }
+  },
+  "best_held_out_combo": "naibbe/la",
+  "ranking_by_fit_distance_best_per_family": [
+   "naibbe/it",
+   "rugg_grille/None",
+   "self_citation/None",
+   "syllabary/cs",
+   "abbreviation/enm"
+  ],
+  "classifier": {
+   "held_out_features": {
+    "auc_pooled_5fold": 1.0,
+    "auc_leave_one_family_out": 0.0,
+    "voynich_blocks_p_meaningful_mean": 1.0,
+    "voynich_blocks_p_meaningful_range": [
+     1.0,
+     1.0
+    ]
+   },
+   "all_features": {
+    "auc_pooled_5fold": 1.0,
+    "auc_leave_one_family_out": 0.0,
+    "voynich_blocks_p_meaningful_mean": 1.0,
+    "voynich_blocks_p_meaningful_range": [
+     1.0,
+     1.0
+    ]
+   }
+  },
+  "classifier_caveat": "pooled AUC measures whether twin families can be told apart from each other; leave-one-family-out AUC measures whether a 'language vs non-language' boundary transfers to an unseen mechanism. If the latter is <= 0.5 the Voynich probability is not interpretable and is not used in the verdict.",
+  "combos_within_fit_p90_floor": [],
+  "verdict": "NO TWIN: none of the five families reaches Voynich's own block-to-block variation on the fit features (best naibbe/it 2.11 vs floor median 0.99, p90 1.29). Identifiability between meaningful and meaningless mechanisms therefore cannot be established or refuted at the level of an exact twin. Held-out comparisons are mixed (see pairwise table); no robust separation."
+ },
+ "best": {
+  "naibbe": [
+   "it",
+   2.112,
+   4.235
+  ],
+  "rugg_grille": [
+   null,
+   2.432,
+   9.768
+  ],
+  "self_citation": [
+   null,
+   2.552,
+   5.532
+  ],
+  "syllabary": [
+   "cs",
+   2.567,
+   5.72
+  ],
+  "abbreviation": [
+   "enm",
+   4.779,
+   6.507
+  ]
+ }
+}
+wall 74.3 s
