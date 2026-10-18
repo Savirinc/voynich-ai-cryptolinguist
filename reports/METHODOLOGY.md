@@ -73,6 +73,8 @@ The goal is therefore: **solve it if it's door 1, prove which door it is if not.
 7. **Independent confirmation:** the locked pages, plus agreement between pictures and text that the attack never
    saw.
 8. Every result, including every NO CLAIM, goes in the ledger and is published.
+9. **Positive control for every meaning test** (added after E022): a test that could find meaning must first be
+   shown to find it in a real text of the same kind, so that a null result can be read.
 
 ## 5. The programme
 

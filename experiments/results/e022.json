@@ -1,0 +1,34 @@
+{
+ "experiment": "e022",
+ "prereg_sha256": "26359c5b6eeee661fcf9326b8d4270b9dea547edea9c9b7ae18c5c2d7d52664c",
+ "codes_file": "data/derived/e022_visual_codes_A.json",
+ "codes_sha256": "b5a9698dca4e1d615c26f80a7109b7f5da023222ceeb22c3fc8aeada07b3172e",
+ "n_pages": 100,
+ "n_vocab": 766,
+ "n_pairs_far": 4441,
+ "primary": {
+  "r": 0.015108227280956133,
+  "p": 0.5463453654634537,
+  "verdict": "NOT DETECTED"
+ },
+ "all_pairs": {
+  "r": 0.016233228257701637,
+  "p": 0.5600439956004399
+ },
+ "currier_A_hand1_far": {
+  "r": 0.007309180659056587,
+  "n_pairs": 2256
+ },
+ "first_word": {
+  "top10_rate": 0.0,
+  "rest_rate": 0.0005104645227156713,
+  "n_top": 523
+ },
+ "strata": {
+  "A1": 72,
+  "B2": 20,
+  "B5": 6,
+  "?3": 1,
+  "B3": 1
+ }
+}

@@ -385,3 +385,5 @@ date,experiment,model,checkpoint_sha256,split,metric,value,command,notes
 2026-10-18,E021,unit_family/compound_drift4,prereg=bcafcf3d78cc,voynich_DEV_persistence,z_PERS_30,-1.15,experiments/e021_persistence.py --workers 3,CONSISTENT
 2026-10-18,E021,unit_family/rugg_rep,prereg=bcafcf3d78cc,voynich_DEV_persistence,z_PERS_30,-26.09,experiments/e021_persistence.py --workers 3,inconsistent
 2026-10-18,E021,unit_family/self_citation_rep,prereg=bcafcf3d78cc,voynich_DEV_persistence,z_PERS_30,4.01,experiments/e021_persistence.py --workers 3,inconsistent
+2026-10-18,E022,plant_visual_vs_text,codes=b5a9698dca4e,voynich_DEV_herbal,spearman_r_far,0.0151,experiments/e022_plant_text_link.py,NOT DETECTED
+2026-10-18,E022,plant_visual_vs_text,codes=b5a9698dca4e,voynich_DEV_herbal,perm_p_far,0.5463,experiments/e022_plant_text_link.py,NOT DETECTED
