@@ -26,3 +26,10 @@ def test_labelled_encoding_parses_back_to_truth_with_the_key():
         p = V.parse_word(w, inv)
         dec.append("".join(rev.get(c, "?") for c in p) if p else "")
     assert V.char_accuracy(dec, labels) > 0.95
+
+
+def test_lexical_coverage():
+    from vcl.solvers.verbose import lexical_coverage
+    voc = {"dominus", "spiritus"}
+    assert lexical_coverage("xxdominusyyspiritus", voc, min_len=7) == 15 / 19
+    assert lexical_coverage("abcdefgh", voc, min_len=7) == 0.0

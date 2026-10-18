@@ -1,0 +1,329 @@
+{
+ "experiment": "e017",
+ "prereg": "reports/E017_PREREG.md",
+ "prereg_sha256": null,
+ "seed": 17017,
+ "command": "experiments/e017_portfolio_known_answer.py --smoke",
+ "iters": 20000,
+ "restarts": 4,
+ "rule": {
+  "agree_min": 0.95,
+  "lex_min": 0.08,
+  "lex_len": 7
+ },
+ "texts": [
+  {
+   "plain_lang": "la",
+   "key": 0,
+   "true_lm_acc": 0.11375,
+   "true_lm_claim": false,
+   "picked_lm": null,
+   "claims": []
+  },
+  {
+   "plain_lang": "it",
+   "key": 0,
+   "true_lm_acc": 0.701525,
+   "true_lm_claim": false,
+   "picked_lm": null,
+   "claims": []
+  }
+ ],
+ "rows": [
+  {
+   "tag": "A",
+   "kind": "real",
+   "plain_lang": "la",
+   "key": 0,
+   "size": 40000,
+   "lm": "it",
+   "char_acc": 0.209475,
+   "agreement": 0.293384744517889,
+   "n_agree": 0,
+   "lexcov7": 0.001154128632882174,
+   "claim": false,
+   "gap": 0.9570177490113925,
+   "agreements_sorted": [
+    0.293,
+    0.22,
+    0.117
+   ],
+   "n_words": 26169,
+   "n_components": 38124,
+   "n_symbols": 401,
+   "n_unparsed": 1232,
+   "preview": "serratnedeieisareiordelincaloertioicassailiealeleaaarelatoiciseirotaleteeteionalananerrodarieiclinitalioraenaseioaalasos",
+   "truth_preview": "cumpatrescilicetfuissesempertestamuranteoriginemsaeculispiritualiterapudpatreminenarrabilitergenitumanteomneprincipiumet",
+   "wall_s": 2
+  },
+  {
+   "tag": "A",
+   "kind": "real",
+   "plain_lang": "la",
+   "key": 0,
+   "size": 40000,
+   "lm": "la",
+   "char_acc": 0.11375,
+   "agreement": 0.39641695519882486,
+   "n_agree": 0,
+   "lexcov7": 0.007054997508458129,
+   "claim": false,
+   "gap": 0.7471879656945255,
+   "agreements_sorted": [
+    0.396,
+    0.374,
+    0.37
+   ],
+   "n_words": 26169,
+   "n_components": 38124,
+   "n_symbols": 401,
+   "n_unparsed": 1232,
+   "preview": "sustasremeteasunatesmestinemionstitiasreteciamesiauureremitiariiresimeouuditiresereresrelestilistiasustinuoregetiaiserir",
+   "truth_preview": "cumpatrescilicetfuissesempertestamuranteoriginemsaeculispiritualiterapudpatreminenarrabilitergenitumanteomneprincipiumet",
+   "wall_s": 2
+  },
+  {
+   "tag": "C",
+   "kind": "shufchar",
+   "plain_lang": "la",
+   "key": 0,
+   "size": 40000,
+   "lm": "la",
+   "char_acc": 0.128975,
+   "agreement": 0.44564534701141,
+   "n_agree": 0,
+   "lexcov7": 0.0029310164346278656,
+   "claim": false,
+   "gap": 0.8446459731194911,
+   "agreements_sorted": [
+    0.446,
+    0.297,
+    0.26
+   ],
+   "n_words": 26277,
+   "n_components": 38212,
+   "n_symbols": 403,
+   "n_unparsed": 1228,
+   "preview": "enaritenccoretiitatsemtenttenitetiitsestcercumerserseratisanenertentatantsaniateresarieresessceliianarcetererenatsemtiie",
+   "truth_preview": "nmeoxierraunlteialcisomxticdadsaptnsodqiumrtpsiisgenomslspeiosiamelmlracimitotnnacsraceoccioqmpnsnqittbprratraeoemeuuiuo",
+   "wall_s": 2
+  },
+  {
+   "tag": "C",
+   "kind": "shufchar",
+   "plain_lang": "la",
+   "key": 0,
+   "size": 40000,
+   "lm": "it",
+   "char_acc": 0.082375,
+   "agreement": 0.40803935936355074,
+   "n_agree": 0,
+   "lexcov7": 0.0007589238982518581,
+   "claim": false,
+   "gap": 0.786387589028462,
+   "agreements_sorted": [
+    0.408,
+    0.053,
+    0.031
+   ],
+   "n_words": 26277,
+   "n_components": 38212,
+   "n_symbols": 403,
+   "n_unparsed": 1228,
+   "preview": "aredoresttolanieiongantasiieniipiiiiteriialpanamterionomitesaronionialanitoriodelpiedcemarovicadiierastodonedorenielttio",
+   "truth_preview": "nmeoxierraunlteialcisomxticdadsaptnsodqiumrtpsiisgenomslspeiosiamelmlracimitotnnacsraceoccioqmpnsnqittbprratraeoemeuuiuo",
+   "wall_s": 2
+  },
+  {
+   "tag": "A",
+   "kind": "real",
+   "plain_lang": "it",
+   "key": 0,
+   "size": 40000,
+   "lm": "la",
+   "char_acc": 0.098975,
+   "agreement": 0.5053667497703713,
+   "n_agree": 0,
+   "lexcov7": 0.005037386855568674,
+   "claim": false,
+   "gap": 0.6858029436674462,
+   "agreements_sorted": [
+    0.505,
+    0.275,
+    0.045
+   ],
+   "n_words": 26110,
+   "n_components": 38105,
+   "n_symbols": 384,
+   "n_unparsed": 1266,
+   "preview": "etabiuntitenanorariitaliiserioriamsiadietiiasansiatitiianaderiisonamtettenenanitcestanticiancereriinesertitittereseretet",
+   "truth_preview": "anchedasoliaquattrocchiusavanodeltuconfidenzialeinpresenzadeiterzisidavanodelleimaquelcaroesimpaticotufacevaditrattointr",
+   "wall_s": 2
+  },
+  {
+   "tag": "A",
+   "kind": "real",
+   "plain_lang": "it",
+   "key": 0,
+   "size": 40000,
+   "lm": "it",
+   "char_acc": 0.701525,
+   "agreement": 0.13638630101036608,
+   "n_agree": 0,
+   "lexcov7": 0.022359270436950532,
+   "claim": false,
+   "gap": 0.6753772053304052,
+   "agreements_sorted": [
+    0.136,
+    0.132,
+    0.126
+   ],
+   "n_words": 26110,
+   "n_components": 38105,
+   "n_symbols": 384,
+   "n_unparsed": 1266,
+   "preview": "anciedanolaasuattroosccianodelticoientialainbralontedeitertisidotanodelleimasuelcarrpacicotucoceveditrattorettocabolinon",
+   "truth_preview": "anchedasoliaquattrocchiusavanodeltuconfidenzialeinpresenzadeiterzisidavanodelleimaquelcaroesimpaticotufacevaditrattointr",
+   "wall_s": 2
+  },
+  {
+   "tag": "B",
+   "kind": "real",
+   "plain_lang": "la",
+   "key": 0,
+   "size": 10000,
+   "lm": "la",
+   "char_acc": 0.1745,
+   "agreement": 0.37165437302423604,
+   "n_agree": 0,
+   "lexcov7": 0.005900948366701791,
+   "claim": false,
+   "gap": 0.6736533783297709,
+   "agreements_sorted": [
+    0.372,
+    0.231,
+    0.074
+   ],
+   "n_words": 6497,
+   "n_components": 9490,
+   "n_symbols": 377,
+   "n_unparsed": 320,
+   "preview": "sitpesisecerisittetseretutistateditinetedianareiemutatetiatuustianteuratinamunamcanasperertenitecantiianetitanetieanaxio",
+   "truth_preview": "cumpatrescilicetfuissesempertestamuranteoriginemsaeculispiritualiterapudpatreminenarrabilitergenitumanteomneprincipiumet",
+   "wall_s": 1
+  },
+  {
+   "tag": "C",
+   "kind": "rugg",
+   "plain_lang": null,
+   "key": 0,
+   "size": 40000,
+   "lm": "la",
+   "char_acc": null,
+   "agreement": 0.21252755326965467,
+   "n_agree": 0,
+   "lexcov7": 0.009781410727406318,
+   "claim": false,
+   "gap": 0.5065300285996335,
+   "agreements_sorted": [
+    0.213,
+    0.166,
+    0.11
+   ],
+   "n_words": 28088,
+   "n_components": 21776,
+   "n_symbols": 278,
+   "n_unparsed": 16566,
+   "preview": "amamametiraditsatemitacononeneratisesematirisetsisatonendishospirenenamenasevevatinesemeruspiaticaseneratusineretitenale",
+   "truth_preview": null,
+   "wall_s": 2
+  },
+  {
+   "tag": "C",
+   "kind": "rugg",
+   "plain_lang": null,
+   "key": 0,
+   "size": 40000,
+   "lm": "it",
+   "char_acc": null,
+   "agreement": 0.19943975018368845,
+   "n_agree": 0,
+   "lexcov7": 0.0036737692872887582,
+   "claim": false,
+   "gap": 0.48153054795702177,
+   "agreements_sorted": [
+    0.199,
+    0.197,
+    0.014
+   ],
+   "n_words": 28088,
+   "n_components": 21776,
+   "n_symbols": 278,
+   "n_unparsed": 16566,
+   "preview": "atatatiritedintereteremasecomolericocoterilinoniicerasanitoiinfiledaratodecememeridecotinoloieratanolitesanalolanesidedo",
+   "truth_preview": null,
+   "wall_s": 2
+  },
+  {
+   "tag": "B",
+   "kind": "real",
+   "plain_lang": "it",
+   "key": 0,
+   "size": 10000,
+   "lm": "it",
+   "char_acc": 0.1086,
+   "agreement": 0.14154103852596314,
+   "n_agree": 0,
+   "lexcov7": 0.00157035175879397,
+   "claim": false,
+   "gap": 0.67248400591019,
+   "agreements_sorted": [
+    0.142,
+    0.074,
+    0.069
+   ],
+   "n_words": 6575,
+   "n_components": 9552,
+   "n_symbols": 377,
+   "n_unparsed": 304,
+   "preview": "acirialteeolaniconeenasididieriundreciareociiacantiararebiiaragelialatembecielalorpeaedonoscetriteeroerinianenartiientii",
+   "truth_preview": "anchedasoliaquattrocchiusavanodeltuconfidenzialeinpresenzadeiterzisidavanodelleimaquelcaroesimpaticotufacevaditrattointr",
+   "wall_s": 1
+  }
+ ],
+ "crackable": {
+  "n_cracked": 0,
+  "n": 2,
+  "verdict": "NOT CRACKABLE"
+ },
+ "safe": {
+  "control_claims": 0,
+  "n_controls": 4,
+  "wrong_decode_claims": 0,
+  "verdict": "SAFE"
+ },
+ "language_id": {
+  "n_correct": 0,
+  "n": 2,
+  "verdict": "NOT IDENTIFIED"
+ },
+ "margins": {
+  "max_control_agreement": 0.44564534701141,
+  "max_control_lexcov7": 0.009781410727406318,
+  "min_success_agreement": null,
+  "min_success_lexcov7": null,
+  "successes_claimed": 0,
+  "n_successes": 0
+ },
+ "quarter_size": {
+  "n_cracked": 0,
+  "n_claimed": 0,
+  "n": 2,
+  "accs": [
+   0.174,
+   0.109
+  ]
+ },
+ "wall_s": 8,
+ "step3": "NO GO"
+}

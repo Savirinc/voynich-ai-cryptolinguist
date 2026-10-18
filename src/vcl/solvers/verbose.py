@@ -155,3 +155,58 @@ def char_accuracy(decoded_words: list[str], labels: list[str]) -> float:
     tot = sum(len(l) for l in labels)
     ok = sum(sum(a == b for a, b in zip(d, l)) for d, l in zip(decoded_words, labels) if l)
     return ok / tot if tot else 0.0
+
+
+def attack_portfolio(words: list[str], lm: CharLM, iters: int = 100_000, restarts: int = 128, seed: int = 0,
+                     agree_min: float = 0.9) -> dict:
+    """E017 attack: many SHORT independent restarts with the delta scorer (vcl.solvers.fast_anneal).
+
+    Development on non-test keys showed success is a rare early-basin event: 100k-iteration restarts succeed more
+    often than 2M-iteration ones, so the budget goes into restarts. Confidence signal: `agreement` = the largest
+    fraction of components decoded identically by the best restart and any OTHER restart (independent restarts
+    that reach the same plaintext). `n_agree` = restarts whose decode agrees with the best one on >= agree_min."""
+    from vcl.solvers.fast_anneal import DeltaScorer, anneal_delta
+    seq, owner, names, bad = components(words)
+    S = len(names) - 1
+    tab = NgramTable(seq)
+    sc = DeltaScorer(tab, lm, seq, S)
+    p = lm.unigram[1:] ** 0.5
+    p = p / p.sum()
+    rng = np.random.default_rng(seed)
+    m0 = freq_init(seq, S, lm, injective=False)
+    t0 = max(1.0, T0_FACTOR * len(seq))
+    runs = []
+    for _ in range(restarts):
+        m, s = anneal_delta(sc, m0, p, iters, rng, t0=t0)
+        runs.append((s, m))
+    runs.sort(key=lambda x: -x[0])
+    best_s, best_m = runs[0]
+    dec_best = best_m[seq]
+    agrees = [float(np.mean(m[seq] == dec_best)) for _, m in runs[1:]]
+    alpha = np.array(lm.alphabet)
+    per_word = defaultdict(str)
+    for o, c in zip(owner, alpha[dec_best]):
+        per_word[o] += c
+    lp = tab.score(best_m, lm) / tab.n_events
+    return {"lang": lm.lang, "per_char": lp, "gap": -lp - lm.typical_H(len(seq)),
+            "objective_per_char": best_s / tab.n_events,
+            "restart_objective": [round(s / tab.n_events, 4) for s, _ in runs],
+            "agreement": max(agrees) if agrees else 0.0, "agreements_sorted": sorted((round(a, 3) for a in agrees),
+                                                                                     reverse=True)[:20], "n_agree": int(sum(a >= agree_min for a in agrees)),
+            "n_components": len(seq), "n_symbols": S, "n_unparsed": bad,
+            "decoded_words": [per_word.get(i, "") for i in range(len(words))],
+            "key": {f"{names[s][0]}:{names[s][1]}": lm.alphabet[int(best_m[s])] for s in range(1, S + 1)}}
+
+
+def lexical_coverage(text: str, vocab, min_len: int = 4, max_len: int = 14) -> float:
+    """Fraction of letters in a no-space `text` covered by dictionary words (length min_len..max_len) under the
+    best segmentation (dynamic programming; uncovered letters allowed). `vocab` is a set of cleaned words."""
+    n = len(text)
+    cov = [0] * (n + 1)
+    for i in range(1, n + 1):
+        best = cov[i - 1]
+        for L in range(min_len, min(max_len, i) + 1):
+            if text[i - L:i] in vocab and cov[i - L] + L > best:
+                best = cov[i - L] + L
+        cov[i] = best
+    return cov[n] / n if n else 0.0

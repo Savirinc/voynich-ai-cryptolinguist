@@ -335,3 +335,8 @@ date,experiment,model,checkpoint_sha256,split,metric,value,command,notes
 2026-10-17,E016,verbose_homophonic_attack,prereg=d890d133c4e9,synthetic_known_answer,language_id_correct_of_8,4,experiments/e016_verbose_known_answer.py --workers 3,NOT IDENTIFIED
 2026-10-17,E016,verbose_homophonic_attack,prereg=d890d133c4e9,synthetic_known_answer,control_min_gap,0.1998,experiments/e016_verbose_known_answer.py --workers 3,confidence threshold for step 3
 2026-10-17,E016,verbose_homophonic_attack,prereg=d890d133c4e9,synthetic_known_answer,quarter_size_cracked,2,experiments/e016_verbose_known_answer.py --workers 3,10k letters
+2026-10-18,E017,verbose_portfolio_attack,prereg=b7315b56b3e9,synthetic_known_answer,n_cracked_of_8,8,experiments/e017_portfolio_known_answer.py --workers 3,CRACKABLE
+2026-10-18,E017,verbose_portfolio_attack,prereg=b7315b56b3e9,synthetic_known_answer,false_claims,0,experiments/e017_portfolio_known_answer.py --workers 3,SAFE
+2026-10-18,E017,verbose_portfolio_attack,prereg=b7315b56b3e9,synthetic_known_answer,language_id_correct_of_8,8,experiments/e017_portfolio_known_answer.py --workers 3,IDENTIFIED
+2026-10-18,E017,verbose_portfolio_attack,prereg=b7315b56b3e9,synthetic_known_answer,quarter_size_cracked,8,experiments/e017_portfolio_known_answer.py --workers 3,10k letters
+2026-10-18,E017,verbose_portfolio_attack,prereg=b7315b56b3e9,synthetic_known_answer,step3,1,experiments/e017_portfolio_known_answer.py --workers 3,GO
