@@ -395,3 +395,5 @@ date,experiment,model,checkpoint_sha256,split,metric,value,command,notes
 2026-10-18,E024,segmentation/S2,prereg=53a37b5db8dd,voynich_DEV,h2,2.3685,experiments/e024_atoms.py,outside
 2026-10-18,E024,segmentation/S3,prereg=53a37b5db8dd,voynich_DEV,h1,4.0222,experiments/e024_atoms.py,outside
 2026-10-18,E024,segmentation/S3,prereg=53a37b5db8dd,voynich_DEV,h2,2.4836,experiments/e024_atoms.py,outside
+2026-10-18,E023,plant_visual_vs_text/culpeper,codes=0f4e4cf166c8,positive_control_herbal,spearman_r_far,-0.0122,experiments/e023_herbal_power_check.py,NO POWER
+2026-10-18,E023,plant_visual_vs_text/culpeper,codes=0f4e4cf166c8,positive_control_herbal,perm_p_far,0.6769,experiments/e023_herbal_power_check.py,NO POWER

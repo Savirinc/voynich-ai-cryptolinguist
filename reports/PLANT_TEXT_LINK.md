@@ -27,3 +27,7 @@ No sign that page text tracks what the drawn plant looks like. That doesn't prov
 - Coarse, single-coder visual coding: most plants share the common values (branched root, several flowers,
   green leaves).
 - Voynich herbal pages almost never share their first word: 1 shared first word in ~5,000 pairs.
+
+## Update after E023 (power check)
+The same test on a real herbal (Culpeper) also finds nothing (r −0.012, p 0.68). The test has no power for herbal
+text, so the Voynich null is uninformative. Line dropped (see HERBAL_POWER_CHECK.md).

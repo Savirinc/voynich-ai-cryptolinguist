@@ -1,0 +1,18 @@
+{
+ "experiment": "e023",
+ "prereg_sha256": "a80487980e6097e780aa4c6eed73de0925860981fede67e9f10b1cdde4badf69",
+ "codes_sha256": "0f4e4cf166c8ba5e933150e102026839ef3727358cca88463e1f9c8d976b4c6d",
+ "primary_virtues": {
+  "r": -0.012161197645484217,
+  "p": 0.676932306769323,
+  "n_pairs": 4753,
+  "n_vocab": 1123
+ },
+ "with_names": {
+  "r": -0.0035974773653408947,
+  "p": 0.5436456354364564,
+  "n_pairs": 4753,
+  "n_vocab": 1194
+ },
+ "verdict": "NO POWER"
+}
