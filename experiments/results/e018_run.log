@@ -1,0 +1,27 @@
+{'DEV': 28841, 'A': 8806, 'B': 19490} locked leaves excluded: 15
+  DEV lm fr words 28841 unparsed 5821 symbols 400 agree 0.654 (0) lex7 0.002 - (310 s)
+      matiletmemeuileremettnnreasdedesleleresderetdendetsleceletsedeutderedessgelesesedetdetdesreureselereuadeletdes
+  DEV lm la words 28841 unparsed 5821 symbols 400 agree 0.568 (0) lex7 0.005 - (312 s)
+      enisarsatetcsenesenstiiessiumimtulemesiinenteraerstareranterumtiumonumiiesenosorerteriumtulderenumestietemieri
+  DEV lm it words 28841 unparsed 5821 symbols 400 agree 0.508 (0) lex7 0.002 - (312 s)
+      orieelpemoreiasoneriiiioneiedediesamanierasialeantielalestolartialasaleiunalanalaliolialtemioneledonctoradioli
+  A   lm la words 8806 unparsed 2142 symbols 315 agree 0.522 (0) lex7 0.007 - (241 s)
+      entetemsereentterucemierinciitomitisonesonorerseriitparsedemitancearetiarsistenamienierasititumcesiertesusetie
+  A   lm it words 8806 unparsed 2142 symbols 315 agree 0.656 (0) lex7 0.003 - (244 s)
+      erieleliontosiianamalienedteesolesiiorererenonianeesconiosemaloribaleleaniiiiosodioltaneraseseziarianiorarasie
+  DEV lm de words 28841 unparsed 5821 symbols 400 agree 0.686 (0) lex7 0.006 - (295 s)
+      ensielfeneriienenungtiiensdenunzenenendunendereendderanenterertierenertgenenenererderierdenderunenenimerenierg
+  A   lm fr words 8806 unparsed 2142 symbols 315 agree 0.579 (0) lex7 0.001 - (240 s)
+      letreleurenreutledeleslesetusesesentnedelelereuceusesleslemodesesanedeunettstresencasleredesenescesletredelend
+  A   lm de words 8806 unparsed 2142 symbols 315 agree 0.737 (0) lex7 0.009 - (242 s)
+      enierenterdentseramenderechderenertgonenenererterderderseralenenddenendergssienertenseranererandensersenanerte
+  B   lm la words 19490 unparsed 3505 symbols 396 agree 0.591 (0) lex7 0.005 - (267 s)
+      omstantumetesanenansviieniietotiamenonarersontorsesenumerararersittianorioriebaritamiersienorietiiadtasiitsals
+  B   lm it words 19490 unparsed 3505 symbols 396 agree 0.499 (0) lex7 0.002 - (266 s)
+      oliiariamosiiororeritiioriionenmalerurodonionionianarononoderonciieialonioniataneianioneionanioniialeaddiieali
+  B   lm fr words 19490 unparsed 3505 symbols 396 agree 0.544 (0) lex7 0.003 - (271 s)
+      latusetledeuscelasetannlassmeresderedelameareireirereielecaledettisnserenresrodesoseslennledenlensdesdessonnet
+  B   lm de words 19490 unparsed 3505 symbols 396 agree 0.619 (0) lex7 0.005 - (261 s)
+      enttenterergterenuntessencserersenenuneherderiertenarunereherersdidserersersanenfienserssererserssendenasisent
+verdict NO CLAIM
+secondary_claims []
