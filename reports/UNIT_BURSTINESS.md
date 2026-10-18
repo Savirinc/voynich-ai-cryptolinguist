@@ -27,3 +27,9 @@ syllable twins (~1.5–2). Something changes spelling or glyph habits along the 
 section-specific spelling, or a system whose tables change by section. None of the twins modelled such drift. A
 cipher whose tables drift by section was not tested; it is the one way a letter-level cipher could still produce
 this profile.
+
+## Amendment (2026-10-18, after E020)
+E020 showed that a Naibbe-class cipher whose key changes by section (8 sections) reproduces Voynich's word-level
+clustering. The E019 rejection therefore applies to a cipher with ONE fixed key only. The clustering of glyph pairs
+inside words (where Voynich exceeds every changing-key cipher by > 11 SDs) is what still argues against that class.
+See DRIFT_COMPOUND.md.

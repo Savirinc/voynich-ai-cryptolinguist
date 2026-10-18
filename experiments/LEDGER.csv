@@ -370,3 +370,8 @@ date,experiment,model,checkpoint_sha256,split,metric,value,command,notes
 2026-10-18,E019,unit_family/naibbe_max,prereg=d00a9da02bb9,voynich_DEV_burstiness,rms_z,18.317,experiments/e019_unit_burstiness.py --workers 3,REJECTED
 2026-10-18,E019,unit_family/rugg_rep,prereg=d00a9da02bb9,voynich_DEV_burstiness,rms_z,34.71,experiments/e019_unit_burstiness.py --workers 3,REJECTED
 2026-10-18,E019,unit_family/self_citation_rep,prereg=d00a9da02bb9,voynich_DEV_burstiness,rms_z,31.612,experiments/e019_unit_burstiness.py --workers 3,REJECTED
+2026-10-18,E020,unit_family/naibbe_drift4,prereg=5fbc42124290,voynich_DEV_burstiness,rms_z,6.976,experiments/e020_drift_compound.py --workers 3,inconsistent
+2026-10-18,E020,unit_family/naibbe_drift8,prereg=5fbc42124290,voynich_DEV_burstiness,rms_z,6.012,experiments/e020_drift_compound.py --workers 3,inconsistent
+2026-10-18,E020,unit_family/word_drift4,prereg=5fbc42124290,voynich_DEV_burstiness,rms_z,4.417,experiments/e020_drift_compound.py --workers 3,inconsistent
+2026-10-18,E020,unit_family/compound,prereg=5fbc42124290,voynich_DEV_burstiness,rms_z,3.494,experiments/e020_drift_compound.py --workers 3,inconsistent
+2026-10-18,E020,unit_family/compound_drift4,prereg=5fbc42124290,voynich_DEV_burstiness,rms_z,4.309,experiments/e020_drift_compound.py --workers 3,inconsistent

@@ -1,0 +1,7 @@
+200 twin samples
+  naibbe_drift4    rms_z   6.98 I_word +3.4 top_word +1.9 I_sub +12.0 top_sub +5.9
+  naibbe_drift8    rms_z   6.01 I_word +0.4 top_word -2.7 I_sub +11.3 top_sub +3.2
+  word_drift4      rms_z   4.42 I_word -2.9 top_word -5.1 I_sub -5.0 top_sub -4.3
+  compound         rms_z   3.49 I_word -0.2 top_word -2.1 I_sub +6.4 top_sub +2.0
+  compound_drift4  rms_z   4.31 I_word -1.5 top_word -7.9 I_sub +2.9 top_sub +0.8
+consistent []
