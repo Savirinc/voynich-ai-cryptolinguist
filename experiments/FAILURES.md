@@ -182,3 +182,8 @@ languages (56-73%), so it does not discriminate here.
 - Process note: the naibbe/syllable false-answer rates were added after the run by --stage resummarise (no new solver
   calls); ledger rows marked REANALYSIS.
 See reports/UNIT_INVENTORIES.md, experiments/results/e012.json.
+
+## 2026-10-18 — E019 smoke printed the Voynich target statistic before pre-registration
+The E019 smoke run computed Voynich DEV burstiness features (I_word 0.387, top_word 0.285, I_sub 0.150,
+top_sub 0.582) before reports/E019_PREREG.md existed. The decision rule was already in the script and was not
+changed; disclosed in the pre-registration. Rule for future: smoke runs must skip the target statistic.
