@@ -387,3 +387,11 @@ date,experiment,model,checkpoint_sha256,split,metric,value,command,notes
 2026-10-18,E021,unit_family/self_citation_rep,prereg=bcafcf3d78cc,voynich_DEV_persistence,z_PERS_30,4.01,experiments/e021_persistence.py --workers 3,inconsistent
 2026-10-18,E022,plant_visual_vs_text,codes=b5a9698dca4e,voynich_DEV_herbal,spearman_r_far,0.0151,experiments/e022_plant_text_link.py,NOT DETECTED
 2026-10-18,E022,plant_visual_vs_text,codes=b5a9698dca4e,voynich_DEV_herbal,perm_p_far,0.5463,experiments/e022_plant_text_link.py,NOT DETECTED
+2026-10-18,E024,segmentation/S0,prereg=53a37b5db8dd,voynich_DEV,h1,3.8688,experiments/e024_atoms.py,outside
+2026-10-18,E024,segmentation/S0,prereg=53a37b5db8dd,voynich_DEV,h2,2.0972,experiments/e024_atoms.py,outside
+2026-10-18,E024,segmentation/S1,prereg=53a37b5db8dd,voynich_DEV,h1,3.8565,experiments/e024_atoms.py,outside
+2026-10-18,E024,segmentation/S1,prereg=53a37b5db8dd,voynich_DEV,h2,2.2235,experiments/e024_atoms.py,outside
+2026-10-18,E024,segmentation/S2,prereg=53a37b5db8dd,voynich_DEV,h1,3.9121,experiments/e024_atoms.py,outside
+2026-10-18,E024,segmentation/S2,prereg=53a37b5db8dd,voynich_DEV,h2,2.3685,experiments/e024_atoms.py,outside
+2026-10-18,E024,segmentation/S3,prereg=53a37b5db8dd,voynich_DEV,h1,4.0222,experiments/e024_atoms.py,outside
+2026-10-18,E024,segmentation/S3,prereg=53a37b5db8dd,voynich_DEV,h2,2.4836,experiments/e024_atoms.py,outside
