@@ -375,3 +375,13 @@ date,experiment,model,checkpoint_sha256,split,metric,value,command,notes
 2026-10-18,E020,unit_family/word_drift4,prereg=5fbc42124290,voynich_DEV_burstiness,rms_z,4.417,experiments/e020_drift_compound.py --workers 3,inconsistent
 2026-10-18,E020,unit_family/compound,prereg=5fbc42124290,voynich_DEV_burstiness,rms_z,3.494,experiments/e020_drift_compound.py --workers 3,inconsistent
 2026-10-18,E020,unit_family/compound_drift4,prereg=5fbc42124290,voynich_DEV_burstiness,rms_z,4.309,experiments/e020_drift_compound.py --workers 3,inconsistent
+2026-10-18,E021,unit_family/word,prereg=bcafcf3d78cc,voynich_DEV_persistence,z_PERS_30,-1.37,experiments/e021_persistence.py --workers 3,CONSISTENT
+2026-10-18,E021,unit_family/syll,prereg=bcafcf3d78cc,voynich_DEV_persistence,z_PERS_30,-6.53,experiments/e021_persistence.py --workers 3,inconsistent
+2026-10-18,E021,unit_family/naibbe,prereg=bcafcf3d78cc,voynich_DEV_persistence,z_PERS_30,-16.87,experiments/e021_persistence.py --workers 3,inconsistent
+2026-10-18,E021,unit_family/naibbe_drift4,prereg=bcafcf3d78cc,voynich_DEV_persistence,z_PERS_30,-1.23,experiments/e021_persistence.py --workers 3,CONSISTENT
+2026-10-18,E021,unit_family/naibbe_drift8,prereg=bcafcf3d78cc,voynich_DEV_persistence,z_PERS_30,1.94,experiments/e021_persistence.py --workers 3,inconsistent
+2026-10-18,E021,unit_family/word_drift4,prereg=bcafcf3d78cc,voynich_DEV_persistence,z_PERS_30,1.76,experiments/e021_persistence.py --workers 3,CONSISTENT
+2026-10-18,E021,unit_family/compound,prereg=bcafcf3d78cc,voynich_DEV_persistence,z_PERS_30,-1.4,experiments/e021_persistence.py --workers 3,CONSISTENT
+2026-10-18,E021,unit_family/compound_drift4,prereg=bcafcf3d78cc,voynich_DEV_persistence,z_PERS_30,-1.15,experiments/e021_persistence.py --workers 3,CONSISTENT
+2026-10-18,E021,unit_family/rugg_rep,prereg=bcafcf3d78cc,voynich_DEV_persistence,z_PERS_30,-26.09,experiments/e021_persistence.py --workers 3,inconsistent
+2026-10-18,E021,unit_family/self_citation_rep,prereg=bcafcf3d78cc,voynich_DEV_persistence,z_PERS_30,4.01,experiments/e021_persistence.py --workers 3,inconsistent
