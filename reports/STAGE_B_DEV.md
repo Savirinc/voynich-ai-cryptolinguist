@@ -56,3 +56,56 @@ caesar/gall2), leaving 13.05M words. The file list is in the scratchpad (latlib_
 - Exploit structure: decode endings (few, frequent, grammatical) first, then stems with endings fixed (compound
   hypothesis); match with Latin morphology.
 - Seed with the most frequent function words (anchors) and grow outward.
+
+## Compound (stem + ending) probes: endings first, then stems (2026-10-18)
+Hypothesis class: each Latin word is split into stem + inflectional ending (fixed suffix list, longest match, stem
+≥ 3 letters, words < 4 letters unsplit; `experiments/dev/latseg.py`). Stems and endings are each replaced by secret
+codes. A missing ending stays visible. Plaintext: 24,000 words of la tune text. Reference statistics come from the
+Latin Library (13.05M words). **Limitation:** the cipher and the LM use the same splitter, so segmentation is
+known. On Voynich it would have to be inferred.
+
+**Stage 1, endings only** (`endfirst.py`; 93 ending codes). Score = ending frequencies + ending bigrams of adjacent
+words + *paradigm pairs* (pairs of endings seen on the same stem; Kober's triplet idea).
+
+| Signals | Text | Ending token accuracy | Restart agreement |
+|---|---|---|---|
+| frequency + bigram + paradigm | 24k words | **0.988** | 0.993 |
+| frequency + bigram (no paradigm) | 24k words | 0.936 | 0.963 |
+| frequency + bigram + paradigm | 6k words | 0.862 | 0.933 |
+
+**Stage 2, stems with decoded endings** (`stemsecond.py`, `ctxassign.py`). 2,052 code stems seen ≥ 2 times (91% of
+tokens); 6,000-stem LM vocabulary (true stem inside for 93.8% of those tokens). Score = stem-bigram KN LM + a
+per-stem Poisson likelihood of its decoded ending counts (frequency + paradigm). Init = one Hungarian assignment
+on that likelihood. Then SA with candidate-restricted proposals, then iterated *context assignment* (all stems
+re-assigned at once given their neighbours, then SA polish).
+
+| Step (full pipeline, endings decoded in stage 1) | Stem accuracy (tokens) | Whole-word token accuracy |
+|---|---|---|
+| Hungarian init (no context) | 0.43 | 0.39 |
+| + SA 10M | 0.56 | 0.51 |
+| + iterated context assignment | **0.58** | **0.53** |
+
+Stems decoded correctly, by how often they occur:
+
+| Times seen | Stems | Share of tokens | Share correct |
+|---|---|---|---|
+| ≥ 100 | 24 | 0.26 | 0.83 |
+| 20–99 | 189 | 0.29 | 0.64 |
+| 5–19 | 593 | 0.22 | 0.32 |
+| 3–4 | 565 | 0.08 | 0.12 |
+| 2 | 681 | 0.06 | 0.05 |
+
+Under the true key the stem bigram still scores better than the found keys (−5.76 vs −6.08 per word pair), so this is
+still partly search-limited. Rare stems are also limited by the evidence itself.
+
+## What this shows
+1. **If Voynich words are built as stem + ending, the endings are the soft spot:** they can be read almost
+   perfectly from frequency, word order and which endings share a stem, with no stem known.
+2. Word-level reading improves from 31–40% (whole-word codes, top 300 types only) to 53% of *all* tokens.
+   Frequent words are mostly right, rare ones mostly wrong: a skeleton reading, not a full one.
+3. **Next:**
+   - a full-word bigram (stem + ending) context in the assignment step;
+   - restarts plus the E017 agreement and long-word checks;
+   - then the step that matters for Voynich: *infer* the stem/ending split from the cipher itself.
+
+   After that comes a pre-registered known-answer test with meaningless controls.
