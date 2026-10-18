@@ -397,3 +397,15 @@ date,experiment,model,checkpoint_sha256,split,metric,value,command,notes
 2026-10-18,E024,segmentation/S3,prereg=53a37b5db8dd,voynich_DEV,h2,2.4836,experiments/e024_atoms.py,outside
 2026-10-18,E023,plant_visual_vs_text/culpeper,codes=0f4e4cf166c8,positive_control_herbal,spearman_r_far,-0.0122,experiments/e023_herbal_power_check.py,NO POWER
 2026-10-18,E023,plant_visual_vs_text/culpeper,codes=0f4e4cf166c8,positive_control_herbal,perm_p_far,0.6769,experiments/e023_herbal_power_check.py,NO POWER
+2026-10-18,E025,line_effects/word,prereg=0e4648d82cb1,voynich_DEV_lines,z_V_first,36.67,experiments/e025_line_effects.py --workers 3,no line rule
+2026-10-18,E025,line_effects/word,prereg=0e4648d82cb1,voynich_DEV_lines,z_V_last,38.34,experiments/e025_line_effects.py --workers 3,no line rule
+2026-10-18,E025,line_effects/compound,prereg=0e4648d82cb1,voynich_DEV_lines,z_V_first,25.14,experiments/e025_line_effects.py --workers 3,no line rule
+2026-10-18,E025,line_effects/compound,prereg=0e4648d82cb1,voynich_DEV_lines,z_V_last,57.21,experiments/e025_line_effects.py --workers 3,no line rule
+2026-10-18,E025,line_effects/naibbe_noline,prereg=0e4648d82cb1,voynich_DEV_lines,z_V_first,51.68,experiments/e025_line_effects.py --workers 3,no line rule
+2026-10-18,E025,line_effects/naibbe_noline,prereg=0e4648d82cb1,voynich_DEV_lines,z_V_last,60.25,experiments/e025_line_effects.py --workers 3,no line rule
+2026-10-18,E025,line_effects/naibbe_spec,prereg=0e4648d82cb1,voynich_DEV_lines,z_V_first,48.33,experiments/e025_line_effects.py --workers 3,explicit line rule
+2026-10-18,E025,line_effects/naibbe_spec,prereg=0e4648d82cb1,voynich_DEV_lines,z_V_last,6.5,experiments/e025_line_effects.py --workers 3,explicit line rule
+2026-10-18,E025,line_effects/rugg_rep,prereg=0e4648d82cb1,voynich_DEV_lines,z_V_first,61.0,experiments/e025_line_effects.py --workers 3,explicit line rule
+2026-10-18,E025,line_effects/rugg_rep,prereg=0e4648d82cb1,voynich_DEV_lines,z_V_last,50.24,experiments/e025_line_effects.py --workers 3,explicit line rule
+2026-10-18,E025,line_effects/self_citation_rep,prereg=0e4648d82cb1,voynich_DEV_lines,z_V_first,41.98,experiments/e025_line_effects.py --workers 3,explicit line rule
+2026-10-18,E025,line_effects/self_citation_rep,prereg=0e4648d82cb1,voynich_DEV_lines,z_V_last,11.62,experiments/e025_line_effects.py --workers 3,explicit line rule
