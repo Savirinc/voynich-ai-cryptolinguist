@@ -1,0 +1,33 @@
+800 twin samples {'DEV': 28841, 'B': 19490}
+DEV positive control {'share_marked_ge_095': 0.95, 'dist_separation_sd': 44.255, 'gate': True}
+B positive control {'share_marked_ge_095': 0.95, 'dist_separation_sd': 45.168, 'gate': True}
+DEV {'SPLIT': 0.806, 'NSUF95': 28.0, 'DIST': 0.394, 'PAR': 0.78} -> MARKED ENDINGS
+  top suffixes [('', 0.1935), ('y', 0.1766), ('dy', 0.098), ('ol', 0.0648), ('aiin', 0.0534), ('edy', 0.0485), ('ar', 0.0405), ('or', 0.04), ('al', 0.0354), ('ey', 0.0337), ('ain', 0.0334), ('in', 0.0283), ('o', 0.0231), ('s', 0.0142), ('am', 0.0131)]
+  word               SPLIT 0.619 (z +2.7) NSUF95 82.000 (z -2.7) DIST 0.233 (z +5.0) PAR 0.650 (z +2.1)
+  syll               SPLIT 0.186 (z +11.2) NSUF95 10.425 (z +8.2) DIST 0.435 (z -0.4) PAR 0.701 (z +1.5)
+  naibbe             SPLIT 0.872 (z -6.6) NSUF95 36.750 (z -2.8) DIST 0.403 (z -0.3) PAR 0.916 (z -6.5)
+  naibbe_drift4      SPLIT 0.924 (z -11.8) NSUF95 50.850 (z -5.3) DIST 0.332 (z +2.1) PAR 0.863 (z -8.2)
+  naibbe_drift8      SPLIT 0.927 (z -12.1) NSUF95 52.025 (z -7.5) DIST 0.346 (z +1.8) PAR 0.872 (z -9.2)
+  word_drift4        SPLIT 0.671 (z +2.2) NSUF95 154.750 (z -3.0) DIST 0.259 (z +5.4) PAR 0.523 (z +5.9)
+  compound           SPLIT 0.795 (z +0.2) NSUF95 69.175 (z -3.1) DIST 0.340 (z +2.4) PAR 0.408 (z +4.9)
+  compound_drift4    SPLIT 0.811 (z -0.1) NSUF95 91.125 (z -6.8) DIST 0.321 (z +4.7) PAR 0.514 (z +5.9)
+  rugg_rep           SPLIT 0.911 (z -9.8) NSUF95 18.450 (z +9.6) DIST 0.415 (z -0.4) PAR 0.695 (z +3.7)
+  self_citation_rep  SPLIT 0.883 (z -7.7) NSUF95 83.350 (z -7.7) DIST 0.343 (z +2.2) PAR 0.737 (z +4.3)
+  cmp_marked         SPLIT 0.635 (z +13.7) NSUF95 53.400 (z -15.0) DIST 0.974 (z -43.3) PAR 0.545 (z +17.6)
+  cmp_random         SPLIT 0.878 (z -2.5) NSUF95 53.800 (z -14.6) DIST 0.123 (z +11.4) PAR 0.590 (z +19.1)
+  consistent []
+B {'SPLIT': 0.799, 'NSUF95': 28.0, 'DIST': 0.369, 'PAR': 0.77} -> MARKED ENDINGS
+  top suffixes [('y', 0.2323), ('', 0.2008), ('dy', 0.1308), ('aiin', 0.0531), ('ain', 0.046), ('ar', 0.0457), ('ol', 0.0388), ('al', 0.0317), ('ey', 0.0222), ('or', 0.0214), ('edy', 0.0192), ('iin', 0.0168), ('am', 0.0136), ('s', 0.0132), ('in', 0.012)]
+  word               SPLIT 0.635 (z +2.3) NSUF95 69.925 (z -2.2) DIST 0.246 (z +4.5) PAR 0.605 (z +2.8)
+  syll               SPLIT 0.186 (z +10.7) NSUF95 9.825 (z +9.4) DIST 0.450 (z -0.8) PAR 0.678 (z +1.5)
+  naibbe             SPLIT 0.876 (z -7.6) NSUF95 37.425 (z -2.9) DIST 0.414 (z -1.5) PAR 0.916 (z -8.0)
+  naibbe_drift4      SPLIT 0.929 (z -12.6) NSUF95 49.725 (z -5.9) DIST 0.351 (z +0.5) PAR 0.858 (z -8.8)
+  naibbe_drift8      SPLIT 0.929 (z -13.0) NSUF95 52.575 (z -6.5) DIST 0.350 (z +0.5) PAR 0.869 (z -9.9)
+  word_drift4        SPLIT 0.674 (z +1.9) NSUF95 119.925 (z -2.9) DIST 0.273 (z +2.9) PAR 0.484 (z +6.0)  CONSISTENT
+  compound           SPLIT 0.815 (z -0.3) NSUF95 62.775 (z -3.4) DIST 0.352 (z +0.6) PAR 0.382 (z +6.4)
+  compound_drift4    SPLIT 0.804 (z -0.1) NSUF95 85.875 (z -6.4) DIST 0.328 (z +3.0) PAR 0.485 (z +7.3)
+  rugg_rep           SPLIT 0.911 (z -9.5) NSUF95 18.500 (z +9.5) DIST 0.466 (z -1.8) PAR 0.749 (z +1.3)
+  self_citation_rep  SPLIT 0.881 (z -6.7) NSUF95 71.050 (z -4.9) DIST 0.368 (z +0.0) PAR 0.728 (z +3.9)
+  cmp_marked         SPLIT 0.623 (z +9.3) NSUF95 52.200 (z -14.2) DIST 0.984 (z -61.5) PAR 0.503 (z +17.0)
+  cmp_random         SPLIT 0.856 (z -1.5) NSUF95 51.500 (z -19.7) DIST 0.125 (z +9.6) PAR 0.547 (z +15.8)
+  consistent ['word_drift4']

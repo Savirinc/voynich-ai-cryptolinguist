@@ -409,3 +409,17 @@ date,experiment,model,checkpoint_sha256,split,metric,value,command,notes
 2026-10-18,E025,line_effects/rugg_rep,prereg=0e4648d82cb1,voynich_DEV_lines,z_V_last,50.24,experiments/e025_line_effects.py --workers 3,explicit line rule
 2026-10-18,E025,line_effects/self_citation_rep,prereg=0e4648d82cb1,voynich_DEV_lines,z_V_first,41.98,experiments/e025_line_effects.py --workers 3,explicit line rule
 2026-10-18,E025,line_effects/self_citation_rep,prereg=0e4648d82cb1,voynich_DEV_lines,z_V_last,11.62,experiments/e025_line_effects.py --workers 3,explicit line rule
+2026-10-19,E026,endings/word,prereg=7448ea4a4eee,voynich_DEV_endings,z_DIST,4.97,experiments/e026_endings.py --workers 3,inconsistent
+2026-10-19,E026,endings/syll,prereg=7448ea4a4eee,voynich_DEV_endings,z_DIST,-0.38,experiments/e026_endings.py --workers 3,inconsistent
+2026-10-19,E026,endings/naibbe,prereg=7448ea4a4eee,voynich_DEV_endings,z_DIST,-0.3,experiments/e026_endings.py --workers 3,inconsistent
+2026-10-19,E026,endings/naibbe_drift4,prereg=7448ea4a4eee,voynich_DEV_endings,z_DIST,2.14,experiments/e026_endings.py --workers 3,inconsistent
+2026-10-19,E026,endings/naibbe_drift8,prereg=7448ea4a4eee,voynich_DEV_endings,z_DIST,1.84,experiments/e026_endings.py --workers 3,inconsistent
+2026-10-19,E026,endings/word_drift4,prereg=7448ea4a4eee,voynich_DEV_endings,z_DIST,5.38,experiments/e026_endings.py --workers 3,inconsistent
+2026-10-19,E026,endings/compound,prereg=7448ea4a4eee,voynich_DEV_endings,z_DIST,2.38,experiments/e026_endings.py --workers 3,inconsistent
+2026-10-19,E026,endings/compound_drift4,prereg=7448ea4a4eee,voynich_DEV_endings,z_DIST,4.72,experiments/e026_endings.py --workers 3,inconsistent
+2026-10-19,E026,endings/rugg_rep,prereg=7448ea4a4eee,voynich_DEV_endings,z_DIST,-0.42,experiments/e026_endings.py --workers 3,inconsistent
+2026-10-19,E026,endings/self_citation_rep,prereg=7448ea4a4eee,voynich_DEV_endings,z_DIST,2.21,experiments/e026_endings.py --workers 3,inconsistent
+2026-10-19,E026,endings/cmp_marked,prereg=7448ea4a4eee,voynich_DEV_endings,z_DIST,-43.26,experiments/e026_endings.py --workers 3,inconsistent
+2026-10-19,E026,endings/cmp_random,prereg=7448ea4a4eee,voynich_DEV_endings,z_DIST,11.44,experiments/e026_endings.py --workers 3,inconsistent
+2026-10-19,E026,endings/verdict,prereg=7448ea4a4eee,voynich_DEV_endings,DIST,0.3936,experiments/e026_endings.py --workers 3,MARKED ENDINGS
+2026-10-19,E026,endings/verdict,prereg=7448ea4a4eee,voynich_B_endings,DIST,0.3686,experiments/e026_endings.py --workers 3,MARKED ENDINGS
