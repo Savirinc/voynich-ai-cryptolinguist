@@ -161,7 +161,10 @@ These are development probes on synthetic Latin with known answers. Voynich has 
 | Then stems | 58% of stem tokens |
 | Whole words exactly right | 53% of all tokens |
 
-So far the split into stem and ending is given to the attack; learning it from the text is the next step.
+**Learning the split from the cipher itself** (2026-10-19): when endings are written with their own glyphs, as
+any usable notation must write them, the split is recovered 99.5% of the time, all 93 endings are found, and 98.3%
+of endings are decoded, with no help. When endings are random glyph strings the attack fails, and the agreement
+check says so.
 
 ---
 
