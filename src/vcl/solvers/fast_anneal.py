@@ -133,36 +133,54 @@ class _MetaLM(CharLM):
 _CLM = {}
 
 
+def _build_nospace(name: str, body: str, lang: str, family: str) -> None:
+    letters = Counter(body)
+    alphabet = [" "] + [c for c, _ in letters.most_common()]
+    idx = {c: i for i, c in enumerate(alphabet)}
+    ids = np.array([idx[c] for c in body], dtype=np.int64)
+    cut = int(len(ids) * 0.95)
+    A = len(alphabet)
+    logp = _kn_dense(np.concatenate([np.zeros(ORDER - 1, dtype=np.int64), ids[:cut]]), A)
+    CACHE.mkdir(parents=True, exist_ok=True)
+    np.save(CACHE / f"{name}.npy", logp)
+    flat = logp.reshape(-1)
+    held = ids[cut:]
+    g = np.zeros(len(held) - ORDER + 1, dtype=np.int64)
+    for k in range(ORDER):
+        g = g * A + held[k:len(held) - ORDER + 1 + k]
+    lp = flat[g]
+    H_by_len = {str(L): float(-np.mean([lp[i:i + L].mean() for i in range(0, len(lp) - L, max(1, L // 2))]))
+                for L in (100, 300, 1000, 3000)}
+    uni = np.zeros(A)
+    for c, v in letters.items():
+        uni[idx[c]] = v
+    uni /= uni.sum()
+    meta = {"version": "clm-v1", "lang": lang, "family": family, "variant": name.split("_", 1)[-1],
+            "alphabet": alphabet, "H": float(-lp.mean()), "H_by_len": H_by_len, "unigram": uni.tolist(),
+            "train_chars": cut}
+    (CACHE / f"{name}.json").write_text(json.dumps(meta, ensure_ascii=False))
+
+
 def cipher_alphabet_lm(lang: str, clean, tag: str = "naibbe") -> CharLM:
     """No-space KN-4 LM over clean(ref text). Cached as data/derived/lm_cache/{lang}_{tag}_nospace.*"""
     name = f"{lang}_{tag}_nospace"
     if name in _CLM:
         return _CLM[name]
     if not (CACHE / f"{name}.json").exists():
-        body = clean(_ref_text(lang))
-        letters = Counter(body)
-        alphabet = [" "] + [c for c, _ in letters.most_common()]
-        idx = {c: i for i, c in enumerate(alphabet)}
-        ids = np.array([idx[c] for c in body], dtype=np.int64)
-        cut = int(len(ids) * 0.95)
-        A = len(alphabet)
-        logp = _kn_dense(np.concatenate([np.zeros(ORDER - 1, dtype=np.int64), ids[:cut]]), A)
-        np.save(CACHE / f"{name}.npy", logp)
-        flat = logp.reshape(-1)
-        held = ids[cut:]
-        g = np.zeros(len(held) - ORDER + 1, dtype=np.int64)
-        for k in range(ORDER):
-            g = g * A + held[k:len(held) - ORDER + 1 + k]
-        lp = flat[g]
-        H_by_len = {str(L): float(-np.mean([lp[i:i + L].mean() for i in range(0, len(lp) - L, max(1, L // 2))]))
-                    for L in (100, 300, 1000, 3000)}
-        uni = np.zeros(A)
-        for c, v in letters.items():
-            uni[idx[c]] = v
-        uni /= uni.sum()
-        meta = {"version": "clm-v1", "lang": lang, "family": language_families()[lang], "variant": f"{tag}_nospace",
-                "alphabet": alphabet, "H": float(-lp.mean()), "H_by_len": H_by_len, "unigram": uni.tolist(),
-                "train_chars": cut}
-        (CACHE / f"{name}.json").write_text(json.dumps(meta, ensure_ascii=False))
+        _build_nospace(name, clean(_ref_text(lang)), lang, language_families()[lang])
     _CLM[name] = _MetaLM(name)
     return _CLM[name]
+
+
+def lm_from_text(text: str, name: str, clean=None) -> CharLM:
+    """No-space KN-4 letter LM from ANY text you supply (e.g. a medieval Latin or Old Italian corpus), usable
+    wherever the solvers take a CharLM. `clean` defaults to the Naibbe plaintext alphabet (naibbe_exact.clean).
+    Cached as data/derived/lm_cache/custom_{name}_nospace.*; delete those files to rebuild."""
+    if clean is None:
+        from vcl.synthetic.naibbe_exact import clean
+    key = f"custom_{name}_nospace"
+    if key not in _CLM:
+        if not (CACHE / f"{key}.json").exists():
+            _build_nospace(key, clean(text), name, "custom")
+        _CLM[key] = _MetaLM(key)
+    return _CLM[key]

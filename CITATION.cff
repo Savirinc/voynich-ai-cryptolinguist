@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, its methods, data or results, please cite it as below."
+title: "Voynich AI Cryptolinguist: a pre-registered, known-answer-validated programme for deciphering the Voynich Manuscript"
+abstract: >-
+  An open research toolkit and ledger for testing decipherment hypotheses about the Voynich Manuscript
+  (Beinecke MS 408). Every attack is first validated on synthetic texts with known answers and meaningless
+  controls, every test is pre-registered and hash-locked, and every result, including null results, is published.
+type: software
+authors:
+  - given-names: "Arham Partap"
+    family-names: "Jain"
+    affiliation: "Savir Platforms Private Limited"
+  - name: "Savir Platforms Private Limited"
+version: "0.2.0"
+date-released: "2026-10-19"
+license: MIT
+repository-code: "https://github.com/Savirinc/voynich-ai-cryptolinguist"
+url: "https://github.com/Savirinc/voynich-ai-cryptolinguist"
+keywords:
+  - Voynich manuscript
+  - decipherment
+  - cryptanalysis
+  - computational linguistics
+  - undeciphered scripts
+  - pre-registration
+  - known-answer testing

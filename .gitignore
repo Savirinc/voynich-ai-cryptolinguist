@@ -16,3 +16,6 @@ external/neurodecipher_data_private/
 external/neurodecipher_runs/
 # vcl_patches.diff quotes upstream (unlicensed) code in its context lines -> local only
 external/neurodecipher_patches/vcl_patches.diff
+
+*.egg-info/
+Voynich\ /
