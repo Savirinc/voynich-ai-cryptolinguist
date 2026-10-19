@@ -109,3 +109,38 @@ still partly search-limited. Rare stems are also limited by the evidence itself.
    - then the step that matters for Voynich: *infer* the stem/ending split from the cipher itself.
 
    After that comes a pre-registered known-answer test with meaningless controls.
+
+## Learning the stem/ending split from the cipher itself (2026-10-19)
+Cipher words are now written as code stem + code ending glued together, with no separator (stems 2–5 glyphs,
+endings 1–3 glyphs, 20-glyph alphabet). The attack must find the split itself.
+
+Two code designs:
+- **random**: endings use the same glyphs as stems;
+- **marked**: endings use their own 6 glyphs, the way Voynich has typical word-final glyphs.
+
+Scripts: `experiments/dev/segment.py`, `seg_gibbs.py`, `seg_oracle.py`, `seg_diag.py`.
+
+| Segmenter | Code | Split correct (tokens) | Ending types found (true 93) | Endings decoded afterwards |
+|---|---|---|---|---|
+| Hard-EM, type counts | random | 0.40 (collapses to "no endings") | 0 | — |
+| Gibbs, fixed glyph prior | random / marked | 0.62 / 0.67 | 200–500 | 0.29–0.50 |
+| Oracle: true ending list, best rule | random | 0.74 (ceiling: endings blend into stems) | 93 | — |
+| **Gibbs, glyph statistics learned separately for stems and endings, start from "no splits"** | **marked** | **0.995** | **93** | **0.983** (agreement 0.99) |
+| same | random | 0.73 | 98 | 0.32 (agreement 0.74: correctly flagged as a failure) |
+
+Diagnosis on the way: with a fixed glyph prior the model gives a *wrong* split a higher probability than the truth
+(−139.7k vs −141.3k). Its main error is chopping words that have no ending (28% of tokens), so that version was
+objective-limited. Learning which glyphs endings are made of fixes the objective. Starting from "no splits" stops
+the ending lexicon from filling up with stem glyphs.
+
+## What this shows
+1. If a stem + ending notation writes endings recognisably (as any usable notation must, and as Voynich's
+   word-final glyphs suggest), the split, the ending inventory and the endings' meanings can all be recovered from
+   the cipher alone: 99.5% / 93 of 93 / 98.3%.
+2. If endings are written in random glyphs, even the true ending list allows only 74% correct splits. The attack
+   then fails, and the agreement statistic signals it.
+3. Next:
+   - **On twins:** run the stem stage on the inferred split, add the agreement and long-word claim rule, then a line
+     model.
+   - **On Voynich (a Stage A-style statistic, to be pre-registered):** does the segmenter find a compact ending
+     inventory with its own glyphs on Voynich DEV, compared with twins of each family?
