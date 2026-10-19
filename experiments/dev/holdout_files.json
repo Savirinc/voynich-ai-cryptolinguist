@@ -1,0 +1,22 @@
+{
+ "calib": [
+  "justinian/codex5.txt",
+  "fronto.txt",
+  "bacon/bacon.liber2.txt",
+  "gregdecretals3.txt",
+  "justinian/digest48.txt",
+  "gregdecretals1.txt"
+ ],
+ "test": [
+  "kalila.txt",
+  "tertullian/tertullian.marcionem4.txt",
+  "justinian/codex4.txt",
+  "capellanus/capellanus1.txt",
+  "justinian/codex8.txt",
+  "bacon/bacon.sermones.txt",
+  "justinian/digest40.txt",
+  "justinian/codex1.txt",
+  "petronius1.txt",
+  "gregdecretals5.txt"
+ ]
+}

@@ -167,6 +167,12 @@ any usable notation must write them, the split is recovered 99.5% of the time, a
 of endings are decoded, with no help. When endings are random glyph strings the attack fails, and the agreement
 check says so.
 
+**At Voynich's own ending profile, on held-out Latin** (2026-10-19): the cipher was rebuilt with about 26 partly
+marked ending classes, matching E026. Split and endings still come out: 83–87% and 68–79%. But stems drop to
+11–20% on Latin the method had never seen; the earlier 43–58% was measured on the text it was developed on. Also,
+no claim signal yet separates a real crack from Rugg-grille gibberish, which scores as well. So the compound
+attack is **not ready for a pre-registered test**, and Voynich stays untouched.
+
 ---
 
 ## 3. What is ruled out, what is open
@@ -179,8 +185,8 @@ check says so.
 
 ## 4. Next steps
 1. Stage B:
-   - learn the stem/ending split from the cipher itself;
-   - add restarts with the agreement and long-word checks;
+   - a stronger stem stage, measured on held-out Latin;
+   - a claim signal that repetitive gibberish (Rugg) cannot fake;
    - add a line model;
    - then a **pre-registered known-answer test with meaningless controls**, and only after that, Voynich DEV.
 2. More period corpora: medieval Latin, Old Italian and other vernaculars.

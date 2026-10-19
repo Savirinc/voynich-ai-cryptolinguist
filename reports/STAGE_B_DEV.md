@@ -144,3 +144,48 @@ the ending lexicon from filling up with stem glyphs.
      model.
    - **On Voynich (a Stage A-style statistic, to be pre-registered):** does the segmenter find a compact ending
      inventory with its own glyphs on Voynich DEV, compared with twins of each family?
+
+---
+
+## Compound attack at Voynich's ending profile (2026-10-19, dev, no Voynich)
+
+E026 found that Voynich has about 28 ending classes covering 95% of suffixed words, only partly written with their
+own glyphs (DIST 0.39). This probe rebuilds the known-answer cipher at that profile and runs the full pipeline:
+learned split → endings → stems. Scripts: `experiments/dev/cmp_pipe.py`, `holdout.py`, `calib.sh`; raw rows in
+`experiments/dev/cmp_calib.jsonl`.
+
+**Generator.** Latin word → stem + ending class, where class = the last two letters of the Latin ending. This is an
+abbreviated ending system with 35 classes, 22 of which cover 95%. Codes use the 20 EVA letters. Ending glyphs are
+drawn from their own 6 letters with probability 1 − α, else from all 20; stems likewise from the other 14. With
+α = 0.6 the segmenter measures NSUF95 26 and DIST 0.39, which matches Voynich.
+
+**Held-out plaintext.** The Latin "tune" text (28k words) was the only plaintext in every earlier Stage B probe. We
+now hold out whole Latin Library files and remove them from the language model:
+- CALIB, 6 files: Justinian codex 5 and digest 48, Fronto, Bacon, Gregory's decretals 1 and 3;
+- TEST, 10 files, reserved for a future locked test (`holdout_files.json`).
+
+**Claim signals tried.**
+- *agf*: restart agreement on stems seen ≥ 20 times.
+- *gap*: self-null, the attack's score per word minus its score on the same words in shuffled order.
+- *pc*: pair-cover, the share of decoded (stem, class) pairs seen ≥ 5 times in Latin.
+
+| Text | Split | Classes decoded | Stems | Whole words | agf | gap | pc |
+|---|---|---|---|---|---|---|---|
+| Latin "tune" text (seed 1, dev text) | 0.91 | 0.88 | 0.43 | 0.43 | 0.84 | 0.43 | 0.99 |
+| Held-out Latin, 3 files | 0.83–0.87 | 0.68–0.79 | **0.11–0.20** | **0.10–0.19** | 0.65–0.70 | 0.16–0.19 | 0.98–0.99 |
+| Stem-shuffled Latin (meaningless), 4 | 0.96–0.99 | — | 0 | 0 | 0.86–0.90 | −0.005–0.004 | 0.78–0.80 |
+| Rugg grille (Voynich glyphs), 4 | — | — | — | — | 0.61–0.68 | **0.13–0.25** | 0.96–0.97 |
+| Self-citation (Voynich glyphs), 4 | — | — | — | — | 0.58–0.61 | −0.02–0.10 | 0.88–0.93 |
+
+## What this shows
+1. **The earlier Stage B numbers were optimistic.** On the tune text they had been tuned on, stems were 43–58%
+   correct. On unseen Latin they fall to 11–20%. Every future Stage B figure will be reported on held-out text.
+2. **At Voynich's profile the split and the endings still come out:** split 83–87%, classes 68–79%.
+3. **No claim signal separates a real crack from Rugg gibberish.** Rugg's small, repetitive vocabulary maps onto
+   common Latin words. That gives it a better score than real Latin, a self-null gap as large (0.13–0.25 vs
+   0.16–0.19) and nearly the same pair-cover. Agreement is about 0.6–0.7 everywhere.
+4. Running a pre-registered known-answer test now would only confirm that the claim rule fails, so **E027 is not
+   pre-registered yet.** Two things are needed first:
+   - a stronger stem stage on held-out text;
+   - a claim signal that Rugg-style repetition cannot fake. Candidates: predicting held-out lines from a key fitted
+     on the other half, and a self-null that keeps the vocabulary size and repetition but breaks the meaning.
