@@ -137,6 +137,7 @@ We built a known-answer benchmark: 36 languages × 13 encoding families × decoy
 | E024 (A3) | Does any glyph grouping look like an alphabet? | No. Conditional entropy is 2.10–2.48, against ≥ 2.79 for all 34 languages |
 | E025 (A4) | Are line effects a by-product of the system? | No. Voynich's line-start/line-end effects (V = 0.39/0.33) are reproduced by no tested system (≤ 0.08; ≤ 0.23 even with explicit line rules), so the line is a functional unit |
 | E027 (Occam) | Is Voynich inside the range of languages with *simple syllables* (Hawaiian, Tongan, Māori, Vietnamese, Mandarin pinyin)? | **Yes, with glyph groups read as units** (S2/S3). Nearest: Mandarin pinyin. So the E024 fact only ruled out European-type languages. Rung 1 is not excluded (`reports/SIMPLE_SYLLABLES.md`) |
+| E028 (Occam) | Do those languages also match at the word level (topic clustering, persistence)? | Partly. Topic clustering matches exactly, but Voynich has far too many distinct words for a one-syllable-per-word language: 6,077 types, 68% seen once, like Latin; Mandarin 866, Vietnamese 1,817. Points to rich word-building out of simple syllables (`reports/SYLLABLE_WORDS.md`) |
 | E026 | Is there a compact ending set written with its own glyphs? | Compact, yes: about 28 endings cover 95% (real spelling: 82). Own glyphs only partly (DIST 0.39, the same as the glyph-built twins; fully marked would be 0.97). No family matches; compound twins have too many endings |
 
 **The picture after Stage A.** Voynich behaves like word-sized units (whole words, or stem + ending) whose common

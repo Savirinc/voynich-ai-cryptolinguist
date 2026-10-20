@@ -1,0 +1,36 @@
+haw1868              tokens 1049264 DEV I_word 0.293 top_word 0.559 PERS_30 0.489 COV_30 0.969
+ton                  tokens 1079796 DEV I_word 0.309 top_word 0.578 PERS_30 0.487 COV_30 0.966
+mri2012              tokens  975465 DEV I_word 0.335 top_word 0.549 PERS_30 0.457 COV_30 0.964
+vie1934              tokens  907044 DEV I_word 0.512 top_word 0.536 PERS_30 0.370 COV_30 0.928
+cmn-cu89s            tokens  922268 DEV I_word 0.465 top_word 0.547 PERS_30 0.414 COV_30 0.950
+latVUC               tokens  612221 DEV I_word 0.462 top_word 0.466 PERS_30 0.324 COV_30 0.890
+eng-kjv              tokens  935495 DEV I_word 0.442 top_word 0.551 PERS_30 0.397 COV_30 0.942
+cmn-cu89s#toneless   tokens  922268 DEV I_word 0.326 top_word 0.617 PERS_30 0.481 COV_30 0.974
+DEV SIMPLE I_word 0.383±0.110 top_word 0.554±0.074 PERS_30 0.443±0.078 COV_30 0.955±0.031
+DEV BIBLE_EU I_word 0.452±0.084 top_word 0.508±0.091 PERS_30 0.360±0.065 COV_30 0.916±0.047
+B SIMPLE I_word 0.391±0.105 top_word 0.527±0.075 PERS_30 0.414±0.073 COV_30 0.951±0.032
+B BIBLE_EU I_word 0.455±0.069 top_word 0.485±0.072 PERS_30 0.310±0.057 COV_30 0.894±0.037
+gate (Bible anchors behave like E019/E021 word twins): True
+DEV Voynich {'I_word': np.float64(0.387), 'top_word': np.float64(0.285), 'PERS_30': 0.264, 'COV_30': 0.917}
+  SIMPLE    z I_word +0.0 top_word -3.6 PERS_30 -2.3 COV_30 -1.3  inconsistent
+  BIBLE_EU  z I_word -0.8 top_word -2.5 PERS_30 -1.5 COV_30 +0.0  CONSISTENT
+    haw1868              z I_word +3.7 top_word -6.0 PERS_30 -4.8 COV_30 -3.1
+    ton                  z I_word +1.2 top_word -3.3 PERS_30 -2.6 COV_30 -1.5
+    mri2012              z I_word +0.9 top_word -3.5 PERS_30 -3.1 COV_30 -3.0
+    vie1934              z I_word -1.7 top_word -3.3 PERS_30 -1.6 COV_30 -0.4
+    cmn-cu89s            z I_word -0.9 top_word -3.0 PERS_30 -2.4 COV_30 -0.9
+    latVUC               z I_word -0.9 top_word -2.2 PERS_30 -1.4 COV_30 +0.6
+    eng-kjv              z I_word -0.6 top_word -3.2 PERS_30 -2.1 COV_30 -0.8
+    cmn-cu89s#toneless   z I_word +1.2 top_word -4.2 PERS_30 -4.8 COV_30 -4.0
+B Voynich {'I_word': np.float64(0.276), 'top_word': np.float64(0.231), 'PERS_30': 0.345, 'COV_30': 0.95}
+  SIMPLE    z I_word -1.1 top_word -3.9 PERS_30 -0.9 COV_30 -0.0  inconsistent
+  BIBLE_EU  z I_word -2.6 top_word -3.5 PERS_30 +0.6 COV_30 +1.5  inconsistent
+    haw1868              z I_word -0.5 top_word -4.1 PERS_30 -4.4 COV_30 -1.8
+    ton                  z I_word -0.8 top_word -4.4 PERS_30 -1.9 COV_30 -0.4
+    mri2012              z I_word -1.5 top_word -3.6 PERS_30 -1.2 COV_30 -0.0
+    vie1934              z I_word -2.9 top_word -3.9 PERS_30 -0.1 COV_30 +0.6
+    cmn-cu89s            z I_word -2.5 top_word -3.5 PERS_30 -0.6 COV_30 +0.1
+    latVUC               z I_word -2.9 top_word -3.3 PERS_30 +2.2 COV_30 +2.4
+    eng-kjv              z I_word -2.4 top_word -3.6 PERS_30 +0.1 COV_30 +1.1
+    cmn-cu89s#toneless   z I_word -1.2 top_word -5.1 PERS_30 -2.6 COV_30 -2.5
+VERDICT: RUNG 1 INCONSISTENT AT WORD LEVEL

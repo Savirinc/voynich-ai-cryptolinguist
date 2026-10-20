@@ -48,3 +48,10 @@ With glyph groups read as units (S2/S3), Voynich's h1, h2 and word length are al
 The nearest text is Mandarin pinyin; no single language matches closely. Rung 3 is no longer forced by any fact we
 have. **Next rung-sized question:** separate rung 1 (a simple-syllable language) from rung 2 (human gibberish) with
 no key and no search. See `reports/SIMPLE_SYLLABLES.md`.
+
+## Result (E028, 2026-10-20): rung 1 inconsistent at the word level, on one feature
+Topic clustering matches the simple-syllable family. But Voynich's vocabulary is as rich as inflected Latin (6,077
+types, 68% seen once), far richer than any one-syllable-per-word language. The one extra part this forces is
+**rich word-building (prefixes and endings) out of simple syllables**, the agglutinative profile. Next: a
+pre-registered joint test (glyph statistics + vocabulary richness) against simple-syllable agglutinative languages.
+See `reports/SYLLABLE_WORDS.md`.
