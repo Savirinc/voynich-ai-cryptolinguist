@@ -1,0 +1,8 @@
+tolerance base rates {0.25: 0.00946969696969697, 0.5: 0.05113636363636364, 0.75: 0.13825757575757575, 1.0: 0.2746212121212121} -> c = 0.25
+34 refs: n=34 SD34 {'h1': 0.166, 'h2': 0.154, 'L': 0.587} range {'h1': [3.527, 4.533], 'h2': [2.792, 3.639], 'L': [1.296, 6.795]}; base rate of pair matches 0.009
+anchor gate (Vulgate and KJV inside the 34-language range): True
+S0 {'h1': 3.869, 'h2': 2.097, 'L': 4.991} inside simple range {'h1': True, 'h2': False, 'L': False} matches [] nearest [('cmn-cu89s/MARKS', 3.26), ('cmn-cu89s/NATIVE', 4.07), ('mri2012/MARKS', 4.43)] 34-lang matches []
+S1 {'h1': 3.857, 'h2': 2.223, 'L': 4.458} inside simple range {'h1': True, 'h2': False, 'L': False} matches [] nearest [('cmn-cu89s/MARKS', 2.68), ('cmn-cu89s/NATIVE', 2.97), ('mri2012/MARKS', 3.37)] 34-lang matches []
+S2 {'h1': 3.912, 'h2': 2.368, 'L': 4.032} inside simple range {'h1': True, 'h2': True, 'L': True} matches [] nearest [('cmn-cu89s/NATIVE', 2.26), ('cmn-cu89s/MARKS', 2.3), ('mri2012/MARKS', 2.75)] 34-lang matches []
+S3 {'h1': 4.022, 'h2': 2.484, 'L': 3.69} inside simple range {'h1': True, 'h2': True, 'L': True} matches [] nearest [('cmn-cu89s/MARKS', 2.17), ('cmn-cu89s/NATIVE', 2.22), ('vie1934/MARKS', 2.6)] 34-lang matches []
+VERDICT: RUNG 1 NOT EXCLUDED

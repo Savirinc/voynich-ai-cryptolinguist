@@ -42,3 +42,9 @@ languages with rigid, simple syllables, written plainly?
 - Decision: rung 0 or 1 **survives** if any simple-syllable language contains Voynich within its range on all of
   them. It is **out** if none does, which would then justify going up the ladder.
 - The test has no key and no search, so it has nothing to overfit.
+
+## Result (E027, 2026-10-20): RUNG 1 NOT EXCLUDED
+With glyph groups read as units (S2/S3), Voynich's h1, h2 and word length are all inside the simple-syllable range.
+The nearest text is Mandarin pinyin; no single language matches closely. Rung 3 is no longer forced by any fact we
+have. **Next rung-sized question:** separate rung 1 (a simple-syllable language) from rung 2 (human gibberish) with
+no key and no search. See `reports/SIMPLE_SYLLABLES.md`.

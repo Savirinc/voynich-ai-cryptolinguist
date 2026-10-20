@@ -423,3 +423,8 @@ date,experiment,model,checkpoint_sha256,split,metric,value,command,notes
 2026-10-19,E026,endings/cmp_random,prereg=7448ea4a4eee,voynich_DEV_endings,z_DIST,11.44,experiments/e026_endings.py --workers 3,inconsistent
 2026-10-19,E026,endings/verdict,prereg=7448ea4a4eee,voynich_DEV_endings,DIST,0.3936,experiments/e026_endings.py --workers 3,MARKED ENDINGS
 2026-10-19,E026,endings/verdict,prereg=7448ea4a4eee,voynich_B_endings,DIST,0.3686,experiments/e026_endings.py --workers 3,MARKED ENDINGS
+2026-10-20,E027,segmentation/S0,prereg=93b2af885584,voynich_DEV,nearest_simple_dist,3.259,experiments/e027_simple_syllables.py,outside|no strict match
+2026-10-20,E027,segmentation/S1,prereg=93b2af885584,voynich_DEV,nearest_simple_dist,2.683,experiments/e027_simple_syllables.py,outside|no strict match
+2026-10-20,E027,segmentation/S2,prereg=93b2af885584,voynich_DEV,nearest_simple_dist,2.259,experiments/e027_simple_syllables.py,INSIDE|no strict match
+2026-10-20,E027,segmentation/S3,prereg=93b2af885584,voynich_DEV,nearest_simple_dist,2.169,experiments/e027_simple_syllables.py,INSIDE|no strict match
+2026-10-20,E027,verdict,prereg=93b2af885584,voynich_DEV,verdict,0,experiments/e027_simple_syllables.py,RUNG 1 NOT EXCLUDED
