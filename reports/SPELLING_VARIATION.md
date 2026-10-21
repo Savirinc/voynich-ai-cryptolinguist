@@ -3,6 +3,8 @@
 Pre-registration: `reports/E035_PREREG.md` (sha256 6ae85f58…1ce3, locked before the run, commit 6f4ae11). Script
 `experiments/e035_spelling_variation.py`. Results: `experiments/results/e035.json`, `e035_run.log`.
 
+> **WITHDRAWN by E035b** (`SEED_REPLICATES.md`). With 10 fresh seeds the match came up only 1 time in 10. Hapax failed every time, and persistence failed 8 of 10. The factor was reversed in the ledger. The text below is kept as the record of the original run.
+
 ## Plain-language result
 **Indonesian, with one rule added (common words get spelled several ways, at random), matches Voynich on 8 of 9 word
 features.** Only one parameter was tuned, and only to get the number of distinct words right. The other matches were

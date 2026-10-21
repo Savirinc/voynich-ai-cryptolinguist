@@ -1,0 +1,11 @@
+rep  1 best indayt   fails ['type_hapax'] match True | indayt alpha 1.5 fails ['type_hapax'] PERS_30 z -2.93 hapax z +5.33
+rep  2 best indayt   fails ['PERS_30', 'type_hapax'] match False | indayt alpha 1.5 fails ['PERS_30', 'type_hapax'] PERS_30 z -3.24 hapax z +7.34
+rep  3 best indayt   fails ['PERS_30', 'type_hapax'] match False | indayt alpha 1.5 fails ['PERS_30', 'type_hapax'] PERS_30 z -3.34 hapax z +5.99
+rep  4 best indayt   fails ['PERS_30', 'COV_30', 'type_hapax'] match False | indayt alpha 1.5 fails ['PERS_30', 'COV_30', 'type_hapax'] PERS_30 z -3.40 hapax z +5.57
+rep  5 best indayt   fails ['PERS_30', 'COV_30', 'type_hapax'] match False | indayt alpha 1.5 fails ['PERS_30', 'COV_30', 'type_hapax'] PERS_30 z -3.32 hapax z +6.53
+rep  6 best indayt   fails ['PERS_30', 'type_hapax'] match False | indayt alpha 1.5 fails ['PERS_30', 'type_hapax'] PERS_30 z -3.57 hapax z +5.49
+rep  7 best indayt   fails ['COV_30', 'type_hapax'] match False | indayt alpha 1.5 fails ['COV_30', 'type_hapax'] PERS_30 z -2.84 hapax z +5.77
+rep  8 best swhulb   fails ['R', 'NR'] match False | indayt alpha 1.5 fails ['PERS_30', 'COV_30', 'type_hapax'] PERS_30 z -3.54 hapax z +5.48
+rep  9 best indayt   fails ['PERS_30', 'type_hapax'] match False | indayt alpha 1.5 fails ['PERS_30', 'type_hapax'] PERS_30 z -3.20 hapax z +5.93
+rep 10 best indayt   fails ['PERS_30', 'type_hapax'] match False | indayt alpha 1.5 fails ['PERS_30', 'type_hapax'] PERS_30 z -3.17 hapax z +5.76
+matches 1/10 | NOT REPLICATED {'L': 0.1, 'C': 0.3333333333333333}

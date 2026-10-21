@@ -153,3 +153,15 @@ vocabulary and its flat Zipf head.
 - **What this narrows.** The working picture is now a text in a language with word doubling, written with free,
   unstandardised spelling, or something with the same statistics (C, via glyph homophones). This describes the
   *kind* of writing, not its content.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-21 | E035b seed replicates of E035 (`SEED_REPLICATES.md`) | NOT REPLICATED: 1 of 10 replicates match. Indonesian fails hapax in 10 of 10 and PERS_30 in 8 of 10 | correction L × 1/10, C × 1/3 (E035 withdrawn) | 0.054 | 0.868 | 0.069 | 0.009 |
+
+**After E035b.**
+- E035's match was a lucky seed, and its factor is withdrawn. The ledger is back to its post-E034 state.
+- **Kept as an unscored observation:** spelling variation on a doubling language reproduces the flat Zipf head and
+  the near-copies in every run.
+- **Still unmatched:** Voynich's high share of words seen once (0.68) combined with low persistence (0.26).
+- **Lesson for the method:** any result that passes by less than about 0.5 sd gets a seed-replicate check before it
+  is scored.

@@ -1,0 +1,2763 @@
+{
+ "experiment": "E035b",
+ "replicates": [
+  {
+   "rep": 1,
+   "fit_seed": 35101,
+   "eval_seed": 35601,
+   "V_NR": 2.092760180995475,
+   "texts": {
+    "latVUC": {
+     "alpha": 0,
+     "z": {
+      "R": 49.25,
+      "types": -0.59,
+      "I_word": 0.21,
+      "top_word": -0.94,
+      "PERS_30": -1.87,
+      "COV_30": -0.91,
+      "type_hapax": 1.91,
+      "zipf_slope": 4.01,
+      "NR": 18.99
+     },
+     "fail": [
+      "R",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "eng-kjv": {
+     "alpha": 3.0,
+     "z": {
+      "R": 48.51,
+      "types": -0.06,
+      "I_word": 3.21,
+      "top_word": 1.74,
+      "PERS_30": -4.83,
+      "COV_30": -3.75,
+      "type_hapax": 4.02,
+      "zipf_slope": 1.39,
+      "NR": 26.21
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "indayt": {
+     "alpha": 1.5,
+     "z": {
+      "R": -0.16,
+      "types": -0.11,
+      "I_word": 1.03,
+      "top_word": 0.48,
+      "PERS_30": -2.93,
+      "COV_30": -2.6,
+      "type_hapax": 5.33,
+      "zipf_slope": 1.03,
+      "NR": 0.16
+     },
+     "fail": [
+      "type_hapax"
+     ]
+    },
+    "zlmKSZI": {
+     "alpha": 1.25,
+     "z": {
+      "R": 9.5,
+      "types": 0.21,
+      "I_word": 2.76,
+      "top_word": 1.3,
+      "PERS_30": -4.0,
+      "COV_30": -3.77,
+      "type_hapax": 6.92,
+      "zipf_slope": 2.1,
+      "NR": 2.96
+     },
+     "fail": [
+      "R",
+      "PERS_30",
+      "COV_30",
+      "type_hapax"
+     ]
+    },
+    "tglulb": {
+     "alpha": 2.5,
+     "z": {
+      "R": 48.68,
+      "types": -0.3,
+      "I_word": 3.75,
+      "top_word": 1.12,
+      "PERS_30": -9.11,
+      "COV_30": -3.89,
+      "type_hapax": 1.75,
+      "zipf_slope": 3.66,
+      "NR": 34.36
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "PERS_30",
+      "COV_30",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "cebulb": {
+     "alpha": 2.5,
+     "z": {
+      "R": 49.22,
+      "types": 0.28,
+      "I_word": 2.66,
+      "top_word": 0.73,
+      "PERS_30": -4.55,
+      "COV_30": -3.7,
+      "type_hapax": 2.36,
+      "zipf_slope": 3.55,
+      "NR": 18.89
+     },
+     "fail": [
+      "R",
+      "PERS_30",
+      "COV_30",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "swhulb": {
+     "alpha": 0.2,
+     "z": {
+      "R": 46.58,
+      "types": 0.14,
+      "I_word": -0.25,
+      "top_word": -0.98,
+      "PERS_30": -2.14,
+      "COV_30": -0.55,
+      "type_hapax": 0.62,
+      "zipf_slope": 3.19,
+      "NR": 14.57
+     },
+     "fail": [
+      "R",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "yor": {
+     "alpha": 5.0,
+     "z": {
+      "R": 14.91,
+      "types": 1.32,
+      "I_word": 4.57,
+      "top_word": 3.45,
+      "PERS_30": -5.76,
+      "COV_30": -4.2,
+      "type_hapax": 4.65,
+      "zipf_slope": -1.98,
+      "NR": 10.03
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "hausa": {
+     "alpha": 2.5,
+     "z": {
+      "R": 17.21,
+      "types": 0.1,
+      "I_word": 2.87,
+      "top_word": 1.25,
+      "PERS_30": -4.75,
+      "COV_30": -3.84,
+      "type_hapax": 5.18,
+      "zipf_slope": 2.12,
+      "NR": 16.3
+     },
+     "fail": [
+      "R",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "haw1868": {
+     "alpha": 5.0,
+     "z": {
+      "R": 24.84,
+      "types": 14.67,
+      "I_word": 12.83,
+      "top_word": 5.53,
+      "PERS_30": -21.16,
+      "COV_30": -4.36,
+      "type_hapax": 9.27,
+      "zipf_slope": 3.93,
+      "NR": 20.0
+     },
+     "fail": [
+      "R",
+      "types",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "ton": {
+     "alpha": 5.0,
+     "z": {
+      "R": 25.57,
+      "types": 6.24,
+      "I_word": 8.46,
+      "top_word": 4.3,
+      "PERS_30": -10.54,
+      "COV_30": -4.5,
+      "type_hapax": 5.71,
+      "zipf_slope": 1.71,
+      "NR": 20.81
+     },
+     "fail": [
+      "R",
+      "types",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "mri2012": {
+     "alpha": 5.0,
+     "z": {
+      "R": 13.73,
+      "types": 3.26,
+      "I_word": 10.67,
+      "top_word": 6.69,
+      "PERS_30": -28.4,
+      "COV_30": -4.52,
+      "type_hapax": 4.55,
+      "zipf_slope": 2.92,
+      "NR": 23.46
+     },
+     "fail": [
+      "R",
+      "types",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    }
+   },
+   "best": "indayt",
+   "best_fails": [
+    "type_hapax"
+   ],
+   "match": true
+  },
+  {
+   "rep": 2,
+   "fit_seed": 35102,
+   "eval_seed": 35602,
+   "V_NR": 2.0464601769911503,
+   "texts": {
+    "latVUC": {
+     "alpha": 0,
+     "z": {
+      "R": 49.25,
+      "types": -0.59,
+      "I_word": 0.21,
+      "top_word": -0.94,
+      "PERS_30": -1.87,
+      "COV_30": -0.91,
+      "type_hapax": 1.91,
+      "zipf_slope": 4.01,
+      "NR": 19.45
+     },
+     "fail": [
+      "R",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "eng-kjv": {
+     "alpha": 3.0,
+     "z": {
+      "R": 48.89,
+      "types": -0.02,
+      "I_word": 3.23,
+      "top_word": 2.02,
+      "PERS_30": -5.27,
+      "COV_30": -3.86,
+      "type_hapax": 3.68,
+      "zipf_slope": 1.52,
+      "NR": 35.74
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "indayt": {
+     "alpha": 1.5,
+     "z": {
+      "R": 0.17,
+      "types": -0.14,
+      "I_word": 1.12,
+      "top_word": 0.53,
+      "PERS_30": -3.24,
+      "COV_30": -2.81,
+      "type_hapax": 7.34,
+      "zipf_slope": 1.09,
+      "NR": -0.11
+     },
+     "fail": [
+      "PERS_30",
+      "type_hapax"
+     ]
+    },
+    "zlmKSZI": {
+     "alpha": 1.25,
+     "z": {
+      "R": 3.76,
+      "types": 0.22,
+      "I_word": 2.7,
+      "top_word": 1.69,
+      "PERS_30": -4.52,
+      "COV_30": -3.55,
+      "type_hapax": 7.45,
+      "zipf_slope": 0.43,
+      "NR": 1.68
+     },
+     "fail": [
+      "R",
+      "PERS_30",
+      "COV_30",
+      "type_hapax"
+     ]
+    },
+    "tglulb": {
+     "alpha": 2.5,
+     "z": {
+      "R": 48.67,
+      "types": -0.3,
+      "I_word": 3.81,
+      "top_word": 1.35,
+      "PERS_30": -8.92,
+      "COV_30": -3.84,
+      "type_hapax": 1.72,
+      "zipf_slope": 3.87,
+      "NR": 25.05
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "PERS_30",
+      "COV_30",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "cebulb": {
+     "alpha": 2.5,
+     "z": {
+      "R": 49.1,
+      "types": 0.34,
+      "I_word": 2.61,
+      "top_word": 0.82,
+      "PERS_30": -6.67,
+      "COV_30": -3.75,
+      "type_hapax": 2.48,
+      "zipf_slope": 3.56,
+      "NR": 23.28
+     },
+     "fail": [
+      "R",
+      "PERS_30",
+      "COV_30",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "swhulb": {
+     "alpha": 0.2,
+     "z": {
+      "R": 46.52,
+      "types": 0.12,
+      "I_word": -0.25,
+      "top_word": -0.94,
+      "PERS_30": -2.53,
+      "COV_30": -0.62,
+      "type_hapax": 0.69,
+      "zipf_slope": 3.73,
+      "NR": 10.74
+     },
+     "fail": [
+      "R",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "yor": {
+     "alpha": 5.0,
+     "z": {
+      "R": 8.39,
+      "types": 1.22,
+      "I_word": 4.57,
+      "top_word": 3.61,
+      "PERS_30": -5.48,
+      "COV_30": -4.3,
+      "type_hapax": 4.1,
+      "zipf_slope": -1.73,
+      "NR": 9.68
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "hausa": {
+     "alpha": 2.5,
+     "z": {
+      "R": 39.8,
+      "types": 0.13,
+      "I_word": 2.87,
+      "top_word": 1.28,
+      "PERS_30": -5.59,
+      "COV_30": -3.93,
+      "type_hapax": 4.98,
+      "zipf_slope": 1.71,
+      "NR": 31.05
+     },
+     "fail": [
+      "R",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "haw1868": {
+     "alpha": 5.0,
+     "z": {
+      "R": 18.11,
+      "types": 17.83,
+      "I_word": 12.77,
+      "top_word": 5.72,
+      "PERS_30": -13.96,
+      "COV_30": -4.48,
+      "type_hapax": 8.8,
+      "zipf_slope": 3.25,
+      "NR": 20.32
+     },
+     "fail": [
+      "R",
+      "types",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "ton": {
+     "alpha": 5.0,
+     "z": {
+      "R": 28.11,
+      "types": 6.66,
+      "I_word": 8.94,
+      "top_word": 4.96,
+      "PERS_30": -10.46,
+      "COV_30": -4.52,
+      "type_hapax": 5.12,
+      "zipf_slope": 2.28,
+      "NR": 18.33
+     },
+     "fail": [
+      "R",
+      "types",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "mri2012": {
+     "alpha": 5.0,
+     "z": {
+      "R": 45.57,
+      "types": 3.65,
+      "I_word": 10.6,
+      "top_word": 6.52,
+      "PERS_30": -14.53,
+      "COV_30": -4.48,
+      "type_hapax": 5.56,
+      "zipf_slope": 7.27,
+      "NR": 29.13
+     },
+     "fail": [
+      "R",
+      "types",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "zipf_slope",
+      "NR"
+     ]
+    }
+   },
+   "best": "indayt",
+   "best_fails": [
+    "PERS_30",
+    "type_hapax"
+   ],
+   "match": false
+  },
+  {
+   "rep": 3,
+   "fit_seed": 35103,
+   "eval_seed": 35603,
+   "V_NR": 2.0889792231255644,
+   "texts": {
+    "latVUC": {
+     "alpha": 0,
+     "z": {
+      "R": 49.25,
+      "types": -0.59,
+      "I_word": 0.21,
+      "top_word": -0.94,
+      "PERS_30": -1.87,
+      "COV_30": -0.91,
+      "type_hapax": 1.91,
+      "zipf_slope": 4.01,
+      "NR": 19.97
+     },
+     "fail": [
+      "R",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "eng-kjv": {
+     "alpha": 3.0,
+     "z": {
+      "R": 49.04,
+      "types": -0.04,
+      "I_word": 3.49,
+      "top_word": 2.24,
+      "PERS_30": -4.68,
+      "COV_30": -3.24,
+      "type_hapax": 3.62,
+      "zipf_slope": 1.24,
+      "NR": 17.55
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "indayt": {
+     "alpha": 1.5,
+     "z": {
+      "R": -0.29,
+      "types": -0.1,
+      "I_word": 1.07,
+      "top_word": 0.55,
+      "PERS_30": -3.34,
+      "COV_30": -2.95,
+      "type_hapax": 5.99,
+      "zipf_slope": 0.8,
+      "NR": 0.12
+     },
+     "fail": [
+      "PERS_30",
+      "type_hapax"
+     ]
+    },
+    "zlmKSZI": {
+     "alpha": 1.25,
+     "z": {
+      "R": 4.9,
+      "types": 0.24,
+      "I_word": 2.54,
+      "top_word": 1.32,
+      "PERS_30": -4.3,
+      "COV_30": -3.77,
+      "type_hapax": 7.58,
+      "zipf_slope": 2.94,
+      "NR": 6.19
+     },
+     "fail": [
+      "R",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "tglulb": {
+     "alpha": 2.5,
+     "z": {
+      "R": 48.74,
+      "types": -0.35,
+      "I_word": 3.79,
+      "top_word": 1.44,
+      "PERS_30": -10.56,
+      "COV_30": -3.82,
+      "type_hapax": 1.68,
+      "zipf_slope": 3.94,
+      "NR": 41.47
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "PERS_30",
+      "COV_30",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "cebulb": {
+     "alpha": 2.5,
+     "z": {
+      "R": 49.09,
+      "types": 0.32,
+      "I_word": 2.84,
+      "top_word": 0.78,
+      "PERS_30": -7.4,
+      "COV_30": -4.11,
+      "type_hapax": 2.21,
+      "zipf_slope": 3.05,
+      "NR": 28.14
+     },
+     "fail": [
+      "R",
+      "PERS_30",
+      "COV_30",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "swhulb": {
+     "alpha": 0.2,
+     "z": {
+      "R": 41.48,
+      "types": 0.14,
+      "I_word": -0.25,
+      "top_word": -0.98,
+      "PERS_30": -2.47,
+      "COV_30": -0.55,
+      "type_hapax": 0.72,
+      "zipf_slope": 4.97,
+      "NR": 21.46
+     },
+     "fail": [
+      "R",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "yor": {
+     "alpha": 5.0,
+     "z": {
+      "R": 5.91,
+      "types": 1.29,
+      "I_word": 4.32,
+      "top_word": 3.71,
+      "PERS_30": -6.76,
+      "COV_30": -4.32,
+      "type_hapax": 3.79,
+      "zipf_slope": -3.44,
+      "NR": 16.85
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "hausa": {
+     "alpha": 2.5,
+     "z": {
+      "R": 22.41,
+      "types": 0.17,
+      "I_word": 2.79,
+      "top_word": 1.23,
+      "PERS_30": -5.28,
+      "COV_30": -3.7,
+      "type_hapax": 6.0,
+      "zipf_slope": 3.04,
+      "NR": 28.21
+     },
+     "fail": [
+      "R",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "haw1868": {
+     "alpha": 5.0,
+     "z": {
+      "R": 29.66,
+      "types": 16.11,
+      "I_word": 11.63,
+      "top_word": 4.62,
+      "PERS_30": -14.97,
+      "COV_30": -4.36,
+      "type_hapax": 8.81,
+      "zipf_slope": 6.17,
+      "NR": 32.02
+     },
+     "fail": [
+      "R",
+      "types",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "ton": {
+     "alpha": 5.0,
+     "z": {
+      "R": 11.71,
+      "types": 6.37,
+      "I_word": 8.98,
+      "top_word": 5.17,
+      "PERS_30": -10.65,
+      "COV_30": -4.5,
+      "type_hapax": 5.68,
+      "zipf_slope": 1.74,
+      "NR": 30.06
+     },
+     "fail": [
+      "R",
+      "types",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "mri2012": {
+     "alpha": 5.0,
+     "z": {
+      "R": 18.57,
+      "types": 3.69,
+      "I_word": 11.17,
+      "top_word": 6.57,
+      "PERS_30": -15.14,
+      "COV_30": -4.43,
+      "type_hapax": 6.49,
+      "zipf_slope": 3.74,
+      "NR": 22.37
+     },
+     "fail": [
+      "R",
+      "types",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "zipf_slope",
+      "NR"
+     ]
+    }
+   },
+   "best": "indayt",
+   "best_fails": [
+    "PERS_30",
+    "type_hapax"
+   ],
+   "match": false
+  },
+  {
+   "rep": 4,
+   "fit_seed": 35104,
+   "eval_seed": 35604,
+   "V_NR": 2.071204657411554,
+   "texts": {
+    "latVUC": {
+     "alpha": 0,
+     "z": {
+      "R": 49.25,
+      "types": -0.59,
+      "I_word": 0.21,
+      "top_word": -0.94,
+      "PERS_30": -1.87,
+      "COV_30": -0.91,
+      "type_hapax": 1.91,
+      "zipf_slope": 4.01,
+      "NR": 20.17
+     },
+     "fail": [
+      "R",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "eng-kjv": {
+     "alpha": 3.0,
+     "z": {
+      "R": 49.11,
+      "types": -0.05,
+      "I_word": 3.29,
+      "top_word": 2.14,
+      "PERS_30": -5.27,
+      "COV_30": -3.82,
+      "type_hapax": 3.84,
+      "zipf_slope": 1.16,
+      "NR": 17.56
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "indayt": {
+     "alpha": 1.5,
+     "z": {
+      "R": 0.02,
+      "types": -0.09,
+      "I_word": 1.08,
+      "top_word": 0.51,
+      "PERS_30": -3.4,
+      "COV_30": -3.2,
+      "type_hapax": 5.57,
+      "zipf_slope": 0.95,
+      "NR": 0.08
+     },
+     "fail": [
+      "PERS_30",
+      "COV_30",
+      "type_hapax"
+     ]
+    },
+    "zlmKSZI": {
+     "alpha": 1.25,
+     "z": {
+      "R": 1.74,
+      "types": 0.24,
+      "I_word": 2.28,
+      "top_word": 1.26,
+      "PERS_30": -4.85,
+      "COV_30": -3.73,
+      "type_hapax": 7.2,
+      "zipf_slope": 0.27,
+      "NR": 1.27
+     },
+     "fail": [
+      "PERS_30",
+      "COV_30",
+      "type_hapax"
+     ]
+    },
+    "tglulb": {
+     "alpha": 2.5,
+     "z": {
+      "R": 48.71,
+      "types": -0.33,
+      "I_word": 3.48,
+      "top_word": 1.2,
+      "PERS_30": -8.08,
+      "COV_30": -4.02,
+      "type_hapax": 1.66,
+      "zipf_slope": 4.91,
+      "NR": 29.42
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "PERS_30",
+      "COV_30",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "cebulb": {
+     "alpha": 2.5,
+     "z": {
+      "R": 49.32,
+      "types": 0.3,
+      "I_word": 2.67,
+      "top_word": 0.87,
+      "PERS_30": -8.09,
+      "COV_30": -3.89,
+      "type_hapax": 2.57,
+      "zipf_slope": 3.65,
+      "NR": 29.82
+     },
+     "fail": [
+      "R",
+      "PERS_30",
+      "COV_30",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "swhulb": {
+     "alpha": 0.2,
+     "z": {
+      "R": 37.45,
+      "types": 0.13,
+      "I_word": -0.24,
+      "top_word": -0.92,
+      "PERS_30": -2.39,
+      "COV_30": -0.65,
+      "type_hapax": 0.65,
+      "zipf_slope": 3.72,
+      "NR": 23.75
+     },
+     "fail": [
+      "R",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "yor": {
+     "alpha": 5.0,
+     "z": {
+      "R": 6.69,
+      "types": 1.23,
+      "I_word": 4.9,
+      "top_word": 3.64,
+      "PERS_30": -5.64,
+      "COV_30": -4.3,
+      "type_hapax": 4.35,
+      "zipf_slope": -3.37,
+      "NR": 10.89
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "hausa": {
+     "alpha": 2.5,
+     "z": {
+      "R": 19.88,
+      "types": 0.14,
+      "I_word": 2.97,
+      "top_word": 1.56,
+      "PERS_30": -5.47,
+      "COV_30": -3.7,
+      "type_hapax": 4.82,
+      "zipf_slope": 2.46,
+      "NR": 20.43
+     },
+     "fail": [
+      "R",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "haw1868": {
+     "alpha": 5.0,
+     "z": {
+      "R": 17.56,
+      "types": 12.56,
+      "I_word": 12.13,
+      "top_word": 5.95,
+      "PERS_30": -11.61,
+      "COV_30": -4.39,
+      "type_hapax": 9.02,
+      "zipf_slope": 6.03,
+      "NR": 29.13
+     },
+     "fail": [
+      "R",
+      "types",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "ton": {
+     "alpha": 5.0,
+     "z": {
+      "R": 26.78,
+      "types": 7.35,
+      "I_word": 8.28,
+      "top_word": 5.13,
+      "PERS_30": -12.85,
+      "COV_30": -4.52,
+      "type_hapax": 5.52,
+      "zipf_slope": 3.05,
+      "NR": 24.52
+     },
+     "fail": [
+      "R",
+      "types",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "mri2012": {
+     "alpha": 5.0,
+     "z": {
+      "R": 33.01,
+      "types": 3.36,
+      "I_word": 10.33,
+      "top_word": 5.47,
+      "PERS_30": -14.75,
+      "COV_30": -4.52,
+      "type_hapax": 6.99,
+      "zipf_slope": 2.3,
+      "NR": 22.8
+     },
+     "fail": [
+      "R",
+      "types",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    }
+   },
+   "best": "indayt",
+   "best_fails": [
+    "PERS_30",
+    "COV_30",
+    "type_hapax"
+   ],
+   "match": false
+  },
+  {
+   "rep": 5,
+   "fit_seed": 35105,
+   "eval_seed": 35605,
+   "V_NR": 2.037444933920705,
+   "texts": {
+    "latVUC": {
+     "alpha": 0,
+     "z": {
+      "R": 49.25,
+      "types": -0.59,
+      "I_word": 0.21,
+      "top_word": -0.94,
+      "PERS_30": -1.87,
+      "COV_30": -0.91,
+      "type_hapax": 1.91,
+      "zipf_slope": 4.01,
+      "NR": 18.62
+     },
+     "fail": [
+      "R",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "eng-kjv": {
+     "alpha": 3.0,
+     "z": {
+      "R": 47.08,
+      "types": -0.0,
+      "I_word": 3.12,
+      "top_word": 1.94,
+      "PERS_30": -4.72,
+      "COV_30": -2.8,
+      "type_hapax": 4.27,
+      "zipf_slope": 1.27,
+      "NR": 19.58
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "PERS_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "indayt": {
+     "alpha": 1.5,
+     "z": {
+      "R": -0.28,
+      "types": -0.12,
+      "I_word": 1.09,
+      "top_word": 0.56,
+      "PERS_30": -3.32,
+      "COV_30": -3.23,
+      "type_hapax": 6.53,
+      "zipf_slope": 0.94,
+      "NR": -0.03
+     },
+     "fail": [
+      "PERS_30",
+      "COV_30",
+      "type_hapax"
+     ]
+    },
+    "zlmKSZI": {
+     "alpha": 1.25,
+     "z": {
+      "R": 2.04,
+      "types": 0.15,
+      "I_word": 2.63,
+      "top_word": 1.27,
+      "PERS_30": -5.33,
+      "COV_30": -3.68,
+      "type_hapax": 7.56,
+      "zipf_slope": 0.58,
+      "NR": 3.65
+     },
+     "fail": [
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "tglulb": {
+     "alpha": 2.5,
+     "z": {
+      "R": 48.88,
+      "types": -0.31,
+      "I_word": 3.68,
+      "top_word": 1.19,
+      "PERS_30": -9.67,
+      "COV_30": -4.0,
+      "type_hapax": 1.93,
+      "zipf_slope": 4.06,
+      "NR": 30.58
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "PERS_30",
+      "COV_30",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "cebulb": {
+     "alpha": 2.5,
+     "z": {
+      "R": 48.98,
+      "types": 0.34,
+      "I_word": 2.68,
+      "top_word": 0.77,
+      "PERS_30": -7.53,
+      "COV_30": -3.66,
+      "type_hapax": 2.83,
+      "zipf_slope": 3.1,
+      "NR": 27.96
+     },
+     "fail": [
+      "R",
+      "PERS_30",
+      "COV_30",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "swhulb": {
+     "alpha": 0.2,
+     "z": {
+      "R": 46.42,
+      "types": 0.15,
+      "I_word": -0.26,
+      "top_word": -0.95,
+      "PERS_30": -2.4,
+      "COV_30": -0.58,
+      "type_hapax": 0.79,
+      "zipf_slope": 4.22,
+      "NR": 15.09
+     },
+     "fail": [
+      "R",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "yor": {
+     "alpha": 5.0,
+     "z": {
+      "R": 16.7,
+      "types": 1.27,
+      "I_word": 5.0,
+      "top_word": 3.74,
+      "PERS_30": -4.88,
+      "COV_30": -4.18,
+      "type_hapax": 4.16,
+      "zipf_slope": -2.04,
+      "NR": 10.99
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "hausa": {
+     "alpha": 2.5,
+     "z": {
+      "R": 34.91,
+      "types": 0.14,
+      "I_word": 2.78,
+      "top_word": 1.45,
+      "PERS_30": -5.3,
+      "COV_30": -3.82,
+      "type_hapax": 4.94,
+      "zipf_slope": 3.67,
+      "NR": 27.82
+     },
+     "fail": [
+      "R",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "haw1868": {
+     "alpha": 5.0,
+     "z": {
+      "R": 15.86,
+      "types": 15.07,
+      "I_word": 12.36,
+      "top_word": 6.07,
+      "PERS_30": -19.31,
+      "COV_30": -4.45,
+      "type_hapax": 9.1,
+      "zipf_slope": 4.73,
+      "NR": 18.18
+     },
+     "fail": [
+      "R",
+      "types",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "ton": {
+     "alpha": 5.0,
+     "z": {
+      "R": 15.63,
+      "types": 6.22,
+      "I_word": 8.64,
+      "top_word": 4.93,
+      "PERS_30": -12.21,
+      "COV_30": -4.5,
+      "type_hapax": 5.76,
+      "zipf_slope": 1.94,
+      "NR": 18.75
+     },
+     "fail": [
+      "R",
+      "types",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "mri2012": {
+     "alpha": 5.0,
+     "z": {
+      "R": 18.9,
+      "types": 3.44,
+      "I_word": 11.6,
+      "top_word": 7.29,
+      "PERS_30": -12.19,
+      "COV_30": -4.41,
+      "type_hapax": 5.61,
+      "zipf_slope": 3.68,
+      "NR": 23.32
+     },
+     "fail": [
+      "R",
+      "types",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "zipf_slope",
+      "NR"
+     ]
+    }
+   },
+   "best": "indayt",
+   "best_fails": [
+    "PERS_30",
+    "COV_30",
+    "type_hapax"
+   ],
+   "match": false
+  },
+  {
+   "rep": 6,
+   "fit_seed": 35106,
+   "eval_seed": 35606,
+   "V_NR": 2.0509977827051,
+   "texts": {
+    "latVUC": {
+     "alpha": 0,
+     "z": {
+      "R": 49.25,
+      "types": -0.59,
+      "I_word": 0.21,
+      "top_word": -0.94,
+      "PERS_30": -1.87,
+      "COV_30": -0.91,
+      "type_hapax": 1.91,
+      "zipf_slope": 4.01,
+      "NR": 17.66
+     },
+     "fail": [
+      "R",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "eng-kjv": {
+     "alpha": 3.0,
+     "z": {
+      "R": 48.84,
+      "types": -0.05,
+      "I_word": 3.31,
+      "top_word": 1.95,
+      "PERS_30": -6.43,
+      "COV_30": -3.86,
+      "type_hapax": 3.51,
+      "zipf_slope": 1.17,
+      "NR": 16.25
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "indayt": {
+     "alpha": 1.5,
+     "z": {
+      "R": 0.03,
+      "types": -0.11,
+      "I_word": 1.01,
+      "top_word": 0.46,
+      "PERS_30": -3.57,
+      "COV_30": -2.77,
+      "type_hapax": 5.49,
+      "zipf_slope": 1.39,
+      "NR": -0.06
+     },
+     "fail": [
+      "PERS_30",
+      "type_hapax"
+     ]
+    },
+    "zlmKSZI": {
+     "alpha": 1.25,
+     "z": {
+      "R": 3.06,
+      "types": 0.23,
+      "I_word": 2.56,
+      "top_word": 1.23,
+      "PERS_30": -5.78,
+      "COV_30": -3.82,
+      "type_hapax": 7.64,
+      "zipf_slope": 0.55,
+      "NR": 0.97
+     },
+     "fail": [
+      "R",
+      "PERS_30",
+      "COV_30",
+      "type_hapax"
+     ]
+    },
+    "tglulb": {
+     "alpha": 2.5,
+     "z": {
+      "R": 48.74,
+      "types": -0.29,
+      "I_word": 3.59,
+      "top_word": 1.15,
+      "PERS_30": -10.36,
+      "COV_30": -3.93,
+      "type_hapax": 2.05,
+      "zipf_slope": 2.94,
+      "NR": 32.64
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "PERS_30",
+      "COV_30",
+      "NR"
+     ]
+    },
+    "cebulb": {
+     "alpha": 2.5,
+     "z": {
+      "R": 48.83,
+      "types": 0.3,
+      "I_word": 2.69,
+      "top_word": 0.94,
+      "PERS_30": -5.19,
+      "COV_30": -3.59,
+      "type_hapax": 2.42,
+      "zipf_slope": 1.84,
+      "NR": 20.95
+     },
+     "fail": [
+      "R",
+      "PERS_30",
+      "COV_30",
+      "NR"
+     ]
+    },
+    "swhulb": {
+     "alpha": 0.2,
+     "z": {
+      "R": 40.84,
+      "types": 0.14,
+      "I_word": -0.25,
+      "top_word": -0.96,
+      "PERS_30": -2.13,
+      "COV_30": -0.47,
+      "type_hapax": 0.73,
+      "zipf_slope": 3.41,
+      "NR": 20.65
+     },
+     "fail": [
+      "R",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "yor": {
+     "alpha": 5.0,
+     "z": {
+      "R": 13.16,
+      "types": 1.28,
+      "I_word": 4.63,
+      "top_word": 3.76,
+      "PERS_30": -6.1,
+      "COV_30": -4.32,
+      "type_hapax": 4.25,
+      "zipf_slope": -2.41,
+      "NR": 12.99
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "hausa": {
+     "alpha": 2.5,
+     "z": {
+      "R": 19.54,
+      "types": 0.13,
+      "I_word": 3.12,
+      "top_word": 1.51,
+      "PERS_30": -5.62,
+      "COV_30": -3.8,
+      "type_hapax": 5.03,
+      "zipf_slope": 1.46,
+      "NR": 19.29
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "haw1868": {
+     "alpha": 5.0,
+     "z": {
+      "R": 20.56,
+      "types": 15.46,
+      "I_word": 13.18,
+      "top_word": 7.19,
+      "PERS_30": -14.0,
+      "COV_30": -4.48,
+      "type_hapax": 8.98,
+      "zipf_slope": 3.1,
+      "NR": 29.12
+     },
+     "fail": [
+      "R",
+      "types",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "ton": {
+     "alpha": 5.0,
+     "z": {
+      "R": 28.64,
+      "types": 6.85,
+      "I_word": 7.79,
+      "top_word": 3.98,
+      "PERS_30": -10.53,
+      "COV_30": -4.45,
+      "type_hapax": 6.51,
+      "zipf_slope": 1.63,
+      "NR": 23.14
+     },
+     "fail": [
+      "R",
+      "types",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "mri2012": {
+     "alpha": 5.0,
+     "z": {
+      "R": 23.06,
+      "types": 3.24,
+      "I_word": 10.61,
+      "top_word": 5.84,
+      "PERS_30": -11.44,
+      "COV_30": -4.34,
+      "type_hapax": 4.79,
+      "zipf_slope": 3.71,
+      "NR": 25.93
+     },
+     "fail": [
+      "R",
+      "types",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "zipf_slope",
+      "NR"
+     ]
+    }
+   },
+   "best": "indayt",
+   "best_fails": [
+    "PERS_30",
+    "type_hapax"
+   ],
+   "match": false
+  },
+  {
+   "rep": 7,
+   "fit_seed": 35107,
+   "eval_seed": 35607,
+   "V_NR": 2.063810798750558,
+   "texts": {
+    "latVUC": {
+     "alpha": 0,
+     "z": {
+      "R": 49.25,
+      "types": -0.59,
+      "I_word": 0.21,
+      "top_word": -0.94,
+      "PERS_30": -1.87,
+      "COV_30": -0.91,
+      "type_hapax": 1.91,
+      "zipf_slope": 4.01,
+      "NR": 19.33
+     },
+     "fail": [
+      "R",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "eng-kjv": {
+     "alpha": 3.0,
+     "z": {
+      "R": 48.22,
+      "types": -0.05,
+      "I_word": 3.22,
+      "top_word": 1.98,
+      "PERS_30": -5.11,
+      "COV_30": -3.93,
+      "type_hapax": 3.36,
+      "zipf_slope": 0.67,
+      "NR": 19.54
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "indayt": {
+     "alpha": 1.5,
+     "z": {
+      "R": -0.06,
+      "types": -0.09,
+      "I_word": 1.08,
+      "top_word": 0.45,
+      "PERS_30": -2.84,
+      "COV_30": -3.05,
+      "type_hapax": 5.77,
+      "zipf_slope": 1.24,
+      "NR": -0.23
+     },
+     "fail": [
+      "COV_30",
+      "type_hapax"
+     ]
+    },
+    "zlmKSZI": {
+     "alpha": 1.25,
+     "z": {
+      "R": 3.83,
+      "types": 0.12,
+      "I_word": 2.77,
+      "top_word": 1.48,
+      "PERS_30": -4.82,
+      "COV_30": -3.77,
+      "type_hapax": 7.45,
+      "zipf_slope": 0.65,
+      "NR": 3.58
+     },
+     "fail": [
+      "R",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "tglulb": {
+     "alpha": 2.5,
+     "z": {
+      "R": 48.86,
+      "types": -0.33,
+      "I_word": 3.68,
+      "top_word": 1.25,
+      "PERS_30": -10.54,
+      "COV_30": -4.09,
+      "type_hapax": 1.97,
+      "zipf_slope": 3.36,
+      "NR": 43.18
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "PERS_30",
+      "COV_30",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "cebulb": {
+     "alpha": 2.5,
+     "z": {
+      "R": 49.27,
+      "types": 0.39,
+      "I_word": 2.75,
+      "top_word": 0.87,
+      "PERS_30": -5.24,
+      "COV_30": -3.8,
+      "type_hapax": 2.2,
+      "zipf_slope": 2.57,
+      "NR": 27.28
+     },
+     "fail": [
+      "R",
+      "PERS_30",
+      "COV_30",
+      "NR"
+     ]
+    },
+    "swhulb": {
+     "alpha": 0.2,
+     "z": {
+      "R": 43.26,
+      "types": 0.15,
+      "I_word": -0.24,
+      "top_word": -0.9,
+      "PERS_30": -2.2,
+      "COV_30": -0.6,
+      "type_hapax": 0.7,
+      "zipf_slope": 3.57,
+      "NR": 14.14
+     },
+     "fail": [
+      "R",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "yor": {
+     "alpha": 5.0,
+     "z": {
+      "R": 14.83,
+      "types": 1.24,
+      "I_word": 4.5,
+      "top_word": 3.26,
+      "PERS_30": -6.19,
+      "COV_30": -4.23,
+      "type_hapax": 3.56,
+      "zipf_slope": -2.87,
+      "NR": 20.86
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "hausa": {
+     "alpha": 2.5,
+     "z": {
+      "R": 33.14,
+      "types": 0.18,
+      "I_word": 3.1,
+      "top_word": 1.68,
+      "PERS_30": -6.24,
+      "COV_30": -3.98,
+      "type_hapax": 5.88,
+      "zipf_slope": 1.87,
+      "NR": 21.4
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "haw1868": {
+     "alpha": 5.0,
+     "z": {
+      "R": 12.12,
+      "types": 15.9,
+      "I_word": 12.86,
+      "top_word": 6.27,
+      "PERS_30": -22.34,
+      "COV_30": -4.43,
+      "type_hapax": 8.84,
+      "zipf_slope": 3.32,
+      "NR": 21.91
+     },
+     "fail": [
+      "R",
+      "types",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "ton": {
+     "alpha": 5.0,
+     "z": {
+      "R": 41.07,
+      "types": 6.44,
+      "I_word": 8.19,
+      "top_word": 4.41,
+      "PERS_30": -14.15,
+      "COV_30": -4.55,
+      "type_hapax": 5.71,
+      "zipf_slope": 2.21,
+      "NR": 26.26
+     },
+     "fail": [
+      "R",
+      "types",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "mri2012": {
+     "alpha": 5.0,
+     "z": {
+      "R": 29.0,
+      "types": 3.3,
+      "I_word": 10.6,
+      "top_word": 6.36,
+      "PERS_30": -16.14,
+      "COV_30": -4.36,
+      "type_hapax": 6.01,
+      "zipf_slope": 3.08,
+      "NR": 21.34
+     },
+     "fail": [
+      "R",
+      "types",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "zipf_slope",
+      "NR"
+     ]
+    }
+   },
+   "best": "indayt",
+   "best_fails": [
+    "COV_30",
+    "type_hapax"
+   ],
+   "match": false
+  },
+  {
+   "rep": 8,
+   "fit_seed": 35108,
+   "eval_seed": 35608,
+   "V_NR": 2.0823953174245835,
+   "texts": {
+    "latVUC": {
+     "alpha": 0,
+     "z": {
+      "R": 49.25,
+      "types": -0.59,
+      "I_word": 0.21,
+      "top_word": -0.94,
+      "PERS_30": -1.87,
+      "COV_30": -0.91,
+      "type_hapax": 1.91,
+      "zipf_slope": 4.01,
+      "NR": 21.3
+     },
+     "fail": [
+      "R",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "eng-kjv": {
+     "alpha": 3.0,
+     "z": {
+      "R": 49.06,
+      "types": -0.03,
+      "I_word": 3.19,
+      "top_word": 1.88,
+      "PERS_30": -4.82,
+      "COV_30": -3.68,
+      "type_hapax": 3.78,
+      "zipf_slope": 1.21,
+      "NR": 14.84
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "indayt": {
+     "alpha": 1.5,
+     "z": {
+      "R": -0.13,
+      "types": -0.12,
+      "I_word": 1.1,
+      "top_word": 0.61,
+      "PERS_30": -3.54,
+      "COV_30": -3.02,
+      "type_hapax": 5.48,
+      "zipf_slope": 1.09,
+      "NR": -0.18
+     },
+     "fail": [
+      "PERS_30",
+      "COV_30",
+      "type_hapax"
+     ]
+    },
+    "zlmKSZI": {
+     "alpha": 1.25,
+     "z": {
+      "R": 8.72,
+      "types": 0.23,
+      "I_word": 2.68,
+      "top_word": 1.71,
+      "PERS_30": -4.43,
+      "COV_30": -3.23,
+      "type_hapax": 7.62,
+      "zipf_slope": 1.13,
+      "NR": 2.35
+     },
+     "fail": [
+      "R",
+      "PERS_30",
+      "COV_30",
+      "type_hapax"
+     ]
+    },
+    "tglulb": {
+     "alpha": 2.5,
+     "z": {
+      "R": 48.65,
+      "types": -0.33,
+      "I_word": 3.96,
+      "top_word": 1.32,
+      "PERS_30": -8.22,
+      "COV_30": -3.84,
+      "type_hapax": 1.84,
+      "zipf_slope": 3.53,
+      "NR": 23.01
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "PERS_30",
+      "COV_30",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "cebulb": {
+     "alpha": 2.5,
+     "z": {
+      "R": 48.95,
+      "types": 0.35,
+      "I_word": 3.11,
+      "top_word": 0.9,
+      "PERS_30": -5.49,
+      "COV_30": -3.64,
+      "type_hapax": 2.49,
+      "zipf_slope": 3.12,
+      "NR": 24.02
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "PERS_30",
+      "COV_30",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "swhulb": {
+     "alpha": 0.2,
+     "z": {
+      "R": 42.15,
+      "types": 0.13,
+      "I_word": -0.23,
+      "top_word": -0.98,
+      "PERS_30": -2.14,
+      "COV_30": -0.59,
+      "type_hapax": 0.71,
+      "zipf_slope": 2.69,
+      "NR": 26.89
+     },
+     "fail": [
+      "R",
+      "NR"
+     ]
+    },
+    "yor": {
+     "alpha": 5.0,
+     "z": {
+      "R": 8.75,
+      "types": 1.25,
+      "I_word": 4.61,
+      "top_word": 3.22,
+      "PERS_30": -5.39,
+      "COV_30": -4.3,
+      "type_hapax": 3.98,
+      "zipf_slope": -2.88,
+      "NR": 12.03
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "hausa": {
+     "alpha": 2.5,
+     "z": {
+      "R": 16.68,
+      "types": 0.18,
+      "I_word": 2.96,
+      "top_word": 1.5,
+      "PERS_30": -6.88,
+      "COV_30": -3.61,
+      "type_hapax": 4.77,
+      "zipf_slope": 1.78,
+      "NR": 32.16
+     },
+     "fail": [
+      "R",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "haw1868": {
+     "alpha": 5.0,
+     "z": {
+      "R": 33.39,
+      "types": 15.22,
+      "I_word": 13.48,
+      "top_word": 5.72,
+      "PERS_30": -20.29,
+      "COV_30": -4.48,
+      "type_hapax": 8.68,
+      "zipf_slope": 3.99,
+      "NR": 31.85
+     },
+     "fail": [
+      "R",
+      "types",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "ton": {
+     "alpha": 5.0,
+     "z": {
+      "R": 13.96,
+      "types": 6.66,
+      "I_word": 8.82,
+      "top_word": 5.09,
+      "PERS_30": -14.22,
+      "COV_30": -4.55,
+      "type_hapax": 5.63,
+      "zipf_slope": 2.55,
+      "NR": 13.38
+     },
+     "fail": [
+      "R",
+      "types",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "mri2012": {
+     "alpha": 5.0,
+     "z": {
+      "R": 27.67,
+      "types": 3.27,
+      "I_word": 10.34,
+      "top_word": 6.36,
+      "PERS_30": -16.0,
+      "COV_30": -4.45,
+      "type_hapax": 6.96,
+      "zipf_slope": 4.82,
+      "NR": 23.32
+     },
+     "fail": [
+      "R",
+      "types",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "zipf_slope",
+      "NR"
+     ]
+    }
+   },
+   "best": "swhulb",
+   "best_fails": [
+    "R",
+    "NR"
+   ],
+   "match": false
+  },
+  {
+   "rep": 9,
+   "fit_seed": 35109,
+   "eval_seed": 35609,
+   "V_NR": 2.094655797101449,
+   "texts": {
+    "latVUC": {
+     "alpha": 0,
+     "z": {
+      "R": 49.25,
+      "types": -0.59,
+      "I_word": 0.21,
+      "top_word": -0.94,
+      "PERS_30": -1.87,
+      "COV_30": -0.91,
+      "type_hapax": 1.91,
+      "zipf_slope": 4.01,
+      "NR": 19.53
+     },
+     "fail": [
+      "R",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "eng-kjv": {
+     "alpha": 3.0,
+     "z": {
+      "R": 48.81,
+      "types": 0.02,
+      "I_word": 3.1,
+      "top_word": 1.8,
+      "PERS_30": -5.21,
+      "COV_30": -3.8,
+      "type_hapax": 3.96,
+      "zipf_slope": 1.55,
+      "NR": 25.85
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "indayt": {
+     "alpha": 1.5,
+     "z": {
+      "R": -0.12,
+      "types": -0.1,
+      "I_word": 1.06,
+      "top_word": 0.49,
+      "PERS_30": -3.2,
+      "COV_30": -2.66,
+      "type_hapax": 5.93,
+      "zipf_slope": 1.05,
+      "NR": -0.06
+     },
+     "fail": [
+      "PERS_30",
+      "type_hapax"
+     ]
+    },
+    "zlmKSZI": {
+     "alpha": 1.25,
+     "z": {
+      "R": 2.65,
+      "types": 0.1,
+      "I_word": 2.83,
+      "top_word": 1.43,
+      "PERS_30": -5.3,
+      "COV_30": -3.68,
+      "type_hapax": 6.27,
+      "zipf_slope": 0.31,
+      "NR": 5.13
+     },
+     "fail": [
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "tglulb": {
+     "alpha": 2.5,
+     "z": {
+      "R": 48.84,
+      "types": -0.28,
+      "I_word": 3.64,
+      "top_word": 1.33,
+      "PERS_30": -11.33,
+      "COV_30": -3.77,
+      "type_hapax": 2.01,
+      "zipf_slope": 3.79,
+      "NR": 30.67
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "PERS_30",
+      "COV_30",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "cebulb": {
+     "alpha": 2.5,
+     "z": {
+      "R": 48.96,
+      "types": 0.35,
+      "I_word": 2.62,
+      "top_word": 0.78,
+      "PERS_30": -6.02,
+      "COV_30": -3.68,
+      "type_hapax": 2.27,
+      "zipf_slope": 5.18,
+      "NR": 27.87
+     },
+     "fail": [
+      "R",
+      "PERS_30",
+      "COV_30",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "swhulb": {
+     "alpha": 0.2,
+     "z": {
+      "R": 44.16,
+      "types": 0.14,
+      "I_word": -0.23,
+      "top_word": -0.96,
+      "PERS_30": -2.35,
+      "COV_30": -0.55,
+      "type_hapax": 0.75,
+      "zipf_slope": 4.16,
+      "NR": 21.64
+     },
+     "fail": [
+      "R",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "yor": {
+     "alpha": 5.0,
+     "z": {
+      "R": 15.27,
+      "types": 1.27,
+      "I_word": 4.34,
+      "top_word": 3.62,
+      "PERS_30": -6.5,
+      "COV_30": -4.2,
+      "type_hapax": 3.79,
+      "zipf_slope": -1.73,
+      "NR": 10.27
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "hausa": {
+     "alpha": 2.5,
+     "z": {
+      "R": 19.45,
+      "types": 0.16,
+      "I_word": 2.83,
+      "top_word": 1.26,
+      "PERS_30": -5.75,
+      "COV_30": -3.7,
+      "type_hapax": 4.87,
+      "zipf_slope": 1.46,
+      "NR": 22.67
+     },
+     "fail": [
+      "R",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "haw1868": {
+     "alpha": 5.0,
+     "z": {
+      "R": 15.89,
+      "types": 14.99,
+      "I_word": 12.89,
+      "top_word": 5.12,
+      "PERS_30": -18.07,
+      "COV_30": -4.43,
+      "type_hapax": 9.04,
+      "zipf_slope": 3.76,
+      "NR": 26.1
+     },
+     "fail": [
+      "R",
+      "types",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "ton": {
+     "alpha": 5.0,
+     "z": {
+      "R": 13.1,
+      "types": 6.28,
+      "I_word": 9.32,
+      "top_word": 4.45,
+      "PERS_30": -12.7,
+      "COV_30": -4.43,
+      "type_hapax": 5.39,
+      "zipf_slope": 2.42,
+      "NR": 18.77
+     },
+     "fail": [
+      "R",
+      "types",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "mri2012": {
+     "alpha": 5.0,
+     "z": {
+      "R": 25.67,
+      "types": 3.39,
+      "I_word": 10.7,
+      "top_word": 6.73,
+      "PERS_30": -33.43,
+      "COV_30": -4.48,
+      "type_hapax": 6.64,
+      "zipf_slope": 3.01,
+      "NR": 24.97
+     },
+     "fail": [
+      "R",
+      "types",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "zipf_slope",
+      "NR"
+     ]
+    }
+   },
+   "best": "indayt",
+   "best_fails": [
+    "PERS_30",
+    "type_hapax"
+   ],
+   "match": false
+  },
+  {
+   "rep": 10,
+   "fit_seed": 35110,
+   "eval_seed": 35610,
+   "V_NR": 2.1032287403365166,
+   "texts": {
+    "latVUC": {
+     "alpha": 0,
+     "z": {
+      "R": 49.25,
+      "types": -0.59,
+      "I_word": 0.21,
+      "top_word": -0.94,
+      "PERS_30": -1.87,
+      "COV_30": -0.91,
+      "type_hapax": 1.91,
+      "zipf_slope": 4.01,
+      "NR": 19.17
+     },
+     "fail": [
+      "R",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "eng-kjv": {
+     "alpha": 3.0,
+     "z": {
+      "R": 48.85,
+      "types": -0.01,
+      "I_word": 3.23,
+      "top_word": 1.79,
+      "PERS_30": -5.72,
+      "COV_30": -3.86,
+      "type_hapax": 3.49,
+      "zipf_slope": 1.93,
+      "NR": 23.73
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "indayt": {
+     "alpha": 1.5,
+     "z": {
+      "R": 0.21,
+      "types": -0.14,
+      "I_word": 1.08,
+      "top_word": 0.52,
+      "PERS_30": -3.17,
+      "COV_30": -2.7,
+      "type_hapax": 5.76,
+      "zipf_slope": 1.43,
+      "NR": -0.25
+     },
+     "fail": [
+      "PERS_30",
+      "type_hapax"
+     ]
+    },
+    "zlmKSZI": {
+     "alpha": 1.25,
+     "z": {
+      "R": 1.83,
+      "types": 0.17,
+      "I_word": 2.53,
+      "top_word": 1.33,
+      "PERS_30": -5.71,
+      "COV_30": -3.59,
+      "type_hapax": 7.85,
+      "zipf_slope": 0.18,
+      "NR": 2.61
+     },
+     "fail": [
+      "PERS_30",
+      "COV_30",
+      "type_hapax"
+     ]
+    },
+    "tglulb": {
+     "alpha": 2.5,
+     "z": {
+      "R": 48.66,
+      "types": -0.33,
+      "I_word": 3.79,
+      "top_word": 1.24,
+      "PERS_30": -10.07,
+      "COV_30": -3.95,
+      "type_hapax": 1.78,
+      "zipf_slope": 3.2,
+      "NR": 35.46
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "PERS_30",
+      "COV_30",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "cebulb": {
+     "alpha": 2.5,
+     "z": {
+      "R": 49.11,
+      "types": 0.33,
+      "I_word": 2.94,
+      "top_word": 0.96,
+      "PERS_30": -5.61,
+      "COV_30": -3.52,
+      "type_hapax": 2.51,
+      "zipf_slope": 3.53,
+      "NR": 21.67
+     },
+     "fail": [
+      "R",
+      "PERS_30",
+      "COV_30",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "swhulb": {
+     "alpha": 0.2,
+     "z": {
+      "R": 46.56,
+      "types": 0.13,
+      "I_word": -0.26,
+      "top_word": -0.91,
+      "PERS_30": -2.13,
+      "COV_30": -0.55,
+      "type_hapax": 0.69,
+      "zipf_slope": 4.77,
+      "NR": 21.17
+     },
+     "fail": [
+      "R",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "yor": {
+     "alpha": 5.0,
+     "z": {
+      "R": 6.65,
+      "types": 1.3,
+      "I_word": 4.33,
+      "top_word": 3.42,
+      "PERS_30": -5.71,
+      "COV_30": -4.3,
+      "type_hapax": 4.09,
+      "zipf_slope": -1.56,
+      "NR": 11.87
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "hausa": {
+     "alpha": 2.5,
+     "z": {
+      "R": 24.49,
+      "types": 0.1,
+      "I_word": 3.17,
+      "top_word": 1.37,
+      "PERS_30": -6.75,
+      "COV_30": -3.86,
+      "type_hapax": 5.55,
+      "zipf_slope": 2.0,
+      "NR": 30.23
+     },
+     "fail": [
+      "R",
+      "I_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "haw1868": {
+     "alpha": 5.0,
+     "z": {
+      "R": 24.73,
+      "types": 17.52,
+      "I_word": 12.09,
+      "top_word": 4.95,
+      "PERS_30": -22.39,
+      "COV_30": -4.41,
+      "type_hapax": 9.17,
+      "zipf_slope": 4.08,
+      "NR": 32.55
+     },
+     "fail": [
+      "R",
+      "types",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "zipf_slope",
+      "NR"
+     ]
+    },
+    "ton": {
+     "alpha": 5.0,
+     "z": {
+      "R": 22.0,
+      "types": 7.01,
+      "I_word": 8.87,
+      "top_word": 5.12,
+      "PERS_30": -14.56,
+      "COV_30": -4.52,
+      "type_hapax": 6.39,
+      "zipf_slope": 2.06,
+      "NR": 18.3
+     },
+     "fail": [
+      "R",
+      "types",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "NR"
+     ]
+    },
+    "mri2012": {
+     "alpha": 5.0,
+     "z": {
+      "R": 36.78,
+      "types": 3.29,
+      "I_word": 11.28,
+      "top_word": 5.99,
+      "PERS_30": -11.92,
+      "COV_30": -4.39,
+      "type_hapax": 6.72,
+      "zipf_slope": 3.62,
+      "NR": 25.13
+     },
+     "fail": [
+      "R",
+      "types",
+      "I_word",
+      "top_word",
+      "PERS_30",
+      "COV_30",
+      "type_hapax",
+      "zipf_slope",
+      "NR"
+     ]
+    }
+   },
+   "best": "indayt",
+   "best_fails": [
+    "PERS_30",
+    "type_hapax"
+   ],
+   "match": false
+  }
+ ],
+ "n_match": 1,
+ "verdict": "NOT REPLICATED",
+ "bayes_factors_correction": {
+  "L": 0.1,
+  "C": 0.3333333333333333
+ },
+ "locked_test_excluded": [
+  "1",
+  "8",
+  "9",
+  "30",
+  "35",
+  "38",
+  "51",
+  "52",
+  "56",
+  "75",
+  "86",
+  "87",
+  "102",
+  "105",
+  "114"
+ ]
+}
