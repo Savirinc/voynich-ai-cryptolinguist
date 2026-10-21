@@ -20,3 +20,4 @@ external/neurodecipher_patches/vcl_patches.diff
 *.egg-info/
 Voynich\ /
 data/external/
+experiments/results/e032_work/
