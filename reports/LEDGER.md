@@ -118,3 +118,11 @@ not as "Voynich is probably a language".
 - Without the Czech primer (E031 fragility), the figures would be M 0.28, L 0.56, C 0.13, O 0.03.
 - L's high number should therefore be read as "the best surviving explanation", not as "likely confirmed".
 - The next test is the symmetric one: put real-language texts through the same 13 features.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-21 | E033 languages on 8 spelling-independent features (`LANGUAGE_FEATURES.md`) | PARTIAL: best Swahili and Latin fail 2 (R, Zipf); Indonesian fails 3; generator fails 6 | none | 0.05 | 0.87 | 0.07 | 0.01 |
+
+**New certain fact C11 (E033):** Voynich's Zipf slope over its 100 most common words is −0.65. That is flatter than
+all 12 Bibles (−0.79 to −1.12) and than the E032 generator (−0.82). No text yet combines Voynich's repeats, its rich
+vocabulary and its flat Zipf head.
