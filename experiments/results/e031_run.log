@@ -1,0 +1,20 @@
+Voynich R 2.65 NR 2.14 (raw 0.95% near 3.64%)  thr_NR 1.50
+  top NR pg:he_43740.txt          R 1.07 NR 2.97
+  top NR pg:la_29645.txt          R 0.75 NR 2.95
+  top NR pg:he_61024.txt          R 0.44 NR 2.12
+  top NR pg:cs_59765.txt          R 3.05 NR 2.09
+  top NR pg:pl_33598.txt          R 0.12 NR 1.86
+  top NR pg:he_18291.txt          R 1.26 NR 1.77
+  top NR pg:enm_17179.txt         R 0.08 NR 1.73
+  top NR pg:pt_28364.txt          R 0.32 NR 1.51
+  top NR pg:he_5139.txt           R 1.33 NR 1.48
+  top NR pg:tl_18282.txt          R 0.05 NR 1.44
+  top NR pg:sl_59722.txt          R 0.06 NR 1.42
+  top NR pg:sv_15731.txt          R 0.18 NR 1.25
+  top R  bible:indayt             R 3.24 NR 0.82
+  top R  pg:cs_59765.txt          R 3.05 NR 2.09
+  top R  pg:cs_13083.txt          R 2.18 NR 0.90
+  top R  bible:zlmKSZI            R 1.81 NR 0.64
+  top R  pg:te_39004.txt          R 1.50 NR 1.01
+  top R  pg:he_5139.txt           R 1.33 NR 1.48
+153 texts | both: ['pg:cs_59765.txt'] | A LANGUAGE DOES BOTH {'L': 3.0}

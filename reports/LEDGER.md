@@ -99,3 +99,11 @@ Why these numbers:
 L 0.35. Starting from M 0.30 / L 0.45, it is M 0.18, L 0.73. **The M-versus-L ranking flips inside the agreed
 ranges**, so neither is clearly ahead yet. C9 (word repeats) no longer counts against L. It now counts only against
 languages that do not double whole words.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-21 | E031 copy pairs (`COPY_PAIRS.md`) | A LANGUAGE DOES BOTH, but only 1 of 153 texts: a Czech children's primer with spelling drills | L × 3 | 0.13 | 0.79 | 0.06 | 0.01 |
+
+**Fragility of E031.** The update rests on one drill text. Had it not counted, the result would be M × 3, giving
+M 0.54, L 0.36. Read L's lead as "real-language Voynich is only possible as a drill, list or abbreviation-type text",
+not as "Voynich is probably a language".
