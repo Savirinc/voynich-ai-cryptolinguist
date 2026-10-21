@@ -1,0 +1,8 @@
+LAT_PRACTICAL  tokens   58924 n=2 fails 3: R +41.2 types -7.0 I_word -0.9 top_word -0.9 PERS_30 -1.5 COV_30 +1.3 type_hapax +1.6 zipf_slope +4.5
+               means: R 0.124 types 8.07e+03 I_word 0.473 top_word 0.407 PERS_30 0.378 COV_30 0.892 type_hapax 0.635 zipf_slope -0.797
+LAT_COLUMELLA  tokens  115075 n=3 fails 5: R +42.9 types -6.0 I_word +1.8 top_word +0.7 PERS_30 -4.3 COV_30 -4.0 type_hapax +0.2 zipf_slope +5.5
+               means: R 0.0209 types 9.81e+03 I_word 0.21 top_word 0.193 PERS_30 0.581 COV_30 0.992 type_hapax 0.673 zipf_slope -0.832
+ENG_HERBAL     tokens  253510 n=8 fails 4: R +42.9 types +8.8 I_word +1.8 top_word +0.5 PERS_30 -2.0 COV_30 -1.3 type_hapax +8.2 zipf_slope +6.4
+               means: R 0.0254 types 2.97e+03 I_word 0.181 top_word 0.211 PERS_30 0.573 COV_30 0.971 type_hapax 0.452 zipf_slope -0.879
+Voynich: R 2.65 types 6.08e+03 I_word 0.387 top_word 0.285 PERS_30 0.264 COV_30 0.917 type_hapax 0.678 zipf_slope -0.653
+best LAT_PRACTICAL ['R', 'types', 'zipf_slope'] | NO MATCH {}

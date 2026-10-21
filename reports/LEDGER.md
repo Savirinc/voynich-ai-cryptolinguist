@@ -126,3 +126,12 @@ not as "Voynich is probably a language".
 **New certain fact C11 (E033):** Voynich's Zipf slope over its 100 most common words is −0.65. That is flatter than
 all 12 Bibles (−0.79 to −1.12) and than the E032 generator (−0.82). No text yet combines Voynich's repeats, its rich
 vocabulary and its flat Zipf head.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-21 | E034 practical/list-type texts (`GENRE_FEATURES.md`) | NO MATCH: best (Apicius + Cato + Varro) fails 3 (R, types, Zipf); Columella 5, Culpeper herbal 4 | none (pre-registered) | 0.05 | 0.87 | 0.07 | 0.01 |
+
+**After E034.**
+- Genre does not explain C9 + C4 + C11.
+- The flat Zipf head is matched by no text measured: 12 Bibles, 3 practical texts and the copy generator.
+- Candidate mechanism, not yet tested: free spelling variation of words, in a language that doubles words.
