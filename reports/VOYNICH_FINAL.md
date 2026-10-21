@@ -61,3 +61,6 @@ Only a new fact, not a new idea, per the Occam rule (`reports/OCCAM.md`). For ex
 
 ## Next
 Work moves to the Indus script, as agreed.
+
+## Addendum (2026-10-21): search continues
+Arham chose to continue past the stop rule. The deviation and the new guard against loops (a probability ledger) are in `reports/LEDGER.md`.

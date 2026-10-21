@@ -1,0 +1,95 @@
+# The Voynich ledger: what is certain, what is excluded, and how likely the rest is
+
+Started 2026-10-21, agreed with Arham ("yes"). This is a living file. The **starting point** (sections 1–4) was fixed
+on 2026-10-21, and its sha256 is in the commit that created this file. After that, sections 1–4 are changed only
+by an entry in the update log (section 6) that cites a test. Nothing is edited silently.
+
+## 0. Declared deviation: the search continues past the stop rule
+The stop rule in `reports/FINAL_ROUND.md` (locked) was triggered on 2026-10-21 by E029a (`reports/WORD_REPEATS.md`),
+and the final report `reports/VOYNICH_FINAL.md` was written. Arham then chose to continue ("I am not ready to leave
+the voynich hustle as yet"). That is his decision, and it is recorded here as a deviation.
+
+This ledger replaces the stop rule as the guard against loops: **a test is run only if, stated in advance, its
+outcome would move at least one probability in section 4.**
+
+## 1. Certain: measured facts
+These are facts about the text as transcribed in EVA, measured on DEV, with LOCKED_TEST untouched. They are
+certain *as measurements*. What they mean is not. They also rest on the transcription's reading of glyphs and word
+spaces.
+
+| # | Fact | Source |
+|---|---|---|
+| C1 | The vellum is radiocarbon-dated to 1404–1438. This is external, at 95% confidence. The ink and the writing are not dated directly | Univ. Arizona, 2009 |
+| C2 | Glyphs are very predictable inside words: h2 2.10–2.48, against ≥ 2.79 for all 34 comparison languages written in letters | E002, E024 |
+| C3 | With glyph groups read as units, h1, h2 and word length fall inside the range of simple-syllable languages (nearest: Mandarin pinyin) | E027 |
+| C4 | The vocabulary is as rich as Latin's: 6,077 distinct words in DEV, 68% seen once | E028 |
+| C5 | About 28 endings, only partly written with their own glyphs | E026 |
+| C6 | Strong line-start and line-end habits | E025 |
+| C7 | Words cluster by topic (I_word 0.387, inside the word-family range) | E019 |
+| C8 | Common words persist across the text the way grammar words do (PERS_30 0.264) | E021 |
+| C9 | A word sits next to a copy of itself in 0.95% of within-line pairs. That is 2.3× what chance gives for Voynich's word frequencies; Latin gives 0.02–0.28× chance. Near-copies (one glyph different) appear in 3.65% of pairs, against 0.4–2.1% in Latin. The repeats are spread over 97 word types | E029a, plus an exploratory look on 2026-10-21 |
+| C10 | Currier A and B differ in statistics but share these properties (e.g. repeat rate 0.97% vs 0.95%) | E011, E029a |
+
+## 2. Excluded: logical exclusions, each within its stated scope
+| # | Excluded | Scope | Source |
+|---|---|---|---|
+| X1 | A simple letter substitution, with any key | 34 comparison languages, 9 glyph groupings | E012, E019, E021, E024 |
+| X2 | A Naibbe-type verbose cipher (each word = 1–2 plaintext letters), with any table | la/it/fr/de | E016–E019 |
+| X3 | Any word-for-word code (syllable notation, codebook, stem + ending, plain reading), with any table or homophones | ordinary la/it/fr/de prose | E029a |
+| X4 | Our Rugg-grille and self-citation generators **as implemented** | those two programs only, not the idea of meaningless text | E011, E019, E021 |
+| X5 | A one-syllable-per-word language written plainly (Hawaiian, Tongan, Māori, Vietnamese, Mandarin types) | vocabulary far too small | E028 |
+
+## 3. The hypotheses
+The four hypotheses are mutually exclusive and together cover every possibility.
+
+| | Hypothesis | Includes |
+|---|---|---|
+| **M** | Meaningless, made by a human habit | Copy-and-change writing, glossolalia, a hoax |
+| **L** | A real language written plainly in its own script, apart from the excluded scopes | Agglutinative or simple-syllable languages; a plain script with glyph-group spellings |
+| **C** | A cipher or code over a real language, apart from the excluded scopes | Mixed systems (code plus fillers), other plaintext languages, abbreviation-based systems |
+| **O** | Other | Invented language, private shorthand with no recoverable language, something not listed |
+
+## 4. Starting probabilities (fixed 2026-10-21)
+These are judgement, already informed by E001–E029a. They are not measurements.
+
+| | Point | Range we would not argue with |
+|---|---|---|
+| M | 0.45 | 0.30–0.60 |
+| L | 0.30 | 0.15–0.45 |
+| C | 0.20 | 0.10–0.30 |
+| O | 0.05 | 0.02–0.10 |
+
+Why these numbers:
+- **M is highest.** C9 (words attracted to copies and near-copies of themselves) is the signature of copy-and-change
+  writing, and the exclusions X1–X3 removed the most likely cipher designs. M is not higher because our generators
+  failed (X4), and because C7 and C8 look language-like, though no good generator has been tried.
+- **L is second.** C3 is fitted by simple-syllable languages, and C4 and C5 suggest word-building. Against L: every
+  language we measured avoids putting a word next to itself (C9). Languages with reduplication have not been
+  measured.
+- **C is lower.** X1–X3 removed the simple versions over the likely languages, so what is left is more complex,
+  and so less likely a priori (Occam).
+
+## 5. How the ledger is updated (Bayes)
+- **Before each test**, in its pre-registration, we write down how likely each outcome is under each hypothesis. A
+  coarse scale is enough: "expected", "possible", "surprising", "near impossible".
+- **The Bayes factor** is the ratio of those likelihoods, read on a fixed scale:
+
+  | Strength | Bayes factor |
+  |---|---|
+  | weak | 3 |
+  | moderate | 10 |
+  | strong | 30 |
+  | decisive | 100 |
+
+  It is applied as: new odds = old odds × Bayes factor. Factors larger than 100 are not used, because the
+  assumptions behind any test cap how far it can move us.
+- **A test moves a hypothesis to "excluded"** (section 2) only by logical exclusion with a stated scope, never by
+  probability alone.
+- **Sensitivity:** each update is reported twice, from the point values and from the edges of the ranges. If the
+  conclusion flips inside the ranges, we say so.
+- **Gate:** a test whose outcome could not move any hypothesis by at least a factor of 3 is not run.
+
+## 6. Update log
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-21 | starting point | — | — | 0.45 | 0.30 | 0.20 | 0.05 |
