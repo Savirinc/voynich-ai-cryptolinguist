@@ -1,0 +1,27 @@
+Voynich {'R': 2.648, 'types': 6077.0, 'I_word': 0.387, 'top_word': 0.285, 'PERS_30': 0.264, 'COV_30': 0.917, 'type_hapax': 0.678, 'zipf_slope': -0.653, 'NR': 2.138}
+latVUC    alpha 0    fails 3: R +49.2 types -0.6 I_word +0.2 top_word -0.9 PERS_30 -1.9 COV_30 -0.9 type_hapax +1.9 zipf_slope +4.0 NR +18.4
+          means: R 0.0395 types 6.54e+03 I_word 0.367 top_word 0.381 PERS_30 0.413 COV_30 0.948 type_hapax 0.604 zipf_slope -0.819 NR 0.484
+eng-kjv   alpha 3.0  fails 5: R +44.9 types -0.0 I_word +3.1 top_word +2.2 PERS_30 -5.2 COV_30 -2.7 type_hapax +3.8 zipf_slope +0.8 NR +23.3
+          means: R 0.0638 types 6.09e+03 I_word 0.18 top_word 0.147 PERS_30 0.573 COV_30 0.985 type_hapax 0.593 zipf_slope -0.711 NR 0.395
+indayt    alpha 1.5  fails 1: R -0.1 types -0.1 I_word +1.0 top_word +0.5 PERS_30 -3.0 COV_30 -2.8 type_hapax +6.0 zipf_slope +0.8 NR +0.1
+          means: R 2.73 types 6.14e+03 I_word 0.301 top_word 0.25 PERS_30 0.487 COV_30 0.967 type_hapax 0.58 zipf_slope -0.684 NR 2.11
+zlmKSZI   alpha 1.25 fails 4: R +1.3 types +0.1 I_word +2.6 top_word +1.6 PERS_30 -9.3 COV_30 -3.5 type_hapax +7.5 zipf_slope +0.3 NR +3.9
+          means: R 2.12 types 6.04e+03 I_word 0.239 top_word 0.212 PERS_30 0.507 COV_30 0.981 type_hapax 0.576 zipf_slope -0.67 NR 1.2
+tglulb    alpha 2.5  fails 6: R +48.9 types -0.3 I_word +3.6 top_word +1.3 PERS_30 -9.9 COV_30 -3.7 type_hapax +1.9 zipf_slope +5.5 NR +22.9
+          means: R 0.0598 types 6.21e+03 I_word 0.173 top_word 0.186 PERS_30 0.622 COV_30 0.985 type_hapax 0.633 zipf_slope -0.857 NR 0.266
+cebulb    alpha 2.5  fails 5: R +49.3 types +0.3 I_word +2.6 top_word +0.8 PERS_30 -6.0 COV_30 -3.9 type_hapax +2.5 zipf_slope +3.4 NR +24.8
+          means: R 0.0378 types 5.96e+03 I_word 0.201 top_word 0.21 PERS_30 0.591 COV_30 0.988 type_hapax 0.626 zipf_slope -0.84 NR 0.373
+swhulb    alpha 0.2  fails 2: R +43.7 types +0.1 I_word -0.2 top_word -0.9 PERS_30 -2.7 COV_30 -0.6 type_hapax +0.7 zipf_slope +2.8 NR +24.5
+          means: R 0.186 types 5.99e+03 I_word 0.422 top_word 0.419 PERS_30 0.433 COV_30 0.939 type_hapax 0.657 zipf_slope -0.784 NR 0.261
+yor       alpha 5.0  fails 7: R +15.3 types +1.3 I_word +4.5 top_word +3.6 PERS_30 -5.6 COV_30 -4.1 type_hapax +4.6 zipf_slope -1.9 NR +14.1
+          means: R 0.687 types 5.41e+03 I_word 0.135 top_word 0.0956 PERS_30 0.585 COV_30 0.992 type_hapax 0.561 zipf_slope -0.567 NR 1.1
+hausa     alpha 2.5  fails 5: R +15.6 types +0.1 I_word +3.0 top_word +1.4 PERS_30 -3.9 COV_30 -3.4 type_hapax +4.4 zipf_slope +1.7 NR +22.5
+          means: R 0.411 types 6.03e+03 I_word 0.191 top_word 0.172 PERS_30 0.541 COV_30 0.978 type_hapax 0.585 zipf_slope -0.727 NR 0.754
+haw1868   alpha 5.0  fails 9: R +13.8 types +14.2 I_word +13.2 top_word +5.6 PERS_30 -17.9 COV_30 -4.4 type_hapax +8.9 zipf_slope +3.3 NR +30.2
+          means: R 0.481 types 3.92e+03 I_word 0.081 top_word 0.0803 PERS_30 0.706 COV_30 0.998 type_hapax 0.557 zipf_slope -0.815 NR 0.724
+ton       alpha 5.0  fails 8: R +18.8 types +6.5 I_word +8.3 top_word +4.5 PERS_30 -10.5 COV_30 -4.5 type_hapax +5.8 zipf_slope +1.7 NR +24.9
+          means: R 0.543 types 4.07e+03 I_word 0.0853 top_word 0.0774 PERS_30 0.7 COV_30 1 type_hapax 0.536 zipf_slope -0.761 NR 0.828
+mri2012   alpha 5.0  fails 9: R +45.8 types +3.4 I_word +10.4 top_word +5.7 PERS_30 -19.7 COV_30 -4.4 type_hapax +5.3 zipf_slope +3.4 NR +25.5
+          means: R 0.223 types 4.96e+03 I_word 0.0886 top_word 0.0724 PERS_30 0.675 COV_30 0.997 type_hapax 0.575 zipf_slope -0.772 NR 0.596
+alpha=0 types vs E033: {'latVUC': [6542.0, 6542.0], 'eng-kjv': [2371.5, 2371.5], 'indayt': [3049.1, 3049.1], 'zlmKSZI': [3209.0, 3209.0], 'tglulb': [2896.5, 2896.5], 'cebulb': [2729.1, 2729.1], 'swhulb': [5343.9, 5343.9], 'yor': [1645.8, 1645.8], 'hausa': [2562.4, 2562.4], 'haw1868': [1176.6, 1176.6], 'ton': [1140.4, 1140.4], 'mri2012': [1479.9, 1479.9]}
+best indayt ['type_hapax'] | VARIATION MATCHES {'L': 10.0, 'C': 3.0}

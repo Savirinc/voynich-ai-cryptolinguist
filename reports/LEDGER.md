@@ -135,3 +135,21 @@ vocabulary and its flat Zipf head.
 - Genre does not explain C9 + C4 + C11.
 - The flat Zipf head is matched by no text measured: 12 Bibles, 3 practical texts and the copy generator.
 - Candidate mechanism, not yet tested: free spelling variation of words, in a language that doubles words.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-21 | E035 spelling variation (`SPELLING_VARIATION.md`) | VARIATION MATCHES (narrowly): Indonesian + free spelling variation (α = 1.5, fitted on types only) fails 1 of 9 (type_hapax). Zipf −0.68 and NR 2.11 predicted. PERS_30 passes at z −2.98. Malay fails 4 | L × 10, C × 3 | 0.006 | 0.970 | 0.023 | 0.001 |
+
+**After E035.**
+- **First positive match.** A real language that doubles words, with common words spelled several ways, reproduces
+  8 of 9 Voynich word features, including the flat head (C11) and the near-copies. Only one parameter was fitted.
+- **The margin is thin.** Persistence passed by 0.02 sd, and the result rests on one text, Indonesian; Malay fails
+  4. A rerun with other seeds could give PARTIAL.
+- **Two remaining gaps:**
+  - Voynich has more words seen once (0.68 vs 0.58).
+  - It persists less.
+- **Fragility, carried forward.** Without the Czech primer (E031), E035 gives M 0.03, L 0.95, C 0.02. The ranking
+  no longer depends on E031.
+- **What this narrows.** The working picture is now a text in a language with word doubling, written with free,
+  unstandardised spelling, or something with the same statistics (C, via glyph homophones). This describes the
+  *kind* of writing, not its content.
