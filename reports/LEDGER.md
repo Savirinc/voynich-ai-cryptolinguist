@@ -148,7 +148,7 @@ vocabulary and its flat Zipf head.
 - **Two remaining gaps:**
   - Voynich has more words seen once (0.68 vs 0.58).
   - It persists less.
-- **Fragility, carried forward.** Without the Czech primer (E031), E035 gives M 0.03, L 0.95, C 0.02. The ranking
+- **Fragility, carried forward.** Without the Czech primer (E031), E035 gives M 0.04, L 0.89, C 0.06, O 0.005. The ranking
   no longer depends on E031.
 - **What this narrows.** The working picture is now a text in a language with word doubling, written with free,
   unstandardised spelling, or something with the same statistics (C, via glyph homophones). This describes the
