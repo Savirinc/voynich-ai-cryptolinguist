@@ -1,0 +1,10 @@
+Voynich DEV  tokens 2.88e+04 NSUF95 28 ENDS_PER_STEM 9.85 I_EXCESS 0.324 DBL_RHO 0.444 DBL_SUFFIXED 0.981 ENDZ 0.976 SAMESTEM 1.15 DBL_LINE_FIRST 0.31
+Voynich A    tokens 8.81e+03 NSUF95 27 ENDS_PER_STEM 7.6 I_EXCESS 0.327 DBL_RHO 0.398 DBL_SUFFIXED 0.971 ENDZ 0.99 SAMESTEM 0.971 DBL_LINE_FIRST 0.307
+Voynich B    tokens 1.95e+04 NSUF95 27 ENDS_PER_STEM 8.34 I_EXCESS 0.359 DBL_RHO 0.442 DBL_SUFFIXED 0.991 ENDZ 0.937 SAMESTEM 1.08 DBL_LINE_FIRST 0.274
+Indonesian   tokens 2.88e+04 NSUF95 13 ENDS_PER_STEM 1.86 I_EXCESS 0.701 DBL_RHO 0.19 DBL_SUFFIXED 0.708 ENDZ 0.907 SAMESTEM 1.71
+Malay        tokens 2.88e+04 NSUF95 26 ENDS_PER_STEM 1.93 I_EXCESS 0.701 DBL_RHO 0.23 DBL_SUFFIXED 0.711 ENDZ 0.457 SAMESTEM 0
+Latin        tokens 2.88e+04 NSUF95 79 ENDS_PER_STEM 4.25 I_EXCESS 0.531 DBL_RHO 0.0957 DBL_SUFFIXED 1.17 ENDZ 0.901 SAMESTEM 0.543
+Swahili      tokens 2.88e+04 NSUF95 75 ENDS_PER_STEM 2.74 I_EXCESS 0.665 DBL_RHO 0.176 DBL_SUFFIXED 1.07 ENDZ 0.447 SAMESTEM 2.48
+top doubled [('qokeedy', 16), ('chol', 15), ('daiin', 11), ('qokeey', 11), ('qokedy', 10), ('shedy', 9), ('dy', 8), ('ol', 8), ('chedy', 8), ('shol', 6), ('okaiin', 6), ('ar', 6), ('or', 6), ('okeey', 5), ('chor', 4)]
+top edits [('e>', 50), ('r>l', 48), ('d>', 47), ('>e', 44), ('q>', 43), ('>q', 39), ('l>r', 36), ('t>k', 33), ('k>t', 29), ('>d', 29), ('>l', 25), ('o>', 23)]
+top endings [('y', 6127), ('dy', 1891), ('ol', 1852), ('aiin', 1525), ('edy', 1439), ('or', 1157), ('ar', 1155), ('al', 1035), ('ain', 991), ('ey', 813), ('o', 652), ('am', 397), ('iin', 351), ('ody', 339), ('s', 273)]

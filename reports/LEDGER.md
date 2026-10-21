@@ -180,3 +180,12 @@ vocabulary and its flat Zipf head.
 - **Without the Czech primer (E031):** M 0.04, L 0.89, C 0.06.
 - **In every version, L leads as "best surviving explanation".** What survives is the *kind* of writing: a
   doubling language with unstandardised spelling. Nothing about its content is known.
+
+**Measured facts from E037** (working assumption L; no ledger change; `GRAMMAR_PROFILE.md`)
+- **C12:** neighbouring near-copies differ at no special place in the word (ENDZ 0.98). They are mostly five
+  alternations: e/ee, r/l, d±, q±, t/k.
+- **C13:** doubled words are frequent, ordinary suffixed words (ρ +0.44; Indonesian +0.19), and avoid line starts
+  (0.31, with a line-start vocabulary confound).
+- **C14:** about 28 endings combine almost freely with stems: about 10 endings per stem, and the stem barely decides
+  the ending (I_EXCESS 0.32). This is unlike Indonesian, Malay, Latin and Swahili. Currier A and B have the same
+  shape.
