@@ -1,4 +1,4 @@
-# What we have done so far: a summary (E001–E025 and Stage B development)
+# What we have done so far: a summary (E001–E029a, final)
 
 Updated 2026-10-19. This document is for readers new to the project. Each experiment's own report, pre-registration
 and result files hold the full detail, and `experiments/LEDGER.csv` holds every logged number.
@@ -138,6 +138,7 @@ We built a known-answer benchmark: 36 languages × 13 encoding families × decoy
 | E025 (A4) | Are line effects a by-product of the system? | No. Voynich's line-start/line-end effects (V = 0.39/0.33) are reproduced by no tested system (≤ 0.08; ≤ 0.23 even with explicit line rules), so the line is a functional unit |
 | E027 (Occam) | Is Voynich inside the range of languages with *simple syllables* (Hawaiian, Tongan, Māori, Vietnamese, Mandarin pinyin)? | **Yes, with glyph groups read as units** (S2/S3). Nearest: Mandarin pinyin. So the E024 fact only ruled out European-type languages. Rung 1 is not excluded (`reports/SIMPLE_SYLLABLES.md`) |
 | E028 (Occam) | Do those languages also match at the word level (topic clustering, persistence)? | Partly. Topic clustering matches exactly, but Voynich has far too many distinct words for a one-syllable-per-word language: 6,077 types, 68% seen once, like Latin; Mandarin 866, Vietnamese 1,817. Points to rich word-building out of simple syllables (`reports/SYLLABLE_WORDS.md`) |
+| E029a (final round) | Can any word-for-word code over la/it/fr/de prose (incl. syllable notation, codebooks) have produced Voynich? | **No.** Voynich repeats words back to back 70× more often than ordinary prose (0.95% vs median 0.014%; 0 of 973 texts reach it), and a word-for-word code cannot add repeats. Family F EXCLUDED; stop rule applied (`reports/WORD_REPEATS.md`, `reports/VOYNICH_FINAL.md`) |
 | E026 | Is there a compact ending set written with its own glyphs? | Compact, yes: about 28 endings cover 95% (real spelling: 82). Own glyphs only partly (DIST 0.39, the same as the glyph-built twins; fully marked would be 0.97). No family matches; compound twins have too many endings |
 
 **The picture after Stage A.** Voynich behaves like word-sized units (whole words, or stem + ending) whose common
@@ -177,20 +178,14 @@ attack is **not ready for a pre-registered test**, and Voynich stays untouched.
 
 ---
 
-## 3. What is ruled out, what is open
+## 3. What is ruled out, what is open (final, 2026-10-21)
 
 | Status | Hypothesis |
 |---|---|
-| **Out** (for the classes tested) | Naibbe tables × la/it/fr/de (E018); fixed-key letter cipher (E019/E021); Rugg grille, self-citation (E011, E019, E021); syllabary (E021); simple alphabet over any tested glyph grouping (E012, E024) |
-| **Favoured** | Word-level codebook / nomenclator; compound stem + ending notation; drifting-key cipher at word level; all with line conventions |
-| **Open** | Which language; meaning versus consistent human gibberish (no powered meaning test yet) |
+| **Out** (for the classes tested) | Naibbe tables × la/it/fr/de (E018) and unknown tables (E019); fixed-key letter cipher (E019/E021); Rugg grille, self-citation (E011, E019, E021); syllabary (E021); simple alphabet over any tested glyph grouping (E012, E024); **any word-for-word code over la/it/fr/de prose: syllable notation, codebook, stem + ending (E029a)** |
+| **Open** | Mixed systems (e.g. word code + repeating fillers); other languages or text types with natural word repetition; systems outside the tested classes; human-written gibberish |
 
 ## 4. Next steps
-1. Stage B:
-   - a stronger stem stage, measured on held-out Latin;
-   - a claim signal that repetitive gibberish (Rugg) cannot fake;
-   - add a line model;
-   - then a **pre-registered known-answer test with meaningless controls**, and only after that, Voynich DEV.
-2. More period corpora: medieval Latin, Old Italian and other vernaculars.
-3. A meaning test with built-in power: label consistency, checked first on a real labelled manuscript.
-4. The same method for the Indus script, which is a Door-2 problem: structure plus anchors.
+The Voynich search has **stopped** under the pre-agreed stop rule (`reports/FINAL_ROUND.md`); final report
+`reports/VOYNICH_FINAL.md`. It reopens only on a new fact (a real anchor, a matching period text, evidence of
+filler words). Work moves to the Indus script.
