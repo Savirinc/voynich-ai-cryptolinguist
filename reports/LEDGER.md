@@ -93,3 +93,9 @@ Why these numbers:
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-21 | starting point | — | — | 0.45 | 0.30 | 0.20 | 0.05 |
+| 2026-10-21 | E030 reduplication (`REDUPLICATION.md`) | LANGUAGES CAN DO IT: Indonesian R 3.03, Malay 1.71 vs Voynich 2.65 | L × 3 | 0.28 | 0.56 | 0.13 | 0.03 |
+
+**Sensitivity of E030.** Starting from the range edges M 0.60 / L 0.15 / C 0.20 / O 0.05, the result is M 0.46,
+L 0.35. Starting from M 0.30 / L 0.45, it is M 0.18, L 0.73. **The M-versus-L ranking flips inside the agreed
+ranges**, so neither is clearly ahead yet. C9 (word repeats) no longer counts against L. It now counts only against
+languages that do not double whole words.
