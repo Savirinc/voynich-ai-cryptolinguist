@@ -1,0 +1,21 @@
+rep  1 best indayt   p 0.12 fails ['zipf_slope'] match True | z: R -0.2 types +0.1 I_word -0.1 top_word -1.2 PERS_30 -2.9 COV_30 -2.1 type_hapax -2.6 zipf_slope +4.4 NR +0.8
+        indayt p 0.12 fails ['zipf_slope'] | means: R 2.8 types 6.03e+03 I_word 0.399 top_word 0.413 PERS_30 0.476 COV_30 0.955 type_hapax 0.717 zipf_slope -0.849 NR 1.75
+rep  2 best indayt   p 0.12 fails ['zipf_slope'] match True | z: R -0.2 types +0.1 I_word -0.1 top_word -1.2 PERS_30 -2.8 COV_30 -2.0 type_hapax -2.6 zipf_slope +4.4 NR +0.5
+        indayt p 0.12 fails ['zipf_slope'] | means: R 2.77 types 6.03e+03 I_word 0.398 top_word 0.414 PERS_30 0.476 COV_30 0.955 type_hapax 0.717 zipf_slope -0.849 NR 1.79
+rep  3 best indayt   p 0.12 fails ['zipf_slope'] match True | z: R -0.2 types +0.1 I_word -0.1 top_word -1.2 PERS_30 -2.9 COV_30 -1.8 type_hapax -2.7 zipf_slope +4.5 NR +0.8
+        indayt p 0.12 fails ['zipf_slope'] | means: R 2.82 types 6.03e+03 I_word 0.397 top_word 0.409 PERS_30 0.481 COV_30 0.956 type_hapax 0.717 zipf_slope -0.848 NR 1.7
+rep  4 best indayt   p 0.12 fails ['zipf_slope'] match True | z: R -0.2 types +0.1 I_word -0.1 top_word -1.1 PERS_30 -2.9 COV_30 -2.0 type_hapax -2.9 zipf_slope +4.3 NR +0.3
+        indayt p 0.12 fails ['zipf_slope'] | means: R 2.78 types 6.03e+03 I_word 0.398 top_word 0.405 PERS_30 0.48 COV_30 0.954 type_hapax 0.718 zipf_slope -0.848 NR 1.85
+rep  5 best indayt   p 0.12 fails ['zipf_slope'] match True | z: R -0.2 types +0.2 I_word -0.1 top_word -1.1 PERS_30 -2.8 COV_30 -2.0 type_hapax -2.9 zipf_slope +4.4 NR +0.8
+        indayt p 0.12 fails ['zipf_slope'] | means: R 2.81 types 6.02e+03 I_word 0.4 top_word 0.413 PERS_30 0.475 COV_30 0.955 type_hapax 0.718 zipf_slope -0.847 NR 1.72
+rep  6 best indayt   p 0.12 fails ['zipf_slope'] match True | z: R -0.2 types +0.1 I_word -0.1 top_word -1.1 PERS_30 -2.9 COV_30 -1.9 type_hapax -2.9 zipf_slope +4.4 NR +0.8
+        indayt p 0.12 fails ['zipf_slope'] | means: R 2.78 types 6.05e+03 I_word 0.399 top_word 0.409 PERS_30 0.478 COV_30 0.953 type_hapax 0.72 zipf_slope -0.847 NR 1.72
+rep  7 best indayt   p 0.12 fails ['zipf_slope'] match True | z: R -0.3 types +0.1 I_word -0.1 top_word -1.2 PERS_30 -3.0 COV_30 -1.9 type_hapax -2.9 zipf_slope +4.5 NR +0.7
+        indayt p 0.12 fails ['zipf_slope'] | means: R 2.85 types 6.04e+03 I_word 0.398 top_word 0.412 PERS_30 0.475 COV_30 0.956 type_hapax 0.718 zipf_slope -0.846 NR 1.72
+rep  8 best indayt   p 0.12 fails ['zipf_slope'] match True | z: R -0.2 types +0.1 I_word -0.1 top_word -1.2 PERS_30 -2.9 COV_30 -2.0 type_hapax -2.9 zipf_slope +4.5 NR +0.7
+        indayt p 0.12 fails ['zipf_slope'] | means: R 2.8 types 6.03e+03 I_word 0.399 top_word 0.406 PERS_30 0.48 COV_30 0.954 type_hapax 0.718 zipf_slope -0.848 NR 1.68
+rep  9 best indayt   p 0.12 fails ['PERS_30', 'zipf_slope'] match False | z: R -0.2 types +0.1 I_word -0.1 top_word -1.1 PERS_30 -3.0 COV_30 -2.0 type_hapax -2.6 zipf_slope +4.6 NR +0.8
+        indayt p 0.12 fails ['PERS_30', 'zipf_slope'] | means: R 2.81 types 6.03e+03 I_word 0.398 top_word 0.41 PERS_30 0.475 COV_30 0.954 type_hapax 0.718 zipf_slope -0.848 NR 1.75
+rep 10 best indayt   p 0.12 fails ['zipf_slope'] match True | z: R -0.2 types +0.1 I_word -0.1 top_word -1.2 PERS_30 -2.7 COV_30 -1.9 type_hapax -3.0 zipf_slope +4.6 NR +0.8
+        indayt p 0.12 fails ['zipf_slope'] | means: R 2.81 types 6.04e+03 I_word 0.401 top_word 0.413 PERS_30 0.472 COV_30 0.954 type_hapax 0.719 zipf_slope -0.847 NR 1.73
+matches 9/10 | ROBUST MATCH {'L': 10.0, 'C': 3.0}

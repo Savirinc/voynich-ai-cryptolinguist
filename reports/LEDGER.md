@@ -165,3 +165,18 @@ vocabulary and its flat Zipf head.
 - **Still unmatched:** Voynich's high share of words seen once (0.68) combined with low persistence (0.26).
 - **Lesson for the method:** any result that passes by less than about 0.5 sd gets a seed-replicate check before it
   is scored.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-21 | E036 free invention of spellings (`FREE_INVENTION.md`) | ROBUST MATCH by the rule: Indonesian + fresh one-off spellings (p = 0.12) fails 1 of 9 in 9 of 10 seed runs (always the Zipf head). PERS_30 passes only through the wide window sd (0.48 vs 0.26) | L × 10, C × 3 | 0.006 | 0.970 | 0.023 | 0.001 |
+
+**After E036, read with care.**
+- **Persistence:** tolerated, not matched. The seed check could not test it, because the windows are fixed.
+- **The two variation models each fit half:**
+  - E035 (reused spellings) fits the flat head and misses the one-off words;
+  - E036 (fresh spellings) fits the one-off words and misses the flat head.
+- **No third model will be scored** (E036_PREREG).
+- **Discount for two tries:** at ×3 instead of ×10, the values would be M 0.02, L 0.95, C 0.025, O 0.003.
+- **Without the Czech primer (E031):** M 0.04, L 0.89, C 0.06.
+- **In every version, L leads as "best surviving explanation".** What survives is the *kind* of writing: a
+  doubling language with unstandardised spelling. Nothing about its content is known.
