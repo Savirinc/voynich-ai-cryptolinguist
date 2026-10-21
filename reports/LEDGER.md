@@ -107,3 +107,14 @@ languages that do not double whole words.
 **Fragility of E031.** The update rests on one drill text. Had it not counted, the result would be M × 3, giving
 M 0.54, L 0.36. Read L's lead as "real-language Voynich is only possible as a drill, list or abbreviation-type text",
 not as "Voynich is probably a language".
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-21 | E032 authors' generator (`COPY_GENERATOR.md`) | FAILS 7 of 13: matches copies, near-copies, h2, topic clustering and endings; fails vocabulary size and spectrum, and persistence | M × 1/3 | 0.05 | 0.87 | 0.07 | 0.01 |
+
+**Reading after E032.**
+- The chain E030 → E031 → E032 moved L up mainly by **removing objections** to it. Nothing so far shows that any real
+  language text matches Voynich on all 13 features.
+- Without the Czech primer (E031 fragility), the figures would be M 0.28, L 0.56, C 0.13, O 0.03.
+- L's high number should therefore be read as "the best surviving explanation", not as "likely confirmed".
+- The next test is the symmetric one: put real-language texts through the same 13 features.

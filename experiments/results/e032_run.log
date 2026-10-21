@@ -1,0 +1,14 @@
+R           V    2.6481  gen    2.0299 ± 0.4008  z +1.54
+NR          V    2.0647  gen    2.2059 ± 0.1957  z -0.72
+wl_mean     V    4.9912  gen    4.6288 ± 0.1101  z +3.29  FAIL
+types       V 6077.0000  gen 3960.7000 ± 156.0164  z +13.56  FAIL
+h2          V    2.0972  gen    2.0322 ± 0.0419  z +1.55
+I_word      V    0.3865  gen    0.4340 ± 0.0589  z -0.81
+top_word    V    0.2854  gen    0.4895 ± 0.0378  z -5.41  FAIL
+PERS_30     V    0.2643  gen    0.5631 ± 0.0447  z -6.69  FAIL
+COV_30      V    0.9167  gen    0.9796 ± 0.0208  z -3.02  FAIL
+type_hapax  V    0.6781  gen    0.5232 ± 0.0136  z +11.42  FAIL
+zipf_slope  V   -0.6525  gen   -0.8240 ± 0.0373  z +4.60  FAIL
+NSUF95      V   28.0000  gen   21.7000 ± 3.4976  z +1.80
+DIST        V    0.3787  gen    0.3537 ± 0.0596  z +0.42
+AUTHORS' GENERATOR FAILS {'M': 0.3333333333333333} fails: ['wl_mean', 'types', 'top_word', 'PERS_30', 'COV_30', 'type_hapax', 'zipf_slope']
