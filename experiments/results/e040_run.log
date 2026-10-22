@@ -1,0 +1,8 @@
+DEV RAW tokens 2.88e+04 h1 3.91 h2 2.37 L 4.03 types 6.08e+03 type_hapax 0.678 zipf_slope -0.653 R 2.65 NR 2.06 NSUF95 28 ENDS_PER_STEM 9.76 inside True nearest cmn-cu89s/NATIVE (2.26)
+A   RAW tokens 8.81e+03 h1 3.87 h2 2.45 L 3.77 types 2.7e+03 type_hapax 0.701 zipf_slope -0.714 R 1.76 NR 2.17 NSUF95 27 ENDS_PER_STEM 7.98 inside True nearest cmn-cu89s/NATIVE (1.98)
+B   RAW tokens 1.95e+04 h1 3.91 h2 2.22 L 4.15 types 4.18e+03 type_hapax 0.677 zipf_slope -0.693 R 2.16 NR 1.65 NSUF95 23 ENDS_PER_STEM 8.08 inside False nearest cmn-cu89s/MARKS (2.2)
+B(A-size) RAW tokens 8.81e+03 h2 2.17 types 2.32e+03 type_hapax 0.689 zipf_slope -0.702 R 1.93 NR 1.54 NSUF95 21.7 ENDS_PER_STEM 6.93
+DEV N1  tokens 2.88e+04 h1 3.75 h2 2.22 L 4.03 types 5.08e+03 type_hapax 0.662 zipf_slope -0.739 R 2.96 NR 1.92 NSUF95 21 ENDS_PER_STEM 8.56 inside False nearest cmn-cu89s/NATIVE (2.36)
+A   N1  tokens 8.81e+03 h1 3.73 h2 2.33 L 3.77 types 2.34e+03 type_hapax 0.691 zipf_slope -0.69 R 2.02 NR 2.1 NSUF95 21 ENDS_PER_STEM 7.26 inside True nearest cmn-cu89s/NATIVE (1.9)
+B   N1  tokens 1.95e+04 h1 3.73 h2 2.06 L 4.15 types 3.49e+03 type_hapax 0.666 zipf_slope -0.833 R 2.37 NR 1.54 NSUF95 22 ENDS_PER_STEM 7.97 inside False nearest cmn-cu89s/NATIVE (2.99)
+B(A-size) N1 tokens 8.81e+03 h2 2.04 types 1.97e+03 type_hapax 0.68 zipf_slope -0.841 R 2.18 NR 1.43 NSUF95 19.8 ENDS_PER_STEM 6.62

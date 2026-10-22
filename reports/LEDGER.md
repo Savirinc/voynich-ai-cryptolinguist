@@ -203,3 +203,10 @@ vocabulary and its flat Zipf head.
 - **C19:** the q± and r/l forms depend on location within the book, not on the scribe. Given the word, scribes 1–3
   use q equally (44–45%).
 - **Correction:** E038's "q twice as common in B" reflects B's vocabulary, not a B habit of adding q.
+
+**Measured facts from E040** (cleaned inventory, e-runs → e and t → k; `CLEAN_PROFILE.md`)
+- **C20:** after cleaning, Currier A stays inside the simple-syllable range (h2 2.33). Currier B falls below it (2.04,
+  already 2.22 raw), and DEV sits just below (2.22). B is more predictable within words than any sampled language.
+- **C11 revised:** the flat Zipf head survives cleaning for DEV (−0.74), but B alone is −0.84, inside the Bible
+  range. The flatness is largely A/B vocabulary mixing plus spelling variation, not a property of each variety.
+- **C4 confirmed:** cleaning removes 16% of distinct words. The share of words seen once is unchanged (0.66).
