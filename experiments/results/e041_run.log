@@ -1,0 +1,7 @@
+A         S2 h1 3.732 h2 2.331 L 3.769 INSIDE True nearest cmn-cu89s/NATIVE (1.90)
+B         S2 h1 3.729 h2 2.062 L 4.154 INSIDE False nearest cmn-cu89s/NATIVE (2.99)
+B(A-size) S2 h1 3.729 h2 2.060 L 4.153 inside in 0% of runs
+A         S3 h1 3.806 h2 2.377 L 3.599 INSIDE True nearest cmn-cu89s/NATIVE (1.55)
+B         S3 h1 3.822 h2 2.198 L 3.729 INSIDE False nearest cmn-cu89s/NATIVE (1.84)
+B(A-size) S3 h1 3.818 h2 2.185 L 3.728 inside in 30% of runs
+VERDICT: B STILL OUTSIDE: step 2 uses A; B reported separately
