@@ -189,3 +189,10 @@ vocabulary and its flat Zipf head.
 - **C14:** about 28 endings combine almost freely with stems: about 10 endings per stem, and the stem barely decides
   the ending (I_EXCESS 0.32). This is unlike Indonesian, Malay, Latin and Swahili. Currier A and B have the same
   shape.
+
+**Measured facts from E038** (working assumption L; no ledger change; `SIGN_INVENTORY.md`)
+- **C15:** *e* and *ee* are one sign written two ways (FREE VARIANT, calibrated on Latin controls).
+- **C16:** *r* and *l* are not interchangeable. Words differing only by r/l have different neighbours (t_nbr −0.48).
+- **C17:** forms with and without *d* sit on different pages (t_page 0.05), a section or scribe split. *q*-forms
+  share neighbours with plain forms and are twice as common inside Currier B lines as inside A lines.
+- **Positional forms (Arabic-type):** the test was VOID (its control failed), so the question is open.

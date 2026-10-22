@@ -1,0 +1,24 @@
+page size 167 | FREE control {'n_pairs': 160, 'S_page': 1.0864843374670043, 'CI_page': [0.911864147745082, 1.275274229723367], 'S_nbr': 1.0299545977351905, 'CI_nbr': [0.9518809489405028, 1.1100677490556743]} | CONTRAST control {'n_pairs': 35, 'S_page': 0.48268292323017636, 'CI_page': [0.2643620902864358, 0.7382155650648098], 'S_nbr': 0.5802264464995438, 'CI_nbr': [0.3793363292005254, 0.7898004982127824]} | void {'page': False, 'nbr': False}
+e/ee  pairs  85 S_page 1.04 [0.8625017615730173, 1.2054944807706895] S_nbr 1.08 [0.6354922137425592, 1.4950610485804465] | t_page 0.92 t_nbr 1.12 -> FREE VARIANT
+r/l   pairs 107 S_page 0.73 [0.6011429729997703, 0.8666299065457487] S_nbr 0.36 [-0.06144657042020311, 0.7651123964246138] | t_page 0.41 t_nbr -0.48 -> MIXED
+t/k   pairs 127 S_page 0.91 [0.7669930963579055, 1.0504246639359065] S_nbr 1.09 [0.7628795761918993, 1.4273048188622495] | t_page 0.70 t_nbr 1.13 -> MIXED
+d+-   pairs 161 S_page 0.51 [0.3876901637620822, 0.6365775030099169] S_nbr 0.82 [0.526152587748439, 1.10805096019068] | t_page 0.05 t_nbr 0.54 -> MIXED
+q+-   pairs  86 S_page 0.81 [0.6610342980447866, 0.9619172101408479] S_nbr 0.97 [0.5831711105781089, 1.388666295572048] | t_page 0.54 t_nbr 0.87 -> MIXED
+part B control s/S: overlap 0.00 cos 0.3807137306809894 pct 0.3472222222222222 pass False
+  h/q overlap 0.01 side right cos 0.41 pct 0.7463768115942029
+  n/q overlap 0.01 side None cos None pct None
+  m/q overlap 0.01 side None cos None pct None
+  i/q overlap 0.01 side right cos 0.0 pct 0.07246376811594203
+  e/q overlap 0.01 side right cos 0.35 pct 0.6956521739130435
+  c/n overlap 0.01 side None cos None pct None
+  i/n overlap 0.01 side left cos 0.58 pct 0.8405797101449275
+  h/n overlap 0.02 side left cos 0.0 pct 0.036231884057971016
+  a/n overlap 0.02 side left cos 0.0 pct 0.007246376811594203
+  e/n overlap 0.02 side left cos 0.0 pct 0.028985507246376812
+  k/n overlap 0.02 side left cos 0.01 pct 0.2028985507246377
+  n/t overlap 0.02 side left cos 0.01 pct 0.21014492753623187
+  i/y overlap 0.03 side left cos 0.0 pct 0.13768115942028986
+  n/p overlap 0.03 side left cos 0.02 pct 0.2463768115942029
+  h/y overlap 0.03 side left cos 0.02 pct 0.2608695652173913
+part B: VOID [('i', 'm')]
+part C q share: {'B/first': 0.131, 'B/other': 0.187, 'A/first': 0.146, 'A/other': 0.097, '?/other': 0.069}
