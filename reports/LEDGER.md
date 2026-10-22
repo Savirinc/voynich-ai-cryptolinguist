@@ -196,3 +196,10 @@ vocabulary and its flat Zipf head.
 - **C17:** forms with and without *d* sit on different pages (t_page 0.05), a section or scribe split. *q*-forms
   share neighbours with plain forms and are twice as common inside Currier B lines as inside A lines.
 - **Positional forms (Arabic-type):** the test was VOID (its control failed), so the question is open.
+
+**Measured facts from E039** (working assumption L; no ledger change; `SCRIBE_HABITS.md`; controls passed)
+- **C18:** the d± form depends mainly on the scribe (13% of form uncertainty). Scribe 1 (Currier A) uses d-forms 23%
+  of the time, scribes 2 and 5 56–59%. This is a scribe or dialect habit, and part of what makes A differ from B.
+- **C19:** the q± and r/l forms depend on location within the book, not on the scribe. Given the word, scribes 1–3
+  use q equally (44–45%).
+- **Correction:** E038's "q twice as common in B" reflects B's vocabulary, not a B habit of adding q.

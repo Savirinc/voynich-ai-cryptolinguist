@@ -1,0 +1,6 @@
+e/ee  pairs  73 tokens  5377 | E_hand 0.031 p 0.002 | hand|loc 0.000 p 0.439 | loc|hand 0.002 p 0.287 -> ENTANGLED | with-share by hand {'1': [0.299, 46], '2': [0.314, 61], '3': [0.447, 70], '4': [0.202, 4], '5': [0.249, 24]}
+r/l   pairs  96 tokens  6791 | E_hand 0.014 p 0.002 | hand|loc -0.000 p 0.543 | loc|hand 0.030 p 0.002 -> LOCATION HABIT | with-share by hand {'1': [0.508, 64], '2': [0.574, 76], '3': [0.552, 83], '4': [0.676, 13], '5': [0.645, 16]}
+t/k   pairs 124 tokens  7926 | E_hand 0.009 p 0.002 | hand|loc 0.005 p 0.004 | loc|hand 0.014 p 0.002 -> BOTH | with-share by hand {'1': [0.545, 87], '2': [0.594, 91], '3': [0.57, 106], '4': [0.486, 11], '5': [0.631, 32]}
+d+-   pairs 143 tokens 12504 | E_hand 0.128 p 0.002 | hand|loc 0.022 p 0.002 | loc|hand 0.018 p 0.002 -> BOTH | with-share by hand {'1': [0.227, 103], '2': [0.559, 133], '3': [0.422, 131], '4': [0.233, 21], '5': [0.589, 43]}
+q+-   pairs  85 tokens  7242 | E_hand 0.018 p 0.002 | hand|loc 0.002 p 0.092 | loc|hand 0.022 p 0.002 -> LOCATION HABIT | with-share by hand {'1': [0.448, 59], '2': [0.439, 69], '3': [0.443, 79], '4': [0.253, 9], '5': [0.387, 25]}
+control scribe -> SCRIBE HABIT | control location -> LOCATION HABIT | pass True
