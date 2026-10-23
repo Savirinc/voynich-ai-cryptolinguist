@@ -1,0 +1,7 @@
+Voynich {'A': {'SL': 1.6, 'AS': 1.1, 'types': 2702.0}, 'B': {'SL': 1.98, 'AS': 1.03, 'types': 2389.7}}
+Vietnamese (syllables)               SL 1.21 AS 0.25 types 964 | z(A) SL +1.2 AS +8.5 types +9.8 fits A False | fits B False
+Chinese characters                   SL 1.01 AS 0.31 types 933 | z(A) SL +5.9 AS +6.1 types +13.4 fits A False | fits B False
+Mandarin pinyin (toned syllables)    SL 0.86 AS 0.29 types 613 | z(A) SL +4.8 AS +5.1 types +38.7 fits A False | fits B False
+Latin (word-spaced control)          SL 0.98 AS 0.02 types 2608 | z(A) SL +2.6 AS +47.0 types +0.3 fits A False | fits B False
+Indonesian (word-spaced, doubling)   SL 1.89 AS 1.37 types 1551 | z(A) SL -0.8 AS -1.5 types +5.9 fits A False | fits B False
+VERDICT: SYLLABLE TEXTS AVOID ADJACENCY TOO {'SYLL-UNIT': 0.3333333333333333}

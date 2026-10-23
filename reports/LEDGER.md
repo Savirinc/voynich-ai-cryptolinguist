@@ -224,3 +224,8 @@ avoids it (0.00–0.26). Latin hymns (refrains) reach 0.53, the copy generator 0
 
 **C9 restated:** the excess of repeats is same-line recurrence (A 1.76, B 2.21 × chance), with no adjacency
 avoidance. It is not back-to-back doubling as such. DEV's 2.6 is inflated by pooling the A and B vocabularies.
+
+**Spacing sub-hypothesis (E044_PREREG):** WORD-UNIT 0.8 / SYLL-UNIT 0.2 → after E044 (SYLL-UNIT × 1/3) **0.92 / 0.08**.
+Syllable-spaced Vietnamese and Chinese also avoid adjacent identical units (AS 0.25–0.31), and have far too few
+distinct units. C21 (AS ≈ 1) is not reproduced by any writing system or text type tested. The nearest are
+grammatical doubling (Indonesian 1.37, vocabulary too small) and the copy generator (0.76).
