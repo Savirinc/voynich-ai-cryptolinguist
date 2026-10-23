@@ -238,3 +238,9 @@ grammatical doubling (Indonesian 1.37, vocabulary too small) and the copy genera
 generator (0.76) < Voynich (1.0) < grammatical doubling (about 1.4). Apart from doubling-grammar languages, no
 meaningful text of about 90 comes near, whereas non-meaningful sources get most of the way. C21 leans towards M, and
 the L lead was built without it. The rules allow no factor here, but anyone reading L = 0.97 should weigh this.
+
+**E046 (measurement):** C21 is WIDESPREAD.
+- AS 0.89–1.16 for all three main scribes.
+- No clustering over 152 pages (p = 0.95).
+
+It is a whole-book writing property, not a local list effect. The post-E045 caution stands.
