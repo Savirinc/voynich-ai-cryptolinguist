@@ -1,0 +1,48 @@
+WALS: 156 languages coded on 12A+26A+27A; 46 (29%) pass syllables+suffixing; 35 (22%) also double
+  families: [('Pama-Nyungan', 8), ('Afro-Asiatic', 4), ('Sino-Tibetan', 4), ('Trans-New Guinea', 2), ('Aymaran', 2), ('Uto-Aztecan', 2), ('Asmat-Kamrau Bay', 1), ('Central Sudanic', 1), ('Arawakan', 1), ('Choco', 1), ('Nakh-Daghestanian', 1), ('Japanese', 1), ('Tangkic', 1), ('Khoe-Kwadi', 1), ('Saharan', 1), ('Korean', 1), ('Solomons East Papuan', 1), ('Trumai', 1), ('Altaic', 1)]
+  macroareas: [('Australia', 9), ('Eurasia', 8), ('Africa', 7), ('South America', 5), ('Papunesia', 4), ('North America', 2)]
+  languages: ['Amele', 'Amharic', 'Arrernte (Mparntwe)', 'Asmat', 'Aymara (Central)', 'Bagirmi', 'Burmese', 'Campa (Axininca)', 'Comanche', 'Daga', 'Diyari', 'Dyirbal', 'Epena Pedee', 'Garo', 'Hunzib', 'Japanese', 'Jaqaru', 'Kanuri', 'Kayardild', 'Korean', 'Kuku-Yalanji', 'Lavukaleve', 'Mandarin', 'Martuthunira', 'Meithei', 'Nama', 'Ngiyambaa', 'Oromo (Harar)', 'Somali', 'Tigré', 'Trumai', 'Turkish', 'Wik Munkan', 'Yaqui', 'Yidiny']
+  2a Latin                                        12A not coded 26A not coded 27A not coded   -> on to 2b
+  2a Greek (Koine/Byzantine)                      12A FAIL      26A pass      27A no doubling -> OUT
+  2a Hebrew                                       12A not coded 26A pass      27A doubles     -> on to 2b
+  2a Arabic                                       12A FAIL      26A pass      27A doubles     -> OUT
+  2a German                                       12A FAIL      26A pass      27A no doubling -> OUT
+  2a Czech                                        12A not coded 26A pass      27A not coded   -> on to 2b
+  2a Polish                                       12A FAIL      26A pass      27A not coded   -> OUT
+  2a Hungarian                                    12A FAIL      26A pass      27A doubles     -> OUT
+  2a Italian                                      12A not coded 26A pass      27A no doubling -> on to 2b
+  2a French                                       12A FAIL      26A pass      27A no doubling -> OUT
+  2a Occitan                                      12A not coded 26A not coded 27A not coded   -> no text
+  2a Catalan                                      12A pass      26A not coded 27A no doubling -> no text
+  2a Serbian-Croatian                             12A not coded 26A pass      27A not coded   -> on to 2b
+  2a Croatian text                                12A not coded 26A pass      27A not coded   -> on to 2b
+  2a Slovak                                       12A not coded 26A not coded 27A not coded   -> on to 2b
+  2a Slovene                                      12A not coded 26A pass      27A not coded   -> no text
+  2a Romanian                                     12A not coded 26A pass      27A not coded   -> on to 2b
+  2a Romani                                       12A not coded 26A not coded 27A not coded   -> on to 2b
+  2a Turkish                                      12A pass      26A pass      27A doubles     -> on to 2b
+  2a Armenian                                     12A not coded 26A pass      27A doubles     -> no text
+  2a Yiddish                                      12A not coded 26A not coded 27A not coded   -> on to 2b
+  2a Dutch                                        12A not coded 26A pass      27A not coded   -> on to 2b
+  2a English (Middle)                             12A FAIL      26A pass      27A no doubling -> OUT
+  2a Lithuanian                                   12A FAIL      26A pass      27A not coded   -> OUT
+  2a Ukrainian/Ruthenian                          12A not coded 26A pass      27A not coded   -> on to 2b
+  2a Albanian                                     12A FAIL      26A pass      27A not coded   -> OUT
+  2a Mandarin (Stolfi proposal; syllable tokens)  12A pass      26A pass      27A doubles     -> on to 2b
+Voynich A (cleaned): {'R': 2.023, 'types': 2340.0, 'I_word': 0.259, 'top_word': 0.225, 'PERS_30': 0.285, 'COV_30': 0.912, 'type_hapax': 0.691, 'zipf_slope': -0.69} tokens 8806
+  2b Latin                                        n=10 fails 2 (no R: 1) R +29.9 types -1.2 I_word +0.4 top_word +0.5 PERS_30 -0.6 COV_30 +0.1 type_hapax +0.8 zipf_slope +3.6
+  2b Hebrew                                       n=10 fails 1 (no R: 0) R +6.8 types -1.0 I_word -1.2 top_word -0.8 PERS_30 +0.8 COV_30 +1.1 type_hapax +0.8 zipf_slope +2.9
+  2b Czech                                        n=10 fails 1 (no R: 0) R +34.2 types -0.7 I_word -0.4 top_word -0.2 PERS_30 -0.7 COV_30 -0.1 type_hapax +1.2 zipf_slope +1.3
+  2b Italian                                      n=10 fails 2 (no R: 1) R +49.0 types +2.8 I_word -0.1 top_word -0.1 PERS_30 -1.8 COV_30 -0.8 type_hapax +2.6 zipf_slope +3.5
+  2b Serbian-Croatian                             n=10 fails 1 (no R: 0) R +30.6 types +0.7 I_word -0.3 top_word -0.3 PERS_30 -1.2 COV_30 -0.5 type_hapax +2.3 zipf_slope +2.2
+  2b Croatian text                                n=10 fails 1 (no R: 0) R +21.7 types -1.0 I_word -0.4 top_word -0.4 PERS_30 -0.7 COV_30 +0.0 type_hapax +1.1 zipf_slope +1.6
+  2b Slovak                                       n=10 fails 1 (no R: 0) R +48.0 types -1.8 I_word +2.1 top_word +2.5 PERS_30 -2.2 COV_30 -1.5 type_hapax +1.7 zipf_slope +2.5
+  2b Romanian                                     n=10 fails 2 (no R: 1) R +48.7 types +1.8 I_word -0.7 top_word -0.7 PERS_30 -1.0 COV_30 -0.5 type_hapax +2.4 zipf_slope +4.3
+  2b Romani                                       n=10 fails 4 (no R: 3) R +49.4 types +5.6 I_word +0.1 top_word -0.2 PERS_30 -2.2 COV_30 -1.4 type_hapax +6.1 zipf_slope +7.0
+  2b Turkish                                      n=10 fails 1 (no R: 0) R +13.9 types -1.8 I_word -1.0 top_word -0.5 PERS_30 +0.5 COV_30 +0.7 type_hapax +1.1 zipf_slope +0.8
+  2b Yiddish                                      n=10 fails 6 (no R: 5) R +48.7 types +5.3 I_word +0.7 top_word +0.0 PERS_30 -3.3 COV_30 -3.3 type_hapax +4.5 zipf_slope +3.2
+  2b Dutch                                        n=10 fails 3 (no R: 2) R +22.7 types +4.6 I_word -1.0 top_word -1.2 PERS_30 -0.7 COV_30 -0.3 type_hapax +4.6 zipf_slope +2.5
+  2b Ukrainian/Ruthenian                          n=10 fails 2 (no R: 1) R +46.9 types -1.3 I_word -0.7 top_word -0.6 PERS_30 -0.6 COV_30 -0.3 type_hapax +0.5 zipf_slope +4.8
+  2b Mandarin (Stolfi proposal; syllable tokens)  n=10 fails 3 (no R: 2) R +14.5 types +36.7 I_word -0.0 top_word -0.2 PERS_30 -1.6 COV_30 -1.4 type_hapax +28.3 zipf_slope +0.6
+ranking: [('Hebrew', 1, 2.75), ('Turkish', 1, 4.99), ('Croatian text', 1, 7.7), ('Serbian-Croatian', 1, 10.9), ('Czech', 1, 12.13), ('Slovak', 1, 17.09), ('Latin', 2, 10.67), ('Ukrainian/Ruthenian', 2, 16.7), ('Romanian', 2, 17.32), ('Italian', 2, 17.43), ('Dutch', 3, 8.42), ('Mandarin (Stolfi proposal; syllable tokens)', 3, 17.18), ('Romani', 4, 17.91), ('Yiddish', 6, 17.52)]
+VERDICT: SHORTLIST ['Hebrew', 'Turkish', 'Croatian text', 'Serbian-Croatian', 'Czech', 'Slovak', 'Latin', 'Ukrainian/Ruthenian', 'Romanian', 'Italian']

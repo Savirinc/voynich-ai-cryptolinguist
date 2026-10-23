@@ -1,0 +1,1211 @@
+{
+ "experiment": "E042",
+ "wals_sha256": {
+  "languages.csv": "f802b0993bb0769a877e307e14bdb9ae471f06806a96e292e6ad6aec351b3060",
+  "values.csv": "2d672f80dbe8cf1839061af0301650bde60c326bbb486835c93ab7304b5b06cd",
+  "codes.csv": "88c402d840ddeaf08545aea8395b593e9a1c44fe18353306a01dc839ea6a49b9"
+ },
+ "base_rate": {
+  "coded_on_all_three": 156,
+  "pass_hard": 46,
+  "pass_hard_share": 0.2948717948717949,
+  "pass_hard_and_double": 35,
+  "pass_hard_and_double_share": 0.22435897435897437,
+  "families": [
+   [
+    "Pama-Nyungan",
+    8
+   ],
+   [
+    "Afro-Asiatic",
+    4
+   ],
+   [
+    "Sino-Tibetan",
+    4
+   ],
+   [
+    "Trans-New Guinea",
+    2
+   ],
+   [
+    "Aymaran",
+    2
+   ],
+   [
+    "Uto-Aztecan",
+    2
+   ],
+   [
+    "Asmat-Kamrau Bay",
+    1
+   ],
+   [
+    "Central Sudanic",
+    1
+   ],
+   [
+    "Arawakan",
+    1
+   ],
+   [
+    "Choco",
+    1
+   ],
+   [
+    "Nakh-Daghestanian",
+    1
+   ],
+   [
+    "Japanese",
+    1
+   ],
+   [
+    "Tangkic",
+    1
+   ],
+   [
+    "Khoe-Kwadi",
+    1
+   ],
+   [
+    "Saharan",
+    1
+   ],
+   [
+    "Korean",
+    1
+   ],
+   [
+    "Solomons East Papuan",
+    1
+   ],
+   [
+    "Trumai",
+    1
+   ],
+   [
+    "Altaic",
+    1
+   ]
+  ],
+  "macroareas": [
+   [
+    "Australia",
+    9
+   ],
+   [
+    "Eurasia",
+    8
+   ],
+   [
+    "Africa",
+    7
+   ],
+   [
+    "South America",
+    5
+   ],
+   [
+    "Papunesia",
+    4
+   ],
+   [
+    "North America",
+    2
+   ]
+  ],
+  "languages": [
+   "Amele",
+   "Amharic",
+   "Arrernte (Mparntwe)",
+   "Asmat",
+   "Aymara (Central)",
+   "Bagirmi",
+   "Burmese",
+   "Campa (Axininca)",
+   "Comanche",
+   "Daga",
+   "Diyari",
+   "Dyirbal",
+   "Epena Pedee",
+   "Garo",
+   "Hunzib",
+   "Japanese",
+   "Jaqaru",
+   "Kanuri",
+   "Kayardild",
+   "Korean",
+   "Kuku-Yalanji",
+   "Lavukaleve",
+   "Mandarin",
+   "Martuthunira",
+   "Meithei",
+   "Nama",
+   "Ngiyambaa",
+   "Oromo (Harar)",
+   "Somali",
+   "Tigr\u00e9",
+   "Trumai",
+   "Turkish",
+   "Wik Munkan",
+   "Yaqui",
+   "Yidiny"
+  ]
+ },
+ "candidates": {
+  "Latin": {
+   "wals": null,
+   "bible": "latVUC",
+   "values": {},
+   "status": {
+    "12A": "not coded",
+    "26A": "not coded",
+    "27A": "not coded"
+   },
+   "fails_2a": false
+  },
+  "Greek (Koine/Byzantine)": {
+   "wals": "grk",
+   "bible": "grcbyz",
+   "values": {
+    "12A": "12A-3",
+    "26A": "26A-2",
+    "27A": "27A-3"
+   },
+   "status": {
+    "12A": "FAIL",
+    "26A": "pass",
+    "27A": "no doubling"
+   },
+   "fails_2a": true
+  },
+  "Hebrew": {
+   "wals": "heb",
+   "bible": "hboWLC",
+   "values": {
+    "26A": "26A-3",
+    "27A": "27A-1"
+   },
+   "status": {
+    "12A": "not coded",
+    "26A": "pass",
+    "27A": "doubles"
+   },
+   "fails_2a": false
+  },
+  "Arabic": {
+   "wals": "aeg",
+   "bible": "arb-vd",
+   "values": {
+    "12A": "12A-3",
+    "26A": "26A-3",
+    "27A": "27A-1"
+   },
+   "status": {
+    "12A": "FAIL",
+    "26A": "pass",
+    "27A": "doubles"
+   },
+   "fails_2a": true
+  },
+  "German": {
+   "wals": "ger",
+   "bible": "deu1912",
+   "values": {
+    "12A": "12A-3",
+    "26A": "26A-2",
+    "27A": "27A-3"
+   },
+   "status": {
+    "12A": "FAIL",
+    "26A": "pass",
+    "27A": "no doubling"
+   },
+   "fails_2a": true
+  },
+  "Czech": {
+   "wals": "cze",
+   "bible": "ces1613",
+   "values": {
+    "26A": "26A-3"
+   },
+   "status": {
+    "12A": "not coded",
+    "26A": "pass",
+    "27A": "not coded"
+   },
+   "fails_2a": false
+  },
+  "Polish": {
+   "wals": "pol",
+   "bible": "polubg",
+   "values": {
+    "12A": "12A-3",
+    "26A": "26A-2"
+   },
+   "status": {
+    "12A": "FAIL",
+    "26A": "pass",
+    "27A": "not coded"
+   },
+   "fails_2a": true
+  },
+  "Hungarian": {
+   "wals": "hun",
+   "bible": "hun",
+   "values": {
+    "12A": "12A-3",
+    "26A": "26A-2",
+    "27A": "27A-1"
+   },
+   "status": {
+    "12A": "FAIL",
+    "26A": "pass",
+    "27A": "doubles"
+   },
+   "fails_2a": true
+  },
+  "Italian": {
+   "wals": "ita",
+   "bible": "ita1885",
+   "values": {
+    "26A": "26A-2",
+    "27A": "27A-3"
+   },
+   "status": {
+    "12A": "not coded",
+    "26A": "pass",
+    "27A": "no doubling"
+   },
+   "fails_2a": false
+  },
+  "French": {
+   "wals": "fre",
+   "bible": "fraLSG",
+   "values": {
+    "12A": "12A-3",
+    "26A": "26A-2",
+    "27A": "27A-3"
+   },
+   "status": {
+    "12A": "FAIL",
+    "26A": "pass",
+    "27A": "no doubling"
+   },
+   "fails_2a": true
+  },
+  "Occitan": {
+   "wals": null,
+   "bible": null,
+   "values": {},
+   "status": {
+    "12A": "not coded",
+    "26A": "not coded",
+    "27A": "not coded"
+   },
+   "fails_2a": false
+  },
+  "Catalan": {
+   "wals": "ctl",
+   "bible": null,
+   "values": {
+    "12A": "12A-2",
+    "27A": "27A-3"
+   },
+   "status": {
+    "12A": "pass",
+    "26A": "not coded",
+    "27A": "no doubling"
+   },
+   "fails_2a": false
+  },
+  "Serbian-Croatian": {
+   "wals": "scr",
+   "bible": "srp1865",
+   "values": {
+    "26A": "26A-2"
+   },
+   "status": {
+    "12A": "not coded",
+    "26A": "pass",
+    "27A": "not coded"
+   },
+   "fails_2a": false
+  },
+  "Croatian text": {
+   "wals": "scr",
+   "bible": "hrv",
+   "values": {
+    "26A": "26A-2"
+   },
+   "status": {
+    "12A": "not coded",
+    "26A": "pass",
+    "27A": "not coded"
+   },
+   "fails_2a": false
+  },
+  "Slovak": {
+   "wals": null,
+   "bible": "slk",
+   "values": {},
+   "status": {
+    "12A": "not coded",
+    "26A": "not coded",
+    "27A": "not coded"
+   },
+   "fails_2a": false
+  },
+  "Slovene": {
+   "wals": "slo",
+   "bible": null,
+   "values": {
+    "26A": "26A-2"
+   },
+   "status": {
+    "12A": "not coded",
+    "26A": "pass",
+    "27A": "not coded"
+   },
+   "fails_2a": false
+  },
+  "Romanian": {
+   "wals": "rom",
+   "bible": "ron1924",
+   "values": {
+    "26A": "26A-2"
+   },
+   "status": {
+    "12A": "not coded",
+    "26A": "pass",
+    "27A": "not coded"
+   },
+   "fails_2a": false
+  },
+  "Romani": {
+   "wals": null,
+   "bible": "rmc",
+   "values": {},
+   "status": {
+    "12A": "not coded",
+    "26A": "not coded",
+    "27A": "not coded"
+   },
+   "fails_2a": false
+  },
+  "Turkish": {
+   "wals": "tur",
+   "bible": "turytc",
+   "values": {
+    "12A": "12A-2",
+    "26A": "26A-2",
+    "27A": "27A-1"
+   },
+   "status": {
+    "12A": "pass",
+    "26A": "pass",
+    "27A": "doubles"
+   },
+   "fails_2a": false
+  },
+  "Armenian": {
+   "wals": "arm",
+   "bible": null,
+   "values": {
+    "26A": "26A-2",
+    "27A": "27A-2"
+   },
+   "status": {
+    "12A": "not coded",
+    "26A": "pass",
+    "27A": "doubles"
+   },
+   "fails_2a": false
+  },
+  "Yiddish": {
+   "wals": null,
+   "bible": "ydd",
+   "values": {},
+   "status": {
+    "12A": "not coded",
+    "26A": "not coded",
+    "27A": "not coded"
+   },
+   "fails_2a": false
+  },
+  "Dutch": {
+   "wals": "dut",
+   "bible": "nld",
+   "values": {
+    "26A": "26A-2"
+   },
+   "status": {
+    "12A": "not coded",
+    "26A": "pass",
+    "27A": "not coded"
+   },
+   "fails_2a": false
+  },
+  "English (Middle)": {
+   "wals": "eng",
+   "bible": "engWycliffe",
+   "values": {
+    "12A": "12A-3",
+    "26A": "26A-2",
+    "27A": "27A-3"
+   },
+   "status": {
+    "12A": "FAIL",
+    "26A": "pass",
+    "27A": "no doubling"
+   },
+   "fails_2a": true
+  },
+  "Lithuanian": {
+   "wals": "lit",
+   "bible": "lit",
+   "values": {
+    "12A": "12A-3",
+    "26A": "26A-2"
+   },
+   "status": {
+    "12A": "FAIL",
+    "26A": "pass",
+    "27A": "not coded"
+   },
+   "fails_2a": true
+  },
+  "Ukrainian/Ruthenian": {
+   "wals": "ukr",
+   "bible": "ukr1871",
+   "values": {
+    "26A": "26A-2"
+   },
+   "status": {
+    "12A": "not coded",
+    "26A": "pass",
+    "27A": "not coded"
+   },
+   "fails_2a": false
+  },
+  "Albanian": {
+   "wals": "alb",
+   "bible": null,
+   "values": {
+    "12A": "12A-3",
+    "26A": "26A-2"
+   },
+   "status": {
+    "12A": "FAIL",
+    "26A": "pass",
+    "27A": "not coded"
+   },
+   "fails_2a": true
+  },
+  "Mandarin (Stolfi proposal; syllable tokens)": {
+   "wals": "mnd",
+   "bible": "cmn-cu89s",
+   "values": {
+    "12A": "12A-2",
+    "26A": "26A-2",
+    "27A": "27A-1"
+   },
+   "status": {
+    "12A": "pass",
+    "26A": "pass",
+    "27A": "doubles"
+   },
+   "fails_2a": false
+  }
+ },
+ "voynich_A": {
+  "R": 2.022551140292434,
+  "types": 2340.0,
+  "I_word": 0.2586632072336958,
+  "top_word": 0.2247191011235955,
+  "PERS_30": 0.28465102841664314,
+  "COV_30": 0.9125,
+  "type_hapax": 0.691025641025641,
+  "zipf_slope": -0.6901127933283665
+ },
+ "nA": 8806,
+ "stage2b": {
+  "Latin": {
+   "bible": "latVUC",
+   "tokens": 612221,
+   "n_windows": 10,
+   "mean": {
+    "R": 0.042674978735600486,
+    "types": 2804.4,
+    "I_word": 0.23077132786772273,
+    "top_word": 0.19282587153863368,
+    "PERS_30": 0.3214571779308609,
+    "COV_30": 0.9095833333333333,
+    "type_hapax": 0.6577259682489061,
+    "zipf_slope": -0.8097276831811702
+   },
+   "sd": {
+    "R": 0.06620303836992895,
+    "types": 375.6284215965441,
+    "I_word": 0.06395162665632813,
+    "top_word": 0.06263973757854509,
+    "PERS_30": 0.06264338397160713,
+    "COV_30": 0.032516021691877776,
+    "type_hapax": 0.04026416237564382,
+    "zipf_slope": 0.03305646895873224
+   },
+   "z": {
+    "R": 29.91,
+    "types": -1.24,
+    "I_word": 0.44,
+    "top_word": 0.51,
+    "PERS_30": -0.59,
+    "COV_30": 0.09,
+    "type_hapax": 0.83,
+    "zipf_slope": 3.62
+   },
+   "fail": [
+    "R",
+    "zipf_slope"
+   ],
+   "fails_no_R": [
+    "zipf_slope"
+   ],
+   "rms": 10.669752222989999,
+   "wals_27A": "not coded"
+  },
+  "Hebrew": {
+   "bible": "hboWLC",
+   "tokens": 308772,
+   "n_windows": 10,
+   "mean": {
+    "R": 0.34368840541036383,
+    "types": 3016.5,
+    "I_word": 0.509567045382974,
+    "top_word": 0.38572542642059093,
+    "PERS_30": 0.2215870334950175,
+    "COV_30": 0.83125,
+    "type_hapax": 0.6414905284022951,
+    "zipf_slope": -0.7596067311916962
+   },
+   "sd": {
+    "R": 0.24491274651195064,
+    "types": 696.0231876724926,
+    "I_word": 0.20248530628251685,
+    "top_word": 0.197251059855016,
+    "PERS_30": 0.08381650903092022,
+    "COV_30": 0.07567214248419393,
+    "type_hapax": 0.059630328184003364,
+    "zipf_slope": 0.024369725489819957
+   },
+   "z": {
+    "R": 6.85,
+    "types": -0.97,
+    "I_word": -1.24,
+    "top_word": -0.82,
+    "PERS_30": 0.75,
+    "COV_30": 1.07,
+    "type_hapax": 0.83,
+    "zipf_slope": 2.85
+   },
+   "fail": [
+    "R"
+   ],
+   "fails_no_R": [],
+   "rms": 2.752094656802342,
+   "wals_27A": "doubles"
+  },
+  "Czech": {
+   "bible": "ces1613",
+   "tokens": 598456,
+   "n_windows": 10,
+   "mean": {
+    "R": 0.07857298408772517,
+    "types": 2578.9,
+    "I_word": 0.2912557708238831,
+    "top_word": 0.23872722541911173,
+    "PERS_30": 0.3355577795457948,
+    "COV_30": 0.9158333333333333,
+    "type_hapax": 0.6341234037919926,
+    "zipf_slope": -0.7321468883434827
+   },
+   "sd": {
+    "R": 0.05676610064311759,
+    "types": 335.7642857058439,
+    "I_word": 0.08048306784585317,
+    "top_word": 0.07420604889571766,
+    "PERS_30": 0.07735128349744186,
+    "COV_30": 0.03807683914156144,
+    "type_hapax": 0.04580792592931284,
+    "zipf_slope": 0.03268236860989045
+   },
+   "z": {
+    "R": 34.25,
+    "types": -0.71,
+    "I_word": -0.4,
+    "top_word": -0.19,
+    "PERS_30": -0.66,
+    "COV_30": -0.09,
+    "type_hapax": 1.24,
+    "zipf_slope": 1.29
+   },
+   "fail": [
+    "R"
+   ],
+   "fails_no_R": [],
+   "rms": 12.131612114636702,
+   "wals_27A": "not coded"
+  },
+  "Italian": {
+   "bible": "ita1885",
+   "tokens": 761294,
+   "n_windows": 10,
+   "mean": {
+    "R": 0.04066212628331593,
+    "types": 1830.6,
+    "I_word": 0.2690409198220619,
+    "top_word": 0.23703944058570273,
+    "PERS_30": 0.40465506982612565,
+    "COV_30": 0.9433333333333331,
+    "type_hapax": 0.5849583589306393,
+    "zipf_slope": -0.8019314399220869
+   },
+   "sd": {
+    "R": 0.04045102280584868,
+    "types": 180.36949729806187,
+    "I_word": 0.09983641779002579,
+    "top_word": 0.10724913377563526,
+    "PERS_30": 0.06795802769513339,
+    "COV_30": 0.04031128874149274,
+    "type_hapax": 0.040020135528564406,
+    "zipf_slope": 0.03205977831328624
+   },
+   "z": {
+    "R": 48.99,
+    "types": 2.82,
+    "I_word": -0.1,
+    "top_word": -0.11,
+    "PERS_30": -1.77,
+    "COV_30": -0.76,
+    "type_hapax": 2.65,
+    "zipf_slope": 3.49
+   },
+   "fail": [
+    "R",
+    "zipf_slope"
+   ],
+   "fails_no_R": [
+    "zipf_slope"
+   ],
+   "rms": 17.431679853072108,
+   "wals_27A": "no doubling"
+  },
+  "Serbian-Croatian": {
+   "bible": "srp1865",
+   "tokens": 586596,
+   "n_windows": 10,
+   "mean": {
+    "R": 0.0714624771834787,
+    "types": 2126.2,
+    "I_word": 0.30922026278051623,
+    "top_word": 0.2743157750940198,
+    "PERS_30": 0.3743502648318194,
+    "COV_30": 0.9325000000000001,
+    "type_hapax": 0.5766989269602563,
+    "zipf_slope": -0.7904954441818834
+   },
+   "sd": {
+    "R": 0.06369066000855221,
+    "types": 318.5609308541565,
+    "I_word": 0.14604599524837278,
+    "top_word": 0.14360603566574442,
+    "PERS_30": 0.07692720626102835,
+    "COV_30": 0.04377975178854565,
+    "type_hapax": 0.0493952651470808,
+    "zipf_slope": 0.0463496563405132
+   },
+   "z": {
+    "R": 30.63,
+    "types": 0.67,
+    "I_word": -0.35,
+    "top_word": -0.35,
+    "PERS_30": -1.17,
+    "COV_30": -0.46,
+    "type_hapax": 2.31,
+    "zipf_slope": 2.17
+   },
+   "fail": [
+    "R"
+   ],
+   "fails_no_R": [],
+   "rms": 10.90020814021457,
+   "wals_27A": "not coded"
+  },
+  "Croatian text": {
+   "bible": "hrv",
+   "tokens": 648742,
+   "n_windows": 10,
+   "mean": {
+    "R": 0.10028186202085829,
+    "types": 2636.2,
+    "I_word": 0.330205942307539,
+    "top_word": 0.27070482172042737,
+    "PERS_30": 0.35295809185732974,
+    "COV_30": 0.9100000000000001,
+    "type_hapax": 0.6408677829718386,
+    "zipf_slope": -0.7867855139540039
+   },
+   "sd": {
+    "R": 0.08874907846215269,
+    "types": 297.8981183037061,
+    "I_word": 0.16270423321575664,
+    "top_word": 0.11591193510176145,
+    "PERS_30": 0.09270855029741558,
+    "COV_30": 0.055666555777223785,
+    "type_hapax": 0.04358864277930841,
+    "zipf_slope": 0.06143321607860467
+   },
+   "z": {
+    "R": 21.66,
+    "types": -0.99,
+    "I_word": -0.44,
+    "top_word": -0.4,
+    "PERS_30": -0.74,
+    "COV_30": 0.04,
+    "type_hapax": 1.15,
+    "zipf_slope": 1.57
+   },
+   "fail": [
+    "R"
+   ],
+   "fails_no_R": [],
+   "rms": 7.704105236820172,
+   "wals_27A": "not coded"
+  },
+  "Slovak": {
+   "bible": "slk",
+   "tokens": 145475,
+   "n_windows": 10,
+   "mean": {
+    "R": 0.07977312781197958,
+    "types": 2743.6,
+    "I_word": 0.19037163126639228,
+    "top_word": 0.13712401306613367,
+    "PERS_30": 0.39388826680373623,
+    "COV_30": 0.9516666666666668,
+    "type_hapax": 0.6546338621824457,
+    "zipf_slope": -0.7640148626795908
+   },
+   "sd": {
+    "R": 0.04045102280584868,
+    "types": 219.03535990540178,
+    "I_word": 0.0326739111286647,
+    "top_word": 0.03471912369163432,
+    "PERS_30": 0.0485694947733366,
+    "COV_30": 0.026440008965090633,
+    "type_hapax": 0.021975948822386397,
+    "zipf_slope": 0.02943272300137992
+   },
+   "z": {
+    "R": 48.03,
+    "types": -1.84,
+    "I_word": 2.09,
+    "top_word": 2.52,
+    "PERS_30": -2.25,
+    "COV_30": -1.48,
+    "type_hapax": 1.66,
+    "zipf_slope": 2.51
+   },
+   "fail": [
+    "R"
+   ],
+   "fails_no_R": [],
+   "rms": 17.092738224169935,
+   "wals_27A": "not coded"
+  },
+  "Romanian": {
+   "bible": "ron1924",
+   "tokens": 720176,
+   "n_windows": 10,
+   "mean": {
+    "R": 0.052966110125369226,
+    "types": 1730.2,
+    "I_word": 0.3273576176321203,
+    "top_word": 0.3215136164210499,
+    "PERS_30": 0.37686239754237033,
+    "COV_30": 0.9329166666666666,
+    "type_hapax": 0.5311814879079495,
+    "zipf_slope": -0.8554426718963913
+   },
+   "sd": {
+    "R": 0.04045102280584868,
+    "types": 331.90052057138377,
+    "I_word": 0.09737987016965559,
+    "top_word": 0.13097296627930732,
+    "PERS_30": 0.09129779311563836,
+    "COV_30": 0.04318752177466352,
+    "type_hapax": 0.06698464192941567,
+    "zipf_slope": 0.03848087604135802
+   },
+   "z": {
+    "R": 48.69,
+    "types": 1.84,
+    "I_word": -0.71,
+    "top_word": -0.74,
+    "PERS_30": -1.01,
+    "COV_30": -0.47,
+    "type_hapax": 2.39,
+    "zipf_slope": 4.3
+   },
+   "fail": [
+    "R",
+    "zipf_slope"
+   ],
+   "fails_no_R": [
+    "zipf_slope"
+   ],
+   "rms": 17.32266037593533,
+   "wals_27A": "not coded"
+  },
+  "Romani": {
+   "bible": "rmc",
+   "tokens": 688078,
+   "n_windows": 10,
+   "mean": {
+    "R": 0.023130126105756613,
+    "types": 1559.0,
+    "I_word": 0.25304245308483997,
+    "top_word": 0.24988418131704324,
+    "PERS_30": 0.43866294500768654,
+    "COV_30": 0.9575000000000001,
+    "type_hapax": 0.5147755571549943,
+    "zipf_slope": -0.8500159253458716
+   },
+   "sd": {
+    "R": 0.04045102280584868,
+    "types": 139.00599507455306,
+    "I_word": 0.12452214519194653,
+    "top_word": 0.13714876973299844,
+    "PERS_30": 0.07113117048827347,
+    "COV_30": 0.03256048502687245,
+    "type_hapax": 0.028876990752418553,
+    "zipf_slope": 0.022983198298466085
+   },
+   "z": {
+    "R": 49.43,
+    "types": 5.62,
+    "I_word": 0.05,
+    "top_word": -0.18,
+    "PERS_30": -2.17,
+    "COV_30": -1.38,
+    "type_hapax": 6.1,
+    "zipf_slope": 6.96
+   },
+   "fail": [
+    "R",
+    "types",
+    "type_hapax",
+    "zipf_slope"
+   ],
+   "fails_no_R": [
+    "types",
+    "type_hapax",
+    "zipf_slope"
+   ],
+   "rms": 17.91371367137479,
+   "wals_27A": "not coded"
+  },
+  "Turkish": {
+   "bible": "turytc",
+   "tokens": 500286,
+   "n_windows": 10,
+   "mean": {
+    "R": 0.2840081213784253,
+    "types": 3029.5,
+    "I_word": 0.38316365710629385,
+    "top_word": 0.2733095824060585,
+    "PERS_30": 0.2644285995206134,
+    "COV_30": 0.8804166666666665,
+    "type_hapax": 0.651283341237208,
+    "zipf_slope": -0.7166867693113023
+   },
+   "sd": {
+    "R": 0.12531835671201474,
+    "types": 389.63152108398805,
+    "I_word": 0.12755342342291442,
+    "top_word": 0.10141276415216247,
+    "PERS_30": 0.041006993522174504,
+    "COV_30": 0.04496440636221246,
+    "type_hapax": 0.03785450218154029,
+    "zipf_slope": 0.032924611246868817
+   },
+   "z": {
+    "R": 13.87,
+    "types": -1.77,
+    "I_word": -0.98,
+    "top_word": -0.48,
+    "PERS_30": 0.49,
+    "COV_30": 0.71,
+    "type_hapax": 1.05,
+    "zipf_slope": 0.81
+   },
+   "fail": [
+    "R"
+   ],
+   "fails_no_R": [],
+   "rms": 4.990032565023999,
+   "wals_27A": "doubles"
+  },
+  "Yiddish": {
+   "bible": "ydd",
+   "tokens": 190160,
+   "n_windows": 10,
+   "mean": {
+    "R": 0.05146021158671743,
+    "types": 1463.0,
+    "I_word": 0.21244778781753904,
+    "top_word": 0.22335342569989206,
+    "PERS_30": 0.46050826690999075,
+    "COV_30": 0.9725000000000001,
+    "type_hapax": 0.5278330301053005,
+    "zipf_slope": -0.8877571945020376
+   },
+   "sd": {
+    "R": 0.04045102280584868,
+    "types": 165.97791017682644,
+    "I_word": 0.06883858845535266,
+    "top_word": 0.07211634874517255,
+    "PERS_30": 0.052813407354897215,
+    "COV_30": 0.01825,
+    "type_hapax": 0.03600150277929335,
+    "zipf_slope": 0.06218593461570408
+   },
+   "z": {
+    "R": 48.73,
+    "types": 5.28,
+    "I_word": 0.67,
+    "top_word": 0.02,
+    "PERS_30": -3.33,
+    "COV_30": -3.29,
+    "type_hapax": 4.53,
+    "zipf_slope": 3.18
+   },
+   "fail": [
+    "R",
+    "types",
+    "PERS_30",
+    "COV_30",
+    "type_hapax",
+    "zipf_slope"
+   ],
+   "fails_no_R": [
+    "types",
+    "PERS_30",
+    "COV_30",
+    "type_hapax",
+    "zipf_slope"
+   ],
+   "rms": 17.51958511209669,
+   "wals_27A": "not coded"
+  },
+  "Dutch": {
+   "bible": "nld",
+   "tokens": 771061,
+   "n_windows": 10,
+   "mean": {
+    "R": 0.07772723611609356,
+    "types": 1477.7,
+    "I_word": 0.35770718692792147,
+    "top_word": 0.34467157538561627,
+    "PERS_30": 0.36571450221751617,
+    "COV_30": 0.9270833333333333,
+    "type_hapax": 0.5241728772288059,
+    "zipf_slope": -0.8875875146075753
+   },
+   "sd": {
+    "R": 0.08567195068818864,
+    "types": 188.38379854848336,
+    "I_word": 0.0980575850400669,
+    "top_word": 0.09662537160524755,
+    "PERS_30": 0.11181260357287244,
+    "COV_30": 0.05351279124807912,
+    "type_hapax": 0.035945668606837636,
+    "zipf_slope": 0.07862195796913213
+   },
+   "z": {
+    "R": 22.7,
+    "types": 4.58,
+    "I_word": -1.01,
+    "top_word": -1.24,
+    "PERS_30": -0.72,
+    "COV_30": -0.27,
+    "type_hapax": 4.64,
+    "zipf_slope": 2.51
+   },
+   "fail": [
+    "R",
+    "types",
+    "type_hapax"
+   ],
+   "fails_no_R": [
+    "types",
+    "type_hapax"
+   ],
+   "rms": 8.420548527263529,
+   "wals_27A": "not coded"
+  },
+  "Ukrainian/Ruthenian": {
+   "bible": "ukr1871",
+   "tokens": 585328,
+   "n_windows": 10,
+   "mean": {
+    "R": 0.0588909659042713,
+    "types": 2706.9,
+    "I_word": 0.3317589881739509,
+    "top_word": 0.29975214567894487,
+    "PERS_30": 0.33680787775729953,
+    "COV_30": 0.9266666666666665,
+    "type_hapax": 0.6689965341408408,
+    "zipf_slope": -0.8591053737658614
+   },
+   "sd": {
+    "R": 0.04183255972920532,
+    "types": 274.2790347235619,
+    "I_word": 0.10370408986422334,
+    "top_word": 0.12838504786912014,
+    "PERS_30": 0.08703342069936404,
+    "COV_30": 0.04158324983291551,
+    "type_hapax": 0.04889529074024653,
+    "zipf_slope": 0.03502077224704357
+   },
+   "z": {
+    "R": 46.94,
+    "types": -1.34,
+    "I_word": -0.7,
+    "top_word": -0.58,
+    "PERS_30": -0.6,
+    "COV_30": -0.34,
+    "type_hapax": 0.45,
+    "zipf_slope": 4.83
+   },
+   "fail": [
+    "R",
+    "zipf_slope"
+   ],
+   "fails_no_R": [
+    "zipf_slope"
+   ],
+   "rms": 16.695780155476413,
+   "wals_27A": "not coded"
+  },
+  "Mandarin (Stolfi proposal; syllable tokens)": {
+   "bible": "cmn-cu89s",
+   "tokens": 922268,
+   "n_windows": 10,
+   "mean": {
+    "R": 0.35302538768663894,
+    "types": 621.6,
+    "I_word": 0.2604493316229267,
+    "top_word": 0.24168656010383144,
+    "PERS_30": 0.45550786773275476,
+    "COV_30": 0.9679166666666668,
+    "type_hapax": 0.2020073169931643,
+    "zipf_slope": -0.7260528467305337
+   },
+   "sd": {
+    "R": 0.1153663770397802,
+    "types": 46.800000000000004,
+    "I_word": 0.1165413202110947,
+    "top_word": 0.1046808774778899,
+    "PERS_30": 0.1069505759457324,
+    "COV_30": 0.040685199935936896,
+    "type_hapax": 0.017295327535179674,
+    "zipf_slope": 0.060721591100408846
+   },
+   "z": {
+    "R": 14.47,
+    "types": 36.72,
+    "I_word": -0.02,
+    "top_word": -0.16,
+    "PERS_30": -1.6,
+    "COV_30": -1.36,
+    "type_hapax": 28.27,
+    "zipf_slope": 0.59
+   },
+   "fail": [
+    "R",
+    "types",
+    "type_hapax"
+   ],
+   "fails_no_R": [
+    "types",
+    "type_hapax"
+   ],
+   "rms": 17.181806875296907,
+   "wals_27A": "doubles"
+  }
+ },
+ "ranking": [
+  "Hebrew",
+  "Turkish",
+  "Croatian text",
+  "Serbian-Croatian",
+  "Czech",
+  "Slovak",
+  "Latin",
+  "Ukrainian/Ruthenian",
+  "Romanian",
+  "Italian",
+  "Dutch",
+  "Mandarin (Stolfi proposal; syllable tokens)",
+  "Romani",
+  "Yiddish"
+ ],
+ "shortlist": [
+  "Hebrew",
+  "Turkish",
+  "Croatian text",
+  "Serbian-Croatian",
+  "Czech",
+  "Slovak",
+  "Latin",
+  "Ukrainian/Ruthenian",
+  "Romanian",
+  "Italian"
+ ],
+ "verdict": "SHORTLIST",
+ "text_sha256": {
+  "latVUC": "adfe4db7c312992f0d393500f7a35ae790ecba19084e9ab8d6548fa7cb0a87e5",
+  "hboWLC": "05c098b9fa53ce5330fb88d601063f79c227897d30bb81e3f1cde324e7248d9e",
+  "ces1613": "af97c1b575429d391ac3d3985dc2d9eaf86a55fcb170d6496d13c425e555b8a9",
+  "ita1885": "a7538f37a1032f94b6968dc27943f5aac4047211d6c68a8809c1abebab31867f",
+  "srp1865": "98d46362e35f8d48f030062e091dd7dbf799b6a4f1ef494d28e48bdb5656ffc4",
+  "hrv": "e2e66349bf6bf7e54b488b89cb10255e49badc45ba8aab32195e09f98751fd9e",
+  "slk": "edd9182d23579496b777abfb2a5a774597c1a3cc24743a60b2ff60eb66748620",
+  "ron1924": "6ff1c25cd77af4bd8f1682f153e7545671da277363cdb3f65d9c31be7f1c5d6a",
+  "rmc": "5b1580cc7b9044427f15999b033a84de1095813a00064b3ef5c6792a8eadcf81",
+  "turytc": "6cfd29467080cc74d94d659d9423afeb15f8d855548e3cd2fdbedefb0a48813c",
+  "ydd": "d8af5406639b8dd071e458e45a654af61ca90cedb3b9d75d5574f35ef5efd2b6",
+  "nld": "2e7d25e5f566cb9bf543aa1698b351e40fba21693f84a3589390c6a925659cc9",
+  "ukr1871": "541aa021a80515f358f10e861838633f37a4f412ee4681f99c70360dab5306ae",
+  "cmn-cu89s": "0c41b6a3c45d216d88161d29f2bec511fc0337ea85022e5c217c674ac9f86c46"
+ },
+ "locked_test_excluded": [
+  "1",
+  "8",
+  "9",
+  "30",
+  "35",
+  "38",
+  "51",
+  "52",
+  "56",
+  "75",
+  "86",
+  "87",
+  "102",
+  "105",
+  "114"
+ ]
+}
