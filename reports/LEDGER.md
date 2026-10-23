@@ -210,3 +210,17 @@ vocabulary and its flat Zipf head.
 - **C11 revised:** the flat Zipf head survives cleaning for DEV (−0.74), but B alone is −0.84, inside the Bible
   range. The flatness is largely A/B vocabulary mixing plus spelling variation, not a property of each variety.
 - **C4 confirmed:** cleaning removes 16% of distinct words. The share of words seen once is unchanged (0.66).
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-23 | E043 line recurrence by text type (`LINE_RECURRENCE.md`) | NOTHING MATCHES (sacred, practical, other, generator); Indonesian reference within tolerance | none | 0.006 | 0.970 | 0.023 | 0.001 |
+
+**Sub-hypotheses of L (introduced in E043_PREREG):** L-sacred 0.30, L-practical 0.45, L-other 0.25 (shares of L).
+These are unchanged after E043.
+
+**C21 (E043):** Voynich does not avoid putting the same word back to back (AS 1.01). Every ordinary text strongly
+avoids it (0.00–0.26). Latin hymns (refrains) reach 0.53, the copy generator 0.76, and Indonesian (real doubling)
+1.45.
+
+**C9 restated:** the excess of repeats is same-line recurrence (A 1.76, B 2.21 × chance), with no adjacency
+avoidance. It is not back-to-back doubling as such. DEV's 2.6 is inflated by pooling the A and B vocabularies.

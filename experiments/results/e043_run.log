@@ -1,0 +1,16 @@
+Voynich {'DEV': {'SL': 2.62, 'AS': 1.01, 'd1': 2.65, 'd2': 3.18, 'd3': 2.98}, 'A': {'SL': 1.76, 'AS': 1.0, 'd1': 1.76, 'd2': 1.95, 'd3': 1.93}, 'B': {'SL': 2.21, 'AS': 0.98, 'd1': 2.16, 'd2': 2.68, 'd3': 2.42}}
+SACRED    Latin hymns (Hymni, Ambrose, Prudentius)     n= 2 SL 2.68 AS 0.53 | d1 1.76 d2 2.34 d3 2.73 | z SL -0.3 AS +8.9 -> - | natural lines SL 2.64 AS 0.61
+SACRED    Latin Psalms (Vulgate)                       n= 3 SL 1.07 AS 0.09 | d1 0.10 d2 0.67 d3 1.43 | z SL +7.2 AS +16.8 -> - | natural lines SL 1.43 AS 0.06
+SACRED    Hebrew Psalms                                n= 2 SL 2.07 AS 0.22 | d1 0.45 d2 1.58 d3 3.03 | z SL +2.6 AS +14.5 -> - | natural lines SL 2.36 AS 0.18
+SACRED    Latin Genesis-Exodus (Vulgate)               n= 5 SL 0.92 AS 0.03 | d1 0.03 d2 1.15 d3 0.97 | z SL +8.0 AS +17.9 -> - | natural lines SL 1.11 AS 0.03
+SACRED    Hebrew Genesis-Exodus                        n= 4 SL 2.47 AS 0.12 | d1 0.30 d2 2.67 d3 2.71 | z SL +0.4 AS +16.3 -> - | natural lines SL 2.58 AS 0.11
+PRACTICAL Apicius + Cato + Varro (recipes, farming)    n= 6 SL 1.86 AS 0.07 | d1 0.11 d2 1.77 d3 2.29 | z SL +1.0 AS +12.8 -> - | natural lines SL 1.70 AS 0.03
+PRACTICAL Columella (farming)                          n=10 SL 1.06 AS 0.02 | d1 0.02 d2 1.31 d3 1.26 | z SL +4.1 AS +18.1 -> - | natural lines SL 1.12 AS 0.02
+PRACTICAL Culpeper herbal (English)                    n=10 SL 0.84 AS 0.03 | d1 0.03 d2 0.52 d3 1.25 | z SL +8.3 AS +18.0 -> - | natural lines SL 0.90 AS 0.02
+OTHER     Vergil Aeneid                                n= 7 SL 1.15 AS 0.15 | d1 0.18 d2 1.33 d3 1.79 | z SL +6.9 AS +9.6 -> - | natural lines SL 1.18 AS 0.13
+OTHER     Ovid Metamorphoses                           n= 8 SL 1.74 AS 0.26 | d1 0.44 d2 2.32 d3 2.54 | z SL +4.1 AS +7.1 -> - | natural lines SL 1.78 AS 0.22
+OTHER     Caesar Gallic War                            n= 5 SL 0.94 AS 0.00 | d1 0.00 d2 0.74 d3 1.26 | z SL +7.9 AS +18.5 -> - | natural lines SL 1.23 AS 0.00
+REFERENCE Indonesian Bible (doubling reference)        n=10 SL 1.82 AS 1.45 | d1 2.65 d2 0.76 d3 1.42 | z SL +2.6 AS -1.9 -> MATCH
+GENERATOR Copy generator (Timm & Schinner)             n=10 SL 2.73 AS 0.76 | d1 2.08 d2 3.04 d3 2.96 | z SL -0.2 AS +3.3 -> -
+matches by group: {'SACRED': [], 'PRACTICAL': [], 'OTHER': [], 'GENERATOR': []}
+VERDICT: NOTHING MATCHES {}
