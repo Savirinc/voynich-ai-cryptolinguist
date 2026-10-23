@@ -229,3 +229,12 @@ avoidance. It is not back-to-back doubling as such. DEV's 2.6 is inflated by poo
 Syllable-spaced Vietnamese and Chinese also avoid adjacent identical units (AS 0.25–0.31), and have far too few
 distinct units. C21 (AS ≈ 1) is not reproduced by any writing system or text type tested. The nearest are
 grammatical doubling (Indonesian 1.37, vocabulary too small) and the copy generator (0.76).
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-23 | E045 human gibberish vs C21 (`HUMAN_GIBBERISH.md`) | INCONCLUSIVE: gibberish AS 0.66 (95% 0.41–0.96), Voynich A 1.04; 68 meaningful texts max 0.52 | none | 0.006 | 0.970 | 0.023 | 0.001 |
+
+**Unscored caution after E045.** On C21 the ordering is: meaningful texts (≤ 0.53) < human gibberish (0.66) < copy
+generator (0.76) < Voynich (1.0) < grammatical doubling (about 1.4). Apart from doubling-grammar languages, no
+meaningful text of about 90 comes near, whereas non-meaningful sources get most of the way. C21 leans towards M, and
+the L lead was built without it. The rules allow no factor here, but anyone reading L = 0.97 should weigh this.

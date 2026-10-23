@@ -1,0 +1,16 @@
+Voynich {'A': {'O': 73, 'E': 70.25, 'AS': 1.04}, 'B': {'O': 166, 'E': 163.99, 'AS': 1.01}}
+gibberish pooled AS 0.66 (O 41, E 62.2), 95% 0.41-0.96; writers 38
+meaningful pooled AS 0.05; per-text (E>=5, n=68) median 0.02, max 0.52, share >= 0.85: 0.00
+   0.52  E 15.3  Modern - Chinese (Pinyin) - Technical - Voynich Wiki.txt
+   0.48  E 154.1  Historical - Sanskrit - Literary - Mahabharata.txt
+   0.42  E 7.1  Historical - Mayan (Yucatec) - Technical - Chilam Balam.txt
+   0.4  E 5.0  Modern - Turkish - Technical - Middle Ages Wiki.txt
+   0.36  E 119.8  Historical - Sanskrit - Technical - Charaka Samhita.txt
+   0.29  E 3.4  Modern - Hebrew - Technical - Voynich Wiki.txt
+   0.26  E 242.8  Modern - Chinese (Pinyin) - Literary - NT - Matthew.txt
+   0.25  E 2125.7  Historical - Latin (Abbreviated) - Technical - Pliny's Natural History
+   0.25  E 342.8  Modern - Turkish - Literary - NT.txt
+   0.21  E 606.4  Modern - Hebrew - Literary - NT.txt
+   0.19  E 530.6  Conlangs - Lojban - Literary - Alice in Wonderland.txt
+   0.18  E 760.8  Historical - Anglo-Saxon - Literary - NT - Hatton Gospels.txt
+VERDICT: INCONCLUSIVE {}

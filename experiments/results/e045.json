@@ -1,0 +1,559 @@
+{
+ "experiment": "E045",
+ "voynich": {
+  "A": {
+   "O": 73,
+   "E": 70.24658030651844,
+   "AS": 1.0391964944267338
+  },
+  "B": {
+   "O": 166,
+   "E": 163.98723221223275,
+   "AS": 1.0122739298701153
+  }
+ },
+ "gibberish": {
+  "pooled_AS": 0.6588691269393839,
+  "O": 41,
+  "E": 62.227836035443815,
+  "ci95": [
+   0.4129964106931063,
+   0.9563497875091374
+  ],
+  "per_writer": {
+   "Gibberish - DA_01.txt": [
+    1,
+    1.6666666666666665
+   ],
+   "Gibberish - DA_02.txt": [
+    0,
+    6.031746031746031
+   ],
+   "Gibberish - DC_01.txt": [
+    0,
+    0.0
+   ],
+   "Gibberish - DC_03.txt": [
+    2,
+    3.5579365079365077
+   ],
+   "Gibberish - DC_04.txt": [
+    0,
+    0.2222222222222222
+   ],
+   "Gibberish - DC_05.txt": [
+    1,
+    0.5151515151515151
+   ],
+   "Gibberish - DC_06.txt": [
+    2,
+    3.049206349206349
+   ],
+   "Gibberish - DC_08.txt": [
+    1,
+    0.7857142857142857
+   ],
+   "Gibberish - DC_09.txt": [
+    1,
+    0.4
+   ],
+   "Gibberish - DC_10.txt": [
+    0,
+    0.2222222222222222
+   ],
+   "Gibberish - DC_11.txt": [
+    1,
+    0.7333333333333334
+   ],
+   "Gibberish - DC_12.txt": [
+    0,
+    0.0
+   ],
+   "Gibberish - DC_15.txt": [
+    3,
+    1.9246031746031744
+   ],
+   "Gibberish - DC_16.txt": [
+    1,
+    0.8888888888888888
+   ],
+   "Gibberish - DC_18.txt": [
+    2,
+    3.7093240093240083
+   ],
+   "Gibberish - DC_20.txt": [
+    9,
+    5.828571428571428
+   ],
+   "Gibberish - DC_21.txt": [
+    0,
+    1.4857142857142858
+   ],
+   "Gibberish - DC_22.txt": [
+    2,
+    1.1746031746031744
+   ],
+   "Gibberish - DC_23.txt": [
+    0,
+    0.7857142857142857
+   ],
+   "Gibberish - DC_24.txt": [
+    0,
+    0.7857142857142857
+   ],
+   "Gibberish - DC_25.txt": [
+    0,
+    0.0
+   ],
+   "Gibberish - DC_26.txt": [
+    0,
+    1.1579365079365078
+   ],
+   "Gibberish - DC_27.txt": [
+    1,
+    0.5555555555555556
+   ],
+   "Gibberish - DC_28.txt": [
+    0,
+    0.38888888888888884
+   ],
+   "Gibberish - DC_29.txt": [
+    0,
+    0.5079365079365079
+   ],
+   "Gibberish - DC_30.txt": [
+    0,
+    0.0
+   ],
+   "Gibberish - DC_31.txt": [
+    0,
+    0.0
+   ],
+   "Gibberish - DC_32.txt": [
+    4,
+    4.583189033189034
+   ],
+   "Gibberish - DC_33.txt": [
+    2,
+    2.591269841269841
+   ],
+   "Gibberish - DC_34.txt": [
+    1,
+    2.6666666666666665
+   ],
+   "Gibberish - DC_35.txt": [
+    0,
+    0.7833333333333332
+   ],
+   "Gibberish - DC_36.txt": [
+    0,
+    0.0
+   ],
+   "Gibberish - DC_37.txt": [
+    0,
+    0.0
+   ],
+   "Gibberish - DC_38.txt": [
+    1,
+    8.287301587301588
+   ],
+   "Gibberish - DC_39.txt": [
+    0,
+    1.6166666666666667
+   ],
+   "Gibberish - DC_40.txt": [
+    5,
+    3.9954961531039457
+   ],
+   "Gibberish - DC_41.txt": [
+    1,
+    0.7777777777777777
+   ],
+   "Gibberish - DC_42.txt": [
+    0,
+    0.5484848484848486
+   ]
+  },
+  "sha256": "a5dc1ee27fb34f94b383aca4d18277cc4d83924f1622511c6e94fe1cf13ae6de"
+ },
+ "meaningful": {
+  "pooled_AS": 0.054917056401909976,
+  "per_text": {
+   "Conlangs - Esperanto - Literary - NT.txt": {
+    "O": 19,
+    "E": 1990.5755744255391,
+    "AS": 0.009544977967231019
+   },
+   "Conlangs - Esperanto - Technical - Voynich Wiki.txt": {
+    "O": 0,
+    "E": 34.22063492063491,
+    "AS": 0.0
+   },
+   "Conlangs - Interlingua - Literary - NT.txt": {
+    "O": 4,
+    "E": 292.6175768675774,
+    "AS": 0.013669718828305998
+   },
+   "Conlangs - Interlingua - Technical - EU Wiki.txt": {
+    "O": 0,
+    "E": 134.94264069264113,
+    "AS": 0.0
+   },
+   "Conlangs - Klingon - Literary - NT - Mark.txt": {
+    "O": 4,
+    "E": 23.206565656565644,
+    "AS": 0.17236501338440455
+   },
+   "Conlangs - Klingon - Technical - Proxima Centauri B Wikia.txt": {
+    "O": 0,
+    "E": 2.9906204906204907,
+    "AS": 0.0
+   },
+   "Conlangs - LOLCat - Literary - NT - Matthew.txt": {
+    "O": 5,
+    "E": 162.45843045843114,
+    "AS": 0.030777103939086555
+   },
+   "Conlangs - Lojban - Literary - Alice in Wonderland.txt": {
+    "O": 99,
+    "E": 530.6018703518712,
+    "AS": 0.18658057110569112
+   },
+   "Conlangs - Lojban - Technical - Science News.txt": {
+    "O": 4,
+    "E": 23.386230436230438,
+    "AS": 0.17104081869488108
+   },
+   "Conlangs - Neo-Quenya - Literary - NT.txt": {
+    "O": 7,
+    "E": 1456.748573648547,
+    "AS": 0.0048052217977930965
+   },
+   "Conlangs - Neo-Quenya - Technical - Europe-Taipei Wikia.txt": {
+    "O": 0,
+    "E": 6.333333333333334,
+    "AS": 0.0
+   },
+   "Conlangs - Toki Pona - Literary - NT - Sermon on the Mount.txt": {
+    "O": 0,
+    "E": 53.15592185592184,
+    "AS": 0.0
+   },
+   "Conlangs - Toki Pona - Technical - Turkey-Mexico Wikia.txt": {
+    "O": 1,
+    "E": 55.23285048285049,
+    "AS": 0.018105167328101142
+   },
+   "Conlangs - Volapuk - Literary - NT.txt": {
+    "O": 17,
+    "E": 646.8595127095115,
+    "AS": 0.026280822444415805
+   },
+   "Conlangs - Volapuk - Technical - History Wiki.txt": {
+    "O": 0,
+    "E": 5.757936507936508,
+    "AS": 0.0
+   },
+   "Historical - Anglo-Saxon - Literary - NT - Hatton Gospels.txt": {
+    "O": 136,
+    "E": 760.7743922743887,
+    "AS": 0.17876521788991664
+   },
+   "Historical - Anglo-Saxon - Technical - Leechbook.txt": {
+    "O": 0,
+    "E": 11.320085470085466,
+    "AS": 0.0
+   },
+   "Historical - Arabic - Literary - Quran.txt": {
+    "O": 7,
+    "E": 284.12597402597424,
+    "AS": 0.0246369590953345
+   },
+   "Historical - Arabic - Technical - Avicenna.txt": {
+    "O": 80,
+    "E": 2646.443428793272,
+    "AS": 0.030229249992499742
+   },
+   "Historical - English - Literary - NT (KJV).txt": {
+    "O": 51,
+    "E": 2429.2848352628384,
+    "AS": 0.0209938329419827
+   },
+   "Historical - English - Technical - Secreta Alberti.txt": {
+    "O": 12,
+    "E": 282.4428071928082,
+    "AS": 0.04248647759618201
+   },
+   "Historical - Flemish - Literary - NT.txt": {
+    "O": 16,
+    "E": 186.5624819624827,
+    "AS": 0.08576215234538724
+   },
+   "Historical - Flemish - Technical - Cruydeboeck.txt": {
+    "O": 1,
+    "E": 71.91673881673883,
+    "AS": 0.013904968668674491
+   },
+   "Historical - French - Literary - NT - Martin.txt": {
+    "O": 92,
+    "E": 1551.3659507159236,
+    "AS": 0.05930257780734705
+   },
+   "Historical - German - Literary - NT - Luther.txt": {
+    "O": 57,
+    "E": 1435.9734487734186,
+    "AS": 0.039694327251446275
+   },
+   "Historical - German - Technical - German Herbarium.txt": {
+    "O": 2,
+    "E": 67.16760461760458,
+    "AS": 0.02977625912649863
+   },
+   "Historical - Greek - Literary - NT - Textus Receptus.txt": {
+    "O": 99,
+    "E": 1436.820418470398,
+    "AS": 0.06890213886672968
+   },
+   "Historical - Greek - Technical - De odoribus.txt": {
+    "O": 6,
+    "E": 59.46197691197687,
+    "AS": 0.1009048187025796
+   },
+   "Historical - Italian - Literary - NT - Diodati.txt": {
+    "O": 22,
+    "E": 1176.2181096681006,
+    "AS": 0.018704014008258937
+   },
+   "Historical - Italian - Technical - Della Pittura.txt": {
+    "O": 0,
+    "E": 78.6769841269843,
+    "AS": 0.0
+   },
+   "Historical - Latin (Abbreviated) - Literary - NT (Vulgate).txt": {
+    "O": 400,
+    "E": 3282.504218004095,
+    "AS": 0.1218581830926686
+   },
+   "Historical - Latin (Abbreviated) - Technical - Pliny's Natural History.txt": {
+    "O": 526,
+    "E": 2125.679958929866,
+    "AS": 0.24745023247281536
+   },
+   "Historical - Latin - Literary - NT (Vulgate).txt": {
+    "O": 14,
+    "E": 1793.0421966921429,
+    "AS": 0.00780795902395806
+   },
+   "Historical - Latin - Technical - Pliny's Natural History.txt": {
+    "O": 4,
+    "E": 1192.4429459429405,
+    "AS": 0.003354458184862627
+   },
+   "Historical - Mayan (Kaqchikel) - Literary - Annals of the Cakchiquels.txt": {
+    "O": 8,
+    "E": 140.9975847681738,
+    "AS": 0.05673856054451915
+   },
+   "Historical - Mayan (Yucatec) - Technical - Chilam Balam.txt": {
+    "O": 3,
+    "E": 7.118253968253968,
+    "AS": 0.42145166685249197
+   },
+   "Historical - Nahuatl - Literary - Nican Mopohua.txt": {
+    "O": 1,
+    "E": 85.92698412698418,
+    "AS": 0.011637787711973983
+   },
+   "Historical - Nahuatl - Technical - Florentine Codex.txt": {
+    "O": 0,
+    "E": 45.61587301587301,
+    "AS": 0.0
+   },
+   "Historical - Portuguese - Technical - Coloquios dos simples.txt": {
+    "O": 1,
+    "E": 58.294178044178075,
+    "AS": 0.0171543717323221
+   },
+   "Historical - Russian - Literary - NT - Codex Marianus.txt": {
+    "O": 36,
+    "E": 1019.6770595417532,
+    "AS": 0.035305295596410234
+   },
+   "Historical - Sanskrit - Literary - Mahabharata.txt": {
+    "O": 74,
+    "E": 154.1302308802314,
+    "AS": 0.48011347013099925
+   },
+   "Historical - Sanskrit - Technical - Charaka Samhita.txt": {
+    "O": 43,
+    "E": 119.78749028749051,
+    "AS": 0.3589690367232823
+   },
+   "Historical - Spanish - Literary - NT - Sagradas Escrituras.txt": {
+    "O": 16,
+    "E": 1820.665034965014,
+    "AS": 0.008787997623246198
+   },
+   "Historical - Spanish - Technical - De Materia Medica.txt": {
+    "O": 0,
+    "E": 10.457611531914932,
+    "AS": 0.0
+   },
+   "Modern - Arabic - Literary - NT.txt": {
+    "O": 59,
+    "E": 562.8272838272826,
+    "AS": 0.10482789604440286
+   },
+   "Modern - Arabic - Technical - Voynich Wiki.txt": {
+    "O": 1,
+    "E": 7.974136974136976,
+    "AS": 0.12540542045407088
+   },
+   "Modern - Chinese (Pinyin) - Literary - NT - Matthew.txt": {
+    "O": 63,
+    "E": 242.76337290160762,
+    "AS": 0.25951196528124526
+   },
+   "Modern - Chinese (Pinyin) - Technical - Voynich Wiki.txt": {
+    "O": 8,
+    "E": 15.305253080253072,
+    "AS": 0.5226963551698238
+   },
+   "Modern - English - Literary - NT.txt": {
+    "O": 3,
+    "E": 1780.3416250416153,
+    "AS": 0.0016850698527760791
+   },
+   "Modern - English - Technical - Voynich Wiki.txt": {
+    "O": 0,
+    "E": 50.069769119769084,
+    "AS": 0.0
+   },
+   "Modern - French - Literary - NT.txt": {
+    "O": 90,
+    "E": 1553.1512987012711,
+    "AS": 0.057946704918739766
+   },
+   "Modern - French - Technical - Voynich Wiki.txt": {
+    "O": 0,
+    "E": 41.83196248196245,
+    "AS": 0.0
+   },
+   "Modern - German - Literary - NT.txt": {
+    "O": 51,
+    "E": 1389.9964646464339,
+    "AS": 0.03669074080197218
+   },
+   "Modern - German - Technical - Voynich Wiki.txt": {
+    "O": 0,
+    "E": 13.11197691197691,
+    "AS": 0.0
+   },
+   "Modern - Hebrew - Literary - NT.txt": {
+    "O": 129,
+    "E": 606.3820290820267,
+    "AS": 0.21273717526768898
+   },
+   "Modern - Hebrew - Technical - Voynich Wiki.txt": {
+    "O": 1,
+    "E": 3.4025252525252525,
+    "AS": 0.29389936173370934
+   },
+   "Modern - Italian - Literary - NT.txt": {
+    "O": 19,
+    "E": 1127.7761349761286,
+    "AS": 0.0168473151813965
+   },
+   "Modern - Italian - Technical - Voynich Wiki.txt": {
+    "O": 0,
+    "E": 8.053246753246754,
+    "AS": 0.0
+   },
+   "Modern - Maori - Literary - NT.txt": {
+    "O": 90,
+    "E": 4627.673279497926,
+    "AS": 0.019448218265262763
+   },
+   "Modern - Maori - Technical - Polandball Wiki.txt": {
+    "O": 2,
+    "E": 41.029098679098645,
+    "AS": 0.048745891681477645
+   },
+   "Modern - Portuguese - Technical - Voynich Wiki.txt": {
+    "O": 0,
+    "E": 14.728282828282826,
+    "AS": 0.0
+   },
+   "Modern - Russian - Technical - Voynich Wiki.txt": {
+    "O": 0,
+    "E": 11.739249639249639,
+    "AS": 0.0
+   },
+   "Modern - Spanish - Technical - Voynich Wiki.txt": {
+    "O": 0,
+    "E": 41.81414141414139,
+    "AS": 0.0
+   },
+   "Modern - Swahili - Literary - NT.txt": {
+    "O": 6,
+    "E": 673.4520923520919,
+    "AS": 0.008909319709802166
+   },
+   "Modern - Swahili - Technical - Lung Cancer Wiki.txt": {
+    "O": 1,
+    "E": 52.91349206349202,
+    "AS": 0.018898771579847325
+   },
+   "Modern - Tagalog - Literary - NT - Ang Dating Biblia.txt": {
+    "O": 17,
+    "E": 2445.5851370850332,
+    "AS": 0.006951301650558284
+   },
+   "Modern - Tagalog - Technical - Tuberculosis Wiki.txt": {
+    "O": 2,
+    "E": 76.93939393939402,
+    "AS": 0.02599448601811734
+   },
+   "Modern - Turkish - Literary - NT.txt": {
+    "O": 84,
+    "E": 342.7758907758901,
+    "AS": 0.2450580751460141
+   },
+   "Modern - Turkish - Technical - Middle Ages Wiki.txt": {
+    "O": 2,
+    "E": 4.998412698412698,
+    "AS": 0.40012702445220705
+   },
+   "Modern - Wolof - Technical - Senegal Wiki.txt": {
+    "O": 3,
+    "E": 30.602547452547427,
+    "AS": 0.09803105459281865
+   },
+   "Modern - Yoruba - Technical - Jupiter Wiki.txt": {
+    "O": 3,
+    "E": 20.18546453546452,
+    "AS": 0.14862179637873577
+   }
+  },
+  "share_ge_085_E5": 0.0
+ },
+ "verdict": "INCONCLUSIVE",
+ "bayes_factors": {},
+ "locked_test_excluded": [
+  "1",
+  "8",
+  "9",
+  "30",
+  "35",
+  "38",
+  "51",
+  "52",
+  "56",
+  "75",
+  "86",
+  "87",
+  "102",
+  "105",
+  "114"
+ ]
+}
