@@ -264,3 +264,10 @@ margin).
 **Searched, not found (validated VOY23 class):** Hebrew, Turkish and Latin, each written letter by letter in a
 23-sign script with homophones, spelling slips and intact word order. This is empirical (with power 9/9 on known
 answers and a blind reading), not a logical exclusion.
+
+## Amendment: absence accounting (`ABSENCE_RULE.md`, sha256 05203b95de7348c39400789301839cf30369f464027d5097040b76e4d5dc1261)
+A validated search that finds nothing now lowers the searched form: × (1 − s(1 − m)), with default m = 0.2.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-24 | Absence accounting for E049–E050 (Hebrew, Turkish and Latin letter by letter, not found) | L-alpha-known(he, tr, la) share 0.1225 of L; C substitution of these 0.10 of C | L × 0.902, C × 0.92 | 0.0066 | 0.9688 | 0.0234 | 0.0011 |
