@@ -1,0 +1,106 @@
+{
+ "experiment": "E048",
+ "voynich": {
+  "A": [
+   0.07264956331763783,
+   1.9970358735338722,
+   0.01024616707842563
+  ],
+  "B": [
+   0.13791237016563057,
+   2.07280290578696,
+   0.009251412877960557
+  ]
+ },
+ "Q": {
+  "A": 0.18231465824524454,
+  "B": 0.34609219224906584
+ },
+ "real": {
+  "Hebrew Genesis-Exodus": {
+   "D_int": 0.39848448839429956,
+   "I_obs": 2.4399572237040745,
+   "n_windows": 4,
+   "scrambled_D_int": -0.008022926505047398
+  },
+  "Hebrew Psalms": {
+   "D_int": 0.14601436680821178,
+   "I_obs": 1.7845007835733064,
+   "n_windows": 2,
+   "scrambled_D_int": -0.007244198367767463
+  },
+  "Latin Genesis-Exodus": {
+   "D_int": 0.48431927920413054,
+   "I_obs": 2.307349272404571,
+   "n_windows": 5,
+   "scrambled_D_int": -0.0033994906810281833
+  },
+  "Latin hymns": {
+   "D_int": 0.11542256542482465,
+   "I_obs": 1.257006112612161,
+   "n_windows": 2,
+   "scrambled_D_int": -0.0015472637792558475
+  },
+  "Apicius + Cato + Varro": {
+   "D_int": 0.31015381754272653,
+   "I_obs": 1.94919749825145,
+   "n_windows": 6,
+   "scrambled_D_int": -0.002309074276099684
+  },
+  "Turkish Bible": {
+   "D_int": 0.646126985738736,
+   "I_obs": 2.6937262142885103,
+   "n_windows": 10,
+   "scrambled_D_int": 0.01068024848059427
+  },
+  "Indonesian Bible": {
+   "D_int": 0.740900407350969,
+   "I_obs": 2.9639955509158984,
+   "n_windows": 10,
+   "scrambled_D_int": 0.001255171528631897
+  }
+ },
+ "Q_real": {
+  "Hebrew Genesis-Exodus": 1.0,
+  "Hebrew Psalms": 0.36642421740574976,
+  "Latin Genesis-Exodus": 1.2154030917381597,
+  "Latin hymns": 0.28965384798269556,
+  "Apicius + Cato + Varro": 0.7783334774020865,
+  "Turkish Bible": 1.6214608210781711,
+  "Indonesian Bible": 1.859295478066011
+ },
+ "Q_scrambled": {
+  "Hebrew Genesis-Exodus": -0.02013359801626388,
+  "Hebrew Psalms": -0.018179373548411107,
+  "Latin Genesis-Exodus": -0.008531048961846652,
+  "Latin hymns": -0.003882870787494326,
+  "Apicius + Cato + Varro": -0.005794640301819878,
+  "Turkish Bible": 0.026802168695776653,
+  "Indonesian Bible": 0.0031498629562461346
+ },
+ "generator": {
+  "D_int": 0.07884960278660544,
+  "I_obs": 2.0136436144184615
+ },
+ "median_real_D_int": 0.39848448839429956,
+ "valid": false,
+ "verdict": "VOID (method does not separate real from scrambled order)",
+ "bayes_factors": {},
+ "locked_test_excluded": [
+  "1",
+  "8",
+  "9",
+  "30",
+  "35",
+  "38",
+  "51",
+  "52",
+  "56",
+  "75",
+  "86",
+  "87",
+  "102",
+  "105",
+  "114"
+ ]
+}

@@ -1,0 +1,10 @@
+Voynich A: D_int 0.0726 (I 1.997, shuffle sd 0.0102) Q 0.18 | B (A-size): D_int 0.1379 Q 0.35
+  Hebrew Genesis-Exodus    D_int 0.3985 Q 1.00 | scrambled copy Q -0.02
+  Hebrew Psalms            D_int 0.1460 Q 0.37 | scrambled copy Q -0.02
+  Latin Genesis-Exodus     D_int 0.4843 Q 1.22 | scrambled copy Q -0.01
+  Latin hymns              D_int 0.1154 Q 0.29 | scrambled copy Q -0.00
+  Apicius + Cato + Varro   D_int 0.3102 Q 0.78 | scrambled copy Q -0.01
+  Turkish Bible            D_int 0.6461 Q 1.62 | scrambled copy Q 0.03
+  Indonesian Bible         D_int 0.7409 Q 1.86 | scrambled copy Q 0.00
+  copy generator          D_int 0.0788 Q 0.20
+VERDICT: VOID (method does not separate real from scrambled order) {}

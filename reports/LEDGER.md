@@ -244,3 +244,11 @@ the L lead was built without it. The rules allow no factor here, but anyone read
 - No clustering over 152 pages (p = 0.95).
 
 It is a whole-book writing property, not a local list effect. The post-E045 caution stands.
+
+**E047 (method validation):** GO. 9/9 Hebrew, Turkish and Latin ciphers in a Voynich-like 23-sign script were cracked
+and claimed, with 0 false claims. Generator controls reach lexrate 0.42 against the threshold 0.514 (the narrowest
+margin).
+
+**E048:** VOID by rule (verse texts also have low order information). ORDER-SCRAMBLED stays at 0.15.
+- Unscored: Voynich order information is about 7 sd above scrambled.
+- It is weak: A sits with Latin hymns and the generator (Q about 0.2), B with Hebrew Psalms (about 0.35).
