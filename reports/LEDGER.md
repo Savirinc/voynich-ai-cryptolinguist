@@ -304,3 +304,7 @@ displayed once. No text from f102r was transcribed, decoded or used in any analy
 and the f101v panel was re-cropped to stay left of the gutter. The locked leaves' text remains unseen by every
 attack and model. Images of locked leaves will not be downloaded again, and crops are now taken only from the left
 page with a margin.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-24 | E055 same-label pharma drawings (`SAME_LABEL_PAIRS.md`) | NOT SHOWN: same-label pairs 2.17 vs controls 2.40 (identity checks 9.9); difference −0.23, p 0.70 | none (low power, pre-registered) | 0.0077 | 0.963 | 0.0274 | 0.0013 |

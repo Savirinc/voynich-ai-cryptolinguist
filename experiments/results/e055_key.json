@@ -1,0 +1,992 @@
+{
+ "P01": {
+  "kind": "same",
+  "a": [
+   "f88r",
+   10,
+   "okol",
+   "low"
+  ],
+  "b": [
+   "f89r2",
+   7,
+   "okol",
+   "medium"
+  ]
+ },
+ "P02": {
+  "kind": "identity",
+  "a": [
+   "f101v",
+   12,
+   "oraram",
+   "low"
+  ],
+  "b": [
+   "f101v",
+   12,
+   "oraram",
+   "low"
+  ]
+ },
+ "P03": {
+  "kind": "control",
+  "a": [
+   "f99r",
+   17,
+   "oaro",
+   "medium"
+  ],
+  "b": [
+   "f99v",
+   14,
+   "daiiinc",
+   "medium"
+  ]
+ },
+ "P04": {
+  "kind": "control",
+  "a": [
+   "f88r",
+   5,
+   "otoky",
+   "medium"
+  ],
+  "b": [
+   "f99v",
+   26,
+   "doldam",
+   "high"
+  ]
+ },
+ "P05": {
+  "kind": "same",
+  "a": [
+   "f88r",
+   14,
+   "otor",
+   "medium"
+  ],
+  "b": [
+   "f99v",
+   3,
+   "otor",
+   "low"
+  ]
+ },
+ "P06": {
+  "kind": "control",
+  "a": [
+   "f88r",
+   15,
+   "am",
+   "low"
+  ],
+  "b": [
+   "f99v",
+   3,
+   "otor",
+   "low"
+  ]
+ },
+ "P07": {
+  "kind": "identity",
+  "a": [
+   "f89r2",
+   16,
+   "okshdchos",
+   "medium"
+  ],
+  "b": [
+   "f89r2",
+   16,
+   "okshdchos",
+   "medium"
+  ]
+ },
+ "P08": {
+  "kind": "same",
+  "a": [
+   "f101v",
+   10,
+   "okol",
+   "low"
+  ],
+  "b": [
+   "f88r",
+   10,
+   "okol",
+   "low"
+  ]
+ },
+ "P09": {
+  "kind": "control",
+  "a": [
+   "f88r",
+   5,
+   "otoky",
+   "medium"
+  ],
+  "b": [
+   "f99v",
+   5,
+   "oldy",
+   "high"
+  ]
+ },
+ "P10": {
+  "kind": "same",
+  "a": [
+   "f89r1",
+   4,
+   "otoldy",
+   "medium"
+  ],
+  "b": [
+   "f99v",
+   2,
+   "otoldy",
+   "high"
+  ]
+ },
+ "P11": {
+  "kind": "control",
+  "a": [
+   "f89r1",
+   8,
+   "ches",
+   "high"
+  ],
+  "b": [
+   "f99r",
+   34,
+   "dam",
+   "high"
+  ]
+ },
+ "P12": {
+  "kind": "same",
+  "a": [
+   "f88r",
+   6,
+   "otaly",
+   "medium"
+  ],
+  "b": [
+   "f99v",
+   8,
+   "otaly",
+   "high"
+  ]
+ },
+ "P13": {
+  "kind": "control",
+  "a": [
+   "f89r1",
+   8,
+   "ches",
+   "high"
+  ],
+  "b": [
+   "f99r",
+   6,
+   "salo",
+   "high"
+  ]
+ },
+ "P14": {
+  "kind": "control",
+  "a": [
+   "f88r",
+   8,
+   "oram",
+   "low"
+  ],
+  "b": [
+   "f99v",
+   18,
+   "osary",
+   "high"
+  ]
+ },
+ "P15": {
+  "kind": "control",
+  "a": [
+   "f99r",
+   32,
+   "saiiny",
+   "medium"
+  ],
+  "b": [
+   "f99r",
+   36,
+   "tolsasy",
+   "high"
+  ]
+ },
+ "P16": {
+  "kind": "control",
+  "a": [
+   "f101v",
+   4,
+   "ytal",
+   "medium"
+  ],
+  "b": [
+   "f89r2",
+   12,
+   "sodar",
+   "medium"
+  ]
+ },
+ "P17": {
+  "kind": "identity",
+  "a": [
+   "f89r1",
+   9,
+   "otorain",
+   "low"
+  ],
+  "b": [
+   "f89r1",
+   9,
+   "otorain",
+   "low"
+  ]
+ },
+ "P18": {
+  "kind": "control",
+  "a": [
+   "f89r1",
+   8,
+   "ches",
+   "high"
+  ],
+  "b": [
+   "f99v",
+   5,
+   "oldy",
+   "high"
+  ]
+ },
+ "P19": {
+  "kind": "identity",
+  "a": [
+   "f89v2",
+   15,
+   "sada",
+   "medium"
+  ],
+  "b": [
+   "f89v2",
+   15,
+   "sada",
+   "medium"
+  ]
+ },
+ "P20": {
+  "kind": "same",
+  "a": [
+   "f99r",
+   28,
+   "dar",
+   "medium"
+  ],
+  "b": [
+   "f99v",
+   6,
+   "dar",
+   "high"
+  ]
+ },
+ "P21": {
+  "kind": "control",
+  "a": [
+   "f88v",
+   9,
+   "cheosdy",
+   "medium"
+  ],
+  "b": [
+   "f89r1",
+   10,
+   "okaiin",
+   "high"
+  ]
+ },
+ "P22": {
+  "kind": "control",
+  "a": [
+   "f88r",
+   10,
+   "okol",
+   "low"
+  ],
+  "b": [
+   "f99v",
+   20,
+   "okechy",
+   "high"
+  ]
+ },
+ "P23": {
+  "kind": "same",
+  "a": [
+   "f88v",
+   10,
+   "okaiin",
+   "high"
+  ],
+  "b": [
+   "f89r1",
+   10,
+   "okaiin",
+   "high"
+  ]
+ },
+ "P24": {
+  "kind": "control",
+  "a": [
+   "f88r",
+   4,
+   "oldar",
+   "low"
+  ],
+  "b": [
+   "f99v",
+   2,
+   "otoldy",
+   "high"
+  ]
+ },
+ "P25": {
+  "kind": "control",
+  "a": [
+   "f89r1",
+   3,
+   "oldam",
+   "medium"
+  ],
+  "b": [
+   "f99r",
+   6,
+   "salo",
+   "high"
+  ]
+ },
+ "P26": {
+  "kind": "control",
+  "a": [
+   "f88v",
+   12,
+   "otydary",
+   "medium"
+  ],
+  "b": [
+   "f89r1",
+   11,
+   "dan",
+   "high"
+  ]
+ },
+ "P27": {
+  "kind": "control",
+  "a": [
+   "f88v",
+   8,
+   "otora",
+   "low"
+  ],
+  "b": [
+   "f89r1",
+   4,
+   "otoldy",
+   "medium"
+  ]
+ },
+ "P28": {
+  "kind": "control",
+  "a": [
+   "f99r",
+   14,
+   "otalam",
+   "low"
+  ],
+  "b": [
+   "f99v",
+   11,
+   "otoky",
+   "medium"
+  ]
+ },
+ "P29": {
+  "kind": "control",
+  "a": [
+   "f88r",
+   6,
+   "otaly",
+   "medium"
+  ],
+  "b": [
+   "f99v",
+   24,
+   "okeodor",
+   "low"
+  ]
+ },
+ "P30": {
+  "kind": "control",
+  "a": [
+   "f88r",
+   11,
+   "sorory",
+   "low"
+  ],
+  "b": [
+   "f99v",
+   10,
+   "arol",
+   "medium"
+  ]
+ },
+ "P31": {
+  "kind": "control",
+  "a": [
+   "f88r",
+   1,
+   "otorchety",
+   "low"
+  ],
+  "b": [
+   "f99v",
+   3,
+   "otor",
+   "low"
+  ]
+ },
+ "P32": {
+  "kind": "control",
+  "a": [
+   "f99r",
+   10,
+   "ralol",
+   "medium"
+  ],
+  "b": [
+   "f99v",
+   14,
+   "daiiinc",
+   "medium"
+  ]
+ },
+ "P33": {
+  "kind": "control",
+  "a": [
+   "f99r",
+   5,
+   "oky",
+   "medium"
+  ],
+  "b": [
+   "f99r",
+   26,
+   "okos",
+   "medium"
+  ]
+ },
+ "P34": {
+  "kind": "control",
+  "a": [
+   "f89r1",
+   7,
+   "chol",
+   "high"
+  ],
+  "b": [
+   "f99r",
+   7,
+   "aro",
+   "medium"
+  ]
+ },
+ "P35": {
+  "kind": "same",
+  "a": [
+   "f99r",
+   5,
+   "oky",
+   "medium"
+  ],
+  "b": [
+   "f99r",
+   21,
+   "oky",
+   "high"
+  ]
+ },
+ "P36": {
+  "kind": "same",
+  "a": [
+   "f88r",
+   5,
+   "otoky",
+   "medium"
+  ],
+  "b": [
+   "f99v",
+   11,
+   "otoky",
+   "medium"
+  ]
+ },
+ "P37": {
+  "kind": "control",
+  "a": [
+   "f99r",
+   8,
+   "ain",
+   "medium"
+  ],
+  "b": [
+   "f99v",
+   21,
+   "otal",
+   "medium"
+  ]
+ },
+ "P38": {
+  "kind": "control",
+  "a": [
+   "f88r",
+   12,
+   "otyda",
+   "high"
+  ],
+  "b": [
+   "f89r2",
+   4,
+   "saloiinsheol",
+   "medium"
+  ]
+ },
+ "P39": {
+  "kind": "control",
+  "a": [
+   "f101v",
+   17,
+   "odor",
+   "low"
+  ],
+  "b": [
+   "f89r2",
+   21,
+   "ytarem",
+   "low"
+  ]
+ },
+ "P40": {
+  "kind": "control",
+  "a": [
+   "f99r",
+   26,
+   "okos",
+   "medium"
+  ],
+  "b": [
+   "f99v",
+   22,
+   "chor",
+   "low"
+  ]
+ },
+ "P41": {
+  "kind": "control",
+  "a": [
+   "f88r",
+   3,
+   "orald",
+   "medium"
+  ],
+  "b": [
+   "f89r2",
+   9,
+   "dy",
+   "medium"
+  ]
+ },
+ "P42": {
+  "kind": "control",
+  "a": [
+   "f99r",
+   4,
+   "darar",
+   "medium"
+  ],
+  "b": [
+   "f99r",
+   12,
+   "okary",
+   "high"
+  ]
+ },
+ "P43": {
+  "kind": "control",
+  "a": [
+   "f88r",
+   16,
+   "ofaldo",
+   "high"
+  ],
+  "b": [
+   "f89r2",
+   22,
+   "otolarol",
+   "medium"
+  ]
+ },
+ "P44": {
+  "kind": "control",
+  "a": [
+   "f99r",
+   28,
+   "dar",
+   "medium"
+  ],
+  "b": [
+   "f99r",
+   27,
+   "oekey",
+   "low"
+  ]
+ },
+ "P45": {
+  "kind": "control",
+  "a": [
+   "f101v",
+   2,
+   "otaldy",
+   "medium"
+  ],
+  "b": [
+   "f89r2",
+   9,
+   "dy",
+   "medium"
+  ]
+ },
+ "P46": {
+  "kind": "identity",
+  "a": [
+   "f101v",
+   1,
+   "sairaly",
+   "medium"
+  ],
+  "b": [
+   "f101v",
+   1,
+   "sairaly",
+   "medium"
+  ]
+ },
+ "P47": {
+  "kind": "control",
+  "a": [
+   "f88v",
+   5,
+   "arody",
+   "low"
+  ],
+  "b": [
+   "f89r1",
+   14,
+   "sydarary",
+   "low"
+  ]
+ },
+ "P48": {
+  "kind": "control",
+  "a": [
+   "f89r1",
+   14,
+   "sydarary",
+   "low"
+  ],
+  "b": [
+   "f99v",
+   2,
+   "otoldy",
+   "high"
+  ]
+ },
+ "P49": {
+  "kind": "same",
+  "a": [
+   "f99r",
+   15,
+   "otoldy",
+   "medium"
+  ],
+  "b": [
+   "f99v",
+   2,
+   "otoldy",
+   "high"
+  ]
+ },
+ "P50": {
+  "kind": "control",
+  "a": [
+   "f101v",
+   1,
+   "sairaly",
+   "medium"
+  ],
+  "b": [
+   "f88r",
+   2,
+   "osal",
+   "medium"
+  ]
+ },
+ "P51": {
+  "kind": "control",
+  "a": [
+   "f101v",
+   8,
+   "otoly",
+   "low"
+  ],
+  "b": [
+   "f88r",
+   14,
+   "otor",
+   "medium"
+  ]
+ },
+ "P52": {
+  "kind": "control",
+  "a": [
+   "f88r",
+   2,
+   "osal",
+   "medium"
+  ],
+  "b": [
+   "f99v",
+   23,
+   "olekor",
+   "medium"
+  ]
+ },
+ "P53": {
+  "kind": "control",
+  "a": [
+   "f99r",
+   12,
+   "okary",
+   "high"
+  ],
+  "b": [
+   "f99v",
+   26,
+   "doldam",
+   "high"
+  ]
+ },
+ "P54": {
+  "kind": "control",
+  "a": [
+   "f88r",
+   15,
+   "am",
+   "low"
+  ],
+  "b": [
+   "f99v",
+   17,
+   "otolsar",
+   "medium"
+  ]
+ },
+ "P55": {
+  "kind": "control",
+  "a": [
+   "f99r",
+   5,
+   "oky",
+   "medium"
+  ],
+  "b": [
+   "f99v",
+   4,
+   "chy",
+   "medium"
+  ]
+ },
+ "P56": {
+  "kind": "identity",
+  "a": [
+   "f99v",
+   6,
+   "dar",
+   "high"
+  ],
+  "b": [
+   "f99v",
+   6,
+   "dar",
+   "high"
+  ]
+ },
+ "P57": {
+  "kind": "control",
+  "a": [
+   "f88r",
+   1,
+   "otorchety",
+   "low"
+  ],
+  "b": [
+   "f99v",
+   22,
+   "chor",
+   "low"
+  ]
+ },
+ "P58": {
+  "kind": "control",
+  "a": [
+   "f88r",
+   12,
+   "otyda",
+   "high"
+  ],
+  "b": [
+   "f89r2",
+   21,
+   "ytarem",
+   "low"
+  ]
+ },
+ "P59": {
+  "kind": "control",
+  "a": [
+   "f89r1",
+   13,
+   "saldam",
+   "medium"
+  ],
+  "b": [
+   "f99v",
+   23,
+   "olekor",
+   "medium"
+  ]
+ },
+ "P60": {
+  "kind": "same",
+  "a": [
+   "f101v",
+   10,
+   "okol",
+   "low"
+  ],
+  "b": [
+   "f89r2",
+   7,
+   "okol",
+   "medium"
+  ]
+ },
+ "P61": {
+  "kind": "control",
+  "a": [
+   "f101v",
+   6,
+   "orar",
+   "low"
+  ],
+  "b": [
+   "f89r2",
+   10,
+   "opchoroiin",
+   "high"
+  ]
+ },
+ "P62": {
+  "kind": "control",
+  "a": [
+   "f101v",
+   10,
+   "okol",
+   "low"
+  ],
+  "b": [
+   "f88r",
+   14,
+   "otor",
+   "medium"
+  ]
+ },
+ "P63": {
+  "kind": "control",
+  "a": [
+   "f99r",
+   15,
+   "otoldy",
+   "medium"
+  ],
+  "b": [
+   "f99v",
+   21,
+   "otal",
+   "medium"
+  ]
+ },
+ "P64": {
+  "kind": "control",
+  "a": [
+   "f101v",
+   15,
+   "olkor",
+   "high"
+  ],
+  "b": [
+   "f88r",
+   15,
+   "am",
+   "low"
+  ]
+ },
+ "P65": {
+  "kind": "control",
+  "a": [
+   "f89r1",
+   8,
+   "ches",
+   "high"
+  ],
+  "b": [
+   "f99v",
+   18,
+   "osary",
+   "high"
+  ]
+ },
+ "P66": {
+  "kind": "same",
+  "a": [
+   "f89r1",
+   4,
+   "otoldy",
+   "medium"
+  ],
+  "b": [
+   "f99r",
+   15,
+   "otoldy",
+   "medium"
+  ]
+ }
+}
