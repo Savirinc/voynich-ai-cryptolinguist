@@ -1,0 +1,477 @@
+[
+ {
+  "image": "89v_part_and_90r.jpg",
+  "folio": "f89v1",
+  "n": 1,
+  "label": "okoraldy",
+  "label_xy": [
+   525,
+   208
+  ],
+  "drawing_box": [
+   325,
+   155,
+   495,
+   540
+  ],
+  "kind": "jar",
+  "confidence": "high",
+  "desc": "green-and-cream jar with domed banded lid and green foot; label to upper right of lid"
+ },
+ {
+  "image": "89v_part_and_90r.jpg",
+  "folio": "f89v1",
+  "n": 2,
+  "label": "otoikhy",
+  "label_xy": [
+   670,
+   305
+  ],
+  "drawing_box": [
+   490,
+   120,
+   790,
+   520
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "tan carrot-like taproot splitting into several root strands, forked stem with one lobed green leaf; label right of root top, also near next plant"
+ },
+ {
+  "image": "89v_part_and_90r.jpg",
+  "folio": "f89v1",
+  "n": 3,
+  "label": "otchar",
+  "label_xy": [
+   920,
+   328
+  ],
+  "drawing_box": [
+   640,
+   120,
+   1180,
+   530
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "pale spreading roots around an orange-brown elongated central tuber, stems up to one large wavy green leaf"
+ },
+ {
+  "image": "89v_part_and_90r.jpg",
+  "folio": "f89v1",
+  "n": 4,
+  "label": "darshody",
+  "label_xy": [
+   1320,
+   328
+  ],
+  "drawing_box": [
+   1040,
+   145,
+   1350,
+   530
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "lumpy orange-red tuber with claw-like root tips, curved stems with clawed green leaves"
+ },
+ {
+  "image": "89v_part_and_90r.jpg",
+  "folio": "f89v1",
+  "n": 5,
+  "label": "koeeorain",
+  "label_xy": [
+   431,
+   1320
+  ],
+  "drawing_box": [
+   335,
+   625,
+   515,
+   1285
+  ],
+  "kind": "jar",
+  "confidence": "high",
+  "desc": "tall stacked blue-and-cream jar with spire finial and green-trimmed blue lower section; label beneath its base"
+ },
+ {
+  "image": "89v_part_and_90r.jpg",
+  "folio": "f89v1",
+  "n": 6,
+  "label": "otorshos",
+  "label_xy": [
+   697,
+   1303
+  ],
+  "drawing_box": [
+   430,
+   1075,
+   720,
+   1620
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "pale unpainted forked root with long trailing strands, two stems with oval green leaves fringed with small bumps; label right of its stem, also next to plant 7"
+ },
+ {
+  "image": "89v_part_and_90r.jpg",
+  "folio": "f89v1",
+  "n": 7,
+  "label": "opol",
+  "label_xy": [
+   902,
+   1297
+  ],
+  "drawing_box": [
+   680,
+   1075,
+   1110,
+   1690
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "tan forked root with curling root claws, two stems one bearing a long narrow green leaf with fringed tip; label (gallows written above) right of root head"
+ },
+ {
+  "image": "89v_part_and_90r.jpg",
+  "folio": "f89v1",
+  "n": 8,
+  "label": "olaiin",
+  "label_xy": [
+   972,
+   1303
+  ],
+  "drawing_box": [
+   880,
+   1095,
+   1380,
+   1690
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "desc": "dark-tan columnar root with many long parallel root strands, two arching stems with spiny-edged round green leaves; olaiin is written on the same line right after opol, between plants 7 and 9, so it could belong to either"
+ },
+ {
+  "image": "89v_part_and_90r.jpg",
+  "folio": "f89v1",
+  "n": 9,
+  "label": "opaldaiin",
+  "label_xy": [
+   1282,
+   1292
+  ],
+  "drawing_box": [
+   880,
+   1095,
+   1380,
+   1690
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "same as olaiin drawing: dark-tan many-stranded root with two spiny round green leaves; label right of root top under right leaf"
+ },
+ {
+  "image": "89v_part.jpg",
+  "folio": "f89v2",
+  "n": 1,
+  "label": "choeesy",
+  "label_xy": [
+   650,
+   715
+  ],
+  "drawing_box": [
+   250,
+   255,
+   560,
+   1005
+  ],
+  "kind": "jar",
+  "confidence": "high",
+  "desc": "green-and-blue jar with knob finial, banded green lid, blue body, green clawed foot; label right of body"
+ },
+ {
+  "image": "89v_part.jpg",
+  "folio": "f89v2",
+  "n": 2,
+  "label": "okam",
+  "label_xy": [
+   1020,
+   860
+  ],
+  "drawing_box": [
+   510,
+   250,
+   1080,
+   890
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "tan root with many curving strands, faded grey-green broad leaf on curved stem; label beneath roots"
+ },
+ {
+  "image": "89v_part.jpg",
+  "folio": "f89v2",
+  "n": 3,
+  "label": "darcheor",
+  "label_xy": [
+   1640,
+   800
+  ],
+  "drawing_box": [
+   1040,
+   250,
+   1700,
+   800
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "pale-tan curving roots with long horizontal root run, large faded green wash leaves; label at right end of horizontal root"
+ },
+ {
+  "image": "89v_part.jpg",
+  "folio": "f89v2",
+  "n": 4,
+  "label": "chokaro",
+  "label_xy": [
+   2000,
+   805
+  ],
+  "drawing_box": [
+   1780,
+   190,
+   2100,
+   750
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "three orange-red tubers in a row with thin pale roots, slender stems up to green wash"
+ },
+ {
+  "image": "89v_part.jpg",
+  "folio": "f89v2",
+  "n": 5,
+  "label": "sheol",
+  "label_xy": [
+   2245,
+   805
+  ],
+  "drawing_box": [
+   2100,
+   230,
+   2480,
+   760
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "pale unpainted cluster of thin roots under round green wash leaves"
+ },
+ {
+  "image": "89v_part.jpg",
+  "folio": "f89v2",
+  "n": 6,
+  "label": "chokam",
+  "label_xy": [
+   2550,
+   795
+  ],
+  "drawing_box": [
+   2660,
+   280,
+   3330,
+   1090
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "olive-tan rounded root crown with many long roots, one extending far down to a forked end, jagged deeply lobed green leaves; label sits left of its roots, also close to plant 5"
+ },
+ {
+  "image": "89v_part.jpg",
+  "folio": "f89v2",
+  "n": 7,
+  "label": "otory",
+  "label_xy": [
+   580,
+   1430
+  ],
+  "drawing_box": [
+   250,
+   1080,
+   565,
+   1960
+  ],
+  "kind": "jar",
+  "confidence": "high",
+  "desc": "tall cream-and-blue tiered jar with pointed finial and narrow blue stem; label right of upper tier"
+ },
+ {
+  "image": "89v_part.jpg",
+  "folio": "f89v2",
+  "n": 8,
+  "label": "otair",
+  "label_xy": [
+   890,
+   1430
+  ],
+  "drawing_box": [
+   530,
+   1220,
+   1260,
+   1900
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "orange-red looped, knotted root lying horizontally with pale fork-topped stem; label right of root top"
+ },
+ {
+  "image": "89v_part.jpg",
+  "folio": "f89v2",
+  "n": 9,
+  "label": "chody",
+  "label_xy": [
+   1040,
+   1435
+  ],
+  "drawing_box": [
+   800,
+   1220,
+   1260,
+   1430
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "green teardrop leaf with hooked tail tip on a stem from the knotted orange root (same plant as otair); label directly under the leaf"
+ },
+ {
+  "image": "89v_part.jpg",
+  "folio": "f89v2",
+  "n": 10,
+  "label": "dykaran",
+  "label_xy": [
+   1760,
+   1430
+  ],
+  "drawing_box": [
+   1280,
+   1150,
+   2150,
+   1820
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "pale orange-pink spreading flat roots in long loops, fine pale stems fanning up; label right of stem top"
+ },
+ {
+  "image": "89v_part.jpg",
+  "folio": "f89v2",
+  "n": 11,
+  "label": "opcheedey",
+  "label_xy": [
+   2550,
+   1470
+  ],
+  "drawing_box": [
+   1980,
+   1110,
+   3190,
+   1890
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "orange-red bulbous root with tentacle-like roots, two round jagged-edged green leaves on long stems, dotted line under left leaf; label between left leaf and root head"
+ },
+ {
+  "image": "89v_part.jpg",
+  "folio": "f89v2",
+  "n": 12,
+  "label": "opaloiiry",
+  "label_xy": [
+   700,
+   2405
+  ],
+  "drawing_box": [
+   340,
+   1980,
+   660,
+   2700
+  ],
+  "kind": "jar",
+  "confidence": "high",
+  "desc": "blue round-bellied jar with tan finial, green rim and pale unpainted base; label right of its green rim"
+ },
+ {
+  "image": "89v_part.jpg",
+  "folio": "f89v2",
+  "n": 13,
+  "label": "otaram",
+  "label_xy": [
+   820,
+   2815
+  ],
+  "drawing_box": [
+   640,
+   2450,
+   1150,
+   3150
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "faded pale drawing: round spiky-fringed head with faint green, next to an unpainted branching twig, long pale strands below; label under spiky head, which may be a separate drawing from the twig"
+ },
+ {
+  "image": "89v_part.jpg",
+  "folio": "f89v2",
+  "n": 14,
+  "label": "chtchy",
+  "label_xy": [
+   1270,
+   2830
+  ],
+  "drawing_box": [
+   1165,
+   2380,
+   1570,
+   2780
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "large green leaf with finger-like lobes on a pale stem; label just below leaf"
+ },
+ {
+  "image": "89v_part.jpg",
+  "folio": "f89v2",
+  "n": 15,
+  "label": "sada",
+  "label_xy": [
+   1860,
+   2720
+  ],
+  "drawing_box": [
+   1600,
+   2400,
+   2100,
+   3000
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "thin orange-red branching root under a rayed round green leaf; faint extra writing just above label"
+ },
+ {
+  "image": "89v_part.jpg",
+  "folio": "f89v2",
+  "n": 16,
+  "label": "daseky",
+  "label_xy": [
+   2265,
+   2745
+  ],
+  "drawing_box": [
+   2030,
+   2280,
+   2510,
+   3050
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "pale-tan crossing stems bearing three small rounded green leaves; label right of stems, also close to the large unlabeled tan root plant at right"
+ }
+]

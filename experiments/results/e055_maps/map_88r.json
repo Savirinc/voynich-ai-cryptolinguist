@@ -1,0 +1,290 @@
+[
+ {
+  "n": 1,
+  "label": "otorchety",
+  "label_xy": [
+   370,
+   190
+  ],
+  "drawing_box": [
+   365,
+   100,
+   470,
+   420
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "image": "../img/f88r.jpg",
+  "folio": "f88r"
+ },
+ {
+  "n": 2,
+  "label": "osal",
+  "label_xy": [
+   505,
+   222
+  ],
+  "drawing_box": [
+   480,
+   100,
+   600,
+   410
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "image": "../img/f88r.jpg",
+  "folio": "f88r"
+ },
+ {
+  "n": 3,
+  "label": "orald",
+  "label_xy": [
+   620,
+   225
+  ],
+  "drawing_box": [
+   580,
+   110,
+   740,
+   400
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "image": "../img/f88r.jpg",
+  "folio": "f88r"
+ },
+ {
+  "n": 4,
+  "label": "oldar",
+  "label_xy": [
+   720,
+   230
+  ],
+  "drawing_box": [
+   760,
+   120,
+   890,
+   410
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "image": "../img/f88r.jpg",
+  "folio": "f88r"
+ },
+ {
+  "n": 5,
+  "label": "otoky",
+  "label_xy": [
+   910,
+   230
+  ],
+  "drawing_box": [
+   890,
+   140,
+   1060,
+   430
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "image": "../img/f88r.jpg",
+  "folio": "f88r"
+ },
+ {
+  "n": 6,
+  "label": "otaly",
+  "label_xy": [
+   1105,
+   222
+  ],
+  "drawing_box": [
+   1100,
+   100,
+   1200,
+   265
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "image": "../img/f88r.jpg",
+  "folio": "f88r"
+ },
+ {
+  "n": 7,
+  "label": "otaldy",
+  "label_xy": [
+   295,
+   705
+  ],
+  "drawing_box": [
+   140,
+   670,
+   300,
+   1200
+  ],
+  "kind": "jar",
+  "confidence": "high",
+  "image": "../img/f88r.jpg",
+  "folio": "f88r"
+ },
+ {
+  "n": 8,
+  "label": "oram",
+  "label_xy": [
+   460,
+   740
+  ],
+  "drawing_box": [
+   440,
+   620,
+   560,
+   740
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "image": "../img/f88r.jpg",
+  "folio": "f88r"
+ },
+ {
+  "n": 9,
+  "label": "dary",
+  "label_xy": [
+   540,
+   695
+  ],
+  "drawing_box": [
+   480,
+   680,
+   630,
+   890
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "image": "../img/f88r.jpg",
+  "folio": "f88r"
+ },
+ {
+  "n": 10,
+  "label": "okol",
+  "label_xy": [
+   730,
+   672
+  ],
+  "drawing_box": [
+   630,
+   640,
+   830,
+   910
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "image": "../img/f88r.jpg",
+  "folio": "f88r"
+ },
+ {
+  "n": 11,
+  "label": "sorory",
+  "label_xy": [
+   880,
+   750
+  ],
+  "drawing_box": [
+   800,
+   620,
+   1110,
+   940
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "image": "../img/f88r.jpg",
+  "folio": "f88r"
+ },
+ {
+  "n": 12,
+  "label": "otyda",
+  "label_xy": [
+   1260,
+   675
+  ],
+  "drawing_box": [
+   1100,
+   620,
+   1300,
+   1050
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "image": "../img/f88r.jpg",
+  "folio": "f88r"
+ },
+ {
+  "n": 13,
+  "label": "ofyskydal",
+  "label_xy": [
+   320,
+   1280
+  ],
+  "drawing_box": [
+   140,
+   1210,
+   300,
+   1720
+  ],
+  "kind": "jar",
+  "confidence": "high",
+  "image": "../img/f88r.jpg",
+  "folio": "f88r"
+ },
+ {
+  "n": 14,
+  "label": "otor",
+  "label_xy": [
+   385,
+   1245
+  ],
+  "drawing_box": [
+   345,
+   1130,
+   720,
+   1345
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "image": "../img/f88r.jpg",
+  "folio": "f88r"
+ },
+ {
+  "n": 15,
+  "label": "am",
+  "label_xy": [
+   435,
+   1245
+  ],
+  "drawing_box": [
+   345,
+   1130,
+   720,
+   1345
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "image": "../img/f88r.jpg",
+  "folio": "f88r"
+ },
+ {
+  "n": 16,
+  "label": "ofaldo",
+  "label_xy": [
+   1060,
+   1170
+  ],
+  "drawing_box": [
+   770,
+   1130,
+   1300,
+   1640
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "image": "../img/f88r.jpg",
+  "folio": "f88r"
+ }
+]

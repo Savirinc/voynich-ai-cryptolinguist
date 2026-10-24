@@ -1,0 +1,268 @@
+[
+ {
+  "image": "100v_and_101r.jpg",
+  "folio": "f100v",
+  "n": 1,
+  "label": "tolchd",
+  "label_xy": [
+   610,
+   382
+  ],
+  "drawing_box": [
+   475,
+   55,
+   675,
+   370
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "spiky-edged dark green oval leaves on branching stems rising from a small cup/pot-like base; base sits beside the tall red/blue jar"
+ },
+ {
+  "image": "100v_and_101r.jpg",
+  "folio": "f100v",
+  "n": 2,
+  "label": "chols",
+  "label_xy": [
+   845,
+   333
+  ],
+  "drawing_box": [
+   695,
+   50,
+   840,
+   380
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "pale olive crescent/hook-shaped leaves paired along a thin stem, small pale flower head on top, spreading red-orange fibrous root"
+ },
+ {
+  "image": "100v_and_101r.jpg",
+  "folio": "f100v",
+  "n": 3,
+  "label": "opchor",
+  "label_xy": [
+   1030,
+   330
+  ],
+  "drawing_box": [
+   865,
+   110,
+   1035,
+   390
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "dense cluster of rounded green leaves (light and dark), spreading ochre-brown fibrous root"
+ },
+ {
+  "image": "100v_and_101r.jpg",
+  "folio": "f100v",
+  "n": 4,
+  "label": "solsy",
+  "label_xy": [
+   1172,
+   335
+  ],
+  "drawing_box": [
+   1035,
+   80,
+   1390,
+   400
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "thin outlined stems arching up and over to the right with elongated pointed dark green leaves; small orange crown with long thin spreading root fibres"
+ },
+ {
+  "image": "100v_and_101r.jpg",
+  "folio": "f100v",
+  "n": 5,
+  "label": "soleesos",
+  "label_xy": [
+   485,
+   645
+  ],
+  "drawing_box": [
+   335,
+   395,
+   560,
+   730
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "two large olive kidney/lobe-shaped leaves on a thin stem, segmented knobbly object above; tapering pale root with dark tip"
+ },
+ {
+  "image": "100v_and_101r.jpg",
+  "folio": "f100v",
+  "n": 6,
+  "label": "ykchochdy",
+  "label_xy": [
+   700,
+   645
+  ],
+  "drawing_box": [
+   515,
+   400,
+   760,
+   815
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "many small narrow green leaves on several upright branches from one base; long pale straight root"
+ },
+ {
+  "image": "100v_and_101r.jpg",
+  "folio": "f100v",
+  "n": 7,
+  "label": "ykchdy",
+  "label_xy": [
+   925,
+   645
+  ],
+  "drawing_box": [
+   735,
+   355,
+   1005,
+   735
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "bluish-green deeply notched leaves on spreading stalks; single fat orange carrot-like tapering root"
+ },
+ {
+  "image": "100v_and_101r.jpg",
+  "folio": "f100v",
+  "n": 8,
+  "label": "dchdy",
+  "label_xy": [
+   1135,
+   645
+  ],
+  "drawing_box": [
+   915,
+   420,
+   1225,
+   750
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "tree-like: one curved stem with a dense dark green lumpy crown; base splits into broad pale/olive spreading roots"
+ },
+ {
+  "image": "100v_and_101r.jpg",
+  "folio": "f100v",
+  "n": 9,
+  "label": "dalsy",
+  "label_xy": [
+   1340,
+   637
+  ],
+  "drawing_box": [
+   1205,
+   230,
+   1350,
+   720
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "two stacked pale olive cabbage/cauliflower-like heads on a long thin stem; small forked orange-tipped root"
+ },
+ {
+  "image": "100v_and_101r.jpg",
+  "folio": "f100v",
+  "n": 10,
+  "label": "okcheor",
+  "label_xy": [
+   520,
+   1062
+  ],
+  "drawing_box": [
+   330,
+   665,
+   580,
+   1130
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "tall large dark green leaf with wavy scalloped edge plus two smaller dark blue wavy leaves on side stalks; small red knot-like root with fibres"
+ },
+ {
+  "image": "100v_and_101r.jpg",
+  "folio": "f100v",
+  "n": 11,
+  "label": "ytchol",
+  "label_xy": [
+   805,
+   1055
+  ],
+  "drawing_box": [
+   585,
+   725,
+   855,
+   1080
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "bushy rosette of many lanceolate green leaves (two shades), orange-brown fibrous roots"
+ },
+ {
+  "image": "100v_and_101r.jpg",
+  "folio": "f100v",
+  "n": 12,
+  "label": "dykchal",
+  "label_xy": [
+   1045,
+   1065
+  ],
+  "drawing_box": [
+   900,
+   730,
+   1050,
+   1175
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "narrow upright plant with paired spiky green side branches like a feather; small pale tuft of root fibres"
+ },
+ {
+  "image": "100v_and_101r.jpg",
+  "folio": "f100v",
+  "n": 13,
+  "label": "chos",
+  "label_xy": [
+   1260,
+   1072
+  ],
+  "drawing_box": [
+   1135,
+   745,
+   1340,
+   1215
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "dense conifer-like/plume plant of fine dark green needles, one stem with pale forked root curving sideways (first word of a two-word label beside it)"
+ },
+ {
+  "image": "100v_and_101r.jpg",
+  "folio": "f100v",
+  "n": 14,
+  "label": "ctharal",
+  "label_xy": [
+   1340,
+   1072
+  ],
+  "drawing_box": [
+   1135,
+   745,
+   1340,
+   1215
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "same plant as chos: dense fine-needled green plume, pale forked horizontal root (second word of the two-word label)"
+ }
+]

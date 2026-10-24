@@ -1,0 +1,320 @@
+[
+ {
+  "image": "101v_part.jpg",
+  "folio": "f101v",
+  "n": 1,
+  "label": "sairaly",
+  "label_xy": [
+   950,
+   195
+  ],
+  "drawing_box": [
+   540,
+   210,
+   905,
+   905
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "Upright plant with several rounded, deeply lobed green leaf clusters on a pale stem; horizontal brown segmented root at base."
+ },
+ {
+  "image": "101v_part.jpg",
+  "folio": "f101v",
+  "n": 2,
+  "label": "otaldy",
+  "label_xy": [
+   1300,
+   225
+  ],
+  "drawing_box": [
+   980,
+   115,
+   1270,
+   810
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "Plant with a small round flower-like head on top, symmetric fringed/fern-like green leaves, and a single orange carrot-like taproot."
+ },
+ {
+  "image": "101v_part.jpg",
+  "folio": "f101v",
+  "n": 3,
+  "label": "otol",
+  "label_xy": [
+   1855,
+   230
+  ],
+  "drawing_box": [
+   1310,
+   77,
+   1775,
+   810
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "desc": "Radial plant: pointed dark-green leaves with looped bases arranged like a star around a thin branched stem; two small orange tuber roots below. Label lies between this and the tall vine to its right."
+ },
+ {
+  "image": "101v_part.jpg",
+  "folio": "f101v",
+  "n": 4,
+  "label": "ytal",
+  "label_xy": [
+   2350,
+   440
+  ],
+  "drawing_box": [
+   1810,
+   77,
+   2310,
+   800
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "Tall thin stem with alternate lobed, ivy-like green leaves; stem continues down toward a star-flowered outline plant."
+ },
+ {
+  "image": "101v_panel2.jpg",
+  "folio": "f101v",
+  "n": 5,
+  "label": "dokor",
+  "label_xy": [
+   320,
+   330
+  ],
+  "drawing_box": [
+   245,
+   130,
+   305,
+   490
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "desc": "Thin upright plant with a single narrow pale-green leaf on a straight stem. Label ink reads d-o-tall-o-r; it is squeezed between this plant and the red-leaved plant on its right."
+ },
+ {
+  "image": "101v_part.jpg",
+  "folio": "f101v",
+  "n": 6,
+  "label": "orar",
+  "label_xy": [
+   1340,
+   805
+  ],
+  "drawing_box": [
+   980,
+   850,
+   1350,
+   1310
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "desc": "Plant with rounded scalloped green leaves on a short stem and a spreading branched brown root resembling legs. Label text read here as a-r-o-d, match to orar uncertain."
+ },
+ {
+  "image": "101v_part.jpg",
+  "folio": "f101v",
+  "n": 7,
+  "label": "otarar",
+  "label_xy": [
+   1760,
+   775
+  ],
+  "drawing_box": [
+   1310,
+   810,
+   1810,
+   1330
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "Single large round green leaf with toothed edge and a notch, on a short stalk; long horizontal comb-like brown root."
+ },
+ {
+  "image": "101v_part.jpg",
+  "folio": "f101v",
+  "n": 8,
+  "label": "otoly",
+  "label_xy": [
+   920,
+   890
+  ],
+  "drawing_box": [
+   600,
+   945,
+   905,
+   1350
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "desc": "Coiled spiral-shaped round green leaf with an inner curl, thin stalk below. Label also close to the leafy plant to its right."
+ },
+ {
+  "image": "101v_panel2.jpg",
+  "folio": "f101v",
+  "n": 9,
+  "label": "soraly",
+  "label_xy": [
+   1045,
+   203
+  ],
+  "drawing_box": [
+   1060,
+   140,
+   1400,
+   500
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "desc": "Upright plant with whorls of pointed lance-shaped green leaves; flat tan root mass at the base. Label faint; leading glyph unclear."
+ },
+ {
+  "image": "101v_panel2.jpg",
+  "folio": "f101v",
+  "n": 10,
+  "label": "okol",
+  "label_xy": [
+   525,
+   152
+  ],
+  "drawing_box": [
+   330,
+   120,
+   505,
+   495
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "desc": "Plant with a pale stem carrying paired red-orange hooked leaves; small forked orange-tan root. Label faint (o + minims + tall glyph), match to okol uncertain; also near the tall white-stemmed plant on the right."
+ },
+ {
+  "image": "101v_part.jpg",
+  "folio": "f101v",
+  "n": 11,
+  "label": "arom",
+  "label_xy": null,
+  "drawing_box": null,
+  "kind": "plant",
+  "confidence": "notfound",
+  "desc": "Label not identified on 101v_part.jpg or 101v_panel2.jpg; panel2 has two labels cut off at the right edge (about [1360,190] and [1395,545]) that may be one of these."
+ },
+ {
+  "image": "101v_panel2.jpg",
+  "folio": "f101v",
+  "n": 12,
+  "label": "oraram",
+  "label_xy": [
+   835,
+   205
+  ],
+  "drawing_box": [
+   820,
+   125,
+   1065,
+   500
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "desc": "Plant with a dark brown-green tuft on top, two long green leaves arching down like arms, and a long horizontal tan root. Ink reads roughly o-tall-a-r-a-r/m, so the match to oraram is uncertain; it looks a lot like otarar."
+ },
+ {
+  "image": "101v_part.jpg",
+  "folio": "f101v",
+  "n": 13,
+  "label": "oraeep",
+  "label_xy": null,
+  "drawing_box": null,
+  "kind": "plant",
+  "confidence": "notfound",
+  "desc": "Label not identified on 101v_part.jpg or 101v_panel2.jpg; panel2 has two labels cut off at the right edge (about [1360,190] and [1395,545]) that may be one of these."
+ },
+ {
+  "image": "101v_panel2.jpg",
+  "folio": "f101v",
+  "n": 14,
+  "label": "dytolg",
+  "label_xy": [
+   500,
+   550
+  ],
+  "drawing_box": [
+   245,
+   530,
+   470,
+   820
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "Plant with two large round green leaf masses with scalloped edges on a short stem, small tan root."
+ },
+ {
+  "image": "101v_panel2.jpg",
+  "folio": "f101v",
+  "n": 15,
+  "label": "olkor",
+  "label_xy": [
+   730,
+   717
+  ],
+  "drawing_box": [
+   480,
+   560,
+   690,
+   775
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "Plant with a branched pale stem carrying five rounded scalloped dark-green leaf clusters; short tan root."
+ },
+ {
+  "image": "101v_panel2.jpg",
+  "folio": "f101v",
+  "n": 16,
+  "label": "dolary",
+  "label_xy": [
+   905,
+   547
+  ],
+  "drawing_box": [
+   740,
+   560,
+   935,
+   830
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "Two large dark-green heart/teardrop-shaped leaves joined at a single short stem; tiny dark root."
+ },
+ {
+  "image": "101v_panel2.jpg",
+  "folio": "f101v",
+  "n": 17,
+  "label": "odor",
+  "label_xy": [
+   1160,
+   540
+  ],
+  "drawing_box": [
+   1100,
+   540,
+   1400,
+   790
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "desc": "Plant with several long curving green leaves from a thick orange-tan root running diagonally. Label also lies right next to the oval leaf with a scalloped border on its left (about [985,520,1095,790])."
+ },
+ {
+  "image": "101v_part.jpg",
+  "folio": "f101v",
+  "n": 18,
+  "label": "olaran",
+  "label_xy": null,
+  "drawing_box": null,
+  "kind": "plant",
+  "confidence": "notfound",
+  "desc": "Label not identified on 101v_part.jpg or 101v_panel2.jpg; panel2 has two labels cut off at the right edge (about [1360,190] and [1395,545]) that may be one of these."
+ }
+]

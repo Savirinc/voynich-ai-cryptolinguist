@@ -1,0 +1,363 @@
+[
+ {
+  "image": "100r.jpg",
+  "folio": "f100r",
+  "n": 1,
+  "label": "chosaroshol",
+  "label_xy": [
+   570,
+   210
+  ],
+  "drawing_box": [
+   360,
+   250,
+   605,
+   660
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "cluster of broad rounded lobed green leaves on short stem; small branching pale root"
+ },
+ {
+  "image": "100r.jpg",
+  "folio": "f100r",
+  "n": 2,
+  "label": "sochorcfhy",
+  "label_xy": [
+   855,
+   200
+  ],
+  "drawing_box": [
+   575,
+   230,
+   1035,
+   660
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "curling reddish-brown spiral stem with arrow-shaped green leaf tips radiating outward; thin root"
+ },
+ {
+  "image": "100r.jpg",
+  "folio": "f100r",
+  "n": 3,
+  "label": "otear",
+  "label_xy": [
+   1150,
+   145
+  ],
+  "drawing_box": [
+   1020,
+   135,
+   1435,
+   660
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "tall central stem with many paired pointed serrated green leaves in tiers; fibrous root"
+ },
+ {
+  "image": "100r.jpg",
+  "folio": "f100r",
+  "n": 4,
+  "label": "chofary",
+  "label_xy": [
+   1630,
+   250
+  ],
+  "drawing_box": [
+   1530,
+   335,
+   1785,
+   660
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "single palmate deeply lobed green leaf with toothed edges; branching pale root"
+ },
+ {
+  "image": "100r.jpg",
+  "folio": "f100r",
+  "n": 5,
+  "label": "sar",
+  "label_xy": [
+   1860,
+   245
+  ],
+  "drawing_box": [
+   1755,
+   150,
+   2310,
+   630
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "branched reddish stem with three club-shaped green swellings each tipped with a dark blue pointed cap"
+ },
+ {
+  "image": "100r.jpg",
+  "folio": "f100r",
+  "n": 6,
+  "label": "char",
+  "label_xy": [
+   1960,
+   240
+  ],
+  "drawing_box": [
+   1755,
+   150,
+   2310,
+   630
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "branched reddish stem with three club-shaped green swellings each tipped with a dark blue pointed cap"
+ },
+ {
+  "image": "100r.jpg",
+  "folio": "f100r",
+  "n": 7,
+  "label": "daiindy",
+  "label_xy": [
+   2190,
+   255
+  ],
+  "drawing_box": [
+   1755,
+   150,
+   2310,
+   630
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "branched reddish stem with three club-shaped green swellings each tipped with a dark blue pointed cap"
+ },
+ {
+  "image": "100r.jpg",
+  "folio": "f100r",
+  "n": 8,
+  "label": "oraro",
+  "label_xy": [
+   300,
+   740
+  ],
+  "drawing_box": [
+   135,
+   710,
+   430,
+   1195
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "three-lobed toothed green leaves with small dark dots; slender pale stem; reddish knobbed root tip"
+ },
+ {
+  "image": "100r.jpg",
+  "folio": "f100r",
+  "n": 9,
+  "label": "chalsain",
+  "label_xy": [
+   730,
+   1120
+  ],
+  "drawing_box": [
+   480,
+   800,
+   835,
+   1265
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "pale curved arching stem bearing a crescent row of small oval green leaflets; trailing pale root"
+ },
+ {
+  "image": "100r.jpg",
+  "folio": "f100r",
+  "n": 10,
+  "label": "soity",
+  "label_xy": [
+   1030,
+   1070
+  ],
+  "drawing_box": [
+   910,
+   655,
+   1090,
+   1130
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "single oblong spiny-edged green leaf on stalk; tapering orange-red root"
+ },
+ {
+  "image": "100r.jpg",
+  "folio": "f100r",
+  "n": 11,
+  "label": "sosam",
+  "label_xy": [
+   1510,
+   1040
+  ],
+  "drawing_box": [
+   1125,
+   560,
+   1465,
+   1210
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "dark green fan/hand-shaped leaf mass with long pointed fingers; twisted dark red root"
+ },
+ {
+  "image": "100r.jpg",
+  "folio": "f100r",
+  "n": 12,
+  "label": "dakocth",
+  "label_xy": [
+   1920,
+   1030
+  ],
+  "drawing_box": [
+   1530,
+   720,
+   1850,
+   1180
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "rosette of curled green leaves over a cluster of orange carrot-like roots with fine rootlets"
+ },
+ {
+  "image": "100r.jpg",
+  "folio": "f100r",
+  "n": 13,
+  "label": "sofam",
+  "label_xy": [
+   2270,
+   570
+  ],
+  "drawing_box": [
+   2010,
+   615,
+   2420,
+   1260
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "desc": "large pair of broad drooping green leaves with long pale stalks forming the root/base"
+ },
+ {
+  "image": "100r.jpg",
+  "folio": "f100r",
+  "n": 14,
+  "label": "okeeos",
+  "label_xy": [
+   1795,
+   1635
+  ],
+  "drawing_box": [
+   1731,
+   1342,
+   2510,
+   2308
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "desc": "large deeply serrated lanceolate green leaf plus smaller leaves; spreading reddish-brown roots"
+ },
+ {
+  "image": "100r.jpg",
+  "folio": "f100r",
+  "n": 15,
+  "label": "shockhey",
+  "label_xy": [
+   910,
+   1720
+  ],
+  "drawing_box": [
+   751,
+   1731,
+   1235,
+   2308
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "desc": "small bushy dark green rounded crown on a long curved pale stem/root"
+ },
+ {
+  "image": "100r.jpg",
+  "folio": "f100r",
+  "n": 16,
+  "label": "orol",
+  "label_xy": [
+   920,
+   2080
+  ],
+  "drawing_box": [
+   751,
+   1731,
+   1235,
+   2308
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "small bushy dark green rounded crown on a long curved pale stem/root"
+ },
+ {
+  "image": "100r.jpg",
+  "folio": "f100r",
+  "n": 17,
+  "label": "olcheom",
+  "label_xy": [
+   735,
+   2085
+  ],
+  "drawing_box": [
+   523,
+   1610,
+   926,
+   2322
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "upright stem with long narrow forked green leaves; pale swollen bulb-like root"
+ },
+ {
+  "image": "100r.jpg",
+  "folio": "f100r",
+  "n": 18,
+  "label": "oteol",
+  "label_xy": [
+   1515,
+   2040
+  ],
+  "drawing_box": [
+   1074,
+   1745,
+   1557,
+   2322
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "large oval green leaf with dotted marks, on a long hooked stem; pale forked root"
+ },
+ {
+  "image": "100r.jpg",
+  "folio": "f100r",
+  "n": 19,
+  "label": "okols",
+  "label_xy": [
+   1830,
+   2020
+  ],
+  "drawing_box": [
+   1516,
+   1677,
+   1852,
+   2255
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "two round clumped green leaf masses on short forked pale stems"
+ }
+]

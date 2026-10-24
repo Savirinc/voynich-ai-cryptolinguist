@@ -1,0 +1,686 @@
+[
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 1,
+  "label": "okaradag",
+  "label_xy": [
+   415,
+   330
+  ],
+  "drawing_box": [
+   278,
+   290,
+   527,
+   780
+  ],
+  "kind": "jar",
+  "confidence": "high",
+  "desc": "red cylindrical jar with green-topped lid and decorated band"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 2,
+  "label": "okar",
+  "label_xy": [
+   482,
+   192
+  ],
+  "drawing_box": [
+   650,
+   185,
+   775,
+   530
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "pale beige branching root with several forked strands"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 3,
+  "label": "y",
+  "label_xy": [
+   575,
+   192
+  ],
+  "drawing_box": [
+   650,
+   185,
+   775,
+   530
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "desc": "pale beige branching root with several forked strands; single glyph written right after okar, may be part of the same label"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 4,
+  "label": "darar",
+  "label_xy": [
+   750,
+   175
+  ],
+  "drawing_box": [
+   825,
+   180,
+   940,
+   540
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "dark red-brown elongated root with fringe of fine rootlets on left"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 5,
+  "label": "oky",
+  "label_xy": [
+   965,
+   200
+  ],
+  "drawing_box": [
+   1000,
+   155,
+   1080,
+   520
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "pale tan tapering root topped by short stub stalks"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 6,
+  "label": "salo",
+  "label_xy": [
+   1140,
+   195
+  ],
+  "drawing_box": [
+   1150,
+   210,
+   1300,
+   510
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "pale ribbed spindle-shaped root with red-brown central streak"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 7,
+  "label": "aro",
+  "label_xy": [
+   1360,
+   265
+  ],
+  "drawing_box": [
+   1300,
+   160,
+   1460,
+   600
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "pale drooping fibrous strand bundle with greenish tint"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 8,
+  "label": "ain",
+  "label_xy": [
+   1360,
+   300
+  ],
+  "drawing_box": [
+   1300,
+   160,
+   1460,
+   600
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "pale drooping fibrous strand bundle with greenish tint; second line of aro/ain pair"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 9,
+  "label": "okor",
+  "label_xy": [
+   1500,
+   210
+  ],
+  "drawing_box": [
+   1390,
+   180,
+   1670,
+   680
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "cluster of six pale hollow tube-shaped stems on spreading root strands"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 10,
+  "label": "ralol",
+  "label_xy": [
+   1710,
+   215
+  ],
+  "drawing_box": [
+   1680,
+   180,
+   1940,
+   580
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "striped orange-banded central stalk with arching orange-and-pale fronds"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 11,
+  "label": "skeeal",
+  "label_xy": [
+   1940,
+   220
+  ],
+  "drawing_box": [
+   1910,
+   310,
+   2165,
+   610
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "dark red-brown lobed root with curled side arms"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 12,
+  "label": "okary",
+  "label_xy": [
+   2200,
+   230
+  ],
+  "drawing_box": [
+   2220,
+   200,
+   2590,
+   540
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "pale root with pink-orange top curving into long sweeping strands"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 13,
+  "label": "okolo",
+  "label_xy": [
+   745,
+   540
+  ],
+  "drawing_box": [
+   570,
+   590,
+   980,
+   760
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "orange-brown horizontal elongated root with many fine hair-like rootlets; label also sits just below P1"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 14,
+  "label": "otalam",
+  "label_xy": [
+   1590,
+   685
+  ],
+  "drawing_box": [
+   1140,
+   530,
+   1690,
+   820
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "desc": "long orange segmented worm-like root with comb of short rootlets beneath, upturned head; alternatively the green bulb plant or tube cluster above"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 15,
+  "label": "otoldy",
+  "label_xy": [
+   2030,
+   635
+  ],
+  "drawing_box": [
+   1620,
+   540,
+   2590,
+   830
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "pale green bulb with hooked neck and long trailing strap-like strands; alternatively the dark lobed root just above"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 16,
+  "label": "oparal",
+  "label_xy": [
+   410,
+   1360
+  ],
+  "drawing_box": [
+   305,
+   1095,
+   525,
+   1530
+  ],
+  "kind": "jar",
+  "confidence": "high",
+  "desc": "red cylindrical jar, two-tier, label written in body"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 17,
+  "label": "oaro",
+  "label_xy": [
+   690,
+   1122
+  ],
+  "drawing_box": [
+   530,
+   1105,
+   660,
+   1400
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "orange-brown twisted root of two intertwined strands"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 18,
+  "label": "aloly",
+  "label_xy": [
+   800,
+   1132
+  ],
+  "drawing_box": [
+   650,
+   1090,
+   875,
+   1405
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "arch-shaped orange-striped root with two legs"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 19,
+  "label": "aora",
+  "label_xy": [
+   1025,
+   1140
+  ],
+  "drawing_box": [
+   850,
+   1155,
+   1080,
+   1445
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "pale brown rounded bulb with V-shaped forked top and spreading rootlets"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 20,
+  "label": "choky",
+  "label_xy": [
+   1305,
+   1155
+  ],
+  "drawing_box": [
+   1090,
+   1125,
+   1335,
+   1435
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "coiled stacked ribbed root with orange stripes and hooked top"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 21,
+  "label": "oky",
+  "label_xy": [
+   1480,
+   1145
+  ],
+  "drawing_box": [
+   1340,
+   1120,
+   1795,
+   1395
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "brown hooked root with fan of long narrow pointed leaves"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 22,
+  "label": "okeoly",
+  "label_xy": [
+   1830,
+   1180
+  ],
+  "drawing_box": [
+   1780,
+   1135,
+   2015,
+   1420
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "desc": "short tapering root with orange-red streak below a cylindrical stalk; alternatively tips of the fan-leaf plant"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 23,
+  "label": "yteold",
+  "label_xy": [
+   2050,
+   1170
+  ],
+  "drawing_box": [
+   1780,
+   1135,
+   2015,
+   1420
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "short tapering root with orange-red streak below a cylindrical stalk"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 24,
+  "label": "cheotchy",
+  "label_xy": [
+   2300,
+   1155
+  ],
+  "drawing_box": [
+   1950,
+   1125,
+   2565,
+   1480
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "large pale root with many long tentacle-like rootlets and dark inner mark"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 25,
+  "label": "tsholdy",
+  "label_xy": [
+   430,
+   2035
+  ],
+  "drawing_box": [
+   255,
+   1665,
+   535,
+   2110
+  ],
+  "kind": "jar",
+  "confidence": "high",
+  "desc": "red three-tier jar on footed stand, label in lower body"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 26,
+  "label": "okos",
+  "label_xy": [
+   595,
+   1800
+  ],
+  "drawing_box": [
+   620,
+   1745,
+   820,
+   2110
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "pale speckled root looped into a knot with two crossed legs"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 27,
+  "label": "oekey",
+  "label_xy": [
+   755,
+   1800
+  ],
+  "drawing_box": [
+   620,
+   1745,
+   820,
+   2110
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "desc": "pale speckled root looped into a knot with two crossed legs; alternatively the dark root R2"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 28,
+  "label": "dar",
+  "label_xy": [
+   980,
+   1810
+  ],
+  "drawing_box": [
+   845,
+   1775,
+   990,
+   2050
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "dark red-brown rounded root with dripping finger-like rootlets"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 29,
+  "label": "chockhia",
+  "label_xy": [
+   1250,
+   1820
+  ],
+  "drawing_box": [
+   1000,
+   1785,
+   1370,
+   2070
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "desc": "pale root with hooked stem and long trailing strands; alternatively the ribbed root to its right"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 30,
+  "label": "r",
+  "label_xy": [
+   1475,
+   1830
+  ],
+  "drawing_box": [
+   1310,
+   1770,
+   1580,
+   2060
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "desc": "stacked ribbed root with orange stripes and curling tail"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 31,
+  "label": "cheyet",
+  "label_xy": [
+   1555,
+   1840
+  ],
+  "drawing_box": [
+   1310,
+   1770,
+   1580,
+   2060
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "stacked ribbed root with orange stripes and curling tail"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 32,
+  "label": "saiiny",
+  "label_xy": [
+   1895,
+   1825
+  ],
+  "drawing_box": [
+   1640,
+   1790,
+   1940,
+   2080
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "brown wavy bent root with fine bristle hairs"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 33,
+  "label": "sory",
+  "label_xy": [
+   2230,
+   1780
+  ],
+  "drawing_box": [
+   2050,
+   1730,
+   2320,
+   2030
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "pale hooked bulb with orange streaks and curved ribbed lobes"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 34,
+  "label": "dam",
+  "label_xy": [
+   2360,
+   1735
+  ],
+  "drawing_box": [
+   2330,
+   1470,
+   2570,
+   2060
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "green flag-like leafy top on long pale stalk over pale fibrous root"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 35,
+  "label": "yteoldy",
+  "label_xy": [
+   394,
+   2715
+  ],
+  "drawing_box": [
+   250,
+   2390,
+   545,
+   2850
+  ],
+  "kind": "jar",
+  "confidence": "high",
+  "desc": "red two-tier jar with green lid, label in body"
+ },
+ {
+  "image": "99r.jpg",
+  "folio": "f99r",
+  "n": 36,
+  "label": "tolsasy",
+  "label_xy": [
+   748,
+   2516
+  ],
+  "drawing_box": [
+   640,
+   2370,
+   2565,
+   3650
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "large orange-striped horizontal root with many fine rootlets, long pale-green stem arching right bearing green arrow/heart-shaped leaves and two small dark red-brown pendant catkin-like clusters"
+ }
+]

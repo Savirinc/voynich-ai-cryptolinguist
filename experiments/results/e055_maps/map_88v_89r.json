@@ -1,0 +1,1022 @@
+[
+ {
+  "folio": "f88v",
+  "n": 1,
+  "label": "okalyd",
+  "label_xy": [
+   337,
+   160
+  ],
+  "drawing_box": [
+   220,
+   70,
+   325,
+   450
+  ],
+  "kind": "jar",
+  "confidence": "high",
+  "desc": "tall jar, red and white banded, pale foot",
+  "drawing_id": "v_j1",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f88v",
+  "n": 2,
+  "label": "cheocthy",
+  "label_xy": [
+   462,
+   170
+  ],
+  "drawing_box": [
+   340,
+   65,
+   500,
+   345
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "pale forked tan root, single green toothed leaf",
+  "drawing_id": "v_p1",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f88v",
+  "n": 3,
+  "label": "cpheor",
+  "label_xy": [
+   620,
+   170
+  ],
+  "drawing_box": [
+   455,
+   65,
+   665,
+   310
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "tan root with many rootlets, green feather-like leaf on curved stem",
+  "drawing_id": "v_p2",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f88v",
+  "n": 4,
+  "label": "otar",
+  "label_xy": [
+   785,
+   177
+  ],
+  "drawing_box": [
+   600,
+   75,
+   850,
+   330
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "small bulb with fringed top, looping red root, green star-shaped leaf",
+  "drawing_id": "v_p3",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f88v",
+  "n": 5,
+  "label": "arody",
+  "label_xy": [
+   857,
+   181
+  ],
+  "drawing_box": [
+   600,
+   75,
+   850,
+   330
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "desc": "small bulb with fringed top, looping red root, green star-shaped leaf",
+  "drawing_id": "v_p3",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f88v",
+  "n": 6,
+  "label": "otokol",
+  "label_xy": [
+   930,
+   112
+  ],
+  "drawing_box": [
+   700,
+   100,
+   1115,
+   355
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "long sinuous red root, green rosette leaf at upper right",
+  "drawing_id": "v_p4",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f88v",
+  "n": 7,
+  "label": "otoram",
+  "label_xy": [
+   365,
+   518
+  ],
+  "drawing_box": [
+   225,
+   465,
+   355,
+   720
+  ],
+  "kind": "jar",
+  "confidence": "high",
+  "desc": "squat jar, red body with white bands, knob lid",
+  "drawing_id": "v_j2",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f88v",
+  "n": 8,
+  "label": "otora",
+  "label_xy": [
+   550,
+   528
+  ],
+  "drawing_box": [
+   350,
+   470,
+   550,
+   720
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "desc": "pale bulbous root with lobed crown and many hanging rootlets, small green leaf",
+  "drawing_id": "v_pA",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f88v",
+  "n": 9,
+  "label": "cheosdy",
+  "label_xy": [
+   715,
+   535
+  ],
+  "drawing_box": [
+   570,
+   445,
+   780,
+   720
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "red root head with streaming red rootlets, green star-shaped leaf",
+  "drawing_id": "v_pB",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f88v",
+  "n": 10,
+  "label": "okaiin",
+  "label_xy": [
+   1055,
+   505
+  ],
+  "drawing_box": [
+   705,
+   460,
+   1125,
+   720
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "pale tangled root with long fibres, two large green elongated leaves",
+  "drawing_id": "v_pC",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f88v",
+  "n": 11,
+  "label": "daramdal",
+  "label_xy": [
+   275,
+   1285
+  ],
+  "drawing_box": [
+   200,
+   830,
+   345,
+   1250
+  ],
+  "kind": "jar",
+  "confidence": "high",
+  "desc": "tall tiered jar, red bands, green-fringed foot",
+  "drawing_id": "v_j3",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f88v",
+  "n": 12,
+  "label": "otydary",
+  "label_xy": [
+   565,
+   1115
+  ],
+  "drawing_box": [
+   340,
+   1105,
+   550,
+   1430
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "pale pear-shaped root with long tapering tail, two green ovate leaves",
+  "drawing_id": "v_q1",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f88v",
+  "n": 13,
+  "label": "otdordy",
+  "label_xy": [
+   855,
+   1135
+  ],
+  "drawing_box": [
+   580,
+   1070,
+   820,
+   1410
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "beaded pinkish segmented root, green lobed leaves on thin stems",
+  "drawing_id": "v_q2",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f88v",
+  "n": 14,
+  "label": "dararda",
+  "label_xy": [
+   1075,
+   1130
+  ],
+  "drawing_box": [
+   690,
+   870,
+   1110,
+   1440
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "tall plant with wide-spreading thin brown roots, green/purple leaves above",
+  "drawing_id": "v_q3",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r1",
+  "n": 1,
+  "label": "okchshy",
+  "label_xy": [
+   1245,
+   152
+  ],
+  "drawing_box": [
+   1150,
+   90,
+   1245,
+   390
+  ],
+  "kind": "jar",
+  "confidence": "high",
+  "desc": "tall slender jar, red and grey bands, pale stem foot",
+  "drawing_id": "r1_j1",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r1",
+  "n": 2,
+  "label": "qkol",
+  "label_xy": [
+   1335,
+   170
+  ],
+  "drawing_box": [
+   1235,
+   80,
+   1410,
+   375
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "large pinkish carrot-like curved root, pale stems",
+  "drawing_id": "r1_a1",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r1",
+  "n": 3,
+  "label": "oldam",
+  "label_xy": [
+   1495,
+   168
+  ],
+  "drawing_box": [
+   1335,
+   70,
+   1470,
+   355
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "green-leaved stalk with paired leaves, small forked pale root",
+  "drawing_id": "r1_a2",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r1",
+  "n": 4,
+  "label": "otoldy",
+  "label_xy": [
+   1645,
+   162
+  ],
+  "drawing_box": [
+   1485,
+   70,
+   1665,
+   360
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "reddish tangled root cluster with rootlets, round green leaf",
+  "drawing_id": "r1_a3",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r1",
+  "n": 5,
+  "label": "ararchodaiin",
+  "label_xy": [
+   1840,
+   175
+  ],
+  "drawing_box": [
+   1620,
+   75,
+   2030,
+   330
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "long horizontal pale/green root with hooked head and small toothed green leaf",
+  "drawing_id": "r1_a4",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r1",
+  "n": 6,
+  "label": "ykyd",
+  "label_xy": [
+   1268,
+   577
+  ],
+  "drawing_box": [
+   1160,
+   450,
+   1250,
+   745
+  ],
+  "kind": "jar",
+  "confidence": "high",
+  "desc": "red egg-shaped jar on pale stand",
+  "drawing_id": "r1_j2",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r1",
+  "n": 7,
+  "label": "chol",
+  "label_xy": [
+   1360,
+   587
+  ],
+  "drawing_box": [
+   1265,
+   505,
+   1550,
+   720
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "striped pale bulb on long low body ending in tuft of rootlets, toothed green leaf",
+  "drawing_id": "r1_b1",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r1",
+  "n": 8,
+  "label": "ches",
+  "label_xy": [
+   1417,
+   587
+  ],
+  "drawing_box": [
+   1265,
+   505,
+   1550,
+   720
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "striped pale bulb on long low body ending in tuft of rootlets, toothed green leaf",
+  "drawing_id": "r1_b1",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r1",
+  "n": 9,
+  "label": "otorain",
+  "label_xy": [
+   1585,
+   578
+  ],
+  "drawing_box": [
+   1265,
+   505,
+   1550,
+   720
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "desc": "striped pale bulb on long low body ending in tuft of rootlets, toothed green leaf",
+  "drawing_id": "r1_b1",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r1",
+  "n": 10,
+  "label": "okaiin",
+  "label_xy": [
+   1815,
+   577
+  ],
+  "drawing_box": [
+   1605,
+   540,
+   2075,
+   990
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "long pale looping root with spreading thin rootlets",
+  "drawing_id": "r1_b2",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r1",
+  "n": 11,
+  "label": "dan",
+  "label_xy": [
+   1865,
+   577
+  ],
+  "drawing_box": [
+   1605,
+   540,
+   2075,
+   990
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "long pale looping root with spreading thin rootlets",
+  "drawing_id": "r1_b2",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r1",
+  "n": 12,
+  "label": "ykocfhy",
+  "label_xy": [
+   1260,
+   1192
+  ],
+  "drawing_box": [
+   1150,
+   770,
+   1270,
+   1290
+  ],
+  "kind": "jar",
+  "confidence": "high",
+  "desc": "tall jar, red-dotted round upper body, red cup lower part",
+  "drawing_id": "r1_j3",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r1",
+  "n": 13,
+  "label": "saldam",
+  "label_xy": [
+   1435,
+   1150
+  ],
+  "drawing_box": [
+   1315,
+   1030,
+   1490,
+   1380
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "striped reddish root, green pinnate leaf",
+  "drawing_id": "r1_c1",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r1",
+  "n": 14,
+  "label": "sydarary",
+  "label_xy": [
+   1700,
+   1218
+  ],
+  "drawing_box": [
+   1440,
+   1020,
+   1650,
+   1440
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "desc": "large root bundle of long red/pale strands with small faces",
+  "drawing_id": "r1_c2",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r1",
+  "n": 15,
+  "label": "ydcpody",
+  "label_xy": [
+   2010,
+   1068
+  ],
+  "drawing_box": [
+   1665,
+   1020,
+   2000,
+   1430
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "cluster of round green berries/leaves on stalk joined to large branching pale root; green spatulate leaf at left",
+  "drawing_id": "r1_c4",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r2",
+  "n": 1,
+  "label": "odory",
+  "label_xy": [
+   2215,
+   208
+  ],
+  "drawing_box": [
+   2105,
+   125,
+   2205,
+   440
+  ],
+  "kind": "jar",
+  "confidence": "high",
+  "desc": "jar with green lid/top, red and green banded body, green foot",
+  "drawing_id": "r2_j1",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r2",
+  "n": 2,
+  "label": "doly",
+  "label_xy": [
+   2320,
+   228
+  ],
+  "drawing_box": [
+   2170,
+   65,
+   2310,
+   400
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "red forked root, green lobed leaves",
+  "drawing_id": "r2_a1",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r2",
+  "n": 3,
+  "label": "opchosam",
+  "label_xy": [
+   2500,
+   225
+  ],
+  "drawing_box": [
+   2320,
+   85,
+   2650,
+   385
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "red branching rootlets with fringed top, two round spiky green leaves",
+  "drawing_id": "r2_a2",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r2",
+  "n": 4,
+  "label": "saloiinsheol",
+  "label_xy": [
+   2850,
+   240
+  ],
+  "drawing_box": [
+   2490,
+   75,
+   3000,
+   420
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "large pale bulb with curling roots, big green cloud-like foliage",
+  "drawing_id": "r2_a3",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r2",
+  "n": 5,
+  "label": "opcheor",
+  "label_xy": [
+   3280,
+   258
+  ],
+  "drawing_box": [
+   2950,
+   95,
+   3550,
+   800
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "pale curved root with fibrous head, two pointed green leaves; root descends along right edge",
+  "drawing_id": "r2_a4",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r2",
+  "n": 6,
+  "label": "otold",
+  "label_xy": [
+   2205,
+   492
+  ],
+  "drawing_box": [
+   2100,
+   465,
+   2205,
+   715
+  ],
+  "kind": "jar",
+  "confidence": "high",
+  "desc": "tall goblet jar with red/white vertical stripes, green foot",
+  "drawing_id": "r2_j2",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r2",
+  "n": 7,
+  "label": "okol",
+  "label_xy": [
+   2539,
+   513
+  ],
+  "drawing_box": [
+   2235,
+   470,
+   2870,
+   680
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "large green leaf on stalk, pale root head, dark green root mass with pale fibres",
+  "drawing_id": "r2_b5",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r2",
+  "n": 8,
+  "label": "shol",
+  "label_xy": [
+   2597,
+   513
+  ],
+  "drawing_box": [
+   2235,
+   470,
+   2870,
+   680
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "large green leaf on stalk, pale root head, dark green root mass with pale fibres",
+  "drawing_id": "r2_b5",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r2",
+  "n": 9,
+  "label": "dy",
+  "label_xy": [
+   2630,
+   513
+  ],
+  "drawing_box": [
+   2235,
+   470,
+   2870,
+   680
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "large green leaf on stalk, pale root head, dark green root mass with pale fibres",
+  "drawing_id": "r2_b5",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r2",
+  "n": 10,
+  "label": "opchoroiin",
+  "label_xy": [
+   3190,
+   548
+  ],
+  "drawing_box": [
+   2910,
+   515,
+   3440,
+   690
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "two green lobed leaves, pale feathery root",
+  "drawing_id": "r2_b6",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r2",
+  "n": 11,
+  "label": "korainy",
+  "label_xy": [
+   2225,
+   832
+  ],
+  "drawing_box": [
+   2100,
+   725,
+   2210,
+   1020
+  ],
+  "kind": "jar",
+  "confidence": "high",
+  "desc": "round jar with red and white bands, green collar",
+  "drawing_id": "r2_j3",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r2",
+  "n": 12,
+  "label": "sodar",
+  "label_xy": [
+   2335,
+   833
+  ],
+  "drawing_box": [
+   2210,
+   760,
+   2360,
+   975
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "pale twisted forked root, green fan of curved leaves",
+  "drawing_id": "r2_c7",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r2",
+  "n": 13,
+  "label": "cheys",
+  "label_xy": [
+   2515,
+   850
+  ],
+  "drawing_box": [
+   2380,
+   770,
+   2510,
+   930
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "red root with curled base, green curved leaves",
+  "drawing_id": "r2_c8",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r2",
+  "n": 14,
+  "label": "cheody",
+  "label_xy": [
+   2668,
+   857
+  ],
+  "drawing_box": [
+   2510,
+   780,
+   2620,
+   930
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "desc": "pale bulb with rootlets, round green leaf",
+  "drawing_id": "r2_c9",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r2",
+  "n": 15,
+  "label": "oporain",
+  "label_xy": [
+   2823,
+   848
+  ],
+  "drawing_box": [
+   2620,
+   780,
+   2780,
+   955
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "red multi-legged root, green spiky round leaf",
+  "drawing_id": "r2_c10",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r2",
+  "n": 16,
+  "label": "okshdchos",
+  "label_xy": [
+   2985,
+   860
+  ],
+  "drawing_box": [
+   2795,
+   780,
+   3010,
+   935
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "pale hooked root with fringe, oblong green leaf",
+  "drawing_id": "r2_c11",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r2",
+  "n": 17,
+  "label": "okain",
+  "label_xy": [
+   2235,
+   1225
+  ],
+  "drawing_box": [
+   2100,
+   1060,
+   2220,
+   1355
+  ],
+  "kind": "jar",
+  "confidence": "medium",
+  "desc": "ovoid jar with red/green vertical stripes, pale foot",
+  "drawing_id": "r2_j4",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r2",
+  "n": 18,
+  "label": "yorain",
+  "label_xy": [
+   2235,
+   1252
+  ],
+  "drawing_box": [
+   2100,
+   1060,
+   2220,
+   1355
+  ],
+  "kind": "jar",
+  "confidence": "high",
+  "desc": "ovoid jar with red/green vertical stripes, pale foot",
+  "drawing_id": "r2_j4",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r2",
+  "n": 19,
+  "label": "ofakal",
+  "label_xy": [
+   2495,
+   1230
+  ],
+  "drawing_box": [
+   2250,
+   1125,
+   2500,
+   1370
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "desc": "brown-red tubular root, split round green leaf",
+  "drawing_id": "r2_d13",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r2",
+  "n": 20,
+  "label": "otalsy",
+  "label_xy": [
+   2770,
+   1235
+  ],
+  "drawing_box": [
+   2390,
+   1120,
+   2940,
+   1430
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "faint thin pale root with green/brown foliage, oblong green leaf on long stem",
+  "drawing_id": "r2_d15",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r2",
+  "n": 21,
+  "label": "ytarem",
+  "label_xy": [
+   2935,
+   1235
+  ],
+  "drawing_box": [
+   2390,
+   1120,
+   2940,
+   1430
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "desc": "faint thin pale root with green/brown foliage, oblong green leaf on long stem",
+  "drawing_id": "r2_d15",
+  "image": "88v_and_89r.jpg"
+ },
+ {
+  "folio": "f89r2",
+  "n": 22,
+  "label": "otolarol",
+  "label_xy": [
+   3060,
+   1275
+  ],
+  "drawing_box": [
+   2965,
+   1110,
+   3500,
+   1440
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "round spiky green leaf on stem, large pale root with many long strands",
+  "drawing_id": "r2_d16",
+  "image": "88v_and_89r.jpg"
+ }
+]

@@ -1,0 +1,534 @@
+[
+ {
+  "image": "99v.jpg",
+  "folio": "f99v",
+  "n": 1,
+  "label": "okaramy",
+  "label_xy": [
+   549,
+   621
+  ],
+  "drawing_box": [
+   390,
+   240,
+   645,
+   915
+  ],
+  "kind": "jar",
+  "confidence": "high",
+  "desc": "Tall red jar with blue top, decorated bands and lattice upper section."
+ },
+ {
+  "image": "99v.jpg",
+  "folio": "f99v",
+  "n": 2,
+  "label": "otoldy",
+  "label_xy": [
+   680,
+   250
+  ],
+  "drawing_box": [
+   650,
+   140,
+   940,
+   690
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "Long narrow root with a central dark-red stripe, fringed on both sides with many short curled hairlike rootlets; pale stem curling at top."
+ },
+ {
+  "image": "99v.jpg",
+  "folio": "f99v",
+  "n": 3,
+  "label": "otor",
+  "label_xy": [
+   880,
+   250
+  ],
+  "drawing_box": [
+   900,
+   130,
+   1160,
+   580
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "desc": "Red claw-like root with several dangling finger tips, long pale stem making a wide loop above. Label sits between P1 stem top and P2 stem loop; could belong to P1."
+ },
+ {
+  "image": "99v.jpg",
+  "folio": "f99v",
+  "n": 4,
+  "label": "chy",
+  "label_xy": [
+   1035,
+   252
+  ],
+  "drawing_box": [
+   900,
+   130,
+   1160,
+   580
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "Red claw-like root with several dangling finger tips, long pale stem making a wide loop above."
+ },
+ {
+  "image": "99v.jpg",
+  "folio": "f99v",
+  "n": 5,
+  "label": "oldy",
+  "label_xy": [
+   1210,
+   222
+  ],
+  "drawing_box": [
+   1180,
+   90,
+   1450,
+   640
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "Brown radiating cluster of many long downward rootlets from a dark crown, with a straight tall pale stem."
+ },
+ {
+  "image": "99v.jpg",
+  "folio": "f99v",
+  "n": 6,
+  "label": "dar",
+  "label_xy": [
+   1390,
+   347
+  ],
+  "drawing_box": [
+   1350,
+   90,
+   2500,
+   450
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "Small rounded dark-red bulbous root with short fingers, attached by a green stalk to a large green toothed-edged leaf above."
+ },
+ {
+  "image": "99v.jpg",
+  "folio": "f99v",
+  "n": 7,
+  "label": "ary",
+  "label_xy": [
+   1535,
+   332
+  ],
+  "drawing_box": [
+   1350,
+   90,
+   2500,
+   450
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "Small rounded dark-red bulbous root with short fingers, attached by a green stalk to a large green toothed-edged leaf above. Right of P4 green stalk; could label a faint pale shape beside P4 or P5."
+ },
+ {
+  "image": "99v.jpg",
+  "folio": "f99v",
+  "n": 8,
+  "label": "otaly",
+  "label_xy": [
+   1830,
+   150
+  ],
+  "drawing_box": [
+   1600,
+   100,
+   2010,
+   560
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "Brown horizontal root body with several long curving rootlets, stem curving up and right."
+ },
+ {
+  "image": "99v.jpg",
+  "folio": "f99v",
+  "n": 9,
+  "label": "olsy",
+  "label_xy": [
+   2020,
+   210
+  ],
+  "drawing_box": [
+   1950,
+   90,
+   2190,
+   560
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "Small red irregular branching root with pale stem. Under curl of P5 stem tip; could belong to P5."
+ },
+ {
+  "image": "99v.jpg",
+  "folio": "f99v",
+  "n": 10,
+  "label": "arol",
+  "label_xy": [
+   2170,
+   200
+  ],
+  "drawing_box": [
+   1840,
+   100,
+   2420,
+   610
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "Large brown inverted-V root with two long horizontal limbs, tall pale stem. Between P6 and P7 stems."
+ },
+ {
+  "image": "99v.jpg",
+  "folio": "f99v",
+  "n": 11,
+  "label": "otoky",
+  "label_xy": [
+   2390,
+   200
+  ],
+  "drawing_box": [
+   2390,
+   140,
+   2700,
+   700
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "Cone-shaped pale root with faint red horizontal bands, tuft of fine lines on top, narrow ringed point below. Right of P7 stem, above P8 cone."
+ },
+ {
+  "image": "99v.jpg",
+  "folio": "f99v",
+  "n": 12,
+  "label": "okoldody",
+  "label_xy": [
+   550,
+   1305
+  ],
+  "drawing_box": [
+   435,
+   960,
+   645,
+   1500
+  ],
+  "kind": "jar",
+  "confidence": "high",
+  "desc": "Red cylindrical jar with blue opening, banded rims, small feet."
+ },
+ {
+  "image": "99v.jpg",
+  "folio": "f99v",
+  "n": 13,
+  "label": "oeeesary",
+  "label_xy": [
+   826,
+   990
+  ],
+  "drawing_box": [
+   686,
+   1022,
+   836,
+   1345
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "Segmented feather-like root with bluish and red tints, many overlapping scales."
+ },
+ {
+  "image": "99v.jpg",
+  "folio": "f99v",
+  "n": 14,
+  "label": "daiiinc",
+  "label_xy": [
+   1132,
+   984
+  ],
+  "drawing_box": [
+   900,
+   1000,
+   1140,
+   1390
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "Pair of pinkish-red pointed leaflike lobes hanging from a thin stem. Between P10 stem and P11 left arm; could belong to P11."
+ },
+ {
+  "image": "99v.jpg",
+  "folio": "f99v",
+  "n": 15,
+  "label": "sary",
+  "label_xy": [
+   1379,
+   984
+  ],
+  "drawing_box": [
+   1062,
+   960,
+   1460,
+   1301
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "Dark olive-brown star-shaped root with spreading spiky arms and a central pale knob."
+ },
+ {
+  "image": "99v.jpg",
+  "folio": "f99v",
+  "n": 16,
+  "label": "saiino",
+  "label_xy": [
+   1740,
+   963
+  ],
+  "drawing_box": [
+   1385,
+   940,
+   1890,
+   1345
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "Pink folded root with many striated lobes and two long curling side arms."
+ },
+ {
+  "image": "99v.jpg",
+  "folio": "f99v",
+  "n": 17,
+  "label": "otolsar",
+  "label_xy": [
+   2191,
+   909
+  ],
+  "drawing_box": [
+   1820,
+   880,
+   2135,
+   1345
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "Red double-bulb root with two rounded swellings and long pale curving stem/tails."
+ },
+ {
+  "image": "99v.jpg",
+  "folio": "f99v",
+  "n": 18,
+  "label": "osary",
+  "label_xy": [
+   2497,
+   898
+  ],
+  "drawing_box": [
+   2148,
+   880,
+   2675,
+   1334
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "Pale ringed cap atop many long brown radiating rays spreading downward."
+ },
+ {
+  "image": "99v.jpg",
+  "folio": "f99v",
+  "n": 19,
+  "label": "darolaly",
+  "label_xy": [
+   580,
+   1955
+  ],
+  "drawing_box": [
+   465,
+   1550,
+   690,
+   2190
+  ],
+  "kind": "jar",
+  "confidence": "high",
+  "desc": "Red two-tier jar with blue opening and toothed bands."
+ },
+ {
+  "image": "99v.jpg",
+  "folio": "f99v",
+  "n": 20,
+  "label": "okechy",
+  "label_xy": [
+   808,
+   1738
+  ],
+  "drawing_box": [
+   772,
+   1661,
+   997,
+   2133
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "Pink stool-shaped root: flat-topped cylinder with short stem, splaying into a few short legs."
+ },
+ {
+  "image": "99v.jpg",
+  "folio": "f99v",
+  "n": 21,
+  "label": "otal",
+  "label_xy": [
+   1013,
+   1733
+  ],
+  "drawing_box": [
+   1048,
+   1661,
+   1418,
+   2133
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "Pink elongated reclining root, bent at a right angle, with tapering pointed tips. Between P15 and P16 stems."
+ },
+ {
+  "image": "99v.jpg",
+  "folio": "f99v",
+  "n": 22,
+  "label": "chor",
+  "label_xy": [
+   1248,
+   1738
+  ],
+  "drawing_box": [
+   1048,
+   1661,
+   1418,
+   2133
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "desc": "Pink elongated reclining root, bent at a right angle, with tapering pointed tips. Lies between P16 and P17 stems; could belong to P17."
+ },
+ {
+  "image": "99v.jpg",
+  "folio": "f99v",
+  "n": 23,
+  "label": "olekor",
+  "label_xy": [
+   1453,
+   1728
+  ],
+  "drawing_box": [
+   1397,
+   1661,
+   1807,
+   2143
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "Olive-tan two-lobed fringed root, wide skirt-like with many fine streaks, thin stem."
+ },
+ {
+  "image": "99v.jpg",
+  "folio": "f99v",
+  "n": 24,
+  "label": "okeodor",
+  "label_xy": [
+   1787,
+   1723
+  ],
+  "drawing_box": [
+   1397,
+   1661,
+   1807,
+   2143
+  ],
+  "kind": "plant",
+  "confidence": "low",
+  "desc": "Olive-tan two-lobed fringed root, wide skirt-like with many fine streaks, thin stem. Right of P17 stem; could belong to P18."
+ },
+ {
+  "image": "99v.jpg",
+  "folio": "f99v",
+  "n": 25,
+  "label": "olky",
+  "label_xy": [
+   2227,
+   1738
+  ],
+  "drawing_box": [
+   1848,
+   1600,
+   2217,
+   2215
+  ],
+  "kind": "plant",
+  "confidence": "medium",
+  "desc": "Large red-brown root of overlapping pointed lobes, tall pale stem."
+ },
+ {
+  "image": "99v.jpg",
+  "folio": "f99v",
+  "n": 26,
+  "label": "doldam",
+  "label_xy": [
+   2576,
+   1687
+  ],
+  "drawing_box": [
+   2238,
+   1600,
+   2658,
+   2276
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "Pale arch/cross-shaped root with comb-toothed crossbar, brown and blue streaks, crossing curved legs."
+ },
+ {
+  "image": "99v.jpg",
+  "folio": "f99v",
+  "n": 27,
+  "label": "oralas",
+  "label_xy": [
+   590,
+   2690
+  ],
+  "drawing_box": [
+   465,
+   2350,
+   690,
+   2890
+  ],
+  "kind": "jar",
+  "confidence": "high",
+  "desc": "Red two-tier jar with pale blue opening and toothed bands."
+ },
+ {
+  "image": "99v.jpg",
+  "folio": "f99v",
+  "n": 28,
+  "label": "koleearol",
+  "label_xy": [
+   2300,
+   3060
+  ],
+  "drawing_box": [
+   480,
+   2460,
+   2750,
+   3420
+  ],
+  "kind": "plant",
+  "confidence": "high",
+  "desc": "Very large plant: broad dark-green leaf with scalloped edge curling down at right, long green stem, and a wide spreading bluish-green root system across bottom of page."
+ }
+]
