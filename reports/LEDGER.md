@@ -308,3 +308,7 @@ page with a margin.
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-24 | E055 same-label pharma drawings (`SAME_LABEL_PAIRS.md`) | NOT SHOWN: same-label pairs 2.17 vs controls 2.40 (identity checks 9.9); difference −0.23, p 0.70 | none (low power, pre-registered) | 0.0077 | 0.963 | 0.0274 | 0.0013 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-24 | E056 zodiac labels as numbers (`ZODIAC_NUMBERS.md`) | NOT NUMBERS: positional identity 0.07% (p 0.91) vs planted numbers 48%; 245 types in 292 labels | sub-hypothesis NUMBERS × 1/10: 0.20 → 0.024 | 0.0077 | 0.963 | 0.0274 | 0.0013 |

@@ -1,0 +1,6 @@
+pages and label counts: {'f70v1': 15, 'f70v2': 29, 'f71r': 15, 'f71v': 15, 'f72r1': 15, 'f72r2': 29, 'f72r3': 29, 'f72v1': 28, 'f72v2': 29, 'f72v3': 29, 'f73r': 30, 'f73v': 29}
+Voynich: positional identity rate 0.0007, p 0.9134; closed-set {tokens 292, types 245, type/token 0.84, types for 80% 187}
+   commonest labels: [('otaly', 6), ('otal', 4), ('oky', 4), ('otar', 4), ('okeey', 4), ('okal', 4), ('okaly', 4), ('okeody', 3), ('otalaiin', 2), ('oty', 2), ('otaldar', 2), ('okeoly', 2)]
+positive control (numbers): rate 0.4836, p 0.0001, type/token 0.38
+negative control (shuffled across pages): rate 0.0015, p 0.7467
+VERDICT: NOT NUMBERS (no positional alignment, open vocabulary) {'NUMBERS': 0.1}
