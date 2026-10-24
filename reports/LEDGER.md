@@ -271,3 +271,15 @@ A validated search that finds nothing now lowers the searched form: × (1 − s(
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-24 | Absence accounting for E049–E050 (Hebrew, Turkish and Latin letter by letter, not found) | L-alpha-known(he, tr, la) share 0.1225 of L; C substitution of these 0.10 of C | L × 0.902, C × 0.92 | 0.0066 | 0.9688 | 0.0234 | 0.0011 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-24 | E051 missing-evidence audit (`MISSING_EVIDENCE.md`) | C21 on fresh data: 2 of 30 new languages (Tamil 1.01, Assamese 0.87) reach Voynich's AS; 0 of 10 fresh generator samples (max 0.81); BF(M:L) 0.56 | none | 0.0066 | 0.9688 | 0.0234 | 0.0011 |
+
+**Correction:** the unscored caution after E045 ("C21 leans towards M") is **withdrawn**. On fresh data, real languages
+with echo or doubling grammar reach Voynich's level, and the generator does not.
+
+**New facts:**
+- **C22:** zodiac nymph labels mostly do not repeat across months (29% vs ≥ 50% for day numbers). They are not a
+  calendar of numbers.
+- **C23:** label words occur in their own page's text 1.7× more than frequency-matched words.

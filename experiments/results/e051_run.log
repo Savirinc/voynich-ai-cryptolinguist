@@ -1,0 +1,12 @@
+Voynich AS: A 1.04, B 1.01
+meaningful (fresh, n=30): k(AS>=0.85)=2; median 0.17, max 1.01; excluded []
+   tam2017    1.01
+   asmfb      0.87
+   mal        0.76
+   suzBl      0.57
+   hne        0.54
+   pan        0.46
+generator (fresh seeds, n=10): k=0; values [0.76, 0.77, 0.79, 0.81, 0.74, 0.81, 0.79, 0.71, 0.73, 0.76]
+p_M 0.045 p_L 0.081 BF(M:L) 0.56 -> factor on M: None
+Part 2 (a) zodiac labels: {'label_tokens': 341, 'share_also_on_other_zodiac_page': 0.2903225806451613, 'label_types': 277}
+Part 2 (b) labels in own page text: {'label_tokens': 964, 'share_in_own_page_text': 0.10477178423236515, 'frequency_matched_expectation': 0.06265560165975104}
