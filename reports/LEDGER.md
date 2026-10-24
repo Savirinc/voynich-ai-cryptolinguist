@@ -252,3 +252,7 @@ margin).
 **E048:** VOID by rule (verse texts also have low order information). ORDER-SCRAMBLED stays at 0.15.
 - Unscored: Voynich order information is about 7 sd above scrambled.
 - It is weak: A sits with Latin hymns and the generator (Q about 0.2), B with Hebrew Psalms (about 0.35).
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-24 | E049 validated attack on Voynich A/B (`ATTACK_VOYNICH.md`) | NO CLAIM. Turkish and Latin: searched, not found. Hebrew on A: near miss (lexrate 0.542; bar 0.572; controls max 0.472; real cracks 0.65–0.79) | none | 0.006 | 0.970 | 0.023 | 0.001 |

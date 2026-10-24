@@ -1,0 +1,214 @@
+{
+ "experiment": "E049",
+ "results": [
+  {
+   "name": "VOYNICH_A",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.5423375902276513,
+   "accuracy": null,
+   "seconds": 26.2,
+   "sample": "שהואלה הרבימ ואל ישבאמ הרבאל מימוה ויתביתה בשאת ו בית מה שי",
+   "claim": false
+  },
+  {
+   "name": "VOYNICH_B",
+   "lm": "he",
+   "agreement": 0.9929603761842196,
+   "lexrate": 0.4688686637333494,
+   "accuracy": null,
+   "seconds": 34.5,
+   "sample": "איבו והבישמה מה לאינ בשמר לאו לאמת לאבלנ לאיו ביאביו לאינ להמר",
+   "claim": false
+  },
+  {
+   "name": "VOYNICH_A",
+   "lm": "tr",
+   "agreement": 1.0,
+   "lexrate": 0.34106052193225983,
+   "accuracy": null,
+   "seconds": 26.4,
+   "sample": "labira agdan bir aldin agdir yanka bandana dlin k san ya la",
+   "claim": false
+  },
+  {
+   "name": "VOYNICH_B",
+   "lm": "tr",
+   "agreement": 0.9851600857478736,
+   "lexrate": 0.40980049424386716,
+   "accuracy": null,
+   "seconds": 34.1,
+   "sample": "dlei arelsin in adli esin adi adin abeai adli elbeli adli arin",
+   "claim": false
+  },
+  {
+   "name": "VOYNICH_A",
+   "lm": "la",
+   "agreement": 1.0,
+   "lexrate": 0.1669905607995558,
+   "accuracy": null,
+   "seconds": 25.8,
+   "sample": "ranisa aruet nis eruit aruis letma nesuesa uris m des la re",
+   "claim": false
+  },
+  {
+   "name": "VOYNICH_B",
+   "lm": "la",
+   "agreement": 1.0,
+   "lexrate": 0.3542884696522211,
+   "accuracy": null,
+   "seconds": 33.8,
+   "sample": "riuo etuidat at eris udam ero eram erues erio uiruio eris etam",
+   "claim": false
+  },
+  {
+   "name": "CONTROL:shuffledA0",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.1661576901721266,
+   "accuracy": null,
+   "seconds": 79.7,
+   "sample": "כאימתמ למאימ ומנ תיתיה תתריי ראהתמ תהמבמהמ יהרר מ ליל הה יו",
+   "claim": false
+  },
+  {
+   "name": "CONTROL:generator0",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.4715660542432196,
+   "accuracy": null,
+   "seconds": 24.1,
+   "sample": "אשר ימ אשר שר אשר שר לבי מימ אשר אשר אשר בל",
+   "claim": false
+  },
+  {
+   "name": "CONTROL:shuffledA0",
+   "lm": "tr",
+   "agreement": 0.6699799292745866,
+   "lexrate": 0.05052748473070516,
+   "accuracy": null,
+   "seconds": 80.9,
+   "sample": "meidrs nseid ady ruria rrkii kears radldas iakk d nin aa ia",
+   "claim": false
+  },
+  {
+   "name": "CONTROL:generator0",
+   "lm": "tr",
+   "agreement": 0.9753567231828102,
+   "lexrate": 0.26202974628171477,
+   "accuracy": null,
+   "seconds": 24.1,
+   "sample": "sek in sek ek sek ek ali din sek sek sek la",
+   "claim": false
+  },
+  {
+   "name": "CONTROL:shuffledA0",
+   "lm": "la",
+   "agreement": 0.8019688425881678,
+   "lexrate": 0.05719044975013881,
+   "accuracy": null,
+   "seconds": 78.4,
+   "sample": "raiina taaii eir niniu nnmii mauna nuisiua iumm i tit uu ie",
+   "claim": false
+  },
+  {
+   "name": "CONTROL:generator0",
+   "lm": "la",
+   "agreement": 1.0,
+   "lexrate": 0.2168270632837562,
+   "accuracy": null,
+   "seconds": 23.9,
+   "sample": "uis es uis is uis is tre tes uis uis uis rt",
+   "claim": false
+  },
+  {
+   "name": "CONTROL:shuffledA1",
+   "lm": "he",
+   "agreement": 0.8559367931440951,
+   "lexrate": 0.16310383120488617,
+   "accuracy": null,
+   "seconds": 80.4,
+   "sample": "תילתממ ייובה רמי מווול והויכ ללובו יבניוהמ יהית מ ביש הל הו",
+   "claim": false
+  },
+  {
+   "name": "CONTROL:generator1",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.3583487019435381,
+   "accuracy": null,
+   "seconds": 23.2,
+   "sample": "הימ והות ואית יד כי ותאשר בימ יות אשר אשר ושימ אית",
+   "claim": false
+  },
+  {
+   "name": "CONTROL:shuffledA1",
+   "lm": "tr",
+   "agreement": 1.0,
+   "lexrate": 0.05358134369794559,
+   "accuracy": null,
+   "seconds": 81.3,
+   "sample": "dnidla nnase mln laaai aeant iiasa nsykael nekd l sno ei ea",
+   "claim": false
+  },
+  {
+   "name": "CONTROL:generator1",
+   "lm": "tr",
+   "agreement": 1.0,
+   "lexrate": 0.3671442757837991,
+   "accuracy": null,
+   "seconds": 23.4,
+   "sample": "sin asan adin il bi anyer din ian yer yer aein din",
+   "claim": false
+  },
+  {
+   "name": "CONTROL:shuffledA1",
+   "lm": "la",
+   "agreement": 0.73299563541368,
+   "lexrate": 0.06482509716823986,
+   "accuracy": null,
+   "seconds": 79.3,
+   "sample": "taitiu aaens mia ieeei eseai iiene anroesi asot i nar si se",
+   "claim": false
+  },
+  {
+   "name": "CONTROL:generator1",
+   "lm": "la",
+   "agreement": 1.0,
+   "lexrate": 0.19222584763796283,
+   "accuracy": null,
+   "seconds": 23.2,
+   "sample": "ret irit iuet et me ituid res eit uid uid iies uet",
+   "claim": false
+  }
+ ],
+ "max_control_lexrate": 0.4715660542432196,
+ "verdict": "NO CLAIM",
+ "units_dropped": {
+  "A": [
+   306,
+   31695
+  ],
+  "B": [
+   366,
+   72671
+  ]
+ },
+ "locked_test_excluded": [
+  "1",
+  "8",
+  "9",
+  "30",
+  "35",
+  "38",
+  "51",
+  "52",
+  "56",
+  "75",
+  "86",
+  "87",
+  "102",
+  "105",
+  "114"
+ ]
+}

@@ -1,0 +1,20 @@
+Voynich A: 8794 words, 306/31695 rare units dropped; B: 19488 words, 366/72671 dropped
+VOYNICH_A              he agreement 1.000 lexrate 0.542 claim False
+VOYNICH_B              he agreement 0.993 lexrate 0.469 claim False
+VOYNICH_A              tr agreement 1.000 lexrate 0.341 claim False
+VOYNICH_B              tr agreement 0.985 lexrate 0.410 claim False
+VOYNICH_A              la agreement 1.000 lexrate 0.167 claim False
+VOYNICH_B              la agreement 1.000 lexrate 0.354 claim False
+CONTROL:shuffledA0     he agreement 1.000 lexrate 0.166 claim False
+CONTROL:generator0     he agreement 1.000 lexrate 0.472 claim False
+CONTROL:shuffledA0     tr agreement 0.670 lexrate 0.051 claim False
+CONTROL:generator0     tr agreement 0.975 lexrate 0.262 claim False
+CONTROL:shuffledA0     la agreement 0.802 lexrate 0.057 claim False
+CONTROL:generator0     la agreement 1.000 lexrate 0.217 claim False
+CONTROL:shuffledA1     he agreement 0.856 lexrate 0.163 claim False
+CONTROL:generator1     he agreement 1.000 lexrate 0.358 claim False
+CONTROL:shuffledA1     tr agreement 1.000 lexrate 0.054 claim False
+CONTROL:generator1     tr agreement 1.000 lexrate 0.367 claim False
+CONTROL:shuffledA1     la agreement 0.733 lexrate 0.065 claim False
+CONTROL:generator1     la agreement 1.000 lexrate 0.192 claim False
+max control lexrate 0.472; VERDICT: NO CLAIM
