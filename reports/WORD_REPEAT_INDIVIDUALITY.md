@@ -33,3 +33,37 @@ A redesigned v2, pre-registered before running:
 - reference texts sampled so that enough words are eligible.
 
 No conclusion is drawn from v1.
+
+---
+
+# E058 (v2): VOID again; the reference languages lack power. Last attempt in this family.
+
+Pre-registration `reports/E058_PREREG.md` (sha 9f7e4890…5e61, commit 13b5232). Results: `experiments/results/e058.json`,
+`e058_run.log`.
+
+| Text | Words (families) | Observed / expected repeats | z (word-specific beyond family) | p |
+|---|---|---|---|---|
+| **Voynich DEV** | 112 (35) | 188 / 189 | **−1.1** | 0.87 |
+| Copy generator, 10 samples | 152–183 | — | −0.0 to +2.6 | — |
+| **Indonesian** | 78 (31) | 91 / 106 | **+4.8** | 0.001 |
+| Malay | 54 (23) | 90 / 48 | +1.3 | 0.11 |
+| Tamil, Assamese, Malayalam | 0–4 | almost none | not computable | — |
+
+**Verdict (pre-registered): VOID, no factor.** Only Indonesian separates from the generator. Tamil, Assamese and
+Malayalam have too few frequent words with any back-to-back repeats in 28,841 tokens.
+
+**Unscored reading (for the record):**
+- On 112 words, **Voynich's words follow their family's repeat rate (z −1.1)**, like the generator (z 0 to 2.6). The
+  one clearly measurable real language, Indonesian, shows strong word-specific behaviour (z +4.8).
+- **This points towards a family-level process, not towards a vocabulary.** But with only one valid reference
+  language, the rule does not allow scoring it.
+- **Watched words** (observed / expected back-to-back):
+  - aiin 0 / 6.5, a genuine never-repeater;
+  - daiin 11 / 21.8, avoiding;
+  - qokeedy 16 / 9.1, attracting;
+  - okaiin 6 / 4.4;
+  - dal 1 / 2.9 and shey 1 / 3.6.
+
+  Individual words do differ, but no more than their families do. The forum's claim (that some words never repeat
+  where a generator would) is only partly reproduced at this sample size.
+- **As pre-registered, there will be no v3** unless a new fact calls for it.

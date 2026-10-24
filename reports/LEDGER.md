@@ -316,3 +316,11 @@ page with a margin.
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-24 | E057 per-word repeat individuality (`WORD_REPEAT_INDIVIDUALITY.md`) | VOID: the eligibility rule left too few words (Voynich 26; 4 of 5 languages unmeasurable). Unscored hint: Indonesian z +5.1, Voynich z +0.4 | none | 0.0077 | 0.963 | 0.0274 | 0.0013 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-24 | E058 per-word repeat individuality, v2 (`WORD_REPEAT_INDIVIDUALITY.md`) | VOID: only Indonesian of 5 references separates from the generator. Unscored: Voynich z −1.1 (family-like, like the generator), Indonesian +4.8 | none | 0.0077 | 0.963 | 0.0274 | 0.0013 |
+
+**Unscored caution after E058.** On the one measure the forum proposed as generator-proof, Voynich's words behave
+like their families: generator-like, not vocabulary-like. The reference set lacked power, so this is not scored. It
+stays recorded as a lean towards M, alongside the weakened C21.
