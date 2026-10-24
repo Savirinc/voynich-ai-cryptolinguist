@@ -1,0 +1,921 @@
+{
+ "info": {
+  "he": {
+   "letters": [
+    "\u05d9",
+    "\u05d5",
+    "\u05d4",
+    "\u05d0",
+    "\u05de",
+    "\u05dc",
+    "\u05e8",
+    "\u05ea",
+    "\u05d1",
+    "\u05e9",
+    "\u05e0",
+    "\u05db",
+    "\u05e2",
+    "\u05d3",
+    "\u05d7",
+    "\u05e4",
+    "\u05e7",
+    "\u05e6",
+    "\u05d2",
+    "\u05d6",
+    "\u05e1",
+    "\u05d8"
+   ],
+   "lm_words": 151074,
+   "dev_words": 39281,
+   "test_words": 78341
+  },
+  "tr": {
+   "letters": [
+    "i",
+    "a",
+    "e",
+    "n",
+    "r",
+    "l",
+    "u",
+    "d",
+    "k",
+    "s",
+    "o",
+    "y",
+    "t",
+    "m",
+    "g",
+    "c",
+    "b",
+    "v",
+    "h",
+    "z",
+    "p",
+    "f",
+    "j"
+   ],
+   "lm_words": 180204,
+   "dev_words": 48926,
+   "test_words": 101896
+  },
+  "la": {
+   "letters": [
+    "e",
+    "i",
+    "u",
+    "t",
+    "a",
+    "s",
+    "r",
+    "n",
+    "m",
+    "o",
+    "d",
+    "c",
+    "l",
+    "p",
+    "q",
+    "b",
+    "g",
+    "f",
+    "h",
+    "x",
+    "y",
+    "z",
+    "k"
+   ],
+   "lm_words": 188891,
+   "dev_words": 54243,
+   "test_words": 112424
+  }
+ },
+ "dev": {
+  "results": [
+   {
+    "name": "DEV:he:key0",
+    "lm": "he",
+    "agreement": 1.0,
+    "lexrate": 0.717035217035217,
+    "accuracy": 1.0,
+    "seconds": 64.7,
+    "sample": "\u05d5\u05db\u05e7\u05d8\u05e8\u05d9\u05de \u05e2\u05dc \u05d4\u05dc\u05d1\u05e0\u05d9\u05de \u05d4\u05d9\u05e9\u05d1\u05d9\u05de \u05d1\u05e7\u05d1\u05e8\u05d9\u05de \u05d5\u05d1\u05e0\u05e6\u05d5\u05e8\u05d9\u05de \u05d9\u05dc\u05d9\u05e0\u05d5 \u05d4\u05d0\u05db\u05dc\u05d9\u05de \u05d1\u05e9\u05e8 \u05d4\u05d7\u05d6\u05d9\u05e8 \u05d5\u05e4\u05e7 \u05e4\u05d2\u05dc\u05d9\u05de"
+   },
+   {
+    "name": "DEV:he:key0",
+    "lm": "tr",
+    "agreement": 0.8428064992614476,
+    "lexrate": 0.08763308763308764,
+    "accuracy": null,
+    "seconds": 64.7,
+    "sample": "nlvuami de aerimi asarsi rvrami nritnami mesin aylemi raa alhsa nkv kgemi"
+   },
+   {
+    "name": "DEV:he:key0",
+    "lm": "la",
+    "agreement": 1.0,
+    "lexrate": 0.09473109473109473,
+    "accuracy": null,
+    "seconds": 65.1,
+    "sample": "ieulris et atunis aiauis uuuris iunoiris itini aeetis uar aadir iuu ubtis"
+   },
+   {
+    "name": "DEV:shuffled:he0",
+    "lm": "he",
+    "agreement": 0.63698670605613,
+    "lexrate": 0.1373191373191373,
+    "accuracy": null,
+    "seconds": 102.2,
+    "sample": "\u05d7\u05d5\u05ea\u05ea\u05dc\u05e9\u05d5 \u05ea\u05de \u05d9\u05d5\u05e2\u05e8\u05de\u05d4 \u05d5\u05e0\u05d4\u05d1\u05db\u05dc \u05d9\u05d5\u05e0\u05de\u05db\u05d7 \u05d9\u05e9\u05ea\u05ea\u05ea\u05d1\u05d5\u05d9 \u05dc\u05e0\u05d5\u05dc\u05d4 \u05d4\u05d4\u05d5\u05dc\u05dc\u05d9 \u05d5\u05d1\u05e8 \u05ea\u05de\u05d4\u05dc\u05d5 \u05d4\u05ea\u05d4 \u05d9\u05d5\u05de\u05d9\u05d9"
+   },
+   {
+    "name": "DEV:shuffled:he0",
+    "lm": "tr",
+    "agreement": 0.7423338257016248,
+    "lexrate": 0.03835653835653836,
+    "accuracy": null,
+    "seconds": 109.0,
+    "sample": "zaiinir io dagtoa rmalun srmoyz siiiilad nhana aarnns rlt iaana aia saksd"
+   },
+   {
+    "name": "DEV:shuffled:he0",
+    "lm": "la",
+    "agreement": 0.6592614475627769,
+    "lexrate": 0.048594048594048596,
+    "accuracy": null,
+    "seconds": 106.9,
+    "sample": "bseeeta eu estmui aoiude raousb rteeeuse eisei iiaeer aum eaies iei rsnre"
+   },
+   {
+    "name": "DEV:he:key1",
+    "lm": "he",
+    "agreement": 1.0,
+    "lexrate": 0.6482675261885577,
+    "accuracy": 1.0,
+    "seconds": 74.9,
+    "sample": "\u05e9\u05db\u05de\u05d5 \u05d5\u05d9\u05e7\u05e8\u05d0 \u05e9\u05de\u05d5 \u05e4\u05e8\u05d0 \u05d9\u05d5\u05e2\u05e6 \u05d0\u05dc \u05d2\u05d1\u05d5\u05d1\u05e8 \u05d0\u05d1\u05d9\u05e2\u05d3 \u05e9\u05e8 \u05e9\u05dc\u05d5\u05de \u05dc\u05de\u05e8\u05d1\u05d4 \u05d4\u05de\u05e9\u05e8\u05d4"
+   },
+   {
+    "name": "DEV:he:key1",
+    "lm": "tr",
+    "agreement": 1.0,
+    "lexrate": 0.09293580445876981,
+    "accuracy": null,
+    "seconds": 74.6,
+    "sample": "alin nkmay ain day sndg ye vrnra yrsda aa aeni eiara aiaaa"
+   },
+   {
+    "name": "DEV:he:key1",
+    "lm": "la",
+    "agreement": 0.9708272434960538,
+    "lexrate": 0.06621004566210045,
+    "accuracy": null,
+    "seconds": 76.1,
+    "sample": "nesa aiite nsa ote iaua et iuaut euiur nt ntas tstue esnte"
+   },
+   {
+    "name": "DEV:tr:key0",
+    "lm": "he",
+    "agreement": 0.7414663743834651,
+    "lexrate": 0.12775616083009078,
+    "accuracy": null,
+    "seconds": 47.9,
+    "sample": "\u05d5\u05d9\u05d5\u05e8\u05d9\u05d1\u05e0\u05d9\u05d5\u05d9 \u05db\u05ea\u05d1\u05d9\u05de\u05ea\u05e9 \u05ea\u05dc\u05ea\u05de \u05dc\u05d4\u05d5\u05e2\u05de \u05d5\u05d9\u05e6\u05d0\u05ea \u05d1\u05d4\u05d5 \u05d5\u05ea\u05de\u05d4\u05e0 \u05e6\u05d9\u05e8\u05d5\u05d4\u05e0 \u05e2\u05e8\u05d9\u05db\u05d9\u05d5\u05d1\u05d4\u05de\u05d4\u05d5 \u05d5\u05ea\u05de \u05dc\u05ea \u05d1\u05d4\u05d5\u05d4\u05de"
+   },
+   {
+    "name": "DEV:tr:key0",
+    "lm": "tr",
+    "agreement": 1.0,
+    "lexrate": 0.7830090791180285,
+    "accuracy": 1.0,
+    "seconds": 49.2,
+    "sample": "yaklasmaya cesaret eden diyor yahve siz benim halkim olacaksiniz ben de sizin"
+   },
+   {
+    "name": "DEV:tr:key0",
+    "lm": "la",
+    "agreement": 1.0,
+    "lexrate": 0.07120622568093385,
+    "accuracy": null,
+    "seconds": 46.6,
+    "sample": "uastamtaua nemaren etes tiuor ualde min uesit latsit otanasmisin ues te minis"
+   },
+   {
+    "name": "DEV:shuffled:tr0",
+    "lm": "he",
+    "agreement": 0.7410749236671104,
+    "lexrate": 0.04345006485084306,
+    "accuracy": null,
+    "seconds": 160.9,
+    "sample": "\u05ea\u05ea\u05d5\u05d9\u05d0\u05d5\u05de\u05ea\u05dc\u05dc \u05d1\u05d5\u05d9\u05e8\u05e0\u05d0\u05d5 \u05d1\u05db\u05ea\u05d9 \u05d9\u05d9\u05d9\u05de\u05d5 \u05d9\u05d7\u05d4\u05d5\u05d3 \u05dc\u05de\u05ea \u05de\u05ea\u05d7\u05ea\u05d5 \u05d9\u05d4\u05ea\u05e2\u05d4\u05de \u05dc\u05d5\u05e0\u05ea\u05e4\u05d4\u05d4\u05d5\u05ea\u05de\u05ea \u05d5\u05e0\u05d9 \u05e8\u05d0 \u05d9\u05de\u05d0\u05d5\u05d5"
+   },
+   {
+    "name": "DEV:shuffled:tr0",
+    "lm": "tr",
+    "agreement": 1.0,
+    "lexrate": 0.013748378728923476,
+    "accuracy": null,
+    "seconds": 156.4,
+    "sample": "nnualiynoa aiamrli atna aaasi aheub ayn ynhni aences airnzeeinyn ura ml aylui"
+   },
+   {
+    "name": "DEV:shuffled:tr0",
+    "lm": "la",
+    "agreement": 0.41444844594065605,
+    "lexrate": 0.01867704280155642,
+    "accuracy": null,
+    "seconds": 159.6,
+    "sample": "uudeasmuea rseeias riue eeeis ectdo amu mucus eturti asiupttsumu die ea emads"
+   },
+   {
+    "name": "DEV:tr:key1",
+    "lm": "he",
+    "agreement": 1.0,
+    "lexrate": 0.12493625701172871,
+    "accuracy": null,
+    "seconds": 49.4,
+    "sample": "\u05d4\u05d5\u05d9\u05de \u05d5\u05dc\u05dc\u05e9\u05de \u05d5\u05de\u05d9\u05e0 \u05e9\u05e0\u05dc\u05ea \u05d5\u05e9 \u05dc\u05ea\u05de\u05d5\u05d4\u05de\u05dc\u05d4 \u05d5\u05d9\u05db\u05d5\u05d9\u05d1\u05d9 \u05d5\u05d9\u05d5\u05e8\u05d9\u05d1\u05dc\u05d9 \u05d1\u05d4 \u05e9\u05e0\u05d4\u05d5 \u05ea\u05db\u05d4\u05de\u05d4\u05d1\u05dc\u05d9 \u05d9\u05de\u05e9\u05e8\u05d5"
+   },
+   {
+    "name": "DEV:tr:key1",
+    "lm": "tr",
+    "agreement": 1.0,
+    "lexrate": 0.7160887302396737,
+    "accuracy": 0.9998917538048537,
+    "seconds": 49.4,
+    "sample": "esar hddon kral oldu ko gunserde hizkiya hastaydi ve olek uzereydi amots"
+   },
+   {
+    "name": "DEV:tr:key1",
+    "lm": "la",
+    "agreement": 0.7191578708432641,
+    "lexrate": 0.04933707292197858,
+    "accuracy": null,
+    "seconds": 47.7,
+    "sample": "esar luuet srat etui se uitserue linsica lassacui de etes inerecui atess"
+   },
+   {
+    "name": "DEV:la:key0",
+    "lm": "he",
+    "agreement": 0.9203605514316012,
+    "lexrate": 0.13297647555993802,
+    "accuracy": null,
+    "seconds": 50.8,
+    "sample": "\u05e2\u05de\u05e0\u05d5\u05d9 \u05ea\u05d7\u05d0\u05e8\u05e9\u05e0\u05dc\u05de\u05db\u05de\u05d4 \u05de\u05e9\u05d9\u05de\u05d5 \u05e9\u05de\u05dc\u05ea\u05d9\u05d5 \u05d0\u05ea \u05d3\u05e8\u05e0\u05de\u05e0\u05d7\u05d9\u05ea \u05d0\u05e0\u05d4 \u05d9\u05e9\u05d7\u05e2\u05de\u05d9\u05ea\u05e0\u05d5 \u05d5\u05de\u05e0 \u05d0\u05ea \u05dc\u05de\u05e8\u05e8\u05de\u05d0\u05ea \u05d0\u05ea"
+   },
+   {
+    "name": "DEV:la:key0",
+    "lm": "tr",
+    "agreement": 1.0,
+    "lexrate": 0.042400338075785325,
+    "accuracy": null,
+    "seconds": 49.0,
+    "sample": "haati lyarnasaran aniat naslit al mraaayil aan inyhailat taa al sarraal al"
+   },
+   {
+    "name": "DEV:la:key0",
+    "lm": "la",
+    "agreement": 1.0,
+    "lexrate": 0.7253134244259755,
+    "accuracy": 0.9980058622843688,
+    "seconds": 49.7,
+    "sample": "quasi tbernaculum unius noctis et grauabit eam inbquitas sua et corruet et"
+   },
+   {
+    "name": "DEV:shuffled:la0",
+    "lm": "he",
+    "agreement": 0.7042417815482502,
+    "lexrate": 0.06057191153683617,
+    "accuracy": null,
+    "seconds": 120.7,
+    "sample": "\u05d1\u05e0\u05e0\u05ea\u05dc \u05db\u05d9\u05d1\u05e8\u05ea\u05d5\u05d9\u05e8\u05d9\u05d1\u05dc \u05e0\u05dc\u05d4\u05d5\u05ea \u05d0\u05db\u05d5\u05ea\u05d5\u05d3 \u05d9\u05d0 \u05dc\u05d5\u05d5\u05dc\u05e9\u05ea\u05d0\u05ea \u05d5\u05d1\u05d5 \u05d9\u05e0\u05d5\u05de\u05d4\u05d1\u05d0\u05dc\u05d7 \u05d5\u05dc\u05d9 \u05e0\u05de \u05d5\u05d0\u05d4\u05dc\u05dc\u05ea\u05d5 \u05ea\u05e8"
+   },
+   {
+    "name": "DEV:shuffled:la0",
+    "lm": "tr",
+    "agreement": 1.0,
+    "lexrate": 0.016199464713339908,
+    "accuracy": null,
+    "seconds": 126.2,
+    "sample": "ocmnl diykneikiol mlsan rdenev ir lealtnrn eoa iceasyrlu ali ma arsllne nk"
+   },
+   {
+    "name": "DEV:shuffled:la0",
+    "lm": "la",
+    "agreement": 0.8609544008483563,
+    "lexrate": 0.02493308916748838,
+    "accuracy": null,
+    "seconds": 107.9,
+    "sample": "tdtsu milnsainitu tueas rmasao ir uaauisrs ata idaeelruc aui te areuusa sn"
+   },
+   {
+    "name": "DEV:la:key1",
+    "lm": "he",
+    "agreement": 0.811962821213778,
+    "lexrate": 0.1143180531975099,
+    "accuracy": null,
+    "seconds": 45.5,
+    "sample": "\u05e2\u05de\u05d9\u05e0 \u05d1\u05e8\u05d9\u05d9\u05d0\u05d1\u05d9\u05ea \u05d5\u05d9\u05d4\u05d9\u05d5\u05de\u05e4 \u05d0\u05ea \u05e8\u05d0\u05e9\u05d9\u05e2\u05de\u05d9\u05ea \u05dc\u05d0\u05d5\u05d0\u05e8\u05e0\u05ea\u05d9\u05d9\u05d5\u05d0\u05d4 \u05dc\u05de\u05e8\u05d9\u05e8\u05d9\u05d5 \u05d5\u05de\u05d9 \u05e2\u05de\u05d9\u05e0 \u05dc\u05d0\u05d1\u05d0\u05e8\u05de\u05d5\u05ea \u05dc\u05d9\u05e9\u05d9\u05d9 \u05d9\u05de\u05d5\u05e0"
+   },
+   {
+    "name": "DEV:la:key1",
+    "lm": "tr",
+    "agreement": 1.0,
+    "lexrate": 0.04782116581777023,
+    "accuracy": null,
+    "seconds": 46.8,
+    "sample": "seia kraiasil daninec al ratiseil manaralianan berarin nei seia basarenl bitii ieda"
+   },
+   {
+    "name": "DEV:la:key1",
+    "lm": "la",
+    "agreement": 1.0,
+    "lexrate": 0.7815506508205999,
+    "accuracy": 0.999825161725404,
+    "seconds": 46.6,
+    "sample": "quia proiecit dominui et reliquit generationem furoris sui quia fecerunt filii iuda"
+   },
+   {
+    "name": "DEV:generator:0",
+    "lm": "he",
+    "agreement": 0.9676571991462813,
+    "lexrate": 0.37912813738441214,
+    "accuracy": null,
+    "seconds": 23.9,
+    "sample": "\u05d9\u05d5\u05de \u05d4\u05d9\u05de \u05d9\u05ea\u05d9\u05de \u05d9\u05d1\u05d0\u05d4 \u05d4\u05d0\u05d5\u05de \u05dc\u05d0\u05d5\u05de \u05d9\u05de \u05d0\u05d9\u05de \u05d5\u05d0\u05d5\u05de \u05d0\u05d1\u05d9\u05de \u05d1\u05dc \u05d5\u05d0\u05d5\u05de"
+   },
+   {
+    "name": "DEV:generator:0",
+    "lm": "tr",
+    "agreement": 1.0,
+    "lexrate": 0.3289299867899604,
+    "accuracy": null,
+    "seconds": 24.6,
+    "sample": "ian sin inin idds alan alan in din adan ddin da adan"
+   },
+   {
+    "name": "DEV:generator:0",
+    "lm": "la",
+    "agreement": 1.0,
+    "lexrate": 0.22618523411125788,
+    "accuracy": null,
+    "seconds": 24.6,
+    "sample": "eis sem etet erus cuis auis et ues iuis ures ra iuis"
+   }
+  ],
+  "truth": {
+   "DEV:he:key0": "he",
+   "DEV:shuffled:he0": null,
+   "DEV:he:key1": "he",
+   "DEV:tr:key0": "tr",
+   "DEV:shuffled:tr0": null,
+   "DEV:tr:key1": "tr",
+   "DEV:la:key0": "la",
+   "DEV:shuffled:la0": null,
+   "DEV:la:key1": "la",
+   "DEV:generator:0": null
+  },
+  "lex_threshold": 0.5136978317864849,
+  "separated": true
+ },
+ "test": {
+  "results": [
+   {
+    "name": "TEST:he:key0",
+    "lm": "he",
+    "agreement": 1.0,
+    "lexrate": 0.6918238993710691,
+    "accuracy": 1.0,
+    "seconds": 62.9,
+    "sample": "\u05e2\u05e9\u05e7\u05d5 \u05e2\u05e9\u05e7 \u05d5\u05d2\u05d6\u05dc\u05d5 \u05d2\u05d6\u05dc \u05d5\u05e2\u05e0\u05d9 \u05d5\u05d0\u05d1\u05d9\u05d5\u05e0 \u05d4\u05d5\u05e0\u05d5 \u05d5\u05d0\u05ea \u05d4\u05d2\u05e8 \u05e2\u05e9\u05e7\u05d5 \u05d1\u05dc\u05d0 \u05de\u05e9\u05e4\u05d8",
+    "claim": true
+   },
+   {
+    "name": "TEST:he:key0",
+    "lm": "tr",
+    "agreement": 0.9763930121032199,
+    "lexrate": 0.11032494758909853,
+    "accuracy": null,
+    "seconds": 62.4,
+    "sample": "yagn yag nvhen vhe nyil ndasni anin nda avr yagn aed iaku",
+    "claim": false
+   },
+   {
+    "name": "TEST:he:key0",
+    "lm": "la",
+    "agreement": 1.0,
+    "lexrate": 0.09486373165618449,
+    "accuracy": null,
+    "seconds": 62.3,
+    "sample": "eumi eum idati dat ieni ieuiin aini iet adr eumi ute sual",
+    "claim": false
+   },
+   {
+    "name": "TEST:shuffled:he0",
+    "lm": "he",
+    "agreement": 0.45227220826672754,
+    "lexrate": 0.12971698113207547,
+    "accuracy": null,
+    "seconds": 111.5,
+    "sample": "\u05d3\u05d1\u05d9\u05d3 \u05d5\u05dc\u05de \u05e8\u05d3\u05dc\u05e0\u05e8 \u05d1\u05de\u05d4 \u05ea\u05db\u05d5\u05e9 \u05e8\u05dc\u05d0\u05de\u05d1\u05d0 \u05ea\u05ea\u05e9\u05db \u05d9\u05d5\u05d0 \u05e0\u05db\u05d0 \u05de\u05d5\u05e9\u05d0 \u05de\u05de\u05d0 \u05de\u05d5\u05e9\u05d0",
+    "claim": false
+   },
+   {
+    "name": "TEST:shuffled:he0",
+    "lm": "tr",
+    "agreement": 0.7577072390956839,
+    "lexrate": 0.03485324947589098,
+    "accuracy": null,
+    "seconds": 107.6,
+    "sample": "gaig ana rgnmr aal iyae rnkaac iiey tak myc adek aak sdek",
+    "claim": false
+   },
+   {
+    "name": "TEST:shuffled:he0",
+    "lm": "la",
+    "agreement": 0.6608814797899064,
+    "lexrate": 0.049921383647798745,
+    "accuracy": null,
+    "seconds": 108.8,
+    "sample": "daad esu idsti aut iiee isnuac iiei men tic uren uun iren",
+    "claim": false
+   },
+   {
+    "name": "TEST:he:key1",
+    "lm": "he",
+    "agreement": 1.0,
+    "lexrate": 0.6936745789683066,
+    "accuracy": 1.0,
+    "seconds": 65.6,
+    "sample": "\u05d0\u05e9\u05e8 \u05d9\u05e2\u05e9\u05d4 \u05d0\u05d0\u05ea\u05de \u05d4\u05d0\u05d3\u05de \u05d5\u05d7\u05d9 \u05d1\u05d4\u05de \u05d0\u05ea \u05e9\u05d1\u05ea\u05d5\u05ea\u05d9 \u05d7\u05dc\u05dc\u05d5 \u05d5\u05d0\u05de\u05e8 \u05dc\u05e9\u05e4\u05db \u05d7\u05de\u05ea\u05d9",
+    "claim": true
+   },
+   {
+    "name": "TEST:he:key1",
+    "lm": "tr",
+    "agreement": 1.0,
+    "lexrate": 0.1082084604163904,
+    "accuracy": null,
+    "seconds": 64.6,
+    "sample": "dar myaa ddai adai nkm aai da aaanam keen ndir eagl kiam",
+    "claim": false
+   },
+   {
+    "name": "TEST:he:key1",
+    "lm": "la",
+    "agreement": 0.9780767457939618,
+    "lexrate": 0.09335631879061132,
+    "accuracy": null,
+    "seconds": 62.3,
+    "sample": "eur ieua eets aeos iei uas et uutiti etti iesr tuae esti",
+    "claim": false
+   },
+   {
+    "name": "TEST:shuffled:he1",
+    "lm": "he",
+    "agreement": 0.6065337635399862,
+    "lexrate": 0.1396366529637979,
+    "accuracy": null,
+    "seconds": 106.7,
+    "sample": "\u05dc\u05dc\u05ea \u05d0\u05de\u05d4\u05de \u05d5\u05de\u05d4\u05d1 \u05d0\u05ea\u05d9\u05d5 \u05ea\u05e2\u05d9 \u05e9\u05d9\u05d4 \u05db\u05d0 \u05de\u05d5\u05dc\u05de\u05d5\u05de \u05d5\u05ea\u05de\u05d1 \u05d7\u05d5\u05d0\u05d0 \u05ea\u05ea\u05d3\u05d1 \u05de\u05d9\u05e9\u05d4",
+    "claim": false
+   },
+   {
+    "name": "TEST:shuffled:he1",
+    "lm": "tr",
+    "agreement": 1.0,
+    "lexrate": 0.04323034080360695,
+    "accuracy": null,
+    "seconds": 111.3,
+    "sample": "aad laka ntse ldai dca rik yl tnaait ndae znll vdge uirk",
+    "claim": false
+   },
+   {
+    "name": "TEST:shuffled:he1",
+    "lm": "la",
+    "agreement": 0.5892198663286472,
+    "lexrate": 0.04747380983954383,
+    "accuracy": null,
+    "seconds": 111.0,
+    "sample": "uus riei eaae rsit smi sae nr aeuita esie cerr dsae mase",
+    "claim": false
+   },
+   {
+    "name": "TEST:he:key2",
+    "lm": "he",
+    "agreement": 1.0,
+    "lexrate": 0.7870187885954539,
+    "accuracy": 1.0,
+    "seconds": 62.9,
+    "sample": "\u05d4\u05e8\u05d1\u05d5 \u05d1\u05e0\u05d9\u05de \u05d5\u05d9\u05d4\u05d9\u05d5 \u05dc\u05d1\u05d9\u05ea \u05d0\u05d1 \u05dc\u05e4\u05e7\u05d3\u05d4 \u05d0\u05d7\u05ea \u05e1 \u05d1\u05e0\u05d9 \u05e7\u05d4\u05ea \u05e2\u05de\u05e8\u05de \u05d9\u05e6\u05d4\u05e8",
+    "claim": true
+   },
+   {
+    "name": "TEST:he:key2",
+    "lm": "tr",
+    "agreement": 1.0,
+    "lexrate": 0.09972408356326369,
+    "accuracy": null,
+    "seconds": 58.7,
+    "sample": "aran atki nkasn easa da emvia dla o atk vaa yiri suar",
+    "claim": false
+   },
+   {
+    "name": "TEST:he:key2",
+    "lm": "la",
+    "agreement": 1.0,
+    "lexrate": 0.07278938378662463,
+    "accuracy": null,
+    "seconds": 57.1,
+    "sample": "saia iori arsna eine ti embes tre e ior bse diai nesa",
+    "claim": false
+   },
+   {
+    "name": "TEST:tr:key0",
+    "lm": "he",
+    "agreement": 0.9206426667667705,
+    "lexrate": 0.11179422835633626,
+    "accuracy": null,
+    "seconds": 48.7,
+    "sample": "\u05d5\u05ea\u05d5\u05d9\u05de\u05de\u05d9\u05d5 \u05d1\u05d9\u05d3\u05db\u05d4 \u05d5\u05ea\u05dc\u05de\u05d4\u05e8\u05d4 \u05dc\u05e9\u05de\u05d9\u05de\u05de\u05d9\u05d5 \u05dc\u05ea\u05de\u05d1\u05d9 \u05dc\u05d9 \u05e2\u05d4\u05d5\u05d9\u05d5\u05e8\u05d9\u05de\u05d9\u05e0\u05de\u05d9\u05d5 \u05d5\u05d9\u05de\u05d9\u05d5\u05d9\u05e0\u05de\u05d9\u05db \u05e8\u05d9\u05d3\u05e8\u05d9\u05de \u05d4\u05d5\u05d5\u05d9\u05dc\u05d4\u05de \u05d4\u05de\u05d9 \u05d5\u05ea\u05de\u05ea\u05e0\u05de\u05ea\u05d5\u05e8\u05ea\u05de",
+    "claim": false
+   },
+   {
+    "name": "TEST:tr:key0",
+    "lm": "tr",
+    "agreement": 1.0,
+    "lexrate": 0.702258469259724,
+    "accuracy": 1.0,
+    "seconds": 47.9,
+    "sample": "kusanmis yahve kudrete donanmis dunya da pekistirilmis sarasilmaz tahtin eskiden eri kurulmustur",
+    "claim": true
+   },
+   {
+    "name": "TEST:tr:key0",
+    "lm": "la",
+    "agreement": 1.0,
+    "lexrate": 0.09021329987452949,
+    "accuracy": null,
+    "seconds": 45.8,
+    "sample": "semastim ualde setrene tosastim tesua ta cesimnirittim maramittan nalnis emsites eri serettemner",
+    "claim": false
+   },
+   {
+    "name": "TEST:shuffled:tr0",
+    "lm": "he",
+    "agreement": 0.7195089905777244,
+    "lexrate": 0.04153074027603513,
+    "accuracy": null,
+    "seconds": 158.5,
+    "sample": "\u05d9\u05d5\u05e2\u05e0\u05d4\u05e9\u05d1\u05d4 \u05de\u05d5\u05ea\u05d0\u05d0 \u05de\u05e0\u05e2\u05d9\u05d1\u05de\u05d9 \u05de\u05d0\u05e0\u05de\u05d5\u05ea\u05ea\u05de \u05db\u05d5\u05d4\u05d0\u05de \u05ea\u05d9 \u05d0\u05d0\u05d5\u05d4\u05d3\u05d9\u05d9\u05d1\u05ea\u05e0\u05dc\u05d5\u05e9 \u05d3\u05ea\u05d5\u05d0\u05e0\u05db\u05ea\u05dc\u05e8\u05d1 \u05d4\u05d9\u05d0\u05d4\u05d4\u05e9 \u05dc\u05e8\u05d5\u05d1\u05d5\u05d1\u05de \u05d5\u05d5\u05d0 \u05d4\u05d0\u05d9\u05e0\u05ea\u05de\u05d0\u05ea\u05d9\u05de\u05d5",
+    "claim": false
+   },
+   {
+    "name": "TEST:shuffled:tr0",
+    "lm": "tr",
+    "agreement": 0.7979090806711964,
+    "lexrate": 0.013299874529485571,
+    "accuracy": null,
+    "seconds": 161.7,
+    "sample": "akbreyle ianmm ivbalia itrianni daemi na mtkeuaalnvsay unatvdnsol eameey roklali kkt emavnimnaik",
+    "claim": false
+   },
+   {
+    "name": "TEST:shuffled:tr0",
+    "lm": "la",
+    "agreement": 0.5593490746649649,
+    "lexrate": 0.01618569636135508,
+    "accuracy": null,
+    "seconds": 157.1,
+    "sample": "irleteet asuee aclieai aneasuua astea ui enrtiiieucmse iusncaumoe tiette ioresea rrn teicuaeuiar",
+    "claim": false
+   },
+   {
+    "name": "TEST:tr:key1",
+    "lm": "he",
+    "agreement": 0.8585413159628192,
+    "lexrate": 0.1377596533707149,
+    "accuracy": null,
+    "seconds": 44.6,
+    "sample": "\u05d9\u05d1\u05de\u05d9\u05de\u05d9\u05de\u05dc\u05d9 \u05d9\u05d5\u05d9 \u05d1\u05e9\u05e0\u05ea\u05de \u05d5\u05d9\u05d5\u05d9\u05db\u05dc\u05d9 \u05de\u05ea\u05de\u05dc\u05ea \u05e9\u05d5\u05e0\u05d9\u05de\u05d9 \u05d9\u05e0\u05d4\u05de\u05d9 \u05dc\u05d4\u05de\u05d9 \u05d5\u05d9\u05e0\u05e0\u05d9\u05dc\u05d9 \u05e8\u05d4\u05de\u05d9\u05d1\u05d9\u05de\u05d4 \u05dc\u05d9\u05de\u05d9\u05d5\u05e8\u05d9\u05db \u05d5\u05d9\u05de\u05d9\u05d0\u05d9\u05dc\u05d4\u05de\u05d4",
+    "claim": false
+   },
+   {
+    "name": "TEST:tr:key1",
+    "lm": "tr",
+    "agreement": 1.0,
+    "lexrate": 0.7448706512042819,
+    "accuracy": 1.0,
+    "seconds": 46.5,
+    "sample": "ayriminda iki yolun basizda rurdu oklari ileri geri salladi terafime danistiz karacigere",
+    "claim": true
+   },
+   {
+    "name": "TEST:tr:key1",
+    "lm": "la",
+    "agreement": 1.0,
+    "lexrate": 0.07365872307888365,
+    "accuracy": null,
+    "seconds": 44.6,
+    "sample": "anritista isi netis uamitta rirti estari iteri ueri mattati neragite tasimnit saraniuere",
+    "claim": false
+   },
+   {
+    "name": "TEST:shuffled:tr1",
+    "lm": "he",
+    "agreement": 0.6646051379638439,
+    "lexrate": 0.043583535108958835,
+    "accuracy": null,
+    "seconds": 162.7,
+    "sample": "\u05d4\u05e0\u05db\u05d0\u05d3\u05d5\u05e8\u05dc\u05e8 \u05d7\u05dc\u05d3 \u05de\u05d0\u05d9\u05d0\u05d3 \u05de\u05de\u05d5\u05d5\u05ea\u05ea\u05d0 \u05d9\u05e8\u05ea\u05d0\u05d7 \u05dc\u05d5\u05d9\u05de\u05d5\u05d9 \u05d1\u05d9\u05d0\u05d0\u05e8 \u05d9\u05d1\u05d0\u05e2 \u05d4\u05d9\u05e0\u05d9\u05db\u05e8\u05e9 \u05ea\u05d9\u05ea\u05d5\u05e0\u05d5\u05de\u05ea \u05e8\u05d5\u05d9\u05e0\u05d5\u05d5\u05e9\u05e9 \u05d5\u05d5\u05d5\u05d5\u05e9\u05d9\u05d3\u05e8\u05db\u05d9",
+    "claim": false
+   },
+   {
+    "name": "TEST:shuffled:tr1",
+    "lm": "tr",
+    "agreement": 0.8621276440020493,
+    "lexrate": 0.010322416210016568,
+    "accuracy": null,
+    "seconds": 163.2,
+    "sample": "stlagnyey ceg aaiag mankaaa iuaoc ekiani rioau irob sitilud aiantnaa unitnndd nnnkdigyli",
+    "claim": false
+   },
+   {
+    "name": "TEST:shuffled:tr1",
+    "lm": "la",
+    "agreement": 0.5660726048452024,
+    "lexrate": 0.016566840830890786,
+    "accuracy": null,
+    "seconds": 159.4,
+    "sample": "aeracsnen lec taiac itseuua inuol eeitsi aioan iaoa aieirnm uiusestu nsiessmm sssemicnri",
+    "claim": false
+   },
+   {
+    "name": "TEST:tr:key2",
+    "lm": "he",
+    "agreement": 0.8104966894121934,
+    "lexrate": 0.11243072050673,
+    "accuracy": null,
+    "seconds": 47.2,
+    "sample": "\u05d1\u05d4 \u05d9\u05d0\u05dc\u05d4 \u05d0\u05d4\u05d9\u05d9\u05de \u05d5\u05d4\u05dc\u05e6\u05de\u05d4\u05d5\u05e0\u05d9 \u05d9\u05ea\u05d9\u05de\u05e0\u05d9\u05e8\u05d9\u05de\u05e0\u05d9 \u05d1\u05d4 \u05d5\u05d9\u05d5\u05d9\u05de \u05d4\u05d4\u05de\u05ea\u05d9\u05de \u05ea\u05d9\u05d1\u05d9\u05ea \u05d9\u05de \u05d5\u05d4\u05dc\u05d4\u05de\u05d4\u05d5\u05e0\u05d9 \u05d9\u05ea\u05d9\u05de\u05e0\u05d9\u05e8\u05d9",
+    "claim": false
+   },
+   {
+    "name": "TEST:tr:key2",
+    "lm": "tr",
+    "agreement": 1.0,
+    "lexrate": 0.830166270783848,
+    "accuracy": 1.0,
+    "seconds": 48.0,
+    "sample": "ve iste seiin yetanekli adamlarinla ve baban eendim david in yetenekli adamlari",
+    "claim": true
+   },
+   {
+    "name": "TEST:tr:key2",
+    "lm": "la",
+    "agreement": 1.0,
+    "lexrate": 0.09105304829770387,
+    "accuracy": null,
+    "seconds": 46.0,
+    "sample": "de iure ueiis cerosetti atamtarista de uauas eestim tadit is ceresetti atamtari",
+    "claim": false
+   },
+   {
+    "name": "TEST:la:key0",
+    "lm": "he",
+    "agreement": 1.0,
+    "lexrate": 0.09981876481249129,
+    "accuracy": null,
+    "seconds": 51.8,
+    "sample": "\u05d0\u05ea \u05d5\u05d0\u05d4\u05e0\u05d3 \u05d4\u05d0\u05d5\u05e0\u05d9\u05ea \u05e9\u05de\u05d9\u05e8 \u05d0\u05ea \u05e9\u05d1\u05d5\u05d5\u05d0\u05dc\u05d9\u05ea \u05e0\u05d9\u05d4\u05d9\u05d5\u05ea\u05d9 \u05ea\u05e8\u05d0\u05d5 \u05e9\u05d9\u05e0\u05d9\u05ea\u05de\u05ea\u05d0\u05d5 \u05d9\u05d5 \u05ea\u05d0\u05e8\u05e8\u05de \u05d4\u05de\u05dc\u05de\u05de\u05dc",
+    "claim": false
+   },
+   {
+    "name": "TEST:la:key0",
+    "lm": "tr",
+    "agreement": 0.9362109291941314,
+    "lexrate": 0.03485292067475254,
+    "accuracy": null,
+    "seconds": 51.6,
+    "sample": "in likek kisean maal in yillitan eakasna nlil maeananil as nilla kasaat",
+    "claim": false
+   },
+   {
+    "name": "TEST:la:key0",
+    "lm": "la",
+    "agreement": 1.0,
+    "lexrate": 0.7493377945071797,
+    "accuracy": 0.9963630232670168,
+    "seconds": 52.7,
+    "sample": "et segub genuit cair et possedit uiginti tres ciuitates in terra galaad",
+    "claim": true
+   },
+   {
+    "name": "TEST:shuffled:la0",
+    "lm": "he",
+    "agreement": 1.0,
+    "lexrate": 0.04739997211766346,
+    "accuracy": null,
+    "seconds": 129.3,
+    "sample": "\u05de\u05d9 \u05d5\u05d9\u05dc\u05d9\u05d5 \u05de\u05dc\u05db\u05e0\u05d9\u05de \u05dc\u05db\u05d5\u05e8 \u05e9\u05de \u05dc\u05e0\u05dc\u05d5\u05d9\u05d0\u05d9\u05de \u05e0\u05d1\u05d5\u05d9\u05ea\u05d0\u05e8 \u05e2\u05d9\u05d1\u05d5 \u05e2\u05d4\u05d5\u05d5\u05de\u05dc\u05de\u05d9\u05ea \u05d9\u05d9 \u05e2\u05d9\u05d4\u05db\u05dc \u05d4\u05d4\u05d4\u05d5\u05dc\u05d5",
+    "claim": false
+   },
+   {
+    "name": "TEST:shuffled:la0",
+    "lm": "tr",
+    "agreement": 0.8242398469062301,
+    "lexrate": 0.014638226683396068,
+    "accuracy": null,
+    "seconds": 129.9,
+    "sample": "nu aasaa nsdyun sdao rn systuean ylaaieo cula ciaansnai au caids kiiasa",
+    "claim": false
+   },
+   {
+    "name": "TEST:shuffled:la0",
+    "lm": "la",
+    "agreement": 0.660153093769934,
+    "lexrate": 0.01617175519308518,
+    "accuracy": null,
+    "seconds": 126.7,
+    "sample": "el atuta eueale ueao ie uaunlrte aiatsro clia cmaaeuets tl ctmeu immaua",
+    "claim": false
+   },
+   {
+    "name": "TEST:la:key1",
+    "lm": "he",
+    "agreement": 0.8325240668805945,
+    "lexrate": 0.1436118448491589,
+    "accuracy": null,
+    "seconds": 49.6,
+    "sample": "\u05ea\u05d0\u05e8\u05e8\u05d4 \u05d1\u05d0\u05e9\u05d9\u05ea\u05de\u05d5 \u05e9\u05de\u05e9 \u05d1\u05d4\u05e8\u05d0\u05e9\u05ea\u05d0\u05d5 \u05e9\u05de\u05e9\u05dc \u05d9\u05e9 \u05d0\u05de\u05e8\u05de\u05d5 \u05dc\u05d4\u05e9\u05ea\u05d9\u05dc\u05de\u05d5 \u05de\u05d0\u05e8\u05d5\u05de\u05d5 \u05d5\u05de\u05d5 \u05d0\u05ea \u05d5\u05d4\u05dc\u05ea\u05de\u05d5",
+    "claim": false
+   },
+   {
+    "name": "TEST:la:key1",
+    "lm": "tr",
+    "agreement": 1.0,
+    "lexrate": 0.05366328374808842,
+    "accuracy": null,
+    "seconds": 50.1,
+    "sample": "larra kanilen nan karanlan nens in aaren sanlisen earnen nen al baslen",
+    "claim": false
+   },
+   {
+    "name": "TEST:la:key1",
+    "lm": "la",
+    "agreement": 1.0,
+    "lexrate": 0.7396079521757264,
+    "accuracy": 0.9996647429296679,
+    "seconds": 51.5,
+    "sample": "terra penitus non parentes nunc in eorum canticum uersus sum et factus",
+    "claim": true
+   },
+   {
+    "name": "TEST:shuffled:la1",
+    "lm": "he",
+    "agreement": 0.48194983955412934,
+    "lexrate": 0.06714861671069094,
+    "accuracy": null,
+    "seconds": 122.8,
+    "sample": "\u05e0\u05de\u05d4\u05e0\u05e9 \u05de\u05d7\u05e8\u05ea\u05e8\u05e8\u05d4 \u05dc\u05d1\u05d9 \u05d1\u05db\u05ea\u05d1\u05d0\u05ea\u05d9\u05d4 \u05e0\u05d5\u05d9\u05dc \u05d4\u05d0 \u05d9\u05d4\u05d5\u05e2\u05d1 \u05e2\u05d4\u05d1\u05ea\u05ea\u05d0\u05d9\u05d9 \u05d9\u05d5\u05d5\u05de\u05d5\u05de \u05dc\u05e9\u05d5 \u05d2\u05e6 \u05d9\u05d9\u05d9\u05ea\u05db\u05d9",
+    "claim": false
+   },
+   {
+    "name": "TEST:shuffled:la1",
+    "lm": "tr",
+    "agreement": 1.0,
+    "lexrate": 0.021965800083414432,
+    "accuracy": null,
+    "seconds": 123.7,
+    "sample": "medok rcsnssd lia itniinad myal di adaui udinniaa aaarar lka zb aaanta",
+    "claim": false
+   },
+   {
+    "name": "TEST:shuffled:la1",
+    "lm": "la",
+    "agreement": 0.5127934470528627,
+    "lexrate": 0.025024329208953148,
+    "accuracy": null,
+    "seconds": 121.5,
+    "sample": "desam alrurrs ani niuntuis doia st isecn csnuutii ieeaea ame hb iiiuii",
+    "claim": false
+   },
+   {
+    "name": "TEST:la:key2",
+    "lm": "he",
+    "agreement": 1.0,
+    "lexrate": 0.11962864721485411,
+    "accuracy": null,
+    "seconds": 50.0,
+    "sample": "\u05d1\u05e8\u05de\u05dc\u05d0\u05d5\u05ea\u05d9\u05de \u05d4\u05d0\u05de \u05d0\u05d5 \u05d1\u05db\u05e8\u05ea\u05d9\u05ea\u05de\u05dc\u05db \u05e0\u05d0\u05e8 \u05d4\u05d0 \u05e8\u05d0\u05e0\u05d0\u05d5 \u05e8\u05d0\u05e0\u05d5\u05de\u05d5\u05ea \u05d0\u05ea \u05dc\u05d0\u05e0\u05de\u05d4 \u05e9\u05db\u05d5\u05dc\u05d9\u05ea\u05db\u05e8\u05d0\u05d5 \u05d9\u05de\u05d5\u05ea\u05de",
+    "claim": false
+   },
+   {
+    "name": "TEST:la:key2",
+    "lm": "tr",
+    "agreement": 0.9538296494210995,
+    "lexrate": 0.04456233421750663,
+    "accuracy": null,
+    "seconds": 48.6,
+    "sample": "krayanlia naa at karlilaya dar na radat radnanl al sadan sanyilarat iatla",
+    "claim": false
+   },
+   {
+    "name": "TEST:la:key2",
+    "lm": "la",
+    "agreement": 1.0,
+    "lexrate": 0.6970822281167108,
+    "accuracy": 0.9997226267249151,
+    "seconds": 50.7,
+    "sample": "prudentia mea es fortitudo ger me reges regnant et legum conditores iusta",
+    "claim": true
+   },
+   {
+    "name": "TEST:generator:0",
+    "lm": "he",
+    "agreement": 0.9996052112120016,
+    "lexrate": 0.4190954773869347,
+    "accuracy": null,
+    "seconds": 22.0,
+    "sample": "\u05dc\u05d0\u05d9\u05de \u05d5\u05de\u05d9\u05ea \u05d0\u05d5\u05ea \u05dc\u05d0\u05d9\u05de \u05d0\u05d5\u05d9 \u05d0\u05e9\u05e8 \u05d9\u05e0\u05d5\u05de \u05d9\u05d3 \u05d0\u05e9\u05d4 \u05e9\u05d4 \u05d0\u05d9\u05ea \u05d9\u05e0\u05d5\u05de",
+    "claim": false
+   },
+   {
+    "name": "TEST:generator:0",
+    "lm": "tr",
+    "agreement": 1.0,
+    "lexrate": 0.4221105527638191,
+    "accuracy": null,
+    "seconds": 22.4,
+    "sample": "adin anin dan adin dai den iran im dek ek din iran",
+    "claim": false
+   },
+   {
+    "name": "TEST:generator:0",
+    "lm": "la",
+    "agreement": 1.0,
+    "lexrate": 0.22498205312275665,
+    "accuracy": null,
+    "seconds": 22.4,
+    "sample": "auet ites uis auet uie uos emit et uor or ues emit",
+    "claim": false
+   },
+   {
+    "name": "TEST:generator:1",
+    "lm": "he",
+    "agreement": 0.9465284905472966,
+    "lexrate": 0.3890545779898598,
+    "accuracy": null,
+    "seconds": 24.8,
+    "sample": "\u05d4\u05d9\u05d3 \u05d5\u05d0\u05ea\u05d4 \u05d9\u05de\u05d9\u05d5\u05d9\u05de \u05d9\u05de \u05d9\u05e9\u05dc \u05d9\u05d5\u05d9\u05de \u05e9\u05d9\u05de \u05d5\u05d9\u05de \u05d0\u05ea\u05d4 \u05d9\u05de \u05d4\u05d9 \u05d5\u05d0\u05ea\u05d4",
+    "claim": false
+   },
+   {
+    "name": "TEST:generator:1",
+    "lm": "tr",
+    "agreement": 0.9326888057477734,
+    "lexrate": 0.3234416940053683,
+    "accuracy": null,
+    "seconds": 24.7,
+    "sample": "sin duas inadar in ama adan mar din uas in si duas",
+    "claim": false
+   },
+   {
+    "name": "TEST:generator:1",
+    "lm": "la",
+    "agreement": 1.0,
+    "lexrate": 0.20578586340590516,
+    "accuracy": null,
+    "seconds": 24.9,
+    "sample": "tet intt esaiam es aia aias iam ies ntt et te intt",
+    "claim": false
+   }
+  ],
+  "truth": {
+   "TEST:he:key0": "he",
+   "TEST:shuffled:he0": null,
+   "TEST:he:key1": "he",
+   "TEST:shuffled:he1": null,
+   "TEST:he:key2": "he",
+   "TEST:tr:key0": "tr",
+   "TEST:shuffled:tr0": null,
+   "TEST:tr:key1": "tr",
+   "TEST:shuffled:tr1": null,
+   "TEST:tr:key2": "tr",
+   "TEST:la:key0": "la",
+   "TEST:shuffled:la0": null,
+   "TEST:la:key1": "la",
+   "TEST:shuffled:la1": null,
+   "TEST:la:key2": "la",
+   "TEST:generator:0": null,
+   "TEST:generator:1": null
+  },
+  "claimed_cracks_per_language": {
+   "he": 3,
+   "tr": 3,
+   "la": 3
+  },
+  "false_claims": []
+ },
+ "verdict": "GO: method validated for VOY23"
+}

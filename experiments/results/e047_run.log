@@ -1,0 +1,85 @@
+letters/sizes: {'he': {'letters': ['י', 'ו', 'ה', 'א', 'מ', 'ל', 'ר', 'ת', 'ב', 'ש', 'נ', 'כ', 'ע', 'ד', 'ח', 'פ', 'ק', 'צ', 'ג', 'ז', 'ס', 'ט'], 'lm_words': 151074, 'dev_words': 39281, 'test_words': 78341}, 'tr': {'letters': ['i', 'a', 'e', 'n', 'r', 'l', 'u', 'd', 'k', 's', 'o', 'y', 't', 'm', 'g', 'c', 'b', 'v', 'h', 'z', 'p', 'f', 'j'], 'lm_words': 180204, 'dev_words': 48926, 'test_words': 101896}, 'la': {'letters': ['e', 'i', 'u', 't', 'a', 's', 'r', 'n', 'm', 'o', 'd', 'c', 'l', 'p', 'q', 'b', 'g', 'f', 'h', 'x', 'y', 'z', 'k'], 'lm_words': 188891, 'dev_words': 54243, 'test_words': 112424}}
+DEV  DEV:he:key0 he {'agreement': 1.0, 'lexrate': 0.717, 'accuracy': 1.0}
+DEV  DEV:he:key0 tr {'agreement': 0.843, 'lexrate': 0.088, 'accuracy': None}
+DEV  DEV:he:key0 la {'agreement': 1.0, 'lexrate': 0.095, 'accuracy': None}
+DEV  DEV:shuffled:he0 he {'agreement': 0.637, 'lexrate': 0.137, 'accuracy': None}
+DEV  DEV:shuffled:he0 tr {'agreement': 0.742, 'lexrate': 0.038, 'accuracy': None}
+DEV  DEV:shuffled:he0 la {'agreement': 0.659, 'lexrate': 0.049, 'accuracy': None}
+DEV  DEV:he:key1 he {'agreement': 1.0, 'lexrate': 0.648, 'accuracy': 1.0}
+DEV  DEV:he:key1 tr {'agreement': 1.0, 'lexrate': 0.093, 'accuracy': None}
+DEV  DEV:he:key1 la {'agreement': 0.971, 'lexrate': 0.066, 'accuracy': None}
+DEV  DEV:tr:key0 he {'agreement': 0.741, 'lexrate': 0.128, 'accuracy': None}
+DEV  DEV:tr:key0 tr {'agreement': 1.0, 'lexrate': 0.783, 'accuracy': 1.0}
+DEV  DEV:tr:key0 la {'agreement': 1.0, 'lexrate': 0.071, 'accuracy': None}
+DEV  DEV:shuffled:tr0 he {'agreement': 0.741, 'lexrate': 0.043, 'accuracy': None}
+DEV  DEV:shuffled:tr0 tr {'agreement': 1.0, 'lexrate': 0.014, 'accuracy': None}
+DEV  DEV:shuffled:tr0 la {'agreement': 0.414, 'lexrate': 0.019, 'accuracy': None}
+DEV  DEV:tr:key1 he {'agreement': 1.0, 'lexrate': 0.125, 'accuracy': None}
+DEV  DEV:tr:key1 tr {'agreement': 1.0, 'lexrate': 0.716, 'accuracy': 1.0}
+DEV  DEV:tr:key1 la {'agreement': 0.719, 'lexrate': 0.049, 'accuracy': None}
+DEV  DEV:la:key0 he {'agreement': 0.92, 'lexrate': 0.133, 'accuracy': None}
+DEV  DEV:la:key0 tr {'agreement': 1.0, 'lexrate': 0.042, 'accuracy': None}
+DEV  DEV:la:key0 la {'agreement': 1.0, 'lexrate': 0.725, 'accuracy': 0.998}
+DEV  DEV:shuffled:la0 he {'agreement': 0.704, 'lexrate': 0.061, 'accuracy': None}
+DEV  DEV:shuffled:la0 tr {'agreement': 1.0, 'lexrate': 0.016, 'accuracy': None}
+DEV  DEV:shuffled:la0 la {'agreement': 0.861, 'lexrate': 0.025, 'accuracy': None}
+DEV  DEV:la:key1 he {'agreement': 0.812, 'lexrate': 0.114, 'accuracy': None}
+DEV  DEV:la:key1 tr {'agreement': 1.0, 'lexrate': 0.048, 'accuracy': None}
+DEV  DEV:la:key1 la {'agreement': 1.0, 'lexrate': 0.782, 'accuracy': 1.0}
+DEV  DEV:generator:0 he {'agreement': 0.968, 'lexrate': 0.379, 'accuracy': None}
+DEV  DEV:generator:0 tr {'agreement': 1.0, 'lexrate': 0.329, 'accuracy': None}
+DEV  DEV:generator:0 la {'agreement': 1.0, 'lexrate': 0.226, 'accuracy': None}
+DEV: cracks 6, min crack lexrate 0.6482675261885577, max non-crack lexrate 0.379 -> threshold 0.5136978317864849
+TEST TEST:he:key0 he {'agreement': 1.0, 'lexrate': 0.692, 'accuracy': 1.0, 'claim': True}
+TEST TEST:he:key0 tr {'agreement': 0.976, 'lexrate': 0.11, 'accuracy': None, 'claim': False}
+TEST TEST:he:key0 la {'agreement': 1.0, 'lexrate': 0.095, 'accuracy': None, 'claim': False}
+TEST TEST:shuffled:he0 he {'agreement': 0.452, 'lexrate': 0.13, 'accuracy': None, 'claim': False}
+TEST TEST:shuffled:he0 tr {'agreement': 0.758, 'lexrate': 0.035, 'accuracy': None, 'claim': False}
+TEST TEST:shuffled:he0 la {'agreement': 0.661, 'lexrate': 0.05, 'accuracy': None, 'claim': False}
+TEST TEST:he:key1 he {'agreement': 1.0, 'lexrate': 0.694, 'accuracy': 1.0, 'claim': True}
+TEST TEST:he:key1 tr {'agreement': 1.0, 'lexrate': 0.108, 'accuracy': None, 'claim': False}
+TEST TEST:he:key1 la {'agreement': 0.978, 'lexrate': 0.093, 'accuracy': None, 'claim': False}
+TEST TEST:shuffled:he1 he {'agreement': 0.607, 'lexrate': 0.14, 'accuracy': None, 'claim': False}
+TEST TEST:shuffled:he1 tr {'agreement': 1.0, 'lexrate': 0.043, 'accuracy': None, 'claim': False}
+TEST TEST:shuffled:he1 la {'agreement': 0.589, 'lexrate': 0.047, 'accuracy': None, 'claim': False}
+TEST TEST:he:key2 he {'agreement': 1.0, 'lexrate': 0.787, 'accuracy': 1.0, 'claim': True}
+TEST TEST:he:key2 tr {'agreement': 1.0, 'lexrate': 0.1, 'accuracy': None, 'claim': False}
+TEST TEST:he:key2 la {'agreement': 1.0, 'lexrate': 0.073, 'accuracy': None, 'claim': False}
+TEST TEST:tr:key0 he {'agreement': 0.921, 'lexrate': 0.112, 'accuracy': None, 'claim': False}
+TEST TEST:tr:key0 tr {'agreement': 1.0, 'lexrate': 0.702, 'accuracy': 1.0, 'claim': True}
+TEST TEST:tr:key0 la {'agreement': 1.0, 'lexrate': 0.09, 'accuracy': None, 'claim': False}
+TEST TEST:shuffled:tr0 he {'agreement': 0.72, 'lexrate': 0.042, 'accuracy': None, 'claim': False}
+TEST TEST:shuffled:tr0 tr {'agreement': 0.798, 'lexrate': 0.013, 'accuracy': None, 'claim': False}
+TEST TEST:shuffled:tr0 la {'agreement': 0.559, 'lexrate': 0.016, 'accuracy': None, 'claim': False}
+TEST TEST:tr:key1 he {'agreement': 0.859, 'lexrate': 0.138, 'accuracy': None, 'claim': False}
+TEST TEST:tr:key1 tr {'agreement': 1.0, 'lexrate': 0.745, 'accuracy': 1.0, 'claim': True}
+TEST TEST:tr:key1 la {'agreement': 1.0, 'lexrate': 0.074, 'accuracy': None, 'claim': False}
+TEST TEST:shuffled:tr1 he {'agreement': 0.665, 'lexrate': 0.044, 'accuracy': None, 'claim': False}
+TEST TEST:shuffled:tr1 tr {'agreement': 0.862, 'lexrate': 0.01, 'accuracy': None, 'claim': False}
+TEST TEST:shuffled:tr1 la {'agreement': 0.566, 'lexrate': 0.017, 'accuracy': None, 'claim': False}
+TEST TEST:tr:key2 he {'agreement': 0.81, 'lexrate': 0.112, 'accuracy': None, 'claim': False}
+TEST TEST:tr:key2 tr {'agreement': 1.0, 'lexrate': 0.83, 'accuracy': 1.0, 'claim': True}
+TEST TEST:tr:key2 la {'agreement': 1.0, 'lexrate': 0.091, 'accuracy': None, 'claim': False}
+TEST TEST:la:key0 he {'agreement': 1.0, 'lexrate': 0.1, 'accuracy': None, 'claim': False}
+TEST TEST:la:key0 tr {'agreement': 0.936, 'lexrate': 0.035, 'accuracy': None, 'claim': False}
+TEST TEST:la:key0 la {'agreement': 1.0, 'lexrate': 0.749, 'accuracy': 0.996, 'claim': True}
+TEST TEST:shuffled:la0 he {'agreement': 1.0, 'lexrate': 0.047, 'accuracy': None, 'claim': False}
+TEST TEST:shuffled:la0 tr {'agreement': 0.824, 'lexrate': 0.015, 'accuracy': None, 'claim': False}
+TEST TEST:shuffled:la0 la {'agreement': 0.66, 'lexrate': 0.016, 'accuracy': None, 'claim': False}
+TEST TEST:la:key1 he {'agreement': 0.833, 'lexrate': 0.144, 'accuracy': None, 'claim': False}
+TEST TEST:la:key1 tr {'agreement': 1.0, 'lexrate': 0.054, 'accuracy': None, 'claim': False}
+TEST TEST:la:key1 la {'agreement': 1.0, 'lexrate': 0.74, 'accuracy': 1.0, 'claim': True}
+TEST TEST:shuffled:la1 he {'agreement': 0.482, 'lexrate': 0.067, 'accuracy': None, 'claim': False}
+TEST TEST:shuffled:la1 tr {'agreement': 1.0, 'lexrate': 0.022, 'accuracy': None, 'claim': False}
+TEST TEST:shuffled:la1 la {'agreement': 0.513, 'lexrate': 0.025, 'accuracy': None, 'claim': False}
+TEST TEST:la:key2 he {'agreement': 1.0, 'lexrate': 0.12, 'accuracy': None, 'claim': False}
+TEST TEST:la:key2 tr {'agreement': 0.954, 'lexrate': 0.045, 'accuracy': None, 'claim': False}
+TEST TEST:la:key2 la {'agreement': 1.0, 'lexrate': 0.697, 'accuracy': 1.0, 'claim': True}
+TEST TEST:generator:0 he {'agreement': 1.0, 'lexrate': 0.419, 'accuracy': None, 'claim': False}
+TEST TEST:generator:0 tr {'agreement': 1.0, 'lexrate': 0.422, 'accuracy': None, 'claim': False}
+TEST TEST:generator:0 la {'agreement': 1.0, 'lexrate': 0.225, 'accuracy': None, 'claim': False}
+TEST TEST:generator:1 he {'agreement': 0.947, 'lexrate': 0.389, 'accuracy': None, 'claim': False}
+TEST TEST:generator:1 tr {'agreement': 0.933, 'lexrate': 0.323, 'accuracy': None, 'claim': False}
+TEST TEST:generator:1 la {'agreement': 1.0, 'lexrate': 0.206, 'accuracy': None, 'claim': False}
+claimed cracks per language (of 3): {'he': 3, 'tr': 3, 'la': 3} | false claims: 0
+VERDICT: GO: method validated for VOY23
