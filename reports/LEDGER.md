@@ -297,3 +297,10 @@ with echo or doubling grammar reach Voynich's level, and the generator does not.
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-24 | E054 page-topic boundaries (`PAGE_TOPICS.md`) | VOID: the copy generator also shifts topic at its page breaks (D 0.72); Voynich herbal A D 0.47; Culpeper 0.80 | none | 0.0077 | 0.963 | 0.0274 | 0.0013 |
+
+**Deviation (2026-10-24, picture route).** While fetching the second panel of fold-out f101v (Beinecke canvas
+"101v (part) and 102r"), a mis-estimated crop also contained **f102r, a LOCKED_TEST leaf**, and its image was
+displayed once. No text from f102r was transcribed, decoded or used in any analysis. The file was deleted at once,
+and the f101v panel was re-cropped to stay left of the gutter. The locked leaves' text remains unseen by every
+attack and model. Images of locked leaves will not be downloaded again, and crops are now taken only from the left
+page with a margin.
