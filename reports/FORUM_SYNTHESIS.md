@@ -3,8 +3,7 @@
 Sources: four research sweeps of https://www.voynich.ninja (about 180 threads), with full reports in
 `reports/literature/`. **Access limit:** since about 2025 the forum shows guests only the first post per page of most
 threads. Some critiques therefore rest on search snippets, and the reports mark which. Nothing here is a measurement
-of ours; nothing moves the ledger until a pre-registered test is run. *(The structure-and-statistics sweep is
-pending and will be appended.)*
+of ours; nothing moves the ledger until a pre-registered test is run. The structure-and-statistics sweep is now included (section 6).
 
 ## 1. Independent confirmations of our results
 | Ours | Forum |
@@ -72,5 +71,41 @@ pending and will be appended.)*
   abjad, abbreviation, codebook and Naibbe readings fail on withheld pages in six languages. This was seen only via a
   forum news item.
 - "ab aries incipiam" read above a zodiac diagram (Stolfi; thread-4448). It should be checked on the image.
-- The claimed "MarcoP reduplication plot" figure: our language sweep's summary contradicts our own measurement and is
-  being checked by the structure sweep.
+- **Resolved:** MarcoP's reduplication plot (thread-61, page 9, post #81, 2021) shows Voynich with about 10× **more**
+  back-to-back repeats than European languages ("the distance is abysmal"). Only Vietnamese comes close. This
+  agrees with our C9/C21. The language sweep's wording was garbled.
+- An arXiv number (2608.17096) cited in a snippet for a Timm-Schinner port is the same number our E012 cites for a
+  different paper (Rozanova & Temerev). It must be verified before either is cited.
+
+## 6. Structure-and-statistics sweep (appended)
+**Threats to our findings (to re-test, pre-registered):**
+1. **Line position confounds C16, C17 and C19.**
+   - In Currier A, the glyph mix changes along the line:
+     - **d** nearly triples from line start to line end (287 → 771);
+     - **sh** halves (312 → 149);
+     - **qo** gives way to **o**, and **k** to **t**.
+   - Line-initial **ch** is about 4–5× rarer than expected, and **p** is 8.5× over-represented at line start.
+   - Sources: Feaster and MarcoP (thread-3640), tavie (thread-4343), JoJo_Jost (thread-5644).
+   - Our "d is a scribe habit" and "q depends on location" results did not control for line position. A joint model
+     is needed (alternation ~ line position + paragraph line + scribe + section + Currier).
+2. **e / ee / eee may not be one sign (C15).** What follows them differs: s follows e 1% of the time, ee 4% and eee
+   13% (vosreth, threads 5336 and 5357). Our neighbour-word test (E038) looked at *word* contexts, not glyph contexts.
+   The two can disagree, so both should be checked.
+3. **Currier A/B may be one system with respellings.**
+   - About 82% of B-only tokens are one edit from an A word (Dunsel, thread-5373).
+   - chy → edy and chy → chdy, with frequency ranks matching at ρ 0.76 (npcompl33t, thread-6112).
+   - A folio-level ch/sh-vowel switch (o vs e) matches the plant drawings with κ 0.87, against 0.11 for Currier's
+     labels (Labyrinthinesecurity, thread-5710).
+   - Our C17/C20 should be re-run under these alternative splits.
+
+**New leads:**
+- **Endings agree between neighbouring words** (Emma May Smith, thread-4346). In B, -y is followed by -y 0.49 of the
+  time and -edy by -edy 0.29. This is grammatical agreement or copying. Measure ending-to-ending mutual information
+  against shuffles, agreement languages and generators.
+- **q- may be a junction form after -y** (Koen G; vosreth: q follows y-final words 27% of the time). That could
+  explain the q± alternation (C12/C19) mechanically.
+- **Line-position "impossibilities"** make good generator tests: tavie found 1 line start with o over o in Herbal A
+  where about 40 were expected.
+- **Mauro's slot grammar** covers 88–93% of word types; its efficiency metric could be applied to our comparison
+  languages.
+- **m is a positional shorthand for -iin** (Stolfi: 91% of m follows a or o, and it clusters at line ends).
