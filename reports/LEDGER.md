@@ -289,3 +289,7 @@ with echo or doubling grammar reach Voynich's level, and the generator does not.
 | 2026-10-24 | E052 validated attack: Czech, Serbian-Croatian, Slovak, Ukrainian, Romanian, Italian, Romani (`SHORTLIST_ATTACK.md`) | All 7 VALIDATED (cracks ≥ 0.999); Voynich A at or below the fakes in every language: NO CLAIM | absence rule: L × 0.885 | 0.0074 | 0.965 | 0.0263 | 0.0012 |
 
 **Searched, not found (VOY23), cumulative:** 10 languages, 0.79 of L-alpha-known.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-24 | E053 abbreviated Latin, technical and sacred (`ABBREV_LATIN.md`) | Both VALIDATED; Voynich A no better than the fakes: NO CLAIM | absence rule: L × 0.958 | 0.0077 | 0.963 | 0.0274 | 0.0013 |

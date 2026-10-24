@@ -1,0 +1,4 @@
+LMs: {'abbr_tech': (407547, 5.01, 'iaerstunomclpdvbqghfxy9'), 'abbr_sacred': (204895, 4.23, 'iearstnuomdclpvbqfhgxy9')}
+abbr_tech   cracks acc/lex [(0.999, 0.701), (0.999, 0.739)] controls max 0.324 -> VALIDATED T=0.513 | Voynich A lexrate 0.238 agreement 1.00 -> no claim
+abbr_sacred cracks acc/lex [(0.998, 0.647), (0.999, 0.63)] controls max 0.380 -> VALIDATED T=0.505 | Voynich A lexrate 0.348 agreement 0.22 -> no claim
+VERDICT: NO CLAIM

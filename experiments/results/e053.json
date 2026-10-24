@@ -1,0 +1,287 @@
+{
+ "experiment": "E053",
+ "lms": {
+  "abbr_tech": {
+   "file": "Historical - Latin (Abbreviated) - Technical - Pliny's Natural History.txt",
+   "sha256": "554f86375ea68850ed5a16654336fad2e9c791d0633a150903cbb53d31ef1b35",
+   "tokens": 407547,
+   "letters": [
+    "i",
+    "a",
+    "e",
+    "r",
+    "s",
+    "t",
+    "u",
+    "n",
+    "o",
+    "m",
+    "c",
+    "l",
+    "p",
+    "d",
+    "v",
+    "b",
+    "q",
+    "g",
+    "h",
+    "f",
+    "x",
+    "y",
+    "9"
+   ],
+   "mean_word_len": 5.006657724268796,
+   "cracks": [
+    [
+     0.9994190038557017,
+     0.7011294526498697,
+     1.0
+    ],
+    [
+     0.9992636423405654,
+     0.7389836231639372,
+     1.0
+    ]
+   ],
+   "controls_max": 0.3244047619047619,
+   "validated": true,
+   "threshold": 0.5127671072773158,
+   "voynich_lexrate": 0.23778456413103832,
+   "voynich_agreement": 1.0,
+   "claim": false
+  },
+  "abbr_sacred": {
+   "file": "Historical - Latin (Abbreviated) - Literary - NT (Vulgate).txt",
+   "sha256": "971a764bc8924f79089a12f9c5396912eecab97311c52a4fc82bf742c61300ab",
+   "tokens": 204895,
+   "letters": [
+    "i",
+    "e",
+    "a",
+    "r",
+    "s",
+    "t",
+    "n",
+    "u",
+    "o",
+    "m",
+    "d",
+    "c",
+    "l",
+    "p",
+    "v",
+    "b",
+    "q",
+    "f",
+    "h",
+    "g",
+    "x",
+    "y",
+    "9"
+   ],
+   "mean_word_len": 4.230314960629921,
+   "cracks": [
+    [
+     0.9979301909869226,
+     0.6468879668049793,
+     1.0
+    ],
+    [
+     0.999489979599184,
+     0.6304173354735152,
+     1.0
+    ]
+   ],
+   "controls_max": 0.37992013690815746,
+   "validated": true,
+   "threshold": 0.5051687361908364,
+   "voynich_lexrate": 0.34841754580788453,
+   "voynich_agreement": 0.2201408136608366,
+   "claim": false
+  }
+ },
+ "results": [
+  {
+   "name": "abbr_tech:crack0",
+   "lm": "abbr_tech",
+   "agreement": 1.0,
+   "lexrate": 0.7011294526498697,
+   "accuracy": 0.9994190038557017,
+   "score": -104587.69366820049
+  },
+  {
+   "name": "abbr_tech:crack1",
+   "lm": "abbr_tech",
+   "agreement": 1.0,
+   "lexrate": 0.7389836231639372,
+   "accuracy": 0.9992636423405654,
+   "score": -104307.45823013691
+  },
+  {
+   "name": "abbr_tech:control:generator0",
+   "lm": "abbr_tech",
+   "agreement": 1.0,
+   "lexrate": 0.2937371361364305,
+   "accuracy": null,
+   "score": -113815.17164846938
+  },
+  {
+   "name": "abbr_tech:control:generator1",
+   "lm": "abbr_tech",
+   "agreement": 0.9879029577932869,
+   "lexrate": 0.31271324729268657,
+   "accuracy": null,
+   "score": -111779.68508114899
+  },
+  {
+   "name": "abbr_tech:control:pseudo0",
+   "lm": "abbr_tech",
+   "agreement": 1.0,
+   "lexrate": 0.3244047619047619,
+   "accuracy": null,
+   "score": -114124.99007098348
+  },
+  {
+   "name": "abbr_tech:control:pseudo1",
+   "lm": "abbr_tech",
+   "agreement": 0.5861883691529709,
+   "lexrate": 0.2057518958363142,
+   "accuracy": null,
+   "score": -114374.32887933945
+  },
+  {
+   "name": "abbr_tech:control:pseudo2",
+   "lm": "abbr_tech",
+   "agreement": 0.9976115410337251,
+   "lexrate": 0.31364475365611244,
+   "accuracy": null,
+   "score": -114398.96377189983
+  },
+  {
+   "name": "abbr_tech:control:pseudo3",
+   "lm": "abbr_tech",
+   "agreement": 1.0,
+   "lexrate": 0.317625284738041,
+   "accuracy": null,
+   "score": -113824.91398958891
+  },
+  {
+   "name": "abbr_tech:control:pseudo4",
+   "lm": "abbr_tech",
+   "agreement": 1.0,
+   "lexrate": 0.31134226275292104,
+   "accuracy": null,
+   "score": -114092.74204115364
+  },
+  {
+   "name": "abbr_tech:VOYNICH_A",
+   "lm": "abbr_tech",
+   "agreement": 1.0,
+   "lexrate": 0.23778456413103832,
+   "accuracy": null,
+   "score": -113245.00133443295
+  },
+  {
+   "name": "abbr_sacred:crack0",
+   "lm": "abbr_sacred",
+   "agreement": 1.0,
+   "lexrate": 0.6468879668049793,
+   "accuracy": 0.9979301909869226,
+   "score": -90432.29378190669
+  },
+  {
+   "name": "abbr_sacred:crack1",
+   "lm": "abbr_sacred",
+   "agreement": 1.0,
+   "lexrate": 0.6304173354735152,
+   "accuracy": 0.999489979599184,
+   "score": -92123.88385291304
+  },
+  {
+   "name": "abbr_sacred:control:generator0",
+   "lm": "abbr_sacred",
+   "agreement": 1.0,
+   "lexrate": 0.3749448610498456,
+   "accuracy": null,
+   "score": -115922.73308193989
+  },
+  {
+   "name": "abbr_sacred:control:generator1",
+   "lm": "abbr_sacred",
+   "agreement": 0.9445941898772088,
+   "lexrate": 0.30786317192358953,
+   "accuracy": null,
+   "score": -116834.69032079002
+  },
+  {
+   "name": "abbr_sacred:control:pseudo0",
+   "lm": "abbr_sacred",
+   "agreement": 0.8955309033280507,
+   "lexrate": 0.35881680480137185,
+   "accuracy": null,
+   "score": -119490.3605557586
+  },
+  {
+   "name": "abbr_sacred:control:pseudo1",
+   "lm": "abbr_sacred",
+   "agreement": 0.8977793221088542,
+   "lexrate": 0.35791881074899945,
+   "accuracy": null,
+   "score": -119990.55087876513
+  },
+  {
+   "name": "abbr_sacred:control:pseudo2",
+   "lm": "abbr_sacred",
+   "agreement": 0.6730579354715419,
+   "lexrate": 0.37992013690815746,
+   "accuracy": null,
+   "score": -118987.81905571396
+  },
+  {
+   "name": "abbr_sacred:control:pseudo3",
+   "lm": "abbr_sacred",
+   "agreement": 0.569957870062403,
+   "lexrate": 0.3537870159453303,
+   "accuracy": null,
+   "score": -119946.55677219987
+  },
+  {
+   "name": "abbr_sacred:control:pseudo4",
+   "lm": "abbr_sacred",
+   "agreement": 1.0,
+   "lexrate": 0.3659830775849706,
+   "accuracy": null,
+   "score": -118493.6129621147
+  },
+  {
+   "name": "abbr_sacred:VOYNICH_A",
+   "lm": "abbr_sacred",
+   "agreement": 0.2201408136608366,
+   "lexrate": 0.34841754580788453,
+   "accuracy": null,
+   "score": -118563.74007422935
+  }
+ ],
+ "voynich_samples": {
+  "abbr_tech:VOYNICH_A": "rotumo ocias tus arius ocius lasto tamiamo irum t eam lo ra prus lno o iam io oe ius aubbe",
+  "abbr_sacred:VOYNICH_A": "asares scite are taire scire uteis ateites iare i ite us at mare uns s ite is so ire trddo"
+ },
+ "verdict": "NO CLAIM",
+ "locked_test_excluded": [
+  "1",
+  "102",
+  "105",
+  "114",
+  "30",
+  "35",
+  "38",
+  "51",
+  "52",
+  "56",
+  "75",
+  "8",
+  "86",
+  "87",
+  "9"
+ ]
+}
