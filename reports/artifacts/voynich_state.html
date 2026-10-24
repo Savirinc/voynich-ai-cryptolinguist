@@ -1,0 +1,123 @@
+<title>Voynich: State of the Evidence</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@500;700&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: a single reading column with a probability ledger up top, then evidence sections as labelled bands */
+:root{
+  --bg:#eef1ee; --panel:#f8faf8; --fg:#1d2430; --muted:#5d6874; --rule:#cfd7d2;
+  --verdigris:#2f7a68; --ochre:#a2492c; --good:#2f7a68; --warn:#a6781f; --bad:#a2492c;
+  --display:"Alegreya SC",Georgia,serif; --body:"Alegreya Sans",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#141a1d;--panel:#1b2327;--fg:#e3e8e6;--muted:#9aa6a3;--rule:#2d393d;--verdigris:#5fb8a2;--ochre:#d9785a;--good:#5fb8a2;--warn:#d6a64a;--bad:#d9785a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#141a1d;--panel:#1b2327;--fg:#e3e8e6;--muted:#9aa6a3;--rule:#2d393d;--verdigris:#5fb8a2;--ochre:#d9785a;--good:#5fb8a2;--warn:#d6a64a;--bad:#d9785a;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.55}
+.wrap{max-width:860px;margin:0 auto;padding-block:32px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:30px}
+h1{font-family:var(--display);font-size:clamp(28px,5vw,42px);margin:0;line-height:1.1;text-wrap:balance}
+h2{font-family:var(--display);font-size:22px;margin:0 0 10px;text-wrap:balance}
+.eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+p{margin:0 0 10px;max-width:68ch}
+.lede{font-size:18px;color:var(--fg)}
+.ledger{display:grid;gap:10px;background:var(--panel);border:1px solid var(--rule);border-radius:6px;padding:16px}
+.row{display:grid;grid-template-columns:minmax(0,15ch) 1fr auto;gap:12px;align-items:center}
+.row .name{font-weight:700}
+.track{height:12px;background:var(--rule);border-radius:2px;position:relative;overflow:hidden}
+.track i{position:absolute;inset:0 auto 0 0;background:var(--verdigris)}
+.track b{position:absolute;top:0;bottom:0;background:var(--verdigris);opacity:.28}
+.val{font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:14px;white-space:nowrap}
+.note{font-size:14px;color:var(--muted)}
+ul{margin:0;padding-left:20px;display:grid;gap:6px;max-width:72ch}
+.tablebox{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.chip{display:inline-block;font-size:12px;letter-spacing:.04em;padding:1px 8px;border-radius:999px;border:1px solid currentColor;white-space:nowrap}
+.c-good{color:var(--good)} .c-warn{color:var(--warn)} .c-bad{color:var(--bad)}
+code{font-family:var(--mono);font-size:.92em}
+.next{counter-reset:n;display:grid;gap:10px;padding:0;list-style:none}
+.next li{counter-increment:n;display:grid;grid-template-columns:2.2em 1fr;gap:6px}
+.next li::before{content:counter(n);font-family:var(--display);font-size:22px;color:var(--verdigris);line-height:1.2}
+footer{font-size:13px;color:var(--muted);border-top:1px solid var(--rule);padding-top:14px}
+</style>
+<div class="wrap">
+<header>
+  <div class="eyebrow">Beinecke MS 408 · 56 pre-registered experiments · October 2026</div>
+  <h1>Voynich: State of the Evidence</h1>
+  <p class="lede">The text is built like a language, yet every proven method to read it has failed and no word in it has ever been tied to a meaning. A real language in an invented script remains the best explanation, not a demonstrated one.</p>
+</header>
+
+<section>
+  <h2>What the text most likely is</h2>
+  <div class="ledger" role="img" aria-label="Probability ledger">
+    <div class="row"><span class="name">Real language, own script</span><div class="track"><b style="left:60%;width:36%"></b><i style="width:96.3%;opacity:.85"></i></div><span class="val">96%</span></div>
+    <div class="row"><span class="name">Cipher or code</span><div class="track"><b style="left:2%;width:7%"></b><i style="width:2.7%"></i></div><span class="val">3%</span></div>
+    <div class="row"><span class="name">Meaningless text</span><div class="track"><b style="left:0.6%;width:26%"></b><i style="width:0.8%"></i></div><span class="val">0.8%</span></div>
+    <div class="row"><span class="name">Something else</span><div class="track"><i style="width:0.13%"></i></div><span class="val">0.1%</span></div>
+    <p class="note">Bayesian ledger: each pre-registered test multiplies the odds by a fixed factor. Light shading shows the range across defensible starting assumptions (real language about 60–96%, meaningless 0.6–27%).</p>
+  </div>
+</section>
+
+<section>
+  <h2>Solid facts</h2>
+  <ul>
+    <li>Vellum from 1404–1438; five scribes; drawings and text made together on the page.</li>
+    <li>7,060 distinct words on the working pages; 69% occur only once; 149 words make up half the text.</li>
+    <li>Words are assembled from parts, with about 21–28 endings that attach freely to stems.</li>
+    <li>Spelling is loose in a patterned way, through a few swaps: <code>e/ee</code>, <code>r/l</code>, <code>t/k</code>, and <code>d</code> or <code>q</code> added or dropped.</li>
+    <li>Two varieties (Currier A and B) share one grammar shape.</li>
+    <li>Common words often stand next to themselves (<code>daiin daiin</code>), about ten times more than in European languages.</li>
+    <li>Labels are mostly unique words. They are not numbers, and drawings sharing a label do not look alike.</li>
+    <li>No anchor word has ever held up, for anyone.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Searched with proven methods, not found</h2>
+  <p>Each attack first read real text in a Voynich-like script perfectly and made no false claims on fakes. Then it was pointed at Voynich.</p>
+  <div class="tablebox"><table>
+    <thead><tr><th>Form</th><th>Languages or systems</th><th>Result</th></tr></thead>
+    <tbody>
+      <tr><td>Letter by letter in a secret alphabet</td><td>Hebrew, Turkish, Latin, Czech, Serbian-Croatian, Slovak, Ukrainian, Romanian, Italian, Romani</td><td><span class="chip c-bad">not found</span></td></tr>
+      <tr><td>Abbreviated Latin</td><td>technical (Pliny) and sacred (Vulgate)</td><td><span class="chip c-bad">not found</span></td></tr>
+      <tr><td>Word-for-word codes, simple ciphers</td><td>Latin, Italian, French, German; Naibbe tables</td><td><span class="chip c-bad">excluded</span></td></tr>
+      <tr><td>Blind reading of decoded pages</td><td>Hebrew decodes vs fakes vs real Hebrew</td><td><span class="chip c-bad">word salad</span></td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section>
+  <h2>What the forum research changed</h2>
+  <div class="tablebox"><table>
+    <thead><tr><th>Finding</th><th>Status</th><th>Why</th></tr></thead>
+    <tbody>
+      <tr><td>Negative language results; labels not names or numbers; no crib</td><td><span class="chip c-good">confirmed</span></td><td>Found independently on voynich.ninja</td></tr>
+      <tr><td>Words not avoiding identical neighbours as a sign of meaning</td><td><span class="chip c-warn">weakened</span></td><td>A 2026 generator copies it</td></tr>
+      <tr><td>Topic clustering</td><td><span class="chip c-warn">re-test</span></td><td>Pages of the same sheet are alike: may be writing sessions</td></tr>
+      <tr><td><code>d</code> as a scribe habit, <code>q</code> tied to location</td><td><span class="chip c-warn">re-test</span></td><td>Position in the line was not controlled</td></tr>
+      <tr><td><code>e</code> = <code>ee</code></td><td><span class="chip c-warn">re-test</span></td><td>Different glyphs follow each</td></tr>
+      <tr><td>Simple-syllable statistics</td><td><span class="chip c-warn">depends</span></td><td>Changes with how glyphs are grouped</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section>
+  <h2>Still open</h2>
+  <ul>
+    <li>A known language written with syllable signs. Vietnamese is the closest match on word repeats.</li>
+    <li>A lost or unrecorded language. Only pictures or anchors could open it.</li>
+    <li>A constructed or invented language (Enochian, <i>Lingua Ignota</i> as controls).</li>
+    <li>Meaningless but sophisticated text. It now has a sharp test.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Next tests</h2>
+  <ol class="next">
+    <li><div><b>Per-word repeat individuality.</b> Some common words never repeat back to back while others repeat five times more than chance. The best generator cannot copy this, so it separates a real vocabulary from generated text.</div></li>
+    <li><div><b>Clean-up round.</b> Re-test <code>d</code>, <code>q</code>, <code>e/ee</code> and topic clustering with line position and writing sessions controlled.</div></li>
+    <li><div><b>Syllable route.</b> Vietnamese through a validated syllable-sign attack.</div></li>
+  </ol>
+</section>
+
+<footer>Voynich AI Cryptolinguist · Savir Platforms Private Limited · Every test was pre-registered, locked and published, including all negative results. Transcription: ZL 3b; 15 leaves held back for final confirmation.</footer>
+</div>

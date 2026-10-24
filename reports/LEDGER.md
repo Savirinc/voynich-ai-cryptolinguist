@@ -324,3 +324,8 @@ page with a margin.
 **Unscored caution after E058.** On the one measure the forum proposed as generator-proof, Voynich's words behave
 like their families: generator-like, not vocabulary-like. The reference set lacked power, so this is not scored. It
 stays recorded as a lean towards M, alongside the weakened C21.
+
+**Deviation (2026-10-24, end of session).** The bulk download of pharma-section canvases (for E055 preparation) also
+fetched two canvases that contain the LOCKED leaf f102: `f101v_part_and_102r.jpg` and `f102v_part.jpg`. They were
+never viewed or used, and were deleted before the session's data was moved into the repo. Future downloads must
+exclude canvases whose label mentions 102.
