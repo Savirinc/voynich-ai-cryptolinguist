@@ -1,0 +1,19 @@
+/Users/arhampartapjain/voynich-ai-cryptolinguist/experiments/e057_word_repeat_individuality.py:85: RuntimeWarning: Mean of empty slice.
+  return {"kept_words": len(kept), "families": len(fams), "PHI": obs, "null_mean": float(sims.mean()),
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/numpy/_core/_methods.py:223: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/numpy/_core/_methods.py:181: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+/Users/arhampartapjain/voynich-ai-cryptolinguist/.venv/lib/python3.11/site-packages/numpy/_core/_methods.py:215: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+Voynich: PHI 0.62 (null 0.54±0.21, z 0.4, p 0.3078); kept 26 words in 12 families; never-repeat share 0.09, ratio>=3 share 0.04
+   never: ['aiin'] | high: ['qotedy']
+generator PHI [0.67, 0.6, 0.19, 0.34, 0.42, 0.57, 0.41, 0.4, 0.78, 0.85] | z [0.5, -0.1, -1.7, -0.8, -0.5, 0.1, -0.6, -0.7, 0.7, 0.9] | never [0.0, 0.0, 0.06, 0.0, 0.0, 0.0, 0.0, 0.0, 0.09, 0.0]
+Indonesian  PHI 1.94 z 5.1 p 0.0005 kept 13 never 0.50 high 0.46
+Malay       PHI nan z nan p 1.0000 kept 2 never 1.00 high 0.00
+Tamil       PHI nan z nan p 1.0000 kept 0 never 0.00 high 0.00
+Assamese    PHI nan z nan p 1.0000 kept 0 never 0.00 high 0.00
+Malayalam   PHI nan z nan p 1.0000 kept 0 never 0.00 high 0.00
+VERDICT: VOID (reference languages do not exceed the generator) {}

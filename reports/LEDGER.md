@@ -312,3 +312,7 @@ page with a margin.
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-24 | E056 zodiac labels as numbers (`ZODIAC_NUMBERS.md`) | NOT NUMBERS: positional identity 0.07% (p 0.91) vs planted numbers 48%; 245 types in 292 labels | sub-hypothesis NUMBERS × 1/10: 0.20 → 0.024 | 0.0077 | 0.963 | 0.0274 | 0.0013 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-24 | E057 per-word repeat individuality (`WORD_REPEAT_INDIVIDUALITY.md`) | VOID: the eligibility rule left too few words (Voynich 26; 4 of 5 languages unmeasurable). Unscored hint: Indonesian z +5.1, Voynich z +0.4 | none | 0.0077 | 0.963 | 0.0274 | 0.0013 |

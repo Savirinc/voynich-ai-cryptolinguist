@@ -1,0 +1,158 @@
+{
+ "experiment": "E057",
+ "results": {
+  "Voynich DEV": {
+   "kept_words": 26,
+   "families": 12,
+   "PHI": 0.621641834142706,
+   "null_mean": 0.5436332164409321,
+   "null_sd": 0.21344277764998418,
+   "z": 0.36547789792024243,
+   "p": 0.3078460769615192,
+   "share_never_repeat_E3": 0.09090909090909091,
+   "share_ratio_ge3": 0.038461538461538464,
+   "examples_never": [
+    "aiin"
+   ],
+   "examples_high": [
+    "qotedy"
+   ]
+  },
+  "generator (10 samples)": {
+   "PHI": [
+    0.674035640027942,
+    0.6011612977885633,
+    0.19156862277451528,
+    0.3409502540824556,
+    0.4199221118517973,
+    0.574676643418585,
+    0.41318934428369714,
+    0.4024595540939753,
+    0.7775798021166556,
+    0.846720276462562
+   ],
+   "z": [
+    0.4984791436337324,
+    -0.13635159542021258,
+    -1.6743527113249297,
+    -0.814602930402455,
+    -0.5009210422555391,
+    0.12452858185312805,
+    -0.5756261777047424,
+    -0.6742394797593024,
+    0.7087533249082387,
+    0.9361964666827759
+   ],
+   "never": [
+    0.0,
+    0.0,
+    0.0625,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.09090909090909091,
+    0.0
+   ]
+  },
+  "Indonesian": {
+   "kept_words": 13,
+   "families": 6,
+   "PHI": 1.937007393819055,
+   "null_mean": 0.5386482232489209,
+   "null_sd": 0.2723354962039997,
+   "z": 5.134693016743797,
+   "p": 0.0004997501249375312,
+   "share_never_repeat_E3": 0.5,
+   "share_ratio_ge3": 0.46153846153846156,
+   "examples_never": [
+    "kita"
+   ],
+   "examples_high": [
+    "tuan",
+    "kota",
+    "tengah",
+    "barang",
+    "burung",
+    "kereta"
+   ]
+  },
+  "Malay": {
+   "kept_words": 2,
+   "families": 1,
+   "PHI": NaN,
+   "null_mean": NaN,
+   "null_sd": NaN,
+   "z": NaN,
+   "p": 1.0,
+   "share_never_repeat_E3": 1.0,
+   "share_ratio_ge3": 0.0,
+   "examples_never": [
+    "dan",
+    "dengan"
+   ],
+   "examples_high": []
+  },
+  "Tamil": {
+   "kept_words": 0,
+   "families": 0,
+   "PHI": NaN,
+   "null_mean": NaN,
+   "null_sd": NaN,
+   "z": NaN,
+   "p": 1.0,
+   "share_never_repeat_E3": 0.0,
+   "share_ratio_ge3": 0.0,
+   "examples_never": [],
+   "examples_high": []
+  },
+  "Assamese": {
+   "kept_words": 0,
+   "families": 0,
+   "PHI": NaN,
+   "null_mean": NaN,
+   "null_sd": NaN,
+   "z": NaN,
+   "p": 1.0,
+   "share_never_repeat_E3": 0.0,
+   "share_ratio_ge3": 0.0,
+   "examples_never": [],
+   "examples_high": []
+  },
+  "Malayalam": {
+   "kept_words": 0,
+   "families": 0,
+   "PHI": NaN,
+   "null_mean": NaN,
+   "null_sd": NaN,
+   "z": NaN,
+   "p": 1.0,
+   "share_never_repeat_E3": 0.0,
+   "share_ratio_ge3": 0.0,
+   "examples_never": [],
+   "examples_high": []
+  }
+ },
+ "languages_above_generator": 1,
+ "valid": false,
+ "verdict": "VOID (reference languages do not exceed the generator)",
+ "bayes_factors": {},
+ "locked_test_excluded": [
+  "1",
+  "8",
+  "9",
+  "30",
+  "35",
+  "38",
+  "51",
+  "52",
+  "56",
+  "75",
+  "86",
+  "87",
+  "102",
+  "105",
+  "114"
+ ]
+}
