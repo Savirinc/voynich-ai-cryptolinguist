@@ -1,0 +1,983 @@
+{
+ "experiment": "E052",
+ "languages": {
+  "cs": {
+   "bible": "ces1613",
+   "lm_books": "OT",
+   "letters": [
+    "e",
+    "a",
+    "o",
+    "i",
+    "s",
+    "t",
+    "n",
+    "l",
+    "v",
+    "d",
+    "r",
+    "z",
+    "u",
+    "k",
+    "m",
+    "h",
+    "p",
+    "y",
+    "j",
+    "c",
+    "b",
+    "f",
+    "g"
+   ],
+   "plain_words": 122688,
+   "cracks": [
+    [
+     0.9993320716909718,
+     0.7223993045494059,
+     1.0
+    ],
+    [
+     1.0,
+     0.8235119928931004,
+     1.0
+    ]
+   ],
+   "controls_max": 0.348963545389564,
+   "controls": {
+    "control:generator0": 0.1831151639947051,
+    "control:generator1": 0.2230424084527428,
+    "control:pseudo0": 0.348963545389564,
+    "control:pseudo1": 0.34424603174603174,
+    "control:pseudo2": 0.22839152833428736,
+    "control:pseudo3": 0.22871957367132364,
+    "control:pseudo4": 0.2321275989746511
+   },
+   "validated": true,
+   "threshold": 0.535681424969485,
+   "voynich_lexrate": 0.21418656302054415,
+   "voynich_agreement": 0.8295262671636561,
+   "claim": false
+  },
+  "sh": {
+   "bible": "srp1865",
+   "lm_books": "OT",
+   "letters": [
+    "a",
+    "i",
+    "o",
+    "e",
+    "s",
+    "n",
+    "d",
+    "v",
+    "j",
+    "r",
+    "u",
+    "t",
+    "m",
+    "k",
+    "l",
+    "g",
+    "p",
+    "z",
+    "c",
+    "b",
+    "h",
+    "đ",
+    "f"
+   ],
+   "plain_words": 119428,
+   "cracks": [
+    [
+     1.0,
+     0.7500770416024654,
+     1.0
+    ],
+    [
+     0.999799994285551,
+     0.7532689912826899,
+     1.0
+    ]
+   ],
+   "controls_max": 0.30548264800233305,
+   "controls": {
+    "control:generator0": 0.29517157607045247,
+    "control:generator1": 0.30548264800233305,
+    "control:pseudo0": 0.27157470105172166,
+    "control:pseudo1": 0.2734746862829944,
+    "control:pseudo2": 0.28313078703703703,
+    "control:pseudo3": 0.2679330876098667,
+    "control:pseudo4": 0.28119207186653356
+   },
+   "validated": true,
+   "threshold": 0.5277798448023991,
+   "voynich_lexrate": 0.25666296501943364,
+   "voynich_agreement": 1.0,
+   "claim": false
+  },
+  "sk": {
+   "bible": "slk",
+   "lm_books": "NT gospels+Acts",
+   "letters": [
+    "a",
+    "o",
+    "e",
+    "i",
+    "s",
+    "t",
+    "l",
+    "v",
+    "n",
+    "d",
+    "r",
+    "m",
+    "z",
+    "p",
+    "u",
+    "k",
+    "c",
+    "h",
+    "j",
+    "y",
+    "b",
+    "f",
+    "g"
+   ],
+   "plain_words": 60380,
+   "cracks": [
+    [
+     0.999413817166783,
+     0.732396471819405,
+     1.0
+    ],
+    [
+     0.9990630253258743,
+     0.7305353700133472,
+     1.0
+    ]
+   ],
+   "controls_max": 0.27621338616103014,
+   "controls": {
+    "control:generator0": 0.2076389912992184,
+    "control:generator1": 0.16131920608864347,
+    "control:pseudo0": 0.27621338616103014,
+    "control:pseudo1": 0.2761524190095619,
+    "control:pseudo2": 0.2598436389481166,
+    "control:pseudo3": 0.2757331799884991,
+    "control:pseudo4": 0.2637535816618911
+   },
+   "validated": true,
+   "threshold": 0.5033743780871887,
+   "voynich_lexrate": 0.2502776235424764,
+   "voynich_agreement": 1.0,
+   "claim": false
+  },
+  "uk": {
+   "bible": "ukr1871",
+   "lm_books": "OT",
+   "letters": [
+    "о",
+    "и",
+    "а",
+    "і",
+    "в",
+    "е",
+    "н",
+    "с",
+    "т",
+    "р",
+    "д",
+    "л",
+    "м",
+    "у",
+    "п",
+    "к",
+    "г",
+    "б",
+    "з",
+    "я",
+    "ь",
+    "х",
+    "ж"
+   ],
+   "plain_words": 120628,
+   "cracks": [
+    [
+     1.0,
+     0.7202271588441623,
+     1.0
+    ],
+    [
+     1.0,
+     0.7088878690530824,
+     1.0
+    ]
+   ],
+   "controls_max": 0.3481816854096685,
+   "controls": {
+    "control:generator0": 0.3481816854096685,
+    "control:generator1": 0.3079569249177386,
+    "control:pseudo0": 0.3042671614100185,
+    "control:pseudo1": 0.21535150645624104,
+    "control:pseudo2": 0.26596662830840045,
+    "control:pseudo3": 0.3001703093954016,
+    "control:pseudo4": 0.32518931275896557
+   },
+   "validated": true,
+   "threshold": 0.5285347772313754,
+   "voynich_lexrate": 0.24639089394780678,
+   "voynich_agreement": 1.0,
+   "claim": false
+  },
+  "ro": {
+   "bible": "ron1924",
+   "lm_books": "OT",
+   "letters": [
+    "и",
+    "е",
+    "а",
+    "у",
+    "т",
+    "н",
+    "р",
+    "л",
+    "с",
+    "о",
+    "э",
+    "м",
+    "к",
+    "д",
+    "п",
+    "ы",
+    "ш",
+    "ч",
+    "в",
+    "ф",
+    "я",
+    "ц",
+    "ь"
+   ],
+   "plain_words": 144515,
+   "cracks": [
+    [
+     1.0,
+     0.8578993821712269,
+     1.0
+    ],
+    [
+     1.0,
+     0.8162513162513163,
+     1.0
+    ]
+   ],
+   "controls_max": 0.506919674703952,
+   "controls": {
+    "control:generator0": 0.26834381551362685,
+    "control:generator1": 0.3954100277737173,
+    "control:pseudo0": 0.4462320067739204,
+    "control:pseudo1": 0.42145702902675014,
+    "control:pseudo2": 0.4166786899437311,
+    "control:pseudo3": 0.506919674703952,
+    "control:pseudo4": 0.38265598168288495
+   },
+   "validated": true,
+   "threshold": 0.6615854954776341,
+   "voynich_lexrate": 0.4054691837867851,
+   "voynich_agreement": 0.5306636082704133,
+   "claim": false
+  },
+  "it": {
+   "bible": "ita1885",
+   "lm_books": "OT",
+   "letters": [
+    "e",
+    "i",
+    "a",
+    "o",
+    "l",
+    "n",
+    "r",
+    "t",
+    "s",
+    "d",
+    "c",
+    "u",
+    "p",
+    "g",
+    "m",
+    "v",
+    "f",
+    "h",
+    "b",
+    "q",
+    "z",
+    "j"
+   ],
+   "plain_words": 160307,
+   "cracks": [
+    [
+     1.0,
+     0.8270361041141897,
+     1.0
+    ],
+    [
+     1.0,
+     0.8042594700048773,
+     1.0
+    ]
+   ],
+   "controls_max": 0.34401133947554924,
+   "controls": {
+    "control:generator0": 0.25528525919490297,
+    "control:generator1": 0.19101285941337956,
+    "control:pseudo0": 0.340361874910956,
+    "control:pseudo1": 0.3415784958535888,
+    "control:pseudo2": 0.34401133947554924,
+    "control:pseudo3": 0.34308243727598564,
+    "control:pseudo4": 0.3373219373219373
+   },
+   "validated": true,
+   "threshold": 0.5741354047402133,
+   "voynich_lexrate": 0.3320377568017768,
+   "voynich_agreement": 1.0,
+   "claim": false
+  },
+  "rom": {
+   "bible": "rmc",
+   "lm_books": "OT",
+   "letters": [
+    "a",
+    "e",
+    "o",
+    "r",
+    "s",
+    "l",
+    "n",
+    "i",
+    "d",
+    "k",
+    "h",
+    "t",
+    "p",
+    "v",
+    "m",
+    "u",
+    "c",
+    "j",
+    "z",
+    "b",
+    "g",
+    "f",
+    "x"
+   ],
+   "plain_words": 143559,
+   "cracks": [
+    [
+     0.9999718039812778,
+     0.8447562776957164,
+     1.0
+    ],
+    [
+     1.0,
+     0.8236275401880497,
+     1.0
+    ]
+   ],
+   "controls_max": 0.3732344128977029,
+   "controls": {
+    "control:generator0": 0.30164447924823806,
+    "control:generator1": 0.27713979482468226,
+    "control:pseudo0": 0.3291030942535292,
+    "control:pseudo1": 0.32595027150614464,
+    "control:pseudo2": 0.3210035842293907,
+    "control:pseudo3": 0.3094799489868216,
+    "control:pseudo4": 0.3732344128977029
+   },
+   "validated": true,
+   "threshold": 0.5984309765428764,
+   "voynich_lexrate": 0.35063853414769575,
+   "voynich_agreement": 1.0,
+   "claim": false
+  }
+ },
+ "results": [
+  {
+   "name": "cs:crack0",
+   "lm": "cs",
+   "agreement": 1.0,
+   "lexrate": 0.7223993045494059,
+   "accuracy": 0.9993320716909718,
+   "score": -100584.72980786792
+  },
+  {
+   "name": "cs:crack1",
+   "lm": "cs",
+   "agreement": 1.0,
+   "lexrate": 0.8235119928931004,
+   "accuracy": 1.0,
+   "score": -90199.66857676384
+  },
+  {
+   "name": "cs:control:generator0",
+   "lm": "cs",
+   "agreement": 1.0,
+   "lexrate": 0.1831151639947051,
+   "accuracy": null,
+   "score": -137006.70086826544
+  },
+  {
+   "name": "cs:control:generator1",
+   "lm": "cs",
+   "agreement": 0.28995132015861247,
+   "lexrate": 0.2230424084527428,
+   "accuracy": null,
+   "score": -135250.3943415004
+  },
+  {
+   "name": "cs:control:pseudo0",
+   "lm": "cs",
+   "agreement": 1.0,
+   "lexrate": 0.348963545389564,
+   "accuracy": null,
+   "score": -135351.55508156674
+  },
+  {
+   "name": "cs:control:pseudo1",
+   "lm": "cs",
+   "agreement": 1.0,
+   "lexrate": 0.34424603174603174,
+   "accuracy": null,
+   "score": -136328.30756464213
+  },
+  {
+   "name": "cs:control:pseudo2",
+   "lm": "cs",
+   "agreement": 0.9917183602992902,
+   "lexrate": 0.22839152833428736,
+   "accuracy": null,
+   "score": -134063.59567511932
+  },
+  {
+   "name": "cs:control:pseudo3",
+   "lm": "cs",
+   "agreement": 0.9950650515926425,
+   "lexrate": 0.22871957367132364,
+   "accuracy": null,
+   "score": -133340.08465527894
+  },
+  {
+   "name": "cs:control:pseudo4",
+   "lm": "cs",
+   "agreement": 1.0,
+   "lexrate": 0.2321275989746511,
+   "accuracy": null,
+   "score": -134479.0908981514
+  },
+  {
+   "name": "cs:VOYNICH_A",
+   "lm": "cs",
+   "agreement": 0.8295262671636561,
+   "lexrate": 0.21418656302054415,
+   "accuracy": null,
+   "score": -133951.01296790704
+  },
+  {
+   "name": "sh:crack0",
+   "lm": "sh",
+   "agreement": 1.0,
+   "lexrate": 0.7500770416024654,
+   "accuracy": 1.0,
+   "score": -95108.86132544109
+  },
+  {
+   "name": "sh:crack1",
+   "lm": "sh",
+   "agreement": 1.0,
+   "lexrate": 0.7532689912826899,
+   "accuracy": 0.999799994285551,
+   "score": -95107.21719836017
+  },
+  {
+   "name": "sh:control:generator0",
+   "lm": "sh",
+   "agreement": 0.3562525266136639,
+   "lexrate": 0.29517157607045247,
+   "accuracy": null,
+   "score": -127124.34252907813
+  },
+  {
+   "name": "sh:control:generator1",
+   "lm": "sh",
+   "agreement": 1.0,
+   "lexrate": 0.30548264800233305,
+   "accuracy": null,
+   "score": -127037.27981814765
+  },
+  {
+   "name": "sh:control:pseudo0",
+   "lm": "sh",
+   "agreement": 1.0,
+   "lexrate": 0.27157470105172166,
+   "accuracy": null,
+   "score": -132462.72516067006
+  },
+  {
+   "name": "sh:control:pseudo1",
+   "lm": "sh",
+   "agreement": 1.0,
+   "lexrate": 0.2734746862829944,
+   "accuracy": null,
+   "score": -131425.9180552828
+  },
+  {
+   "name": "sh:control:pseudo2",
+   "lm": "sh",
+   "agreement": 1.0,
+   "lexrate": 0.28313078703703703,
+   "accuracy": null,
+   "score": -131468.95706955256
+  },
+  {
+   "name": "sh:control:pseudo3",
+   "lm": "sh",
+   "agreement": 0.912051395657953,
+   "lexrate": 0.2679330876098667,
+   "accuracy": null,
+   "score": -133585.88543083478
+  },
+  {
+   "name": "sh:control:pseudo4",
+   "lm": "sh",
+   "agreement": 1.0,
+   "lexrate": 0.28119207186653356,
+   "accuracy": null,
+   "score": -132141.34586949646
+  },
+  {
+   "name": "sh:VOYNICH_A",
+   "lm": "sh",
+   "agreement": 1.0,
+   "lexrate": 0.25666296501943364,
+   "accuracy": null,
+   "score": -131867.89135517646
+  },
+  {
+   "name": "sk:crack0",
+   "lm": "sk",
+   "agreement": 1.0,
+   "lexrate": 0.732396471819405,
+   "accuracy": 0.999413817166783,
+   "score": -94414.61207565408
+  },
+  {
+   "name": "sk:crack1",
+   "lm": "sk",
+   "agreement": 1.0,
+   "lexrate": 0.7305353700133472,
+   "accuracy": 0.9990630253258743,
+   "score": -95584.25646388797
+  },
+  {
+   "name": "sk:control:generator0",
+   "lm": "sk",
+   "agreement": 1.0,
+   "lexrate": 0.2076389912992184,
+   "accuracy": null,
+   "score": -127623.6708487976
+  },
+  {
+   "name": "sk:control:generator1",
+   "lm": "sk",
+   "agreement": 1.0,
+   "lexrate": 0.16131920608864347,
+   "accuracy": null,
+   "score": -129144.49454667445
+  },
+  {
+   "name": "sk:control:pseudo0",
+   "lm": "sk",
+   "agreement": 1.0,
+   "lexrate": 0.27621338616103014,
+   "accuracy": null,
+   "score": -128547.5395612828
+  },
+  {
+   "name": "sk:control:pseudo1",
+   "lm": "sk",
+   "agreement": 1.0,
+   "lexrate": 0.2761524190095619,
+   "accuracy": null,
+   "score": -127809.75373942024
+  },
+  {
+   "name": "sk:control:pseudo2",
+   "lm": "sk",
+   "agreement": 1.0,
+   "lexrate": 0.2598436389481166,
+   "accuracy": null,
+   "score": -129049.510261699
+  },
+  {
+   "name": "sk:control:pseudo3",
+   "lm": "sk",
+   "agreement": 0.9856741752281284,
+   "lexrate": 0.2757331799884991,
+   "accuracy": null,
+   "score": -128300.34482248471
+  },
+  {
+   "name": "sk:control:pseudo4",
+   "lm": "sk",
+   "agreement": 1.0,
+   "lexrate": 0.2637535816618911,
+   "accuracy": null,
+   "score": -128005.03079689396
+  },
+  {
+   "name": "sk:VOYNICH_A",
+   "lm": "sk",
+   "agreement": 1.0,
+   "lexrate": 0.2502776235424764,
+   "accuracy": null,
+   "score": -127640.81878073959
+  },
+  {
+   "name": "uk:crack0",
+   "lm": "uk",
+   "agreement": 1.0,
+   "lexrate": 0.7202271588441623,
+   "accuracy": 1.0,
+   "score": -91478.25498903688
+  },
+  {
+   "name": "uk:crack1",
+   "lm": "uk",
+   "agreement": 1.0,
+   "lexrate": 0.7088878690530824,
+   "accuracy": 1.0,
+   "score": -97958.31956050433
+  },
+  {
+   "name": "uk:control:generator0",
+   "lm": "uk",
+   "agreement": 0.946929592376919,
+   "lexrate": 0.3481816854096685,
+   "accuracy": null,
+   "score": -129919.93913799437
+  },
+  {
+   "name": "uk:control:generator1",
+   "lm": "uk",
+   "agreement": 0.8705623520784026,
+   "lexrate": 0.3079569249177386,
+   "accuracy": null,
+   "score": -130115.40839547952
+  },
+  {
+   "name": "uk:control:pseudo0",
+   "lm": "uk",
+   "agreement": 0.23790130134589074,
+   "lexrate": 0.3042671614100185,
+   "accuracy": null,
+   "score": -131688.4503014315
+  },
+  {
+   "name": "uk:control:pseudo1",
+   "lm": "uk",
+   "agreement": 1.0,
+   "lexrate": 0.21535150645624104,
+   "accuracy": null,
+   "score": -132009.30140931145
+  },
+  {
+   "name": "uk:control:pseudo2",
+   "lm": "uk",
+   "agreement": 0.7932069207686906,
+   "lexrate": 0.26596662830840045,
+   "accuracy": null,
+   "score": -131990.12781236015
+  },
+  {
+   "name": "uk:control:pseudo3",
+   "lm": "uk",
+   "agreement": 1.0,
+   "lexrate": 0.3001703093954016,
+   "accuracy": null,
+   "score": -132581.1567187523
+  },
+  {
+   "name": "uk:control:pseudo4",
+   "lm": "uk",
+   "agreement": 0.2637039874852345,
+   "lexrate": 0.32518931275896557,
+   "accuracy": null,
+   "score": -132171.8162207322
+  },
+  {
+   "name": "uk:VOYNICH_A",
+   "lm": "uk",
+   "agreement": 1.0,
+   "lexrate": 0.24639089394780678,
+   "accuracy": null,
+   "score": -132013.9632427193
+  },
+  {
+   "name": "ro:crack0",
+   "lm": "ro",
+   "agreement": 1.0,
+   "lexrate": 0.8578993821712269,
+   "accuracy": 1.0,
+   "score": -74706.6922497134
+  },
+  {
+   "name": "ro:crack1",
+   "lm": "ro",
+   "agreement": 1.0,
+   "lexrate": 0.8162513162513163,
+   "accuracy": 1.0,
+   "score": -83402.81751138506
+  },
+  {
+   "name": "ro:control:generator0",
+   "lm": "ro",
+   "agreement": 1.0,
+   "lexrate": 0.26834381551362685,
+   "accuracy": null,
+   "score": -127754.29257158878
+  },
+  {
+   "name": "ro:control:generator1",
+   "lm": "ro",
+   "agreement": 0.21555562778301426,
+   "lexrate": 0.3954100277737173,
+   "accuracy": null,
+   "score": -123984.75254563245
+  },
+  {
+   "name": "ro:control:pseudo0",
+   "lm": "ro",
+   "agreement": 1.0,
+   "lexrate": 0.4462320067739204,
+   "accuracy": null,
+   "score": -130940.18125743349
+  },
+  {
+   "name": "ro:control:pseudo1",
+   "lm": "ro",
+   "agreement": 0.26593986396287583,
+   "lexrate": 0.42145702902675014,
+   "accuracy": null,
+   "score": -131400.87668661858
+  },
+  {
+   "name": "ro:control:pseudo2",
+   "lm": "ro",
+   "agreement": 1.0,
+   "lexrate": 0.4166786899437311,
+   "accuracy": null,
+   "score": -129289.55075741041
+  },
+  {
+   "name": "ro:control:pseudo3",
+   "lm": "ro",
+   "agreement": 1.0,
+   "lexrate": 0.506919674703952,
+   "accuracy": null,
+   "score": -131916.95456299317
+  },
+  {
+   "name": "ro:control:pseudo4",
+   "lm": "ro",
+   "agreement": 0.1724357342835327,
+   "lexrate": 0.38265598168288495,
+   "accuracy": null,
+   "score": -132055.9734694764
+  },
+  {
+   "name": "ro:VOYNICH_A",
+   "lm": "ro",
+   "agreement": 0.5306636082704133,
+   "lexrate": 0.4054691837867851,
+   "accuracy": null,
+   "score": -129933.11937418609
+  },
+  {
+   "name": "it:crack0",
+   "lm": "it",
+   "agreement": 1.0,
+   "lexrate": 0.8270361041141897,
+   "accuracy": 1.0,
+   "score": -79777.6008628109
+  },
+  {
+   "name": "it:crack1",
+   "lm": "it",
+   "agreement": 1.0,
+   "lexrate": 0.8042594700048773,
+   "accuracy": 1.0,
+   "score": -84230.07259893528
+  },
+  {
+   "name": "it:control:generator0",
+   "lm": "it",
+   "agreement": 0.7902903225806451,
+   "lexrate": 0.25528525919490297,
+   "accuracy": null,
+   "score": -135245.65883355404
+  },
+  {
+   "name": "it:control:generator1",
+   "lm": "it",
+   "agreement": 0.9351170128845648,
+   "lexrate": 0.19101285941337956,
+   "accuracy": null,
+   "score": -127695.19934675659
+  },
+  {
+   "name": "it:control:pseudo0",
+   "lm": "it",
+   "agreement": 1.0,
+   "lexrate": 0.340361874910956,
+   "accuracy": null,
+   "score": -129551.70188010571
+  },
+  {
+   "name": "it:control:pseudo1",
+   "lm": "it",
+   "agreement": 1.0,
+   "lexrate": 0.3415784958535888,
+   "accuracy": null,
+   "score": -130362.74478038322
+  },
+  {
+   "name": "it:control:pseudo2",
+   "lm": "it",
+   "agreement": 1.0,
+   "lexrate": 0.34401133947554924,
+   "accuracy": null,
+   "score": -131803.597863007
+  },
+  {
+   "name": "it:control:pseudo3",
+   "lm": "it",
+   "agreement": 1.0,
+   "lexrate": 0.34308243727598564,
+   "accuracy": null,
+   "score": -131094.47410035922
+  },
+  {
+   "name": "it:control:pseudo4",
+   "lm": "it",
+   "agreement": 1.0,
+   "lexrate": 0.3373219373219373,
+   "accuracy": null,
+   "score": -131112.8687882172
+  },
+  {
+   "name": "it:VOYNICH_A",
+   "lm": "it",
+   "agreement": 1.0,
+   "lexrate": 0.3320377568017768,
+   "accuracy": null,
+   "score": -129418.28164505548
+  },
+  {
+   "name": "rom:crack0",
+   "lm": "rom",
+   "agreement": 1.0,
+   "lexrate": 0.8447562776957164,
+   "accuracy": 0.9999718039812778,
+   "score": -81630.19283952765
+  },
+  {
+   "name": "rom:crack1",
+   "lm": "rom",
+   "agreement": 1.0,
+   "lexrate": 0.8236275401880497,
+   "accuracy": 1.0,
+   "score": -84392.5902938505
+  },
+  {
+   "name": "rom:control:generator0",
+   "lm": "rom",
+   "agreement": 1.0,
+   "lexrate": 0.30164447924823806,
+   "accuracy": null,
+   "score": -124432.91275734779
+  },
+  {
+   "name": "rom:control:generator1",
+   "lm": "rom",
+   "agreement": 1.0,
+   "lexrate": 0.27713979482468226,
+   "accuracy": null,
+   "score": -123713.9536733443
+  },
+  {
+   "name": "rom:control:pseudo0",
+   "lm": "rom",
+   "agreement": 1.0,
+   "lexrate": 0.3291030942535292,
+   "accuracy": null,
+   "score": -134075.5892276121
+  },
+  {
+   "name": "rom:control:pseudo1",
+   "lm": "rom",
+   "agreement": 1.0,
+   "lexrate": 0.32595027150614464,
+   "accuracy": null,
+   "score": -134307.33348823257
+  },
+  {
+   "name": "rom:control:pseudo2",
+   "lm": "rom",
+   "agreement": 1.0,
+   "lexrate": 0.3210035842293907,
+   "accuracy": null,
+   "score": -134791.6039842363
+  },
+  {
+   "name": "rom:control:pseudo3",
+   "lm": "rom",
+   "agreement": 1.0,
+   "lexrate": 0.3094799489868216,
+   "accuracy": null,
+   "score": -135527.43782339568
+  },
+  {
+   "name": "rom:control:pseudo4",
+   "lm": "rom",
+   "agreement": 1.0,
+   "lexrate": 0.3732344128977029,
+   "accuracy": null,
+   "score": -135071.47252799102
+  },
+  {
+   "name": "rom:VOYNICH_A",
+   "lm": "rom",
+   "agreement": 1.0,
+   "lexrate": 0.35063853414769575,
+   "accuracy": null,
+   "score": -133282.9940946382
+  }
+ ],
+ "verdict": "NO CLAIM",
+ "locked_test_excluded": [
+  "1",
+  "102",
+  "105",
+  "114",
+  "30",
+  "35",
+  "38",
+  "51",
+  "52",
+  "56",
+  "75",
+  "8",
+  "86",
+  "87",
+  "9"
+ ]
+}

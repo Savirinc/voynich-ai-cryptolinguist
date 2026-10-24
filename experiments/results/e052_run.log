@@ -1,0 +1,9 @@
+languages: {'cs': ('ces1613', 'OT', 122688), 'sh': ('srp1865', 'OT', 119428), 'sk': ('slk', 'NT gospels+Acts', 60380), 'uk': ('ukr1871', 'OT', 120628), 'ro': ('ron1924', 'OT', 144515), 'it': ('ita1885', 'OT', 160307), 'rom': ('rmc', 'OT', 143559)}
+cs   ces1613  cracks acc/lex [(0.999, 0.722), (1.0, 0.824)] controls max 0.349 -> VALIDATED T=0.536 | Voynich A lexrate 0.214 agreement 0.83 -> no claim
+sh   srp1865  cracks acc/lex [(1.0, 0.75), (1.0, 0.753)] controls max 0.305 -> VALIDATED T=0.528 | Voynich A lexrate 0.257 agreement 1.00 -> no claim
+sk   slk      cracks acc/lex [(0.999, 0.732), (0.999, 0.731)] controls max 0.276 -> VALIDATED T=0.503 | Voynich A lexrate 0.250 agreement 1.00 -> no claim
+uk   ukr1871  cracks acc/lex [(1.0, 0.72), (1.0, 0.709)] controls max 0.348 -> VALIDATED T=0.529 | Voynich A lexrate 0.246 agreement 1.00 -> no claim
+ro   ron1924  cracks acc/lex [(1.0, 0.858), (1.0, 0.816)] controls max 0.507 -> VALIDATED T=0.662 | Voynich A lexrate 0.405 agreement 0.53 -> no claim
+it   ita1885  cracks acc/lex [(1.0, 0.827), (1.0, 0.804)] controls max 0.344 -> VALIDATED T=0.574 | Voynich A lexrate 0.332 agreement 1.00 -> no claim
+rom  rmc      cracks acc/lex [(1.0, 0.845), (1.0, 0.824)] controls max 0.373 -> VALIDATED T=0.598 | Voynich A lexrate 0.351 agreement 1.00 -> no claim
+VERDICT: NO CLAIM

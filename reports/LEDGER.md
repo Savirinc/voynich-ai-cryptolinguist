@@ -283,3 +283,9 @@ with echo or doubling grammar reach Voynich's level, and the generator does not.
 - **C22:** zodiac nymph labels mostly do not repeat across months (29% vs ≥ 50% for day numbers). They are not a
   calendar of numbers.
 - **C23:** label words occur in their own page's text 1.7× more than frequency-matched words.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-24 | E052 validated attack: Czech, Serbian-Croatian, Slovak, Ukrainian, Romanian, Italian, Romani (`SHORTLIST_ATTACK.md`) | All 7 VALIDATED (cracks ≥ 0.999); Voynich A at or below the fakes in every language: NO CLAIM | absence rule: L × 0.885 | 0.0074 | 0.965 | 0.0263 | 0.0012 |
+
+**Searched, not found (VOY23), cumulative:** 10 languages, 0.79 of L-alpha-known.
