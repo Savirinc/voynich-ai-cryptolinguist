@@ -1,0 +1,377 @@
+{
+ "experiment": "E050",
+ "results": [
+  {
+   "name": "VOYNICH_A:seed0",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.5423375902276513,
+   "accuracy": null,
+   "score": -114885.42695304645
+  },
+  {
+   "name": "VOYNICH_A:seed1",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.5423375902276513,
+   "accuracy": null,
+   "score": -114885.42695304645
+  },
+  {
+   "name": "VOYNICH_A:seed2",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.5423375902276513,
+   "accuracy": null,
+   "score": -114885.42695304645
+  },
+  {
+   "name": "CONTROL:pseudo0",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.5307142857142857,
+   "accuracy": null,
+   "score": -116154.42801424848
+  },
+  {
+   "name": "CONTROL:pseudo1",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.5266609637867123,
+   "accuracy": null,
+   "score": -116228.70065215966
+  },
+  {
+   "name": "CONTROL:pseudo2",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.5356886399540428,
+   "accuracy": null,
+   "score": -116101.38631234219
+  },
+  {
+   "name": "CONTROL:pseudo3",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.5345767575322812,
+   "accuracy": null,
+   "score": -115790.81753887728
+  },
+  {
+   "name": "CONTROL:pseudo4",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.5273766976411722,
+   "accuracy": null,
+   "score": -116867.96937748443
+  },
+  {
+   "name": "CONTROL:pseudo5",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.5285959393766085,
+   "accuracy": null,
+   "score": -116032.18311083489
+  },
+  {
+   "name": "CONTROL:pseudo6",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.5275703618609994,
+   "accuracy": null,
+   "score": -116123.82001346903
+  },
+  {
+   "name": "CONTROL:pseudo7",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.5270635033385425,
+   "accuracy": null,
+   "score": -115131.38518575495
+  },
+  {
+   "name": "CONTROL:pseudo8",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.5290194408968355,
+   "accuracy": null,
+   "score": -116578.3195546293
+  },
+  {
+   "name": "CONTROL:pseudo9",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.532504643520503,
+   "accuracy": null,
+   "score": -116096.12838598769
+  },
+  {
+   "name": "CONTROL:pseudo10",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.5498296422487223,
+   "accuracy": null,
+   "score": -115143.70895341378
+  },
+  {
+   "name": "CONTROL:pseudo11",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.5259427275304792,
+   "accuracy": null,
+   "score": -115719.87651074491
+  },
+  {
+   "name": "CONTROL:pseudo12",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.5381755790677724,
+   "accuracy": null,
+   "score": -114359.86494289065
+  },
+  {
+   "name": "CONTROL:pseudo13",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.5295790671217292,
+   "accuracy": null,
+   "score": -116675.78498160205
+  },
+  {
+   "name": "CONTROL:pseudo14",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.5434317501069748,
+   "accuracy": null,
+   "score": -115252.68793384526
+  },
+  {
+   "name": "CONTROL:pseudo15",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.5241854456724558,
+   "accuracy": null,
+   "score": -115792.03780593669
+  },
+  {
+   "name": "CONTROL:pseudo16",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.5073813960154794,
+   "accuracy": null,
+   "score": -115912.23995572004
+  },
+  {
+   "name": "CONTROL:pseudo17",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.5351127604910078,
+   "accuracy": null,
+   "score": -115352.9348663098
+  },
+  {
+   "name": "CONTROL:pseudo18",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.5337344220025785,
+   "accuracy": null,
+   "score": -115903.64025897285
+  },
+  {
+   "name": "CONTROL:pseudo19",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.5330028328611898,
+   "accuracy": null,
+   "score": -115925.64401357701
+  },
+  {
+   "name": "CONTROL:generator0",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.4166543846720707,
+   "accuracy": null,
+   "score": -109491.1695209383
+  },
+  {
+   "name": "CONTROL:generator1",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.4311884935654807,
+   "accuracy": null,
+   "score": -113171.18671710705
+  },
+  {
+   "name": "CONTROL:generator2",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.3976348854397635,
+   "accuracy": null,
+   "score": -111418.1169574568
+  },
+  {
+   "name": "CONTROL:generator3",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.3818849449204406,
+   "accuracy": null,
+   "score": -113461.38921993252
+  },
+  {
+   "name": "CONTROL:generator4",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.40366835669549656,
+   "accuracy": null,
+   "score": -111725.18597215526
+  },
+  {
+   "name": "CONTROL:generator5",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.4197233914612147,
+   "accuracy": null,
+   "score": -112261.60764664072
+  },
+  {
+   "name": "CONTROL:generator6",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.4321916756258639,
+   "accuracy": null,
+   "score": -115060.99613547426
+  },
+  {
+   "name": "CONTROL:generator7",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.41559953434225844,
+   "accuracy": null,
+   "score": -110139.68464226653
+  },
+  {
+   "name": "CONTROL:generator8",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.41704374057315236,
+   "accuracy": null,
+   "score": -110458.22779189948
+  },
+  {
+   "name": "CONTROL:generator9",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.41982116244411327,
+   "accuracy": null,
+   "score": -113679.33219348521
+  },
+  {
+   "name": "CONTROL:generator10",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.3857232310582342,
+   "accuracy": null,
+   "score": -113263.7689442154
+  },
+  {
+   "name": "CONTROL:generator11",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.38035527690700105,
+   "accuracy": null,
+   "score": -114581.53965055608
+  },
+  {
+   "name": "CONTROL:generator12",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.44599248591108326,
+   "accuracy": null,
+   "score": -110792.53820022625
+  },
+  {
+   "name": "CONTROL:generator13",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.4421819262782402,
+   "accuracy": null,
+   "score": -113853.26457444736
+  },
+  {
+   "name": "CONTROL:generator14",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.4259597806215722,
+   "accuracy": null,
+   "score": -111967.32387457928
+  },
+  {
+   "name": "CONTROL:generator15",
+   "lm": "he",
+   "agreement": 0.41858907824689456,
+   "lexrate": 0.5210762331838565,
+   "accuracy": null,
+   "score": -113337.96615297825
+  },
+  {
+   "name": "CONTROL:generator16",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.3665506237307804,
+   "accuracy": null,
+   "score": -116713.18040756864
+  },
+  {
+   "name": "CONTROL:generator17",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.42071651090342677,
+   "accuracy": null,
+   "score": -112309.87317001246
+  },
+  {
+   "name": "CONTROL:generator18",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.36855515587529974,
+   "accuracy": null,
+   "score": -114953.47498548878
+  },
+  {
+   "name": "CONTROL:generator19",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.41416439187139825,
+   "accuracy": null,
+   "score": -112783.90618814
+  },
+  {
+   "name": "POSITIVE:hebrew",
+   "lm": "he",
+   "agreement": 1.0,
+   "lexrate": 0.6213963656237191,
+   "accuracy": 1.0,
+   "score": -102468.8467630057
+  }
+ ],
+ "voynich_mean_lexrate": 0.5423375902276513,
+ "max_control_lexrate": 0.5498296422487223,
+ "part1": "VOYNICH A DOES NOT BEAT ALL CONTROLS",
+ "locked_test_excluded": [
+  "1",
+  "102",
+  "105",
+  "114",
+  "30",
+  "35",
+  "38",
+  "51",
+  "52",
+  "56",
+  "75",
+  "8",
+  "86",
+  "87",
+  "9"
+ ]
+}

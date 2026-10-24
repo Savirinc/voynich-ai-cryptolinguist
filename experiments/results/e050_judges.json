@@ -1,0 +1,4 @@
+{"judge_1": {"A": 1, "B": 1, "C": 9, "D": 1, "E": 1, "F": 1, "G": 1},
+ "judge_2": {"A": 1, "B": 1, "C": 10, "D": 1, "E": 1, "F": 1.5, "G": 1},
+ "labels": {"A": "pseudo-Voynich control 14", "B": "pseudo-Voynich control 12", "C": "positive (real Hebrew, 2 Kings 22:18-20, through VOY23 + attack)", "D": "Voynich f3r", "E": "pseudo-Voynich control 10", "F": "Voynich f2v", "G": "Voynich f2r"},
+ "notes": "Both judges independently identified C as 2 Kings 22:18-20 (Huldah's prophecy) and called every other passage word-salad. Judges were fresh sub-agents with the exact pre-registered prompt and no tools."}

@@ -1,0 +1,6 @@
+Voynich A lexrate per seed [0.542, 0.542, 0.542] mean 0.542; agreement [1.0, 1.0, 1.0]
+  pseudo    controls: min 0.507 median 0.530 max 0.550
+  generator controls: min 0.367 median 0.417 max 0.521
+  positive control (real Hebrew, VOY23): lexrate 0.621 accuracy 1.000
+PART 1: VOYNICH A DOES NOT BEAT ALL CONTROLS
+Part 2 passages written (labels hidden).

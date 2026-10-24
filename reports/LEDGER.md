@@ -256,3 +256,11 @@ margin).
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-24 | E049 validated attack on Voynich A/B (`ATTACK_VOYNICH.md`) | NO CLAIM. Turkish and Latin: searched, not found. Hebrew on A: near miss (lexrate 0.542; bar 0.572; controls max 0.472; real cracks 0.65–0.79) | none | 0.006 | 0.970 | 0.023 | 0.001 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-24 | E050 Hebrew near miss (`HEBREW_NEARMISS.md`) | Part 1: Voynich A (0.542) inside the pseudo-Voynich range (0.507–0.550). Part 2: blind judges valid (real Hebrew scored 9–10, even identified), Voynich pages 1–1.5 like the fakes: NOT DETECTED | none | 0.006 | 0.970 | 0.023 | 0.001 |
+
+**Searched, not found (validated VOY23 class):** Hebrew, Turkish and Latin, each written letter by letter in a
+23-sign script with homophones, spelling slips and intact word order. This is empirical (with power 9/9 on known
+answers and a blind reading), not a logical exclusion.
