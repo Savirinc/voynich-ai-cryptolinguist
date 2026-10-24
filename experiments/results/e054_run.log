@@ -1,0 +1,7 @@
+voynich_herbal_A           pages   76 within 0.256 across 0.216 distant 0.171  D 0.47
+culpeper_real_pages        pages  300 within 0.331 across 0.291 distant 0.281  D 0.80
+culpeper_fake_boundaries   pages  299 within 0.304 across 0.329 distant 0.297  D -3.54
+copy_generator             pages  304 within 0.330 across 0.194 distant 0.141  D 0.72
+voynich_herbal_B           pages   32 within 0.213 across 0.192 distant 0.161  D 0.40
+voynich_stars_paragraphs   pages  247 within 0.103 across 0.090 distant 0.050  D 0.25
+VERDICT: VOID (controls do not behave as required) {}

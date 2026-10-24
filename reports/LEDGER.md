@@ -293,3 +293,7 @@ with echo or doubling grammar reach Voynich's level, and the generator does not.
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-24 | E053 abbreviated Latin, technical and sacred (`ABBREV_LATIN.md`) | Both VALIDATED; Voynich A no better than the fakes: NO CLAIM | absence rule: L × 0.958 | 0.0077 | 0.963 | 0.0274 | 0.0013 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-24 | E054 page-topic boundaries (`PAGE_TOPICS.md`) | VOID: the copy generator also shifts topic at its page breaks (D 0.72); Voynich herbal A D 0.47; Culpeper 0.80 | none | 0.0077 | 0.963 | 0.0274 | 0.0013 |
