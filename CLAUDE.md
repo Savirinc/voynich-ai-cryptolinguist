@@ -42,10 +42,10 @@ Read this first in every session. It carries the full working context; details l
    `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`. Clear background jobs after reading them.
 5. **Occam's rule** (`reports/OCCAM.md`): test the simplest hypothesis first; add a layer only when a measured fact
    forces it.
-6. **Check earlier reports first:** `reports/SUMMARY.md` (E001–E029a), `reports/LEDGER.md`, the reports E030–E067
+6. **Check earlier reports first:** `reports/SUMMARY.md` (E001–E029a), `reports/LEDGER.md`, the reports E030–E068
    (`reports/CLEANUP_ROUND.md` is E059, `reports/INGREDIENT_LINK.md` E060, `reports/STEM_STREAM.md` E061,
    `reports/SCRIBE_TABLES.md` E062, `reports/WIDE_ATTACK.md` E063, `reports/EARLY_AUDIT.md` E064,
-   `reports/SYLLABLE_GONOGO.md` E065, `reports/WORD_INDIVIDUALITY_V3.md` E066, `reports/GIBBERISH_VOCABULARY.md` E067), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
+   `reports/SYLLABLE_GONOGO.md` E065, `reports/WORD_INDIVIDUALITY_V3.md` E066, `reports/GIBBERISH_VOCABULARY.md` E067, `reports/GIBBERISH_BATTERY.md` E068), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
 7. **Known answers first:** every attack must crack synthetic texts of its own class and make **zero false claims**
    on gibberish and wrong-language controls before it touches Voynich.
 8. **Seed check:** any pass or fail within about 0.5 sd gets a seed-replicate check (≥ 8 of 10 seeds) before it is
@@ -86,14 +86,18 @@ Read this first in every session. It carries the full working context; details l
   - `reports/literature/` (four forum reports);
   - `reports/artifacts/` (HTML sources of the published pages).
 
-## 5. Where things stand (2026-10-25, after E067)
-**Ledger** (`reports/LEDGER.md`): **M 0.1932, L 0.7788, C 0.0245, O 0.0036** (after E067).
+## 5. Where things stand (2026-10-25, after E068)
+**Ledger** (`reports/LEDGER.md`): **M 0.0739, L 0.8938, C 0.0281, O 0.0041** (after E068).
 - **M** = meaningless; **L** = a real language in its own script; **C** = cipher or code; **O** = other.
-- **Honest range:** L about 0.07–0.78, M about 0.19–0.87, C about 0.02–0.05. **From the range edges M leads (0.87 vs
-  0.07)**; at the point values L leads (0.78 vs 0.19). A two-horse race; treat M and L symmetrically. E066's × 3 is pre-registered; its empirical ratio is 1.4 (most real languages
+- **Honest range:** L about 0.17–0.89, M about 0.07–0.69, C about 0.03–0.12. **From the range edges M leads (0.69 vs
+  0.17)**; at the point values L leads (0.89 vs 0.07). A two-horse race; treat M and L symmetrically. E066's × 3 is pre-registered; its empirical ratio is 1.4 (most real languages
   are also family-level), which would give M 0.035: the M-versus-L ranking depends on the starting point. E064 withdrew E031 (L × 3); E030 and E032 stand.
 - **Tokenizer defect (E064):** the old Bible loaders split Indic-script words at vowel signs. Use E064's `tok` (letters,
   marks, apostrophes) for any new language work; E051's Tamil/Assamese matches were fragments.
+
+**E068 (scored, M × 1/3):** the same gibberish pages are language-like, not Voynich-like, on word-length spread, letter
+predictability, ending concentration and back-to-back repeats; Voynich-like only on near-copies (NR 1.31). The generator
+has the opposite profile (shapes and endings, no vocabulary). No testable meaningless process has both halves.
 
 **E067 (scored, M × 3):** 36 humans writing gibberish make Voynich's vocabulary richness in 150-token windows (115
 distinct words, 67% one-offs vs Voynich 112 / 62%); Bibles 95 / 47%, generator 94 / 46%. Caveat: 14 of 60 languages
@@ -187,7 +191,7 @@ glyph contexts, bifolio session effect; all confirmed, facts corrected). Still o
 - **Word ledger** (searchable word-frequency table): https://claude.ai/artifact/DkNAGQMGyPWsCcyEFscWLB (source
   `reports/artifacts/voynich_word_ledger.html`).
 
-## 8. Experiment index after the stop rule (E030–E067)
+## 8. Experiment index after the stop rule (E030–E068)
 For E001–E029a see `reports/SUMMARY.md`.
 
 | Exp | Result |
@@ -226,3 +230,4 @@ For E001–E029a see `reports/SUMMARY.md`.
 | E065 | Syllable route go/no-go: NO GO (25 Voynich final classes vs 284–481 final syllables; syllable streams 826–1,499 types vs 6,077). L × 0.921 |
 | E066 | Word individuality v3: VALID (4 languages separate); Voynich FAMILY-LEVEL z −1.2, generator-like. M × 3 (empirical ratio 1.4) |
 | E067 | Human gibberish vocabulary at 150 tokens: LIKE VOYNICH (d +0.28); languages and generator d −1.6. M × 3 |
+| E068 | Human gibberish on WLSD, H2, END5, R, NR: Voynich-like on 1 of 5 (NR). M RULED DOWN, M × 1/3 |

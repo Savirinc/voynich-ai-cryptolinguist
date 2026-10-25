@@ -1,0 +1,9 @@
+gibberish texts with >= 150 tokens: 36
+  WL    Voynich   5.012 (sd 0.319) | languages   4.975 | gibberish   4.914 | generator   4.597 | not diagnostic 
+  WLSD  Voynich   1.708 (sd 0.138) | languages   2.486 | gibberish   2.410 | generator   1.627 | DIAGNOSTIC language-like
+  H2    Voynich   1.983 (sd 0.149) | languages   2.737 | gibberish   2.980 | generator   1.835 | DIAGNOSTIC language-like
+  END5  Voynich   0.933 (sd 0.037) | languages   0.761 | gibberish   0.619 | generator   0.932 | DIAGNOSTIC language-like
+  R     Voynich   1.279 (sd 0.172) | languages   0.158 | gibberish   0.549 | generator   0.791 | DIAGNOSTIC language-like
+  NR    Voynich   1.229 (sd 0.097) | languages   0.528 | gibberish   1.314 | generator   1.230 | DIAGNOSTIC VOYNICH-LIKE
+diagnostic ['WLSD', 'H2', 'END5', 'R', 'NR'] | Voynich-like 1/5
+VERDICT M RULED DOWN (gibberish Voynich-like on at most one diagnostic feature) | M x0.333 | ledger {'M': 0.0739, 'L': 0.8938, 'C': 0.0281, 'O': 0.0041} | 23s

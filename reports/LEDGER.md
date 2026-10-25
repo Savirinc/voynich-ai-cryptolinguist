@@ -443,3 +443,13 @@ from the range edges M 0.87, L 0.07. M's remaining gaps: book-scale vocabulary (
 the line-level facts never tested on human gibberish (near-copies, endings, h2, word length; AS was 0.66 in E045).
 L's gap is unchanged: no non-doubling text repeats like Voynich, and doubling languages show word personalities Voynich
 lacks. The honest headline: **a two-horse race, L ahead at our starting point, M ahead from the edges.**
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-25 | E068 human gibberish on the small-scale battery (`GIBBERISH_BATTERY.md`) | 5 diagnostic features; gibberish Voynich-like on 1 (near-copies NR 1.31 vs Voynich 1.23, languages 0.53), language-like on 4 (word-length spread 2.41 vs 1.71, H2 2.98 vs 1.98 bits, ending concentration 0.62 vs 0.93, back-to-back R 0.55 vs 1.28). Generator matches the four shape features and NR but not R | **M × 1/3** | 0.0739 | 0.8938 | 0.0281 | 0.0041 |
+
+**After E068.** Human free gibberish supplies vocabulary (E067) and near-copies; the copy generator supplies rigid word
+shapes, endings and near-copies; neither supplies exact repeats at Voynich's rate; neither supplies everything. M now
+requires the conjunction "a disciplined invented word-system, used by a free human inventor who also doubles words".
+From the range edges M 0.69, L 0.17. Arham's framing for the day: M is ruled down, not out; the work continues inside
+L with M kept symmetric.
