@@ -461,3 +461,13 @@ L with M kept symmetric.
 **After E069.** Voynich's common words have weak but real partnerships that carry across the book: more than a copying
 process, less than 56 of 60 languages, like languages whose commonest words are grammatical pieces. The first
 grammar-shape test of the unrecorded-language form is a draw.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-25 | E070 content-word partner persistence, ranks 51–250 (`CONTENT_PARTNERS.md`; statistic amended before any real measurement) | Gate passed. Voynich ALL PSO 0.004 (15 of ~860 partner pairs persist; shuffled 13): below every language (min 0.018) and the generator median (0.027). A-only 0.009 vs its generator median 0.008 → safeguard fails by a hair; seed rule 9/10 INCONCLUSIVE | none (rule as written). Partner family closed | 0.0739 | 0.8939 | 0.0281 | 0.0041 |
+
+**After E070 (unscored lean).** Voynich's content-like words have no partnerships that persist across the book, unlike
+all 60 languages. With E066 and E069 this says individual Voynich words carry no persistent association, which is what
+a meaningless process gives. The one alternative that must be tested before this is read against L: a **catalogue**
+text (each entry its own vocabulary: a herbal, a pharmacopoeia) could also lack persistent content partners. Bibles
+are the wrong comparison for that; Culpeper and the Gaskell & Bowern technical texts are the right one. Not yet tested.

@@ -1,0 +1,11 @@
+jobs 213 (statistic: partner-set overlap PSO, band ranks 51-250)
+Voynich ALL PSO 0.004 (raw 0.017, shuffled 0.013) partners h1 423 h2 453 both 15 (shuffled ~373) words 199
+Voynich A   PSO 0.009 (raw 0.009, shuffled 0.000) partners h1 52 h2 61 both 1 (shuffled ~39) words 185
+Voynich B   PSO 0.005 (raw 0.013, shuffled 0.007) partners h1 261 h2 294 both 7 (shuffled ~245) words 199
+languages (ALL): min 0.018 p10 0.036 median 0.058 max 0.142 | grammar-heavy {hboWLC: 0.029, polubg: 0.069, slk: 0.072, azb: 0.060} median 0.065 | bar 0.036
+generator (ALL): median 0.027 max 0.047; below p10 8/10 -> gate PASS
+  secondary A: Voynich 0.009 | bar 0.014 (lang p10 0.014, median 0.052) | gen median 0.008 max 0.019 | 
+  secondary B: Voynich 0.005 | bar 0.038 (lang p10 0.038, median 0.058) | gen median 0.013 max 0.039 | generator-like
+languages: bba 0.14, kik 0.12, indayt 0.12, cekak 0.12, gax 0.09, yap 0.09 ... nld 0.03, arb-vd 0.03, urd 0.03, hun 0.02
+seed rule: ['GENERATOR-LIKE', 'INCONCLUSIVE', 'INCONCLUSIVE', 'INCONCLUSIVE', 'INCONCLUSIVE', 'INCONCLUSIVE', 'INCONCLUSIVE', 'INCONCLUSIVE', 'INCONCLUSIVE', 'INCONCLUSIVE']
+VERDICT INCONCLUSIVE | factors {} | ledger {'M': 0.0739, 'L': 0.8939, 'C': 0.0281, 'O': 0.0041} | 270s
