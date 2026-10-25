@@ -403,3 +403,15 @@ anyway), E061 (Tamil's spread contributed to VOID), E063 (seven languages attack
 claim, but not a test of the real language; the 0.8 coverage assumption absorbs it), E031's PG Telugu row (not
 decisive). Unaffected: E030's primary languages, Hebrew, Arabic, all Latin-script results (apostrophes aside). Numbers in
 earlier reports are left as written; E064 re-measures with a fixed tokenizer.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-25 | E064 re-audit of E030–E032 and E051 re-measurement (`EARLY_AUDIT.md`) | A: 0 of 30 fresh languages do both (max R 1.07 Assamese, max NR 1.52 Oromo) → E031 WITHDRAWN. B: five-scribe generator fails 7/13 (vocabulary 3,948 vs 6,077; one-offs 0.53 vs 0.68; Zipf −0.82 vs −0.65; persistence 0.49 vs 0.26; concentration 0.51 vs 0.29) → E032 stands. C: with correct words 0 of 30 reach AS 0.85 (Tamil 1.01 → 0.10, Assamese 0.87 → 0.75, Malayalam 0.76 → 0.02); BF(M:L) 2.8, no factor; **E045 caution reinstated** | **L × 1/3** (E031 withdrawn) | 0.024 | 0.9445 | 0.0274 | 0.004 |
+
+**After E064.** The early chain E030 → E031 → E032 has lost one link. **Sensitivity: from the range edges (M 0.25,
+L 0.60, C 0.13, O 0.02) the posterior is M 0.42, L 0.33, C 0.22, O 0.03, so M leads.** The M-versus-L ranking depends
+on the starting point inside the agreed ranges, as it did after E030. L's honest range is now about 0.33–0.94; M about
+0.02–0.42. The E051 entry's "Correction" paragraph (caution withdrawn) is itself corrected: the two fresh matches were
+tokenizer fragments; with words, no ordinary prose among about 120 texts reaches Voynich's back-to-back level, and the
+caution that C21 leans towards M stands again. E030's L × 3 stands (Indonesian and Malay reach R ≥ 1.5; none of the 30
+fresh languages does). "Does both" (E031) is a drill-text property across 183 texts, a lead about genre, not language.

@@ -40,9 +40,9 @@ Read this first in every session. It carries the full working context; details l
    `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`. Clear background jobs after reading them.
 5. **Occam's rule** (`reports/OCCAM.md`): test the simplest hypothesis first; add a layer only when a measured fact
    forces it.
-6. **Check earlier reports first:** `reports/SUMMARY.md` (E001–E029a), `reports/LEDGER.md`, the reports E030–E063
+6. **Check earlier reports first:** `reports/SUMMARY.md` (E001–E029a), `reports/LEDGER.md`, the reports E030–E064
    (`reports/CLEANUP_ROUND.md` is E059, `reports/INGREDIENT_LINK.md` E060, `reports/STEM_STREAM.md` E061,
-   `reports/SCRIBE_TABLES.md` E062, `reports/WIDE_ATTACK.md` E063), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
+   `reports/SCRIBE_TABLES.md` E062, `reports/WIDE_ATTACK.md` E063, `reports/EARLY_AUDIT.md` E064), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
 7. **Known answers first:** every attack must crack synthetic texts of its own class and make **zero false claims**
    on gibberish and wrong-language controls before it touches Voynich.
 8. **Seed check:** any pass or fail within about 0.5 sd gets a seed-replicate check (≥ 8 of 10 seeds) before it is
@@ -82,12 +82,17 @@ Read this first in every session. It carries the full working context; details l
   - `reports/literature/` (four forum reports);
   - `reports/artifacts/` (HTML sources of the published pages).
 
-## 5. Where things stand (2026-10-25, after E063; campaign E061–E063 closed)
-**Ledger** (`reports/LEDGER.md`): **M 0.0083, L 0.9808, C 0.0095, O 0.0014** (after E063).
+## 5. Where things stand (2026-10-25, after E064)
+**Ledger** (`reports/LEDGER.md`): **M 0.024, L 0.9445, C 0.0274, O 0.004** (after E064).
 - **M** = meaningless; **L** = a real language in its own script; **C** = cipher or code; **O** = other.
-- **Honest range:** L is about 0.60–0.98; C about 0.01–0.05. L's lead rests partly on early tests (E030–E032).
+- **Honest range:** L about 0.33–0.94, M about 0.02–0.42, C about 0.02–0.22. **From the range edges M leads (0.42 vs
+  0.33)**: the M-versus-L ranking depends on the starting point. E064 withdrew E031 (L × 3); E030 and E032 stand.
+- **Tokenizer defect (E064):** the old Bible loaders split Indic-script words at vowel signs. Use E064's `tok` (letters,
+  marks, apostrophes) for any new language work; E051's Tamil/Assamese matches were fragments.
 
-**Two unscored cautions that lean towards M:**
+**Three unscored cautions that lean towards M:**
+- **C21 (reinstated by E064):** among about 120 meaningful texts, only Indonesian reaches Voynich's back-to-back repeat
+  level; human gibberish (0.66) and the copy generator (0.76–0.81) get most of the way;
 - a 2026 generator (quimqu, voynich.ninja thread-6219) reproduces C9/C21;
 - in E058, Voynich's words repeat as their *families* predict (z −1.1), like the generator, while Indonesian shows
   word-specific behaviour (+4.8).
@@ -124,8 +129,9 @@ Austronesian, African and others; all validated, 0 false claims on 588 controls)
 - **Vocabulary:** 7,060 DEV word types, 69% hapax, 149 words make up half the text.
 - **Units:** glyph-level predictability is below all alphabets, and simple-syllable-like only with glyph groups.
 - **Endings:** about 21–28, combining freely with stems.
-- **Line recurrence:** words recur within lines, with no avoidance of back-to-back repeats (AS ≈ 1). Of about 90
-  meaningful texts, only languages with echo or doubling grammar reach this (Indonesian, Tamil, Assamese).
+- **Line recurrence:** words recur within lines, with no avoidance of back-to-back repeats (AS ≈ 1). Of about 120
+  meaningful texts, only Indonesian (doubling grammar) reaches this; Assamese 0.75 is next. (Tamil and Assamese
+  "matches" in E051 were tokenizer fragments, corrected in E064.)
 - **Alternations:** near-copies come through five alternations (e/ee, r/l, t/k, d±, q±).
   - e = ee at word level only (what follows ee differs from what follows e; E059); t ≈ k; r ≠ l.
   - **q- is a junction form:** it appears mainly after a word ending in -y (E059; location adds nothing).
@@ -145,8 +151,8 @@ glyph contexts, bifolio session effect; all confirmed, facts corrected). Still o
 
 ## 6. Next steps (recommended order; propose one at a time)
 1. ~~Clean-up round~~ done (E059, `CLEANUP_ROUND.md`).
-2. **Re-audit the early ledger factors (E030–E032)** under today's evidence (generator progress, E051, E058), as a
-   pre-registered audit, not hand edits.
+2. ~~Re-audit the early ledger factors~~ done (E064, `EARLY_AUDIT.md`). Open follow-up: a test M can *win* (the
+   symmetric gap): e.g. obtain or re-implement quimqu's generator (thread-6219) and run the 13-feature battery on it.
 3. **Cheap leads:**
    - ~~score the published Naibbe ciphertexts on our battery~~ (E062's single-table rows did it: 10/13 fails);
    - where near-copies come from (first occurrence vs proximity vs neither), controlling for sheet;
@@ -166,7 +172,7 @@ glyph contexts, bifolio session effect; all confirmed, facts corrected). Still o
 - **Word ledger** (searchable word-frequency table): https://claude.ai/artifact/DkNAGQMGyPWsCcyEFscWLB (source
   `reports/artifacts/voynich_word_ledger.html`).
 
-## 8. Experiment index after the stop rule (E030–E063)
+## 8. Experiment index after the stop rule (E030–E064)
 For E001–E029a see `reports/SUMMARY.md`.
 
 | Exp | Result |
@@ -200,4 +206,5 @@ For E001–E029a see `reports/SUMMARY.md`.
 | E060 | Ingredient link (pharma labels in recipes): VOID, Culpeper power control failed (wrong target window). Unscored: labels 71.1% vs matched 68.2%, p 0.24 |
 | E061 | Stems vs padding: VOID (rule uncalibrated). Unscored: stem stream language-like (2,228 stems, 55% hapax), 6–8 sd from padding ciphers and generator |
 | E062 | Verbose cipher with one table per scribe: CLASS FAILS (best 8/13 fails; repeats 0.9× vs 2.6×). C × 1/3 |
-| E063 | Wide validated attack, 49 languages, A and B: NO CLAIM, 49/49 validated. L × 0.94, C × 0.96 |
+| E063 | Wide validated attack, 49 languages, A and B: NO CLAIM, 49/49 validated. L × 0.94, C × 0.96 (7 Indic languages were fragment streams) |
+| E064 | Re-audit: E031 withdrawn (0/30 fresh languages do both) L × 1/3; five-scribe generator fails 7/13, E032 stands; E051 re-measured 0/30 with correct words, C21 caution reinstated |

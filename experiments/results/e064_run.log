@@ -1,0 +1,39 @@
+[Part A] E031 on the 30 E051 languages | Voynich R 2.65 NR 2.10 -> NR bar 1.50
+  asmfb     tokens  650337 R 1.07 NR 0.76 raw 0.0045 near 0.0026 
+  azb       tokens  499404 R 0.38 NR 0.48 raw 0.0011 near 0.0011 
+  bba       tokens  791238 R 0.38 NR 1.10 raw 0.0038 near 0.0463 
+  bqcsim    tokens  564581 R 0.36 NR 0.76 raw 0.0032 near 0.0325 
+  cekak     tokens  828879 R 0.05 NR 0.82 raw 0.0006 near 0.0189 
+  cth       tokens  777648 R 0.04 NR 0.44 raw 0.0005 near 0.0112 
+  dan1931   tokens  661708 R 0.11 NR 0.93 raw 0.0009 near 0.0097 
+  ewe       tokens  766811 R 0.13 NR 0.76 raw 0.0011 near 0.0271 
+  gax       tokens  606718 R 0.23 NR 1.52 raw 0.0010 near 0.0040  borderline
+  hch       tokens  456426 R 0.11 NR 0.93 raw 0.0005 near 0.0004 
+  hil       tokens  828367 R 0.05 NR 0.55 raw 0.0011 near 0.0142 
+  hne       tokens  831287 R 0.18 NR 0.37 raw 0.0020 near 0.0072 
+  iloulb    tokens  764058 R 0.02 NR 0.07 raw 0.0004 near 0.0012 
+  kik       tokens  678197 R 0.06 NR 0.43 raw 0.0005 near 0.0088 
+  lin       tokens  776721 R 0.08 NR 0.25 raw 0.0020 near 0.0071 
+  luo       tokens  639601 R 0.16 NR 0.55 raw 0.0010 near 0.0052 
+  mal       tokens  438865 R 0.10 NR 0.38 raw 0.0005 near 0.0005 
+  meu       tokens  747289 R 0.49 NR 0.72 raw 0.0057 near 0.0132 
+  nheBl     tokens  764944 R 0.03 NR 0.45 raw 0.0005 near 0.0010 
+  nya       tokens  574950 R 0.21 NR 0.32 raw 0.0013 near 0.0016 
+  pan       tokens  799380 R 0.14 NR 0.50 raw 0.0013 near 0.0065 
+  shr       tokens  595647 R 0.66 NR 0.50 raw 0.0020 near 0.0019 
+  sna       tokens  478529 R 0.53 NR 0.55 raw 0.0012 near 0.0011 
+  suzBl     tokens  947416 R 0.44 NR 0.60 raw 0.0040 near 0.0138 
+  swe       tokens 1193265 R 0.13 NR 0.68 raw 0.0009 near 0.0050 
+  tam2017   tokens  432604 R 0.34 NR 0.61 raw 0.0005 near 0.0006 
+  tod       tokens  806249 R 0.19 NR 0.68 raw 0.0020 near 0.0262 
+  uigara    tokens  578348 R 0.40 NR 0.82 raw 0.0011 near 0.0011 
+  urd       tokens  785354 R 0.29 NR 0.30 raw 0.0026 near 0.0075 
+  yap       tokens  979392 R 0.01 NR 0.42 raw 0.0003 near 0.0121 
+[Part B] DEV 3406 lines, 33 hand runs, tokens per hand {'1': 8061, '2': 8838, '3': 10534, '4': 539, '5': 869}
+  Voynich: {'R': 2.6481, 'NR': 2.0975, 'wl_mean': 4.9912, 'types': 6077.0, 'h2': 2.0972, 'I_word': np.float64(0.3865), 'top_word': np.float64(0.2854), 'PERS_30': 0.2643, 'COV_30': 0.9167, 'type_hapax': 0.6781, 'zipf_slope': -0.6525, 'NSUF95': 27.0, 'DIST': 0.3999}
+  five-scribe generator: fails 7 ['wl_mean', 'types', 'top_word', 'PERS_30', 'type_hapax', 'zipf_slope', 'NSUF95'] | borderline ['wl_mean', 'NSUF95'] | z R +2.0 NR -0.5 wl_mean +3.2 types +6.3 h2 +1.7 I_word -1.5 top_word -6.9 PERS_30 -7.2 COV_30 -2.3 type_hapax +11.3 zipf_slope +4.2 NSUF95 +3.1 DIST +0.8
+  seed rule: {'wl_mean': {'fail_votes': 4, 'decided_fail': None}, 'NSUF95': {'fail_votes': 6, 'decided_fail': None}} -> fails 7 ['wl_mean', 'types', 'top_word', 'PERS_30', 'type_hapax', 'zipf_slope', 'NSUF95']
+[Part C] E051 re-measured: k_L(AS>=0.85) 0/30 (was 2), k_M 0, BF(M:L) 2.82 -> factor on M None | top [('asmfb', 0.75), ('shr', 0.4), ('suzBl', 0.36), ('urd', 0.27), ('meu', 0.27), ('bqcsim', 0.25)] | excluded [] | E045 caution REINSTATED
+[Part A] E031 WITHDRAWN (0 of 30 fresh languages do both) | does both: [] | R >= 1.5: []
+[Part B] VERDICT FIVE-SCRIBE GENERATOR FAILS | none (E032 stands)
+LEDGER before {'M': 0.0083, 'L': 0.9808, 'C': 0.0095, 'O': 0.0014} -> after {'M': 0.024, 'L': 0.9445, 'C': 0.0274, 'O': 0.004} | 82s
