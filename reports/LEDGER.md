@@ -423,3 +423,13 @@ fresh languages does). "Does both" (E031) is a drill-text property across 183 te
 **After E065.** Forms of L (shares of L): lost or unrecorded language 0.33, syllable signs 0.20, abbreviation 0.18,
 mixed/other 0.16, letter by letter 0.14. The lead within L has passed to the form that cannot be read with any
 dictionary, only tested on grammar shape. From the range edges M 0.43, L 0.31, C 0.22, O 0.03.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-25 | E066 word-specific self-repetition, v3 with correct words and 60 languages (`WORD_INDIVIDUALITY_V3.md`) | VALID (Tagalog +13.8, Indonesian +4.8, Oromo +4.4, Lingala +4.1 separate from the generator; 15 of 60 measurable). **Voynich FAMILY-LEVEL:** z −1.2 (112 words, 188 / 189 repeats) vs generator median +0.55, max +2.0 | **M × 3** (pre-registered). Empirical ratio only 1.4: 11 of 15 measurable languages are also family-level | 0.0739 | 0.8939 | 0.0281 | 0.0041 |
+
+**After E066.** First scored result that M wins. From the range edges: M 0.70, L 0.17, C 0.12. With the empirical ratio
+(× 1.4) instead of the pre-registered × 3: M 0.035, L 0.93. Either way M is now above C for the first time since E032. The
+per-word-repeat family is closed (E057, E058, E066). What M still lacks is a procedure that makes Voynich's vocabulary
+(E064 Part B); what L still lacks is any text, in any language or genre, that repeats like Voynich without a doubling
+grammar, and the doubling languages (Indonesian, Tagalog) show word personalities Voynich does not.

@@ -1,8 +1,66 @@
 jobs: 1 Voynich, 20 generator, 60 languages (too short: [])
-Traceback (most recent call last):
-  File "/Users/arhampartapjain/voynich-ai-cryptolinguist/experiments/e066_word_individuality_v3.py", line 126, in <module>
-    main()
-  File "/Users/arhampartapjain/voynich-ai-cryptolinguist/experiments/e066_word_individuality_v3.py", line 83, in main
-    R[kind][name] = r
-    ~^^^^^^
-KeyError: 'language'
+Voynich: words 112 fam 35 O 188 E 189 z -1.2 p 0.8836
+   watch (O, E): {'dal': [1, 2.9], 'shey': [1, 3.6], 'saiin': [0, 0.4], 'okaiin': [6, 4.4], 'daiin': [11, 21.8], 'chol': [15, 9.3], 'qokeedy': [16, 9.1], 'qokeey': [11, 7.4], 'chedy': [8, 10.0], 'shedy': [9, 8.9], 'dy': [8, 5.2], 'ol': [8, 11.0], 'aiin': [0, 6.5]}
+generator z (10) [2.0, 0.1, 0.3, 0.2, -0.3, 1.7, 0.8, 1.5, 0.3, 0.9] | reserve [0.8, 2.3, 1.2, -0.1, 0.5, 1.4, 0.9, 1.4, 1.0, 0.3]
+  tglulb     words   33 fam  11 O    7 E  102.8 z +13.8 p 0.0005 MEASURABLE SEPARATES
+  indayt     words   72 fam  29 O   92 E  102.8 z  +4.8 p 0.0005 MEASURABLE SEPARATES
+  gax        words   70 fam  31 O   10 E   49.9 z  +4.4 p 0.0045 MEASURABLE SEPARATES
+  lin        words   53 fam  23 O   16 E   33.4 z  +4.1 p 0.0030 MEASURABLE SEPARATES
+  cekak      words   52 fam  22 O    5 E  113.3 z  +2.9 p 0.0260 MEASURABLE
+  kik        words   44 fam  20 O    4 E  223.5 z  +2.4 p 0.0500 MEASURABLE
+  hch        words   79 fam  33 O    2 E   66.5 z  +2.1 p 0.0500 MEASURABLE
+  zlmKSZI    words   67 fam  30 O  105 E   68.5 z  +1.8 p 0.0535 MEASURABLE
+  shr        words   50 fam  22 O    8 E   44.6 z  +1.1 p 0.1299 MEASURABLE
+  nld        words   42 fam  15 O    2 E  183.5 z  +0.8 p 0.2099 MEASURABLE
+  meu        words   68 fam  27 O    5 E  121.6 z  +0.3 p 0.3088 MEASURABLE
+  cth        words   50 fam  23 O    3 E   71.1 z  +0.1 p 0.3658 MEASURABLE
+  cebulb     words   43 fam  18 O    1 E   71.6 z  -0.2 p 0.6252 MEASURABLE
+  swhulb     words   52 fam  22 O   11 E   69.8 z  -0.3 p 0.5397 MEASURABLE
+  tam2017    words   74 fam  29 O    3 E   68.1 z  -0.3 p 0.6267 MEASURABLE
+  arb-vd     words   44 fam  19 O    1 E   25.4 z  +1.2 p 0.1339 not measurable
+  asmfb      words   20 fam  10 O    0 E   22.5 z  +nan p 1.0000 not measurable
+  azb        words   24 fam  11 O    0 E    7.6 z  +nan p 1.0000 not measurable
+  bba        words   22 fam  10 O   10 E   15.7 z  +0.7 p 0.2069 not measurable
+  bqcsim     words    8 fam   4 O    1 E    2.5 z  +0.2 p 0.4903 not measurable
+  ces1613    words    6 fam   3 O    0 E    3.7 z  +nan p 1.0000 not measurable
+  dan1931    words   16 fam   7 O    1 E   13.2 z  -0.3 p 0.5972 not measurable
+  deu1912    words   38 fam  18 O    1 E   28.4 z  -0.2 p 0.6137 not measurable
+  eng-kjv    words   18 fam   9 O    1 E   10.2 z  -0.1 p 0.5112 not measurable
+  ewe        words   16 fam   7 O    4 E    6.7 z  +0.5 p 0.2184 not measurable
+  fraLSG     words   17 fam   8 O    4 E   10.6 z  +0.3 p 0.3128 not measurable
+  grcbyz     words    7 fam   3 O    0 E    5.2 z  +nan p 1.0000 not measurable
+  hausa      words   19 fam   9 O    1 E    7.6 z  +0.0 p 0.5177 not measurable
+  haw1868    words   16 fam   7 O    3 E   78.7 z  -0.1 p 0.5847 not measurable
+  hboWLC     words    4 fam   2 O    0 E    1.1 z  +nan p 1.0000 not measurable
+  hil        words   10 fam   5 O    6 E    9.3 z  +0.2 p 0.3228 not measurable
+  hne        words   11 fam   5 O    0 E    4.0 z  +nan p 1.0000 not measurable
+  hrv        words   12 fam   6 O    0 E    5.4 z  +nan p 1.0000 not measurable
+  hun        words   10 fam   5 O    0 E    3.5 z  +nan p 1.0000 not measurable
+  iloulb     words   27 fam  11 O    0 E   17.1 z  +nan p 1.0000 not measurable
+  ita1885    words   24 fam  12 O    3 E   11.5 z  +0.1 p 0.3898 not measurable
+  latVUC     words   14 fam   7 O    3 E  130.2 z  +0.6 p 0.2099 not measurable
+  luo        words   32 fam  15 O    6 E   15.5 z  +2.0 p 0.0465 not measurable
+  mal        words   21 fam   8 O    0 E   12.1 z  +nan p 1.0000 not measurable
+  mri2012    words   25 fam  11 O    0 E   13.0 z  +nan p 1.0000 not measurable
+  nheBl      words   45 fam  17 O    9 E   24.1 z  +1.4 p 0.0960 not measurable
+  nya        words   24 fam  11 O    4 E   15.8 z  +0.8 p 0.1749 not measurable
+  pan        words    6 fam   3 O    1 E    3.0 z  -0.2 p 0.6072 not measurable
+  polubg     words   14 fam   7 O    1 E    3.9 z  -0.2 p 0.6027 not measurable
+  rmc        words   17 fam   8 O    1 E    8.2 z  -0.2 p 0.5917 not measurable
+  ron1924    words   12 fam   5 O    2 E    9.4 z  +2.2 p 0.0430 not measurable
+  slk        words    0 fam   0 O    0 E    0.0 z  +nan p 1.0000 not measurable
+  sna        words   40 fam  15 O    4 E   24.2 z  +0.0 p 0.4063 not measurable
+  srp1865    words   12 fam   6 O    1 E   14.1 z  +0.2 p 0.4953 not measurable
+  suzBl      words    2 fam   1 O   10 E    4.3 z  -0.7 p 0.7846 not measurable
+  swe        words   22 fam  10 O    2 E   18.2 z  +1.0 p 0.2009 not measurable
+  tod        words   23 fam  11 O    4 E   25.0 z  +0.6 p 0.2459 not measurable
+  ton        words   26 fam  13 O    1 E   14.8 z  -0.2 p 0.5902 not measurable
+  turytc     words   35 fam  16 O    1 E   14.1 z  +1.4 p 0.1949 not measurable
+  uigara     words   31 fam  14 O    4 E   22.9 z  -0.7 p 0.7471 not measurable
+  ukr1871    words    4 fam   2 O    0 E    1.8 z  +nan p 1.0000 not measurable
+  urd        words   12 fam   6 O    1 E   12.2 z  -0.3 p 0.6302 not measurable
+  yap        words   20 fam   9 O    1 E    8.7 z  -0.1 p 0.5547 not measurable
+  ydd        words   14 fam   6 O    0 E   11.6 z  +nan p 1.0000 not measurable
+  yor        words   14 fam   6 O    9 E   11.5 z  -0.0 p 0.3888 not measurable
+measurable 15/60; separating from generator: 4 ['gax', 'indayt', 'lin', 'tglulb']
+VERDICT FAMILY-LEVEL (generator-like) | M x3 | ledger {'M': 0.0739, 'L': 0.8939, 'C': 0.0281, 'O': 0.0041} | 24s
