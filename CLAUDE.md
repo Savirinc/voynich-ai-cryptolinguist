@@ -42,10 +42,10 @@ Read this first in every session. It carries the full working context; details l
    `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`. Clear background jobs after reading them.
 5. **Occam's rule** (`reports/OCCAM.md`): test the simplest hypothesis first; add a layer only when a measured fact
    forces it.
-6. **Check earlier reports first:** `reports/SUMMARY.md` (E001–E029a), `reports/LEDGER.md`, the reports E030–E068
+6. **Check earlier reports first:** `reports/SUMMARY.md` (E001–E029a), `reports/LEDGER.md`, the reports E030–E069
    (`reports/CLEANUP_ROUND.md` is E059, `reports/INGREDIENT_LINK.md` E060, `reports/STEM_STREAM.md` E061,
    `reports/SCRIBE_TABLES.md` E062, `reports/WIDE_ATTACK.md` E063, `reports/EARLY_AUDIT.md` E064,
-   `reports/SYLLABLE_GONOGO.md` E065, `reports/WORD_INDIVIDUALITY_V3.md` E066, `reports/GIBBERISH_VOCABULARY.md` E067, `reports/GIBBERISH_BATTERY.md` E068), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
+   `reports/SYLLABLE_GONOGO.md` E065, `reports/WORD_INDIVIDUALITY_V3.md` E066, `reports/GIBBERISH_VOCABULARY.md` E067, `reports/GIBBERISH_BATTERY.md` E068, `reports/WORD_PARTNERS.md` E069), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
 7. **Known answers first:** every attack must crack synthetic texts of its own class and make **zero false claims**
    on gibberish and wrong-language controls before it touches Voynich.
 8. **Seed check:** any pass or fail within about 0.5 sd gets a seed-replicate check (≥ 8 of 10 seeds) before it is
@@ -86,7 +86,7 @@ Read this first in every session. It carries the full working context; details l
   - `reports/literature/` (four forum reports);
   - `reports/artifacts/` (HTML sources of the published pages).
 
-## 5. Where things stand (2026-10-25, after E068)
+## 5. Where things stand (2026-10-25, after E069; ledger unchanged by E069)
 **Ledger** (`reports/LEDGER.md`): **M 0.0739, L 0.8938, C 0.0281, O 0.0041** (after E068).
 - **M** = meaningless; **L** = a real language in its own script; **C** = cipher or code; **O** = other.
 - **Honest range:** L about 0.17–0.89, M about 0.07–0.69, C about 0.03–0.12. **From the range edges M leads (0.69 vs
@@ -165,6 +165,9 @@ Austronesian, African and others; all validated, 0 false claims on 588 controls)
   show the least (E059 restated C23). Same-label pharma drawings do not look alike (E055). Repeated labels are often
   common words (dar, okaiin).
 - **Word order:** weak but not scrambled (like hymns or Psalms).
+- **Word partners (E069):** the 200 commonest words keep weak partnerships across the two halves of the book (STAB
+  0.073): more than the copy generator (≤ 0.053), less than 56 of 60 languages; like Hebrew, Polish, Slovak,
+  Azerbaijani, whose commonest words are grammatical pieces. No pair is a strong partner in both halves.
 
 **Re-test queue from the forum sweep** (`FORUM_SYNTHESIS.md`): E059 settled the first three (line position, e/ee/eee
 glyph contexts, bifolio session effect; all confirmed, facts corrected). Still open: C3 depends on glyph grouping.
@@ -191,7 +194,7 @@ glyph contexts, bifolio session effect; all confirmed, facts corrected). Still o
 - **Word ledger** (searchable word-frequency table): https://claude.ai/artifact/DkNAGQMGyPWsCcyEFscWLB (source
   `reports/artifacts/voynich_word_ledger.html`).
 
-## 8. Experiment index after the stop rule (E030–E068)
+## 8. Experiment index after the stop rule (E030–E069)
 For E001–E029a see `reports/SUMMARY.md`.
 
 | Exp | Result |
@@ -231,3 +234,4 @@ For E001–E029a see `reports/SUMMARY.md`.
 | E066 | Word individuality v3: VALID (4 languages separate); Voynich FAMILY-LEVEL z −1.2, generator-like. M × 3 (empirical ratio 1.4) |
 | E067 | Human gibberish vocabulary at 150 tokens: LIKE VOYNICH (d +0.28); languages and generator d −1.6. M × 3 |
 | E068 | Human gibberish on WLSD, H2, END5, R, NR: Voynich-like on 1 of 5 (NR). M RULED DOWN, M × 1/3 |
+| E069 | Word-partner persistence across halves: Voynich 0.073, above all generator stretches (≤ 0.053), below 56/60 languages (p10 0.083). INCONCLUSIVE, no factor |

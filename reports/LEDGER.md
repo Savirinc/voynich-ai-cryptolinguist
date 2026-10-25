@@ -453,3 +453,11 @@ shapes, endings and near-copies; neither supplies exact repeats at Voynich's rat
 requires the conjunction "a disciplined invented word-system, used by a free human inventor who also doubles words".
 From the range edges M 0.69, L 0.17. Arham's framing for the day: M is ruled down, not out; the work continues inside
 L with M kept symmetric.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-25 | E069 word-partner persistence across halves (`WORD_PARTNERS.md`) | Gate passed (10/10 generator below language p10). Voynich ALL STAB 0.073: above every generator stretch (max 0.053), below the languages' 10th percentile (0.083); seed rule 9/10 INCONCLUSIVE. A-only 0.023 generator-like at its size; B-only 0.044 between. Only Polish, Slovak, Azerbaijani, Hebrew score as low | none | 0.0739 | 0.8939 | 0.0281 | 0.0041 |
+
+**After E069.** Voynich's common words have weak but real partnerships that carry across the book: more than a copying
+process, less than 56 of 60 languages, like languages whose commonest words are grammatical pieces. The first
+grammar-shape test of the unrecorded-language form is a draw.
