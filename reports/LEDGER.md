@@ -359,3 +359,11 @@ range (0.60) is the more defensible reading.
 **Unscored observation after E060.** Pharma labels appear in the recipe section exactly as often as other words of
 their frequency from the same pages. If they name ingredients, the recipes do not use them more than chance. The
 test could not show its own power, so this is a lean, not a score.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-25 | E061 stems versus padding (`STEM_STREAM.md`) | VOID: the padding controls could not pass the pre-registered rule (languages too spread for a 3-sd bar); Caesar control passed. Unscored: Voynich stem stream is inside the language range (2,228 stems, 892 cover 95%, 55% hapax) and 6–8 sd from padding ciphers and the generator | none | 0.0077 | 0.963 | 0.0274 | 0.0013 |
+
+**Unscored observation after E061.** The stems are not a small code alphabet: removing the endings leaves a language-
+sized, language-shaped stem vocabulary. Endings do account for more of the word variety than in any language
+(collapse 0.37 vs ≥ 0.48), consistent with C14, but they are not nulls. The step-3 attack is built on words.
