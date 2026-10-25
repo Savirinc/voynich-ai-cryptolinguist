@@ -433,3 +433,13 @@ dictionary, only tested on grammar shape. From the range edges M 0.43, L 0.31, C
 per-word-repeat family is closed (E057, E058, E066). What M still lacks is a procedure that makes Voynich's vocabulary
 (E064 Part B); what L still lacks is any text, in any language or genre, that repeats like Voynich without a doubling
 grammar, and the doubling languages (Indonesian, Tagalog) show word personalities Voynich does not.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-25 | E067 human gibberish vocabulary growth at 150-token windows (`GIBBERISH_VOCABULARY.md`) | GIBBERISH LIKE VOYNICH: 36 writers T 115.2, H 0.67 vs Voynich 112.1 ± 11.0, 0.62 (d_T +0.28, d_H +0.59); 60 Bibles 94.5 / 0.47 (d −1.60), generator 93.8 / 0.46 (d −1.67). Caveats: 14 of 60 languages (Hebrew, Tamil, Arabic, Turkish…) are as rich; writers scatter 71–148; 150 tokens only | **M × 3** | 0.1932 | 0.7788 | 0.0245 | 0.0036 |
+
+**After E067.** Two scored wins for M in a row (E066, E067), both weak by design. At the point values L 0.78, M 0.19;
+from the range edges M 0.87, L 0.07. M's remaining gaps: book-scale vocabulary (no human sample is long enough), and
+the line-level facts never tested on human gibberish (near-copies, endings, h2, word length; AS was 0.66 in E045).
+L's gap is unchanged: no non-doubling text repeats like Voynich, and doubling languages show word personalities Voynich
+lacks. The honest headline: **a two-horse race, L ahead at our starting point, M ahead from the edges.**

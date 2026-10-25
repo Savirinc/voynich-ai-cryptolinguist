@@ -1,0 +1,9 @@
+gibberish texts 38, with >= 150 tokens: 36; dropped ['Gibberish - DC_23.txt', 'Gibberish - DC_24.txt']
+Voynich windows: T 112.1 ± 11.0, H 0.615 ± 0.093, BETA 0.858
+languages (60, mean of language means): d_T -1.60 d_H -1.58 | T 94.5 H 0.469
+gibberish (36 writers): d_T +0.28 d_H +0.59 d_BETA +0.57 | T 115.2 H 0.671
+G&B meaningful (71 texts): d_T -1.17 d_H -1.04 | T 99.2
+generator (200 windows): d_T -1.67 d_H -1.69 | T 93.8 H 0.458
+richest languages at 150: hboWLC 132, shr 119, tam2017 119, arb-vd 118, uigara 118, sna 116, turytc 114, slk 112
+gibberish writers T: 114 82 140 87 113 121 101 78 128 118 116 128 125 137 118 94 82 125 123 122 139 114 126 146 144 71 91 95 134 143 148 77 116 129 122 101
+VERDICT GIBBERISH LIKE VOYNICH | M x3 | ledger {'M': 0.1932, 'L': 0.7788, 'C': 0.0245, 'O': 0.0036} | 25s
