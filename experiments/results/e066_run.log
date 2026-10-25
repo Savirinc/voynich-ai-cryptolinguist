@@ -1,0 +1,8 @@
+jobs: 1 Voynich, 20 generator, 60 languages (too short: [])
+Traceback (most recent call last):
+  File "/Users/arhampartapjain/voynich-ai-cryptolinguist/experiments/e066_word_individuality_v3.py", line 126, in <module>
+    main()
+  File "/Users/arhampartapjain/voynich-ai-cryptolinguist/experiments/e066_word_individuality_v3.py", line 83, in main
+    R[kind][name] = r
+    ~^^^^^^
+KeyError: 'language'
