@@ -1,0 +1,107 @@
+DEV prose clean tokens 28841, with scribe 28381; locked leaves excluded: ['1', '8', '9', '30', '35', '38', '51', '52', '56', '75', '86', '87', '102', '105', '114']
+/Users/arhampartapjain/voynich-ai-cryptolinguist/experiments/e059_cleanup_round.py:129: RuntimeWarning: divide by zero encountered in matmul
+  eta = np.clip(X @ b, -30, 30)
+/Users/arhampartapjain/voynich-ai-cryptolinguist/experiments/e059_cleanup_round.py:129: RuntimeWarning: overflow encountered in matmul
+  eta = np.clip(X @ b, -30, 30)
+/Users/arhampartapjain/voynich-ai-cryptolinguist/experiments/e059_cleanup_round.py:129: RuntimeWarning: invalid value encountered in matmul
+  eta = np.clip(X @ b, -30, 30)
+/Users/arhampartapjain/voynich-ai-cryptolinguist/experiments/e059_cleanup_round.py:136: RuntimeWarning: divide by zero encountered in matmul
+  eta = np.clip(X @ beta, -30, 30)
+/Users/arhampartapjain/voynich-ai-cryptolinguist/experiments/e059_cleanup_round.py:136: RuntimeWarning: overflow encountered in matmul
+  eta = np.clip(X @ beta, -30, 30)
+/Users/arhampartapjain/voynich-ai-cryptolinguist/experiments/e059_cleanup_round.py:136: RuntimeWarning: invalid value encountered in matmul
+  eta = np.clip(X @ beta, -30, 30)
+/Users/arhampartapjain/voynich-ai-cryptolinguist/experiments/e059_cleanup_round.py:141: RuntimeWarning: divide by zero encountered in matmul
+  A = XtW @ X + ridge * np.eye(k)
+/Users/arhampartapjain/voynich-ai-cryptolinguist/experiments/e059_cleanup_round.py:141: RuntimeWarning: overflow encountered in matmul
+  A = XtW @ X + ridge * np.eye(k)
+/Users/arhampartapjain/voynich-ai-cryptolinguist/experiments/e059_cleanup_round.py:141: RuntimeWarning: invalid value encountered in matmul
+  A = XtW @ X + ridge * np.eye(k)
+/Users/arhampartapjain/voynich-ai-cryptolinguist/experiments/e059_cleanup_round.py:142: RuntimeWarning: divide by zero encountered in matmul
+  new = np.linalg.solve(A, XtW @ z)
+/Users/arhampartapjain/voynich-ai-cryptolinguist/experiments/e059_cleanup_round.py:142: RuntimeWarning: overflow encountered in matmul
+  new = np.linalg.solve(A, XtW @ z)
+/Users/arhampartapjain/voynich-ai-cryptolinguist/experiments/e059_cleanup_round.py:142: RuntimeWarning: invalid value encountered in matmul
+  new = np.linalg.solve(A, XtW @ z)
+[A1 e/ee] n 5377 pairs 73 D0 5449.4 full 5281.4 (6s)
+   POS    df  2 LRT     11.4 p 3.41e-03 share 0.0021 excess 0.0018 ci [0.0004388985213076308, 0.0047542154921456515] -> ABSENT
+   PARA   df  1 LRT      5.3 p 2.18e-02 share 0.0010 excess 0.0008 ci [-0.00014580993304474644, 0.003039389450586451] -> ABSENT
+   PREVY  df  1 LRT      2.5 p 1.12e-01 share 0.0005 excess 0.0003 ci [-0.00014660250907916735, 0.0016203131820992627] -> ABSENT
+   HAND   df  4 LRT      0.9 p 9.32e-01 share 0.0002 excess -0.0005 ci [-0.0005756548380224561, 0.0015629814508796014] -> ABSENT
+   QUIRE  df 15 LRT     35.0 p 2.47e-03 share 0.0064 excess 0.0034 ci [0.0005295405597095023, 0.008947084382466946] -> ABSENT
+   SEC    df  6 LRT      7.3 p 2.92e-01 share 0.0013 excess 0.0001 ci [-0.0010351273290040875, 0.0026519242046363144] -> ABSENT
+   => e/ee: reported
+[A1 r/l] n 6791 pairs 96 D0 8702.8 full 8405.3 (7s)
+   POS    df  2 LRT     31.1 p 1.81e-07 share 0.0036 excess 0.0033 ci [0.0014779731961148182, 0.0067145098352159] -> TRACE
+   PARA   df  1 LRT     11.4 p 7.36e-04 share 0.0013 excess 0.0012 ci [3.9399169143169916e-05, 0.0029398859229010517] -> TRACE
+   PREVY  df  1 LRT      0.0 p 9.57e-01 share 0.0000 excess -0.0001 ci [-0.00012936330811255366, 0.0003829066957057164] -> ABSENT
+   HAND   df  4 LRT     13.5 p 8.94e-03 share 0.0016 excess 0.0011 ci [-0.00024071946648964728, 0.0037636563588064236] -> ABSENT
+   QUIRE  df 15 LRT     60.5 p 2.06e-07 share 0.0070 excess 0.0053 ci [0.0022040853566552593, 0.01039822682973289] -> TRACE
+   SEC    df  6 LRT      3.9 p 6.95e-01 share 0.0004 excess -0.0002 ci [-0.0005347317935968231, 0.0011199478226987176] -> ABSENT
+   => r/l: C19 NOT REPRODUCED
+[A1 t/k] n 7926 pairs 124 D0 9653.9 full 9360.4 (12s)
+   POS    df  2 LRT     35.4 p 2.01e-08 share 0.0037 excess 0.0035 ci [0.0012401190198706256, 0.006965453356268467] -> TRACE
+   PARA   df  1 LRT     62.3 p 2.90e-15 share 0.0065 excess 0.0063 ci [0.003416539546541898, 0.012130658648041833] -> TRACE
+   PREVY  df  1 LRT      4.3 p 3.87e-02 share 0.0004 excess 0.0003 ci [-9.44342248912658e-05, 0.001319310808328396] -> ABSENT
+   HAND   df  4 LRT     45.2 p 3.66e-09 share 0.0047 excess 0.0042 ci [0.0007416726856064514, 0.010775627887450354] -> TRACE
+   QUIRE  df 15 LRT     54.8 p 1.90e-06 share 0.0057 excess 0.0041 ci [0.0021445451104071646, 0.01109008653202431] -> TRACE
+   SEC    df  6 LRT     11.3 p 8.07e-02 share 0.0012 excess 0.0005 ci [-0.0005070543595791647, 0.0027737007598981] -> ABSENT
+   => t/k: reported
+[A1 d+-] n 12504 pairs 143 D0 13572.4 full 12770.7 (27s)
+   POS    df  2 LRT    207.6 p 8.36e-46 share 0.0153 excess 0.0152 ci [0.01106240253983263, 0.021015406949145235] -> PRESENT
+   PARA   df  1 LRT     21.4 p 3.65e-06 share 0.0016 excess 0.0015 ci [0.0003093161531887569, 0.0029110400561209652] -> TRACE
+   PREVY  df  1 LRT    251.5 p 1.21e-56 share 0.0185 excess 0.0185 ci [0.014629217860505597, 0.025014520715687116] -> PRESENT
+   HAND   df  4 LRT      1.9 p 7.63e-01 share 0.0001 excess -0.0002 ci [-0.0002522326364895455, 0.001787850354039409] -> ABSENT
+   QUIRE  df 15 LRT     55.8 p 1.30e-06 share 0.0041 excess 0.0030 ci [0.0016229981354436741, 0.007192132746462535] -> TRACE
+   SEC    df  6 LRT     49.7 p 5.39e-09 share 0.0037 excess 0.0032 ci [0.0002470452744892662, 0.005580251950490667] -> TRACE
+   => d+-: C18 WAS A LINE ARTEFACT
+[A1 q+-] n 7242 pairs 85 D0 8891.7 full 7833.8 (8s)
+   POS    df  2 LRT    215.3 p 1.74e-47 share 0.0242 excess 0.0240 ci [0.015597089420472412, 0.03326517754754736] -> PRESENT
+   PARA   df  1 LRT      8.8 p 3.06e-03 share 0.0010 excess 0.0009 ci [-8.488137725950465e-06, 0.003278867255980736] -> ABSENT
+   PREVY  df  1 LRT    668.7 p 1.87e-147 share 0.0752 excess 0.0751 ci [0.058854480907232706, 0.0874562835572475] -> PRESENT
+   HAND   df  4 LRT     18.8 p 8.77e-04 share 0.0021 excess 0.0017 ci [-6.217557626658928e-05, 0.006688757296753985] -> TRACE
+   QUIRE  df 15 LRT     26.9 p 2.95e-02 share 0.0030 excess 0.0012 ci [0.0005693385910762462, 0.008384823427973054] -> ABSENT
+   SEC    df  6 LRT     17.9 p 6.49e-03 share 0.0020 excess 0.0013 ci [-0.0002998270411261848, 0.003654142425847035] -> ABSENT
+   => q+-: JUNCTION FORM
+[A1 planted_line] n 12504 pairs 143 D0 10776.2 full 7660.5 (42s)
+   POS    df  2 LRT   3059.9 p 0.00e+00 share 0.2840 excess 0.2838 ci [0.2689743193228024, 0.3015459378544178] -> PRESENT
+   PARA   df  1 LRT      0.2 p 6.44e-01 share 0.0000 excess -0.0001 ci [-0.00012789556568959634, 0.00035253127510016585] -> ABSENT
+   PREVY  df  1 LRT      0.3 p 6.15e-01 share 0.0000 excess -0.0001 ci [-0.00012121613328935647, 0.0005303898854620002] -> ABSENT
+   HAND   df  4 LRT      1.8 p 7.66e-01 share 0.0002 excess -0.0002 ci [-0.00029561126990322264, 0.0015506272336880784] -> ABSENT
+   QUIRE  df 15 LRT      9.6 p 8.42e-01 share 0.0009 excess -0.0006 ci [-0.0007423464105917033, 0.002366014536362359] -> ABSENT
+   SEC    df  6 LRT      2.1 p 9.11e-01 share 0.0002 excess -0.0004 ci [-0.0005190635682989419, 0.0003842426940384462] -> ABSENT
+   => planted_line: target POS found True, false PRESENT [] -> PASS
+[A1 planted_scribe] n 12504 pairs 143 D0 13431.7 full 7969.4 (41s)
+   POS    df  2 LRT      0.4 p 8.02e-01 share 0.0000 excess -0.0001 ci [-0.00014164478314471898, 0.00041083630692082966] -> ABSENT
+   PARA   df  1 LRT      0.2 p 6.79e-01 share 0.0000 excess -0.0000 ci [-5.974146735644738e-05, 0.0003294567194706883] -> ABSENT
+   PREVY  df  1 LRT      0.0 p 9.10e-01 share 0.0000 excess -0.0001 ci [-8.7982940399322e-05, 0.00029325592410786897] -> ABSENT
+   HAND   df  4 LRT   1464.5 p 0.00e+00 share 0.1090 excess 0.1087 ci [0.07549630271067177, 0.1402128505053573] -> PRESENT
+   QUIRE  df 15 LRT     20.9 p 1.40e-01 share 0.0016 excess 0.0005 ci [-0.00016775509169633977, 0.0024098339873563595] -> ABSENT
+   SEC    df  6 LRT     16.4 p 1.19e-02 share 0.0012 excess 0.0008 ci [-0.0003173855348791196, 0.0023932757730735377] -> ABSENT
+   => planted_scribe: target HAND found True, false PRESENT [] -> PASS
+[A1 planted_location] n 12504 pairs 143 D0 13990.7 full 7889.3 (39s)
+   POS    df  2 LRT      1.4 p 4.97e-01 share 0.0001 excess -0.0000 ci [-0.00010831486048913561, 0.000881402381020498] -> ABSENT
+   PARA   df  1 LRT      0.1 p 8.22e-01 share 0.0000 excess -0.0001 ci [-6.722225759436335e-05, 0.00016631660271134878] -> ABSENT
+   PREVY  df  1 LRT      0.1 p 7.17e-01 share 0.0000 excess -0.0001 ci [-6.273344039386876e-05, 0.0002738175091618614] -> ABSENT
+   HAND   df  4 LRT      1.5 p 8.27e-01 share 0.0001 excess -0.0002 ci [-0.00028179898514703647, 0.000506061691600228] -> ABSENT
+   QUIRE  df 15 LRT   2643.7 p 0.00e+00 share 0.1890 excess 0.1878 ci [0.1305833863172273, 0.23216863871884827] -> PRESENT
+   SEC    df  6 LRT      6.7 p 3.45e-01 share 0.0005 excess 0.0000 ci [-0.000309872594488178, 0.0007668990645141677] -> ABSENT
+   => planted_location: target QUIRE found True, false PRESENT [] -> PASS
+[A1 planted_junction] n 12504 pairs 143 D0 15399.5 full 8059.7 (38s)
+   POS    df  2 LRT      2.3 p 3.18e-01 share 0.0001 excess 0.0000 ci [-0.00013441601436384634, 0.0005249253135315149] -> ABSENT
+   PARA   df  1 LRT      0.3 p 5.83e-01 share 0.0000 excess -0.0001 ci [-7.272448825353098e-05, 0.0004186562167880111] -> ABSENT
+   PREVY  df  1 LRT   6778.7 p 0.00e+00 share 0.4402 excess 0.4401 ci [0.4248173177748314, 0.4572921019218215] -> PRESENT
+   HAND   df  4 LRT     11.4 p 2.26e-02 share 0.0007 excess 0.0005 ci [-6.042667163918019e-05, 0.001188376233896407] -> ABSENT
+   QUIRE  df 15 LRT     18.5 p 2.39e-01 share 0.0012 excess 0.0002 ci [-0.00022141055392980853, 0.0018787540860616175] -> ABSENT
+   SEC    df  6 LRT      2.9 p 8.27e-01 share 0.0002 excess -0.0002 ci [-0.0003337970274022816, 0.00038531823152773253] -> ABSENT
+   => planted_junction: target PREVY found True, false PRESENT [] -> PASS
+[A1] controls PASS -> VALID
+[A2] Voynich JS e/ee 0.0496 ee/eee 0.0545 e/eee 0.1649 | r/l 0.1172 t/k 0.0273 | Latin F 0.0010 C 0.1337 | t 0.367 -> MIXED
+[B1 WORD] pages 185 pairs 3277 means {L0 0.377 (n 111), L1 0.388 (n 158), Q 0.424 (n 470), R1 0.436 (n 31), S 0.284 (n 2507)} | session Δ -0.0359 z +6.9 p 0.0005 | adjacent Δ +0.0123 z +1.3 p 0.1019 -> SESSION EFFECT
+[B1 GLYPH] pages 185 pairs 3277 means {L0 0.904 (n 111), L1 0.902 (n 158), Q 0.881 (n 470), R1 0.885 (n 31), S 0.824 (n 2507)} | session Δ +0.0212 z +6.9 p 0.0005 | adjacent Δ +0.0040 z +0.8 p 0.2104 -> SESSION EFFECT
+[B1] C7 RESTATED: words cluster by sheet (session), not by reading order
+[B2] I_word reading32 0.350 (C7 0.387) | reading49 0.318 | sheet(47) 0.397 | ratio 1.25
+[B3] 47 label pages, 964 label tokens | OWN: hit 0.105 base 0.063 excess +0.042 | SAME-LEAF: hit 0.092 base 0.058 excess +0.034 | OTHER-LEAF: hit 0.094 base 0.058 excess +0.036 | ADJACENT: hit 0.104 base 0.059 excess +0.045 | RANDOM: hit 0.072 base 0.050 excess +0.022
+[B3] by section: A: 0.036 vs 0.040 (n 139), B: 0.184 vs 0.129 (n 87), C: 0.183 vs 0.089 (n 186), H: 0.000 vs 0.000 (n 5), P: 0.065 vs 0.057 (n 200), T: 0.143 vs 0.136 (n 21), Z: 0.092 vs 0.040 (n 326)
+[B3] own vs other leaf: Δ +0.0059 z +0.6 p 0.3298 | other leaf vs random: Δ +0.0306 p 0.0005 -> SESSION ECHO
+done in 225s -> /Users/arhampartapjain/voynich-ai-cryptolinguist/experiments/results/e059.json

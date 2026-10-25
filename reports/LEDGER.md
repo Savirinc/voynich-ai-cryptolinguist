@@ -329,3 +329,25 @@ stays recorded as a lean towards M, alongside the weakened C21.
 fetched two canvases that contain the LOCKED leaf f102: `f101v_part_and_102r.jpg` and `f102v_part.jpg`. They were
 never viewed or used, and were deleted before the session's data was moved into the repo. Future downloads must
 exclude canvases whose label mentions 102.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-25 | E059 clean-up round (`CLEANUP_ROUND.md`) | Controls 4/4 PASS. d±: scribe 0.0% once line position (1.5%) and previous -y (1.9%) are in the model. q±: JUNCTION FORM (previous -y 7.5%, line 2.4%, location 0.1%). r/l location not reproduced (0.5%). e/ee MIXED at glyph level (t 0.37). Same-sheet pages alike (z +6.9 words, +6.9 glyphs), next page not (z +1.3). Label echo equal on own page (+4.2) and neighbouring pages (+3.4 to +4.5): SESSION ECHO | none (measurement, pre-registered) | 0.0077 | 0.963 | 0.0274 | 0.0013 |
+
+**Facts corrected by E059.**
+- **C18 withdrawn.** d± is not a scribe habit. It follows line position and whether the previous word ends in -y.
+- **C19 replaced.** q± is a junction form: q- appears mainly after a word ending in -y. Location adds nothing. r/l's
+  location dependence is too small to count (0.5%). "q as a meaning-carrier" is dropped.
+- **C15 restated:** e and ee are one sign at word level only; what follows them differs at glyph level (eee differs from
+  e more than r from l).
+- **C7 restated:** words cluster **by sheet** (bifolio), not by reading order. Pages written on the same piece of vellum
+  share vocabulary and glyph habits; the next page in reading order does not. This is a writing-process fact.
+- **C23 restated:** labels echo the vocabulary of their neighbourhood (own page +4.2 points over frequency-matched words,
+  other leaf of the sheet +3.6, adjacent page +4.5, random same-section page +2.2), not their own page in particular
+  (own vs other leaf p 0.33). Pharma labels show the least (6.5% vs 5.7%).
+- **C24 (new):** same-sheet pages are more alike than other pages of the same quire, scribe and section: words
+  +0.069 cosine (7 of 9 quires), glyph bigrams +0.042 (9 of 9). Every page-level test must control for sheet.
+
+**Reading.** Nothing moves, because C7 and C23 were never scored. But both had been leaning facts for L, and both are
+now facts about how the book was written that a sheet-wise generator would also produce. The lower end of L's honest
+range (0.60) is the more defensible reading.

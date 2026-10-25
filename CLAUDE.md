@@ -40,8 +40,8 @@ Read this first in every session. It carries the full working context; details l
    `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`. Clear background jobs after reading them.
 5. **Occam's rule** (`reports/OCCAM.md`): test the simplest hypothesis first; add a layer only when a measured fact
    forces it.
-6. **Check earlier reports first:** `reports/SUMMARY.md` (E001–E029a), `reports/LEDGER.md`, the reports E030–E058, and
-   `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
+6. **Check earlier reports first:** `reports/SUMMARY.md` (E001–E029a), `reports/LEDGER.md`, the reports E030–E059
+   (`reports/CLEANUP_ROUND.md` is E059), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
 7. **Known answers first:** every attack must crack synthetic texts of its own class and make **zero false claims**
    on gibberish and wrong-language controls before it touches Voynich.
 8. **Seed check:** any pass or fail within about 0.5 sd gets a seed-replicate check (≥ 8 of 10 seeds) before it is
@@ -81,7 +81,7 @@ Read this first in every session. It carries the full working context; details l
   - `reports/literature/` (four forum reports);
   - `reports/artifacts/` (HTML sources of the published pages).
 
-## 5. Where things stand (2026-10-24, end of session 1)
+## 5. Where things stand (2026-10-25, after E059)
 **Ledger** (`reports/LEDGER.md`): **M 0.0077, L 0.963, C 0.0274, O 0.0013.**
 - **M** = meaningless; **L** = a real language in its own script; **C** = cipher or code; **O** = other.
 - **Honest range:** L is about 0.60–0.96. Its lead rests partly on early tests (E030–E032).
@@ -122,28 +122,30 @@ Romani (E049–E052); abbreviated Latin, technical and sacred (E053).
 - **Line recurrence:** words recur within lines, with no avoidance of back-to-back repeats (AS ≈ 1). Of about 90
   meaningful texts, only languages with echo or doubling grammar reach this (Indonesian, Tamil, Assamese).
 - **Alternations:** near-copies come through five alternations (e/ee, r/l, t/k, d±, q±).
-  - e = ee (but see the forum threat below); t ≈ k; r ≠ l.
-  - d± is mainly a scribe habit; q± depends on location in the book.
+  - e = ee at word level only (what follows ee differs from what follows e; E059); t ≈ k; r ≠ l.
+  - **q- is a junction form:** it appears mainly after a word ending in -y (E059; location adds nothing).
+  - d± is **not** a scribe habit (E059 withdrew E039's C18); it follows line position and the previous word's -y.
+- **Sheets (bifolios):** pages on the same piece of vellum share vocabulary and glyph habits; the next page in reading
+  order does not (C24, E059). "Topic clustering" (C7) is really clustering by sheet. Every page-level test must
+  control for sheet.
 - **Currier A/B:** the same grammar shape; B is more rigid.
-- **Labels:** zodiac labels are not numbers. Labels echo their own page 1.7×. Same-label pharma drawings do not look
-  alike (E055). Repeated labels are often common words (dar, okaiin).
+- **Labels:** zodiac labels are not numbers. Labels echo the vocabulary of their neighbourhood (own page, same sheet
+  and adjacent page all about +4 points over frequency-matched words), not their own page in particular; pharma labels
+  show the least (E059 restated C23). Same-label pharma drawings do not look alike (E055). Repeated labels are often
+  common words (dar, okaiin).
 - **Word order:** weak but not scrambled (like hymns or Psalms).
 
-**Re-test queue from the forum sweep** (`FORUM_SYNTHESIS.md`):
-- line position confounds d / q / sh;
-- e / ee / eee have different glyph contexts;
-- pages of the same bifolio are alike (writing session), which may confound topic clustering C7/C8 and label echo C23;
-- C3 depends on glyph grouping.
+**Re-test queue from the forum sweep** (`FORUM_SYNTHESIS.md`): E059 settled the first three (line position, e/ee/eee
+glyph contexts, bifolio session effect; all confirmed, facts corrected). Still open: C3 depends on glyph grouping.
 
 ## 6. Next steps (recommended order; propose one at a time)
-1. **Clean-up round:** re-test d, q and e/ee with line position, paragraph line, scribe, section and Currier in one
-   model; re-test topic clustering and label echo *within* bifolio; report C23 as an absolute rate.
+1. ~~Clean-up round~~ done (E059, `CLEANUP_ROUND.md`).
 2. **Re-audit the early ledger factors (E030–E032)** under today's evidence (generator progress, E051, E058), as a
    pre-registered audit, not hand edits.
 3. **Cheap leads:**
    - score the published Naibbe ciphertexts (pykeedy) on our battery;
-   - where near-copies come from (first occurrence vs proximity vs neither);
-   - ending agreement between neighbouring words;
+   - where near-copies come from (first occurrence vs proximity vs neither), controlling for sheet;
+   - ending agreement between neighbouring words (q- after -y is now known; test the rest);
    - the zodiac shed-/ched- by sign gender;
    - p vs f (f57v ring).
 4. **Syllable route:** Vietnamese with tones as a final letter; pfeaster's syllable-per-word hypothesis on European
@@ -188,3 +190,4 @@ For E001–E029a see `reports/SUMMARY.md`.
 | E055 | Same-label pairs: not shown |
 | E056 | Not numbers |
 | E057 / E058 | Per-word repeats: VOID, with a lean towards M |
+| E059 | Clean-up: q- is a junction form after -y; d± not a scribe habit; e/ee differ at glyph level; pages cluster by sheet (C24); label echo is neighbourhood, not page |
