@@ -42,16 +42,17 @@ Read this first in every session. It carries the full working context; details l
    `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`. Clear background jobs after reading them.
 5. **Occam's rule** (`reports/OCCAM.md`): test the simplest hypothesis first; add a layer only when a measured fact
    forces it.
-6. **Check earlier reports first:** `reports/SUMMARY.md` (E001–E029a), `reports/LEDGER.md`, the reports E030–E065
+6. **Check earlier reports first:** `reports/SUMMARY.md` (E001–E029a), `reports/LEDGER.md`, the reports E030–E066
    (`reports/CLEANUP_ROUND.md` is E059, `reports/INGREDIENT_LINK.md` E060, `reports/STEM_STREAM.md` E061,
    `reports/SCRIBE_TABLES.md` E062, `reports/WIDE_ATTACK.md` E063, `reports/EARLY_AUDIT.md` E064,
-   `reports/SYLLABLE_GONOGO.md` E065), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
+   `reports/SYLLABLE_GONOGO.md` E065, `reports/WORD_INDIVIDUALITY_V3.md` E066), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
 7. **Known answers first:** every attack must crack synthetic texts of its own class and make **zero false claims**
    on gibberish and wrong-language controls before it touches Voynich.
 8. **Seed check:** any pass or fail within about 0.5 sd gets a seed-replicate check (≥ 8 of 10 seeds) before it is
    scored (lesson of E035/E035b).
 9. **No model-hunting:** declare in advance how many variants a family gets. E036 closed the spelling-variation
-   family; E058 closed the per-word-repeat family.
+   family; E066 closed the per-word-repeat family (E057, E058, E066; E058's v3 was
+    reopened once by the tokenizer defect).
 10. **Absence rule** (`reports/ABSENCE_RULE.md`): a validated search that finds nothing multiplies the searched
     form's share by m = 0.2 (or as pre-registered).
 11. **Exclusion is only by logic within a stated scope**, never by probability alone.
@@ -85,13 +86,18 @@ Read this first in every session. It carries the full working context; details l
   - `reports/literature/` (four forum reports);
   - `reports/artifacts/` (HTML sources of the published pages).
 
-## 5. Where things stand (2026-10-25, after E065)
-**Ledger** (`reports/LEDGER.md`): **M 0.0259, L 0.9401, C 0.0296, O 0.0043** (after E065).
+## 5. Where things stand (2026-10-25, after E066)
+**Ledger** (`reports/LEDGER.md`): **M 0.0739, L 0.8939, C 0.0281, O 0.0041** (after E066).
 - **M** = meaningless; **L** = a real language in its own script; **C** = cipher or code; **O** = other.
-- **Honest range:** L about 0.31–0.94, M about 0.03–0.43, C about 0.03–0.22. **From the range edges M leads (0.43 vs
-  0.31)**: the M-versus-L ranking depends on the starting point. E064 withdrew E031 (L × 3); E030 and E032 stand.
+- **Honest range:** L about 0.17–0.93, M about 0.035–0.70, C about 0.03–0.12. **From the range edges M leads (0.70 vs
+  0.17)**; at the point values L leads. E066's × 3 is pre-registered; its empirical ratio is 1.4 (most real languages
+  are also family-level), which would give M 0.035: the M-versus-L ranking depends on the starting point. E064 withdrew E031 (L × 3); E030 and E032 stand.
 - **Tokenizer defect (E064):** the old Bible loaders split Indic-script words at vowel signs. Use E064's `tok` (letters,
   marks, apostrophes) for any new language work; E051's Tamil/Assamese matches were fragments.
+
+**E066 (scored, M × 3):** Voynich's common words repeat back to back as their shape-families predict (z −1.2), like the
+generator; Tagalog, Indonesian, Oromo and Lingala give words individual habits (z +4 to +14). Per-word-repeat family
+closed (E057, E058, E066).
 
 **Three unscored cautions that lean towards M:**
 - **C21 (reinstated by E064):** among about 120 meaningful texts, only Indonesian reaches Voynich's back-to-back repeat
@@ -176,7 +182,7 @@ glyph contexts, bifolio session effect; all confirmed, facts corrected). Still o
 - **Word ledger** (searchable word-frequency table): https://claude.ai/artifact/DkNAGQMGyPWsCcyEFscWLB (source
   `reports/artifacts/voynich_word_ledger.html`).
 
-## 8. Experiment index after the stop rule (E030–E065)
+## 8. Experiment index after the stop rule (E030–E066)
 For E001–E029a see `reports/SUMMARY.md`.
 
 | Exp | Result |
@@ -213,3 +219,4 @@ For E001–E029a see `reports/SUMMARY.md`.
 | E063 | Wide validated attack, 49 languages, A and B: NO CLAIM, 49/49 validated. L × 0.94, C × 0.96 (7 Indic languages were fragment streams) |
 | E064 | Re-audit: E031 withdrawn (0/30 fresh languages do both) L × 1/3; five-scribe generator fails 7/13, E032 stands; E051 re-measured 0/30 with correct words, C21 caution reinstated |
 | E065 | Syllable route go/no-go: NO GO (25 Voynich final classes vs 284–481 final syllables; syllable streams 826–1,499 types vs 6,077). L × 0.921 |
+| E066 | Word individuality v3: VALID (4 languages separate); Voynich FAMILY-LEVEL z −1.2, generator-like. M × 3 (empirical ratio 1.4) |
