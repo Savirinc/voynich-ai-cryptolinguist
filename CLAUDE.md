@@ -14,6 +14,8 @@ Read this first in every session. It carries the full working context; details l
 ## 2. How Arham works (follow exactly)
 - **Explain everything in plain language.** He is not a statistician. Define terms (glyph, EVA, Currier A/B and so
   on) when they first matter, and use short tables.
+- **After every test, first explain it as to a bright 10-year-old:** what we did, what we found, what it means, with an
+  everyday analogy, before any numbers or ledger talk. He must never lose the thread between tests.
 - **He approves each test with "ok" or "yes".** Propose one next test at a time, with a clear recommendation, and wait
   for approval before pre-registering it.
 - **He wants the truth, not a story.** Report failures, VOID results and corrections plainly, and correct earlier
