@@ -40,9 +40,9 @@ Read this first in every session. It carries the full working context; details l
    `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`. Clear background jobs after reading them.
 5. **Occam's rule** (`reports/OCCAM.md`): test the simplest hypothesis first; add a layer only when a measured fact
    forces it.
-6. **Check earlier reports first:** `reports/SUMMARY.md` (E001–E029a), `reports/LEDGER.md`, the reports E030–E062
+6. **Check earlier reports first:** `reports/SUMMARY.md` (E001–E029a), `reports/LEDGER.md`, the reports E030–E063
    (`reports/CLEANUP_ROUND.md` is E059, `reports/INGREDIENT_LINK.md` E060, `reports/STEM_STREAM.md` E061,
-   `reports/SCRIBE_TABLES.md` E062), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
+   `reports/SCRIBE_TABLES.md` E062, `reports/WIDE_ATTACK.md` E063), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
 7. **Known answers first:** every attack must crack synthetic texts of its own class and make **zero false claims**
    on gibberish and wrong-language controls before it touches Voynich.
 8. **Seed check:** any pass or fail within about 0.5 sd gets a seed-replicate check (≥ 8 of 10 seeds) before it is
@@ -82,8 +82,8 @@ Read this first in every session. It carries the full working context; details l
   - `reports/literature/` (four forum reports);
   - `reports/artifacts/` (HTML sources of the published pages).
 
-## 5. Where things stand (2026-10-25, after E062)
-**Ledger** (`reports/LEDGER.md`): **M 0.0078, L 0.9815, C 0.0093, O 0.0013** (after E062).
+## 5. Where things stand (2026-10-25, after E063; campaign E061–E063 closed)
+**Ledger** (`reports/LEDGER.md`): **M 0.0083, L 0.9808, C 0.0095, O 0.0014** (after E063).
 - **M** = meaningless; **L** = a real language in its own script; **C** = cipher or code; **O** = other.
 - **Honest range:** L is about 0.60–0.98; C about 0.01–0.05. L's lead rests partly on early tests (E030–E032).
 
@@ -99,7 +99,8 @@ Read this first in every session. It carries the full working context; details l
 - NUMBERS (zodiac labels) 0.024.
 
 **Forms of L** (`ABSENCE_RULE.md`):
-- **L-alpha-known (0.35):** mostly searched, not found (10 languages);
+- **L-alpha-known (0.35 prior):** searched, not found, 60 languages (E049–E053, E063); about 0.07 of L's original
+  mass remains (miss allowance plus languages with no text on disk). Now the least likely form of L;
 - **L-syll (0.20):** untested;
 - **L-abbrev (0.15):** abbreviated Latin searched, not found;
 - **L-unattested (0.20)** and **L-other (0.10)**.
@@ -111,7 +112,10 @@ spelling slips, many-to-one annealing with a 4-gram KN LM with spaces. Claim req
 - beating pseudo-Voynich and generator controls.
 
 **Searched, not found:** Hebrew, Turkish, Latin, Czech, Serbian-Croatian, Slovak, Ukrainian, Romanian, Italian,
-Romani (E049–E052); abbreviated Latin, technical and sacred (E053).
+Romani (E049–E052); abbreviated Latin, technical and sacred (E053); 49 more languages on Voynich A and B (E063:
+German, Dutch, English, French, Danish, Swedish, Polish, Greek, Hungarian, Yiddish, Arabic, Urdu, Uyghur, Indic,
+Austronesian, African and others; all validated, 0 false claims on 588 controls). Only Arabic B beat its controls
+(+0.10) while staying 0.10 under threshold: disclosed as seen beforehand for the queued abjad test.
 - The Hebrew "near miss" (E049) was explained by pseudo-Voynich controls.
 - Blind judges called the Hebrew decodes word salad while identifying real Hebrew (2 Kings 22) (E050).
 
@@ -144,14 +148,15 @@ glyph contexts, bifolio session effect; all confirmed, facts corrected). Still o
 2. **Re-audit the early ledger factors (E030–E032)** under today's evidence (generator progress, E051, E058), as a
    pre-registered audit, not hand edits.
 3. **Cheap leads:**
-   - score the published Naibbe ciphertexts (pykeedy) on our battery;
+   - ~~score the published Naibbe ciphertexts on our battery~~ (E062's single-table rows did it: 10/13 fails);
    - where near-copies come from (first occurrence vs proximity vs neither), controlling for sheet;
    - ending agreement between neighbouring words (q- after -y is now known; test the rest);
    - the zodiac shed-/ched- by sign gender;
    - p vs f (f57v ring).
 4. **Syllable route:** Vietnamese with tones as a final letter; pfeaster's syllable-per-word hypothesis on European
    text (the go/no-go is about 6,000 types per 28.8k tokens).
-5. **Constructed-language controls** (Enochian, Lingua Ignota), and an Arabic abjad attack (words of 4+ glyphs).
+5. **Constructed-language controls** (Enochian, Lingua Ignota), and an Arabic abjad attack (words of 4+ glyphs;
+   E063's Arabic-B margin over controls is disclosed as seen beforehand).
 6. **Bigger work:** a correction census from the images; a herbal–pharma match test using the forum's rated table
    (thread-4067, needs a login; exclude f102).
 
@@ -161,7 +166,7 @@ glyph contexts, bifolio session effect; all confirmed, facts corrected). Still o
 - **Word ledger** (searchable word-frequency table): https://claude.ai/artifact/DkNAGQMGyPWsCcyEFscWLB (source
   `reports/artifacts/voynich_word_ledger.html`).
 
-## 8. Experiment index after the stop rule (E030–E058)
+## 8. Experiment index after the stop rule (E030–E063)
 For E001–E029a see `reports/SUMMARY.md`.
 
 | Exp | Result |
@@ -195,3 +200,4 @@ For E001–E029a see `reports/SUMMARY.md`.
 | E060 | Ingredient link (pharma labels in recipes): VOID, Culpeper power control failed (wrong target window). Unscored: labels 71.1% vs matched 68.2%, p 0.24 |
 | E061 | Stems vs padding: VOID (rule uncalibrated). Unscored: stem stream language-like (2,228 stems, 55% hapax), 6–8 sd from padding ciphers and generator |
 | E062 | Verbose cipher with one table per scribe: CLASS FAILS (best 8/13 fails; repeats 0.9× vs 2.6×). C × 1/3 |
+| E063 | Wide validated attack, 49 languages, A and B: NO CLAIM, 49/49 validated. L × 0.94, C × 0.96 |

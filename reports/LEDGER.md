@@ -379,3 +379,17 @@ a doubling plaintext, or a mixed system with deliberate repetition.
 
 **Observation (f57v, f66r):** the two key-like pages share a sign set the running text barely uses (four rare signs,
 x, v) and omit its commonest glyphs. They are not an alphabet of the text.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-25 | E063 wide validated attack, 49 languages, Voynich A and B (`WIDE_ATTACK.md`) | NO CLAIM. 49/49 validated (both planted cracks 0.97–1.00 accuracy, 0 false claims on 588 controls). Voynich A 0.09–0.44 below threshold (median 0.26), B 0.09–0.46 (median 0.23); at or below pseudo-Voynich controls everywhere except Yapese A (+0.007) and Arabic B (+0.10, still 0.10 under T). engWycliffe untested | **L × 0.94, C × 0.96** (absence rule, "other European and unlisted" 0.27 of L-alpha-known, 0.8 covered; C substitution share 0.05) | 0.0083 | 0.9808 | 0.0095 | 0.0014 |
+
+**After E063.** Sixty languages plus abbreviated Latin have now been searched in the VOY23 class with a validated
+attack. L-alpha-known (prior 0.35 of L) retains about 0.07 of L's original mass: the m = 0.2 miss allowance plus
+languages with no text on disk. Sensitivity: m = 0.1 gives L 0.9807; from the range edges (L 0.60, M 0.25, C 0.13)
+the posterior is L 0.59, M 0.26, C 0.13. The ranking does not move; the shape of L does. A real language written letter
+by letter with word boundaries kept is now the least likely form of L. Arabic B's margin over its controls is recorded
+as seen beforehand for the queued abjad test (CLAUDE.md §6.5).
+
+**Campaign close (steps 1–3 run, 4–5 dropped with reasons in `SCRIBE_TABLES.md` and `WIDE_ATTACK.md`).** E061 VOID
+(informative), E062 C × 1/3, E063 L × 0.94 and C × 0.96. Net: M 0.0077 → 0.0083, L 0.963 → 0.9808, C 0.0274 → 0.0095.

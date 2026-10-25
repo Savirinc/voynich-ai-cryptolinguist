@@ -1,0 +1,101 @@
+Voynich A words 8794, B words 19488 (366/72671 rare units dropped); 50 languages: ['arb-vd', 'asmfb', 'azb', 'bba', 'bqcsim', 'cebulb', 'cekak', 'cth', 'dan1931', 'deu1912', 'eng-kjv', 'engWycliffe', 'ewe', 'fraLSG', 'gax', 'grcbyz', 'hausa', 'haw1868', 'hch', 'hil', 'hne', 'hun', 'iloulb', 'indayt', 'kik', 'lin', 'luo', 'mal', 'meu', 'mri2012', 'nheBl', 'nld', 'nya', 'pan', 'polubg', 'shr', 'sna', 'suzBl', 'swe', 'swhulb', 'tam2017', 'tglulb', 'tod', 'ton', 'uigara', 'urd', 'yap', 'ydd', 'yor', 'zlmKSZI']
+  built arb-vd: OT, plaintext words 85052, letters 23
+  built asmfb: OT, plaintext words 249399, letters 23
+  built azb: OT, plaintext words 100950, letters 23
+  built bba: OT, plaintext words 163506, letters 23
+  built bqcsim: OT, plaintext words 117240, letters 23
+arb-vd       cracks acc/lex [(1.0, 0.712), (1.0, 0.794)] ctrlA max 0.542 -> VALIDATED T=0.627 | A lex 0.513 agr 1.00 no claim | B lex 0.526 agr 0.97 ctrlB max 0.422 no claim | 867s
+asmfb        cracks acc/lex [(0.997, 0.801), (0.99, 0.802)] ctrlA max 0.438 -> VALIDATED T=0.619 | A lex 0.384 agr 1.00 no claim | B lex 0.494 agr 1.00 ctrlB max 0.539 no claim | 867s
+azb          cracks acc/lex [(1.0, 0.763), (1.0, 0.715)] ctrlA max 0.441 -> VALIDATED T=0.578 | A lex 0.343 agr 1.00 no claim | B lex 0.386 agr 0.62 ctrlB max 0.405 no claim | 867s
+bba          cracks acc/lex [(0.996, 0.829), (1.0, 0.871)] ctrlA max 0.477 -> VALIDATED T=0.653 | A lex 0.460 agr 1.00 no claim | B lex 0.289 agr 1.00 ctrlB max 0.301 no claim | 867s
+bqcsim       cracks acc/lex [(0.994, 0.769), (0.999, 0.771)] ctrlA max 0.575 -> VALIDATED T=0.672 | A lex 0.479 agr 1.00 no claim | B lex 0.546 agr 1.00 ctrlB max 0.568 no claim | 867s
+  built cebulb: OT, plaintext words 176926, letters 23
+  built cekak: OT, plaintext words 169400, letters 23
+  built cth: OT, plaintext words 159057, letters 23
+  built dan1931: OT, plaintext words 129615, letters 23
+  built deu1912: OT, plaintext words 141927, letters 23
+cebulb       cracks acc/lex [(1.0, 0.857), (1.0, 0.856)] ctrlA max 0.451 -> VALIDATED T=0.653 | A lex 0.381 agr 1.00 no claim | B lex 0.322 agr 1.00 ctrlB max 0.359 no claim | 1722s
+cekak        cracks acc/lex [(0.998, 0.868), (0.999, 0.869)] ctrlA max 0.512 -> VALIDATED T=0.690 | A lex 0.364 agr 1.00 no claim | B lex 0.360 agr 1.00 ctrlB max 0.590 no claim | 1722s
+cth          cracks acc/lex [(1.0, 0.882), (0.998, 0.859)] ctrlA max 0.479 -> VALIDATED T=0.669 | A lex 0.458 agr 0.94 no claim | B lex 0.443 agr 1.00 ctrlB max 0.471 no claim | 1722s
+dan1931      cracks acc/lex [(1.0, 0.81), (1.0, 0.821)] ctrlA max 0.400 -> VALIDATED T=0.605 | A lex 0.295 agr 1.00 no claim | B lex 0.408 agr 1.00 ctrlB max 0.465 no claim | 1722s
+deu1912      cracks acc/lex [(0.994, 0.835), (1.0, 0.873)] ctrlA max 0.453 -> VALIDATED T=0.644 | A lex 0.274 agr 1.00 no claim | B lex 0.268 agr 0.58 ctrlB max 0.361 no claim | 1722s
+  built eng-kjv: OT, plaintext words 163407, letters 23
+  engWycliffe: UNTESTED (insufficient plaintext, plaintext words 0)
+  built ewe: OT, plaintext words 151832, letters 23
+  built fraLSG: OT, plaintext words 159997, letters 23
+  built gax: OT, plaintext words 138555, letters 23
+eng-kjv      cracks acc/lex [(1.0, 0.866), (1.0, 0.88)] ctrlA max 0.310 -> VALIDATED T=0.588 | A lex 0.222 agr 1.00 no claim | B lex 0.136 agr 1.00 ctrlB max 0.224 no claim | 2425s
+ewe          cracks acc/lex [(1.0, 0.82), (1.0, 0.858)] ctrlA max 0.603 -> VALIDATED T=0.712 | A lex 0.560 agr 1.00 no claim | B lex 0.558 agr 1.00 ctrlB max 0.582 no claim | 2425s
+fraLSG       cracks acc/lex [(1.0, 0.84), (1.0, 0.82)] ctrlA max 0.431 -> VALIDATED T=0.626 | A lex 0.370 agr 1.00 no claim | B lex 0.250 agr 0.57 ctrlB max 0.379 no claim | 2425s
+gax          cracks acc/lex [(1.0, 0.813), (1.0, 0.774)] ctrlA max 0.519 -> VALIDATED T=0.647 | A lex 0.361 agr 1.00 no claim | B lex 0.516 agr 1.00 ctrlB max 0.558 no claim | 2425s
+  built grcbyz: NT gospels+Acts, plaintext words 55430, letters 23
+  built hausa: OT, plaintext words 150346, letters 23
+  built haw1868: OT, plaintext words 214386, letters 21
+  built hch: OT, plaintext words 107726, letters 16
+  built hil: OT, plaintext words 166562, letters 23
+grcbyz       cracks acc/lex [(1.0, 0.69), (1.0, 0.744)] ctrlA max 0.328 -> VALIDATED T=0.509 | A lex 0.272 agr 1.00 no claim | B lex 0.141 agr 1.00 ctrlB max 0.148 no claim | 3286s
+hausa        cracks acc/lex [(1.0, 0.798), (1.0, 0.849)] ctrlA max 0.543 -> VALIDATED T=0.670 | A lex 0.396 agr 1.00 no claim | B lex 0.565 agr 0.70 ctrlB max 0.565 no claim | 3286s
+haw1868      cracks acc/lex [(0.998, 0.879), (0.995, 0.864)] ctrlA max 0.601 -> VALIDATED T=0.733 | A lex 0.411 agr 1.00 no claim | B lex 0.576 agr 0.84 ctrlB max 0.621 no claim | 3286s
+hch          cracks acc/lex [(1.0, 0.832), (1.0, 0.826)] ctrlA max 0.494 -> VALIDATED T=0.660 | A lex 0.417 agr 1.00 no claim | B lex 0.462 agr 1.00 ctrlB max 0.496 no claim | 3286s
+hil          cracks acc/lex [(1.0, 0.868), (1.0, 0.861)] ctrlA max 0.339 -> VALIDATED T=0.600 | A lex 0.312 agr 1.00 no claim | B lex 0.390 agr 0.67 ctrlB max 0.410 no claim | 3286s
+  built hne: OT, plaintext words 228495, letters 23
+  built hun: NT gospels+Acts, plaintext words 53495, letters 23
+  built iloulb: OT, plaintext words 156355, letters 23
+  built indayt: OT, plaintext words 135198, letters 23
+  built kik: OT, plaintext words 139597, letters 23
+hne          cracks acc/lex [(0.99, 0.837), (1.0, 0.851)] ctrlA max 0.466 -> VALIDATED T=0.651 | A lex 0.447 agr 1.00 no claim | B lex 0.327 agr 0.56 ctrlB max 0.499 no claim | 4156s
+hun          cracks acc/lex [(1.0, 0.637), (1.0, 0.651)] ctrlA max 0.222 -> VALIDATED T=0.430 | A lex 0.222 agr 1.00 no claim | B lex 0.197 agr 0.60 ctrlB max 0.266 no claim | 4156s
+iloulb       cracks acc/lex [(1.0, 0.854), (1.0, 0.793)] ctrlA max 0.435 -> VALIDATED T=0.614 | A lex 0.224 agr 1.00 no claim | B lex 0.347 agr 0.59 ctrlB max 0.374 no claim | 4156s
+indayt       cracks acc/lex [(0.998, 0.828), (0.999, 0.861)] ctrlA max 0.292 -> VALIDATED T=0.560 | A lex 0.146 agr 1.00 no claim | B lex 0.229 agr 1.00 ctrlB max 0.257 no claim | 4156s
+kik          cracks acc/lex [(0.997, 0.804), (0.999, 0.838)] ctrlA max 0.398 -> VALIDATED T=0.601 | A lex 0.307 agr 1.00 no claim | B lex 0.332 agr 1.00 ctrlB max 0.366 no claim | 4156s
+  built lin: OT, plaintext words 160839, letters 23
+  built luo: OT, plaintext words 136459, letters 23
+  built mal: OT, plaintext words 191476, letters 23
+  built meu: OT, plaintext words 158016, letters 23
+  built mri2012: OT, plaintext words 200204, letters 14
+lin          cracks acc/lex [(1.0, 0.856), (0.999, 0.827)] ctrlA max 0.249 -> VALIDATED T=0.538 | A lex 0.128 agr 1.00 no claim | B lex 0.128 agr 0.69 ctrlB max 0.298 no claim | 5017s
+luo          cracks acc/lex [(1.0, 0.833), (1.0, 0.81)] ctrlA max 0.469 -> VALIDATED T=0.639 | A lex 0.354 agr 1.00 no claim | B lex 0.402 agr 1.00 ctrlB max 0.436 no claim | 5017s
+mal          cracks acc/lex [(1.0, 0.815), (1.0, 0.832)] ctrlA max 0.683 -> VALIDATED T=0.749 | A lex 0.661 agr 1.00 no claim | B lex 0.645 agr 1.00 ctrlB max 0.655 no claim | 5017s
+meu          cracks acc/lex [(1.0, 0.869), (1.0, 0.885)] ctrlA max 0.526 -> VALIDATED T=0.698 | A lex 0.464 agr 1.00 no claim | B lex 0.571 agr 1.00 ctrlB max 0.613 no claim | 5017s
+mri2012      cracks acc/lex [(1.0, 0.88), (1.0, 0.878)] ctrlA max 0.509 -> VALIDATED T=0.693 | A lex 0.454 agr 1.00 no claim | B lex 0.514 agr 1.00 ctrlB max 0.538 no claim | 5017s
+  built nheBl: OT, plaintext words 162062, letters 23
+  built nld: OT, plaintext words 157236, letters 23
+  built nya: OT, plaintext words 120242, letters 23
+  built pan: OT, plaintext words 211390, letters 23
+  built polubg: OT, plaintext words 119104, letters 23
+nheBl        cracks acc/lex [(1.0, 0.821), (1.0, 0.821)] ctrlA max 0.249 -> VALIDATED T=0.535 | A lex 0.100 agr 1.00 no claim | B lex 0.323 agr 0.75 ctrlB max 0.362 no claim | 5889s
+nld          cracks acc/lex [(1.0, 0.809), (1.0, 0.834)] ctrlA max 0.492 -> VALIDATED T=0.651 | A lex 0.467 agr 1.00 no claim | B lex 0.416 agr 1.00 ctrlB max 0.440 no claim | 5889s
+nya          cracks acc/lex [(1.0, 0.746), (1.0, 0.724)] ctrlA max 0.409 -> VALIDATED T=0.567 | A lex 0.377 agr 1.00 no claim | B lex 0.338 agr 1.00 ctrlB max 0.326 no claim | 5889s
+pan          cracks acc/lex [(0.998, 0.834), (1.0, 0.822)] ctrlA max 0.395 -> VALIDATED T=0.608 | A lex 0.332 agr 0.54 no claim | B lex 0.389 agr 1.00 ctrlB max 0.426 no claim | 5889s
+polubg       cracks acc/lex [(1.0, 0.747), (1.0, 0.831)] ctrlA max 0.264 -> VALIDATED T=0.505 | A lex 0.248 agr 1.00 no claim | B lex 0.265 agr 0.42 ctrlB max 0.298 no claim | 5889s
+  built shr: OT, plaintext words 120644, letters 23
+  built sna: OT, plaintext words 98752, letters 23
+  built suzBl: OT, plaintext words 278114, letters 23
+  built swe: OT, plaintext words 247891, letters 23
+  built swhulb: OT, plaintext words 128028, letters 23
+shr          cracks acc/lex [(1.0, 0.807), (1.0, 0.735)] ctrlA max 0.459 -> VALIDATED T=0.597 | A lex 0.439 agr 1.00 no claim | B lex 0.417 agr 1.00 ctrlB max 0.431 no claim | 6761s
+sna          cracks acc/lex [(1.0, 0.735), (1.0, 0.679)] ctrlA max 0.408 -> VALIDATED T=0.543 | A lex 0.389 agr 1.00 no claim | B lex 0.356 agr 1.00 ctrlB max 0.378 no claim | 6761s
+suzBl        cracks acc/lex [(0.993, 0.807), (0.985, 0.787)] ctrlA max 0.411 -> VALIDATED T=0.599 | A lex 0.375 agr 1.00 no claim | B lex 0.486 agr 1.00 ctrlB max 0.539 no claim | 6761s
+swe          cracks acc/lex [(0.999, 0.841), (1.0, 0.828)] ctrlA max 0.459 -> VALIDATED T=0.643 | A lex 0.437 agr 1.00 no claim | B lex 0.412 agr 1.00 ctrlB max 0.494 no claim | 6761s
+swhulb       cracks acc/lex [(1.0, 0.78), (1.0, 0.729)] ctrlA max 0.416 -> VALIDATED T=0.573 | A lex 0.394 agr 1.00 no claim | B lex 0.484 agr 1.00 ctrlB max 0.498 no claim | 6761s
+  built tam2017: OT, plaintext words 265327, letters 23
+  built tglulb: OT, plaintext words 176797, letters 23
+  built tod: OT, plaintext words 167252, letters 23
+  built ton: OT, plaintext words 202937, letters 17
+  built uigara: OT, plaintext words 115774, letters 23
+tam2017      cracks acc/lex [(0.974, 0.87), (0.99, 0.893)] ctrlA max 0.723 -> VALIDATED T=0.796 | A lex 0.577 agr 0.75 no claim | B lex 0.596 agr 1.00 ctrlB max 0.635 no claim | 7602s
+tglulb       cracks acc/lex [(1.0, 0.852), (1.0, 0.832)] ctrlA max 0.185 -> VALIDATED T=0.509 | A lex 0.109 agr 1.00 no claim | B lex 0.106 agr 0.91 ctrlB max 0.336 no claim | 7602s
+tod          cracks acc/lex [(1.0, 0.832), (1.0, 0.837)] ctrlA max 0.465 -> VALIDATED T=0.649 | A lex 0.459 agr 1.00 no claim | B lex 0.515 agr 1.00 ctrlB max 0.525 no claim | 7602s
+ton          cracks acc/lex [(1.0, 0.866), (1.0, 0.861)] ctrlA max 0.370 -> VALIDATED T=0.616 | A lex 0.336 agr 0.97 no claim | B lex 0.323 agr 1.00 ctrlB max 0.478 no claim | 7602s
+uigara       cracks acc/lex [(1.0, 0.743), (1.0, 0.801)] ctrlA max 0.387 -> VALIDATED T=0.565 | A lex 0.291 agr 1.00 no claim | B lex 0.363 agr 1.00 ctrlB max 0.344 no claim | 7602s
+  built urd: OT, plaintext words 203366, letters 23
+  built yap: OT, plaintext words 207544, letters 23
+  built ydd: NT gospels+Acts, plaintext words 75644, letters 23
+  built yor: OT, plaintext words 167439, letters 21
+  built zlmKSZI: NT gospels+Acts, plaintext words 64538, letters 23
+urd          cracks acc/lex [(0.992, 0.828), (1.0, 0.836)] ctrlA max 0.540 -> VALIDATED T=0.684 | A lex 0.382 agr 1.00 no claim | B lex 0.379 agr 1.00 ctrlB max 0.409 no claim | 8471s
+yap          cracks acc/lex [(1.0, 0.87), (0.999, 0.857)] ctrlA max 0.412 -> VALIDATED T=0.635 | A lex 0.419 agr 0.98 no claim | B lex 0.414 agr 1.00 ctrlB max 0.445 no claim | 8471s
+ydd          cracks acc/lex [(1.0, 0.843), (1.0, 0.847)] ctrlA max 0.333 -> VALIDATED T=0.588 | A lex 0.293 agr 1.00 no claim | B lex 0.359 agr 1.00 ctrlB max 0.373 no claim | 8471s
+yor          cracks acc/lex [(1.0, 0.856), (1.0, 0.88)] ctrlA max 0.397 -> VALIDATED T=0.627 | A lex 0.364 agr 0.99 no claim | B lex 0.399 agr 1.00 ctrlB max 0.489 no claim | 8471s
+zlmKSZI      cracks acc/lex [(1.0, 0.832), (1.0, 0.82)] ctrlA max 0.229 -> VALIDATED T=0.525 | A lex 0.096 agr 1.00 no claim | B lex 0.066 agr 1.00 ctrlB max 0.161 no claim | 8471s
+VERDICT NO CLAIM (49/50 validated) | L x0.941, C x0.961 | 8471s
