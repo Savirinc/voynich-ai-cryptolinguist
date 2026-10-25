@@ -40,9 +40,10 @@ Read this first in every session. It carries the full working context; details l
    `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`. Clear background jobs after reading them.
 5. **Occam's rule** (`reports/OCCAM.md`): test the simplest hypothesis first; add a layer only when a measured fact
    forces it.
-6. **Check earlier reports first:** `reports/SUMMARY.md` (E001–E029a), `reports/LEDGER.md`, the reports E030–E064
+6. **Check earlier reports first:** `reports/SUMMARY.md` (E001–E029a), `reports/LEDGER.md`, the reports E030–E065
    (`reports/CLEANUP_ROUND.md` is E059, `reports/INGREDIENT_LINK.md` E060, `reports/STEM_STREAM.md` E061,
-   `reports/SCRIBE_TABLES.md` E062, `reports/WIDE_ATTACK.md` E063, `reports/EARLY_AUDIT.md` E064), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
+   `reports/SCRIBE_TABLES.md` E062, `reports/WIDE_ATTACK.md` E063, `reports/EARLY_AUDIT.md` E064,
+   `reports/SYLLABLE_GONOGO.md` E065), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
 7. **Known answers first:** every attack must crack synthetic texts of its own class and make **zero false claims**
    on gibberish and wrong-language controls before it touches Voynich.
 8. **Seed check:** any pass or fail within about 0.5 sd gets a seed-replicate check (≥ 8 of 10 seeds) before it is
@@ -82,11 +83,11 @@ Read this first in every session. It carries the full working context; details l
   - `reports/literature/` (four forum reports);
   - `reports/artifacts/` (HTML sources of the published pages).
 
-## 5. Where things stand (2026-10-25, after E064)
-**Ledger** (`reports/LEDGER.md`): **M 0.024, L 0.9445, C 0.0274, O 0.004** (after E064).
+## 5. Where things stand (2026-10-25, after E065)
+**Ledger** (`reports/LEDGER.md`): **M 0.0259, L 0.9401, C 0.0296, O 0.0043** (after E065).
 - **M** = meaningless; **L** = a real language in its own script; **C** = cipher or code; **O** = other.
-- **Honest range:** L about 0.33–0.94, M about 0.02–0.42, C about 0.02–0.22. **From the range edges M leads (0.42 vs
-  0.33)**: the M-versus-L ranking depends on the starting point. E064 withdrew E031 (L × 3); E030 and E032 stand.
+- **Honest range:** L about 0.31–0.94, M about 0.03–0.43, C about 0.03–0.22. **From the range edges M leads (0.43 vs
+  0.31)**: the M-versus-L ranking depends on the starting point. E064 withdrew E031 (L × 3); E030 and E032 stand.
 - **Tokenizer defect (E064):** the old Bible loaders split Indic-script words at vowel signs. Use E064's `tok` (letters,
   marks, apostrophes) for any new language work; E051's Tamil/Assamese matches were fragments.
 
@@ -103,12 +104,14 @@ Read this first in every session. It carries the full working context; details l
 - ORDER-SCRAMBLED 0.15;
 - NUMBERS (zodiac labels) 0.024.
 
-**Forms of L** (`ABSENCE_RULE.md`):
-- **L-alpha-known (0.35 prior):** searched, not found, 60 languages (E049–E053, E063); about 0.07 of L's original
-  mass remains (miss allowance plus languages with no text on disk). Now the least likely form of L;
-- **L-syll (0.20):** untested;
-- **L-abbrev (0.15):** abbreviated Latin searched, not found;
-- **L-unattested (0.20)** and **L-other (0.10)**.
+**Forms of L** (`ABSENCE_RULE.md`; shares of L after E065, priors in brackets):
+- **L-unattested 0.33 (0.20):** a lost, unrecorded or constructed language; untested and unsearchable by dictionary.
+  **Leads within L.**
+- **L-syll 0.20 (0.20):** syllable signs. E065 NO GO: 25 Voynich final-group classes vs 284–481 final syllables (68–154
+  with codas dropped) in 9 European-region languages; each-word-one-syllable fails by 4× in vocabulary.
+- **L-abbrev 0.18 (0.15):** abbreviated Latin searched, not found (E053); other abbreviation systems untested.
+- **L-other 0.16 (0.10).**
+- **L-alpha-known 0.14 (0.35):** letter by letter, 60 languages searched, not found (E049–E053, E063).
 
 **Validated attack (E047; VOY23 class)** — Voynich A's 23 commonest signs (cleaned EVA, S3 units), homophones, 12%
 spelling slips, many-to-one annealing with a 4-gram KN LM with spaces. Claim requires:
@@ -159,8 +162,7 @@ glyph contexts, bifolio session effect; all confirmed, facts corrected). Still o
    - ending agreement between neighbouring words (q- after -y is now known; test the rest);
    - the zodiac shed-/ched- by sign gender;
    - p vs f (f57v ring).
-4. **Syllable route:** Vietnamese with tones as a final letter; pfeaster's syllable-per-word hypothesis on European
-   text (the go/no-go is about 6,000 types per 28.8k tokens).
+4. ~~Syllable route~~ NO GO (E065, `SYLLABLE_GONOGO.md`): neither a syllabary nor one-syllable-per-word fits.
 5. **Constructed-language controls** (Enochian, Lingua Ignota), and an Arabic abjad attack (words of 4+ glyphs;
    E063's Arabic-B margin over controls is disclosed as seen beforehand).
 6. **Bigger work:** a correction census from the images; a herbal–pharma match test using the forum's rated table
@@ -172,7 +174,7 @@ glyph contexts, bifolio session effect; all confirmed, facts corrected). Still o
 - **Word ledger** (searchable word-frequency table): https://claude.ai/artifact/DkNAGQMGyPWsCcyEFscWLB (source
   `reports/artifacts/voynich_word_ledger.html`).
 
-## 8. Experiment index after the stop rule (E030–E064)
+## 8. Experiment index after the stop rule (E030–E065)
 For E001–E029a see `reports/SUMMARY.md`.
 
 | Exp | Result |
@@ -208,3 +210,4 @@ For E001–E029a see `reports/SUMMARY.md`.
 | E062 | Verbose cipher with one table per scribe: CLASS FAILS (best 8/13 fails; repeats 0.9× vs 2.6×). C × 1/3 |
 | E063 | Wide validated attack, 49 languages, A and B: NO CLAIM, 49/49 validated. L × 0.94, C × 0.96 (7 Indic languages were fragment streams) |
 | E064 | Re-audit: E031 withdrawn (0/30 fresh languages do both) L × 1/3; five-scribe generator fails 7/13, E032 stands; E051 re-measured 0/30 with correct words, C21 caution reinstated |
+| E065 | Syllable route go/no-go: NO GO (25 Voynich final classes vs 284–481 final syllables; syllable streams 826–1,499 types vs 6,077). L × 0.921 |

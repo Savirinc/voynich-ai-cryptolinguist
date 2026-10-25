@@ -415,3 +415,11 @@ on the starting point inside the agreed ranges, as it did after E030. L's honest
 tokenizer fragments; with words, no ordinary prose among about 120 texts reaches Voynich's back-to-back level, and the
 caution that C21 leans towards M stands again. E030's L × 3 stands (Indonesian and Malay reach R ≥ 1.5; none of the 30
 fresh languages does). "Does both" (E031) is a drill-text property across 183 texts, a lead about genre, not language.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-25 | E065 syllable route go/no-go (`SYLLABLE_GONOGO.md`) | NO GO. Half 1: Voynich final-group classes E95 = 25 (bar 50); 9 reliable languages have 284–481 final syllables, 68–154 with codas dropped (nearest Turkish CV 68); Italian and Greek failed the syllabifier gate (untested, would fail). Half 2: syllable streams 826–1,499 types, 18–31% one-offs, vs Voynich 6,077 / 68%; Vietnamese reference 1,500 / 24% | **L × 0.921** (absence rule on L-syll: share 0.20, coverage 0.49, m 0.2) | 0.0259 | 0.9401 | 0.0296 | 0.0043 |
+
+**After E065.** Forms of L (shares of L): lost or unrecorded language 0.33, syllable signs 0.20, abbreviation 0.18,
+mixed/other 0.16, letter by letter 0.14. The lead within L has passed to the form that cannot be read with any
+dictionary, only tested on grammar shape. From the range edges M 0.43, L 0.31, C 0.22, O 0.03.

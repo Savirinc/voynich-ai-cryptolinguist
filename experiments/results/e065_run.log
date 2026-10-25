@@ -1,0 +1,26 @@
+[Voynich] E95 25 final-group classes cover 95% (empty class 0.21); last-unit U95 8; bar F95 <= 50
+  top endings [('y', 6533), ('', 6096), ('dy', 2227), ('ol', 1861), ('aiin', 1470), ('or', 1160), ('ar', 1125), ('ain', 950), ('al', 908), ('ey', 790), ('edy', 787), ('o', 561)]
+  [H1] latVUC   syl/word 2.07 (typ 2.4) | FULL F95  424 I95  348 S95   591 | CV F95  123 S95   143 | no
+  [H2] latVUC   syllable stream: types  1246 hapax 0.26 zipf -0.53 R 0.38 NR 0.94 len 2.57 | no
+  [H1] ita1885  syl/word 1.87 (typ 2.3) UNRELIABLE | FULL F95  122 I95  282 S95   341 | CV F95   86 S95   111 | no
+  [H2] ita1885  syllable stream: types   826 hapax 0.22 zipf -0.72 R 0.22 NR 0.96 len 2.34 | no
+  [H1] deu1912  syl/word 1.50 (typ 1.8) | FULL F95  437 I95  458 S95   709 | CV F95   92 S95   131 | no
+  [H2] deu1912  syllable stream: types  1482 hapax 0.31 zipf -0.62 R 0.33 NR 0.64 len 2.97 | no
+  [H1] ces1613  syl/word 1.86 (typ 2.0) | FULL F95  412 I95  455 S95   611 | CV F95  122 S95   153 | no
+  [H2] ces1613  syllable stream: types  1328 hapax 0.27 zipf -0.67 R 0.27 NR 0.96 len 2.38 | no
+  [H1] hun      syl/word 2.12 (typ 2.3) | FULL F95  481 I95  262 S95   641 | CV F95   79 S95    90 | no
+  [H2] hun      syllable stream: types  1372 hapax 0.28 zipf -0.70 R 0.17 NR 1.00 len 2.50 | no
+  [H1] grcbyz   syl/word 2.02 (typ 2.5) UNRELIABLE | FULL F95  354 I95  244 S95   573 | CV F95  154 S95   200 | no
+  [H2] grcbyz   syllable stream: types  1223 hapax 0.27 zipf -0.74 R 0.23 NR 0.76 len 2.44 | no
+  [H1] turytc   syl/word 2.63 (typ 2.5) | FULL F95  284 I95  237 S95   395 | CV F95   68 S95    78 | no
+  [H2] turytc   syllable stream: types   879 hapax 0.18 zipf -0.65 R 0.66 NR 1.35 len 2.29 | no
+  [H1] fraLSG   syl/word 1.54 (typ 1.7) | FULL F95  377 I95  394 S95   617 | CV F95  132 S95   159 | no
+  [H2] fraLSG   syllable stream: types  1264 hapax 0.24 zipf -0.74 R 0.32 NR 0.87 len 2.73 | no
+  [H1] eng-kjv  syl/word 1.37 (typ 1.4) | FULL F95  441 I95  432 S95   663 | CV F95  136 S95   170 | no
+  [H2] eng-kjv  syllable stream: types  1422 hapax 0.27 zipf -0.79 R 0.03 NR 0.58 len 2.89 | no
+  [H1] polubg   syl/word 1.88 (typ 2.1) | FULL F95  438 I95  510 S95   764 | CV F95  136 S95   177 | no
+  [H2] polubg   syllable stream: types  1499 hapax 0.27 zipf -0.64 R 0.21 NR 0.91 len 2.55 | no
+  [H1] nld      syl/word 1.44 (typ 1.7) | FULL F95  377 I95  387 S95   608 | CV F95  112 S95   149 | no
+  [H2] nld      syllable stream: types  1349 hapax 0.28 zipf -0.71 R 0.19 NR 0.71 len 2.94 | no
+  [H2] vie1934  (reference, syllable-spaced): types 1500 hapax 0.24 R 0.27 NR 1.10
+VERDICT NO GO (unreliable: ['ita1885', 'grcbyz']) | L x0.921 (absence rule on L-syll: share 0.20, coverage 0.49, m 0.2) | 16s
