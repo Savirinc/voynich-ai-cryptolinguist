@@ -40,8 +40,8 @@ Read this first in every session. It carries the full working context; details l
    `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`. Clear background jobs after reading them.
 5. **Occam's rule** (`reports/OCCAM.md`): test the simplest hypothesis first; add a layer only when a measured fact
    forces it.
-6. **Check earlier reports first:** `reports/SUMMARY.md` (E001–E029a), `reports/LEDGER.md`, the reports E030–E059
-   (`reports/CLEANUP_ROUND.md` is E059), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
+6. **Check earlier reports first:** `reports/SUMMARY.md` (E001–E029a), `reports/LEDGER.md`, the reports E030–E060
+   (`reports/CLEANUP_ROUND.md` is E059, `reports/INGREDIENT_LINK.md` is E060), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
 7. **Known answers first:** every attack must crack synthetic texts of its own class and make **zero false claims**
    on gibberish and wrong-language controls before it touches Voynich.
 8. **Seed check:** any pass or fail within about 0.5 sd gets a seed-replicate check (≥ 8 of 10 seeds) before it is
@@ -191,3 +191,4 @@ For E001–E029a see `reports/SUMMARY.md`.
 | E056 | Not numbers |
 | E057 / E058 | Per-word repeats: VOID, with a lean towards M |
 | E059 | Clean-up: q- is a junction form after -y; d± not a scribe habit; e/ee differ at glyph level; pages cluster by sheet (C24); label echo is neighbourhood, not page |
+| E060 | Ingredient link (pharma labels in recipes): VOID, Culpeper power control failed (wrong target window). Unscored: labels 71.1% vs matched 68.2%, p 0.24 |

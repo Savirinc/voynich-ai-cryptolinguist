@@ -1,0 +1,669 @@
+{
+ "experiment": "E060",
+ "seed": 60060,
+ "culpeper": {
+  "full": {
+   "n_labels": 461,
+   "hit": 0.16052060737527116,
+   "null_mean": 0.38010845986984815,
+   "null_sd": 0.01938455528559895,
+   "excess": -0.219587852494577,
+   "ratio": 0.4223021172173715,
+   "p": 1.0,
+   "found": [
+    "all",
+    "alone",
+    "bed",
+    "betony",
+    "borage",
+    "break",
+    "broom",
+    "bugloss",
+    "cowslips",
+    "cuckow",
+    "down",
+    "drop",
+    "earth",
+    "ease",
+    "eringo",
+    "eye",
+    "fennel",
+    "five",
+    "flower",
+    "flowers",
+    "fuller",
+    "grass",
+    "green",
+    "ground",
+    "hair",
+    "head",
+    "heads",
+    "heart",
+    "hog",
+    "honey",
+    "known",
+    "leaf",
+    "leaves",
+    "liquorice",
+    "love",
+    "meat",
+    "melancholy",
+    "mercury",
+    "more",
+    "mother",
+    "name",
+    "nose",
+    "one",
+    "other",
+    "our",
+    "parsley",
+    "peach",
+    "plantain",
+    "quince",
+    "rape",
+    "rest",
+    "roses",
+    "round",
+    "rue",
+    "side",
+    "silver",
+    "some",
+    "sorts",
+    "star",
+    "stone",
+    "straw",
+    "summer",
+    "sun",
+    "thousand",
+    "three",
+    "tongue",
+    "usually",
+    "violets",
+    "vulgarly",
+    "wax",
+    "wind",
+    "winter",
+    "woollen",
+    "wormwood"
+   ],
+   "pool_types": 5175
+  },
+  "subsamples": [
+   {
+    "hit": 0.14444444444444443,
+    "null_mean": 0.3587111111111111,
+    "p": 1.0
+   },
+   {
+    "hit": 0.13333333333333333,
+    "null_mean": 0.3758888888888889,
+    "p": 1.0
+   },
+   {
+    "hit": 0.07777777777777778,
+    "null_mean": 0.3556444444444444,
+    "p": 1.0
+   },
+   {
+    "hit": 0.14444444444444443,
+    "null_mean": 0.4000888888888888,
+    "p": 1.0
+   },
+   {
+    "hit": 0.07777777777777778,
+    "null_mean": 0.33688888888888885,
+    "p": 1.0
+   },
+   {
+    "hit": 0.18888888888888888,
+    "null_mean": 0.38155555555555554,
+    "p": 1.0
+   },
+   {
+    "hit": 0.12222222222222222,
+    "null_mean": 0.3705111111111111,
+    "p": 1.0
+   },
+   {
+    "hit": 0.16666666666666666,
+    "null_mean": 0.3891777777777778,
+    "p": 1.0
+   },
+   {
+    "hit": 0.2111111111111111,
+    "null_mean": 0.4073555555555556,
+    "p": 1.0
+   },
+   {
+    "hit": 0.16666666666666666,
+    "null_mean": 0.36908888888888886,
+    "p": 1.0
+   },
+   {
+    "hit": 0.15555555555555556,
+    "null_mean": 0.3523555555555555,
+    "p": 1.0
+   },
+   {
+    "hit": 0.14444444444444443,
+    "null_mean": 0.3515777777777777,
+    "p": 1.0
+   },
+   {
+    "hit": 0.2777777777777778,
+    "null_mean": 0.3901777777777778,
+    "p": 0.9960079840319361
+   },
+   {
+    "hit": 0.1111111111111111,
+    "null_mean": 0.3389555555555555,
+    "p": 1.0
+   },
+   {
+    "hit": 0.2111111111111111,
+    "null_mean": 0.3685777777777778,
+    "p": 1.0
+   },
+   {
+    "hit": 0.14444444444444443,
+    "null_mean": 0.3931111111111111,
+    "p": 1.0
+   },
+   {
+    "hit": 0.14444444444444443,
+    "null_mean": 0.37066666666666664,
+    "p": 1.0
+   },
+   {
+    "hit": 0.15555555555555556,
+    "null_mean": 0.39066666666666666,
+    "p": 1.0
+   },
+   {
+    "hit": 0.2111111111111111,
+    "null_mean": 0.40093333333333336,
+    "p": 1.0
+   },
+   {
+    "hit": 0.14444444444444443,
+    "null_mean": 0.37468888888888885,
+    "p": 1.0
+   }
+  ],
+  "power": 0.0,
+  "pass_": false,
+  "target_words": 10000,
+  "n_names": 467
+ },
+ "voynich": {
+  "primary": {
+   "n_labels": 90,
+   "hit": 0.7111111111111111,
+   "null_mean": 0.68195,
+   "null_sd": 0.034211577980286643,
+   "excess": 0.029161111111111193,
+   "ratio": 1.0427613624328926,
+   "p": 0.24287856071964017,
+   "found": [
+    "ain",
+    "arody",
+    "arol",
+    "arom",
+    "ary",
+    "char",
+    "cheocthy",
+    "cheody",
+    "ches",
+    "chody",
+    "chokam",
+    "choky",
+    "chol",
+    "chols",
+    "chor",
+    "chos",
+    "chy",
+    "dam",
+    "dar",
+    "darar",
+    "dary",
+    "oekey",
+    "okaiin",
+    "okain",
+    "okam",
+    "okar",
+    "okary",
+    "okechy",
+    "okeoly",
+    "okol",
+    "okor",
+    "okos",
+    "oky",
+    "olaiin",
+    "oldy",
+    "olky",
+    "opaldaiin",
+    "opchor",
+    "opol",
+    "oram",
+    "orar",
+    "oraro",
+    "orol",
+    "osal",
+    "otair",
+    "otal",
+    "otaldy",
+    "otalsy",
+    "otaly",
+    "otar",
+    "otaram",
+    "otarar",
+    "otchar",
+    "otear",
+    "oteol",
+    "otol",
+    "otoly",
+    "otor",
+    "salo",
+    "sar",
+    "sheol",
+    "shol",
+    "ykchdy",
+    "ytal"
+   ],
+   "pool_types": 740,
+   "found_detail": {
+    "ain": {
+     "dev_count": 98,
+     "stars_lines": 48
+    },
+    "arody": {
+     "dev_count": 7,
+     "stars_lines": 4
+    },
+    "arol": {
+     "dev_count": 9,
+     "stars_lines": 3
+    },
+    "arom": {
+     "dev_count": 3,
+     "stars_lines": 1
+    },
+    "ary": {
+     "dev_count": 24,
+     "stars_lines": 6
+    },
+    "char": {
+     "dev_count": 72,
+     "stars_lines": 35
+    },
+    "cheocthy": {
+     "dev_count": 4,
+     "stars_lines": 2
+    },
+    "cheody": {
+     "dev_count": 75,
+     "stars_lines": 27
+    },
+    "ches": {
+     "dev_count": 36,
+     "stars_lines": 10
+    },
+    "chody": {
+     "dev_count": 75,
+     "stars_lines": 21
+    },
+    "chokam": {
+     "dev_count": 2,
+     "stars_lines": 1
+    },
+    "choky": {
+     "dev_count": 30,
+     "stars_lines": 5
+    },
+    "chol": {
+     "dev_count": 326,
+     "stars_lines": 60
+    },
+    "chols": {
+     "dev_count": 4,
+     "stars_lines": 1
+    },
+    "chor": {
+     "dev_count": 171,
+     "stars_lines": 16
+    },
+    "chos": {
+     "dev_count": 30,
+     "stars_lines": 9
+    },
+    "chy": {
+     "dev_count": 138,
+     "stars_lines": 14
+    },
+    "dam": {
+     "dev_count": 75,
+     "stars_lines": 10
+    },
+    "dar": {
+     "dev_count": 257,
+     "stars_lines": 35
+    },
+    "darar": {
+     "dev_count": 2,
+     "stars_lines": 1
+    },
+    "dary": {
+     "dev_count": 19,
+     "stars_lines": 2
+    },
+    "oekey": {
+     "dev_count": 2,
+     "stars_lines": 1
+    },
+    "okaiin": {
+     "dev_count": 192,
+     "stars_lines": 74
+    },
+    "okain": {
+     "dev_count": 135,
+     "stars_lines": 67
+    },
+    "okam": {
+     "dev_count": 29,
+     "stars_lines": 9
+    },
+    "okar": {
+     "dev_count": 120,
+     "stars_lines": 39
+    },
+    "okary": {
+     "dev_count": 10,
+     "stars_lines": 1
+    },
+    "okechy": {
+     "dev_count": 5,
+     "stars_lines": 3
+    },
+    "okeoly": {
+     "dev_count": 6,
+     "stars_lines": 1
+    },
+    "okol": {
+     "dev_count": 66,
+     "stars_lines": 5
+    },
+    "okor": {
+     "dev_count": 32,
+     "stars_lines": 4
+    },
+    "okos": {
+     "dev_count": 7,
+     "stars_lines": 1
+    },
+    "oky": {
+     "dev_count": 83,
+     "stars_lines": 10
+    },
+    "olaiin": {
+     "dev_count": 43,
+     "stars_lines": 12
+    },
+    "oldy": {
+     "dev_count": 24,
+     "stars_lines": 2
+    },
+    "olky": {
+     "dev_count": 21,
+     "stars_lines": 1
+    },
+    "opaldaiin": {
+     "dev_count": 2,
+     "stars_lines": 1
+    },
+    "opchor": {
+     "dev_count": 4,
+     "stars_lines": 1
+    },
+    "opol": {
+     "dev_count": 3,
+     "stars_lines": 1
+    },
+    "oram": {
+     "dev_count": 11,
+     "stars_lines": 4
+    },
+    "orar": {
+     "dev_count": 8,
+     "stars_lines": 5
+    },
+    "oraro": {
+     "dev_count": 2,
+     "stars_lines": 1
+    },
+    "orol": {
+     "dev_count": 10,
+     "stars_lines": 2
+    },
+    "osal": {
+     "dev_count": 4,
+     "stars_lines": 1
+    },
+    "otair": {
+     "dev_count": 16,
+     "stars_lines": 11
+    },
+    "otal": {
+     "dev_count": 115,
+     "stars_lines": 50
+    },
+    "otaldy": {
+     "dev_count": 8,
+     "stars_lines": 1
+    },
+    "otalsy": {
+     "dev_count": 2,
+     "stars_lines": 1
+    },
+    "otaly": {
+     "dev_count": 20,
+     "stars_lines": 4
+    },
+    "otar": {
+     "dev_count": 119,
+     "stars_lines": 48
+    },
+    "otaram": {
+     "dev_count": 5,
+     "stars_lines": 2
+    },
+    "otarar": {
+     "dev_count": 5,
+     "stars_lines": 3
+    },
+    "otchar": {
+     "dev_count": 3,
+     "stars_lines": 1
+    },
+    "otear": {
+     "dev_count": 6,
+     "stars_lines": 2
+    },
+    "oteol": {
+     "dev_count": 32,
+     "stars_lines": 8
+    },
+    "otol": {
+     "dev_count": 67,
+     "stars_lines": 7
+    },
+    "otoly": {
+     "dev_count": 8,
+     "stars_lines": 1
+    },
+    "otor": {
+     "dev_count": 37,
+     "stars_lines": 7
+    },
+    "salo": {
+     "dev_count": 2,
+     "stars_lines": 1
+    },
+    "sar": {
+     "dev_count": 71,
+     "stars_lines": 23
+    },
+    "sheol": {
+     "dev_count": 96,
+     "stars_lines": 24
+    },
+    "shol": {
+     "dev_count": 153,
+     "stars_lines": 25
+    },
+    "ykchdy": {
+     "dev_count": 8,
+     "stars_lines": 1
+    },
+    "ytal": {
+     "dev_count": 13,
+     "stars_lines": 3
+    }
+   },
+   "label_tokens": 200,
+   "label_types_all": 189
+  },
+  "secondary": {
+   "n_labels": 25,
+   "hit": 0.48,
+   "null_mean": 0.41968000000000005,
+   "null_sd": 0.08801759824035191,
+   "excess": 0.06031999999999993,
+   "ratio": 1.143728555089592,
+   "p": 0.3213393303348326,
+   "found": [
+    "kcheodaiin",
+    "paiin",
+    "pchar",
+    "pcheodar",
+    "pcheor",
+    "pchodar",
+    "pchor",
+    "pol",
+    "por",
+    "tor",
+    "torshor",
+    "tsho"
+   ],
+   "pool_types": 1971,
+   "pages": 70
+  },
+  "target_tokens": 9959,
+  "target_types": 2860,
+  "locked_test_excluded": [
+   "1",
+   "8",
+   "9",
+   "30",
+   "35",
+   "38",
+   "51",
+   "52",
+   "56",
+   "75",
+   "86",
+   "87",
+   "102",
+   "105",
+   "114"
+  ]
+ },
+ "generator": {
+  "samples": [
+   {
+    "seed": 21,
+    "n_labels": 90,
+    "hit": 0.7222222222222222,
+    "null_mean": 0.6962777777777776,
+    "excess": 0.02594444444444466,
+    "p": 0.2727272727272727
+   },
+   {
+    "seed": 22,
+    "n_labels": 90,
+    "hit": 0.6888888888888889,
+    "null_mean": 0.7338666666666667,
+    "excess": -0.04497777777777778,
+    "p": 0.949050949050949
+   },
+   {
+    "seed": 23,
+    "n_labels": 90,
+    "hit": 0.7333333333333333,
+    "null_mean": 0.7203555555555555,
+    "excess": 0.012977777777777755,
+    "p": 0.4245754245754246
+   },
+   {
+    "seed": 24,
+    "n_labels": 90,
+    "hit": 0.6888888888888889,
+    "null_mean": 0.7100222222222221,
+    "excess": -0.021133333333333226,
+    "p": 0.7902097902097902
+   },
+   {
+    "seed": 25,
+    "n_labels": 90,
+    "hit": 0.7333333333333333,
+    "null_mean": 0.760788888888889,
+    "excess": -0.027455555555555677,
+    "p": 0.8861138861138861
+   },
+   {
+    "seed": 26,
+    "n_labels": 90,
+    "hit": 0.7444444444444445,
+    "null_mean": 0.6952333333333333,
+    "excess": 0.049211111111111205,
+    "p": 0.08691308691308691
+   },
+   {
+    "seed": 27,
+    "n_labels": 90,
+    "hit": 0.6888888888888889,
+    "null_mean": 0.787488888888889,
+    "excess": -0.09860000000000013,
+    "p": 1.0
+   },
+   {
+    "seed": 28,
+    "n_labels": 90,
+    "hit": 0.7444444444444445,
+    "null_mean": 0.7290444444444444,
+    "excess": 0.01540000000000008,
+    "p": 0.3946053946053946
+   },
+   {
+    "seed": 29,
+    "n_labels": 90,
+    "hit": 0.6777777777777778,
+    "null_mean": 0.6828777777777777,
+    "excess": -0.005099999999999882,
+    "p": 0.6543456543456544
+   },
+   {
+    "seed": 30,
+    "n_labels": 90,
+    "hit": 0.7555555555555555,
+    "null_mean": 0.7204666666666666,
+    "excess": 0.03508888888888895,
+    "p": 0.16383616383616384
+   }
+  ],
+  "false_positives": 0,
+  "pass_": true
+ },
+ "verdict": "VOID",
+ "factors": "none",
+ "runtime_s": 15.568910121917725
+}

@@ -351,3 +351,11 @@ exclude canvases whose label mentions 102.
 **Reading.** Nothing moves, because C7 and C23 were never scored. But both had been leaning facts for L, and both are
 now facts about how the book was written that a sheet-wise generator would also produce. The lower end of L's honest
 range (0.60) is the more defensible reading.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-25 | E060 ingredient link (`INGREDIENT_LINK.md`) | VOID: Culpeper power control 0/20 (its first 10,000 Directions words are preamble; the names do recur in the full section, 98.7% vs 88%). Generator control 0/10 PASS. Unscored: 64 of 90 pharma label types occur in the recipes (71.1%) vs 68.2% for frequency-matched pharma-page words, p 0.24 | none | 0.0077 | 0.963 | 0.0274 | 0.0013 |
+
+**Unscored observation after E060.** Pharma labels appear in the recipe section exactly as often as other words of
+their frequency from the same pages. If they name ingredients, the recipes do not use them more than chance. The
+test could not show its own power, so this is a lean, not a score.
