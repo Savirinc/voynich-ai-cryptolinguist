@@ -114,7 +114,7 @@ Romani (E049–E052); abbreviated Latin, technical and sacred (E053).
 - The Hebrew "near miss" (E049) was explained by pseudo-Voynich controls.
 - Blind judges called the Hebrew decodes word salad while identifying real Hebrew (2 Kings 22) (E050).
 
-**Measured facts** (full list in LEDGER, C1–C23):
+**Measured facts** (full list in LEDGER, C1–C24):
 - **Physical and dating:** vellum 1404–1438; five scribes.
 - **Vocabulary:** 7,060 DEV word types, 69% hapax, 149 words make up half the text.
 - **Units:** glyph-level predictability is below all alphabets, and simple-syllable-like only with glyph groups.
