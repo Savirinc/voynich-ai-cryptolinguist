@@ -393,3 +393,13 @@ as seen beforehand for the queued abjad test (CLAUDE.md §6.5).
 
 **Campaign close (steps 1–3 run, 4–5 dropped with reasons in `SCRIBE_TABLES.md` and `WIDE_ATTACK.md`).** E061 VOID
 (informative), E062 C × 1/3, E063 L × 0.94 and C × 0.96. Net: M 0.0077 → 0.0083, L 0.963 → 0.9808, C 0.0274 → 0.0095.
+
+**Correction (2026-10-25, before E064): tokenizer defect in the Bible loaders.** `e030.tokens` and `e042.words` split
+words at combining marks, so Tamil, Malayalam, Assamese, Panjabi and Devanagari texts (seven of the E051 languages)
+were measured as single-letter fragments (Tamil 1.72 M "words" for 0.43 M real ones). Affected: **E051 Part 1** (both
+"matches", Tamil and Assamese, and the next five highest AS values are the seven fragmented languages; the withdrawal of
+the E045 caution rests on them and is suspended until E064 Part C re-measures), E057/E058 (fragment references, VOID
+anyway), E061 (Tamil's spread contributed to VOID), E063 (seven languages attacked as fragment streams: validated and no
+claim, but not a test of the real language; the 0.8 coverage assumption absorbs it), E031's PG Telugu row (not
+decisive). Unaffected: E030's primary languages, Hebrew, Arabic, all Latin-script results (apostrophes aside). Numbers in
+earlier reports are left as written; E064 re-measures with a fixed tokenizer.
