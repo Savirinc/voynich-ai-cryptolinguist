@@ -40,8 +40,9 @@ Read this first in every session. It carries the full working context; details l
    `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`. Clear background jobs after reading them.
 5. **Occam's rule** (`reports/OCCAM.md`): test the simplest hypothesis first; add a layer only when a measured fact
    forces it.
-6. **Check earlier reports first:** `reports/SUMMARY.md` (E001–E029a), `reports/LEDGER.md`, the reports E030–E061
-   (`reports/CLEANUP_ROUND.md` is E059, `reports/INGREDIENT_LINK.md` E060, `reports/STEM_STREAM.md` E061), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
+6. **Check earlier reports first:** `reports/SUMMARY.md` (E001–E029a), `reports/LEDGER.md`, the reports E030–E062
+   (`reports/CLEANUP_ROUND.md` is E059, `reports/INGREDIENT_LINK.md` E060, `reports/STEM_STREAM.md` E061,
+   `reports/SCRIBE_TABLES.md` E062), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
 7. **Known answers first:** every attack must crack synthetic texts of its own class and make **zero false claims**
    on gibberish and wrong-language controls before it touches Voynich.
 8. **Seed check:** any pass or fail within about 0.5 sd gets a seed-replicate check (≥ 8 of 10 seeds) before it is
@@ -81,10 +82,10 @@ Read this first in every session. It carries the full working context; details l
   - `reports/literature/` (four forum reports);
   - `reports/artifacts/` (HTML sources of the published pages).
 
-## 5. Where things stand (2026-10-25, after E059)
-**Ledger** (`reports/LEDGER.md`): **M 0.0077, L 0.963, C 0.0274, O 0.0013.**
+## 5. Where things stand (2026-10-25, after E062)
+**Ledger** (`reports/LEDGER.md`): **M 0.0078, L 0.9815, C 0.0093, O 0.0013** (after E062).
 - **M** = meaningless; **L** = a real language in its own script; **C** = cipher or code; **O** = other.
-- **Honest range:** L is about 0.60–0.96. Its lead rests partly on early tests (E030–E032).
+- **Honest range:** L is about 0.60–0.98; C about 0.01–0.05. L's lead rests partly on early tests (E030–E032).
 
 **Two unscored cautions that lean towards M:**
 - a 2026 generator (quimqu, voynich.ninja thread-6219) reproduces C9/C21;
@@ -193,3 +194,4 @@ For E001–E029a see `reports/SUMMARY.md`.
 | E059 | Clean-up: q- is a junction form after -y; d± not a scribe habit; e/ee differ at glyph level; pages cluster by sheet (C24); label echo is neighbourhood, not page |
 | E060 | Ingredient link (pharma labels in recipes): VOID, Culpeper power control failed (wrong target window). Unscored: labels 71.1% vs matched 68.2%, p 0.24 |
 | E061 | Stems vs padding: VOID (rule uncalibrated). Unscored: stem stream language-like (2,228 stems, 55% hapax), 6–8 sd from padding ciphers and generator |
+| E062 | Verbose cipher with one table per scribe: CLASS FAILS (best 8/13 fails; repeats 0.9× vs 2.6×). C × 1/3 |

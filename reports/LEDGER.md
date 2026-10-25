@@ -367,3 +367,15 @@ test could not show its own power, so this is a lean, not a score.
 **Unscored observation after E061.** The stems are not a small code alphabet: removing the endings leaves a language-
 sized, language-shaped stem vocabulary. Endings do account for more of the word variety than in any language
 (collapse 0.37 vs ≥ 0.48), consistent with C14, but they are not nulls. The step-3 attack is built on words.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-25 | E062 verbose cipher with one table per scribe (`SCRIBE_TABLES.md`) | CLASS FAILS: best set (German) fails 8 of 13 (Latin 9, Hebrew 10, Turkish 11). Per-scribe tables fix persistence, coverage and the Zipf head, but repeats stay at 0.9× chance against Voynich's 2.6×, vocabulary overshoots (7,580 vs 6,077) with too few one-offs, topic clustering 0.24 vs 0.39 | **C × 1/3** | 0.0078 | 0.9815 | 0.0093 | 0.0013 |
+
+**After E062.** The last open verbose-cipher class (E020) fails on the same facts as every letter cipher since E016:
+back-to-back repeats and the rare-word tail. Sensitivity from the range edges (L 0.60, M 0.25, C 0.13): C 0.052,
+L 0.70, M 0.29; the ranking holds. C's honest range is about 0.01–0.05. What remains for C is a word-level system over
+a doubling plaintext, or a mixed system with deliberate repetition.
+
+**Observation (f57v, f66r):** the two key-like pages share a sign set the running text barely uses (four rare signs,
+x, v) and omit its commonest glyphs. They are not an alphabet of the text.
