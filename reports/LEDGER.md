@@ -477,3 +477,11 @@ are the wrong comparison for that; Culpeper and the Gaskell & Bowern technical t
 paragraphs a third as often; they sit slightly late in the line (relative position 0.56 vs 0.47–0.52) and show no
 neighbour lock. The 70 zodiac-label types in prose agree. Reading 1 of the label-class programme (list words, pointers)
 is set aside: its main prediction (entry-initial position) fails. Readings 2 (names) and 3 (abbreviations) survive.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-26 | E071 label words as truncations of longer words (`LABEL_TRUNCATION.md`) | VALID: G&B abbreviated Pliny z +14 to +16 (3 windows), planted truncations z +12 to +21 (3 languages), 9 false-claim sets within ±1.7. Voynich: 95 o-gallows label words z +0.44 (general), +0.52 (class-internal); 280 label words z +0.04; 0/10 seeds above the bar. NOT ABBREVIATION-LIKE | within L only: **L-abbrev × 0.6** (absence rule, s 0.5, m 0.2). Forms of L: unattested 0.35, syll 0.21, abbrev 0.12, other 0.17, alpha-known 0.15 | 0.0739 | 0.8938 | 0.0281 | 0.0041 |
+
+**After E071.** The label words are not shortened forms of longer words. Of the five readings of the label class, list
+words (step 0), abbreviations (E071), quantities (E056, step 0) and category + identifier (same markers on plants and
+figures) are weakened; title + name is the one left with an untested prediction, and it needs the zodiac images.

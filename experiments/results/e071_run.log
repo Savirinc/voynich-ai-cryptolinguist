@@ -1,0 +1,24 @@
+[known answers: G&B abbreviated Pliny]
+  pliny_abbr_0       targets  106 S 4.386 z +14.19 (10/10 > 3) top-ext 0.26
+  pliny_abbr_0       pseudo    106 S 1.917 z -1.57 (10/10 within)
+  pliny_abbr_100000  targets  109 S 4.728 z +16.31 (10/10 > 3) top-ext 0.20
+  pliny_abbr_100000  pseudo    109 S 1.780 z -0.58 (10/10 within)
+  pliny_abbr_200000  targets   99 S 4.048 z +14.84 (10/10 > 3) top-ext 0.28
+  pliny_abbr_200000  pseudo     99 S 1.525 z -0.88 (10/10 within)
+[known answers: planted truncations]
+  latVUC             targets  126 S 3.169 z +20.86 (10/10 > 3) top-ext 0.42
+  latVUC             pseudo    126 S 0.824 z -1.63 (10/10 within)
+  deu1912            targets  122 S 2.224 z +14.68 (10/10 > 3) top-ext 0.62
+  deu1912            pseudo    122 S 0.921 z -0.90 (10/10 within)
+  turytc             targets  122 S 3.358 z +12.07 (10/10 > 3) top-ext 0.40
+  turytc             pseudo    122 S 1.916 z +0.11 (10/10 within)
+[false claims: generator]
+  generator_31        pseudo     95 S 0.747 z +0.70 (10/10 within)
+  generator_32        pseudo     95 S 0.770 z +0.42 (10/10 within)
+  generator_33        pseudo     95 S 0.781 z -0.16 (10/10 within)
+[validation] known 6/6 pass, false-claim 9/9 pass -> VALID
+[VOYNICH]
+  T1 general  n 95 S 1.034 z +0.44 (0/10 > 3) top-ext 0.59
+  T1 class    n 95 S 1.034 z +0.52 (0/10 > 3)
+  T2 general  n 280 S 1.459 z +0.04 (0/10 > 3) top-ext 0.48
+VERDICT NOT ABBREVIATION-LIKE | factor L-abbrev x0.6 | 8s

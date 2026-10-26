@@ -42,10 +42,10 @@ Read this first in every session. It carries the full working context; details l
    `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`. Clear background jobs after reading them.
 5. **Occam's rule** (`reports/OCCAM.md`): test the simplest hypothesis first; add a layer only when a measured fact
    forces it.
-6. **Check earlier reports first:** `reports/SUMMARY.md` (E001–E029a), `reports/LEDGER.md`, the reports E030–E070
+6. **Check earlier reports first:** `reports/SUMMARY.md` (E001–E029a), `reports/LEDGER.md`, the reports E030–E071
    (`reports/CLEANUP_ROUND.md` is E059, `reports/INGREDIENT_LINK.md` E060, `reports/STEM_STREAM.md` E061,
    `reports/SCRIBE_TABLES.md` E062, `reports/WIDE_ATTACK.md` E063, `reports/EARLY_AUDIT.md` E064,
-   `reports/SYLLABLE_GONOGO.md` E065, `reports/WORD_INDIVIDUALITY_V3.md` E066, `reports/GIBBERISH_VOCABULARY.md` E067, `reports/GIBBERISH_BATTERY.md` E068, `reports/WORD_PARTNERS.md` E069, `reports/CONTENT_PARTNERS.md` E070), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
+   `reports/SYLLABLE_GONOGO.md` E065, `reports/WORD_INDIVIDUALITY_V3.md` E066, `reports/GIBBERISH_VOCABULARY.md` E067, `reports/GIBBERISH_BATTERY.md` E068, `reports/WORD_PARTNERS.md` E069, `reports/CONTENT_PARTNERS.md` E070, `reports/LABEL_STEP0.md` step 0, `reports/LABEL_TRUNCATION.md` E071), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
 7. **Known answers first:** every attack must crack synthetic texts of its own class and make **zero false claims**
    on gibberish and wrong-language controls before it touches Voynich.
 8. **Seed check:** any pass or fail within about 0.5 sd gets a seed-replicate check (≥ 8 of 10 seeds) before it is
@@ -86,7 +86,7 @@ Read this first in every session. It carries the full working context; details l
   - `reports/literature/` (four forum reports);
   - `reports/artifacts/` (HTML sources of the published pages).
 
-## 5. Where things stand (2026-10-25, after E070; ledger unchanged by E069–E070)
+## 5. Where things stand (2026-10-26, after E071; M/L/C unchanged since E068)
 **Ledger** (`reports/LEDGER.md`): **M 0.0739, L 0.8938, C 0.0281, O 0.0041** (after E068).
 - **M** = meaningless; **L** = a real language in its own script; **C** = cipher or code; **O** = other.
 - **Honest range:** L about 0.17–0.89, M about 0.07–0.69, C about 0.03–0.12. **From the range edges M leads (0.69 vs
@@ -123,14 +123,15 @@ closed (E057, E058, E066).
 - ORDER-SCRAMBLED 0.15;
 - NUMBERS (zodiac labels) 0.024.
 
-**Forms of L** (`ABSENCE_RULE.md`; shares of L after E065, priors in brackets):
-- **L-unattested 0.33 (0.20):** a lost, unrecorded or constructed language; untested and unsearchable by dictionary.
+**Forms of L** (`ABSENCE_RULE.md`; shares of L after E071, priors in brackets):
+- **L-unattested 0.35 (0.20):** a lost, unrecorded or constructed language; untested and unsearchable by dictionary.
   **Leads within L.**
-- **L-syll 0.20 (0.20):** syllable signs. E065 NO GO: 25 Voynich final-group classes vs 284–481 final syllables (68–154
+- **L-syll 0.21 (0.20):** syllable signs. E065 NO GO: 25 Voynich final-group classes vs 284–481 final syllables (68–154
   with codas dropped) in 9 European-region languages; each-word-one-syllable fails by 4× in vocabulary.
-- **L-abbrev 0.18 (0.15):** abbreviated Latin searched, not found (E053); other abbreviation systems untested.
-- **L-other 0.16 (0.10).**
-- **L-alpha-known 0.14 (0.35):** letter by letter, 60 languages searched, not found (E049–E053, E063).
+- **L-other 0.17 (0.10).**
+- **L-alpha-known 0.15 (0.35):** letter by letter, 60 languages searched, not found (E049–E053, E063).
+- **L-abbrev 0.12 (0.15):** abbreviated Latin searched, not found (E053); label words are not truncations of longer
+  words (E071, validated on G&B abbreviated Pliny); always-abbreviated forms untested.
 
 **Validated attack (E047; VOY23 class)** — Voynich A's 23 commonest signs (cleaned EVA, S3 units), homophones, 12%
 spelling slips, many-to-one annealing with a 4-gram KN LM with spaces. Claim requires:
@@ -197,8 +198,11 @@ each, cheapest first; absence counts:
 4. **Number + unit**: predicts digit-like small core set in fixed slots and Benford-like core frequencies; already
    weakened (69 cores, no ring position, E056).
 5. **Category + identifier**: predicts different markers for plants vs figures; weakened (same ot/ok ratio).
-Plus the zodiac attribute test (E071 candidate: download the 8 DEV zodiac canvases, annotate ~350 labelled nymphs for
+Plus the zodiac attribute test (E072 candidate: download the 8 DEV zodiac canvases, annotate ~350 labelled nymphs for
 star/colour/barrel/clothing/posture; same label → same feature beyond chance).
+**Status 2026-10-26:** step 0 done (`LABEL_STEP0.md`): label words open lines half as often as matched words, no
+neighbour lock → reading 1 set aside, reading 4 unhelped. Reading 3 tested (E071, `LABEL_TRUNCATION.md`): NOT
+ABBREVIATION-LIKE, L-abbrev × 0.6. Reading 2 (title + name) is the one left standing; next is E072.
 
 1. ~~Clean-up round~~ done (E059, `CLEANUP_ROUND.md`).
 2. ~~Re-audit the early ledger factors~~ done (E064, `EARLY_AUDIT.md`). Open follow-up: a test M can *win* (the
@@ -221,7 +225,7 @@ star/colour/barrel/clothing/posture; same label → same feature beyond chance).
 - **Word ledger** (searchable word-frequency table): https://claude.ai/artifact/DkNAGQMGyPWsCcyEFscWLB (source
   `reports/artifacts/voynich_word_ledger.html`).
 
-## 8. Experiment index after the stop rule (E030–E070)
+## 8. Experiment index after the stop rule (E030–E071)
 For E001–E029a see `reports/SUMMARY.md`.
 
 | Exp | Result |
@@ -263,3 +267,4 @@ For E001–E029a see `reports/SUMMARY.md`.
 | E068 | Human gibberish on WLSD, H2, END5, R, NR: Voynich-like on 1 of 5 (NR). M RULED DOWN, M × 1/3 |
 | E069 | Word-partner persistence across halves: Voynich 0.073, above all generator stretches (≤ 0.053), below 56/60 languages (p10 0.083). INCONCLUSIVE, no factor |
 | E070 | Content-word partners (ranks 51–250): Voynich 0.004, below all 60 languages and the generator median; A-only safeguard fails by a hair. INCONCLUSIVE by rule; unscored lean to M; catalogue alternative untested |
+| E071 | Label words as truncations: VALID (abbreviated Pliny z +14 to +16, planted z +12 to +21, 0 false claims); Voynich labels z +0.4. NOT ABBREVIATION-LIKE, L-abbrev × 0.6 (within L) |
