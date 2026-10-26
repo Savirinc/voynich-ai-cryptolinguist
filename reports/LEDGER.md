@@ -471,3 +471,9 @@ all 60 languages. With E066 and E069 this says individual Voynich words carry no
 a meaningless process gives. The one alternative that must be tested before this is read against L: a **catalogue**
 text (each entry its own vocabulary: a herbal, a pharmacopoeia) could also lack persistent content partners. Bibles
 are the wrong comparison for that; Culpeper and the Gaskell & Bowern technical texts are the right one. Not yet tested.
+
+**Descriptive, unscored (2026-10-26): label-class step 0, line position** (`LABEL_STEP0.md`). The o-tall-letter words
+(659 types, 3,596 prose tokens) open lines half as often as frequency-matched words (0.056 vs band 0.094–0.148) and
+paragraphs a third as often; they sit slightly late in the line (relative position 0.56 vs 0.47–0.52) and show no
+neighbour lock. The 70 zodiac-label types in prose agree. Reading 1 of the label-class programme (list words, pointers)
+is set aside: its main prediction (entry-initial position) fails. Readings 2 (names) and 3 (abbreviations) survive.

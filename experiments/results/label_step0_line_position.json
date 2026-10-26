@@ -1,0 +1,1756 @@
+{
+ "locked_test_excluded": [
+  "1",
+  "8",
+  "9",
+  "30",
+  "35",
+  "38",
+  "51",
+  "52",
+  "56",
+  "75",
+  "86",
+  "87",
+  "102",
+  "105",
+  "114"
+ ],
+ "sets": {
+  "OG": [
+   "ofadain",
+   "ofaiin",
+   "ofaiino",
+   "ofair",
+   "ofal",
+   "ofalsheky",
+   "ofar",
+   "ofaral",
+   "ofaram",
+   "ofaramoty",
+   "ofas",
+   "ofchar",
+   "ofchdy",
+   "ofched",
+   "ofchedal",
+   "ofchedy",
+   "ofcheefar",
+   "ofcheol",
+   "ofchey",
+   "ofchol",
+   "ofchor",
+   "ofchoshy",
+   "ofchr",
+   "ofchtar",
+   "ofchy",
+   "ofeeo",
+   "ofolain",
+   "ofoly",
+   "oforam",
+   "ofshdy",
+   "ofshod",
+   "ofy",
+   "ofydy",
+   "ok",
+   "oka",
+   "okachey",
+   "okadaiin",
+   "okady",
+   "okag",
+   "okai",
+   "okaifhhy",
+   "okaifhy",
+   "okaii",
+   "okaiiin",
+   "okaiikhal",
+   "okaiin",
+   "okaiir",
+   "okail",
+   "okaim",
+   "okain",
+   "okainy",
+   "okair",
+   "okal",
+   "okalaiin",
+   "okalain",
+   "okalal",
+   "okalam",
+   "okalchdy",
+   "okalchedy",
+   "okalcheg",
+   "okalchey",
+   "okalchol",
+   "okalchy",
+   "okaldain",
+   "okaldaly",
+   "okaldam",
+   "okaldg",
+   "okaldy",
+   "okalo",
+   "okalody",
+   "okalol",
+   "okalor",
+   "okalshdy",
+   "okaly",
+   "okalys",
+   "okam",
+   "okan",
+   "okaos",
+   "okar",
+   "okaraiin",
+   "okaral",
+   "okaram",
+   "okarar",
+   "okarchedy",
+   "okarol",
+   "okary",
+   "okas",
+   "okasal",
+   "okasor",
+   "okch",
+   "okchaiin",
+   "okchain",
+   "okchal",
+   "okchaldy",
+   "okchan",
+   "okchar",
+   "okcharain",
+   "okchd",
+   "okchdaim",
+   "okchdal",
+   "okchdam",
+   "okchdar",
+   "okchdpchy",
+   "okchdy",
+   "okchecf",
+   "okchechy",
+   "okchedam",
+   "okchedy",
+   "okcheeg",
+   "okcheey",
+   "okcheochy",
+   "okcheod",
+   "okcheody",
+   "okcheol",
+   "okcheor",
+   "okchey",
+   "okchhy",
+   "okcho",
+   "okchoal",
+   "okchod",
+   "okchodshy",
+   "okchody",
+   "okchoiiin",
+   "okchokol",
+   "okchokshy",
+   "okchol",
+   "okchom",
+   "okchor",
+   "okchy",
+   "okchydy",
+   "okdy",
+   "okeaiin",
+   "okeal",
+   "okeam",
+   "okear",
+   "okearcheol",
+   "okechdy",
+   "okechedy",
+   "okecheey",
+   "okechey",
+   "okechod",
+   "okechoked",
+   "okechol",
+   "okechy",
+   "oked",
+   "okedaiin",
+   "okedain",
+   "okedal",
+   "okedalor",
+   "okedals",
+   "okedam",
+   "okedar",
+   "okeder",
+   "okedody",
+   "okedor",
+   "okedy",
+   "okedyd",
+   "okedyted",
+   "okeea",
+   "okeeaiin",
+   "okeeam",
+   "okeear",
+   "okeearam",
+   "okeechedy",
+   "okeechy",
+   "okeed",
+   "okeedaiin",
+   "okeedain",
+   "okeedaky",
+   "okeedal",
+   "okeedam",
+   "okeedar",
+   "okeedaram",
+   "okeedchsy",
+   "okeedey",
+   "okeedy",
+   "okeedykey",
+   "okeeedy",
+   "okeeeo",
+   "okeeeody",
+   "okeeeol",
+   "okeeeosaiin",
+   "okeees",
+   "okeeey",
+   "okeem",
+   "okeeo",
+   "okeeodaiin",
+   "okeeodar",
+   "okeeody",
+   "okeeol",
+   "okeeolkcheey",
+   "okeeoly",
+   "okeeom",
+   "okeeor",
+   "okeeos",
+   "okees",
+   "okeeshey",
+   "okeeshy",
+   "okeesodar",
+   "okeey",
+   "okeeylkaiin",
+   "okeo",
+   "okeoaiin",
+   "okeoam",
+   "okeod",
+   "okeodain",
+   "okeodal",
+   "okeodof",
+   "okeodsho",
+   "okeody",
+   "okeokain",
+   "okeokear",
+   "okeol",
+   "okeolan",
+   "okeoldy",
+   "okeolkey",
+   "okeolor",
+   "okeolshy",
+   "okeoly",
+   "okeom",
+   "okeor",
+   "okeorl",
+   "okeos",
+   "okeoschso",
+   "okeoteey",
+   "okeoy",
+   "okes",
+   "okeshdy",
+   "okeshedy",
+   "okeshos",
+   "okeshy",
+   "okesoe",
+   "okesy",
+   "okey",
+   "okeyshcphhy",
+   "okeyty",
+   "okiin",
+   "okil",
+   "okiroley",
+   "oklor",
+   "oko",
+   "okoaiin",
+   "okochey",
+   "okod",
+   "okodaiin",
+   "okody",
+   "okoeor",
+   "okoes",
+   "okohy",
+   "okoiin",
+   "okol",
+   "okolaiin",
+   "okolchey",
+   "okolchy",
+   "okoldy",
+   "okolol",
+   "okolor",
+   "okols",
+   "okoly",
+   "okom",
+   "okool",
+   "okor",
+   "okoraiin",
+   "okorory",
+   "okos",
+   "okoy",
+   "okr",
+   "okshal",
+   "okshd",
+   "okshdy",
+   "okshed",
+   "okshedy",
+   "okshes",
+   "okshey",
+   "oksho",
+   "okshodeeeb",
+   "okshody",
+   "okshor",
+   "okshy",
+   "oky",
+   "okyd",
+   "okydy",
+   "okytaiin",
+   "op",
+   "opa",
+   "opaichy",
+   "opaiin",
+   "opaiir",
+   "opaiiral",
+   "opaim",
+   "opain",
+   "opair",
+   "opakam",
+   "opal",
+   "opalal",
+   "opalam",
+   "opaldaiin",
+   "opaldy",
+   "opalepam",
+   "opalkaiin",
+   "opalkam",
+   "opalkar",
+   "opalke",
+   "opalor",
+   "opalshedy",
+   "opaly",
+   "opam",
+   "opamdy",
+   "opar",
+   "oparaiin",
+   "oparam",
+   "oparchy",
+   "opary",
+   "opch",
+   "opchackhy",
+   "opchaiin",
+   "opchain",
+   "opchal",
+   "opchaldy",
+   "opchaly",
+   "opchar",
+   "opchd",
+   "opchdain",
+   "opchdal",
+   "opchdar",
+   "opchdy",
+   "opchealol",
+   "opchear",
+   "opched",
+   "opchedaiin",
+   "opchedal",
+   "opchedy",
+   "opcheear",
+   "opcheed",
+   "opcheedy",
+   "opcheeky",
+   "opcheeo",
+   "opcheeol",
+   "opchees",
+   "opcheey",
+   "opchekaiin",
+   "opchekan",
+   "opcheodair",
+   "opcheodal",
+   "opcheody",
+   "opcheof",
+   "opcheol",
+   "opcheor",
+   "opchepy",
+   "opches",
+   "opchety",
+   "opchey",
+   "opchod",
+   "opchody",
+   "opchol",
+   "opcholor",
+   "opchor",
+   "opchordy",
+   "opchory",
+   "opchsd",
+   "opchy",
+   "opdarshdy",
+   "opheey",
+   "opod",
+   "opodaiin",
+   "opodchol",
+   "opol",
+   "opolaiin",
+   "opolde",
+   "opolkaiin",
+   "opolkeor",
+   "opolraiin",
+   "opolsy",
+   "opoly",
+   "opom",
+   "opor",
+   "oporaiin",
+   "oporar",
+   "opshdy",
+   "opsheas",
+   "opshed",
+   "opshedal",
+   "opshedy",
+   "opsheolaiin",
+   "opshes",
+   "opshey",
+   "opsho",
+   "opshody",
+   "opshol",
+   "opsholal",
+   "opy",
+   "opyaiin",
+   "opydaiin",
+   "opydg",
+   "opydy",
+   "opykey",
+   "ot",
+   "ota",
+   "otacphy",
+   "otaiiin",
+   "otaiikam",
+   "otaiin",
+   "otaiinam",
+   "otaiir",
+   "otail",
+   "otaily",
+   "otaim",
+   "otain",
+   "otair",
+   "otairos",
+   "otais",
+   "otakas",
+   "otakeol",
+   "otaky",
+   "otal",
+   "otalaiin",
+   "otalain",
+   "otalair",
+   "otalal",
+   "otalam",
+   "otalar",
+   "otalchal",
+   "otalchdy",
+   "otald",
+   "otaldal",
+   "otaldam",
+   "otaldiin",
+   "otaldy",
+   "otalkchy",
+   "otalkshedy",
+   "otalod",
+   "otalom",
+   "otalor",
+   "otalr",
+   "otals",
+   "otalshdy",
+   "otalshedy",
+   "otalsy",
+   "otaly",
+   "otalys",
+   "otam",
+   "otan",
+   "otar",
+   "otaraiin",
+   "otarain",
+   "otaral",
+   "otaram",
+   "otarar",
+   "otaras",
+   "otaray",
+   "otarchol",
+   "otardam",
+   "otardy",
+   "otaro",
+   "otarokar",
+   "otarpchdy",
+   "otary",
+   "otaryly",
+   "otas",
+   "otch",
+   "otchaiin",
+   "otchal",
+   "otchald",
+   "otcham",
+   "otchar",
+   "otchd",
+   "otchdain",
+   "otchdal",
+   "otchdy",
+   "otchealkar",
+   "otchechy",
+   "otchedey",
+   "otchedy",
+   "otcheedaiin",
+   "otcheeo",
+   "otcheey",
+   "otcheochy",
+   "otcheolom",
+   "otcheoly",
+   "otcher",
+   "otches",
+   "otchey",
+   "otchg",
+   "otchl",
+   "otcho",
+   "otchod",
+   "otchodar",
+   "otchodeey",
+   "otchodol",
+   "otchodor",
+   "otchody",
+   "otchoky",
+   "otchol",
+   "otcholchy",
+   "otchom",
+   "otchor",
+   "otchos",
+   "otchotar",
+   "otchoty",
+   "otchs",
+   "otchsdy",
+   "otchy",
+   "otchyd",
+   "otchyky",
+   "otdal",
+   "otdy",
+   "ote",
+   "oteaiin",
+   "oteain",
+   "oteal",
+   "otealshey",
+   "otear",
+   "otech",
+   "otechd",
+   "otechdy",
+   "otechedy",
+   "otecheedy",
+   "otechshy",
+   "otechy",
+   "otechys",
+   "oted",
+   "otedaiin",
+   "otedain",
+   "otedair",
+   "otedal",
+   "otedam",
+   "otedar",
+   "otedeey",
+   "otedol",
+   "otedor",
+   "otedy",
+   "otedyar",
+   "otedyl",
+   "oteeaiin",
+   "oteeal",
+   "oteeam",
+   "oteechy",
+   "oteed",
+   "oteedaiin",
+   "oteedain",
+   "oteedal",
+   "oteedan",
+   "oteedar",
+   "oteedchey",
+   "oteedy",
+   "oteedyram",
+   "oteeeb",
+   "oteeedchey",
+   "oteeedy",
+   "oteeedyqokeey",
+   "oteeey",
+   "oteeg",
+   "oteeo",
+   "oteeoaly",
+   "oteeochey",
+   "oteeod",
+   "oteeody",
+   "oteeol",
+   "oteeolkeey",
+   "oteeor",
+   "oteeos",
+   "oteeosy",
+   "otees",
+   "oteey",
+   "oteeykshy",
+   "oteeylshedy",
+   "oteeyoram",
+   "oteo",
+   "oteochey",
+   "oteod",
+   "oteodaiin",
+   "oteodain",
+   "oteodal",
+   "oteodar",
+   "oteodchy",
+   "oteodsho",
+   "oteody",
+   "oteoefol",
+   "oteog",
+   "oteol",
+   "oteolair",
+   "oteoldy",
+   "oteoly",
+   "oteom",
+   "oteor",
+   "oteorom",
+   "oteos",
+   "oteoy",
+   "otes",
+   "oteshy",
+   "otey",
+   "oteys",
+   "otiir",
+   "otkchedy",
+   "otl",
+   "otlaiin",
+   "otlchdain",
+   "otlol",
+   "oto",
+   "otochor",
+   "otockey",
+   "otod",
+   "otodaiin",
+   "otodal",
+   "otodar",
+   "otodchy",
+   "otody",
+   "otoiin",
+   "otokcho",
+   "otol",
+   "otolches",
+   "otolchey",
+   "otoldaiin",
+   "otoldos",
+   "otoldy",
+   "otolkeechdy",
+   "otoloaiin",
+   "otolodal",
+   "otolol",
+   "otolom",
+   "otolpchy",
+   "otolsheeos",
+   "otoly",
+   "otor",
+   "otoraiin",
+   "otoralchy",
+   "otorchy",
+   "otorsheey",
+   "otory",
+   "otos",
+   "otosy",
+   "ototar",
+   "ototaykal",
+   "otoy",
+   "otsh",
+   "otshaiin",
+   "otshcho",
+   "otshdy",
+   "otshedy",
+   "otsheey",
+   "otsheody",
+   "otshes",
+   "otshey",
+   "otsho",
+   "otshol",
+   "otshor",
+   "otshsaiin",
+   "otshy",
+   "oty",
+   "otychey",
+   "otyd",
+   "otydal",
+   "otydy",
+   "otyky",
+   "otylor",
+   "otyshy",
+   "otytam",
+   "otytchol",
+   "otytchy"
+  ],
+  "ZL": [
+   "okaiin",
+   "okal",
+   "okalal",
+   "okalam",
+   "okaldy",
+   "okaly",
+   "okam",
+   "okaraiin",
+   "okaram",
+   "okary",
+   "okeal",
+   "okedal",
+   "okedy",
+   "okeedy",
+   "okeeody",
+   "okeeol",
+   "okeeoly",
+   "okeeom",
+   "okeeos",
+   "okees",
+   "okeey",
+   "okeod",
+   "okeody",
+   "okeol",
+   "okeoldy",
+   "okeoly",
+   "okeor",
+   "okeos",
+   "okey",
+   "okody",
+   "okol",
+   "okoly",
+   "oky",
+   "okyd",
+   "okydy",
+   "opaiin",
+   "opal",
+   "opalal",
+   "opalor",
+   "opchey",
+   "otaiin",
+   "otain",
+   "otair",
+   "otal",
+   "otalaiin",
+   "otalam",
+   "otalar",
+   "otald",
+   "otaldy",
+   "otaly",
+   "otam",
+   "otar",
+   "otchdal",
+   "otchody",
+   "otear",
+   "otedy",
+   "oteedy",
+   "oteeol",
+   "oteeosy",
+   "oteey",
+   "oteo",
+   "oteod",
+   "oteodar",
+   "oteody",
+   "oteoly",
+   "oteos",
+   "otey",
+   "otody",
+   "otoly",
+   "oty"
+  ],
+  "SH": [
+   "am",
+   "arom",
+   "ary",
+   "char",
+   "ches",
+   "dan",
+   "dy",
+   "okaiin",
+   "okam",
+   "okary",
+   "okeeos",
+   "okeoly",
+   "okol",
+   "oky",
+   "olaiin",
+   "otair",
+   "otal",
+   "otalam",
+   "otaldy",
+   "otaly",
+   "otar",
+   "otear",
+   "otoly",
+   "sheol",
+   "y"
+  ]
+ },
+ "results": {
+  "OG_ALL": {
+   "voynich": {
+    "tokens": 3596,
+    "types": 659,
+    "line_initial": 0.05617352614015573,
+    "line_final": 0.11790878754171301,
+    "para_initial": 0.005839822024471635,
+    "rel_pos": 0.5599397663872767,
+    "prev_y": 0.4222882615156018,
+    "prev_conc": 0.03445911608560536,
+    "n_conc_types": 49
+   },
+   "control": {
+    "tokens": {
+     "mean": 3376.124,
+     "p2.5": 3053.475,
+     "p97.5": 3691.1499999999996
+    },
+    "types": {
+     "mean": 620.022,
+     "p2.5": 609.0,
+     "p97.5": 631.0
+    },
+    "line_initial": {
+     "mean": 0.12043086875564925,
+     "p2.5": 0.09437690535060057,
+     "p97.5": 0.1483349057821679
+    },
+    "line_final": {
+     "mean": 0.11389203091080888,
+     "p2.5": 0.090790876372132,
+     "p97.5": 0.14615060979764258
+    },
+    "para_initial": {
+     "mean": 0.019973218352718057,
+     "p2.5": 0.014519322946978512,
+     "p97.5": 0.026521575283068036
+    },
+    "rel_pos": {
+     "mean": 0.4900368571251557,
+     "p2.5": 0.46532445235685715,
+     "p97.5": 0.5188310342822142
+    },
+    "prev_y": {
+     "mean": 0.43471103791837734,
+     "p2.5": 0.37162171324994364,
+     "p97.5": 0.5087587828301423
+    },
+    "prev_conc": {
+     "mean": 0.05298099754888669,
+     "p2.5": 0.04202645028286039,
+     "p97.5": 0.0642792445250326
+    },
+    "n_conc_types": {
+     "mean": 43.448,
+     "p2.5": 38.0,
+     "p97.5": 49.0
+    }
+   },
+   "reading": "EVEN"
+  },
+  "OG_A": {
+   "voynich": {
+    "tokens": 882,
+    "types": 273,
+    "line_initial": 0.10657596371882086,
+    "line_final": 0.13718820861678005,
+    "para_initial": 0.0,
+    "rel_pos": 0.5341449914558938,
+    "prev_y": 0.3281853281853282,
+    "prev_conc": 0.017721191333445088,
+    "n_conc_types": 15
+   },
+   "control": {
+    "tokens": {
+     "mean": 1068.41,
+     "p2.5": 864.75,
+     "p97.5": 1306.525
+    },
+    "types": {
+     "mean": 281.652,
+     "p2.5": 258.0,
+     "p97.5": 303.0
+    },
+    "line_initial": {
+     "mean": 0.12923893280830423,
+     "p2.5": 0.09522331352437499,
+     "p97.5": 0.1651359363880414
+    },
+    "line_final": {
+     "mean": 0.13145064374356794,
+     "p2.5": 0.09414332216419638,
+     "p97.5": 0.17726203253242667
+    },
+    "para_initial": {
+     "mean": 0.019177059170830364,
+     "p2.5": 0.01039098388183284,
+     "p97.5": 0.030639325767730735
+    },
+    "rel_pos": {
+     "mean": 0.49516151605385883,
+     "p2.5": 0.4582254429813794,
+     "p97.5": 0.5370028560123103
+    },
+    "prev_y": {
+     "mean": 0.3031824316426056,
+     "p2.5": 0.2657571889310775,
+     "p97.5": 0.3482334884448442
+    },
+    "prev_conc": {
+     "mean": 0.050379773650999715,
+     "p2.5": 0.03042310985457768,
+     "p97.5": 0.07166294193751511
+    },
+    "n_conc_types": {
+     "mean": 17.792,
+     "p2.5": 13.0,
+     "p97.5": 23.0
+    }
+   },
+   "reading": "EVEN"
+  },
+  "OG_B": {
+   "voynich": {
+    "tokens": 2653,
+    "types": 482,
+    "line_initial": 0.0365623822088202,
+    "line_final": 0.1096871466264606,
+    "para_initial": 0.005277044854881266,
+    "rel_pos": 0.5698863848335746,
+    "prev_y": 0.450354609929078,
+    "prev_conc": 0.038019225165968076,
+    "n_conc_types": 42
+   },
+   "control": {
+    "tokens": {
+     "mean": 2225.542,
+     "p2.5": 1895.95,
+     "p97.5": 2558.05
+    },
+    "types": {
+     "mean": 427.152,
+     "p2.5": 405.0,
+     "p97.5": 450.525
+    },
+    "line_initial": {
+     "mean": 0.11457344720000029,
+     "p2.5": 0.08330556072308265,
+     "p97.5": 0.15216103091424424
+    },
+    "line_final": {
+     "mean": 0.10671929419956477,
+     "p2.5": 0.08147549706629927,
+     "p97.5": 0.13473482057763927
+    },
+    "para_initial": {
+     "mean": 0.01987675981347304,
+     "p2.5": 0.013312019805643088,
+     "p97.5": 0.027861282965903535
+    },
+    "rel_pos": {
+     "mean": 0.49007167836883836,
+     "p2.5": 0.463164912510007,
+     "p97.5": 0.5171653920069302
+    },
+    "prev_y": {
+     "mean": 0.4969696549323514,
+     "p2.5": 0.4096399451219146,
+     "p97.5": 0.5796266320605438
+    },
+    "prev_conc": {
+     "mean": 0.055409346663334934,
+     "p2.5": 0.04066141980777453,
+     "p97.5": 0.06989462388155658
+    },
+    "n_conc_types": {
+     "mean": 32.392,
+     "p2.5": 27.0,
+     "p97.5": 37.52499999999998
+    }
+   },
+   "reading": "EVEN"
+  },
+  "ZL_ALL": {
+   "voynich": {
+    "tokens": 1970,
+    "types": 70,
+    "line_initial": 0.03350253807106599,
+    "line_final": 0.10355329949238579,
+    "para_initial": 0.0025380710659898475,
+    "rel_pos": 0.5685751644233396,
+    "prev_y": 0.4249471458773784,
+    "prev_conc": 0.04610024766672104,
+    "n_conc_types": 27
+   },
+   "control": {
+    "tokens": {
+     "mean": 1860.954,
+     "p2.5": 1556.0,
+     "p97.5": 2118.525
+    },
+    "types": {
+     "mean": 67.6,
+     "p2.5": 65.0,
+     "p97.5": 70.0
+    },
+    "line_initial": {
+     "mean": 0.09306356116587011,
+     "p2.5": 0.05426222483292568,
+     "p97.5": 0.1410204032809913
+    },
+    "line_final": {
+     "mean": 0.09519230833014636,
+     "p2.5": 0.05978557931509939,
+     "p97.5": 0.13835528202273722
+    },
+    "para_initial": {
+     "mean": 0.005703770604860408,
+     "p2.5": 0.00162979325762508,
+     "p97.5": 0.01288201256942991
+    },
+    "rel_pos": {
+     "mean": 0.493936278139098,
+     "p2.5": 0.45553238513898436,
+     "p97.5": 0.5348854592955706
+    },
+    "prev_y": {
+     "mean": 0.4281875772885442,
+     "p2.5": 0.32215818297783366,
+     "p97.5": 0.5376877566489644
+    },
+    "prev_conc": {
+     "mean": 0.06239327872688481,
+     "p2.5": 0.048308627016313554,
+     "p97.5": 0.07905458254909827
+    },
+    "n_conc_types": {
+     "mean": 23.984,
+     "p2.5": 20.0,
+     "p97.5": 28.0
+    }
+   },
+   "reading": "EVEN"
+  },
+  "ZL_A": {
+   "voynich": {
+    "tokens": 384,
+    "types": 48,
+    "line_initial": 0.049479166666666664,
+    "line_final": 0.13541666666666666,
+    "para_initial": 0.0,
+    "rel_pos": 0.5591364084095982,
+    "prev_y": 0.3185595567867036,
+    "prev_conc": 0.016598600871449563,
+    "n_conc_types": 10
+   },
+   "control": {
+    "tokens": {
+     "mean": 563.706,
+     "p2.5": 374.9,
+     "p97.5": 770.7249999999998
+    },
+    "types": {
+     "mean": 43.4,
+     "p2.5": 36.0,
+     "p97.5": 51.0
+    },
+    "line_initial": {
+     "mean": 0.10147173131107354,
+     "p2.5": 0.056715204933141194,
+     "p97.5": 0.1537014574789657
+    },
+    "line_final": {
+     "mean": 0.1131187632500091,
+     "p2.5": 0.05696249727771698,
+     "p97.5": 0.18032508338570113
+    },
+    "para_initial": {
+     "mean": 0.004845887578398724,
+     "p2.5": 0.0,
+     "p97.5": 0.014417525161647514
+    },
+    "rel_pos": {
+     "mean": 0.4971139925308662,
+     "p2.5": 0.43685571730048756,
+     "p97.5": 0.5595946562048247
+    },
+    "prev_y": {
+     "mean": 0.2834245576239299,
+     "p2.5": 0.22626993483315322,
+     "p97.5": 0.3437135472167766
+    },
+    "prev_conc": {
+     "mean": 0.05043529472224705,
+     "p2.5": 0.02725037260811787,
+     "p97.5": 0.07772092075759894
+    },
+    "n_conc_types": {
+     "mean": 12.36,
+     "p2.5": 9.0,
+     "p97.5": 16.0
+    }
+   },
+   "reading": "EVEN"
+  },
+  "ZL_B": {
+   "voynich": {
+    "tokens": 1555,
+    "types": 64,
+    "line_initial": 0.02765273311897106,
+    "line_final": 0.09517684887459807,
+    "para_initial": 0.0019292604501607716,
+    "rel_pos": 0.5730141955222341,
+    "prev_y": 0.4474734042553192,
+    "prev_conc": 0.0492712565461389,
+    "n_conc_types": 25
+   },
+   "control": {
+    "tokens": {
+     "mean": 1273.09,
+     "p2.5": 982.85,
+     "p97.5": 1556.6749999999997
+    },
+    "types": {
+     "mean": 57.48,
+     "p2.5": 51.0,
+     "p97.5": 63.0
+    },
+    "line_initial": {
+     "mean": 0.08898664271473318,
+     "p2.5": 0.04398327865864771,
+     "p97.5": 0.1493020978270452
+    },
+    "line_final": {
+     "mean": 0.08826960561803153,
+     "p2.5": 0.05690524586862673,
+     "p97.5": 0.13047864797429498
+    },
+    "para_initial": {
+     "mean": 0.005485882435840746,
+     "p2.5": 0.0008448029917495566,
+     "p97.5": 0.013865156973751926
+    },
+    "rel_pos": {
+     "mean": 0.4939466787027803,
+     "p2.5": 0.44973454356266857,
+     "p97.5": 0.5378752678320003
+    },
+    "prev_y": {
+     "mean": 0.4940167299510136,
+     "p2.5": 0.35259024064171124,
+     "p97.5": 0.6358674839123324
+    },
+    "prev_conc": {
+     "mean": 0.061591746737639994,
+     "p2.5": 0.04309037855926972,
+     "p97.5": 0.08481400230059062
+    },
+    "n_conc_types": {
+     "mean": 20.184,
+     "p2.5": 16.0,
+     "p97.5": 24.0
+    }
+   },
+   "reading": "EVEN"
+  },
+  "SH_ALL": {
+   "voynich": {
+    "tokens": 1293,
+    "types": 25,
+    "line_initial": 0.06883217324052592,
+    "line_final": 0.18561484918793503,
+    "para_initial": 0.0,
+    "rel_pos": 0.5784964411896882,
+    "prev_y": 0.2957393483709273,
+    "prev_conc": 0.062473652773128587,
+    "n_conc_types": 16
+   },
+   "control": {
+    "tokens": {
+     "mean": 1192.638,
+     "p2.5": 970.475,
+     "p97.5": 1373.525
+    },
+    "types": {
+     "mean": 24.498,
+     "p2.5": 23.0,
+     "p97.5": 25.0
+    },
+    "line_initial": {
+     "mean": 0.08183812762573771,
+     "p2.5": 0.0401844468981919,
+     "p97.5": 0.14096263200649878
+    },
+    "line_final": {
+     "mean": 0.08668216384742643,
+     "p2.5": 0.05015320541100109,
+     "p97.5": 0.13759228333120416
+    },
+    "para_initial": {
+     "mean": 0.003715281309368623,
+     "p2.5": 0.0,
+     "p97.5": 0.011302987742594481
+    },
+    "rel_pos": {
+     "mean": 0.5006328693664565,
+     "p2.5": 0.45450730571735276,
+     "p97.5": 0.548656605077332
+    },
+    "prev_y": {
+     "mean": 0.4498942483396717,
+     "p2.5": 0.3117567506430723,
+     "p97.5": 0.6084239064405922
+    },
+    "prev_conc": {
+     "mean": 0.06537485486347064,
+     "p2.5": 0.04703667116039946,
+     "p97.5": 0.08686956234746397
+    },
+    "n_conc_types": {
+     "mean": 14.604,
+     "p2.5": 12.0,
+     "p97.5": 16.0
+    }
+   },
+   "reading": "EVEN"
+  },
+  "SH_A": {
+   "voynich": {
+    "tokens": 405,
+    "types": 21,
+    "line_initial": 0.056790123456790124,
+    "line_final": 0.20493827160493827,
+    "para_initial": 0.0,
+    "rel_pos": 0.5765421236405642,
+    "prev_y": 0.2440318302387268,
+    "prev_conc": 0.052143991467466455,
+    "n_conc_types": 10
+   },
+   "control": {
+    "tokens": {
+     "mean": 315.104,
+     "p2.5": 166.85000000000002,
+     "p97.5": 485.57499999999993
+    },
+    "types": {
+     "mean": 17.972,
+     "p2.5": 14.0,
+     "p97.5": 22.0
+    },
+    "line_initial": {
+     "mean": 0.094352985673328,
+     "p2.5": 0.038438384665234145,
+     "p97.5": 0.16638086642599276
+    },
+    "line_final": {
+     "mean": 0.10799329310650245,
+     "p2.5": 0.04305693643534168,
+     "p97.5": 0.20798543467673195
+    },
+    "para_initial": {
+     "mean": 0.003479851491752747,
+     "p2.5": 0.0,
+     "p97.5": 0.01643796435878107
+    },
+    "rel_pos": {
+     "mean": 0.5019171194782754,
+     "p2.5": 0.4192385373500102,
+     "p97.5": 0.5847156803725994
+    },
+    "prev_y": {
+     "mean": 0.2867862104679453,
+     "p2.5": 0.21034715525554484,
+     "p97.5": 0.3780902951805639
+    },
+    "prev_conc": {
+     "mean": 0.04942636193099912,
+     "p2.5": 0.019093922004855754,
+     "p97.5": 0.08600124768565663
+    },
+    "n_conc_types": {
+     "mean": 7.29,
+     "p2.5": 4.0,
+     "p97.5": 10.524999999999977
+    }
+   },
+   "reading": "EVEN"
+  },
+  "SH_B": {
+   "voynich": {
+    "tokens": 859,
+    "types": 24,
+    "line_initial": 0.07566938300349244,
+    "line_final": 0.16996507566938301,
+    "para_initial": 0.0,
+    "rel_pos": 0.576265335040073,
+    "prev_y": 0.3181818181818182,
+    "prev_conc": 0.05712564143510166,
+    "n_conc_types": 15
+   },
+   "control": {
+    "tokens": {
+     "mean": 858.1,
+     "p2.5": 628.275,
+     "p97.5": 1108.05
+    },
+    "types": {
+     "mean": 22.352,
+     "p2.5": 19.0,
+     "p97.5": 25.0
+    },
+    "line_initial": {
+     "mean": 0.07480522902367491,
+     "p2.5": 0.030379289584587597,
+     "p97.5": 0.1379276299879081
+    },
+    "line_final": {
+     "mean": 0.0751503920194231,
+     "p2.5": 0.045652964959568734,
+     "p97.5": 0.1220914159499541
+    },
+    "para_initial": {
+     "mean": 0.0035163398786835485,
+     "p2.5": 0.0,
+     "p97.5": 0.011297120908256563
+    },
+    "rel_pos": {
+     "mean": 0.4966894944644821,
+     "p2.5": 0.45106840508455126,
+     "p97.5": 0.5495041259132651
+    },
+    "prev_y": {
+     "mean": 0.5063768213705014,
+     "p2.5": 0.3468463842533162,
+     "p97.5": 0.6617865978838763
+    },
+    "prev_conc": {
+     "mean": 0.06550639095713033,
+     "p2.5": 0.042231132338987495,
+     "p97.5": 0.09167891110518776
+    },
+    "n_conc_types": {
+     "mean": 12.366,
+     "p2.5": 10.0,
+     "p97.5": 15.0
+    }
+   },
+   "reading": "EVEN"
+  }
+ },
+ "shared_detail": {
+  "okeeos": {
+   "n": 1,
+   "line_initial": 0.0,
+   "top_prev": [
+    [
+     "tchedy",
+     1
+    ]
+   ]
+  },
+  "y": {
+   "n": 223,
+   "line_initial": 0.247,
+   "top_prev": [
+    [
+     "s",
+     6
+    ],
+    [
+     "daiin",
+     6
+    ],
+    [
+     "ar",
+     5
+    ]
+   ]
+  },
+  "arom": {
+   "n": 1,
+   "line_initial": 0.0,
+   "top_prev": [
+    [
+     "qor",
+     1
+    ]
+   ]
+  },
+  "otal": {
+   "n": 104,
+   "line_initial": 0.01,
+   "top_prev": [
+    [
+     "daiin",
+     4
+    ],
+    [
+     "qokaiin",
+     4
+    ],
+    [
+     "qokedy",
+     3
+    ]
+   ]
+  },
+  "otair": {
+   "n": 12,
+   "line_initial": 0.083,
+   "top_prev": [
+    [
+     "choky",
+     1
+    ],
+    [
+     "qokaiin",
+     1
+    ],
+    [
+     "alched",
+     1
+    ]
+   ]
+  },
+  "oky": {
+   "n": 70,
+   "line_initial": 0.029,
+   "top_prev": [
+    [
+     "chol",
+     2
+    ],
+    [
+     "daiin",
+     2
+    ],
+    [
+     "aiin",
+     2
+    ]
+   ]
+  },
+  "otaldy": {
+   "n": 4,
+   "line_initial": 0.0,
+   "top_prev": [
+    [
+     "okolchy",
+     1
+    ],
+    [
+     "fchedy",
+     1
+    ],
+    [
+     "qotolol",
+     1
+    ]
+   ]
+  },
+  "am": {
+   "n": 54,
+   "line_initial": 0.0,
+   "top_prev": [
+    [
+     "ar",
+     4
+    ],
+    [
+     "aiin",
+     4
+    ],
+    [
+     "or",
+     3
+    ]
+   ]
+  },
+  "okary": {
+   "n": 4,
+   "line_initial": 0.0,
+   "top_prev": [
+    [
+     "chol",
+     1
+    ],
+    [
+     "aiin",
+     1
+    ],
+    [
+     "qokey",
+     1
+    ]
+   ]
+  },
+  "sheol": {
+   "n": 92,
+   "line_initial": 0.033,
+   "top_prev": [
+    [
+     "qokain",
+     4
+    ],
+    [
+     "daiin",
+     3
+    ],
+    [
+     "qotol",
+     2
+    ]
+   ]
+  },
+  "okaiin": {
+   "n": 181,
+   "line_initial": 0.083,
+   "top_prev": [
+    [
+     "aiin",
+     7
+    ],
+    [
+     "daiin",
+     6
+    ],
+    [
+     "okaiin",
+     6
+    ]
+   ]
+  },
+  "dy": {
+   "n": 203,
+   "line_initial": 0.01,
+   "top_prev": [
+    [
+     "dy",
+     8
+    ],
+    [
+     "daiin",
+     7
+    ],
+    [
+     "chol",
+     6
+    ]
+   ]
+  },
+  "dan": {
+   "n": 14,
+   "line_initial": 0.0,
+   "top_prev": [
+    [
+     "chol",
+     2
+    ],
+    [
+     "ytchaiin",
+     1
+    ],
+    [
+     "shan",
+     1
+    ]
+   ]
+  },
+  "ches": {
+   "n": 27,
+   "line_initial": 0.0,
+   "top_prev": [
+    [
+     "qokaiin",
+     2
+    ],
+    [
+     "al",
+     2
+    ],
+    [
+     "otal",
+     2
+    ]
+   ]
+  },
+  "otear": {
+   "n": 2,
+   "line_initial": 0.0,
+   "top_prev": [
+    [
+     "otal",
+     1
+    ],
+    [
+     "keedar",
+     1
+    ]
+   ]
+  },
+  "otalam": {
+   "n": 1,
+   "line_initial": 0.0,
+   "top_prev": [
+    [
+     "shecthy",
+     1
+    ]
+   ]
+  },
+  "otoly": {
+   "n": 4,
+   "line_initial": 0.0,
+   "top_prev": [
+    [
+     "chkol",
+     1
+    ],
+    [
+     "oldy",
+     1
+    ],
+    [
+     "am",
+     1
+    ]
+   ]
+  },
+  "olaiin": {
+   "n": 34,
+   "line_initial": 0.088,
+   "top_prev": [
+    [
+     "ol",
+     6
+    ],
+    [
+     "shedy",
+     2
+    ],
+    [
+     "qor",
+     1
+    ]
+   ]
+  },
+  "otar": {
+   "n": 93,
+   "line_initial": 0.011,
+   "top_prev": [
+    [
+     "aiin",
+     5
+    ],
+    [
+     "okar",
+     3
+    ],
+    [
+     "qokain",
+     3
+    ]
+   ]
+  },
+  "okam": {
+   "n": 25,
+   "line_initial": 0.0,
+   "top_prev": [
+    [
+     "okedy",
+     2
+    ],
+    [
+     "ar",
+     2
+    ],
+    [
+     "oesearies",
+     1
+    ]
+   ]
+  },
+  "ary": {
+   "n": 16,
+   "line_initial": 0.0,
+   "top_prev": [
+    [
+     "qokar",
+     3
+    ],
+    [
+     "ar",
+     2
+    ],
+    [
+     "okor",
+     1
+    ]
+   ]
+  },
+  "char": {
+   "n": 64,
+   "line_initial": 0.031,
+   "top_prev": [
+    [
+     "qokain",
+     3
+    ],
+    [
+     "r",
+     2
+    ],
+    [
+     "al",
+     2
+    ]
+   ]
+  },
+  "okeoly": {
+   "n": 3,
+   "line_initial": 0.0,
+   "top_prev": [
+    [
+     "qokeol",
+     1
+    ],
+    [
+     "daiin",
+     1
+    ],
+    [
+     "kolshey",
+     1
+    ]
+   ]
+  },
+  "okol": {
+   "n": 53,
+   "line_initial": 0.075,
+   "top_prev": [
+    [
+     "okar",
+     2
+    ],
+    [
+     "shoky",
+     2
+    ],
+    [
+     "ar",
+     2
+    ]
+   ]
+  },
+  "otaly": {
+   "n": 8,
+   "line_initial": 0.0,
+   "top_prev": [
+    [
+     "sholy",
+     1
+    ],
+    [
+     "otchy",
+     1
+    ],
+    [
+     "okal",
+     1
+    ]
+   ]
+  }
+ }
+}
