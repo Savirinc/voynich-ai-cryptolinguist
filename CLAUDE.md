@@ -179,6 +179,27 @@ Austronesian, African and others; all validated, 0 false claims on 588 controls)
 glyph contexts, bifolio session effect; all confirmed, facts corrected). Still open: C3 depends on glyph grouping.
 
 ## 6. Next steps (recommended order; propose one at a time)
+**Label-class programme (agreed 2026-10-25, to run from 2026-10-26).** Descriptive facts found on 2026-10-25 (not
+pre-registered, in `reports/LEDGER.md` after E070 and in the session notes): labels are a word class (o + tall letter,
+66% of zodiac labels vs 18% for frequency-matched text words); each label is marker + short core (1–3 signs; 69 cores
+for 135 zodiac labels) + ending; 25 labels are shared between pharma drawings and zodiac figures (chance 10); those 25
+words are 4–6% of running text in every section; repeated zodiac labels do not sit at the same ring position; pharma
+drawing colours cannot test colour. Five readings of the label class, each to be tested properly, one pre-registration
+each, cheapest first; absence counts:
+0. **Line position of o-tall-letter words** (descriptive pass first): line-initial → list markers/pointers; even →
+   names/abbreviations; after particular neighbours → quantities.
+1. **List words and pointers** ("item", "idem", "the same"): predicts line/entry-initial position and repetition at
+   entry starts; compare with real inventories/recipe books (Apicius, Cato, Culpeper, Leechbook).
+2. **Title + name** (saint, lord, god, king): predicts a small set of markers with an open set of cores, cores recurring
+   across sections on the *same* referent; test core sharing against drawings (same plant part/jar; same nymph type).
+3. **Abbreviated phrases** (L-abbrev): predicts cores that are prefixes of longer text words (abbreviation = truncation)
+   more often than chance; compare with abbreviated Latin (Pliny abbreviated, G&B).
+4. **Number + unit**: predicts digit-like small core set in fixed slots and Benford-like core frequencies; already
+   weakened (69 cores, no ring position, E056).
+5. **Category + identifier**: predicts different markers for plants vs figures; weakened (same ot/ok ratio).
+Plus the zodiac attribute test (E071 candidate: download the 8 DEV zodiac canvases, annotate ~350 labelled nymphs for
+star/colour/barrel/clothing/posture; same label → same feature beyond chance).
+
 1. ~~Clean-up round~~ done (E059, `CLEANUP_ROUND.md`).
 2. ~~Re-audit the early ledger factors~~ done (E064, `EARLY_AUDIT.md`). Open follow-up: a test M can *win* (the
    symmetric gap): e.g. obtain or re-implement quimqu's generator (thread-6219) and run the 13-feature battery on it.
