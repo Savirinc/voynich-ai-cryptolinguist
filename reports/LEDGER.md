@@ -553,3 +553,7 @@ each attacked by a method that cracks it on known answers: no reading better tha
 Accounting for the ledger: the letter-level forms (H1, H2, H5) and H3 fall within L-alpha-known and L-abbrev-like forms
 already reduced by E049–E063; the residual Hebrew share inside L is small. No new factor is applied without a
 pre-registered accounting; to be proposed to Arham.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-27 | E083 proof by construction, Hebrew → Voynich (`HEBREW_CAMPAIGN.md`; Arham) | Known answer recovered (67% exact words, order z +229). Fit: Turkish 0.485, Hebrew 0.466, Latin 0.461 ... scrambled Hebrew 0.339; all keep 1 root letter. Order: Hebrew +0.9; Aramaic +8.0, Turkish +6.5, scrambled Hebrew +2.6. CONSTRUCTION FAILS | none | 0.0739 | 0.8938 | 0.0281 | 0.0041 |

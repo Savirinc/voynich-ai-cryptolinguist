@@ -73,3 +73,38 @@ none read Voynich better than meaningless imitations of Voynich do:
 Not covered: Hebrew under a code that also changes word boundaries or word order, a code with more than one sign per
 letter in fixed groups other than Naibbe's, abbreviated Hebrew (acronyms, *roshei teivot*), Ladino, Judeo-Italian,
 Judeo-Persian, and any form not yet named. These cannot be excluded until each is stated and attacked.
+
+## E083: proof by construction (Arham: "LHS = RHS, prove it")
+Run 2026-10-27 (581 s) under `E083_PREREG.md`. A flexible transformation (prefix → Voynich front, first M root letters
+→ Voynich chunks or dropped, suffix → Voynich ending) was fitted so that transformed text reproduces Voynich's words at
+Voynich's frequencies; then Voynich was decoded with the fitted tables and the decoded word order was tested.
+
+**Check 1, known answer: passed.** Hebrew hidden by a secret table: 67.3% of tokens decoded to the exact Hebrew word,
+root length recovered, decoded order z = +229 (real word order is overwhelmingly visible when the decode is right).
+
+**Check 2, Hebrew-specific fit: failed.**
+| Source | share of Voynich's running text matched word for word | root letters kept |
+|---|---|---|
+| Turkish | **0.485** | 1 |
+| Hebrew (data-driven affixes) | 0.466 | 1 |
+| Latin | 0.461 | 1 |
+| Arabic | 0.454 | 1 |
+| German | 0.435 | 1 |
+| Greek | 0.408 | 1 |
+| Hebrew (linguistic affixes) | 0.399 | 1 |
+| Aramaic (Onkelos) | 0.373 | 1 |
+| Judeo-Arabic (Saadia) | 0.359 | 1 |
+| letter-scrambled Hebrew (meaningless) | 0.339 | 1 |
+Best Hebrew-family 0.466 vs best other 0.485: Hebrew does not fit better than Turkish or Latin. Every source chose to
+keep **one** root letter: Voynich's vocabulary is best imitated by front + one chunk + ending from any language.
+
+**Check 3, decoded order: failed for the best Hebrew-family source** (Hebrew data-driven z +0.90; Hebrew linguistic
+−1.16). Other sources: Aramaic +8.01, Turkish +6.50, Latin +3.45, scrambled Hebrew +2.61, Arabic +2.42, Greek +2.01,
+Judeo-Arabic +1.16, German +0.13. Positive values appear even for meaningless scrambled Hebrew, so part of every z is
+Voynich's own local order (repeats, ending agreement) carried through the decode; all are two orders of magnitude below
+the known answer's +229. Aramaic's +8.0 is the highest and is noted, not scored.
+Decoded sample (Hebrew, data-driven; · = no decode): "בארץ ועל בשדה / בדרך · בהמה / · בתים גדול · / לרב אלהים אלהים".
+
+**Verdict: CONSTRUCTION FAILS** (fit not Hebrew-specific; decoded order not Hebrew). The construction can be made to
+produce Voynich-like vocabulary from Hebrew, but it does so as well or better from Turkish and Latin, and it does not
+turn Voynich's word order into Hebrew word order.

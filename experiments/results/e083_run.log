@@ -1,0 +1,32 @@
+[known answer] hidden-table Hebrew: best intersection 0.544; tokens decoded to the right word 0.673; order z +229.19 (pairs 16224, decoded share 0.79)
+[fit] hebrew               intersection 0.399 (restarts [0.395, 0.385, 0.399]) M=1
+[fit] hebrew_datadriven    intersection 0.466 (restarts [0.445, 0.446, 0.466]) M=1
+[fit] aramaic_onkelos      intersection 0.373 (restarts [0.373, 0.354, 0.367]) M=1
+[fit] judeoarabic_saadia   intersection 0.359 (restarts [0.359, 0.359, 0.352]) M=1
+[fit] latin                intersection 0.461 (restarts [0.461, 0.458, 0.449]) M=1
+[fit] greek                intersection 0.408 (restarts [0.402, 0.405, 0.408]) M=1
+[fit] german               intersection 0.435 (restarts [0.431, 0.435, 0.405]) M=1
+[fit] arabic               intersection 0.454 (restarts [0.454, 0.434, 0.454]) M=1
+[fit] turkish              intersection 0.485 (restarts [0.477, 0.485, 0.468]) M=1
+[fit] hebrew_shuffled      intersection 0.339 (restarts [0.322, 0.339, 0.333]) M=1
+[specificity] best Hebrew-family 0.466 vs best other source 0.485
+[order] hebrew               decoded share 0.553 pairs 8700 z -1.16
+[order] hebrew_datadriven    decoded share 0.568 pairs 9139 z +0.90
+[order] aramaic_onkelos      decoded share 0.521 pairs 7671 z +8.01
+[order] judeoarabic_saadia   decoded share 0.494 pairs 6861 z +1.16
+[order] latin                decoded share 0.538 pairs 8072 z +3.45
+[order] greek                decoded share 0.554 pairs 8656 z +2.01
+[order] german               decoded share 0.512 pairs 7592 z +0.13
+[order] arabic               decoded share 0.571 pairs 9343 z +2.42
+[order] turkish              decoded share 0.558 pairs 8785 z +6.50
+[order] hebrew_shuffled      decoded share 0.519 pairs 7649 z +2.61
+[decode sample, hebrew_datadriven]
+   · · לו
+   בארץ ועל בשדה
+   בדרך · בהמה
+   · בתים גדול ·
+   קרבנו · · את
+   לרב אלהים אלהים
+   קרבנו · שמות · ·
+   לבו · על
+VERDICT CONSTRUCTION FAILS (fit not Hebrew-specific, order not Hebrew) | 581s
