@@ -229,6 +229,8 @@ readings tried; none ties the label class to meaning. Zodiac canvases are in `da
   `reports/artifacts/voynich_state.html`).
 - **Word ledger** (searchable word-frequency table): https://claude.ai/artifact/DkNAGQMGyPWsCcyEFscWLB (source
   `reports/artifacts/voynich_word_ledger.html`).
+- **Word kit** (front + middle + ending builder, coverage ladder; 2026-10-27): https://claude.ai/artifact/WbWEnBfhmD3Es8aCwwRf85
+  (source `reports/artifacts/voynich_word_kit.html`; data `experiments/kit_build_voynich.py`).
 
 ## 8. Experiment index after the stop rule (E030–E074)
 For E001–E029a see `reports/SUMMARY.md`.
