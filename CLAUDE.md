@@ -18,6 +18,8 @@ Read this first in every session. It carries the full working context; details l
   everyday analogy, before any numbers or ledger talk. He must never lose the thread between tests.
 - **He approves each test with "ok" or "yes".** Propose one next test at a time, with a clear recommendation, and wait
   for approval before pre-registering it.
+- **From 2026-10-27 Arham dictates the order of work.** Carry out the step he names; after a result, report it and ask
+  what he wants next instead of pushing a recommended test.
 - **He wants the truth, not a story.** Report failures, VOID results and corrections plainly, and correct earlier
   claims when new evidence contradicts them.
 - **Symmetric Bayes.** "Don't rule out gibberish": the meaningless hypothesis (M) must face tests it can win, as
