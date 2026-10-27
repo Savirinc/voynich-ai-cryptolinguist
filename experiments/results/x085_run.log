@@ -1,0 +1,21 @@
+# Hebrew exploration X085 (unscored; no claim rule; Arham 2026-10-27)
+
+Best Hebrew decodes the attack could find. Share of decoded words of 3+ letters that are real Hebrew words of the
+model, and agreement between restarts. The imitation row is a meaningless Voynich-like text decoded with the same model.
+
+| Hebrew model | section | Voynich, reading order | Voynich, lines reversed | meaningless imitation |
+|---|---|---|---|---|
+| full | A | 0.521 (agr 0.99) | 0.521 (agr 1.00) | 0.541 |
+| full | B | 0.469 (agr 0.25) | 0.441 (agr 0.98) | 0.459 |
+| no_gutturals | A | 0.710 (agr 1.00) | 0.708 (agr 1.00) | 0.697 |
+| no_gutturals | B | 0.702 (agr 1.00) | 0.708 (agr 1.00) | 0.718 |
+| no_matres | A | 0.566 (agr 0.71) | 0.566 (agr 1.00) | 0.592 |
+| no_matres | B | 0.609 (agr 1.00) | 0.609 (agr 1.00) | 0.654 |
+| no_gutturals_no_matres | A | 0.625 (agr 1.00) | 0.625 (agr 1.00) | 0.650 |
+| no_gutturals_no_matres | B | 0.687 (agr 1.00) | 0.687 (agr 1.00) | 0.707 |
+
+## Highest-scoring Voynich decode: model no_gutturals, Currier A, reading (lexrate 0.710)
+
+First 400 decoded words, 10 per line, in Voynich order:
+
+done 266s
