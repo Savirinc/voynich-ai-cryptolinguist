@@ -1,0 +1,23 @@
+[known answers]
+  arb-vd   ال   targets  398 REM 0.405 ctrl 0.112 z +19.44 (10/10 > 3)
+  arb-vd   pseudo targets  398 REM 0.123 z +1.64 (10/10 within)
+  hboWLC   ה    targets  353 REM 0.524 ctrl 0.385 z +5.47 (10/10 > 3)
+  hboWLC   pseudo targets  353 REM 0.377 z +0.02 (10/10 within)
+  hun      meg  targets  130 REM 0.369 ctrl 0.035 z +21.58 (10/10 > 3)
+  hun      pseudo targets  130 REM 0.031 z -0.59 (10/10 within)
+  indayt   ber  targets   98 REM 0.398 ctrl 0.052 z +15.97 (10/10 > 3)
+  indayt   pseudo targets   98 REM 0.041 z -0.49 (10/10 within)
+[VOYNICH]
+  layer 1 q      targets  253 REM 0.723 ctrl 0.457 z +9.01 (10/10 > 3)
+  layer 2 ot/ok  targets  186 REM 0.613 ctrl 0.483 z +3.66 (10/10 > 3)
+  pseudo         targets  186 REM 0.452 z -1.04 (10/10 within)
+  L3_qotqok      targets  152 REM 0.625 ctrl 0.611 z +0.37 (0/10 > 3)
+  opof           targets   35 REM 0.971 ctrl 0.517 z +5.63 (10/10 > 3)
+  o_on_ogallows  targets  223 REM 0.565 ctrl 0.504 z +1.94 (0/10 > 3)
+  L2_labels_only targets   85 REM 0.647 ctrl 0.486 z +3.12 (10/10 > 3)
+[generator]
+  seed 31 ot/ok targets   53 REM 0.943 ctrl 0.598 z +5.29 (10/10 > 3)
+  seed 32 ot/ok targets   59 REM 0.881 ctrl 0.583 z +4.67 (10/10 > 3)
+  seed 33 ot/ok targets   72 REM 0.875 ctrl 0.563 z +5.44 (10/10 > 3)
+[validation] 10/10 checks pass -> VALID: []
+VERDICT DETACHABLE, GENERATOR TOO | factor none | 10s

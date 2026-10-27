@@ -485,3 +485,11 @@ is set aside: its main prediction (entry-initial position) fails. Readings 2 (na
 **After E071.** The label words are not shortened forms of longer words. Of the five readings of the label class, list
 words (step 0), abbreviations (E071), quantities (E056, step 0) and category + identifier (same markers on plants and
 figures) are weakened; title + name is the one left with an untested prediction, and it needs the zodiac images.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-27 | E072 is ot/ok a detachable front piece? (`FRONT_PIECES.md`) | VALID (Arabic ال z +19, Hebrew ה +5.5, Hungarian meg +22, Indonesian ber +16; 5 pseudo sets within; Voynich q +9). Voynich ot/ok REM 0.61 vs matched 0.48, z +3.66 (10/10): DETACHABLE; generator 0.88–0.94, z +4.7 to +5.4: GENERATOR TOO. Remainders starting with e are never words (Voynich words do not start with e) | none (as pre-registered) | 0.0739 | 0.8938 | 0.0281 | 0.0041 |
+
+**After E072.** *ot/ok* comes off like a marker, but the copy generator makes the same pattern, so it is a fact about
+Voynich's sign-order rules rather than evidence for language. *ot* and *ok* behave as one piece. The title + name
+reading remains the one open reading of the label class.
