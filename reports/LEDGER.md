@@ -568,3 +568,11 @@ pre-registered accounting; to be proposed to Arham.
 
 **After E085.** Pages drawn as the same plant do not share words; the picture-crib road is closed with the existing
 identifications.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-27 | E086 spaces and lines (`SPACES_AND_LINES.md`; Arham road 2) | Space predictability from 2+2 glyphs: Voynich 0.673 vs languages 0.13–0.50, Naibbe 0.666, generator 0.54–0.57: SPACES MECHANICAL. Line continuity: languages z +26 to +46, Naibbe +6.3, Voynich +0.21, generator ≈ 0: LINES INDEPENDENT | none (measurement) | 0.1005 | 0.8682 | 0.0273 | 0.004 |
+
+**After E086.** Two assumptions behind every attack fail: Voynich's spaces are set by the glyph rules (like a verbose
+cipher's), and its lines do not continue one another (unlike any language's running text, like the copy generator).
+New measured facts: C25 (mechanical spaces), C26 (line independence).
