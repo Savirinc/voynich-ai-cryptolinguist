@@ -514,3 +514,7 @@ and as much as the copy generator.
 
 **After E075.** Voynich pieces behave like grammar pieces (position markers, a junction rule, agreement between
 neighbouring endings), more regularly than any language tested, and almost exactly as regularly as the copy generator.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-27 | E076 light (antonym/synonym-type) vs heavy (grammar) pieces; closeness to languages (`LIGHT_HEAVY_PIECES.md`; Arham; generator left out) | VALID (English un- 0.91, German un- 0.92 light). Voynich 117 swaps: light 62%, medium 21%, heavy 17%, consistent 81%. Light: d-/s-/y-, -l/-r, -ol/-or, -iin/-in, -dy/-edy. Closest profiles Assamese, Uyghur, Tamil, Panjabi, German; Hebrew, Arabic, Persian mid-table; Latin and Romance far. Noisy (languages 10–50 swaps) | none (no generator) | 0.0739 | 0.8938 | 0.0281 | 0.0041 |

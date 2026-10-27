@@ -44,10 +44,10 @@ Read this first in every session. It carries the full working context; details l
    `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`. Clear background jobs after reading them.
 5. **Occam's rule** (`reports/OCCAM.md`): test the simplest hypothesis first; add a layer only when a measured fact
    forces it.
-6. **Check earlier reports first:** `reports/SUMMARY.md` (E001–E029a), `reports/LEDGER.md`, the reports E030–E075
+6. **Check earlier reports first:** `reports/SUMMARY.md` (E001–E029a), `reports/LEDGER.md`, the reports E030–E076
    (`reports/CLEANUP_ROUND.md` is E059, `reports/INGREDIENT_LINK.md` E060, `reports/STEM_STREAM.md` E061,
    `reports/SCRIBE_TABLES.md` E062, `reports/WIDE_ATTACK.md` E063, `reports/EARLY_AUDIT.md` E064,
-   `reports/SYLLABLE_GONOGO.md` E065, `reports/WORD_INDIVIDUALITY_V3.md` E066, `reports/GIBBERISH_VOCABULARY.md` E067, `reports/GIBBERISH_BATTERY.md` E068, `reports/WORD_PARTNERS.md` E069, `reports/CONTENT_PARTNERS.md` E070, `reports/LABEL_STEP0.md` step 0, `reports/LABEL_TRUNCATION.md` E071, `reports/FRONT_PIECES.md` E072, `reports/ZODIAC_ATTRIBUTES.md` E073, `reports/SLOT_COVERAGE.md` E074, `reports/PIECE_EFFECTS.md` E075), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
+   `reports/SYLLABLE_GONOGO.md` E065, `reports/WORD_INDIVIDUALITY_V3.md` E066, `reports/GIBBERISH_VOCABULARY.md` E067, `reports/GIBBERISH_BATTERY.md` E068, `reports/WORD_PARTNERS.md` E069, `reports/CONTENT_PARTNERS.md` E070, `reports/LABEL_STEP0.md` step 0, `reports/LABEL_TRUNCATION.md` E071, `reports/FRONT_PIECES.md` E072, `reports/ZODIAC_ATTRIBUTES.md` E073, `reports/SLOT_COVERAGE.md` E074, `reports/PIECE_EFFECTS.md` E075, `reports/LIGHT_HEAVY_PIECES.md` E076), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
 7. **Known answers first:** every attack must crack synthetic texts of its own class and make **zero false claims**
    on gibberish and wrong-language controls before it touches Voynich.
 8. **Seed check:** any pass or fail within about 0.5 sd gets a seed-replicate check (≥ 8 of 10 seeds) before it is
@@ -72,7 +72,7 @@ Read this first in every session. It carries the full working context; details l
 
   | Directory | Contents |
   |---|---|
-  | `bibles/<id>/txt/*_read.txt` | eBible texts: about 60 translations (Hebrew hboWLC, Turkish turytc, Latin latVUC, Czech ces1613, Tamil tam2017, Assamese asmfb, Malayalam mal, Indonesian indayt, Vietnamese vie1934, cmn-cu89s…) |
+  | `bibles/<id>/txt/*_read.txt` | eBible texts: about 60 translations (pesOPV Persian added 2026-10-27) (Hebrew hboWLC, Turkish turytc, Latin latVUC, Czech ces1613, Tamil tam2017, Assamese asmfb, Malayalam mal, Indonesian indayt, Vietnamese vie1934, cmn-cu89s…) |
   | `latin_library_e043/` | hymns, Prudentius, Apicius, Cato, Varro, Columella, Vergil, Ovid, Caesar |
   | `latin_library_pickles/` | older CLTK Latin Library pickles |
   | `pg_herbal/pg49513.txt` | Culpeper's herbal |
@@ -88,7 +88,7 @@ Read this first in every session. It carries the full working context; details l
   - `reports/literature/` (four forum reports);
   - `reports/artifacts/` (HTML sources of the published pages).
 
-## 5. Where things stand (2026-10-27, after E075; M/L/C unchanged since E068)
+## 5. Where things stand (2026-10-27, after E076; M/L/C unchanged since E068)
 **Ledger** (`reports/LEDGER.md`): **M 0.0739, L 0.8938, C 0.0281, O 0.0041** (after E068).
 - **M** = meaningless; **L** = a real language in its own script; **C** = cipher or code; **O** = other.
 - **Honest range:** L about 0.17–0.89, M about 0.07–0.69, C about 0.03–0.12. **From the range edges M leads (0.69 vs
@@ -232,7 +232,7 @@ readings tried; none ties the label class to meaning. Zodiac canvases are in `da
 - **Word kit** (front + middle + ending builder, coverage ladder; 2026-10-27): https://claude.ai/artifact/WbWEnBfhmD3Es8aCwwRf85
   (source `reports/artifacts/voynich_word_kit.html`; data `experiments/kit_build_voynich.py`).
 
-## 8. Experiment index after the stop rule (E030–E075)
+## 8. Experiment index after the stop rule (E030–E076)
 For E001–E029a see `reports/SUMMARY.md`.
 
 | Exp | Result |
@@ -279,3 +279,4 @@ For E001–E029a see `reports/SUMMARY.md`.
 | E073 | Same-label zodiac figures alike? VOID (2 of 5 features reliable; kappa paradox on CLOTHED). Unscored same-label z −0.2: lean NO LINK |
 | E074 | Front + middle + ending (Arham): 60 pieces write 64% of Voynich text vs 17–52% of 8 languages; generator 59–68%. Measurement, no factor |
 | E075 | Piece swaps shift neighbours consistently (Arham): Voynich 79% of 117 swaps, languages 0–50%, generator 57–76%. BETWEEN, no factor. Jobs: line-start d-/s-/y-, line-end -m/-y, q- after -edy, -edy agreement |
+| E076 | Light vs heavy pieces (Arham; no generator): Voynich 62% light (d-/s-/y-, -l/-r, -ol/-or, -iin/-in); closest Assamese, Uyghur, Tamil, Panjabi; Hebrew/Arabic/Persian mid; Latin far. No factor |

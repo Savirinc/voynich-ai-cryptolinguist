@@ -1,0 +1,74 @@
+[known answers: antonym prefixes, whole texts]
+  eng-kjv  un- pairs  24 median lightness 0.9128131831175383 (random pairs 0.47) e.g. [('covered', 'uncovered'), ('circumcised', 'uncircumcised'), ('leavened', 'unleavened'), ('righteous', 'unrighteous'), ('clean', 'unclean'), ('cleanness', 'uncleanness')]
+  deu1912  un- pairs  40 median lightness 0.9184820801124385 (random pairs 0.53) e.g. [('reinen', 'unreinen'), ('fruchtbar', 'unfruchtbar'), ('recht', 'unrecht'), ('möglich', 'unmöglich'), ('fall', 'unfall'), ('glück', 'unglück')]
+  pesOPV   نا- pairs  16 median lightness 0.754677614752995 (random pairs 0.50) e.g. [('پاک', 'ناپاک'), ('حور', 'ناحور'), ('زاد', 'نازاد'), ('مختون', 'نامختون'), ('گاه', 'ناگاه'), ('پسند', 'ناپسند')]
+VOYNICH eligible 117 profile {'light': 0.615, 'medium': 0.214, 'heavy': 0.171, 'consistent': 0.812, 'front_light': 0.208, 'front_heavy': 0.35} random 0.47
+  arb-vd     eligible  34 light 0.29 medium 0.50 heavy 0.21 consistent 0.24 front_light 0.40 front_heavy 0.57
+  asmfb      eligible  18 light 0.61 medium 0.22 heavy 0.17 consistent 0.67 front_light 0.00 front_heavy 0.00
+  azb        eligible  19 light 0.16 medium 0.53 heavy 0.32 consistent 0.26 front_light 0.00 front_heavy 0.17
+  bba        eligible  35 light 0.20 medium 0.46 heavy 0.34 consistent 0.17 front_light 0.43 front_heavy 0.50
+  bqcsim     eligible  46 light 0.15 medium 0.37 heavy 0.48 consistent 0.09 front_light 0.57 front_heavy 0.32
+  cebulb     eligible  10 light 0.20 medium 0.20 heavy 0.60 consistent 0.20 front_light 1.00 front_heavy 0.17
+  cekak      eligible 9 (<10, not ranked)
+  ces1613    eligible  14 light 0.14 medium 0.43 heavy 0.43 consistent 0.29 front_light 0.00 front_heavy 0.00
+  cth        eligible  13 light 0.08 medium 0.31 heavy 0.62 consistent 0.08 front_light 0.00 front_heavy 0.62
+  dan1931    eligible  15 light 0.07 medium 0.13 heavy 0.80 consistent 0.40 front_light 0.00 front_heavy 0.08
+  deu1912    eligible  28 light 0.32 medium 0.32 heavy 0.36 consistent 0.32 front_light 0.22 front_heavy 0.00
+  eng-kjv    eligible 6 (<10, not ranked)
+  ewe        eligible  34 light 0.12 medium 0.41 heavy 0.47 consistent 0.32 front_light 0.25 front_heavy 0.44
+  fraLSG     eligible 9 (<10, not ranked)
+  gax        eligible  31 light 0.29 medium 0.39 heavy 0.32 consistent 0.26 front_light 0.11 front_heavy 0.00
+  grcbyz     eligible 7 (<10, not ranked)
+  hausa      eligible  30 light 0.30 medium 0.47 heavy 0.23 consistent 0.10 front_light 0.33 front_heavy 0.00
+  haw1868    eligible  17 light 0.18 medium 0.24 heavy 0.59 consistent 0.06 front_light 0.00 front_heavy 0.70
+  hboWLC     eligible  43 light 0.30 medium 0.42 heavy 0.28 consistent 0.21 front_light 0.46 front_heavy 0.50
+  hch        eligible 6 (<10, not ranked)
+  hil        eligible 4 (<10, not ranked)
+  hne        eligible  13 light 0.23 medium 0.23 heavy 0.54 consistent 0.31 front_light 0.00 front_heavy 0.00
+  hrv        eligible  29 light 0.14 medium 0.24 heavy 0.62 consistent 0.31 front_light 0.25 front_heavy 0.00
+  hun        eligible 9 (<10, not ranked)
+  iloulb     eligible 7 (<10, not ranked)
+  indayt     eligible 8 (<10, not ranked)
+  ita1885    eligible  11 light 0.09 medium 0.55 heavy 0.36 consistent 0.36 front_light 1.00 front_heavy 0.00
+  kik        eligible 9 (<10, not ranked)
+  latVUC     eligible  33 light 0.09 medium 0.58 heavy 0.33 consistent 0.33 front_light 0.00 front_heavy 0.09
+  lin        eligible  11 light 0.55 medium 0.36 heavy 0.09 consistent 0.27 front_light 0.67 front_heavy 1.00
+  lit        eligible  25 light 0.52 medium 0.36 heavy 0.12 consistent 0.12 front_light 0.08 front_heavy 0.33
+  luo        eligible  31 light 0.39 medium 0.42 heavy 0.19 consistent 0.26 front_light 0.67 front_heavy 0.50
+  mal        eligible 7 (<10, not ranked)
+  meu        eligible  29 light 0.28 medium 0.34 heavy 0.38 consistent 0.17 front_light 0.00 front_heavy 0.27
+  mri2012    eligible  10 light 0.20 medium 0.30 heavy 0.50 consistent 0.00 front_light 0.50 front_heavy 0.80
+  nheBl      eligible  11 light 0.64 medium 0.36 heavy 0.00 consistent 0.00 front_light 0.29 front_heavy 0.50
+  nld        eligible  11 light 0.18 medium 0.09 heavy 0.73 consistent 0.09 front_light 0.00 front_heavy 0.00
+  nya        eligible 6 (<10, not ranked)
+  pan        eligible  10 light 0.30 medium 0.30 heavy 0.40 consistent 0.50 front_light 0.00 front_heavy 0.00
+  pesOPV     eligible  26 light 0.42 medium 0.19 heavy 0.38 consistent 0.15 front_light 0.00 front_heavy 0.20
+  polubg     eligible  18 light 0.06 medium 0.44 heavy 0.50 consistent 0.17 front_light 1.00 front_heavy 0.00
+  rmc        eligible  28 light 0.50 medium 0.18 heavy 0.32 consistent 0.21 front_light 0.07 front_heavy 0.00
+  ron1924    eligible  13 light 0.00 medium 0.46 heavy 0.54 consistent 0.00 front_light 0.50 front_heavy 0.00
+  shr        eligible  13 light 0.38 medium 0.08 heavy 0.54 consistent 0.46 front_light 0.80 front_heavy 1.00
+  slk        eligible  18 light 0.22 medium 0.33 heavy 0.44 consistent 0.17 front_light 0.00 front_heavy 0.00
+  sna        eligible  16 light 0.38 medium 0.31 heavy 0.31 consistent 0.31 front_light 0.67 front_heavy 1.00
+  srp1865    eligible  32 light 0.12 medium 0.19 heavy 0.69 consistent 0.16 front_light 0.25 front_heavy 0.05
+  suzBl      eligible  21 light 0.43 medium 0.14 heavy 0.43 consistent 0.10 front_light 0.22 front_heavy 0.00
+  swe        eligible 8 (<10, not ranked)
+  swhulb     eligible  11 light 0.45 medium 0.27 heavy 0.27 consistent 0.27 front_light 0.60 front_heavy 0.67
+  tam2017    eligible  11 light 0.36 medium 0.18 heavy 0.45 consistent 0.45 front_light 0.25 front_heavy 0.00
+  tglulb     eligible  10 light 0.30 medium 0.60 heavy 0.10 consistent 0.30 front_light 0.67 front_heavy 1.00
+  tod        eligible  24 light 0.33 medium 0.29 heavy 0.38 consistent 0.25 front_light 0.62 front_heavy 0.00
+  ton        eligible 3 (<10, not ranked)
+  turytc     eligible  19 light 0.37 medium 0.42 heavy 0.21 consistent 0.00 front_light 0.14 front_heavy 0.00
+  uigara     eligible  17 light 0.59 medium 0.29 heavy 0.12 consistent 0.47 front_light 0.20 front_heavy 0.00
+  ukr1871    eligible  20 light 0.20 medium 0.30 heavy 0.50 consistent 0.05 front_light 0.25 front_heavy 0.00
+  urd        eligible  50 light 0.06 medium 0.32 heavy 0.62 consistent 0.04 front_light 0.00 front_heavy 0.48
+  yap        eligible  12 light 0.25 medium 0.17 heavy 0.58 consistent 0.25 front_light 0.00 front_heavy 0.43
+  ydd        eligible 9 (<10, not ranked)
+  yor        eligible 6 (<10, not ranked)
+  zlmKSZI    eligible 3 (<10, not ranked)
+[validity] VALID (English and German un- median lightness >= 0.80)
+closest to Voynich: asmfb 0.433, uigara 0.499, tam2017 0.630, pan 0.650, deu1912 0.704, lit 0.728, rmc 0.732, pesOPV 0.763, swhulb 0.764, gax 0.773, hboWLC 0.776, arb-vd 0.778
+farthest: mri2012 1.111, ita1885 1.172, cebulb 1.180, ron1924 1.201, polubg 1.281
+Voynich swaps by class:
+  light (72): front:d>y 0.99 [('dchedy', 'ychedy'), ('dcheey', 'ycheey')]; front:d>s 0.98 [('daiin', 'saiin'), ('dain', 'sain')]; ending:s>y 0.98 [('als', 'aly'), ('chees', 'cheey')]; ending:al>y 0.96 [('aral', 'ary'), ('chal', 'chy')]; ending:iin>in 0.96 [('aiiin', 'aiin'), ('aiin', 'ain')]; ending:r>s 0.96 [('ar', 'as'), ('cheeor', 'cheeos')]; ending:ol>or 0.96 [('alol', 'alor'), ('arol', 'aror')]; ending:dy>edy 0.96 [('chckhdy', 'chckhedy'), ('chdy', 'chedy')]; ending:d>dy 0.95 [('chd', 'chdy'), ('ched', 'chedy')]; ending:in>n 0.95 [('aiiin', 'aiin'), ('aiin', 'ain')]; ending:iin>n 0.94 [('aiiin', 'ain'), ('chaiin', 'chan')]; ending:l>r 0.94 [('al', 'ar'), ('alol', 'alor')]; ending:o>y 0.94 [('cheeo', 'cheey'), ('cheo', 'chey')]; ending:n>r 0.94 [('aiin', 'aiir'), ('ain', 'air')]
+  medium (25): ending:edy>y 0.79 [('chckhedy', 'chckhy'), ('chcthedy', 'chcthy')]; ending:ey>o 0.78 [('cheeey', 'cheeo'), ('cheey', 'cheo')]; ending:d>l 0.78 [('chd', 'chl'), ('chod', 'chol')]; ending:edy>ol 0.77 [('chedy', 'chol'), ('cheedy', 'cheol')]; ending:ol>s 0.76 [('alol', 'als'), ('cheeol', 'chees')]; ending:->aiin 0.76 [('al', 'alaiin'), ('ar', 'araiin')]; front:->ch 0.76 [('aiin', 'chaiin'), ('ain', 'chain')]; ending:->ey 0.76 [('ch', 'chey'), ('k', 'key')]; ending:dy>ol 0.75 [('aldy', 'alol'), ('chdy', 'chol')]; ending:->ol 0.73 [('al', 'alol'), ('ar', 'arol')]; ending:->or 0.72 [('al', 'alor'), ('ar', 'aror')]; ending:aiin>edy 0.72 [('chaiin', 'chedy'), ('chekaiin', 'chekedy')]; ending:->edy 0.71 [('ch', 'chedy'), ('k', 'kedy')]; ending:l>s 0.71 [('al', 'as'), ('cheeol', 'cheeos')]
+  heavy (20): ending:aiin>dy 0.64 [('alaiin', 'aldy'), ('chaiin', 'chdy')]; front:ch>y 0.63 [('chdaiin', 'ydaiin'), ('chdy', 'ydy')]; front:->d 0.63 [('a', 'da'), ('aiiin', 'daiiin')]; ending:d>or 0.63 [('chd', 'chor'), ('ched', 'cheor')]; front:->y 0.63 [('chedy', 'ychedy'), ('cheedy', 'ycheedy')]; ending:edy>or 0.61 [('chedy', 'chor'), ('cheedy', 'cheor')]; ending:dy>or 0.61 [('aldy', 'alor'), ('chdy', 'chor')]; ending:dy>s 0.59 [('aldy', 'als'), ('chdy', 'chs')]; front:q>sh 0.56 [('qo', 'sho'), ('qocthy', 'shocthy')]; front:o>sh 0.56 [('oaiin', 'shaiin'), ('oain', 'shain')]; ending:aiin>o 0.54 [('chaiin', 'cho'), ('cthaiin', 'ctho')]; ending:->d 0.50 [('ch', 'chd'), ('cho', 'chod')]; ending:d>o 0.49 [('chd', 'cho'), ('ched', 'cheo')]; ending:edy>o 0.48 [('chedy', 'cho'), ('cheedy', 'cheo')]
