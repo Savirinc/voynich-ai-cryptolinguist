@@ -557,3 +557,7 @@ pre-registered accounting; to be proposed to Arham.
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-27 | E083 proof by construction, Hebrew → Voynich (`HEBREW_CAMPAIGN.md`; Arham) | Known answer recovered (67% exact words, order z +229). Fit: Turkish 0.485, Hebrew 0.466, Latin 0.461 ... scrambled Hebrew 0.339; all keep 1 root letter. Order: Hebrew +0.9; Aramaic +8.0, Turkish +6.5, scrambled Hebrew +2.6. CONSTRUCTION FAILS | none | 0.0739 | 0.8938 | 0.0281 | 0.0041 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-27 | E084 mixed-language sources (`HEBREW_CAMPAIGN.md`; Arham) | Construction VOID (known answer Talmud recovered 0.8%); unscored: all mixtures fit alike (0.455–0.487, meaningless mixture 0.478). Letter attack with 7 mixture models (Talmud, Hebrew+Aramaic, Hebrew+Judeo-Arabic, Hebrew+Latin, Hebrew+Turkish, Latin+German, Latin+Turkish): all VALIDATED, NO CLAIM on A and B | none | 0.0739 | 0.8938 | 0.0281 | 0.0041 |

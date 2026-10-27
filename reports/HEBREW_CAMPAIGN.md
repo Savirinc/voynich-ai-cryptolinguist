@@ -108,3 +108,26 @@ Decoded sample (Hebrew, data-driven; · = no decode): "בארץ ועל בשדה 
 **Verdict: CONSTRUCTION FAILS** (fit not Hebrew-specific; decoded order not Hebrew). The construction can be made to
 produce Voynich-like vocabulary from Hebrew, but it does so as well or better from Turkish and Latin, and it does not
 turn Voynich's word order into Hebrew word order.
+
+## E084: mixed-language sources (Arham: "why assume just one language?")
+Run 2026-10-27 (1,942 s) under `E084_PREREG.md`. Real Talmud (Hebrew and Aramaic mixed, 193,485 words) and mixtures
+built from 10-word stretches.
+
+**Part 1, construction: VOID.** The known answer failed: a hidden-table Talmud window was recovered at only 0.8% exact
+words (intersection 0.279, order z −3.06), against 67% for plain Hebrew in E083. The construction cannot recover a
+Talmud-like mixed text, so its Voynich results cannot be read. Unscored, for the record: every mixture fitted Voynich
+equally (0.455–0.487), the **meaningless** scrambled mixture among the best (0.478); order z ranged from −3.9 (Hebrew +
+Latin) to +5.8 (Hebrew + Greek), with Latin + German +4.1: no pattern that singles out Hebrew.
+
+**Part 2, letter attack with mixture models: NO CLAIM, validated (7 of 7).**
+| Mixture | cracks | threshold | Voynich A | controls A max | Voynich B | controls B max |
+|---|---|---|---|---|---|---|
+| Talmud (Hebrew + Aramaic) | 1.00 / 1.00 | 0.653 | 0.472 | 0.558 | 0.554 | 0.572 |
+| Hebrew + Aramaic (Onkelos) | 1.00 / 1.00 | 0.650 | 0.472 | 0.539 | 0.435 (agreement 0.59) | 0.523 |
+| Hebrew + Judeo-Arabic | 1.00 / 1.00 | 0.619 | 0.450 | 0.526 | 0.396 | 0.406 |
+| Hebrew (Latin letters) + Latin | 1.00 / 1.00 | 0.621 | 0.527 | 0.539 | 0.427 | 0.414 |
+| Hebrew (Latin letters) + Turkish | 1.00 / 1.00 | 0.678 | 0.544 | 0.617 | 0.544 | 0.627 |
+| Latin + German (comparison) | 1.00 / 1.00 | 0.631 | 0.413 | 0.436 | 0.480 | 0.502 |
+| Latin + Turkish (comparison) | 1.00 / 1.00 | 0.617 | 0.443 | 0.462 | 0.405 (agreement 0.19) | 0.463 |
+Every mixture cracks its own hidden text perfectly; on Voynich every mixture scores below the threshold, and all but one
+(Hebrew + Latin on B, 0.427 vs 0.414, still far below its threshold 0.621) below its own pseudo-Voynich imitations.

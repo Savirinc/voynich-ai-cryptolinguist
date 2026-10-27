@@ -1,0 +1,46 @@
+stream heb+aram: 166200 words
+stream heb+greek: 280980 words
+stream heb+jarab: 163140 words
+stream heb+latin: 617280 words
+stream heb+turkish: 617280 words
+stream latin+german: 1224440 words
+stream latin+greek: 280980 words
+stream scrheb+scrlat: 617280 words
+stream talmud: 193485 words
+stream turkish+greek: 280980 words
+stream talmud: 193485 words
+stream heb+aram: 166200 words
+stream heb+jarab: 163140 words
+stream hebtr+latin: 617280 words
+stream hebtr+turkish: 617280 words
+stream latin+german: 1224440 words
+stream latin+turkish: 950540 words
+[known answer] hidden-table Talmud: intersection 0.279, exact words 0.008, order z -3.06
+[construction] HEB  heb+aram       fit 0.466 M=1 | order z +4.51 decoded 0.54
+[construction] HEB  heb+greek      fit 0.471 M=1 | order z +5.80 decoded 0.58
+[construction] HEB  heb+jarab      fit 0.461 M=1 | order z +4.87 decoded 0.56
+[construction] HEB  heb+latin      fit 0.466 M=1 | order z -3.91 decoded 0.55
+[construction] HEB  heb+turkish    fit 0.475 M=1 | order z +1.01 decoded 0.54
+[construction] NON  latin+german   fit 0.455 M=1 | order z +4.10 decoded 0.52
+[construction] NON  latin+greek    fit 0.475 M=1 | order z +3.73 decoded 0.56
+[construction] NULL scrheb+scrlat  fit 0.478 M=1 | order z -1.44 decoded 0.57
+[construction] HEB  talmud         fit 0.464 M=1 | order z +3.14 decoded 0.54
+[construction] NON  turkish+greek  fit 0.487 M=1 | order z -1.14 decoded 0.56
+[decode sample, heb+greek]
+   · · εν
+   האלה δουλος הארץ
+   ερχεται · προσηλθον
+   · הקטן εγγυς ·
+   · · · את
+   לכל ויאמר ויאמר
+   · · אחיך γινωσκετε ·
+   εαν · ιησους
+[letters] talmud         cracks [(1.0, 0.757), (1.0, 0.749)] ctrlA 0.558 -> VALIDATED T=0.653 | A 0.472 no claim | B 0.554 agr 1.00 ctrlB 0.572 no claim
+[letters] heb+aram       cracks [(1.0, 0.781), (1.0, 0.761)] ctrlA 0.539 -> VALIDATED T=0.650 | A 0.472 no claim | B 0.435 agr 0.59 ctrlB 0.523 no claim
+[letters] heb+jarab      cracks [(1.0, 0.729), (1.0, 0.712)] ctrlA 0.526 -> VALIDATED T=0.619 | A 0.450 no claim | B 0.396 agr 0.89 ctrlB 0.406 no claim
+[letters] hebtr+latin    cracks [(0.996, 0.707), (0.995, 0.703)] ctrlA 0.539 -> VALIDATED T=0.621 | A 0.527 no claim | B 0.427 agr 1.00 ctrlB 0.414 no claim
+[letters] hebtr+turkish  cracks [(1.0, 0.74), (1.0, 0.783)] ctrlA 0.617 -> VALIDATED T=0.678 | A 0.544 no claim | B 0.544 agr 1.00 ctrlB 0.627 no claim
+[letters] latin+german   cracks [(1.0, 0.826), (1.0, 0.838)] ctrlA 0.436 -> VALIDATED T=0.631 | A 0.413 no claim | B 0.480 agr 1.00 ctrlB 0.502 no claim
+[letters] latin+turkish  cracks [(1.0, 0.771), (1.0, 0.813)] ctrlA 0.462 -> VALIDATED T=0.617 | A 0.443 no claim | B 0.405 agr 0.19 ctrlB 0.463 no claim
+[specificity] best Hebrew mixture heb+turkish 0.475 vs best non-Hebrew 0.487; order best Hebrew heb+greek +5.80 vs best control +4.10
+VERDICT construction: VOID | letters: NO CLAIM, validated | 1942s
