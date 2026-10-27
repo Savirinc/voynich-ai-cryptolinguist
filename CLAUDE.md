@@ -44,10 +44,10 @@ Read this first in every session. It carries the full working context; details l
    `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`. Clear background jobs after reading them.
 5. **Occam's rule** (`reports/OCCAM.md`): test the simplest hypothesis first; add a layer only when a measured fact
    forces it.
-6. **Check earlier reports first:** `reports/SUMMARY.md` (E001–E029a), `reports/LEDGER.md`, the reports E030–E079
+6. **Check earlier reports first:** `reports/SUMMARY.md` (E001–E029a), `reports/LEDGER.md`, the reports E030–E080
    (`reports/CLEANUP_ROUND.md` is E059, `reports/INGREDIENT_LINK.md` E060, `reports/STEM_STREAM.md` E061,
    `reports/SCRIBE_TABLES.md` E062, `reports/WIDE_ATTACK.md` E063, `reports/EARLY_AUDIT.md` E064,
-   `reports/SYLLABLE_GONOGO.md` E065, `reports/WORD_INDIVIDUALITY_V3.md` E066, `reports/GIBBERISH_VOCABULARY.md` E067, `reports/GIBBERISH_BATTERY.md` E068, `reports/WORD_PARTNERS.md` E069, `reports/CONTENT_PARTNERS.md` E070, `reports/LABEL_STEP0.md` step 0, `reports/LABEL_TRUNCATION.md` E071, `reports/FRONT_PIECES.md` E072, `reports/ZODIAC_ATTRIBUTES.md` E073, `reports/SLOT_COVERAGE.md` E074, `reports/PIECE_EFFECTS.md` E075, `reports/LIGHT_HEAVY_PIECES.md` E076, `reports/LABEL_ODDNESS.md` E077, `reports/SKELETON_TRAITS.md` E078, `reports/SKELETON_MATCH.md` E079), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
+   `reports/SYLLABLE_GONOGO.md` E065, `reports/WORD_INDIVIDUALITY_V3.md` E066, `reports/GIBBERISH_VOCABULARY.md` E067, `reports/GIBBERISH_BATTERY.md` E068, `reports/WORD_PARTNERS.md` E069, `reports/CONTENT_PARTNERS.md` E070, `reports/LABEL_STEP0.md` step 0, `reports/LABEL_TRUNCATION.md` E071, `reports/FRONT_PIECES.md` E072, `reports/ZODIAC_ATTRIBUTES.md` E073, `reports/SLOT_COVERAGE.md` E074, `reports/PIECE_EFFECTS.md` E075, `reports/LIGHT_HEAVY_PIECES.md` E076, `reports/LABEL_ODDNESS.md` E077, `reports/SKELETON_TRAITS.md` E078, `reports/SKELETON_MATCH.md` E079, `reports/HEBREW_CAMPAIGN.md` E080+), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
 7. **Known answers first:** every attack must crack synthetic texts of its own class and make **zero false claims**
    on gibberish and wrong-language controls before it touches Voynich.
 8. **Seed check:** any pass or fail within about 0.5 sd gets a seed-replicate check (≥ 8 of 10 seeds) before it is
@@ -88,7 +88,9 @@ Read this first in every session. It carries the full working context; details l
   - `reports/literature/` (four forum reports);
   - `reports/artifacts/` (HTML sources of the published pages).
 
-## 5. Where things stand (2026-10-27, after E079; M/L/C unchanged since E068)
+## 5. Where things stand (2026-10-27, after E080; M/L/C unchanged since E068)
+**Hebrew campaign open** (Arham, 2026-10-27; `reports/HEBREW_CAMPAIGN.md`): forms H1–H6; H1 and H2 excluded on A and B
+(E049, E080), H6 class fails (E062); H3 morpheme code, H4 syllables, H5 other languages in Hebrew letters open.
 **Ledger** (`reports/LEDGER.md`): **M 0.0739, L 0.8938, C 0.0281, O 0.0041** (after E068).
 - **M** = meaningless; **L** = a real language in its own script; **C** = cipher or code; **O** = other.
 - **Honest range:** L about 0.17–0.89, M about 0.07–0.69, C about 0.03–0.12. **From the range edges M leads (0.69 vs
@@ -232,7 +234,7 @@ readings tried; none ties the label class to meaning. Zodiac canvases are in `da
 - **Word kit** (front + middle + ending builder, coverage ladder; 2026-10-27): https://claude.ai/artifact/WbWEnBfhmD3Es8aCwwRf85
   (source `reports/artifacts/voynich_word_kit.html`; data `experiments/kit_build_voynich.py`).
 
-## 8. Experiment index after the stop rule (E030–E079)
+## 8. Experiment index after the stop rule (E030–E080)
 For E001–E029a see `reports/SUMMARY.md`.
 
 | Exp | Result |
@@ -283,3 +285,4 @@ For E001–E029a see `reports/SUMMARY.md`.
 | E077 | Labels odd in the bridge like names? Latin names yes (bridge known 0.08 vs 0.47); Voynich labels NOT ODD vs rare prose words (0.72 vs 0.69). No factor |
 | E078 | Skeleton traits vs 62 languages: closest Hebrew (8 fronts, 20 endings), Urdu, Boko, Luo, Arabic, Persian; Latin/English far; generator closer than any language. No factor |
 | E079 | Skeleton decipherment by piece behaviour: VALID (6/6 languages find themselves); Voynich nearest Nahuatl 1.74, Tagalog, Lingala, Hebrew 1.87, all outside the same-language band (≤ 1.43). NO LANGUAGE MATCHES LIKE ITSELF; no factor |
+| E080 | Hebrew campaign H1/H2: Hebrew letter attack on B (new) and A, forwards and reversed: NO CLAIM, validated; Voynich below pseudo-Voynich everywhere |

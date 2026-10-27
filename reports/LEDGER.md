@@ -535,3 +535,7 @@ neighbouring endings), more regularly than any language tested, and almost exact
 Voynich's skeleton (8 productive fronts, 20 endings, free-standing endings) resembles Hebrew and Arabic-script languages
 on summary counts (E078), but a validated piece-by-piece behaviour match finds no language on disk, and no relative of
 one, that fits Voynich the way a language fits itself (E079). If Voynich is a language, it is not one of these 62.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-27 | E080 Hebrew campaign H1/H2: validated Hebrew letter attack on Currier B (never done) and A, forwards and letters reversed (`HEBREW_CAMPAIGN.md`) | NO CLAIM, validated (cracks 0.99–1.00). Forward: A 0.521, B 0.501 vs controls 0.576 / 0.564; reversed: A 0.449, B 0.498 vs 0.486 / 0.613. Voynich below pseudo-Voynich everywhere | recorded in the campaign; accounting at its end | 0.0739 | 0.8938 | 0.0281 | 0.0041 |

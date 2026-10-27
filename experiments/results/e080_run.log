@@ -1,0 +1,4 @@
+Voynich A words 8794, B words 19488
+hebrew_forward   cracks acc/lex [(1.0, 0.703), (1.0, 0.713)] ctrlA max 0.576 -> VALIDATED T=0.640 | A lex 0.521 agr 1.00 no claim | B lex 0.501 agr 1.00 ctrlB max 0.564 no claim
+hebrew_reversed  cracks acc/lex [(1.0, 0.753), (0.988, 0.612)] ctrlA max 0.486 -> VALIDATED T=0.549 | A lex 0.449 agr 1.00 no claim | B lex 0.498 agr 0.79 ctrlB max 0.613 no claim
+VERDICT NO CLAIM, validated | 369s
