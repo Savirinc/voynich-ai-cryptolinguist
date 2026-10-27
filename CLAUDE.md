@@ -89,8 +89,9 @@ Read this first in every session. It carries the full working context; details l
   - `reports/artifacts/` (HTML sources of the published pages).
 
 ## 5. Where things stand (2026-10-27, after E080; M/L/C unchanged since E068)
-**Hebrew campaign open** (Arham, 2026-10-27; `reports/HEBREW_CAMPAIGN.md`): forms H1–H6; H1 and H2 excluded on A and B
-(E049, E080), H6 class fails (E062); H3 morpheme code, H4 syllables, H5 other languages in Hebrew letters open.
+**Hebrew campaign open** (Arham, 2026-10-27; `reports/HEBREW_CAMPAIGN.md`): forms H1–H6; H1, H2 (E049, E080) and H3 morpheme code
+(E081) excluded on A and B; H4 syllables excluded by count; H6 class fails (E062); H5 (Aramaic, Judeo-Arabic, Ladino in
+Hebrew letters) open, texts to be sourced.
 **Ledger** (`reports/LEDGER.md`): **M 0.0739, L 0.8938, C 0.0281, O 0.0041** (after E068).
 - **M** = meaningless; **L** = a real language in its own script; **C** = cipher or code; **O** = other.
 - **Honest range:** L about 0.17–0.89, M about 0.07–0.69, C about 0.03–0.12. **From the range edges M leads (0.69 vs
@@ -234,7 +235,7 @@ readings tried; none ties the label class to meaning. Zodiac canvases are in `da
 - **Word kit** (front + middle + ending builder, coverage ladder; 2026-10-27): https://claude.ai/artifact/WbWEnBfhmD3Es8aCwwRf85
   (source `reports/artifacts/voynich_word_kit.html`; data `experiments/kit_build_voynich.py`).
 
-## 8. Experiment index after the stop rule (E030–E080)
+## 8. Experiment index after the stop rule (E030–E081)
 For E001–E029a see `reports/SUMMARY.md`.
 
 | Exp | Result |
@@ -286,3 +287,4 @@ For E001–E029a see `reports/SUMMARY.md`.
 | E078 | Skeleton traits vs 62 languages: closest Hebrew (8 fronts, 20 endings), Urdu, Boko, Luo, Arabic, Persian; Latin/English far; generator closer than any language. No factor |
 | E079 | Skeleton decipherment by piece behaviour: VALID (6/6 languages find themselves); Voynich nearest Nahuatl 1.74, Tagalog, Lingala, Hebrew 1.87, all outside the same-language band (≤ 1.43). NO LANGUAGE MATCHES LIKE ITSELF; no factor |
 | E080 | Hebrew campaign H1/H2: Hebrew letter attack on B (new) and A, forwards and reversed: NO CLAIM, validated; Voynich below pseudo-Voynich everywhere |
+| E081 | Hebrew campaign H3 morpheme code (40 units, many-to-one): VALIDATED, NO CLAIM (A 0.47 vs 0.60; B 0.63 vs 0.64, unstable). H4 excluded by count (79 syllables vs 37 glyph units) |

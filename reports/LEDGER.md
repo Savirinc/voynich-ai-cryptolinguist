@@ -539,3 +539,7 @@ one, that fits Voynich the way a language fits itself (E079). If Voynich is a la
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-27 | E080 Hebrew campaign H1/H2: validated Hebrew letter attack on Currier B (never done) and A, forwards and letters reversed (`HEBREW_CAMPAIGN.md`) | NO CLAIM, validated (cracks 0.99–1.00). Forward: A 0.521, B 0.501 vs controls 0.576 / 0.564; reversed: A 0.449, B 0.498 vs 0.486 / 0.613. Voynich below pseudo-Voynich everywhere | recorded in the campaign; accounting at its end | 0.0739 | 0.8938 | 0.0281 | 0.0041 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-27 | E081 Hebrew campaign H3 morpheme-code attack; H4 by count (`HEBREW_CAMPAIGN.md`) | H3: VALIDATED (cracks 0.99); Voynich A 0.472 vs controls 0.596; B 0.630 vs controls 0.640, agreement 0.62: NO CLAIM. H4: Hebrew needs 79 syllable types for 95%, Voynich has 37 glyph units: excluded by count | recorded in the campaign | 0.0739 | 0.8938 | 0.0281 | 0.0041 |

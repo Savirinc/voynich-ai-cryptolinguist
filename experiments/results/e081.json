@@ -1,0 +1,343 @@
+{
+ "experiment": "E081",
+ "seed": 81081,
+ "nsign": 40,
+ "iters": 60000,
+ "validated": true,
+ "threshold": 0.6068677547008414,
+ "controls_max_A": 0.5959534028203556,
+ "controls_max_B": 0.6401933203491308,
+ "voynich": {
+  "A": {
+   "lexrate": 0.4721726721369961,
+   "agreement": 0.9353111432706223,
+   "claim": false,
+   "decoded_sample": [
+    "אנכדל וחית אל האיר וחיל אשמגל אשקישקל יאל ע אבת אל אר ואל אר ל ית יל וה יל שדננה יאשה אל ל אדמע ישאל ה האשית ר אבשכל ית אד ואיל אד אל אל ה אאת את ואשמה אית"
+   ]
+  },
+  "B": {
+   "lexrate": 0.6298743267504489,
+   "agreement": 0.618930848455125,
+   "claim": false,
+   "decoded_sample": [
+    "אשאל היאשור ר ואת אול ואל ואל ויאמר ואל אשיאל ואת ויל וקבל אר ונר אשנל ול ואאל האת האת אר אשמר ר ל אשאר ואר ויאשאל אל האאר אנחר ויר ואשאל ואר בעשר אמינאה בחדדל בעמול יבשמאל ווחדדל הל"
+   ]
+  }
+ },
+ "verdict": "NO CLAIM, validated",
+ "voynich_units": [
+  [
+   "B",
+   "k"
+  ],
+  [
+   "B",
+   "ch"
+  ],
+  [
+   "F",
+   "o"
+  ],
+  [
+   "B",
+   "e"
+  ],
+  [
+   "F",
+   "qo"
+  ],
+  [
+   "E",
+   "y"
+  ],
+  [
+   "B",
+   "o"
+  ],
+  [
+   "E",
+   "edy"
+  ],
+  [
+   "F",
+   "s"
+  ],
+  [
+   "E",
+   "ey"
+  ],
+  [
+   "E",
+   "aiin"
+  ],
+  [
+   "B",
+   "h"
+  ],
+  [
+   "F",
+   "d"
+  ],
+  [
+   "B",
+   "l"
+  ],
+  [
+   "E",
+   "ol"
+  ],
+  [
+   "B",
+   "a"
+  ],
+  [
+   "E",
+   "ar"
+  ],
+  [
+   "E",
+   "dy"
+  ],
+  [
+   "E",
+   "al"
+  ],
+  [
+   "B",
+   "d"
+  ],
+  [
+   "B",
+   "ckh"
+  ],
+  [
+   "E",
+   "ain"
+  ],
+  [
+   "E",
+   "or"
+  ],
+  [
+   "F",
+   "l"
+  ],
+  [
+   "F",
+   "y"
+  ],
+  [
+   "B",
+   "r"
+  ],
+  [
+   "B",
+   "p"
+  ],
+  [
+   "B",
+   "sh"
+  ],
+  [
+   "E",
+   "s"
+  ],
+  [
+   "E",
+   "o"
+  ],
+  [
+   "E",
+   "r"
+  ],
+  [
+   "E",
+   "l"
+  ],
+  [
+   "B",
+   "i"
+  ],
+  [
+   "E",
+   "am"
+  ],
+  [
+   "E",
+   "d"
+  ],
+  [
+   "B",
+   "f"
+  ],
+  [
+   "B",
+   "y"
+  ],
+  [
+   "E",
+   "iin"
+  ],
+  [
+   "B",
+   "s"
+  ],
+  [
+   "E",
+   "m"
+  ]
+ ],
+ "dropped_units": [
+  896,
+  89706
+ ],
+ "results": [
+  {
+   "name": "crack0",
+   "lm": "hebunits",
+   "agreement": 1.0,
+   "lexrate": 0.6177821065813274,
+   "accuracy": 0.99223714615829,
+   "score": -105145.07169500622
+  },
+  {
+   "name": "crack1",
+   "lm": "hebunits",
+   "agreement": 1.0,
+   "lexrate": 0.6228335625859698,
+   "accuracy": 0.9916358820659371,
+   "score": -104654.29633294314
+  },
+  {
+   "name": "control:generator0",
+   "lm": "hebunits",
+   "agreement": 0.8498527968596663,
+   "lexrate": 0.5959534028203556,
+   "accuracy": null,
+   "score": -97605.45681797132
+  },
+  {
+   "name": "control:generator1",
+   "lm": "hebunits",
+   "agreement": 1.0,
+   "lexrate": 0.541622084314145,
+   "accuracy": null,
+   "score": -98605.47815418722
+  },
+  {
+   "name": "control:pseudo0",
+   "lm": "hebunits",
+   "agreement": 1.0,
+   "lexrate": 0.47683294869518905,
+   "accuracy": null,
+   "score": -109685.98902620419
+  },
+  {
+   "name": "control:pseudo1",
+   "lm": "hebunits",
+   "agreement": 0.8120866013662486,
+   "lexrate": 0.49166075230660045,
+   "accuracy": null,
+   "score": -108714.01063744177
+  },
+  {
+   "name": "control:pseudo2",
+   "lm": "hebunits",
+   "agreement": 0.8983941711675789,
+   "lexrate": 0.5134365545470725,
+   "accuracy": null,
+   "score": -108492.16274022964
+  },
+  {
+   "name": "control:pseudo3",
+   "lm": "hebunits",
+   "agreement": 1.0,
+   "lexrate": 0.5138072332086229,
+   "accuracy": null,
+   "score": -109457.57118478125
+  },
+  {
+   "name": "control:pseudo4",
+   "lm": "hebunits",
+   "agreement": 0.9818030231630841,
+   "lexrate": 0.4748240389821332,
+   "accuracy": null,
+   "score": -108543.03618261669
+  },
+  {
+   "name": "VOYNICH_A",
+   "lm": "hebunits",
+   "agreement": 0.9353111432706223,
+   "lexrate": 0.4721726721369961,
+   "accuracy": null,
+   "score": -108481.0740902987
+  },
+  {
+   "name": "controlB:pseudo0",
+   "lm": "hebunits",
+   "agreement": 0.7573630698589702,
+   "lexrate": 0.5863862995881205,
+   "accuracy": null,
+   "score": -237285.08782214738
+  },
+  {
+   "name": "controlB:pseudo1",
+   "lm": "hebunits",
+   "agreement": 0.7967218462040284,
+   "lexrate": 0.5881047809905525,
+   "accuracy": null,
+   "score": -236861.9250183006
+  },
+  {
+   "name": "controlB:pseudo2",
+   "lm": "hebunits",
+   "agreement": 0.6541506815770142,
+   "lexrate": 0.5791657723402733,
+   "accuracy": null,
+   "score": -237548.79825901747
+  },
+  {
+   "name": "controlB:pseudo3",
+   "lm": "hebunits",
+   "agreement": 0.6920736196319018,
+   "lexrate": 0.600744932311439,
+   "accuracy": null,
+   "score": -237770.73668914085
+  },
+  {
+   "name": "controlB:pseudo4",
+   "lm": "hebunits",
+   "agreement": 0.8326264594625575,
+   "lexrate": 0.6401933203491308,
+   "accuracy": null,
+   "score": -238058.05514161108
+  },
+  {
+   "name": "VOYNICH_B",
+   "lm": "hebunits",
+   "agreement": 0.618930848455125,
+   "lexrate": 0.6298743267504489,
+   "accuracy": null,
+   "score": -237798.12478473614
+  }
+ ],
+ "locked_test_excluded": [
+  "1",
+  "8",
+  "9",
+  "30",
+  "35",
+  "38",
+  "51",
+  "52",
+  "56",
+  "75",
+  "86",
+  "87",
+  "102",
+  "105",
+  "114"
+ ],
+ "runtime_s": 524.0649991035461
+}

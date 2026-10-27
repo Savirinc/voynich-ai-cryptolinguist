@@ -10,8 +10,8 @@ that cracks that form on known answers. "Hebrew in any form whatever" cannot be 
 |---|---|---|---|
 | H1 | one Voynich sign per Hebrew letter, any permutation incl. atbash, homophones, 12% slips | **A: no claim (E049, E080). B: no claim (E080)** | 23 commonest signs; attack cracks Hebrew 2/2 at accuracy 1.00 |
 | H2 | as H1, word letters reversed | **A and B: no claim (E080)** | as H1; cracks 2/2 at 0.99–1.00 |
-| H3 | morpheme code (fronts = prefixes, endings = suffixes, bridges = root letters) | open | |
-| H4 | vocalised syllables, one chunk per syllable | open | |
+| H3 | morpheme code (fronts = prefixes, endings = suffixes, bridges = root letters) | **A and B: no claim (E081)** | these unit cuts, 40 symbols, many-to-one; attack cracks Hebrew unit code 2/2 at 0.99 |
+| H4 | vocalised syllables, one chunk per syllable | **excluded by count** (2026-10-27, E065 logic) | Hebrew needs 79 syllable types for 95% of text; Voynich has 37 glyph units in all. Without vowels H4 is H1 |
 | H5 | another language in Hebrew letters (Aramaic, Judeo-Arabic, Ladino; Yiddish no claim, E063) | open; texts not on disk (eBible has only a modern Neo-Aramaic NT) | |
 | H6 | Naibbe-type verbose cipher of Hebrew | class fails (E062) | 13-feature battery, 10 seeds |
 
@@ -28,3 +28,24 @@ Decoded sample (forward, A), as the attack left it: מהביןה הכאור בי
 common Hebrew pieces, as in E050).
 
 **Verdict: NO CLAIM, validated.** H1 is now excluded on both A and B, and H2 on both, within the scope above.
+
+## E081: the morpheme-code attack (H3)
+Run 2026-10-27 (524 s) under `E081_PREREG.md`. Voynich words cut into front + bridge glyphs + ending (63 unit types,
+40 kept); Hebrew words into prefix + root letters + suffix (71 types, 40 kept); many-to-one annealing, 32 × 60,000.
+| | accuracy | lexrate | agreement |
+|---|---|---|---|
+| crack 1 / crack 2 (Hebrew unit code) | 0.99 / 0.99 | 0.618 / 0.623 | 1.00 / 1.00 |
+| controls A max (2 generator, 5 pseudo-Voynich) | | 0.596 | |
+| **Voynich A** | | **0.472** | 0.94 |
+| controls B max (5 pseudo-Voynich-B) | | 0.640 | |
+| **Voynich B** | | **0.630** | **0.62** |
+VALIDATED, threshold 0.607. Voynich A scores far below its imitations. Voynich B reaches 0.630, above the threshold but
+below its own imitations (0.640), and its 32 restarts disagree (agreement 0.62 against the 0.95 required): the attack
+finds no stable Hebrew reading. Decoded sample (B, unstable): אשאל היאשור ר ואת אול ואל ואל ויאמר ואל ...
+**Verdict: NO CLAIM, validated.** H3 excluded within scope.
+
+## H4 by count (not a new scored test; E065's pre-registered logic applied to Hebrew)
+Vocalised Hebrew (hboWLC with points; vowel classes a/e/i/o/u/none): 139 consonant+vowel syllable types, 79 needed to
+cover 95% of the text. Voynich: 37 S3 glyph-unit types in all, 15 cover 95%. A code with one Voynich chunk per Hebrew
+syllable needs at least as many chunk types as syllable types; Voynich has under half. With vowels ignored, the code is
+H1 (excluded). H4 is excluded by logic within this scope.
