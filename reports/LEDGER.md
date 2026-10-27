@@ -500,3 +500,10 @@ reading remains the one open reading of the label class.
 
 **After E073.** No sign that figures with the same label look alike, on 296 annotated zodiac figures; with E055 this is
 the second picture type where labels do not track what is drawn. Unscored because the reliability check failed.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-27 | E074 front + middle + ending coverage (`SLOT_COVERAGE.md`; Arham's question) | 60 automatically chosen pieces write 64% of Voynich running text (120 pieces: 85%); 8 languages 17–52% (25–62%); generator 59–68% (85–86%). Fill rate Voynich 0.195, languages 0.025–0.145 (Hebrew highest), generator 0.147–0.149. ABOVE EVERY LANGUAGE | none (measurement) | 0.0739 | 0.8938 | 0.0281 | 0.0041 |
+
+**After E074.** Voynich words are built from a small set of freely combining pieces, more so than any language tested
+and as much as the copy generator.

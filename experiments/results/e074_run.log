@@ -1,0 +1,15 @@
+VOYNICH        5/15/10: tok 0.299 type 0.050 fill 0.3000 | 10/30/20: tok 0.643 type 0.229 fill 0.1952 | 20/60/40: tok 0.853 type 0.531 fill 0.0602
+latVUC         5/15/10: tok 0.188 type 0.017 fill 0.1037 | 10/30/20: tok 0.311 type 0.052 fill 0.0426 | 20/60/40: tok 0.425 type 0.116 fill 0.0130
+hboWLC         5/15/10: tok 0.161 type 0.041 fill 0.3025 | 10/30/20: tok 0.392 type 0.160 fill 0.1453 | 20/60/40: tok 0.575 type 0.359 fill 0.0442
+turytc         5/15/10: tok 0.025 type 0.012 fill 0.1000 | 10/30/20: tok 0.166 type 0.035 fill 0.0329 | 20/60/40: tok 0.249 type 0.079 fill 0.0096
+deu1912        5/15/10: tok 0.131 type 0.034 fill 0.1100 | 10/30/20: tok 0.359 type 0.096 fill 0.0397 | 20/60/40: tok 0.611 type 0.229 fill 0.0123
+eng-kjv        5/15/10: tok 0.347 type 0.051 fill 0.1100 | 10/30/20: tok 0.445 type 0.117 fill 0.0345 | 20/60/40: tok 0.618 type 0.273 fill 0.0106
+indayt         5/15/10: tok 0.072 type 0.018 fill 0.0563 | 10/30/20: tok 0.230 type 0.068 fill 0.0287 | 20/60/40: tok 0.347 type 0.130 fill 0.0073
+hun            5/15/10: tok 0.133 type 0.012 fill 0.0825 | 10/30/20: tok 0.211 type 0.028 fill 0.0250 | 20/60/40: tok 0.377 type 0.077 fill 0.0085
+tglulb         5/15/10: tok 0.272 type 0.032 fill 0.0862 | 10/30/20: tok 0.518 type 0.078 fill 0.0276 | 20/60/40: tok 0.611 type 0.186 fill 0.0088
+generator_31   5/15/10: tok 0.306 type 0.061 fill 0.2562 | 10/30/20: tok 0.682 type 0.258 fill 0.1471 | 20/60/40: tok 0.859 type 0.554 fill 0.0442
+generator_32   5/15/10: tok 0.314 type 0.058 fill 0.2238 | 10/30/20: tok 0.665 type 0.274 fill 0.1492 | 20/60/40: tok 0.862 type 0.565 fill 0.0435
+generator_33   5/15/10: tok 0.294 type 0.061 fill 0.2400 | 10/30/20: tok 0.591 type 0.268 fill 0.1466 | 20/60/40: tok 0.848 type 0.546 fill 0.0410
+Voynich primary lists: {'front': ['', 'o', 'c', 'ch', 'q', 's', 'qo', 'd', 'y', 'sh'], 'middle': ['', 'o', 'k', 'a', 't', 'ch', 'd', 'ol', 'ke', 'e', 'ka', 'pch', 'tch', 'ok', 'cth', 'kch', 'l', 'to', 'ko', 'cho', 'ee', 'od', 'ckh', 'che', 'ot', 'sh', 'kee', 'ai', 'da', 'te', 'al'], 'ending': ['', 'y', 'dy', 'r', 'l', 'n', 'in', 'ey', 'hy', 'iin', 'ol', 'aiin', 'edy', 's', 'ar', 'or', 'al', 'm', 'd', 'hey']}
+Voynich unwritten commonest: [('lchedy', 62), ('otain', 56), ('cheody', 46), ('raiin', 43), ('cheo', 40), ('lkaiin', 36), ('qotain', 35), ('lkeey', 33), ('lkain', 29), ('lkeedy', 29), ('olkeedy', 24), ('sheody', 23), ('oraiin', 22), ('chedar', 22), ('lchey', 21)]
+READING ABOVE EVERY LANGUAGE (Voynich token coverage 0.643; languages 0.166-0.518)
