@@ -526,3 +526,12 @@ neighbouring endings), more regularly than any language tested, and almost exact
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-27 | E078 skeleton traits vs 62 languages (`SKELETON_TRAITS.md`; Arham option 1) | Voynich: 8 productive fronts, 20 productive endings, free endings 0.60, bare endings 0.092, fill 0.204 (above all 62). Closest: Hebrew 4.54 (8 fronts, 20 endings), Urdu 5.11, Boko 6.05, Luo 6.10, Arabic 6.33, Persian 7.16; Latin 8.84, English 9.48. Generator closer than any language (3.3–3.8) | none (descriptive) | 0.0739 | 0.8938 | 0.0281 | 0.0041 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-27 | E079 skeleton decipherment by piece behaviour (`SKELETON_MATCH.md`; Arham option 2) | VALID: second samples of Latin, Arabic, Hebrew, German, Persian, Turkish each find their own language first (6/6; pieces paired 0.43–0.83; distances 0.99–1.43). Voynich's nearest: Nahuatl 1.74, Tagalog 1.84, Lingala 1.85, Hebrew 1.87 (Latin 2.11): outside the same-language band. Generator 1.80–1.83. NO LANGUAGE MATCHES LIKE ITSELF | none (as pre-registered) | 0.0739 | 0.8938 | 0.0281 | 0.0041 |
+
+**After E077–E079 (Arham's word-piece programme).** Labels are built from native pieces, not foreign stems (E077).
+Voynich's skeleton (8 productive fronts, 20 endings, free-standing endings) resembles Hebrew and Arabic-script languages
+on summary counts (E078), but a validated piece-by-piece behaviour match finds no language on disk, and no relative of
+one, that fits Voynich the way a language fits itself (E079). If Voynich is a language, it is not one of these 62.
