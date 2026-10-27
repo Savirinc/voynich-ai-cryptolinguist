@@ -543,3 +543,13 @@ one, that fits Voynich the way a language fits itself (E079). If Voynich is a la
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-27 | E081 Hebrew campaign H3 morpheme-code attack; H4 by count (`HEBREW_CAMPAIGN.md`) | H3: VALIDATED (cracks 0.99); Voynich A 0.472 vs controls 0.596; B 0.630 vs controls 0.640, agreement 0.62: NO CLAIM. H4: Hebrew needs 79 syllable types for 95%, Voynich has 37 glyph units: excluded by count | recorded in the campaign | 0.0739 | 0.8938 | 0.0281 | 0.0041 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-27 | E082 Hebrew campaign H5: Aramaic (Onkelos) and Judeo-Arabic (Saadia) in Hebrew letters, A and B (`HEBREW_CAMPAIGN.md`) | VALIDATED (cracks 0.98–1.00); Voynich A 0.410 / 0.355, B 0.391 / 0.413, all below pseudo-Voynich controls. NO CLAIM | recorded in the campaign | 0.0739 | 0.8938 | 0.0281 | 0.0041 |
+
+**Hebrew campaign, first pass complete (E080–E082 with E049, E062, E063).** Six named forms of "Hebrew in some form",
+each attacked by a method that cracks it on known answers: no reading better than meaningless imitations of Voynich.
+Accounting for the ledger: the letter-level forms (H1, H2, H5) and H3 fall within L-alpha-known and L-abbrev-like forms
+already reduced by E049–E063; the residual Hebrew share inside L is small. No new factor is applied without a
+pre-registered accounting; to be proposed to Arham.

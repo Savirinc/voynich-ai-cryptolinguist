@@ -1,0 +1,9 @@
+aramaic_onkelos: verses 5846, model words 51349, plaintext words 31753, letters יאולתרבמהדעןנשכקחפסםגזך
+judeoarabic_saadia: verses 5846, model words 50324, plaintext words 31246, letters אליוהמברדתענןכפסקםגצחשט
+aramaic_onkelos      cracks acc/lex [(0.976, 0.692), (0.997, 0.742)] ctrlA max 0.438 -> VALIDATED T=0.565 | A lex 0.410 agr 1.00 no claim | B lex 0.391 agr 1.00 ctrlB max 0.465 no claim
+  decoded A: באליהא אחוית ליה יבוית אחויה מיתאא ליתויתא ובית א מית מא בי דביה מרא א וית וא אא ויה ייששא וביל א קא ליתא ויביה ל יביוית ית מיליה וית
+  decoded B: ברוא לתורדית ית יברא ודיה יבא יביה יחויא יברא ורחורא יברא יתיה יומא בית יעית ורעיה ית יבוא לברא לברא בית בריית י ת ורבית יבית יתורבא דיה לבוי ועיא
+judeoarabic_saadia   cracks acc/lex [(1.0, 0.679), (1.0, 0.697)] ctrlA max 0.503 -> VALIDATED T=0.591 | A lex 0.355 agr 1.00 no claim | B lex 0.413 agr 0.87 ctrlB max 0.463 no claim
+  decoded A: לאבידא אנואה בין אלויה אנוין לאהלא באתואתא ולית ל כאת לא לא אלין למא א ואת וא אל וין איעעל ולאב ל פא ביהל ואלין ב אלאואת יה כאבין ואה
+  decoded B: ליוה אלויבאר אר אליה ובאן אלה אלאת אכואה אליה ויכויה אליה אלאן אספה לאל אנאר וינאן אל אלוה אליה אליה לאל ליאאר א ל וילאר אלאר אלוילה באן אלוא ונאה
+VERDICT NO CLAIM, validated | 360s
