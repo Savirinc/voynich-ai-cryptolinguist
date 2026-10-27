@@ -522,3 +522,7 @@ neighbouring endings), more regularly than any language tested, and almost exact
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-27 | E077 are labels odd in the bridge, as names are? (`LABEL_ODDNESS.md`; Arham option 3) | Known answer passed: Latin names' bridges known 0.08 vs rare words 0.47 (NAME-LIKE, z +126). Voynich labels vs length-matched rare prose words: bridge known 0.72 vs 0.69, ending 0.87 vs 0.84, front 0.83 vs 0.63: NOT ODD. Labels are built from native pieces; no sign of foreign names | none (descriptive) | 0.0739 | 0.8938 | 0.0281 | 0.0041 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-27 | E078 skeleton traits vs 62 languages (`SKELETON_TRAITS.md`; Arham option 1) | Voynich: 8 productive fronts, 20 productive endings, free endings 0.60, bare endings 0.092, fill 0.204 (above all 62). Closest: Hebrew 4.54 (8 fronts, 20 endings), Urdu 5.11, Boko 6.05, Luo 6.10, Arabic 6.33, Persian 7.16; Latin 8.84, English 9.48. Generator closer than any language (3.3–3.8) | none (descriptive) | 0.0739 | 0.8938 | 0.0281 | 0.0041 |
