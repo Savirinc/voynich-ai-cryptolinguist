@@ -44,10 +44,10 @@ Read this first in every session. It carries the full working context; details l
    `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`. Clear background jobs after reading them.
 5. **Occam's rule** (`reports/OCCAM.md`): test the simplest hypothesis first; add a layer only when a measured fact
    forces it.
-6. **Check earlier reports first:** `reports/SUMMARY.md` (E001–E029a), `reports/LEDGER.md`, the reports E030–E080
+6. **Check earlier reports first:** `reports/SUMMARY.md` (E001–E029a), `reports/LEDGER.md`, the reports E030–E085
    (`reports/CLEANUP_ROUND.md` is E059, `reports/INGREDIENT_LINK.md` E060, `reports/STEM_STREAM.md` E061,
    `reports/SCRIBE_TABLES.md` E062, `reports/WIDE_ATTACK.md` E063, `reports/EARLY_AUDIT.md` E064,
-   `reports/SYLLABLE_GONOGO.md` E065, `reports/WORD_INDIVIDUALITY_V3.md` E066, `reports/GIBBERISH_VOCABULARY.md` E067, `reports/GIBBERISH_BATTERY.md` E068, `reports/WORD_PARTNERS.md` E069, `reports/CONTENT_PARTNERS.md` E070, `reports/LABEL_STEP0.md` step 0, `reports/LABEL_TRUNCATION.md` E071, `reports/FRONT_PIECES.md` E072, `reports/ZODIAC_ATTRIBUTES.md` E073, `reports/SLOT_COVERAGE.md` E074, `reports/PIECE_EFFECTS.md` E075, `reports/LIGHT_HEAVY_PIECES.md` E076, `reports/LABEL_ODDNESS.md` E077, `reports/SKELETON_TRAITS.md` E078, `reports/SKELETON_MATCH.md` E079, `reports/HEBREW_CAMPAIGN.md` E080+), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
+   `reports/SYLLABLE_GONOGO.md` E065, `reports/WORD_INDIVIDUALITY_V3.md` E066, `reports/GIBBERISH_VOCABULARY.md` E067, `reports/GIBBERISH_BATTERY.md` E068, `reports/WORD_PARTNERS.md` E069, `reports/CONTENT_PARTNERS.md` E070, `reports/LABEL_STEP0.md` step 0, `reports/LABEL_TRUNCATION.md` E071, `reports/FRONT_PIECES.md` E072, `reports/ZODIAC_ATTRIBUTES.md` E073, `reports/SLOT_COVERAGE.md` E074, `reports/PIECE_EFFECTS.md` E075, `reports/LIGHT_HEAVY_PIECES.md` E076, `reports/LABEL_ODDNESS.md` E077, `reports/SKELETON_TRAITS.md` E078, `reports/SKELETON_MATCH.md` E079, `reports/HEBREW_CAMPAIGN.md` E080–E084, `reports/SAME_PLANT_PAGES.md` E085), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
 7. **Known answers first:** every attack must crack synthetic texts of its own class and make **zero false claims**
    on gibberish and wrong-language controls before it touches Voynich.
 8. **Seed check:** any pass or fail within about 0.5 sd gets a seed-replicate check (≥ 8 of 10 seeds) before it is
@@ -88,14 +88,14 @@ Read this first in every session. It carries the full working context; details l
   - `reports/literature/` (four forum reports);
   - `reports/artifacts/` (HTML sources of the published pages).
 
-## 5. Where things stand (2026-10-27, after E080; M/L/C unchanged since E068)
+## 5. Where things stand (2026-10-27, after E085)
 **Hebrew campaign open** (Arham, 2026-10-27; `reports/HEBREW_CAMPAIGN.md`): forms H1–H6; H1, H2 (E049, E080) and H3 morpheme code
 (E081) excluded on A and B; H4 syllables excluded by count; H6 class fails (E062); H5 Yiddish, Aramaic, Judeo-Arabic no claim
 (E063, E082). First pass complete: no form read better than pseudo-Voynich. Untested: boundary/order-changing codes,
 abbreviated Hebrew (roshei teivot), Ladino, Judeo-Italian, Judeo-Persian. Texts: `data/external/hebrew_script/`.
 E083 proof by construction failed (not Hebrew-specific; order not Hebrew). E084 mixtures (Talmud, Hebrew+associates,
 Hebrew+Latin/Turkish): letter attack no claim; construction void on mixtures.
-**Ledger** (`reports/LEDGER.md`): **M 0.0739, L 0.8938, C 0.0281, O 0.0041** (after E068).
+**Ledger** (`reports/LEDGER.md`): **M 0.1005, L 0.8682, C 0.0273, O 0.004** (after E085, M × 1.4).
 - **M** = meaningless; **L** = a real language in its own script; **C** = cipher or code; **O** = other.
 - **Honest range:** L about 0.17–0.89, M about 0.07–0.69, C about 0.03–0.12. **From the range edges M leads (0.69 vs
   0.17)**; at the point values L leads (0.89 vs 0.07). A two-horse race; treat M and L symmetrically. E066's × 3 is pre-registered; its empirical ratio is 1.4 (most real languages
@@ -238,7 +238,7 @@ readings tried; none ties the label class to meaning. Zodiac canvases are in `da
 - **Word kit** (front + middle + ending builder, coverage ladder; 2026-10-27): https://claude.ai/artifact/WbWEnBfhmD3Es8aCwwRf85
   (source `reports/artifacts/voynich_word_kit.html`; data `experiments/kit_build_voynich.py`).
 
-## 8. Experiment index after the stop rule (E030–E084)
+## 8. Experiment index after the stop rule (E030–E085)
 For E001–E029a see `reports/SUMMARY.md`.
 
 | Exp | Result |
@@ -294,3 +294,5 @@ For E001–E029a see `reports/SUMMARY.md`.
 | E082 | Hebrew campaign H5 Aramaic (Onkelos), Judeo-Arabic (Saadia): VALIDATED, NO CLAIM on A and B; below pseudo-Voynich |
 | E083 | Proof by construction Hebrew → Voynich (Arham): known answer recovered; fit not Hebrew-specific (Turkish 0.485 > Hebrew 0.466 > Latin 0.461); decoded order not Hebrew (+0.9; Aramaic +8.0, Turkish +6.5). CONSTRUCTION FAILS |
 | E084 | Mixed sources (Arham): construction VOID (cannot recover Talmud); letter attack with Talmud, Hebrew+Aramaic/Judeo-Arabic/Latin/Turkish mixture models: VALIDATED, NO CLAIM on A and B |
+| X085 | Exploratory (unscored): Hebrew decodes with brakes off; gutturals-dropped Hebrew 0.71 on Voynich and 0.70–0.72 on meaningless imitations; text in `HEBREW_EXPLORATION.md` |
+| E085 | Same-plant herbal pages share words? Culpeper yes (p 0.0001); Voynich 22 pairs no (p 0.61), no shared first words. NO LINK, M × 1.4 |

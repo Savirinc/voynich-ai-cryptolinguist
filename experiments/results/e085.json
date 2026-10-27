@@ -1,0 +1,427 @@
+{
+ "experiment": "E085",
+ "known_answer": {
+  "entries": 328,
+  "pairs": 47,
+  "groups": {
+   "AGRIMONY": [
+    "AGRIMONY.",
+    "WATER AGRIMONY."
+   ],
+   "ALDER": [
+    "THE BLACK ALDER-TREE.",
+    "THE COMMON ALDER-TREE."
+   ],
+   "ARRACH": [
+    "GARDEN ARRACH.",
+    "ARRACH, WILD AND STINKING."
+   ],
+   "ASPARAGU": [
+    "ASPARAGUS, SPARAGUS, OR SPERAGE.",
+    "PRICKLY ASPARAGUS, OR SPERAGE."
+   ],
+   "BEAN": [
+    "BEANS.",
+    "FRENCH BEANS."
+   ],
+   "BETONY": [
+    "WATER BETONY.",
+    "WOOD BETONY."
+   ],
+   "BUGLOS": [
+    "BORAGE AND BUGLOSS.",
+    "VIPER’S BUGLOSS."
+   ],
+   "BROOM": [
+    "BUTCHER’S BROOM.",
+    "BROOM, AND BROOM-RAPE."
+   ],
+   "PLANTAIN": [
+    "BUCK’S-HORN PLANTAIN.",
+    "PLANTAIN."
+   ],
+   "COLEWORT": [
+    "CABBAGES AND COLEWORTS.",
+    "THE SEA COLEWORTS."
+   ],
+   "CHERVIL": [
+    "CHERVIL.",
+    "SWEET CHERVIL, OR SWEET CICELY."
+   ],
+   "CLARY": [
+    "CLARY, OR MORE PROPERLY CLEAR-EYE.",
+    "WILD CLARY."
+   ],
+   "CRESSE": [
+    "BLACK CRESSES.",
+    "SCIATICA CRESSES.",
+    "WATER CRESSES."
+   ],
+   "HYSSOP": [
+    "HEDGE HYSSOP.",
+    "HYSSOP."
+   ],
+   "HAIR": [
+    "MAIDEN HAIR.",
+    "GOLDEN MAIDEN HAIR"
+   ],
+   "MARJORAM": [
+    "WIND MARJORAM.",
+    "SWEET MARJORAM."
+   ],
+   "MERCURY": [
+    "FRENCH AND DOG MERCURY.",
+    "DOG MERCURY."
+   ],
+   "MUSTARD": [
+    "MUSTARD.",
+    "TREACLE MUSTARD.",
+    "MITHRIDATE MUSTARD."
+   ],
+   "OAK": [
+    "THE OAK.",
+    "POLYPODY OF THE OAK."
+   ],
+   "PARSNIP": [
+    "PARSNIPS.",
+    "COW PARSNIPS."
+   ],
+   "RHUBARB": [
+    "RHUBARB, OR REPHONTIC.",
+    "RHUBARB."
+   ],
+   "SAXIFRAGE": [
+    "THE COMMON WHITE SAXIFRAGE.",
+    "BURNET SAXIFRAGE."
+   ],
+   "SORREL": [
+    "SORREL.",
+    "WOOD SORREL."
+   ],
+   "THISTLE": [
+    "SOW THISTLE.",
+    "STAR THISTLE.",
+    "THISTLES.",
+    "THE MELANCHOLY THISTLE.",
+    "OUR LADY’S THISTLE.",
+    "THE FULLER’S THISTLE, OR TEASLE."
+   ],
+   "TANSY": [
+    "GARDEN TANSY.",
+    "WILD TANSY, OR SILVER WEED."
+   ],
+   "THYME": [
+    "THYME.",
+    "WILD THYME, OR MOTHER OF THYME."
+   ],
+   "TREFOIL": [
+    "MEADOW TREFOIL, OR HONEYSUCKLES.",
+    "HEART TREFOIL.",
+    "PEARL TREFOIL."
+   ]
+  },
+  "obs": 0.07396662541620268,
+  "null_mean": 0.051114228107848304,
+  "p": 9.999000099990002e-05
+ },
+ "pairs": [
+  [
+   "f36r",
+   "f57r"
+  ],
+  [
+   "f36r",
+   "f5v"
+  ],
+  [
+   "f57r",
+   "f5v"
+  ],
+  [
+   "f66v",
+   "f6r"
+  ],
+  [
+   "f43v",
+   "f7v"
+  ],
+  [
+   "f10r",
+   "f33v"
+  ],
+  [
+   "f10r",
+   "f34r"
+  ],
+  [
+   "f33v",
+   "f34r"
+  ],
+  [
+   "f13v",
+   "f21v"
+  ],
+  [
+   "f13v",
+   "f22v"
+  ],
+  [
+   "f21v",
+   "f22v"
+  ],
+  [
+   "f14v",
+   "f94r"
+  ],
+  [
+   "f15r",
+   "f40v"
+  ],
+  [
+   "f15r",
+   "f41r"
+  ],
+  [
+   "f15r",
+   "f54r"
+  ],
+  [
+   "f40v",
+   "f41r"
+  ],
+  [
+   "f40v",
+   "f54r"
+  ],
+  [
+   "f41r",
+   "f54r"
+  ],
+  [
+   "f16v",
+   "f34v"
+  ],
+  [
+   "f31r",
+   "f48r"
+  ],
+  [
+   "f39v",
+   "f40r"
+  ],
+  [
+   "f90r2",
+   "f95v1"
+  ]
+ ],
+ "obs": [
+  0.013655287522274507,
+  0.0
+ ],
+ "null_mean": [
+  0.014418391641645857,
+  0.0003454545454545452
+ ],
+ "p": [
+  0.6065393460653935,
+  1.0
+ ],
+ "per_plant": {
+  "geranium": [
+   [
+    "f36r",
+    "f57r",
+    0.01,
+    "qorain",
+    "poeeockhey"
+   ],
+   [
+    "f36r",
+    "f5v",
+    0.019,
+    "qorain",
+    "k"
+   ],
+   [
+    "f57r",
+    "f5v",
+    0.0,
+    "poeeockhey",
+    "k"
+   ]
+  ],
+  "aristolochia": [
+   [
+    "f66v",
+    "f6r",
+    0.009,
+    "okeodof",
+    "foar"
+   ]
+  ],
+  "polygonum": [
+   [
+    "f43v",
+    "f7v",
+    0.0,
+    "pdsairy",
+    "polyshy"
+   ]
+  ],
+  "scabiosa": [
+   [
+    "f10r",
+    "f33v",
+    0.0,
+    "pchocthy",
+    "tar"
+   ],
+   [
+    "f10r",
+    "f34r",
+    0.009,
+    "pchocthy",
+    "pcheoepchy"
+   ],
+   [
+    "f33v",
+    "f34r",
+    0.017,
+    "tar",
+    "pcheoepchy"
+   ]
+  ],
+  "sedum": [
+   [
+    "f13v",
+    "f21v",
+    0.0,
+    "koair",
+    "toldshy"
+   ],
+   [
+    "f13v",
+    "f22v",
+    0.016,
+    "koair",
+    "pysaiinor"
+   ],
+   [
+    "f21v",
+    "f22v",
+    0.018,
+    "toldshy",
+    "pysaiinor"
+   ]
+  ],
+  "botrychium": [
+   [
+    "f14v",
+    "f94r",
+    0.025,
+    "pdychoiin",
+    "tchedy"
+   ]
+  ],
+  "carduus": [
+   [
+    "f15r",
+    "f40v",
+    0.011,
+    "tshor",
+    "pchedain"
+   ],
+   [
+    "f15r",
+    "f41r",
+    0.01,
+    "tshor",
+    "pshey"
+   ],
+   [
+    "f15r",
+    "f54r",
+    0.045,
+    "tshor",
+    "podaiin"
+   ],
+   [
+    "f40v",
+    "f41r",
+    0.018,
+    "pchedain",
+    "pshey"
+   ],
+   [
+    "f40v",
+    "f54r",
+    0.01,
+    "pchedain",
+    "podaiin"
+   ],
+   [
+    "f41r",
+    "f54r",
+    0.009,
+    "pshey",
+    "podaiin"
+   ]
+  ],
+  "eryngium": [
+   [
+    "f16v",
+    "f34v",
+    0.011,
+    "pchroiin",
+    "kechdy"
+   ]
+  ],
+  "lychnis": [],
+  "hyoscyamus": [
+   [
+    "f31r",
+    "f48r",
+    0.036,
+    "keedey",
+    "pshdaiin"
+   ]
+  ],
+  "primula": [
+   [
+    "f39v",
+    "f40r",
+    0.028,
+    "pdair",
+    "pchey"
+   ]
+  ],
+  "artemisia": [
+   [
+    "f90r2",
+    "f95v1",
+    0.0,
+    "toealchs",
+    "oekshy"
+   ]
+  ]
+ },
+ "verdict": "NO LINK",
+ "factor": "M x1.4",
+ "locked_test_excluded": [
+  "1",
+  "8",
+  "9",
+  "30",
+  "35",
+  "38",
+  "51",
+  "52",
+  "56",
+  "75",
+  "86",
+  "87",
+  "102",
+  "105",
+  "114"
+ ]
+}

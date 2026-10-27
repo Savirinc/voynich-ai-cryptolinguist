@@ -1,0 +1,16 @@
+[known answer] Culpeper: 328 entries, 47 same-kind pairs; vocabulary overlap 0.0740 vs random 0.0511, p 0.0001
+[VOYNICH] 22 same-plant page pairs (different sheets) from 12 plants
+  vocabulary overlap 0.0137 vs matched random 0.0144 (p 0.6065) | identical first word 0.000 vs 0.000 (p 1.0000)
+  geranium: [('f36r', 'f57r', 0.01, 'qorain', 'poeeockhey'), ('f36r', 'f5v', 0.019, 'qorain', 'k'), ('f57r', 'f5v', 0.0, 'poeeockhey', 'k')]
+  aristolochia: [('f66v', 'f6r', 0.009, 'okeodof', 'foar')]
+  polygonum: [('f43v', 'f7v', 0.0, 'pdsairy', 'polyshy')]
+  scabiosa: [('f10r', 'f33v', 0.0, 'pchocthy', 'tar'), ('f10r', 'f34r', 0.009, 'pchocthy', 'pcheoepchy'), ('f33v', 'f34r', 0.017, 'tar', 'pcheoepchy')]
+  sedum: [('f13v', 'f21v', 0.0, 'koair', 'toldshy'), ('f13v', 'f22v', 0.016, 'koair', 'pysaiinor'), ('f21v', 'f22v', 0.018, 'toldshy', 'pysaiinor')]
+  botrychium: [('f14v', 'f94r', 0.025, 'pdychoiin', 'tchedy')]
+  carduus: [('f15r', 'f40v', 0.011, 'tshor', 'pchedain'), ('f15r', 'f41r', 0.01, 'tshor', 'pshey'), ('f15r', 'f54r', 0.045, 'tshor', 'podaiin'), ('f40v', 'f41r', 0.018, 'pchedain', 'pshey'), ('f40v', 'f54r', 0.01, 'pchedain', 'podaiin'), ('f41r', 'f54r', 0.009, 'pshey', 'podaiin')]
+  eryngium: [('f16v', 'f34v', 0.011, 'pchroiin', 'kechdy')]
+  lychnis: []
+  hyoscyamus: [('f31r', 'f48r', 0.036, 'keedey', 'pshdaiin')]
+  primula: [('f39v', 'f40r', 0.028, 'pdair', 'pchey')]
+  artemisia: [('f90r2', 'f95v1', 0.0, 'toealchs', 'oekshy')]
+VERDICT NO LINK | M x1.4

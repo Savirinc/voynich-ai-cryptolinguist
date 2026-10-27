@@ -561,3 +561,10 @@ pre-registered accounting; to be proposed to Arham.
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-27 | E084 mixed-language sources (`HEBREW_CAMPAIGN.md`; Arham) | Construction VOID (known answer Talmud recovered 0.8%); unscored: all mixtures fit alike (0.455–0.487, meaningless mixture 0.478). Letter attack with 7 mixture models (Talmud, Hebrew+Aramaic, Hebrew+Judeo-Arabic, Hebrew+Latin, Hebrew+Turkish, Latin+German, Latin+Turkish): all VALIDATED, NO CLAIM on A and B | none | 0.0739 | 0.8938 | 0.0281 | 0.0041 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-27 | E085 same-plant herbal pages share words? (`SAME_PLANT_PAGES.md`; Arham, picture-crib road) | Known answer: Culpeper same-kind entries 0.074 vs 0.051 (p 0.0001). Voynich: 22 same-plant pairs (voynich.nu early IDs, 12 plants) 0.0137 vs matched random 0.0144 (p 0.61); 0 shared first words. NO LINK | **M × 1.4** | 0.1005 | 0.8682 | 0.0273 | 0.004 |
+
+**After E085.** Pages drawn as the same plant do not share words; the picture-crib road is closed with the existing
+identifications.
