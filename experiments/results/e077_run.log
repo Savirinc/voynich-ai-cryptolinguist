@@ -1,0 +1,7 @@
+[known answer] Latin names: 4361 types, 32895 tokens | normal rates names {'front': 0.5488, 'ending': 0.5791, 'bridge': 0.0753} rare words {'front': 0.595, 'ending': 0.921, 'bridge': 0.4706}
+  excess oddness {'front': 0.0462, 'ending': 0.3419, 'bridge': 0.3953} | z bridge +126.06 ending +108.10 bridge-minus-ending +12.51 -> NAME-LIKE (odd in the bridge)
+  examples [('phison', ('p', 'hison', '')), ('hevilath', ('', 'hevilath', '')), ('gehon', ('', 'gehon', '')), ('æthiopiæ', ('', 'æthiopiæ', '')), ('tigris', ('', 'tigr', 'is')), ('assyrios', ('a', 'ssyrio', 's')), ('euphrates', ('e', 'uphrat', 'es')), ('adam', ('a', 'da', 'm')), ('adam', ('a', 'da', 'm')), ('adam', ('a', 'da', 'm'))]
+[VOYNICH] labels 1081 tokens | normal rates labels {'front': 0.8252, 'ending': 0.8723, 'bridge': 0.7169} rare prose words {'front': 0.6346, 'ending': 0.8409, 'bridge': 0.6938}
+  excess oddness {'front': -0.1906, 'ending': -0.0315, 'bridge': -0.0231} | z bridge -1.15 ending -2.13 bridge-minus-ending +0.32 -> NOT ODD
+  examples [('ytoail', ('y', 'toai', 'l')), ('ios', ('', 'io', 's')), ('an', ('', 'a', 'n')), ('on', ('o', 'n', '')), ('dd', ('d', 'd', '')), ('oteeeon', ('o', 'teeeo', 'n')), ('oiil', ('o', 'ii', 'l')), ('keeredal', ('', 'keered', 'al')), ('f', ('', 'f', '')), ('o', ('', 'o', '')), ('r', ('', 'r', '')), ('y', ('', 'y', ''))]
+VERDICT NOT ODD (known answer passed)

@@ -1,0 +1,390 @@
+{
+ "experiment": "E077",
+ "latin_names": {
+  "n": 32895,
+  "target_normal": {
+   "front": 0.5488,
+   "ending": 0.5791,
+   "bridge": 0.0753
+  },
+  "control_normal": {
+   "front": 0.595,
+   "ending": 0.921,
+   "bridge": 0.4706
+  },
+  "excess": {
+   "front": 0.0462,
+   "ending": 0.3419,
+   "bridge": 0.3953
+  },
+  "z_bridge": 126.0629767704323,
+  "z_ending": 108.09657096245459,
+  "z_bridge_minus_ending": 12.507089056685357,
+  "lists": {
+   "front": [
+    "c",
+    "p",
+    "s",
+    "a",
+    "co",
+    "d",
+    "i",
+    "e",
+    "in",
+    "m"
+   ],
+   "ending": [
+    "s",
+    "t",
+    "m",
+    "e",
+    "is",
+    "i",
+    "nt",
+    "r",
+    "us",
+    "um",
+    "ur",
+    "tur",
+    "a",
+    "it",
+    "o",
+    "es",
+    "tis",
+    "ue",
+    "que",
+    "em"
+   ]
+  },
+  "examples": [
+   [
+    "phison",
+    [
+     "p",
+     "hison",
+     ""
+    ]
+   ],
+   [
+    "hevilath",
+    [
+     "",
+     "hevilath",
+     ""
+    ]
+   ],
+   [
+    "gehon",
+    [
+     "",
+     "gehon",
+     ""
+    ]
+   ],
+   [
+    "æthiopiæ",
+    [
+     "",
+     "æthiopiæ",
+     ""
+    ]
+   ],
+   [
+    "tigris",
+    [
+     "",
+     "tigr",
+     "is"
+    ]
+   ],
+   [
+    "assyrios",
+    [
+     "a",
+     "ssyrio",
+     "s"
+    ]
+   ],
+   [
+    "euphrates",
+    [
+     "e",
+     "uphrat",
+     "es"
+    ]
+   ],
+   [
+    "adam",
+    [
+     "a",
+     "da",
+     "m"
+    ]
+   ],
+   [
+    "adam",
+    [
+     "a",
+     "da",
+     "m"
+    ]
+   ],
+   [
+    "adam",
+    [
+     "a",
+     "da",
+     "m"
+    ]
+   ],
+   [
+    "adæ",
+    [
+     "a",
+     "dæ",
+     ""
+    ]
+   ],
+   [
+    "adam",
+    [
+     "a",
+     "da",
+     "m"
+    ]
+   ],
+   [
+    "adam",
+    [
+     "a",
+     "da",
+     "m"
+    ]
+   ],
+   [
+    "adam",
+    [
+     "a",
+     "da",
+     "m"
+    ]
+   ],
+   [
+    "adam",
+    [
+     "a",
+     "da",
+     "m"
+    ]
+   ]
+  ],
+  "name_types": 4361
+ },
+ "voynich_labels": {
+  "n": 1081,
+  "target_normal": {
+   "front": 0.8252,
+   "ending": 0.8723,
+   "bridge": 0.7169
+  },
+  "control_normal": {
+   "front": 0.6346,
+   "ending": 0.8409,
+   "bridge": 0.6938
+  },
+  "excess": {
+   "front": -0.1906,
+   "ending": -0.0315,
+   "bridge": -0.0231
+  },
+  "z_bridge": -1.1522195340052057,
+  "z_ending": -2.1323207533399215,
+  "z_bridge_minus_ending": 0.3246178974995296,
+  "lists": {
+   "front": [
+    "o",
+    "c",
+    "ch",
+    "q",
+    "s",
+    "qo",
+    "sh",
+    "d",
+    "y",
+    "che"
+   ],
+   "ending": [
+    "y",
+    "r",
+    "dy",
+    "n",
+    "l",
+    "in",
+    "ey",
+    "iin",
+    "hy",
+    "ar",
+    "aiin",
+    "ol",
+    "edy",
+    "s",
+    "or",
+    "al",
+    "m",
+    "d",
+    "o",
+    "hey"
+   ]
+  },
+  "examples": [
+   [
+    "ytoail",
+    [
+     "y",
+     "toai",
+     "l"
+    ]
+   ],
+   [
+    "ios",
+    [
+     "",
+     "io",
+     "s"
+    ]
+   ],
+   [
+    "an",
+    [
+     "",
+     "a",
+     "n"
+    ]
+   ],
+   [
+    "on",
+    [
+     "o",
+     "n",
+     ""
+    ]
+   ],
+   [
+    "dd",
+    [
+     "d",
+     "d",
+     ""
+    ]
+   ],
+   [
+    "oteeeon",
+    [
+     "o",
+     "teeeo",
+     "n"
+    ]
+   ],
+   [
+    "oiil",
+    [
+     "o",
+     "ii",
+     "l"
+    ]
+   ],
+   [
+    "keeredal",
+    [
+     "",
+     "keered",
+     "al"
+    ]
+   ],
+   [
+    "f",
+    [
+     "",
+     "f",
+     ""
+    ]
+   ],
+   [
+    "o",
+    [
+     "",
+     "o",
+     ""
+    ]
+   ],
+   [
+    "r",
+    [
+     "",
+     "r",
+     ""
+    ]
+   ],
+   [
+    "y",
+    [
+     "",
+     "y",
+     ""
+    ]
+   ],
+   [
+    "e",
+    [
+     "",
+     "e",
+     ""
+    ]
+   ],
+   [
+    "k",
+    [
+     "",
+     "k",
+     ""
+    ]
+   ],
+   [
+    "s",
+    [
+     "",
+     "s",
+     ""
+    ]
+   ]
+  ]
+ },
+ "locked_test_excluded": [
+  "1",
+  "8",
+  "9",
+  "30",
+  "35",
+  "38",
+  "51",
+  "52",
+  "56",
+  "75",
+  "86",
+  "87",
+  "102",
+  "105",
+  "114"
+ ],
+ "label_sections": {
+  "H": 31,
+  "C": 205,
+  "T": 62,
+  "A": 148,
+  "Z": 341,
+  "B": 90,
+  "P": 204
+ },
+ "validated": true,
+ "verdict": "NOT ODD"
+}

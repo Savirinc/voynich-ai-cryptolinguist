@@ -518,3 +518,7 @@ neighbouring endings), more regularly than any language tested, and almost exact
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-27 | E076 light (antonym/synonym-type) vs heavy (grammar) pieces; closeness to languages (`LIGHT_HEAVY_PIECES.md`; Arham; generator left out) | VALID (English un- 0.91, German un- 0.92 light). Voynich 117 swaps: light 62%, medium 21%, heavy 17%, consistent 81%. Light: d-/s-/y-, -l/-r, -ol/-or, -iin/-in, -dy/-edy. Closest profiles Assamese, Uyghur, Tamil, Panjabi, German; Hebrew, Arabic, Persian mid-table; Latin and Romance far. Noisy (languages 10–50 swaps) | none (no generator) | 0.0739 | 0.8938 | 0.0281 | 0.0041 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-27 | E077 are labels odd in the bridge, as names are? (`LABEL_ODDNESS.md`; Arham option 3) | Known answer passed: Latin names' bridges known 0.08 vs rare words 0.47 (NAME-LIKE, z +126). Voynich labels vs length-matched rare prose words: bridge known 0.72 vs 0.69, ending 0.87 vs 0.84, front 0.83 vs 0.63: NOT ODD. Labels are built from native pieces; no sign of foreign names | none (descriptive) | 0.0739 | 0.8938 | 0.0281 | 0.0041 |
