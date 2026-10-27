@@ -1,0 +1,11878 @@
+{
+ "experiment": "E075",
+ "locked_test_excluded": [
+  "1",
+  "8",
+  "9",
+  "30",
+  "35",
+  "38",
+  "51",
+  "52",
+  "56",
+  "75",
+  "86",
+  "87",
+  "102",
+  "105",
+  "114"
+ ],
+ "texts": {
+  "VOYNICH": {
+   "kit": {
+    "front": [
+     "",
+     "o",
+     "c",
+     "ch",
+     "q",
+     "s",
+     "qo",
+     "sh",
+     "d",
+     "y"
+    ],
+    "ending": [
+     "",
+     "y",
+     "r",
+     "dy",
+     "n",
+     "l",
+     "in",
+     "ey",
+     "iin",
+     "hy",
+     "ar",
+     "aiin",
+     "ol",
+     "edy",
+     "s",
+     "or",
+     "al",
+     "m",
+     "d",
+     "o"
+    ]
+   },
+   "eligible": 117,
+   "consistent": 93,
+   "share": 0.7948717948717948,
+   "median_z": 4.760000403936356,
+   "pairs": {
+    "ending:dy>y": {
+     "cores": 88,
+     "C": 0.38427889547023886,
+     "z": 11.42277961833047,
+     "shift": [
+      [
+       "next-end:edy",
+       -0.148
+      ],
+      [
+       "prev-end:edy",
+       -0.111
+      ],
+      [
+       "next-front:qo",
+       -0.108
+      ],
+      [
+       "next-front:",
+       0.105
+      ]
+     ],
+     "examples": [
+      [
+       "aldy",
+       "aly"
+      ],
+      [
+       "chckhdy",
+       "chckhy"
+      ],
+      [
+       "chckhedy",
+       "chckhey"
+      ],
+      [
+       "chcthedy",
+       "chcthey"
+      ],
+      [
+       "chdy",
+       "chy"
+      ],
+      [
+       "chedy",
+       "chey"
+      ]
+     ]
+    },
+    "ending:dy>ey": {
+     "cores": 51,
+     "C": 0.447352752973961,
+     "z": 8.47925054166417,
+     "shift": [
+      [
+       "next-end:edy",
+       -0.159
+      ],
+      [
+       "prev-end:edy",
+       -0.138
+      ],
+      [
+       "prev-end:ey",
+       0.12
+      ],
+      [
+       "next-end:ey",
+       0.113
+      ]
+     ],
+     "examples": [
+      [
+       "chckhdy",
+       "chckhey"
+      ],
+      [
+       "chdy",
+       "chey"
+      ],
+      [
+       "chedy",
+       "cheey"
+      ],
+      [
+       "cheedy",
+       "cheeey"
+      ],
+      [
+       "chkedy",
+       "chkeey"
+      ],
+      [
+       "cthdy",
+       "cthey"
+      ]
+     ]
+    },
+    "ending:dy>ol": {
+     "cores": 44,
+     "C": 0.4554065446253967,
+     "z": 7.884044549579778,
+     "shift": [
+      [
+       "prev-end:edy",
+       -0.166
+      ],
+      [
+       "next-front:qo",
+       -0.147
+      ],
+      [
+       "next-end:edy",
+       -0.142
+      ],
+      [
+       "next-front:ch",
+       0.091
+      ]
+     ],
+     "examples": [
+      [
+       "aldy",
+       "alol"
+      ],
+      [
+       "chdy",
+       "chol"
+      ],
+      [
+       "chedy",
+       "cheol"
+      ],
+      [
+       "cheedy",
+       "cheeol"
+      ],
+      [
+       "cthdy",
+       "cthol"
+      ],
+      [
+       "cthedy",
+       "ctheol"
+      ]
+     ]
+    },
+    "ending:dy>edy": {
+     "cores": 38,
+     "C": 0.20637075518383707,
+     "z": 4.5004130328328245,
+     "shift": [
+      [
+       "next-front:qo",
+       0.074
+      ],
+      [
+       "prev-front:o",
+       -0.054
+      ],
+      [
+       "next-front:d",
+       -0.052
+      ],
+      [
+       "prev-end:dy",
+       -0.048
+      ]
+     ],
+     "examples": [
+      [
+       "chckhdy",
+       "chckhedy"
+      ],
+      [
+       "chdy",
+       "chedy"
+      ],
+      [
+       "chedy",
+       "cheedy"
+      ],
+      [
+       "cthdy",
+       "cthedy"
+      ],
+      [
+       "dchdy",
+       "dchedy"
+      ],
+      [
+       "dshedy",
+       "dsheedy"
+      ]
+     ]
+    },
+    "ending:dy>or": {
+     "cores": 30,
+     "C": 0.4943023108429861,
+     "z": 6.083618766397245,
+     "shift": [
+      [
+       "next-front:qo",
+       -0.199
+      ],
+      [
+       "next-front:ch",
+       0.16
+      ],
+      [
+       "prev-end:edy",
+       -0.145
+      ],
+      [
+       "next-end:edy",
+       -0.144
+      ]
+     ],
+     "examples": [
+      [
+       "aldy",
+       "alor"
+      ],
+      [
+       "chdy",
+       "chor"
+      ],
+      [
+       "chedy",
+       "cheor"
+      ],
+      [
+       "cheedy",
+       "cheeor"
+      ],
+      [
+       "choldy",
+       "cholor"
+      ],
+      [
+       "cthdy",
+       "cthor"
+      ]
+     ]
+    },
+    "ending:dy>o": {
+     "cores": 25,
+     "C": 0.6579419504901058,
+     "z": 5.59352558948758,
+     "shift": [
+      [
+       "next-front:",
+       0.438
+      ],
+      [
+       "next-front:qo",
+       -0.276
+      ],
+      [
+       "next-end:edy",
+       -0.195
+      ],
+      [
+       "next-end:",
+       0.184
+      ]
+     ],
+     "examples": [
+      [
+       "chdy",
+       "cho"
+      ],
+      [
+       "chedy",
+       "cheo"
+      ],
+      [
+       "cheedy",
+       "cheeo"
+      ],
+      [
+       "cthdy",
+       "ctho"
+      ],
+      [
+       "kchdy",
+       "kcho"
+      ],
+      [
+       "kedy",
+       "keo"
+      ]
+     ]
+    },
+    "front:->q": {
+     "cores": 86,
+     "C": 0.3917518898357699,
+     "z": 11.3150566792819,
+     "shift": [
+      [
+       "prev-end:edy",
+       0.15
+      ],
+      [
+       "prev-front:sh",
+       0.096
+      ],
+      [
+       "prev-front:",
+       -0.077
+      ],
+      [
+       "prev-front:o",
+       -0.065
+      ]
+     ],
+     "examples": [
+      [
+       "o",
+       "qo"
+      ],
+      [
+       "oaiin",
+       "qoaiin"
+      ],
+      [
+       "oar",
+       "qoar"
+      ],
+      [
+       "ockhey",
+       "qockhey"
+      ],
+      [
+       "ockhy",
+       "qockhy"
+      ],
+      [
+       "octhy",
+       "qocthy"
+      ]
+     ]
+    },
+    "front:o>qo": {
+     "cores": 85,
+     "C": 0.38924151771039855,
+     "z": 12.116767776228889,
+     "shift": [
+      [
+       "prev-end:edy",
+       0.149
+      ],
+      [
+       "prev-front:sh",
+       0.096
+      ],
+      [
+       "prev-front:",
+       -0.076
+      ],
+      [
+       "prev-front:o",
+       -0.065
+      ]
+     ],
+     "examples": [
+      [
+       "oaiin",
+       "qoaiin"
+      ],
+      [
+       "oar",
+       "qoar"
+      ],
+      [
+       "ockhey",
+       "qockhey"
+      ],
+      [
+       "ockhy",
+       "qockhy"
+      ],
+      [
+       "octhy",
+       "qocthy"
+      ],
+      [
+       "od",
+       "qod"
+      ]
+     ]
+    },
+    "front:o>y": {
+     "cores": 48,
+     "C": 0.3155153837635211,
+     "z": 7.342747726013668,
+     "shift": [
+      [
+       "prev-end:#",
+       0.145
+      ],
+      [
+       "prev-front:#",
+       0.145
+      ],
+      [
+       "prev-front:",
+       -0.074
+      ],
+      [
+       "prev-front:o",
+       -0.071
+      ]
+     ],
+     "examples": [
+      [
+       "ochedy",
+       "ychedy"
+      ],
+      [
+       "odaiin",
+       "ydaiin"
+      ],
+      [
+       "ody",
+       "ydy"
+      ],
+      [
+       "ok",
+       "yk"
+      ],
+      [
+       "okaiin",
+       "ykaiin"
+      ],
+      [
+       "okain",
+       "ykain"
+      ]
+     ]
+    },
+    "front:->y": {
+     "cores": 57,
+     "C": 0.35523390495123036,
+     "z": 5.527675531899982,
+     "shift": [
+      [
+       "prev-end:#",
+       0.223
+      ],
+      [
+       "prev-front:#",
+       0.223
+      ],
+      [
+       "prev-front:",
+       -0.112
+      ],
+      [
+       "prev-end:ol",
+       -0.092
+      ]
+     ],
+     "examples": [
+      [
+       "chedy",
+       "ychedy"
+      ],
+      [
+       "cheedy",
+       "ycheedy"
+      ],
+      [
+       "cheeo",
+       "ycheeo"
+      ],
+      [
+       "cheey",
+       "ycheey"
+      ],
+      [
+       "cheo",
+       "ycheo"
+      ],
+      [
+       "cheol",
+       "ycheol"
+      ]
+     ]
+    },
+    "front:c>s": {
+     "cores": 58,
+     "C": 0.2878877707189241,
+     "z": 8.161327724722543,
+     "shift": [
+      [
+       "next-front:qo",
+       0.118
+      ],
+      [
+       "next-front:ch",
+       -0.061
+      ],
+      [
+       "prev-front:ch",
+       -0.058
+      ],
+      [
+       "next-front:",
+       -0.056
+      ]
+     ],
+     "examples": [
+      [
+       "ch",
+       "sh"
+      ],
+      [
+       "chaiin",
+       "shaiin"
+      ],
+      [
+       "chain",
+       "shain"
+      ],
+      [
+       "chal",
+       "shal"
+      ],
+      [
+       "cham",
+       "sham"
+      ],
+      [
+       "chan",
+       "shan"
+      ]
+     ]
+    },
+    "front:ch>qo": {
+     "cores": 30,
+     "C": 0.37152310002152883,
+     "z": 6.78944918143094,
+     "shift": [
+      [
+       "prev-end:ey",
+       0.143
+      ],
+      [
+       "prev-front:sh",
+       0.11
+      ],
+      [
+       "prev-end:edy",
+       0.108
+      ],
+      [
+       "prev-end:aiin",
+       -0.091
+      ]
+     ],
+     "examples": [
+      [
+       "chaiin",
+       "qoaiin"
+      ],
+      [
+       "char",
+       "qoar"
+      ],
+      [
+       "chckhey",
+       "qockhey"
+      ],
+      [
+       "chckhy",
+       "qockhy"
+      ],
+      [
+       "chcthy",
+       "qocthy"
+      ],
+      [
+       "chd",
+       "qod"
+      ]
+     ]
+    },
+    "front:ch>sh": {
+     "cores": 57,
+     "C": 0.29294996488667774,
+     "z": 8.196546623867487,
+     "shift": [
+      [
+       "next-front:qo",
+       0.118
+      ],
+      [
+       "next-front:ch",
+       -0.063
+      ],
+      [
+       "prev-front:ch",
+       -0.061
+      ],
+      [
+       "next-front:",
+       -0.054
+      ]
+     ],
+     "examples": [
+      [
+       "chaiin",
+       "shaiin"
+      ],
+      [
+       "chain",
+       "shain"
+      ],
+      [
+       "chal",
+       "shal"
+      ],
+      [
+       "cham",
+       "sham"
+      ],
+      [
+       "chan",
+       "shan"
+      ],
+      [
+       "char",
+       "shar"
+      ]
+     ]
+    },
+    "ending:dy>s": {
+     "cores": 19,
+     "C": 0.46464967796641493,
+     "z": 5.17627300770528,
+     "shift": [
+      [
+       "next-front:",
+       0.263
+      ],
+      [
+       "next-front:qo",
+       -0.192
+      ],
+      [
+       "next-end:iin",
+       0.138
+      ],
+      [
+       "next-end:edy",
+       -0.128
+      ]
+     ],
+     "examples": [
+      [
+       "aldy",
+       "als"
+      ],
+      [
+       "chdy",
+       "chs"
+      ],
+      [
+       "chedy",
+       "ches"
+      ],
+      [
+       "cheedy",
+       "chees"
+      ],
+      [
+       "cheeody",
+       "cheeos"
+      ],
+      [
+       "cheody",
+       "cheos"
+      ]
+     ]
+    },
+    "ending:edy>y": {
+     "cores": 52,
+     "C": 0.4591095120447308,
+     "z": 8.297211107852805,
+     "shift": [
+      [
+       "next-end:edy",
+       -0.189
+      ],
+      [
+       "next-front:qo",
+       -0.174
+      ],
+      [
+       "prev-end:edy",
+       -0.155
+      ],
+      [
+       "prev-end:hy",
+       0.071
+      ]
+     ],
+     "examples": [
+      [
+       "chckhedy",
+       "chckhy"
+      ],
+      [
+       "chcthedy",
+       "chcthy"
+      ],
+      [
+       "chedy",
+       "chy"
+      ],
+      [
+       "cheedy",
+       "chey"
+      ],
+      [
+       "chekedy",
+       "cheky"
+      ],
+      [
+       "chkedy",
+       "chky"
+      ]
+     ]
+    },
+    "ending:edy>ey": {
+     "cores": 62,
+     "C": 0.4411157448931469,
+     "z": 9.839115293297276,
+     "shift": [
+      [
+       "next-end:edy",
+       -0.172
+      ],
+      [
+       "prev-end:edy",
+       -0.13
+      ],
+      [
+       "next-front:qo",
+       -0.128
+      ],
+      [
+       "next-front:",
+       0.113
+      ]
+     ],
+     "examples": [
+      [
+       "chckhedy",
+       "chckhey"
+      ],
+      [
+       "chcthedy",
+       "chcthey"
+      ],
+      [
+       "chedy",
+       "chey"
+      ],
+      [
+       "cheedy",
+       "cheey"
+      ],
+      [
+       "chekedy",
+       "chekey"
+      ],
+      [
+       "chkedy",
+       "chkey"
+      ]
+     ]
+    },
+    "ending:edy>ol": {
+     "cores": 40,
+     "C": 0.5339190246725563,
+     "z": 7.624339052660708,
+     "shift": [
+      [
+       "next-front:qo",
+       -0.249
+      ],
+      [
+       "next-end:edy",
+       -0.187
+      ],
+      [
+       "prev-end:edy",
+       -0.154
+      ],
+      [
+       "next-end:ol",
+       0.103
+      ]
+     ],
+     "examples": [
+      [
+       "chedy",
+       "chol"
+      ],
+      [
+       "cheedy",
+       "cheol"
+      ],
+      [
+       "cphedy",
+       "cphol"
+      ],
+      [
+       "cthedy",
+       "cthol"
+      ],
+      [
+       "dchedy",
+       "dchol"
+      ],
+      [
+       "dsheedy",
+       "dsheol"
+      ]
+     ]
+    },
+    "ending:edy>or": {
+     "cores": 32,
+     "C": 0.5563814552564559,
+     "z": 6.131533077898562,
+     "shift": [
+      [
+       "next-front:qo",
+       -0.27
+      ],
+      [
+       "next-end:edy",
+       -0.23
+      ],
+      [
+       "prev-end:edy",
+       -0.157
+      ],
+      [
+       "prev-end:#",
+       0.125
+      ]
+     ],
+     "examples": [
+      [
+       "chedy",
+       "chor"
+      ],
+      [
+       "cheedy",
+       "cheor"
+      ],
+      [
+       "cphedy",
+       "cphor"
+      ],
+      [
+       "cthedy",
+       "cthor"
+      ],
+      [
+       "dchedy",
+       "dchor"
+      ],
+      [
+       "dshedy",
+       "dshor"
+      ]
+     ]
+    },
+    "ending:edy>o": {
+     "cores": 21,
+     "C": 0.6210025507916639,
+     "z": 4.950132484135386,
+     "shift": [
+      [
+       "next-front:",
+       0.404
+      ],
+      [
+       "next-front:qo",
+       -0.331
+      ],
+      [
+       "next-end:edy",
+       -0.228
+      ],
+      [
+       "next-end:",
+       0.2
+      ]
+     ],
+     "examples": [
+      [
+       "chedy",
+       "cho"
+      ],
+      [
+       "cheedy",
+       "cheo"
+      ],
+      [
+       "cthedy",
+       "ctho"
+      ],
+      [
+       "dshedy",
+       "dsho"
+      ],
+      [
+       "kchedy",
+       "kcho"
+      ],
+      [
+       "keedy",
+       "keo"
+      ]
+     ]
+    },
+    "front:->ch": {
+     "cores": 67,
+     "C": 0.19623105984172173,
+     "z": 5.982725351138565,
+     "shift": [
+      [
+       "prev-front:qo",
+       0.076
+      ],
+      [
+       "prev-front:",
+       -0.067
+      ],
+      [
+       "next-front:#",
+       -0.053
+      ],
+      [
+       "next-end:#",
+       -0.053
+      ]
+     ],
+     "examples": [
+      [
+       "aiin",
+       "chaiin"
+      ],
+      [
+       "ain",
+       "chain"
+      ],
+      [
+       "al",
+       "chal"
+      ],
+      [
+       "aly",
+       "chaly"
+      ],
+      [
+       "am",
+       "cham"
+      ],
+      [
+       "ar",
+       "char"
+      ]
+     ]
+    },
+    "front:q>sh": {
+     "cores": 10,
+     "C": 0.26148523584278877,
+     "z": 3.130706124441184,
+     "shift": [
+      [
+       "prev-end:ey",
+       -0.181
+      ],
+      [
+       "prev-end:edy",
+       -0.12
+      ],
+      [
+       "prev-front:qo",
+       -0.091
+      ],
+      [
+       "prev-end:ol",
+       0.091
+      ]
+     ],
+     "examples": [
+      [
+       "qo",
+       "sho"
+      ],
+      [
+       "qocthy",
+       "shocthy"
+      ],
+      [
+       "qod",
+       "shod"
+      ],
+      [
+       "qodaiin",
+       "shodaiin"
+      ],
+      [
+       "qody",
+       "shody"
+      ],
+      [
+       "qokchy",
+       "shokchy"
+      ]
+     ]
+    },
+    "ending:->y": {
+     "cores": 52,
+     "C": 0.288710868361611,
+     "z": 5.3235265448025775,
+     "shift": [
+      [
+       "next-end:#",
+       0.166
+      ],
+      [
+       "next-front:#",
+       0.166
+      ],
+      [
+       "next-front:",
+       -0.104
+      ],
+      [
+       "next-front:ch",
+       -0.07
+      ]
+     ],
+     "examples": [
+      [
+       "al",
+       "aly"
+      ],
+      [
+       "ar",
+       "ary"
+      ],
+      [
+       "ch",
+       "chy"
+      ],
+      [
+       "chal",
+       "chaly"
+      ],
+      [
+       "chd",
+       "chdy"
+      ],
+      [
+       "ched",
+       "chedy"
+      ]
+     ]
+    },
+    "ending:->r": {
+     "cores": 29,
+     "C": 0.4284863998979736,
+     "z": 5.664150670445241,
+     "shift": [
+      [
+       "next-front:",
+       -0.32
+      ],
+      [
+       "next-end:",
+       -0.141
+      ],
+      [
+       "next-front:o",
+       0.137
+      ],
+      [
+       "next-front:ch",
+       0.111
+      ]
+     ],
+     "examples": [
+      [
+       "a",
+       "ar"
+      ],
+      [
+       "ch",
+       "chr"
+      ],
+      [
+       "cheeo",
+       "cheeor"
+      ],
+      [
+       "cheo",
+       "cheor"
+      ],
+      [
+       "cho",
+       "chor"
+      ],
+      [
+       "ctho",
+       "cthor"
+      ]
+     ]
+    },
+    "ending:->dy": {
+     "cores": 30,
+     "C": 0.5082798630671136,
+     "z": 6.2012141170015935,
+     "shift": [
+      [
+       "next-front:",
+       -0.317
+      ],
+      [
+       "next-end:#",
+       0.183
+      ],
+      [
+       "next-front:#",
+       0.183
+      ],
+      [
+       "next-front:qo",
+       0.142
+      ]
+     ],
+     "examples": [
+      [
+       "al",
+       "aldy"
+      ],
+      [
+       "ch",
+       "chdy"
+      ],
+      [
+       "cheeo",
+       "cheeody"
+      ],
+      [
+       "cheo",
+       "cheody"
+      ],
+      [
+       "cho",
+       "chody"
+      ],
+      [
+       "chol",
+       "choldy"
+      ]
+     ]
+    },
+    "ending:->l": {
+     "cores": 34,
+     "C": 0.38543985147630844,
+     "z": 6.036515550195338,
+     "shift": [
+      [
+       "next-front:",
+       -0.279
+      ],
+      [
+       "next-end:",
+       -0.132
+      ],
+      [
+       "next-front:o",
+       0.089
+      ],
+      [
+       "next-end:edy",
+       0.086
+      ]
+     ],
+     "examples": [
+      [
+       "a",
+       "al"
+      ],
+      [
+       "ch",
+       "chl"
+      ],
+      [
+       "cheeo",
+       "cheeol"
+      ],
+      [
+       "cheo",
+       "cheol"
+      ],
+      [
+       "cho",
+       "chol"
+      ],
+      [
+       "ctho",
+       "cthol"
+      ]
+     ]
+    },
+    "ending:->ar": {
+     "cores": 28,
+     "C": 0.046236404508550155,
+     "z": 0.9080073619529654,
+     "shift": [
+      [
+       "next-front:o",
+       0.066
+      ],
+      [
+       "next-end:",
+       -0.065
+      ],
+      [
+       "next-front:",
+       -0.055
+      ],
+      [
+       "prev-front:o",
+       -0.049
+      ]
+     ],
+     "examples": [
+      [
+       "ch",
+       "char"
+      ],
+      [
+       "chd",
+       "chdar"
+      ],
+      [
+       "ched",
+       "chedar"
+      ],
+      [
+       "chod",
+       "chodar"
+      ],
+      [
+       "d",
+       "dar"
+      ],
+      [
+       "dal",
+       "dalar"
+      ]
+     ]
+    },
+    "ending:->aiin": {
+     "cores": 29,
+     "C": 0.2848248449497999,
+     "z": 4.752648347234475,
+     "shift": [
+      [
+       "next-front:",
+       -0.225
+      ],
+      [
+       "next-front:o",
+       0.126
+      ],
+      [
+       "prev-front:o",
+       -0.052
+      ],
+      [
+       "prev-end:edy",
+       0.052
+      ]
+     ],
+     "examples": [
+      [
+       "al",
+       "alaiin"
+      ],
+      [
+       "ar",
+       "araiin"
+      ],
+      [
+       "ch",
+       "chaiin"
+      ],
+      [
+       "chd",
+       "chdaiin"
+      ],
+      [
+       "ched",
+       "chedaiin"
+      ],
+      [
+       "chod",
+       "chodaiin"
+      ]
+     ]
+    },
+    "ending:->or": {
+     "cores": 23,
+     "C": 0.13559915986517138,
+     "z": 2.0847501954743666,
+     "shift": [
+      [
+       "next-front:",
+       -0.114
+      ],
+      [
+       "next-front:sh",
+       0.078
+      ],
+      [
+       "prev-end:",
+       -0.078
+      ],
+      [
+       "prev-end:#",
+       0.075
+      ]
+     ],
+     "examples": [
+      [
+       "al",
+       "alor"
+      ],
+      [
+       "ar",
+       "aror"
+      ],
+      [
+       "ch",
+       "chor"
+      ],
+      [
+       "chd",
+       "chdor"
+      ],
+      [
+       "chol",
+       "cholor"
+      ],
+      [
+       "d",
+       "dor"
+      ]
+     ]
+    },
+    "ending:->d": {
+     "cores": 10,
+     "C": 0.40525298730748716,
+     "z": 3.719907915571938,
+     "shift": [
+      [
+       "next-front:",
+       -0.351
+      ],
+      [
+       "next-front:qo",
+       0.179
+      ],
+      [
+       "next-end:#",
+       0.155
+      ],
+      [
+       "next-front:#",
+       0.155
+      ]
+     ],
+     "examples": [
+      [
+       "ch",
+       "chd"
+      ],
+      [
+       "cho",
+       "chod"
+      ],
+      [
+       "o",
+       "od"
+      ],
+      [
+       "qo",
+       "qod"
+      ],
+      [
+       "qokcho",
+       "qokchod"
+      ],
+      [
+       "sh",
+       "shd"
+      ]
+     ]
+    },
+    "ending:o>ol": {
+     "cores": 28,
+     "C": 0.41005791141993925,
+     "z": 5.484905859806611,
+     "shift": [
+      [
+       "next-front:",
+       -0.301
+      ],
+      [
+       "next-end:",
+       -0.151
+      ],
+      [
+       "next-front:o",
+       0.109
+      ],
+      [
+       "next-end:edy",
+       0.086
+      ]
+     ],
+     "examples": [
+      [
+       "cheeo",
+       "cheeol"
+      ],
+      [
+       "cheo",
+       "cheol"
+      ],
+      [
+       "cho",
+       "chol"
+      ],
+      [
+       "ctho",
+       "cthol"
+      ],
+      [
+       "do",
+       "dol"
+      ],
+      [
+       "kcho",
+       "kchol"
+      ]
+     ]
+    },
+    "ending:o>or": {
+     "cores": 24,
+     "C": 0.451240013071329,
+     "z": 5.441077033972619,
+     "shift": [
+      [
+       "next-front:",
+       -0.343
+      ],
+      [
+       "next-front:o",
+       0.159
+      ],
+      [
+       "next-end:",
+       -0.149
+      ],
+      [
+       "next-front:ch",
+       0.111
+      ]
+     ],
+     "examples": [
+      [
+       "cheeo",
+       "cheeor"
+      ],
+      [
+       "cheo",
+       "cheor"
+      ],
+      [
+       "cho",
+       "chor"
+      ],
+      [
+       "ctho",
+       "cthor"
+      ],
+      [
+       "do",
+       "dor"
+      ],
+      [
+       "dsho",
+       "dshor"
+      ]
+     ]
+    },
+    "front:d>s": {
+     "cores": 14,
+     "C": 0.49191146660848667,
+     "z": 4.019549546201611,
+     "shift": [
+      [
+       "prev-end:#",
+       0.222
+      ],
+      [
+       "prev-front:#",
+       0.222
+      ],
+      [
+       "prev-front:d",
+       -0.097
+      ],
+      [
+       "next-front:d",
+       -0.072
+      ]
+     ],
+     "examples": [
+      [
+       "daiin",
+       "saiin"
+      ],
+      [
+       "dain",
+       "sain"
+      ],
+      [
+       "dair",
+       "sair"
+      ],
+      [
+       "dal",
+       "sal"
+      ],
+      [
+       "dam",
+       "sam"
+      ],
+      [
+       "dar",
+       "sar"
+      ]
+     ]
+    },
+    "front:d>sh": {
+     "cores": 12,
+     "C": 0.3224974674653058,
+     "z": 3.6499119869209102,
+     "shift": [
+      [
+       "next-front:qo",
+       0.131
+      ],
+      [
+       "next-end:#",
+       -0.088
+      ],
+      [
+       "next-front:#",
+       -0.088
+      ],
+      [
+       "prev-end:ey",
+       -0.076
+      ]
+     ],
+     "examples": [
+      [
+       "daiin",
+       "shaiin"
+      ],
+      [
+       "dain",
+       "shain"
+      ],
+      [
+       "dal",
+       "shal"
+      ],
+      [
+       "dam",
+       "sham"
+      ],
+      [
+       "dan",
+       "shan"
+      ],
+      [
+       "dar",
+       "shar"
+      ]
+     ]
+    },
+    "ending:o>y": {
+     "cores": 30,
+     "C": 0.4873360661241749,
+     "z": 6.481127732028166,
+     "shift": [
+      [
+       "next-front:",
+       -0.314
+      ],
+      [
+       "next-front:qo",
+       0.142
+      ],
+      [
+       "next-end:",
+       -0.136
+      ],
+      [
+       "prev-end:#",
+       -0.129
+      ]
+     ],
+     "examples": [
+      [
+       "cheeo",
+       "cheey"
+      ],
+      [
+       "cheo",
+       "chey"
+      ],
+      [
+       "cho",
+       "chy"
+      ],
+      [
+       "ctho",
+       "cthy"
+      ],
+      [
+       "do",
+       "dy"
+      ],
+      [
+       "dsho",
+       "dshy"
+      ]
+     ]
+    },
+    "front:o>sh": {
+     "cores": 12,
+     "C": 0.1856810764246959,
+     "z": 2.240682662947016,
+     "shift": [
+      [
+       "next-front:qo",
+       0.145
+      ],
+      [
+       "next-end:#",
+       -0.118
+      ],
+      [
+       "next-front:#",
+       -0.118
+      ],
+      [
+       "prev-front:qo",
+       0.104
+      ]
+     ],
+     "examples": [
+      [
+       "oaiin",
+       "shaiin"
+      ],
+      [
+       "oain",
+       "shain"
+      ],
+      [
+       "oar",
+       "shar"
+      ],
+      [
+       "ockhey",
+       "shckhey"
+      ],
+      [
+       "ockhy",
+       "shckhy"
+      ],
+      [
+       "octhy",
+       "shcthy"
+      ]
+     ]
+    },
+    "ending:ar>y": {
+     "cores": 44,
+     "C": 0.3761652151714527,
+     "z": 7.273492064523827,
+     "shift": [
+      [
+       "next-end:#",
+       0.153
+      ],
+      [
+       "next-front:#",
+       0.153
+      ],
+      [
+       "next-front:o",
+       -0.116
+      ],
+      [
+       "next-front:d",
+       0.084
+      ]
+     ],
+     "examples": [
+      [
+       "char",
+       "chy"
+      ],
+      [
+       "chdar",
+       "chdy"
+      ],
+      [
+       "chear",
+       "chey"
+      ],
+      [
+       "chedar",
+       "chedy"
+      ],
+      [
+       "chekar",
+       "cheky"
+      ],
+      [
+       "chetar",
+       "chety"
+      ]
+     ]
+    },
+    "ending:ar>dy": {
+     "cores": 12,
+     "C": 0.3087501996083995,
+     "z": 3.5835116313276076,
+     "shift": [
+      [
+       "next-front:qo",
+       0.142
+      ],
+      [
+       "next-front:",
+       -0.128
+      ],
+      [
+       "prev-end:edy",
+       0.115
+      ],
+      [
+       "next-end:edy",
+       0.09
+      ]
+     ],
+     "examples": [
+      [
+       "char",
+       "chdy"
+      ],
+      [
+       "chear",
+       "chedy"
+      ],
+      [
+       "cthar",
+       "cthdy"
+      ],
+      [
+       "dalar",
+       "daldy"
+      ],
+      [
+       "lar",
+       "ldy"
+      ],
+      [
+       "oar",
+       "ody"
+      ]
+     ]
+    },
+    "ending:ar>ey": {
+     "cores": 19,
+     "C": 0.3077390837805106,
+     "z": 5.039236919511905,
+     "shift": [
+      [
+       "prev-end:ey",
+       0.114
+      ],
+      [
+       "next-front:qo",
+       0.111
+      ],
+      [
+       "next-front:o",
+       -0.087
+      ],
+      [
+       "next-front:sh",
+       -0.084
+      ]
+     ],
+     "examples": [
+      [
+       "char",
+       "chey"
+      ],
+      [
+       "chear",
+       "cheey"
+      ],
+      [
+       "chekar",
+       "chekey"
+      ],
+      [
+       "chkar",
+       "chkey"
+      ],
+      [
+       "chokar",
+       "chokey"
+      ],
+      [
+       "cthar",
+       "cthey"
+      ]
+     ]
+    },
+    "ending:ar>ol": {
+     "cores": 22,
+     "C": 0.3942478266503302,
+     "z": 5.802998973817532,
+     "shift": [
+      [
+       "next-front:d",
+       0.125
+      ],
+      [
+       "prev-front:",
+       -0.116
+      ],
+      [
+       "next-end:ol",
+       0.095
+      ],
+      [
+       "next-front:o",
+       -0.094
+      ]
+     ],
+     "examples": [
+      [
+       "char",
+       "chol"
+      ],
+      [
+       "chear",
+       "cheol"
+      ],
+      [
+       "chotar",
+       "chotol"
+      ],
+      [
+       "cthar",
+       "cthol"
+      ],
+      [
+       "dar",
+       "dol"
+      ],
+      [
+       "kar",
+       "kol"
+      ]
+     ]
+    },
+    "ending:ar>edy": {
+     "cores": 19,
+     "C": 0.5856753026694573,
+     "z": 5.392817538046345,
+     "shift": [
+      [
+       "next-front:qo",
+       0.243
+      ],
+      [
+       "prev-end:edy",
+       0.222
+      ],
+      [
+       "next-end:edy",
+       0.184
+      ],
+      [
+       "next-front:ch",
+       -0.093
+      ]
+     ],
+     "examples": [
+      [
+       "char",
+       "chedy"
+      ],
+      [
+       "chear",
+       "cheedy"
+      ],
+      [
+       "chekar",
+       "chekedy"
+      ],
+      [
+       "chkar",
+       "chkedy"
+      ],
+      [
+       "cthar",
+       "cthedy"
+      ],
+      [
+       "kar",
+       "kedy"
+      ]
+     ]
+    },
+    "ending:ar>or": {
+     "cores": 25,
+     "C": 0.2817666887762266,
+     "z": 4.783789089254174,
+     "shift": [
+      [
+       "prev-front:",
+       -0.09
+      ],
+      [
+       "next-front:",
+       -0.088
+      ],
+      [
+       "prev-front:#",
+       0.07
+      ],
+      [
+       "prev-end:#",
+       0.07
+      ]
+     ],
+     "examples": [
+      [
+       "char",
+       "chor"
+      ],
+      [
+       "chdar",
+       "chdor"
+      ],
+      [
+       "chear",
+       "cheor"
+      ],
+      [
+       "cthar",
+       "cthor"
+      ],
+      [
+       "dalar",
+       "dalor"
+      ],
+      [
+       "dar",
+       "dor"
+      ]
+     ]
+    },
+    "ending:ar>o": {
+     "cores": 12,
+     "C": 0.24726520703302166,
+     "z": 2.8651185620853266,
+     "shift": [
+      [
+       "next-front:o",
+       -0.184
+      ],
+      [
+       "next-front:",
+       0.165
+      ],
+      [
+       "next-end:",
+       0.098
+      ],
+      [
+       "prev-end:o",
+       0.076
+      ]
+     ],
+     "examples": [
+      [
+       "char",
+       "cho"
+      ],
+      [
+       "chear",
+       "cheo"
+      ],
+      [
+       "cthar",
+       "ctho"
+      ],
+      [
+       "dar",
+       "do"
+      ],
+      [
+       "lar",
+       "lo"
+      ],
+      [
+       "okear",
+       "okeo"
+      ]
+     ]
+    },
+    "front:->o": {
+     "cores": 117,
+     "C": 0.303589798994772,
+     "z": 10.953891489055044,
+     "shift": [
+      [
+       "prev-end:ey",
+       -0.115
+      ],
+      [
+       "prev-end:aiin",
+       0.092
+      ],
+      [
+       "next-front:",
+       -0.078
+      ],
+      [
+       "prev-front:o",
+       0.068
+      ]
+     ],
+     "examples": [
+      [
+       "aiin",
+       "oaiin"
+      ],
+      [
+       "ain",
+       "oain"
+      ],
+      [
+       "ar",
+       "oar"
+      ],
+      [
+       "chedy",
+       "ochedy"
+      ],
+      [
+       "ckhey",
+       "ockhey"
+      ],
+      [
+       "ckhy",
+       "ockhy"
+      ]
+     ]
+    },
+    "front:->qo": {
+     "cores": 82,
+     "C": 0.34871571715184074,
+     "z": 9.528024366792964,
+     "shift": [
+      [
+       "prev-end:edy",
+       0.155
+      ],
+      [
+       "next-front:qo",
+       0.101
+      ],
+      [
+       "prev-front:",
+       -0.096
+      ],
+      [
+       "prev-end:",
+       -0.083
+      ]
+     ],
+     "examples": [
+      [
+       "aiin",
+       "qoaiin"
+      ],
+      [
+       "ar",
+       "qoar"
+      ],
+      [
+       "chey",
+       "qochey"
+      ],
+      [
+       "ckhey",
+       "qockhey"
+      ],
+      [
+       "ckhol",
+       "qockhol"
+      ],
+      [
+       "ckhy",
+       "qockhy"
+      ]
+     ]
+    },
+    "ending:ol>y": {
+     "cores": 61,
+     "C": 0.36331270808274263,
+     "z": 8.464559053583178,
+     "shift": [
+      [
+       "next-end:#",
+       0.119
+      ],
+      [
+       "next-front:#",
+       0.119
+      ],
+      [
+       "next-front:o",
+       -0.083
+      ],
+      [
+       "prev-front:#",
+       -0.081
+      ]
+     ],
+     "examples": [
+      [
+       "alol",
+       "aly"
+      ],
+      [
+       "arol",
+       "ary"
+      ],
+      [
+       "cheeol",
+       "cheey"
+      ],
+      [
+       "cheol",
+       "chey"
+      ],
+      [
+       "chol",
+       "chy"
+      ],
+      [
+       "chotol",
+       "choty"
+      ]
+     ]
+    },
+    "ending:l>r": {
+     "cores": 79,
+     "C": 0.21389737962972086,
+     "z": 7.911181195835381,
+     "shift": [
+      [
+       "next-front:d",
+       -0.059
+      ],
+      [
+       "next-end:edy",
+       -0.054
+      ],
+      [
+       "prev-front:ch",
+       -0.045
+      ],
+      [
+       "next-front:o",
+       0.044
+      ]
+     ],
+     "examples": [
+      [
+       "al",
+       "ar"
+      ],
+      [
+       "alol",
+       "alor"
+      ],
+      [
+       "arol",
+       "aror"
+      ],
+      [
+       "chal",
+       "char"
+      ],
+      [
+       "chdal",
+       "chdar"
+      ],
+      [
+       "cheal",
+       "chear"
+      ]
+     ]
+    },
+    "ending:l>m": {
+     "cores": 27,
+     "C": 0.7464326307758884,
+     "z": 4.760000403936356,
+     "shift": [
+      [
+       "next-end:#",
+       0.528
+      ],
+      [
+       "next-front:#",
+       0.528
+      ],
+      [
+       "next-front:",
+       -0.141
+      ],
+      [
+       "next-front:ch",
+       -0.114
+      ]
+     ],
+     "examples": [
+      [
+       "al",
+       "am"
+      ],
+      [
+       "aral",
+       "aram"
+      ],
+      [
+       "chal",
+       "cham"
+      ],
+      [
+       "chdal",
+       "chdam"
+      ],
+      [
+       "cheal",
+       "cheam"
+      ],
+      [
+       "chedal",
+       "chedam"
+      ]
+     ]
+    },
+    "ending:al>y": {
+     "cores": 36,
+     "C": 0.3135235855739211,
+     "z": 5.778329969141155,
+     "shift": [
+      [
+       "next-end:#",
+       0.139
+      ],
+      [
+       "next-front:#",
+       0.139
+      ],
+      [
+       "next-end:edy",
+       -0.089
+      ],
+      [
+       "next-front:sh",
+       -0.082
+      ]
+     ],
+     "examples": [
+      [
+       "aral",
+       "ary"
+      ],
+      [
+       "chal",
+       "chy"
+      ],
+      [
+       "chdal",
+       "chdy"
+      ],
+      [
+       "cheal",
+       "chey"
+      ],
+      [
+       "chedal",
+       "chedy"
+      ],
+      [
+       "chekal",
+       "cheky"
+      ]
+     ]
+    },
+    "ending:al>ey": {
+     "cores": 20,
+     "C": 0.28060467624241514,
+     "z": 5.056427898415295,
+     "shift": [
+      [
+       "prev-end:ey",
+       0.125
+      ],
+      [
+       "next-front:qo",
+       0.112
+      ],
+      [
+       "next-front:sh",
+       -0.107
+      ],
+      [
+       "next-end:ey",
+       0.06
+      ]
+     ],
+     "examples": [
+      [
+       "chal",
+       "chey"
+      ],
+      [
+       "cheal",
+       "cheey"
+      ],
+      [
+       "chekal",
+       "chekey"
+      ],
+      [
+       "chkal",
+       "chkey"
+      ],
+      [
+       "chokal",
+       "chokey"
+      ],
+      [
+       "cthal",
+       "cthey"
+      ]
+     ]
+    },
+    "ending:al>ar": {
+     "cores": 32,
+     "C": 0.22716310266040807,
+     "z": 5.06600888833289,
+     "shift": [
+      [
+       "next-front:o",
+       0.084
+      ],
+      [
+       "next-end:edy",
+       -0.075
+      ],
+      [
+       "next-front:",
+       0.06
+      ],
+      [
+       "next-front:d",
+       -0.055
+      ]
+     ],
+     "examples": [
+      [
+       "chal",
+       "char"
+      ],
+      [
+       "chdal",
+       "chdar"
+      ],
+      [
+       "cheal",
+       "chear"
+      ],
+      [
+       "chedal",
+       "chedar"
+      ],
+      [
+       "chekal",
+       "chekar"
+      ],
+      [
+       "chkal",
+       "chkar"
+      ]
+     ]
+    },
+    "ending:al>ol": {
+     "cores": 23,
+     "C": 0.3140837329726988,
+     "z": 4.8987913687294355,
+     "shift": [
+      [
+       "prev-end:ol",
+       0.088
+      ],
+      [
+       "next-end:ol",
+       0.086
+      ],
+      [
+       "prev-end:#",
+       0.085
+      ],
+      [
+       "prev-front:#",
+       0.085
+      ]
+     ],
+     "examples": [
+      [
+       "aral",
+       "arol"
+      ],
+      [
+       "chal",
+       "chol"
+      ],
+      [
+       "cheal",
+       "cheol"
+      ],
+      [
+       "chtal",
+       "chtol"
+      ],
+      [
+       "cthal",
+       "cthol"
+      ],
+      [
+       "dal",
+       "dol"
+      ]
+     ]
+    },
+    "ending:al>edy": {
+     "cores": 20,
+     "C": 0.5409887378691804,
+     "z": 5.760062815175204,
+     "shift": [
+      [
+       "next-front:qo",
+       0.231
+      ],
+      [
+       "prev-end:edy",
+       0.186
+      ],
+      [
+       "next-end:edy",
+       0.156
+      ],
+      [
+       "next-front:ch",
+       -0.095
+      ]
+     ],
+     "examples": [
+      [
+       "chal",
+       "chedy"
+      ],
+      [
+       "cheal",
+       "cheedy"
+      ],
+      [
+       "chekal",
+       "chekedy"
+      ],
+      [
+       "chkal",
+       "chkedy"
+      ],
+      [
+       "cthal",
+       "cthedy"
+      ],
+      [
+       "kal",
+       "kedy"
+      ]
+     ]
+    },
+    "ending:al>or": {
+     "cores": 24,
+     "C": 0.33070807843380745,
+     "z": 4.965976424765009,
+     "shift": [
+      [
+       "prev-end:#",
+       0.12
+      ],
+      [
+       "prev-front:#",
+       0.12
+      ],
+      [
+       "next-end:edy",
+       -0.088
+      ],
+      [
+       "prev-front:",
+       -0.079
+      ]
+     ],
+     "examples": [
+      [
+       "aral",
+       "aror"
+      ],
+      [
+       "chal",
+       "chor"
+      ],
+      [
+       "chdal",
+       "chdor"
+      ],
+      [
+       "cheal",
+       "cheor"
+      ],
+      [
+       "cthal",
+       "cthor"
+      ],
+      [
+       "dal",
+       "dor"
+      ]
+     ]
+    },
+    "ending:in>r": {
+     "cores": 41,
+     "C": 0.2507967176609498,
+     "z": 5.95217404635935,
+     "shift": [
+      [
+       "next-front:",
+       0.127
+      ],
+      [
+       "next-front:ch",
+       -0.051
+      ],
+      [
+       "prev-end:ey",
+       -0.048
+      ],
+      [
+       "next-front:o",
+       0.043
+      ]
+     ],
+     "examples": [
+      [
+       "aiiin",
+       "aiir"
+      ],
+      [
+       "aiin",
+       "air"
+      ],
+      [
+       "ain",
+       "ar"
+      ],
+      [
+       "chain",
+       "char"
+      ],
+      [
+       "chdain",
+       "chdar"
+      ],
+      [
+       "chedain",
+       "chedar"
+      ]
+     ]
+    },
+    "ending:in>l": {
+     "cores": 28,
+     "C": 0.2066487182742785,
+     "z": 4.583448239635142,
+     "shift": [
+      [
+       "next-front:ch",
+       -0.078
+      ],
+      [
+       "next-end:ey",
+       -0.07
+      ],
+      [
+       "prev-end:#",
+       -0.06
+      ],
+      [
+       "prev-front:#",
+       -0.06
+      ]
+     ],
+     "examples": [
+      [
+       "ain",
+       "al"
+      ],
+      [
+       "chain",
+       "chal"
+      ],
+      [
+       "chdain",
+       "chdal"
+      ],
+      [
+       "chedain",
+       "chedal"
+      ],
+      [
+       "chekain",
+       "chekal"
+      ],
+      [
+       "cheodain",
+       "cheodal"
+      ]
+     ]
+    },
+    "ending:in>m": {
+     "cores": 21,
+     "C": 0.7488877807566703,
+     "z": 4.4179937918603835,
+     "shift": [
+      [
+       "next-end:#",
+       0.567
+      ],
+      [
+       "next-front:#",
+       0.567
+      ],
+      [
+       "next-front:o",
+       -0.139
+      ],
+      [
+       "next-end:ey",
+       -0.128
+      ]
+     ],
+     "examples": [
+      [
+       "ain",
+       "am"
+      ],
+      [
+       "chain",
+       "cham"
+      ],
+      [
+       "chdain",
+       "chdam"
+      ],
+      [
+       "chedain",
+       "chedam"
+      ],
+      [
+       "daiin",
+       "daim"
+      ],
+      [
+       "dain",
+       "dam"
+      ]
+     ]
+    },
+    "ending:d>y": {
+     "cores": 13,
+     "C": 0.20246689934996256,
+     "z": 2.4336870094335854,
+     "shift": [
+      [
+       "prev-end:edy",
+       -0.17
+      ],
+      [
+       "next-end:edy",
+       -0.116
+      ],
+      [
+       "prev-end:ey",
+       0.083
+      ],
+      [
+       "next-end:aiin",
+       0.081
+      ]
+     ],
+     "examples": [
+      [
+       "chd",
+       "chy"
+      ],
+      [
+       "ched",
+       "chey"
+      ],
+      [
+       "chod",
+       "choy"
+      ],
+      [
+       "lched",
+       "lchey"
+      ],
+      [
+       "okchd",
+       "okchy"
+      ],
+      [
+       "oteed",
+       "oteey"
+      ]
+     ]
+    },
+    "ending:d>dy": {
+     "cores": 17,
+     "C": 0.0532239489977027,
+     "z": 0.9488044028271869,
+     "shift": [
+      [
+       "next-front:qo",
+       0.067
+      ],
+      [
+       "next-end:y",
+       -0.065
+      ],
+      [
+       "prev-front:qo",
+       0.062
+      ],
+      [
+       "prev-front:o",
+       -0.059
+      ]
+     ],
+     "examples": [
+      [
+       "chd",
+       "chdy"
+      ],
+      [
+       "ched",
+       "chedy"
+      ],
+      [
+       "chod",
+       "chody"
+      ],
+      [
+       "lched",
+       "lchedy"
+      ],
+      [
+       "od",
+       "ody"
+      ],
+      [
+       "okchd",
+       "okchdy"
+      ]
+     ]
+    },
+    "ending:d>ey": {
+     "cores": 10,
+     "C": 0.23996483026988558,
+     "z": 2.2584910457508234,
+     "shift": [
+      [
+       "prev-end:edy",
+       -0.162
+      ],
+      [
+       "prev-end:ey",
+       0.159
+      ],
+      [
+       "next-end:ey",
+       0.154
+      ],
+      [
+       "prev-end:al",
+       -0.1
+      ]
+     ],
+     "examples": [
+      [
+       "chd",
+       "chey"
+      ],
+      [
+       "ched",
+       "cheey"
+      ],
+      [
+       "lched",
+       "lcheey"
+      ],
+      [
+       "okchd",
+       "okchey"
+      ],
+      [
+       "oteed",
+       "oteeey"
+      ],
+      [
+       "qokchd",
+       "qokchey"
+      ]
+     ]
+    },
+    "ending:d>ol": {
+     "cores": 10,
+     "C": 0.3762938020135088,
+     "z": 3.5786578084877934,
+     "shift": [
+      [
+       "prev-end:edy",
+       -0.242
+      ],
+      [
+       "next-front:ch",
+       0.2
+      ],
+      [
+       "prev-front:o",
+       -0.151
+      ],
+      [
+       "next-front:qo",
+       -0.123
+      ]
+     ],
+     "examples": [
+      [
+       "chd",
+       "chol"
+      ],
+      [
+       "ched",
+       "cheol"
+      ],
+      [
+       "lched",
+       "lcheol"
+      ],
+      [
+       "okchd",
+       "okchol"
+      ],
+      [
+       "qokchd",
+       "qokchol"
+      ],
+      [
+       "qoked",
+       "qokeol"
+      ]
+     ]
+    },
+    "ending:d>s": {
+     "cores": 9,
+     "C": 0.2632241848492788,
+     "z": 3.2960882948760393,
+     "shift": [
+      [
+       "next-front:qo",
+       -0.207
+      ],
+      [
+       "next-end:edy",
+       -0.178
+      ],
+      [
+       "next-end:iin",
+       0.174
+      ],
+      [
+       "next-front:",
+       0.159
+      ]
+     ],
+     "examples": [
+      [
+       "chd",
+       "chs"
+      ],
+      [
+       "ched",
+       "ches"
+      ],
+      [
+       "chod",
+       "chos"
+      ],
+      [
+       "od",
+       "os"
+      ],
+      [
+       "qokeed",
+       "qokees"
+      ],
+      [
+       "shed",
+       "shes"
+      ]
+     ]
+    },
+    "ending:d>or": {
+     "cores": 9,
+     "C": 0.39196729231969923,
+     "z": 3.324340185303186,
+     "shift": [
+      [
+       "next-front:ch",
+       0.249
+      ],
+      [
+       "prev-end:edy",
+       -0.233
+      ],
+      [
+       "next-end:edy",
+       -0.154
+      ],
+      [
+       "next-front:qo",
+       -0.14
+      ]
+     ],
+     "examples": [
+      [
+       "chd",
+       "chor"
+      ],
+      [
+       "ched",
+       "cheor"
+      ],
+      [
+       "okchd",
+       "okchor"
+      ],
+      [
+       "qod",
+       "qoor"
+      ],
+      [
+       "qokchd",
+       "qokchor"
+      ],
+      [
+       "qoked",
+       "qokeor"
+      ]
+     ]
+    },
+    "ending:d>o": {
+     "cores": 9,
+     "C": 0.4434144901307284,
+     "z": 3.3602652842081104,
+     "shift": [
+      [
+       "next-front:",
+       0.302
+      ],
+      [
+       "next-front:qo",
+       -0.227
+      ],
+      [
+       "next-front:o",
+       -0.202
+      ],
+      [
+       "prev-end:edy",
+       -0.199
+      ]
+     ],
+     "examples": [
+      [
+       "chd",
+       "cho"
+      ],
+      [
+       "ched",
+       "cheo"
+      ],
+      [
+       "okchd",
+       "okcho"
+      ],
+      [
+       "qokchd",
+       "qokcho"
+      ],
+      [
+       "qoked",
+       "qokeo"
+      ],
+      [
+       "qokeed",
+       "qokeeo"
+      ]
+     ]
+    },
+    "front:->sh": {
+     "cores": 29,
+     "C": 0.28265990694287035,
+     "z": 4.699019406087715,
+     "shift": [
+      [
+       "next-front:qo",
+       0.171
+      ],
+      [
+       "next-end:#",
+       -0.095
+      ],
+      [
+       "next-front:#",
+       -0.095
+      ],
+      [
+       "prev-front:#",
+       0.069
+      ]
+     ],
+     "examples": [
+      [
+       "aiin",
+       "shaiin"
+      ],
+      [
+       "ain",
+       "shain"
+      ],
+      [
+       "al",
+       "shal"
+      ],
+      [
+       "am",
+       "sham"
+      ],
+      [
+       "ar",
+       "shar"
+      ],
+      [
+       "ckhey",
+       "shckhey"
+      ]
+     ]
+    },
+    "ending:in>n": {
+     "cores": 39,
+     "C": 0.11693681967848235,
+     "z": 2.832524926200555,
+     "shift": [
+      [
+       "prev-end:ol",
+       -0.052
+      ],
+      [
+       "prev-front:",
+       0.044
+      ],
+      [
+       "next-end:y",
+       -0.04
+      ],
+      [
+       "next-front:#",
+       0.038
+      ]
+     ],
+     "examples": [
+      [
+       "aiiin",
+       "aiin"
+      ],
+      [
+       "aiin",
+       "ain"
+      ],
+      [
+       "chaiin",
+       "chain"
+      ],
+      [
+       "chain",
+       "chan"
+      ],
+      [
+       "chdaiin",
+       "chdain"
+      ],
+      [
+       "chedaiin",
+       "chedain"
+      ]
+     ]
+    },
+    "ending:iin>r": {
+     "cores": 45,
+     "C": 0.30018453400199735,
+     "z": 7.886451208123083,
+     "shift": [
+      [
+       "next-front:",
+       0.164
+      ],
+      [
+       "next-front:ch",
+       -0.071
+      ],
+      [
+       "prev-front:",
+       0.055
+      ],
+      [
+       "prev-end:ar",
+       0.043
+      ]
+     ],
+     "examples": [
+      [
+       "aiiin",
+       "air"
+      ],
+      [
+       "aiin",
+       "ar"
+      ],
+      [
+       "chaiin",
+       "char"
+      ],
+      [
+       "chdaiin",
+       "chdar"
+      ],
+      [
+       "chedaiin",
+       "chedar"
+      ],
+      [
+       "chekaiin",
+       "chekar"
+      ]
+     ]
+    },
+    "ending:iin>l": {
+     "cores": 39,
+     "C": 0.30801066051317116,
+     "z": 7.21321257917946,
+     "shift": [
+      [
+       "next-front:",
+       0.106
+      ],
+      [
+       "next-front:o",
+       -0.102
+      ],
+      [
+       "next-front:ch",
+       -0.091
+      ],
+      [
+       "next-end:edy",
+       0.073
+      ]
+     ],
+     "examples": [
+      [
+       "aiin",
+       "al"
+      ],
+      [
+       "araiin",
+       "aral"
+      ],
+      [
+       "chaiin",
+       "chal"
+      ],
+      [
+       "chdaiin",
+       "chdal"
+      ],
+      [
+       "chedaiin",
+       "chedal"
+      ],
+      [
+       "chekaiin",
+       "chekal"
+      ]
+     ]
+    },
+    "ending:iin>in": {
+     "cores": 35,
+     "C": 0.12811310581968405,
+     "z": 3.0594900007745895,
+     "shift": [
+      [
+       "prev-end:ol",
+       -0.06
+      ],
+      [
+       "prev-end:or",
+       -0.041
+      ],
+      [
+       "prev-front:",
+       0.04
+      ],
+      [
+       "next-end:y",
+       -0.04
+      ]
+     ],
+     "examples": [
+      [
+       "aiiin",
+       "aiin"
+      ],
+      [
+       "aiin",
+       "ain"
+      ],
+      [
+       "chaiin",
+       "chain"
+      ],
+      [
+       "chdaiin",
+       "chdain"
+      ],
+      [
+       "chedaiin",
+       "chedain"
+      ],
+      [
+       "chekaiin",
+       "chekain"
+      ]
+     ]
+    },
+    "ending:iin>m": {
+     "cores": 26,
+     "C": 0.7811695805373439,
+     "z": 4.4189825721613,
+     "shift": [
+      [
+       "next-end:#",
+       0.609
+      ],
+      [
+       "next-front:#",
+       0.609
+      ],
+      [
+       "next-front:o",
+       -0.219
+      ],
+      [
+       "next-front:ch",
+       -0.141
+      ]
+     ],
+     "examples": [
+      [
+       "aiin",
+       "am"
+      ],
+      [
+       "alaiin",
+       "alam"
+      ],
+      [
+       "araiin",
+       "aram"
+      ],
+      [
+       "chaiin",
+       "cham"
+      ],
+      [
+       "chdaiin",
+       "chdam"
+      ],
+      [
+       "chedaiin",
+       "chedam"
+      ]
+     ]
+    },
+    "ending:aiin>y": {
+     "cores": 40,
+     "C": 0.3632134211873915,
+     "z": 5.736890188593557,
+     "shift": [
+      [
+       "next-end:#",
+       0.153
+      ],
+      [
+       "next-front:#",
+       0.153
+      ],
+      [
+       "next-front:o",
+       -0.124
+      ],
+      [
+       "next-front:ch",
+       -0.109
+      ]
+     ],
+     "examples": [
+      [
+       "alaiin",
+       "aly"
+      ],
+      [
+       "araiin",
+       "ary"
+      ],
+      [
+       "chaiin",
+       "chy"
+      ],
+      [
+       "chdaiin",
+       "chdy"
+      ],
+      [
+       "chedaiin",
+       "chedy"
+      ],
+      [
+       "chekaiin",
+       "cheky"
+      ]
+     ]
+    },
+    "ending:aiin>ey": {
+     "cores": 17,
+     "C": 0.32445118826166386,
+     "z": 4.829339854417898,
+     "shift": [
+      [
+       "next-front:",
+       0.154
+      ],
+      [
+       "prev-end:ey",
+       0.105
+      ],
+      [
+       "next-front:o",
+       -0.076
+      ],
+      [
+       "next-end:ey",
+       0.073
+      ]
+     ],
+     "examples": [
+      [
+       "chaiin",
+       "chey"
+      ],
+      [
+       "chekaiin",
+       "chekey"
+      ],
+      [
+       "chkaiin",
+       "chkey"
+      ],
+      [
+       "chokaiin",
+       "chokey"
+      ],
+      [
+       "cphaiin",
+       "cphey"
+      ],
+      [
+       "cthaiin",
+       "cthey"
+      ]
+     ]
+    },
+    "ending:aiin>ar": {
+     "cores": 34,
+     "C": 0.2824087616681906,
+     "z": 6.366385282616299,
+     "shift": [
+      [
+       "next-front:",
+       0.159
+      ],
+      [
+       "next-front:ch",
+       -0.072
+      ],
+      [
+       "prev-front:",
+       0.071
+      ],
+      [
+       "prev-end:ar",
+       0.048
+      ]
+     ],
+     "examples": [
+      [
+       "chaiin",
+       "char"
+      ],
+      [
+       "chdaiin",
+       "chdar"
+      ],
+      [
+       "chedaiin",
+       "chedar"
+      ],
+      [
+       "chekaiin",
+       "chekar"
+      ],
+      [
+       "chkaiin",
+       "chkar"
+      ],
+      [
+       "chodaiin",
+       "chodar"
+      ]
+     ]
+    },
+    "ending:aiin>ol": {
+     "cores": 22,
+     "C": 0.22102464393247806,
+     "z": 4.023314054289698,
+     "shift": [
+      [
+       "next-front:o",
+       -0.09
+      ],
+      [
+       "next-front:",
+       0.087
+      ],
+      [
+       "prev-end:ol",
+       0.074
+      ],
+      [
+       "next-front:d",
+       0.068
+      ]
+     ],
+     "examples": [
+      [
+       "alaiin",
+       "alol"
+      ],
+      [
+       "araiin",
+       "arol"
+      ],
+      [
+       "chaiin",
+       "chol"
+      ],
+      [
+       "chotaiin",
+       "chotol"
+      ],
+      [
+       "cphaiin",
+       "cphol"
+      ],
+      [
+       "cthaiin",
+       "cthol"
+      ]
+     ]
+    },
+    "ending:aiin>edy": {
+     "cores": 17,
+     "C": 0.5891733295538453,
+     "z": 4.721572476513617,
+     "shift": [
+      [
+       "next-end:edy",
+       0.235
+      ],
+      [
+       "prev-end:edy",
+       0.234
+      ],
+      [
+       "next-front:qo",
+       0.182
+      ],
+      [
+       "prev-front:qo",
+       0.14
+      ]
+     ],
+     "examples": [
+      [
+       "chaiin",
+       "chedy"
+      ],
+      [
+       "chekaiin",
+       "chekedy"
+      ],
+      [
+       "chkaiin",
+       "chkedy"
+      ],
+      [
+       "cphaiin",
+       "cphedy"
+      ],
+      [
+       "cthaiin",
+       "cthedy"
+      ],
+      [
+       "kaiin",
+       "kedy"
+      ]
+     ]
+    },
+    "ending:aiin>or": {
+     "cores": 24,
+     "C": 0.2149606848261696,
+     "z": 3.6768175582129614,
+     "shift": [
+      [
+       "next-front:o",
+       -0.107
+      ],
+      [
+       "next-front:",
+       0.084
+      ],
+      [
+       "next-front:sh",
+       0.071
+      ],
+      [
+       "prev-front:ch",
+       -0.06
+      ]
+     ],
+     "examples": [
+      [
+       "alaiin",
+       "alor"
+      ],
+      [
+       "araiin",
+       "aror"
+      ],
+      [
+       "chaiin",
+       "chor"
+      ],
+      [
+       "chdaiin",
+       "chdor"
+      ],
+      [
+       "cphaiin",
+       "cphor"
+      ],
+      [
+       "cthaiin",
+       "cthor"
+      ]
+     ]
+    },
+    "ending:aiin>al": {
+     "cores": 31,
+     "C": 0.274447328762267,
+     "z": 5.7941846407193,
+     "shift": [
+      [
+       "next-front:o",
+       -0.11
+      ],
+      [
+       "next-front:",
+       0.09
+      ],
+      [
+       "next-front:ch",
+       -0.076
+      ],
+      [
+       "prev-end:in",
+       0.069
+      ]
+     ],
+     "examples": [
+      [
+       "araiin",
+       "aral"
+      ],
+      [
+       "chaiin",
+       "chal"
+      ],
+      [
+       "chdaiin",
+       "chdal"
+      ],
+      [
+       "chedaiin",
+       "chedal"
+      ],
+      [
+       "chekaiin",
+       "chekal"
+      ],
+      [
+       "cheodaiin",
+       "cheodal"
+      ]
+     ]
+    },
+    "ending:s>y": {
+     "cores": 12,
+     "C": 0.2664790830848348,
+     "z": 3.0731433753534696,
+     "shift": [
+      [
+       "next-front:qo",
+       0.131
+      ],
+      [
+       "next-end:iin",
+       -0.107
+      ],
+      [
+       "next-front:",
+       -0.101
+      ],
+      [
+       "next-end:l",
+       -0.088
+      ]
+     ],
+     "examples": [
+      [
+       "als",
+       "aly"
+      ],
+      [
+       "chees",
+       "cheey"
+      ],
+      [
+       "ches",
+       "chey"
+      ],
+      [
+       "chos",
+       "choy"
+      ],
+      [
+       "chs",
+       "chy"
+      ],
+      [
+       "dals",
+       "daly"
+      ]
+     ]
+    },
+    "front:s>sh": {
+     "cores": 10,
+     "C": 0.4425099125961666,
+     "z": 2.9579769063249417,
+     "shift": [
+      [
+       "prev-end:#",
+       -0.205
+      ],
+      [
+       "prev-front:#",
+       -0.205
+      ],
+      [
+       "next-front:qo",
+       0.167
+      ],
+      [
+       "prev-end:aiin",
+       0.115
+      ]
+     ],
+     "examples": [
+      [
+       "saiin",
+       "shaiin"
+      ],
+      [
+       "sain",
+       "shain"
+      ],
+      [
+       "sal",
+       "shal"
+      ],
+      [
+       "sam",
+       "sham"
+      ],
+      [
+       "sar",
+       "shar"
+      ],
+      [
+       "so",
+       "sho"
+      ]
+     ]
+    },
+    "ending:d>r": {
+     "cores": 8,
+     "C": 0.24439139804565724,
+     "z": 2.4839782940726662,
+     "shift": [
+      [
+       "next-end:#",
+       -0.178
+      ],
+      [
+       "next-front:#",
+       -0.178
+      ],
+      [
+       "next-end:or",
+       0.106
+      ],
+      [
+       "next-front:o",
+       0.104
+      ]
+     ],
+     "examples": [
+      [
+       "chd",
+       "chr"
+      ],
+      [
+       "chod",
+       "chor"
+      ],
+      [
+       "od",
+       "or"
+      ],
+      [
+       "qod",
+       "qor"
+      ],
+      [
+       "qokchod",
+       "qokchor"
+      ],
+      [
+       "qokod",
+       "qokor"
+      ]
+     ]
+    },
+    "ending:d>l": {
+     "cores": 8,
+     "C": 0.2195688978459847,
+     "z": 2.1238449502015113,
+     "shift": [
+      [
+       "next-end:#",
+       -0.182
+      ],
+      [
+       "next-front:#",
+       -0.182
+      ],
+      [
+       "next-front:",
+       0.142
+      ],
+      [
+       "next-front:d",
+       0.121
+      ]
+     ],
+     "examples": [
+      [
+       "chd",
+       "chl"
+      ],
+      [
+       "chod",
+       "chol"
+      ],
+      [
+       "od",
+       "ol"
+      ],
+      [
+       "qod",
+       "qol"
+      ],
+      [
+       "qokchod",
+       "qokchol"
+      ],
+      [
+       "qokod",
+       "qokol"
+      ]
+     ]
+    },
+    "ending:dy>r": {
+     "cores": 26,
+     "C": 0.3885985344980067,
+     "z": 6.154417715820591,
+     "shift": [
+      [
+       "next-front:qo",
+       -0.199
+      ],
+      [
+       "next-end:#",
+       -0.101
+      ],
+      [
+       "next-front:#",
+       -0.101
+      ],
+      [
+       "prev-front:#",
+       0.1
+      ]
+     ],
+     "examples": [
+      [
+       "arody",
+       "aror"
+      ],
+      [
+       "chdy",
+       "chr"
+      ],
+      [
+       "cheeody",
+       "cheeor"
+      ],
+      [
+       "cheody",
+       "cheor"
+      ],
+      [
+       "chody",
+       "chor"
+      ],
+      [
+       "cthody",
+       "cthor"
+      ]
+     ]
+    },
+    "ending:dy>l": {
+     "cores": 29,
+     "C": 0.3188644723769569,
+     "z": 5.775827367204905,
+     "shift": [
+      [
+       "next-front:qo",
+       -0.157
+      ],
+      [
+       "next-end:#",
+       -0.081
+      ],
+      [
+       "next-front:#",
+       -0.081
+      ],
+      [
+       "next-end:ol",
+       0.072
+      ]
+     ],
+     "examples": [
+      [
+       "arody",
+       "arol"
+      ],
+      [
+       "chdy",
+       "chl"
+      ],
+      [
+       "cheeody",
+       "cheeol"
+      ],
+      [
+       "cheody",
+       "cheol"
+      ],
+      [
+       "chody",
+       "chol"
+      ],
+      [
+       "cthody",
+       "cthol"
+      ]
+     ]
+    },
+    "front:ch>o": {
+     "cores": 30,
+     "C": 0.17629816115960736,
+     "z": 3.86521502240078,
+     "shift": [
+      [
+       "prev-end:#",
+       0.101
+      ],
+      [
+       "prev-front:#",
+       0.101
+      ],
+      [
+       "next-front:",
+       -0.069
+      ],
+      [
+       "next-front:#",
+       0.059
+      ]
+     ],
+     "examples": [
+      [
+       "chaiin",
+       "oaiin"
+      ],
+      [
+       "chain",
+       "oain"
+      ],
+      [
+       "char",
+       "oar"
+      ],
+      [
+       "chckhey",
+       "ockhey"
+      ],
+      [
+       "chckhy",
+       "ockhy"
+      ],
+      [
+       "chcthy",
+       "octhy"
+      ]
+     ]
+    },
+    "front:ch>y": {
+     "cores": 13,
+     "C": 0.2903226736006688,
+     "z": 3.5105236819530234,
+     "shift": [
+      [
+       "prev-end:#",
+       0.166
+      ],
+      [
+       "prev-front:#",
+       0.166
+      ],
+      [
+       "prev-front:qo",
+       -0.122
+      ],
+      [
+       "next-front:",
+       -0.109
+      ]
+     ],
+     "examples": [
+      [
+       "chdaiin",
+       "ydaiin"
+      ],
+      [
+       "chdy",
+       "ydy"
+      ],
+      [
+       "chkaiin",
+       "ykaiin"
+      ],
+      [
+       "chkain",
+       "ykain"
+      ],
+      [
+       "chkal",
+       "ykal"
+      ],
+      [
+       "chkar",
+       "ykar"
+      ]
+     ]
+    },
+    "front:qo>y": {
+     "cores": 47,
+     "C": 0.35932167221109484,
+     "z": 7.526673593181855,
+     "shift": [
+      [
+       "prev-end:edy",
+       -0.158
+      ],
+      [
+       "prev-front:sh",
+       -0.093
+      ],
+      [
+       "prev-end:ey",
+       -0.091
+      ],
+      [
+       "next-front:qo",
+       -0.091
+      ]
+     ],
+     "examples": [
+      [
+       "qochey",
+       "ychey"
+      ],
+      [
+       "qodaiin",
+       "ydaiin"
+      ],
+      [
+       "qody",
+       "ydy"
+      ],
+      [
+       "qok",
+       "yk"
+      ],
+      [
+       "qokaiin",
+       "ykaiin"
+      ],
+      [
+       "qokain",
+       "ykain"
+      ]
+     ]
+    },
+    "ending:o>s": {
+     "cores": 8,
+     "C": 0.28915616625400625,
+     "z": 2.8020878205631106,
+     "shift": [
+      [
+       "next-front:",
+       -0.161
+      ],
+      [
+       "prev-front:",
+       -0.146
+      ],
+      [
+       "next-front:o",
+       0.133
+      ],
+      [
+       "next-end:iin",
+       0.104
+      ]
+     ],
+     "examples": [
+      [
+       "cheeo",
+       "chees"
+      ],
+      [
+       "cheo",
+       "ches"
+      ],
+      [
+       "cho",
+       "chs"
+      ],
+      [
+       "lo",
+       "ls"
+      ],
+      [
+       "okeeo",
+       "okees"
+      ],
+      [
+       "qokeeo",
+       "qokees"
+      ]
+     ]
+    },
+    "front:->d": {
+     "cores": 39,
+     "C": 0.5415788415024634,
+     "z": 5.793017241531859,
+     "shift": [
+      [
+       "prev-end:#",
+       0.289
+      ],
+      [
+       "prev-front:#",
+       0.289
+      ],
+      [
+       "prev-front:",
+       -0.173
+      ],
+      [
+       "prev-end:r",
+       -0.116
+      ]
+     ],
+     "examples": [
+      [
+       "a",
+       "da"
+      ],
+      [
+       "aiiin",
+       "daiiin"
+      ],
+      [
+       "aiin",
+       "daiin"
+      ],
+      [
+       "aiir",
+       "daiir"
+      ],
+      [
+       "ain",
+       "dain"
+      ],
+      [
+       "air",
+       "dair"
+      ]
+     ]
+    },
+    "ending:ey>y": {
+     "cores": 74,
+     "C": 0.21095437331134248,
+     "z": 6.955115282337426,
+     "shift": [
+      [
+       "next-end:ey",
+       -0.071
+      ],
+      [
+       "next-end:#",
+       0.069
+      ],
+      [
+       "next-front:#",
+       0.069
+      ],
+      [
+       "prev-end:ey",
+       -0.056
+      ]
+     ],
+     "examples": [
+      [
+       "chckhey",
+       "chckhy"
+      ],
+      [
+       "chcthey",
+       "chcthy"
+      ],
+      [
+       "checkhey",
+       "checkhy"
+      ],
+      [
+       "cheeey",
+       "cheey"
+      ],
+      [
+       "cheey",
+       "chey"
+      ],
+      [
+       "chekey",
+       "cheky"
+      ]
+     ]
+    },
+    "ending:ey>ol": {
+     "cores": 46,
+     "C": 0.4165517211338725,
+     "z": 8.336233171696293,
+     "shift": [
+      [
+       "next-front:",
+       -0.127
+      ],
+      [
+       "next-front:ch",
+       0.112
+      ],
+      [
+       "next-end:ey",
+       -0.108
+      ],
+      [
+       "next-front:qo",
+       -0.105
+      ]
+     ],
+     "examples": [
+      [
+       "cheeey",
+       "cheeol"
+      ],
+      [
+       "cheey",
+       "cheol"
+      ],
+      [
+       "chey",
+       "chol"
+      ],
+      [
+       "ckhey",
+       "ckhol"
+      ],
+      [
+       "cphey",
+       "cphol"
+      ],
+      [
+       "ctheey",
+       "ctheol"
+      ]
+     ]
+    },
+    "ending:ey>or": {
+     "cores": 34,
+     "C": 0.4480711937123739,
+     "z": 6.489864654864682,
+     "shift": [
+      [
+       "next-front:",
+       -0.148
+      ],
+      [
+       "prev-end:#",
+       0.133
+      ],
+      [
+       "prev-front:#",
+       0.133
+      ],
+      [
+       "next-front:qo",
+       -0.132
+      ]
+     ],
+     "examples": [
+      [
+       "cheeey",
+       "cheeor"
+      ],
+      [
+       "cheey",
+       "cheor"
+      ],
+      [
+       "chey",
+       "chor"
+      ],
+      [
+       "ckhey",
+       "ckhor"
+      ],
+      [
+       "cphey",
+       "cphor"
+      ],
+      [
+       "cthey",
+       "cthor"
+      ]
+     ]
+    },
+    "ending:ey>o": {
+     "cores": 22,
+     "C": 0.5047899627056596,
+     "z": 5.285200126306214,
+     "shift": [
+      [
+       "next-front:",
+       0.293
+      ],
+      [
+       "next-front:qo",
+       -0.182
+      ],
+      [
+       "next-end:",
+       0.176
+      ],
+      [
+       "next-front:o",
+       -0.119
+      ]
+     ],
+     "examples": [
+      [
+       "cheeey",
+       "cheeo"
+      ],
+      [
+       "cheey",
+       "cheo"
+      ],
+      [
+       "chey",
+       "cho"
+      ],
+      [
+       "cthey",
+       "ctho"
+      ],
+      [
+       "dshey",
+       "dsho"
+      ],
+      [
+       "kchey",
+       "kcho"
+      ]
+     ]
+    },
+    "ending:l>s": {
+     "cores": 10,
+     "C": 0.2694604608015963,
+     "z": 3.010572554585721,
+     "shift": [
+      [
+       "next-end:iin",
+       0.167
+      ],
+      [
+       "next-front:",
+       0.159
+      ],
+      [
+       "next-end:edy",
+       -0.114
+      ],
+      [
+       "prev-end:ol",
+       -0.079
+      ]
+     ],
+     "examples": [
+      [
+       "al",
+       "as"
+      ],
+      [
+       "cheeol",
+       "cheeos"
+      ],
+      [
+       "cheol",
+       "cheos"
+      ],
+      [
+       "chl",
+       "chs"
+      ],
+      [
+       "chol",
+       "chos"
+      ],
+      [
+       "lol",
+       "los"
+      ]
+     ]
+    },
+    "ending:ol>s": {
+     "cores": 10,
+     "C": 0.38946390891788185,
+     "z": 3.3340998730094746,
+     "shift": [
+      [
+       "next-front:",
+       0.235
+      ],
+      [
+       "next-front:qo",
+       -0.129
+      ],
+      [
+       "next-end:iin",
+       0.111
+      ],
+      [
+       "prev-end:ol",
+       -0.11
+      ]
+     ],
+     "examples": [
+      [
+       "alol",
+       "als"
+      ],
+      [
+       "cheeol",
+       "chees"
+      ],
+      [
+       "cheol",
+       "ches"
+      ],
+      [
+       "chol",
+       "chs"
+      ],
+      [
+       "lol",
+       "ls"
+      ],
+      [
+       "okeeol",
+       "okees"
+      ]
+     ]
+    },
+    "ending:ol>or": {
+     "cores": 44,
+     "C": 0.17664702967932217,
+     "z": 4.684766934707824,
+     "shift": [
+      [
+       "next-front:d",
+       -0.063
+      ],
+      [
+       "prev-front:o",
+       0.051
+      ],
+      [
+       "prev-end:#",
+       0.048
+      ],
+      [
+       "prev-front:#",
+       0.048
+      ]
+     ],
+     "examples": [
+      [
+       "alol",
+       "alor"
+      ],
+      [
+       "arol",
+       "aror"
+      ],
+      [
+       "cheeol",
+       "cheeor"
+      ],
+      [
+       "cheol",
+       "cheor"
+      ],
+      [
+       "chol",
+       "chor"
+      ],
+      [
+       "ckhol",
+       "ckhor"
+      ]
+     ]
+    },
+    "ending:aiin>dy": {
+     "cores": 9,
+     "C": 0.35214485534142664,
+     "z": 2.6240608130334957,
+     "shift": [
+      [
+       "next-end:#",
+       0.249
+      ],
+      [
+       "next-front:#",
+       0.249
+      ],
+      [
+       "next-front:o",
+       -0.15
+      ],
+      [
+       "prev-end:edy",
+       0.138
+      ]
+     ],
+     "examples": [
+      [
+       "alaiin",
+       "aldy"
+      ],
+      [
+       "chaiin",
+       "chdy"
+      ],
+      [
+       "cthaiin",
+       "cthdy"
+      ],
+      [
+       "laiin",
+       "ldy"
+      ],
+      [
+       "oaiin",
+       "ody"
+      ],
+      [
+       "olaiin",
+       "oldy"
+      ]
+     ]
+    },
+    "ending:aiin>o": {
+     "cores": 9,
+     "C": 0.32271391686246464,
+     "z": 2.5623530249341897,
+     "shift": [
+      [
+       "next-front:",
+       0.287
+      ],
+      [
+       "next-front:o",
+       -0.178
+      ],
+      [
+       "next-end:#",
+       0.109
+      ],
+      [
+       "next-front:#",
+       0.109
+      ]
+     ],
+     "examples": [
+      [
+       "chaiin",
+       "cho"
+      ],
+      [
+       "cthaiin",
+       "ctho"
+      ],
+      [
+       "daiin",
+       "do"
+      ],
+      [
+       "laiin",
+       "lo"
+      ],
+      [
+       "oraiin",
+       "oro"
+      ],
+      [
+       "raiin",
+       "ro"
+      ]
+     ]
+    },
+    "front:->s": {
+     "cores": 16,
+     "C": 0.6691191100906552,
+     "z": 3.4924751875228193,
+     "shift": [
+      [
+       "prev-end:#",
+       0.443
+      ],
+      [
+       "prev-front:#",
+       0.443
+      ],
+      [
+       "prev-front:",
+       -0.229
+      ],
+      [
+       "prev-front:o",
+       -0.161
+      ]
+     ],
+     "examples": [
+      [
+       "aiin",
+       "saiin"
+      ],
+      [
+       "ain",
+       "sain"
+      ],
+      [
+       "air",
+       "sair"
+      ],
+      [
+       "al",
+       "sal"
+      ],
+      [
+       "am",
+       "sam"
+      ],
+      [
+       "ar",
+       "sar"
+      ]
+     ]
+    },
+    "ending:iin>n": {
+     "cores": 8,
+     "C": 0.13635652061305367,
+     "z": 1.0618962916047865,
+     "shift": [
+      [
+       "next-end:#",
+       0.144
+      ],
+      [
+       "next-front:#",
+       0.144
+      ],
+      [
+       "prev-end:ol",
+       -0.098
+      ],
+      [
+       "next-front:qo",
+       -0.095
+      ]
+     ],
+     "examples": [
+      [
+       "aiiin",
+       "ain"
+      ],
+      [
+       "chaiin",
+       "chan"
+      ],
+      [
+       "daiiin",
+       "dain"
+      ],
+      [
+       "daiin",
+       "dan"
+      ],
+      [
+       "oiiin",
+       "oin"
+      ],
+      [
+       "okaiiin",
+       "okain"
+      ]
+     ]
+    },
+    "ending:m>r": {
+     "cores": 27,
+     "C": 0.7755330027071834,
+     "z": 4.961439273241752,
+     "shift": [
+      [
+       "next-end:#",
+       -0.58
+      ],
+      [
+       "next-front:#",
+       -0.58
+      ],
+      [
+       "next-front:",
+       0.187
+      ],
+      [
+       "next-front:o",
+       0.178
+      ]
+     ],
+     "examples": [
+      [
+       "am",
+       "ar"
+      ],
+      [
+       "cham",
+       "char"
+      ],
+      [
+       "chdam",
+       "chdar"
+      ],
+      [
+       "cheam",
+       "chear"
+      ],
+      [
+       "chedam",
+       "chedar"
+      ],
+      [
+       "cheom",
+       "cheor"
+      ]
+     ]
+    },
+    "ending:->ey": {
+     "cores": 10,
+     "C": 0.24365242345722135,
+     "z": 2.5403501844193688,
+     "shift": [
+      [
+       "next-front:qo",
+       0.227
+      ],
+      [
+       "next-front:o",
+       -0.114
+      ],
+      [
+       "next-front:ch",
+       -0.114
+      ],
+      [
+       "prev-front:sh",
+       0.103
+      ]
+     ],
+     "examples": [
+      [
+       "ch",
+       "chey"
+      ],
+      [
+       "k",
+       "key"
+      ],
+      [
+       "ok",
+       "okey"
+      ],
+      [
+       "ot",
+       "otey"
+      ],
+      [
+       "qok",
+       "qokey"
+      ],
+      [
+       "qot",
+       "qotey"
+      ]
+     ]
+    },
+    "ending:->ol": {
+     "cores": 19,
+     "C": 0.2782684780764345,
+     "z": 3.8408736076305945,
+     "shift": [
+      [
+       "next-front:",
+       -0.168
+      ],
+      [
+       "next-front:d",
+       0.101
+      ],
+      [
+       "prev-front:",
+       -0.09
+      ],
+      [
+       "prev-end:ol",
+       0.086
+      ]
+     ],
+     "examples": [
+      [
+       "al",
+       "alol"
+      ],
+      [
+       "ar",
+       "arol"
+      ],
+      [
+       "ch",
+       "chol"
+      ],
+      [
+       "d",
+       "dol"
+      ],
+      [
+       "k",
+       "kol"
+      ],
+      [
+       "l",
+       "lol"
+      ]
+     ]
+    },
+    "ending:->edy": {
+     "cores": 10,
+     "C": 0.4854931760198207,
+     "z": 3.687355997231221,
+     "shift": [
+      [
+       "next-front:qo",
+       0.286
+      ],
+      [
+       "next-end:edy",
+       0.255
+      ],
+      [
+       "prev-end:edy",
+       0.235
+      ],
+      [
+       "next-front:ch",
+       -0.126
+      ]
+     ],
+     "examples": [
+      [
+       "ch",
+       "chedy"
+      ],
+      [
+       "k",
+       "kedy"
+      ],
+      [
+       "ok",
+       "okedy"
+      ],
+      [
+       "ot",
+       "otedy"
+      ],
+      [
+       "qok",
+       "qokedy"
+      ],
+      [
+       "qot",
+       "qotedy"
+      ]
+     ]
+    },
+    "ending:->al": {
+     "cores": 22,
+     "C": 0.1856001764293186,
+     "z": 2.9633486901245987,
+     "shift": [
+      [
+       "next-front:",
+       -0.127
+      ],
+      [
+       "next-end:edy",
+       0.087
+      ],
+      [
+       "prev-end:",
+       -0.073
+      ],
+      [
+       "next-front:d",
+       0.06
+      ]
+     ],
+     "examples": [
+      [
+       "ar",
+       "aral"
+      ],
+      [
+       "ch",
+       "chal"
+      ],
+      [
+       "chd",
+       "chdal"
+      ],
+      [
+       "ched",
+       "chedal"
+      ],
+      [
+       "d",
+       "dal"
+      ],
+      [
+       "k",
+       "kal"
+      ]
+     ]
+    },
+    "ending:->o": {
+     "cores": 9,
+     "C": 0.11219689604268979,
+     "z": 0.9513253610885435,
+     "shift": [
+      [
+       "next-end:#",
+       0.162
+      ],
+      [
+       "next-front:#",
+       0.162
+      ],
+      [
+       "next-front:o",
+       -0.123
+      ],
+      [
+       "next-end:iin",
+       -0.097
+      ]
+     ],
+     "examples": [
+      [
+       "ch",
+       "cho"
+      ],
+      [
+       "d",
+       "do"
+      ],
+      [
+       "l",
+       "lo"
+      ],
+      [
+       "or",
+       "oro"
+      ],
+      [
+       "r",
+       "ro"
+      ],
+      [
+       "s",
+       "so"
+      ]
+     ]
+    },
+    "front:qo>sh": {
+     "cores": 14,
+     "C": 0.3250185924552767,
+     "z": 3.9258793251805413,
+     "shift": [
+      [
+       "prev-front:",
+       0.147
+      ],
+      [
+       "next-front:qo",
+       0.147
+      ],
+      [
+       "next-front:ch",
+       -0.118
+      ],
+      [
+       "prev-end:ey",
+       -0.106
+      ]
+     ],
+     "examples": [
+      [
+       "qoaiin",
+       "shaiin"
+      ],
+      [
+       "qoar",
+       "shar"
+      ],
+      [
+       "qockhey",
+       "shckhey"
+      ],
+      [
+       "qockhy",
+       "shckhy"
+      ],
+      [
+       "qocthy",
+       "shcthy"
+      ],
+      [
+       "qod",
+       "shd"
+      ]
+     ]
+    },
+    "ending:->s": {
+     "cores": 15,
+     "C": 0.1717272476265996,
+     "z": 2.3977672815309763,
+     "shift": [
+      [
+       "next-end:iin",
+       0.117
+      ],
+      [
+       "next-front:",
+       -0.081
+      ],
+      [
+       "next-end:edy",
+       -0.077
+      ],
+      [
+       "next-end:#",
+       0.064
+      ]
+     ],
+     "examples": [
+      [
+       "a",
+       "as"
+      ],
+      [
+       "al",
+       "als"
+      ],
+      [
+       "ch",
+       "chs"
+      ],
+      [
+       "cheeo",
+       "cheeos"
+      ],
+      [
+       "cheo",
+       "cheos"
+      ],
+      [
+       "cho",
+       "chos"
+      ]
+     ]
+    },
+    "ending:al>o": {
+     "cores": 12,
+     "C": 0.2512144082461136,
+     "z": 2.9727323221710082,
+     "shift": [
+      [
+       "next-front:",
+       0.21
+      ],
+      [
+       "next-end:edy",
+       -0.137
+      ],
+      [
+       "next-end:",
+       0.12
+      ],
+      [
+       "next-front:sh",
+       -0.109
+      ]
+     ],
+     "examples": [
+      [
+       "chal",
+       "cho"
+      ],
+      [
+       "cheal",
+       "cheo"
+      ],
+      [
+       "cthal",
+       "ctho"
+      ],
+      [
+       "dal",
+       "do"
+      ],
+      [
+       "lal",
+       "lo"
+      ],
+      [
+       "lchal",
+       "lcho"
+      ]
+     ]
+    },
+    "ending:or>y": {
+     "cores": 46,
+     "C": 0.4186572601293751,
+     "z": 7.702600126388819,
+     "shift": [
+      [
+       "next-end:#",
+       0.141
+      ],
+      [
+       "next-front:#",
+       0.141
+      ],
+      [
+       "prev-front:#",
+       -0.133
+      ],
+      [
+       "prev-end:#",
+       -0.133
+      ]
+     ],
+     "examples": [
+      [
+       "alor",
+       "aly"
+      ],
+      [
+       "aror",
+       "ary"
+      ],
+      [
+       "chdor",
+       "chdy"
+      ],
+      [
+       "cheeor",
+       "cheey"
+      ],
+      [
+       "cheor",
+       "chey"
+      ],
+      [
+       "cholor",
+       "choly"
+      ]
+     ]
+    },
+    "front:ch>q": {
+     "cores": 25,
+     "C": 0.301686945407312,
+     "z": 4.739255785692756,
+     "shift": [
+      [
+       "prev-end:edy",
+       0.138
+      ],
+      [
+       "prev-front:sh",
+       0.126
+      ],
+      [
+       "prev-end:ey",
+       0.098
+      ],
+      [
+       "next-end:edy",
+       0.087
+      ]
+     ],
+     "examples": [
+      [
+       "cho",
+       "qo"
+      ],
+      [
+       "chockhy",
+       "qockhy"
+      ],
+      [
+       "chocthy",
+       "qocthy"
+      ],
+      [
+       "chod",
+       "qod"
+      ],
+      [
+       "chodaiin",
+       "qodaiin"
+      ],
+      [
+       "chodain",
+       "qodain"
+      ]
+     ]
+    },
+    "front:d>y": {
+     "cores": 9,
+     "C": 0.18191893340494864,
+     "z": 1.3297611365085589,
+     "shift": [
+      [
+       "prev-end:#",
+       0.164
+      ],
+      [
+       "prev-front:#",
+       0.164
+      ],
+      [
+       "next-front:o",
+       0.104
+      ],
+      [
+       "next-front:sh",
+       -0.075
+      ]
+     ],
+     "examples": [
+      [
+       "dchedy",
+       "ychedy"
+      ],
+      [
+       "dcheey",
+       "ycheey"
+      ],
+      [
+       "dcheol",
+       "ycheol"
+      ],
+      [
+       "dchey",
+       "ychey"
+      ],
+      [
+       "dchol",
+       "ychol"
+      ],
+      [
+       "dchor",
+       "ychor"
+      ]
+     ]
+    },
+    "front:ch>d": {
+     "cores": 15,
+     "C": 0.44987861363783715,
+     "z": 4.432442259945634,
+     "shift": [
+      [
+       "next-end:#",
+       0.184
+      ],
+      [
+       "next-front:#",
+       0.184
+      ],
+      [
+       "next-front:",
+       -0.123
+      ],
+      [
+       "prev-front:",
+       -0.093
+      ]
+     ],
+     "examples": [
+      [
+       "chaiin",
+       "daiin"
+      ],
+      [
+       "chain",
+       "dain"
+      ],
+      [
+       "chal",
+       "dal"
+      ],
+      [
+       "chaly",
+       "daly"
+      ],
+      [
+       "cham",
+       "dam"
+      ],
+      [
+       "chan",
+       "dan"
+      ]
+     ]
+    },
+    "ending:n>r": {
+     "cores": 15,
+     "C": 0.34357904079288615,
+     "z": 3.8485999038700283,
+     "shift": [
+      [
+       "next-front:",
+       0.143
+      ],
+      [
+       "next-end:#",
+       -0.137
+      ],
+      [
+       "next-front:#",
+       -0.137
+      ],
+      [
+       "next-front:o",
+       0.076
+      ]
+     ],
+     "examples": [
+      [
+       "aiin",
+       "aiir"
+      ],
+      [
+       "ain",
+       "air"
+      ],
+      [
+       "chan",
+       "char"
+      ],
+      [
+       "daiin",
+       "daiir"
+      ],
+      [
+       "dain",
+       "dair"
+      ],
+      [
+       "dan",
+       "dar"
+      ]
+     ]
+    },
+    "ending:r>s": {
+     "cores": 11,
+     "C": 0.1388208061395326,
+     "z": 2.006473608361036,
+     "shift": [
+      [
+       "next-front:",
+       0.126
+      ],
+      [
+       "next-end:iin",
+       0.104
+      ],
+      [
+       "prev-end:or",
+       -0.098
+      ],
+      [
+       "next-front:o",
+       -0.076
+      ]
+     ],
+     "examples": [
+      [
+       "ar",
+       "as"
+      ],
+      [
+       "cheeor",
+       "cheeos"
+      ],
+      [
+       "cheor",
+       "cheos"
+      ],
+      [
+       "chor",
+       "chos"
+      ],
+      [
+       "chr",
+       "chs"
+      ],
+      [
+       "lor",
+       "los"
+      ]
+     ]
+    },
+    "ending:or>s": {
+     "cores": 10,
+     "C": 0.37855797544158387,
+     "z": 3.543404514755329,
+     "shift": [
+      [
+       "next-front:",
+       0.233
+      ],
+      [
+       "next-front:ch",
+       -0.175
+      ],
+      [
+       "next-end:#",
+       0.139
+      ],
+      [
+       "next-front:#",
+       0.139
+      ]
+     ],
+     "examples": [
+      [
+       "alor",
+       "als"
+      ],
+      [
+       "cheeor",
+       "chees"
+      ],
+      [
+       "cheor",
+       "ches"
+      ],
+      [
+       "chor",
+       "chs"
+      ],
+      [
+       "dalor",
+       "dals"
+      ],
+      [
+       "lor",
+       "ls"
+      ]
+     ]
+    },
+    "ending:d>edy": {
+     "cores": 8,
+     "C": 0.2141949896490517,
+     "z": 2.459495353919964,
+     "shift": [
+      [
+       "next-front:qo",
+       0.189
+      ],
+      [
+       "next-end:aiin",
+       0.119
+      ],
+      [
+       "next-end:#",
+       -0.103
+      ],
+      [
+       "next-front:#",
+       -0.103
+      ]
+     ],
+     "examples": [
+      [
+       "chd",
+       "chedy"
+      ],
+      [
+       "ched",
+       "cheedy"
+      ],
+      [
+       "lched",
+       "lcheedy"
+      ],
+      [
+       "okchd",
+       "okchedy"
+      ],
+      [
+       "qokchd",
+       "qokchedy"
+      ],
+      [
+       "qoked",
+       "qokeedy"
+      ]
+     ]
+    },
+    "front:ch>s": {
+     "cores": 10,
+     "C": 0.6311423099446922,
+     "z": 2.895796234339899,
+     "shift": [
+      [
+       "prev-end:#",
+       0.391
+      ],
+      [
+       "prev-front:#",
+       0.391
+      ],
+      [
+       "prev-front:",
+       -0.129
+      ],
+      [
+       "next-front:d",
+       -0.101
+      ]
+     ],
+     "examples": [
+      [
+       "chaiin",
+       "saiin"
+      ],
+      [
+       "chain",
+       "sain"
+      ],
+      [
+       "chal",
+       "sal"
+      ],
+      [
+       "cham",
+       "sam"
+      ],
+      [
+       "char",
+       "sar"
+      ],
+      [
+       "cho",
+       "so"
+      ]
+     ]
+    },
+    "ending:al>dy": {
+     "cores": 10,
+     "C": 0.3605714017633597,
+     "z": 3.260713343215721,
+     "shift": [
+      [
+       "next-front:",
+       -0.146
+      ],
+      [
+       "prev-end:edy",
+       0.137
+      ],
+      [
+       "next-end:#",
+       0.131
+      ],
+      [
+       "next-front:#",
+       0.131
+      ]
+     ],
+     "examples": [
+      [
+       "chal",
+       "chdy"
+      ],
+      [
+       "cheal",
+       "chedy"
+      ],
+      [
+       "cthal",
+       "cthdy"
+      ],
+      [
+       "lal",
+       "ldy"
+      ],
+      [
+       "lchal",
+       "lchdy"
+      ],
+      [
+       "okeal",
+       "okedy"
+      ]
+     ]
+    }
+   }
+  },
+  "hboWLC": {
+   "kit": {
+    "front": [
+     "",
+     "ו",
+     "ה",
+     "ב",
+     "ל",
+     "מ",
+     "וי",
+     "א",
+     "י",
+     "ת"
+    ],
+    "ending": [
+     "",
+     "ו",
+     "ם",
+     "ה",
+     "ת",
+     "י",
+     "ים",
+     "ר",
+     "ך",
+     "ן",
+     "ל",
+     "נו",
+     "ב",
+     "תי",
+     "ד",
+     "יו",
+     "ות",
+     "א",
+     "תם",
+     "ח"
+    ]
+   },
+   "eligible": 43,
+   "consistent": 9,
+   "share": 0.20930232558139536,
+   "median_z": 0.9389914062518188,
+   "pairs": {
+    "front:וי>י": {
+     "cores": 19,
+     "C": 0.3036993201247373,
+     "z": 4.297885913216866,
+     "shift": [
+      [
+       "prev-end:י",
+       0.145
+      ],
+      [
+       "prev-front:א",
+       0.118
+      ],
+      [
+       "prev-end:א",
+       0.117
+      ],
+      [
+       "prev-end:",
+       -0.116
+      ]
+     ],
+     "examples": [
+      [
+       "ויאכל",
+       "יאכל"
+      ],
+      [
+       "ויאמר",
+       "יאמר"
+      ],
+      [
+       "ויבא",
+       "יבא"
+      ],
+      [
+       "וידבר",
+       "ידבר"
+      ],
+      [
+       "ויהוה",
+       "יהוה"
+      ],
+      [
+       "ויהי",
+       "יהי"
+      ]
+     ]
+    },
+    "ending:->ת": {
+     "cores": 17,
+     "C": 0.05102912285427805,
+     "z": 0.8493735323987625,
+     "shift": [
+      [
+       "prev-front:",
+       0.13
+      ],
+      [
+       "next-front:",
+       -0.116
+      ],
+      [
+       "next-front:י",
+       0.113
+      ],
+      [
+       "next-end:ים",
+       0.097
+      ]
+     ],
+     "examples": [
+      [
+       "אמו",
+       "אמות"
+      ],
+      [
+       "אש",
+       "אשת"
+      ],
+      [
+       "בי",
+       "בית"
+      ],
+      [
+       "בנו",
+       "בנות"
+      ],
+      [
+       "השני",
+       "השנית"
+      ],
+      [
+       "ואמר",
+       "ואמרת"
+      ]
+     ]
+    },
+    "ending:ו>י": {
+     "cores": 8,
+     "C": 0.04727352098716947,
+     "z": 0.4810732130854158,
+     "shift": [
+      [
+       "next-end:#",
+       0.095
+      ],
+      [
+       "next-front:#",
+       0.095
+      ],
+      [
+       "next-front:",
+       -0.093
+      ],
+      [
+       "prev-end:ת",
+       0.089
+      ]
+     ],
+     "examples": [
+      [
+       "אתו",
+       "אתי"
+      ],
+      [
+       "בגדו",
+       "בגדי"
+      ],
+      [
+       "בו",
+       "בי"
+      ],
+      [
+       "בנו",
+       "בני"
+      ],
+      [
+       "ידו",
+       "ידי"
+      ],
+      [
+       "לו",
+       "לי"
+      ]
+     ]
+    },
+    "ending:ו>ך": {
+     "cores": 18,
+     "C": 0.2166966286614414,
+     "z": 3.773277866153573,
+     "shift": [
+      [
+       "prev-front:וי",
+       -0.109
+      ],
+      [
+       "prev-front:",
+       0.08
+      ],
+      [
+       "prev-end:י",
+       0.078
+      ],
+      [
+       "next-front:ו",
+       0.078
+      ]
+     ],
+     "examples": [
+      [
+       "אביו",
+       "אביך"
+      ],
+      [
+       "או",
+       "אך"
+      ],
+      [
+       "אחיו",
+       "אחיך"
+      ],
+      [
+       "אליו",
+       "אליך"
+      ],
+      [
+       "אתו",
+       "אתך"
+      ],
+      [
+       "בו",
+       "בך"
+      ]
+     ]
+    },
+    "front:->ה": {
+     "cores": 70,
+     "C": 0.14786830895583541,
+     "z": 4.948255213628092,
+     "shift": [
+      [
+       "next-front:",
+       -0.081
+      ],
+      [
+       "next-front:ו",
+       0.078
+      ],
+      [
+       "prev-front:",
+       -0.076
+      ],
+      [
+       "next-end:ר",
+       0.061
+      ]
+     ],
+     "examples": [
+      [
+       "אבן",
+       "האבן"
+      ],
+      [
+       "אהל",
+       "האהל"
+      ],
+      [
+       "אחד",
+       "האחד"
+      ],
+      [
+       "אחת",
+       "האחת"
+      ],
+      [
+       "איש",
+       "האיש"
+      ],
+      [
+       "אלה",
+       "האלה"
+      ]
+     ]
+    },
+    "front:->ב": {
+     "cores": 37,
+     "C": 0.15523294027130097,
+     "z": 3.7977628945766897,
+     "shift": [
+      [
+       "prev-front:",
+       -0.121
+      ],
+      [
+       "next-front:",
+       -0.108
+      ],
+      [
+       "prev-end:ל",
+       -0.096
+      ],
+      [
+       "next-end:ים",
+       -0.087
+      ]
+     ],
+     "examples": [
+      [
+       "אהל",
+       "באהל"
+      ],
+      [
+       "או",
+       "באו"
+      ],
+      [
+       "אמה",
+       "באמה"
+      ],
+      [
+       "ארץ",
+       "בארץ"
+      ],
+      [
+       "אש",
+       "באש"
+      ],
+      [
+       "באו",
+       "בבאו"
+      ]
+     ]
+    },
+    "ending:->ם": {
+     "cores": 26,
+     "C": 0.05873261023762011,
+     "z": 1.3182499503707599,
+     "shift": [
+      [
+       "next-front:ה",
+       -0.082
+      ],
+      [
+       "prev-front:ה",
+       -0.079
+      ],
+      [
+       "prev-front:",
+       0.064
+      ],
+      [
+       "next-front:וי",
+       0.063
+      ]
+     ],
+     "examples": [
+      [
+       "אביה",
+       "אביהם"
+      ],
+      [
+       "אבני",
+       "אבנים"
+      ],
+      [
+       "אדני",
+       "אדנים"
+      ],
+      [
+       "אלה",
+       "אלהם"
+      ],
+      [
+       "אלהי",
+       "אלהים"
+      ],
+      [
+       "אליה",
+       "אליהם"
+      ]
+     ]
+    },
+    "ending:י>ים": {
+     "cores": 12,
+     "C": 0.17017755822918415,
+     "z": 2.5135619442568125,
+     "shift": [
+      [
+       "next-front:ה",
+       -0.201
+      ],
+      [
+       "prev-front:א",
+       -0.158
+      ],
+      [
+       "prev-front:",
+       0.155
+      ],
+      [
+       "prev-front:ל",
+       0.088
+      ]
+     ],
+     "examples": [
+      [
+       "אבני",
+       "אבנים"
+      ],
+      [
+       "אדני",
+       "אדנים"
+      ],
+      [
+       "אלהי",
+       "אלהים"
+      ],
+      [
+       "אנשי",
+       "אנשים"
+      ],
+      [
+       "בי",
+       "בים"
+      ],
+      [
+       "בני",
+       "בנים"
+      ]
+     ]
+    },
+    "front:->ו": {
+     "cores": 89,
+     "C": 0.19653416426741,
+     "z": 7.507813110441719,
+     "shift": [
+      [
+       "prev-front:ה",
+       0.075
+      ],
+      [
+       "prev-end:",
+       0.074
+      ],
+      [
+       "prev-front:א",
+       -0.061
+      ],
+      [
+       "prev-front:ו",
+       -0.061
+      ]
+     ],
+     "examples": [
+      [
+       "אהרן",
+       "ואהרן"
+      ],
+      [
+       "אחר",
+       "ואחר"
+      ],
+      [
+       "אחרי",
+       "ואחרי"
+      ],
+      [
+       "אין",
+       "ואין"
+      ],
+      [
+       "אכל",
+       "ואכל"
+      ],
+      [
+       "אכלו",
+       "ואכלו"
+      ]
+     ]
+    },
+    "front:א>י": {
+     "cores": 9,
+     "C": -0.015300500474028415,
+     "z": -0.21994823835262853,
+     "shift": [
+      [
+       "prev-end:א",
+       0.171
+      ],
+      [
+       "prev-end:י",
+       -0.105
+      ],
+      [
+       "next-front:ל",
+       0.1
+      ],
+      [
+       "prev-end:ה",
+       -0.1
+      ]
+     ],
+     "examples": [
+      [
+       "אדם",
+       "ידם"
+      ],
+      [
+       "אהיה",
+       "יהיה"
+      ],
+      [
+       "אכלו",
+       "יכלו"
+      ],
+      [
+       "אם",
+       "ים"
+      ],
+      [
+       "אמה",
+       "ימה"
+      ],
+      [
+       "אעשה",
+       "יעשה"
+      ]
+     ]
+    },
+    "front:->א": {
+     "cores": 19,
+     "C": -0.004558404092274167,
+     "z": -0.14687487859272258,
+     "shift": [
+      [
+       "next-end:ת",
+       -0.091
+      ],
+      [
+       "next-end:ך",
+       0.071
+      ],
+      [
+       "prev-end:ה",
+       -0.071
+      ],
+      [
+       "next-front:י",
+       -0.065
+      ]
+     ],
+     "examples": [
+      [
+       "בי",
+       "אבי"
+      ],
+      [
+       "בן",
+       "אבן"
+      ],
+      [
+       "בני",
+       "אבני"
+      ],
+      [
+       "בנים",
+       "אבנים"
+      ],
+      [
+       "דם",
+       "אדם"
+      ],
+      [
+       "היה",
+       "אהיה"
+      ]
+     ]
+    },
+    "ending:->י": {
+     "cores": 17,
+     "C": -0.0066251528247400285,
+     "z": -0.17380714061718847,
+     "shift": [
+      [
+       "prev-front:וי",
+       -0.078
+      ],
+      [
+       "next-end:ן",
+       0.069
+      ],
+      [
+       "next-front:ה",
+       -0.067
+      ],
+      [
+       "prev-front:א",
+       0.054
+      ]
+     ],
+     "examples": [
+      [
+       "אחר",
+       "אחרי"
+      ],
+      [
+       "אל",
+       "אלי"
+      ],
+      [
+       "אלה",
+       "אלהי"
+      ],
+      [
+       "את",
+       "אתי"
+      ],
+      [
+       "דבר",
+       "דברי"
+      ],
+      [
+       "ואחר",
+       "ואחרי"
+      ]
+     ]
+    },
+    "front:ב>ה": {
+     "cores": 25,
+     "C": 0.19780529318578768,
+     "z": 3.9881096558904687,
+     "shift": [
+      [
+       "prev-end:ל",
+       0.142
+      ],
+      [
+       "prev-front:",
+       0.113
+      ],
+      [
+       "prev-end:ר",
+       -0.097
+      ],
+      [
+       "prev-front:ה",
+       -0.095
+      ]
+     ],
+     "examples": [
+      [
+       "באהל",
+       "האהל"
+      ],
+      [
+       "בארץ",
+       "הארץ"
+      ],
+      [
+       "באש",
+       "האש"
+      ],
+      [
+       "בבית",
+       "הבית"
+      ],
+      [
+       "בבקר",
+       "הבקר"
+      ],
+      [
+       "בדרך",
+       "הדרך"
+      ]
+     ]
+    },
+    "front:ב>מ": {
+     "cores": 16,
+     "C": -0.044884192026554824,
+     "z": -0.7556492919589003,
+     "shift": [
+      [
+       "next-front:א",
+       -0.088
+      ],
+      [
+       "next-end:ד",
+       -0.068
+      ],
+      [
+       "next-end:ה",
+       0.06
+      ],
+      [
+       "next-end:#",
+       0.054
+      ]
+     ],
+     "examples": [
+      [
+       "באה",
+       "מאה"
+      ],
+      [
+       "בארץ",
+       "מארץ"
+      ],
+      [
+       "בבית",
+       "מבית"
+      ],
+      [
+       "בה",
+       "מה"
+      ],
+      [
+       "בהר",
+       "מהר"
+      ],
+      [
+       "בי",
+       "מי"
+      ]
+     ]
+    },
+    "front:->וי": {
+     "cores": 25,
+     "C": 0.24810270339636945,
+     "z": 4.87161056684689,
+     "shift": [
+      [
+       "prev-front:ו",
+       -0.115
+      ],
+      [
+       "next-front:",
+       -0.106
+      ],
+      [
+       "prev-front:ה",
+       0.087
+      ],
+      [
+       "prev-front:ל",
+       -0.087
+      ]
+     ],
+     "examples": [
+      [
+       "אכל",
+       "ויאכל"
+      ],
+      [
+       "אמר",
+       "ויאמר"
+      ],
+      [
+       "בא",
+       "ויבא"
+      ],
+      [
+       "באו",
+       "ויבאו"
+      ],
+      [
+       "בך",
+       "ויבך"
+      ],
+      [
+       "בן",
+       "ויבן"
+      ]
+     ]
+    },
+    "ending:ך>נו": {
+     "cores": 10,
+     "C": 0.0747130971211156,
+     "z": 0.9389914062518188,
+     "shift": [
+      [
+       "next-front:ה",
+       0.145
+      ],
+      [
+       "next-end:#",
+       -0.078
+      ],
+      [
+       "next-front:#",
+       -0.078
+      ],
+      [
+       "next-end:ך",
+       -0.077
+      ]
+     ],
+     "examples": [
+      [
+       "אביך",
+       "אבינו"
+      ],
+      [
+       "אחיך",
+       "אחינו"
+      ],
+      [
+       "אלהיך",
+       "אלהינו"
+      ],
+      [
+       "אליך",
+       "אלינו"
+      ],
+      [
+       "אתך",
+       "אתנו"
+      ],
+      [
+       "בך",
+       "בנו"
+      ]
+     ]
+    },
+    "front:->ל": {
+     "cores": 39,
+     "C": 0.1759631954479252,
+     "z": 4.514576907415868,
+     "shift": [
+      [
+       "prev-end:ל",
+       -0.123
+      ],
+      [
+       "prev-front:א",
+       -0.091
+      ],
+      [
+       "prev-end:ת",
+       -0.082
+      ],
+      [
+       "next-front:ו",
+       0.064
+      ]
+     ],
+     "examples": [
+      [
+       "אביו",
+       "לאביו"
+      ],
+      [
+       "אברהם",
+       "לאברהם"
+      ],
+      [
+       "אדני",
+       "לאדני"
+      ],
+      [
+       "אהל",
+       "לאהל"
+      ],
+      [
+       "אהרן",
+       "לאהרן"
+      ],
+      [
+       "אחיו",
+       "לאחיו"
+      ]
+     ]
+    },
+    "front:->מ": {
+     "cores": 29,
+     "C": 0.023775823706225958,
+     "z": 0.5102595619844496,
+     "shift": [
+      [
+       "next-front:",
+       -0.07
+      ],
+      [
+       "next-front:י",
+       -0.064
+      ],
+      [
+       "prev-front:",
+       -0.063
+      ],
+      [
+       "prev-front:ה",
+       0.063
+      ]
+     ],
+     "examples": [
+      [
+       "ארץ",
+       "מארץ"
+      ],
+      [
+       "את",
+       "מאת"
+      ],
+      [
+       "בית",
+       "מבית"
+      ],
+      [
+       "בנות",
+       "מבנות"
+      ],
+      [
+       "דבר",
+       "מדבר"
+      ],
+      [
+       "דם",
+       "מדם"
+      ]
+     ]
+    },
+    "front:ה>מ": {
+     "cores": 11,
+     "C": 0.08732272340043394,
+     "z": 0.8995442600339295,
+     "shift": [
+      [
+       "next-end:ים",
+       0.145
+      ],
+      [
+       "prev-end:ה",
+       0.143
+      ],
+      [
+       "next-front:",
+       0.106
+      ],
+      [
+       "next-front:ה",
+       0.1
+      ]
+     ],
+     "examples": [
+      [
+       "הארץ",
+       "מארץ"
+      ],
+      [
+       "הבית",
+       "מבית"
+      ],
+      [
+       "הדבר",
+       "מדבר"
+      ],
+      [
+       "הדם",
+       "מדם"
+      ],
+      [
+       "ההר",
+       "מהר"
+      ],
+      [
+       "הזה",
+       "מזה"
+      ]
+     ]
+    },
+    "front:ה>ל": {
+     "cores": 13,
+     "C": 0.164634367751987,
+     "z": 2.715594706890885,
+     "shift": [
+      [
+       "prev-front:א",
+       -0.175
+      ],
+      [
+       "prev-end:ת",
+       -0.161
+      ],
+      [
+       "prev-end:ל",
+       -0.158
+      ],
+      [
+       "prev-end:ים",
+       0.156
+      ]
+     ],
+     "examples": [
+      [
+       "האהל",
+       "לאהל"
+      ],
+      [
+       "האיש",
+       "לאיש"
+      ],
+      [
+       "האלהים",
+       "לאלהים"
+      ],
+      [
+       "האשה",
+       "לאשה"
+      ],
+      [
+       "הבדים",
+       "לבדים"
+      ],
+      [
+       "הבית",
+       "לבית"
+      ]
+     ]
+    },
+    "front:א>ב": {
+     "cores": 9,
+     "C": 0.17207482288957038,
+     "z": 1.4982669093101446,
+     "shift": [
+      [
+       "next-front:",
+       -0.131
+      ],
+      [
+       "next-front:ב",
+       -0.106
+      ],
+      [
+       "prev-front:",
+       -0.094
+      ],
+      [
+       "next-end:ל",
+       0.083
+      ]
+     ],
+     "examples": [
+      [
+       "או",
+       "בו"
+      ],
+      [
+       "אין",
+       "בין"
+      ],
+      [
+       "אך",
+       "בך"
+      ],
+      [
+       "אכל",
+       "בכל"
+      ],
+      [
+       "אם",
+       "בם"
+      ],
+      [
+       "אני",
+       "בני"
+      ]
+     ]
+    },
+    "ending:ך>ם": {
+     "cores": 10,
+     "C": -0.0282830284765269,
+     "z": -0.3332297491164081,
+     "shift": [
+      [
+       "next-front:וי",
+       0.128
+      ],
+      [
+       "next-end:#",
+       -0.115
+      ],
+      [
+       "next-front:#",
+       -0.115
+      ],
+      [
+       "prev-front:וי",
+       0.094
+      ]
+     ],
+     "examples": [
+      [
+       "אותך",
+       "אותם"
+      ],
+      [
+       "אך",
+       "אם"
+      ],
+      [
+       "אלהיך",
+       "אלהים"
+      ],
+      [
+       "ארך",
+       "ארם"
+      ],
+      [
+       "אתך",
+       "אתם"
+      ],
+      [
+       "בך",
+       "בם"
+      ]
+     ]
+    },
+    "ending:->ו": {
+     "cores": 45,
+     "C": 0.20263978495100185,
+     "z": 5.1931266064962305,
+     "shift": [
+      [
+       "next-front:ו",
+       0.102
+      ],
+      [
+       "next-front:י",
+       -0.098
+      ],
+      [
+       "next-end:ת",
+       0.069
+      ],
+      [
+       "next-end:ה",
+       -0.069
+      ]
+     ],
+     "examples": [
+      [
+       "אבי",
+       "אביו"
+      ],
+      [
+       "אדני",
+       "אדניו"
+      ],
+      [
+       "אהל",
+       "אהלו"
+      ],
+      [
+       "אחי",
+       "אחיו"
+      ],
+      [
+       "אכל",
+       "אכלו"
+      ],
+      [
+       "אלי",
+       "אליו"
+      ]
+     ]
+    },
+    "front:ו>ל": {
+     "cores": 14,
+     "C": 0.13754680615056117,
+     "z": 2.153595118097261,
+     "shift": [
+      [
+       "prev-front:",
+       -0.159
+      ],
+      [
+       "next-front:ו",
+       0.131
+      ],
+      [
+       "next-front:#",
+       0.105
+      ],
+      [
+       "next-end:#",
+       0.105
+      ]
+     ],
+     "examples": [
+      [
+       "ואהרן",
+       "לאהרן"
+      ],
+      [
+       "ואכל",
+       "לאכל"
+      ],
+      [
+       "ואמר",
+       "לאמר"
+      ],
+      [
+       "ובני",
+       "לבני"
+      ],
+      [
+       "והם",
+       "להם"
+      ],
+      [
+       "ווי",
+       "לוי"
+      ]
+     ]
+    },
+    "front:ו>וי": {
+     "cores": 9,
+     "C": -0.02123122940074104,
+     "z": -0.3012722008045438,
+     "shift": [
+      [
+       "next-end:ו",
+       -0.136
+      ],
+      [
+       "next-front:א",
+       -0.114
+      ],
+      [
+       "next-front:מ",
+       0.109
+      ],
+      [
+       "next-front:ו",
+       -0.102
+      ]
+     ],
+     "examples": [
+      [
+       "ואכל",
+       "ויאכל"
+      ],
+      [
+       "ואמר",
+       "ויאמר"
+      ],
+      [
+       "והיו",
+       "ויהיו"
+      ],
+      [
+       "ויראו",
+       "וייראו"
+      ],
+      [
+       "ולכו",
+       "וילכו"
+      ],
+      [
+       "ומת",
+       "וימת"
+      ]
+     ]
+    },
+    "ending:ה>ת": {
+     "cores": 11,
+     "C": 0.07159695165586177,
+     "z": 1.0121484337727717,
+     "shift": [
+      [
+       "next-front:י",
+       0.161
+      ],
+      [
+       "next-end:ת",
+       -0.149
+      ],
+      [
+       "next-end:ים",
+       0.127
+      ],
+      [
+       "prev-end:ל",
+       0.125
+      ]
+     ],
+     "examples": [
+      [
+       "אשה",
+       "אשת"
+      ],
+      [
+       "בה",
+       "בת"
+      ],
+      [
+       "היריעה",
+       "היריעת"
+      ],
+      [
+       "מאה",
+       "מאת"
+      ],
+      [
+       "מה",
+       "מת"
+      ],
+      [
+       "מלאכה",
+       "מלאכת"
+      ]
+     ]
+    },
+    "ending:ה>י": {
+     "cores": 13,
+     "C": -0.044635331851683294,
+     "z": -0.6506973869261224,
+     "shift": [
+      [
+       "prev-end:ל",
+       0.115
+      ],
+      [
+       "next-end:ר",
+       -0.073
+      ],
+      [
+       "next-end:ה",
+       -0.07
+      ],
+      [
+       "prev-end:ן",
+       -0.068
+      ]
+     ],
+     "examples": [
+      [
+       "אלה",
+       "אלי"
+      ],
+      [
+       "אתה",
+       "אתי"
+      ],
+      [
+       "בה",
+       "בי"
+      ],
+      [
+       "ונתתה",
+       "ונתתי"
+      ],
+      [
+       "ימה",
+       "ימי"
+      ],
+      [
+       "כה",
+       "כי"
+      ]
+     ]
+    },
+    "front:ל>מ": {
+     "cores": 9,
+     "C": 0.08370019454496312,
+     "z": 0.9073651775055155,
+     "shift": [
+      [
+       "next-front:",
+       0.178
+      ],
+      [
+       "prev-end:ה",
+       -0.11
+      ],
+      [
+       "next-front:א",
+       -0.095
+      ],
+      [
+       "prev-front:א",
+       0.071
+      ]
+     ],
+     "examples": [
+      [
+       "לאה",
+       "מאה"
+      ],
+      [
+       "לבית",
+       "מבית"
+      ],
+      [
+       "לדבר",
+       "מדבר"
+      ],
+      [
+       "לה",
+       "מה"
+      ],
+      [
+       "לי",
+       "מי"
+      ],
+      [
+       "לכל",
+       "מכל"
+      ]
+     ]
+    },
+    "ending:->ה": {
+     "cores": 28,
+     "C": 0.09519234222348064,
+     "z": 2.3711639556918325,
+     "shift": [
+      [
+       "next-front:ו",
+       0.073
+      ],
+      [
+       "next-front:א",
+       -0.068
+      ],
+      [
+       "next-end:#",
+       0.067
+      ],
+      [
+       "next-front:#",
+       0.067
+      ]
+     ],
+     "examples": [
+      [
+       "אבי",
+       "אביה"
+      ],
+      [
+       "אחת",
+       "אחתה"
+      ],
+      [
+       "אל",
+       "אלה"
+      ],
+      [
+       "אלי",
+       "אליה"
+      ],
+      [
+       "ארבע",
+       "ארבעה"
+      ],
+      [
+       "אש",
+       "אשה"
+      ]
+     ]
+    },
+    "ending:->ך": {
+     "cores": 16,
+     "C": 0.13432571625663592,
+     "z": 2.288659772863196,
+     "shift": [
+      [
+       "next-front:י",
+       -0.107
+      ],
+      [
+       "next-end:ה",
+       -0.098
+      ],
+      [
+       "next-front:ו",
+       0.088
+      ],
+      [
+       "prev-end:ו",
+       -0.068
+      ]
+     ],
+     "examples": [
+      [
+       "אבי",
+       "אביך"
+      ],
+      [
+       "אחי",
+       "אחיך"
+      ],
+      [
+       "אלהי",
+       "אלהיך"
+      ],
+      [
+       "אלי",
+       "אליך"
+      ],
+      [
+       "את",
+       "אתך"
+      ],
+      [
+       "ביד",
+       "בידך"
+      ]
+     ]
+    },
+    "ending:י>ן": {
+     "cores": 9,
+     "C": 0.04807168893889574,
+     "z": 0.47540685105617386,
+     "shift": [
+      [
+       "prev-front:",
+       -0.135
+      ],
+      [
+       "prev-end:ת",
+       0.103
+      ],
+      [
+       "next-front:ו",
+       -0.093
+      ],
+      [
+       "next-end:ת",
+       0.093
+      ]
+     ],
+     "examples": [
+      [
+       "אבי",
+       "אבן"
+      ],
+      [
+       "אתי",
+       "אתן"
+      ],
+      [
+       "בי",
+       "בן"
+      ],
+      [
+       "וכי",
+       "וכן"
+      ],
+      [
+       "חי",
+       "חן"
+      ],
+      [
+       "כי",
+       "כן"
+      ]
+     ]
+    },
+    "ending:י>יו": {
+     "cores": 12,
+     "C": 0.20138161844755056,
+     "z": 2.7132660492442344,
+     "shift": [
+      [
+       "next-front:",
+       -0.132
+      ],
+      [
+       "next-end:ת",
+       0.116
+      ],
+      [
+       "next-front:י",
+       -0.115
+      ],
+      [
+       "next-front:א",
+       0.106
+      ]
+     ],
+     "examples": [
+      [
+       "אבי",
+       "אביו"
+      ],
+      [
+       "אדני",
+       "אדניו"
+      ],
+      [
+       "אחי",
+       "אחיו"
+      ],
+      [
+       "אלי",
+       "אליו"
+      ],
+      [
+       "בני",
+       "בניו"
+      ],
+      [
+       "ובני",
+       "ובניו"
+      ]
+     ]
+    },
+    "front:א>ל": {
+     "cores": 8,
+     "C": -0.03389248931928303,
+     "z": -0.49607965384680985,
+     "shift": [
+      [
+       "next-end:ם",
+       -0.124
+      ],
+      [
+       "next-front:ה",
+       0.095
+      ],
+      [
+       "prev-end:ה",
+       0.094
+      ],
+      [
+       "next-end:ה",
+       0.093
+      ]
+     ],
+     "examples": [
+      [
+       "אבן",
+       "לבן"
+      ],
+      [
+       "אבני",
+       "לבני"
+      ],
+      [
+       "או",
+       "לו"
+      ],
+      [
+       "אחת",
+       "לחת"
+      ],
+      [
+       "אך",
+       "לך"
+      ],
+      [
+       "אכל",
+       "לכל"
+      ]
+     ]
+    },
+    "ending:ה>ו": {
+     "cores": 20,
+     "C": 0.011249108141185975,
+     "z": 0.23072025775333513,
+     "shift": [
+      [
+       "prev-end:ל",
+       0.084
+      ],
+      [
+       "next-front:ל",
+       -0.079
+      ],
+      [
+       "prev-end:ים",
+       -0.077
+      ],
+      [
+       "next-end:",
+       0.045
+      ]
+     ],
+     "examples": [
+      [
+       "אביה",
+       "אביו"
+      ],
+      [
+       "אליה",
+       "אליו"
+      ],
+      [
+       "אמה",
+       "אמו"
+      ],
+      [
+       "אתה",
+       "אתו"
+      ],
+      [
+       "באה",
+       "באו"
+      ],
+      [
+       "בה",
+       "בו"
+      ]
+     ]
+    },
+    "ending:ו>ם": {
+     "cores": 10,
+     "C": -0.11762228155795404,
+     "z": -1.4754824951718781,
+     "shift": [
+      [
+       "next-end:ו",
+       -0.1
+      ],
+      [
+       "next-front:ל",
+       0.085
+      ],
+      [
+       "prev-end:י",
+       0.085
+      ],
+      [
+       "next-front:",
+       -0.075
+      ]
+     ],
+     "examples": [
+      [
+       "אדניו",
+       "אדנים"
+      ],
+      [
+       "או",
+       "אם"
+      ],
+      [
+       "אתו",
+       "אתם"
+      ],
+      [
+       "בו",
+       "בם"
+      ],
+      [
+       "בניו",
+       "בנים"
+      ],
+      [
+       "היו",
+       "הים"
+      ]
+     ]
+    },
+    "ending:->ים": {
+     "cores": 17,
+     "C": 0.09279117053233701,
+     "z": 1.5322964212925807,
+     "shift": [
+      [
+       "next-front:ל",
+       0.172
+      ],
+      [
+       "next-end:ות",
+       -0.125
+      ],
+      [
+       "prev-end:ה",
+       -0.106
+      ],
+      [
+       "prev-front:ה",
+       -0.102
+      ]
+     ],
+     "examples": [
+      [
+       "אלה",
+       "אלהים"
+      ],
+      [
+       "ארבע",
+       "ארבעים"
+      ],
+      [
+       "בת",
+       "בתים"
+      ],
+      [
+       "האלה",
+       "האלהים"
+      ],
+      [
+       "הדבר",
+       "הדברים"
+      ],
+      [
+       "הילד",
+       "הילדים"
+      ]
+     ]
+    },
+    "front:->ת": {
+     "cores": 12,
+     "C": -0.12635897498562496,
+     "z": -1.6060447152037656,
+     "shift": [
+      [
+       "prev-end:י",
+       -0.127
+      ],
+      [
+       "prev-end:ה",
+       0.055
+      ],
+      [
+       "next-end:ל",
+       0.053
+      ],
+      [
+       "prev-end:ים",
+       0.049
+      ]
+     ],
+     "examples": [
+      [
+       "אכלו",
+       "תאכלו"
+      ],
+      [
+       "בן",
+       "תבן"
+      ],
+      [
+       "דבר",
+       "תדבר"
+      ],
+      [
+       "היה",
+       "תהיה"
+      ],
+      [
+       "יראו",
+       "תיראו"
+      ],
+      [
+       "מיד",
+       "תמיד"
+      ]
+     ]
+    },
+    "front:->י": {
+     "cores": 19,
+     "C": 0.04146841707123744,
+     "z": 0.7628507118972299,
+     "shift": [
+      [
+       "prev-end:ה",
+       -0.103
+      ],
+      [
+       "next-front:י",
+       -0.087
+      ],
+      [
+       "prev-front:ו",
+       -0.083
+      ],
+      [
+       "next-front:",
+       0.063
+      ]
+     ],
+     "examples": [
+      [
+       "אכל",
+       "יאכל"
+      ],
+      [
+       "אמר",
+       "יאמר"
+      ],
+      [
+       "בא",
+       "יבא"
+      ],
+      [
+       "דבר",
+       "ידבר"
+      ],
+      [
+       "דם",
+       "ידם"
+      ],
+      [
+       "היה",
+       "יהיה"
+      ]
+     ]
+    },
+    "ending:ה>ר": {
+     "cores": 8,
+     "C": -0.1209383893785417,
+     "z": -1.5427361344597932,
+     "shift": [
+      [
+       "next-end:ב",
+       0.133
+      ],
+      [
+       "prev-front:א",
+       -0.099
+      ],
+      [
+       "next-front:ו",
+       -0.095
+      ],
+      [
+       "next-front:ה",
+       0.086
+      ]
+     ],
+     "examples": [
+      [
+       "אמה",
+       "אמר"
+      ],
+      [
+       "אשה",
+       "אשר"
+      ],
+      [
+       "בה",
+       "בר"
+      ],
+      [
+       "ואמה",
+       "ואמר"
+      ],
+      [
+       "זה",
+       "זר"
+      ],
+      [
+       "עדה",
+       "עדר"
+      ]
+     ]
+    },
+    "ending:ו>נו": {
+     "cores": 8,
+     "C": 0.2307123742967468,
+     "z": 2.784025520517823,
+     "shift": [
+      [
+       "next-front:ה",
+       0.146
+      ],
+      [
+       "prev-front:וי",
+       -0.145
+      ],
+      [
+       "prev-front:",
+       0.145
+      ],
+      [
+       "next-front:",
+       -0.098
+      ]
+     ],
+     "examples": [
+      [
+       "אביו",
+       "אבינו"
+      ],
+      [
+       "אחיו",
+       "אחינו"
+      ],
+      [
+       "אליו",
+       "אלינו"
+      ],
+      [
+       "אתו",
+       "אתנו"
+      ],
+      [
+       "בו",
+       "בנו"
+      ],
+      [
+       "לו",
+       "לנו"
+      ]
+     ]
+    },
+    "front:ב>ל": {
+     "cores": 15,
+     "C": 0.07049930330996375,
+     "z": 1.400272353821388,
+     "shift": [
+      [
+       "next-front:",
+       0.13
+      ],
+      [
+       "prev-end:ה",
+       0.09
+      ],
+      [
+       "next-front:#",
+       -0.077
+      ],
+      [
+       "next-end:#",
+       -0.077
+      ]
+     ],
+     "examples": [
+      [
+       "בא",
+       "לא"
+      ],
+      [
+       "באה",
+       "לאה"
+      ],
+      [
+       "באהל",
+       "לאהל"
+      ],
+      [
+       "בבית",
+       "לבית"
+      ],
+      [
+       "בה",
+       "לה"
+      ],
+      [
+       "בהם",
+       "להם"
+      ]
+     ]
+    },
+    "ending:ה>ים": {
+     "cores": 10,
+     "C": 0.05524909385989063,
+     "z": 0.6992223637847438,
+     "shift": [
+      [
+       "prev-end:ת",
+       0.141
+      ],
+      [
+       "next-front:ל",
+       0.105
+      ],
+      [
+       "prev-end:ים",
+       -0.101
+      ],
+      [
+       "next-front:ו",
+       -0.099
+      ]
+     ],
+     "examples": [
+      [
+       "ארבעה",
+       "ארבעים"
+      ],
+      [
+       "בה",
+       "בים"
+      ],
+      [
+       "המה",
+       "המים"
+      ],
+      [
+       "וחמשה",
+       "וחמשים"
+      ],
+      [
+       "חמשה",
+       "חמשים"
+      ],
+      [
+       "ימה",
+       "ימים"
+      ]
+     ]
+    },
+    "front:ו>מ": {
+     "cores": 8,
+     "C": -0.07551893079607049,
+     "z": -1.1923591094600055,
+     "shift": [
+      [
+       "next-end:ה",
+       0.091
+      ],
+      [
+       "prev-end:ים",
+       -0.089
+      ],
+      [
+       "prev-front:י",
+       0.086
+      ],
+      [
+       "next-front:ו",
+       0.085
+      ]
+     ],
+     "examples": [
+      [
+       "ואת",
+       "מאת"
+      ],
+      [
+       "וזה",
+       "מזה"
+      ],
+      [
+       "וכל",
+       "מכל"
+      ],
+      [
+       "ולא",
+       "מלא"
+      ],
+      [
+       "ועל",
+       "מעל"
+      ],
+      [
+       "ועשה",
+       "מעשה"
+      ]
+     ]
+    }
+   }
+  },
+  "latVUC": {
+   "kit": {
+    "front": [
+     "",
+     "p",
+     "c",
+     "a",
+     "s",
+     "m",
+     "d",
+     "i",
+     "v",
+     "co"
+    ],
+    "ending": [
+     "",
+     "s",
+     "m",
+     "t",
+     "e",
+     "is",
+     "um",
+     "i",
+     "us",
+     "a",
+     "it",
+     "r",
+     "ue",
+     "que",
+     "o",
+     "nt",
+     "am",
+     "es",
+     "ur",
+     "em"
+    ]
+   },
+   "eligible": 33,
+   "consistent": 12,
+   "share": 0.36363636363636365,
+   "median_z": 2.6476194967787845,
+   "pairs": {
+    "ending:m>s": {
+     "cores": 30,
+     "C": 0.20973582904785773,
+     "z": 4.555048260145131,
+     "shift": [
+      [
+       "next-end:um",
+       -0.107
+      ],
+      [
+       "next-end:s",
+       0.096
+      ],
+      [
+       "next-end:am",
+       -0.077
+      ],
+      [
+       "prev-front:s",
+       0.071
+      ]
+     ],
+     "examples": [
+      [
+       "aquam",
+       "aquas"
+      ],
+      [
+       "bovem",
+       "boves"
+      ],
+      [
+       "deum",
+       "deus"
+      ],
+      [
+       "diem",
+       "dies"
+      ],
+      [
+       "dominum",
+       "dominus"
+      ],
+      [
+       "domum",
+       "domus"
+      ]
+     ]
+    },
+    "ending:em>is": {
+     "cores": 12,
+     "C": 0.08296284373956392,
+     "z": 0.9888602138768966,
+     "shift": [
+      [
+       "prev-front:",
+       0.158
+      ],
+      [
+       "next-end:um",
+       -0.139
+      ],
+      [
+       "prev-end:",
+       -0.131
+      ],
+      [
+       "prev-front:a",
+       -0.119
+      ]
+     ],
+     "examples": [
+      [
+       "diem",
+       "diis"
+      ],
+      [
+       "fratrem",
+       "fratris"
+      ],
+      [
+       "hominem",
+       "hominis"
+      ],
+      [
+       "montem",
+       "montis"
+      ],
+      [
+       "omnem",
+       "omnis"
+      ],
+      [
+       "panem",
+       "panis"
+      ]
+     ]
+    },
+    "ending:em>es": {
+     "cores": 11,
+     "C": 0.21685542449977865,
+     "z": 3.513507720458142,
+     "shift": [
+      [
+       "next-end:s",
+       0.178
+      ],
+      [
+       "prev-front:s",
+       0.14
+      ],
+      [
+       "next-end:um",
+       -0.129
+      ],
+      [
+       "next-end:am",
+       -0.117
+      ]
+     ],
+     "examples": [
+      [
+       "bovem",
+       "boves"
+      ],
+      [
+       "diem",
+       "dies"
+      ],
+      [
+       "faciem",
+       "facies"
+      ],
+      [
+       "fratrem",
+       "fratres"
+      ],
+      [
+       "generationem",
+       "generationes"
+      ],
+      [
+       "gregem",
+       "greges"
+      ]
+     ]
+    },
+    "ending:->s": {
+     "cores": 50,
+     "C": 0.15859337489882094,
+     "z": 4.29715230835932,
+     "shift": [
+      [
+       "next-end:o",
+       -0.101
+      ],
+      [
+       "prev-end:s",
+       0.079
+      ],
+      [
+       "prev-end:us",
+       0.077
+      ],
+      [
+       "next-end:t",
+       0.073
+      ]
+     ],
+     "examples": [
+      [
+       "agri",
+       "agris"
+      ],
+      [
+       "anni",
+       "annis"
+      ],
+      [
+       "aqua",
+       "aquas"
+      ],
+      [
+       "cuncti",
+       "cunctis"
+      ],
+      [
+       "deo",
+       "deos"
+      ],
+      [
+       "die",
+       "dies"
+      ]
+     ]
+    },
+    "ending:->m": {
+     "cores": 26,
+     "C": 0.2097736216062425,
+     "z": 3.9566789524511337,
+     "shift": [
+      [
+       "next-end:am",
+       0.122
+      ],
+      [
+       "prev-end:",
+       -0.113
+      ],
+      [
+       "prev-front:i",
+       -0.098
+      ],
+      [
+       "prev-end:a",
+       -0.093
+      ]
+     ],
+     "examples": [
+      [
+       "aqua",
+       "aquam"
+      ],
+      [
+       "die",
+       "diem"
+      ],
+      [
+       "ea",
+       "eam"
+      ],
+      [
+       "facie",
+       "faciem"
+      ],
+      [
+       "filia",
+       "filiam"
+      ],
+      [
+       "fratre",
+       "fratrem"
+      ]
+     ]
+    },
+    "ending:a>am": {
+     "cores": 13,
+     "C": 0.294688535597139,
+     "z": 3.3424210941117387,
+     "shift": [
+      [
+       "prev-end:",
+       -0.145
+      ],
+      [
+       "prev-end:a",
+       -0.126
+      ],
+      [
+       "next-end:am",
+       0.112
+      ],
+      [
+       "prev-front:i",
+       -0.107
+      ]
+     ],
+     "examples": [
+      [
+       "aqua",
+       "aquam"
+      ],
+      [
+       "ea",
+       "eam"
+      ],
+      [
+       "filia",
+       "filiam"
+      ],
+      [
+       "illa",
+       "illam"
+      ],
+      [
+       "lia",
+       "liam"
+      ],
+      [
+       "mea",
+       "meam"
+      ]
+     ]
+    },
+    "ending:a>is": {
+     "cores": 12,
+     "C": 0.24678517689621837,
+     "z": 2.4055994483585574,
+     "shift": [
+      [
+       "prev-end:a",
+       -0.199
+      ],
+      [
+       "prev-end:is",
+       0.197
+      ],
+      [
+       "prev-end:us",
+       0.197
+      ],
+      [
+       "next-end:us",
+       0.084
+      ]
+     ],
+     "examples": [
+      [
+       "cuncta",
+       "cunctis"
+      ],
+      [
+       "ea",
+       "eis"
+      ],
+      [
+       "filia",
+       "filiis"
+      ],
+      [
+       "illa",
+       "illis"
+      ],
+      [
+       "jumenta",
+       "jumentis"
+      ],
+      [
+       "mea",
+       "meis"
+      ]
+     ]
+    },
+    "ending:a>um": {
+     "cores": 17,
+     "C": 0.2435616125404067,
+     "z": 3.1714788357089394,
+     "shift": [
+      [
+       "prev-end:a",
+       -0.157
+      ],
+      [
+       "prev-end:um",
+       0.137
+      ],
+      [
+       "next-end:um",
+       0.125
+      ],
+      [
+       "prev-end:em",
+       0.121
+      ]
+     ],
+     "examples": [
+      [
+       "altera",
+       "alterum"
+      ],
+      [
+       "ea",
+       "eum"
+      ],
+      [
+       "filia",
+       "filium"
+      ],
+      [
+       "illa",
+       "illum"
+      ],
+      [
+       "ista",
+       "istum"
+      ],
+      [
+       "jumenta",
+       "jumentum"
+      ]
+     ]
+    },
+    "ending:a>i": {
+     "cores": 12,
+     "C": 0.34372393836978926,
+     "z": 3.0736809560220673,
+     "shift": [
+      [
+       "prev-end:a",
+       -0.187
+      ],
+      [
+       "prev-end:i",
+       0.173
+      ],
+      [
+       "prev-end:is",
+       0.165
+      ],
+      [
+       "prev-end:",
+       -0.164
+      ]
+     ],
+     "examples": [
+      [
+       "cuncta",
+       "cuncti"
+      ],
+      [
+       "ea",
+       "ei"
+      ],
+      [
+       "filia",
+       "filii"
+      ],
+      [
+       "illa",
+       "illi"
+      ],
+      [
+       "ipsa",
+       "ipsi"
+      ],
+      [
+       "ista",
+       "isti"
+      ]
+     ]
+    },
+    "ending:a>o": {
+     "cores": 13,
+     "C": 0.2465617369857598,
+     "z": 2.7278288803747706,
+     "shift": [
+      [
+       "prev-end:o",
+       0.201
+      ],
+      [
+       "prev-end:a",
+       -0.189
+      ],
+      [
+       "prev-front:d",
+       0.085
+      ],
+      [
+       "next-front:",
+       -0.085
+      ]
+     ],
+     "examples": [
+      [
+       "altera",
+       "altero"
+      ],
+      [
+       "ea",
+       "eo"
+      ],
+      [
+       "filia",
+       "filio"
+      ],
+      [
+       "illa",
+       "illo"
+      ],
+      [
+       "ipsa",
+       "ipso"
+      ],
+      [
+       "ista",
+       "isto"
+      ]
+     ]
+    },
+    "ending:um>us": {
+     "cores": 12,
+     "C": 0.33943340962170643,
+     "z": 3.337421267169947,
+     "shift": [
+      [
+       "next-end:um",
+       -0.169
+      ],
+      [
+       "prev-end:us",
+       0.158
+      ],
+      [
+       "next-end:us",
+       0.135
+      ],
+      [
+       "prev-end:",
+       -0.13
+      ]
+     ],
+     "examples": [
+      [
+       "deum",
+       "deus"
+      ],
+      [
+       "dominum",
+       "dominus"
+      ],
+      [
+       "domum",
+       "domus"
+      ],
+      [
+       "filium",
+       "filius"
+      ],
+      [
+       "manum",
+       "manus"
+      ],
+      [
+       "meum",
+       "meus"
+      ]
+     ]
+    },
+    "ending:i>is": {
+     "cores": 22,
+     "C": 0.14472209491615634,
+     "z": 2.5640329389277947,
+     "shift": [
+      [
+       "prev-end:us",
+       0.139
+      ],
+      [
+       "next-end:o",
+       -0.103
+      ],
+      [
+       "next-end:is",
+       0.087
+      ],
+      [
+       "prev-end:nt",
+       -0.073
+      ]
+     ],
+     "examples": [
+      [
+       "agri",
+       "agris"
+      ],
+      [
+       "anni",
+       "annis"
+      ],
+      [
+       "cuncti",
+       "cunctis"
+      ],
+      [
+       "ei",
+       "eis"
+      ],
+      [
+       "filii",
+       "filiis"
+      ],
+      [
+       "fratri",
+       "fratris"
+      ]
+     ]
+    },
+    "ending:i>um": {
+     "cores": 22,
+     "C": 0.2630198400596362,
+     "z": 3.7072917292231184,
+     "shift": [
+      [
+       "next-end:um",
+       0.152
+      ],
+      [
+       "prev-end:",
+       0.144
+      ],
+      [
+       "prev-front:i",
+       0.141
+      ],
+      [
+       "prev-end:i",
+       -0.101
+      ]
+     ],
+     "examples": [
+      [
+       "agri",
+       "agrum"
+      ],
+      [
+       "cæli",
+       "cælum"
+      ],
+      [
+       "dei",
+       "deum"
+      ],
+      [
+       "domini",
+       "dominum"
+      ],
+      [
+       "ei",
+       "eum"
+      ],
+      [
+       "filii",
+       "filium"
+      ]
+     ]
+    },
+    "ending:i>o": {
+     "cores": 21,
+     "C": 0.37214012201474833,
+     "z": 5.350451291845754,
+     "shift": [
+      [
+       "prev-end:o",
+       0.193
+      ],
+      [
+       "prev-front:",
+       -0.173
+      ],
+      [
+       "next-end:o",
+       0.143
+      ],
+      [
+       "prev-front:i",
+       0.143
+      ]
+     ],
+     "examples": [
+      [
+       "agri",
+       "agro"
+      ],
+      [
+       "anni",
+       "anno"
+      ],
+      [
+       "dei",
+       "deo"
+      ],
+      [
+       "domini",
+       "domino"
+      ],
+      [
+       "ei",
+       "eo"
+      ],
+      [
+       "filii",
+       "filio"
+      ]
+     ]
+    },
+    "ending:o>um": {
+     "cores": 22,
+     "C": 0.332112791978047,
+     "z": 4.744761138238721,
+     "shift": [
+      [
+       "prev-end:o",
+       -0.165
+      ],
+      [
+       "prev-front:d",
+       -0.154
+      ],
+      [
+       "prev-end:e",
+       -0.154
+      ],
+      [
+       "next-end:um",
+       0.114
+      ]
+     ],
+     "examples": [
+      [
+       "agro",
+       "agrum"
+      ],
+      [
+       "altero",
+       "alterum"
+      ],
+      [
+       "deo",
+       "deum"
+      ],
+      [
+       "deserto",
+       "desertum"
+      ],
+      [
+       "domino",
+       "dominum"
+      ],
+      [
+       "domo",
+       "domum"
+      ]
+     ]
+    },
+    "ending:->que": {
+     "cores": 18,
+     "C": 0.19366570134134078,
+     "z": 3.0766483017419266,
+     "shift": [
+      [
+       "prev-end:t",
+       -0.125
+      ],
+      [
+       "prev-front:",
+       -0.112
+      ],
+      [
+       "prev-end:um",
+       0.092
+      ],
+      [
+       "next-end:",
+       0.084
+      ]
+     ],
+     "examples": [
+      [
+       "appellavit",
+       "appellavitque"
+      ],
+      [
+       "at",
+       "atque"
+      ],
+      [
+       "benedixit",
+       "benedixitque"
+      ],
+      [
+       "cum",
+       "cumque"
+      ],
+      [
+       "dabo",
+       "daboque"
+      ],
+      [
+       "dedit",
+       "deditque"
+      ]
+     ]
+    },
+    "ending:am>e": {
+     "cores": 9,
+     "C": -0.06946722172277749,
+     "z": -0.639320948006016,
+     "shift": [
+      [
+       "next-end:",
+       -0.123
+      ],
+      [
+       "next-front:",
+       0.106
+      ],
+      [
+       "prev-front:d",
+       0.093
+      ],
+      [
+       "prev-end:us",
+       0.073
+      ]
+     ],
+     "examples": [
+      [
+       "coram",
+       "core"
+      ],
+      [
+       "dimittam",
+       "dimitte"
+      ],
+      [
+       "faciam",
+       "facie"
+      ],
+      [
+       "illam",
+       "ille"
+      ],
+      [
+       "mittam",
+       "mitte"
+      ],
+      [
+       "nam",
+       "ne"
+      ]
+     ]
+    },
+    "ending:am>um": {
+     "cores": 8,
+     "C": 0.12244835104674387,
+     "z": 1.1064006666245707,
+     "shift": [
+      [
+       "prev-front:",
+       0.112
+      ],
+      [
+       "prev-end:um",
+       0.108
+      ],
+      [
+       "prev-end:am",
+       -0.107
+      ],
+      [
+       "prev-front:m",
+       -0.099
+      ]
+     ],
+     "examples": [
+      [
+       "eam",
+       "eum"
+      ],
+      [
+       "filiam",
+       "filium"
+      ],
+      [
+       "illam",
+       "illum"
+      ],
+      [
+       "meam",
+       "meum"
+      ],
+      [
+       "nam",
+       "num"
+      ],
+      [
+       "suam",
+       "suum"
+      ]
+     ]
+    },
+    "ending:am>o": {
+     "cores": 8,
+     "C": 0.25476353489663534,
+     "z": 2.223002295881706,
+     "shift": [
+      [
+       "prev-end:o",
+       0.214
+      ],
+      [
+       "prev-end:am",
+       -0.12
+      ],
+      [
+       "next-end:o",
+       0.102
+      ],
+      [
+       "prev-front:m",
+       -0.097
+      ]
+     ],
+     "examples": [
+      [
+       "eam",
+       "eo"
+      ],
+      [
+       "filiam",
+       "filio"
+      ],
+      [
+       "illam",
+       "illo"
+      ],
+      [
+       "meam",
+       "meo"
+      ],
+      [
+       "quam",
+       "quo"
+      ],
+      [
+       "suam",
+       "suo"
+      ]
+     ]
+    },
+    "ending:is>um": {
+     "cores": 13,
+     "C": 0.2725620422204385,
+     "z": 2.8538258942946277,
+     "shift": [
+      [
+       "next-end:um",
+       0.199
+      ],
+      [
+       "prev-end:is",
+       -0.17
+      ],
+      [
+       "prev-end:us",
+       -0.151
+      ],
+      [
+       "prev-end:um",
+       0.143
+      ]
+     ],
+     "examples": [
+      [
+       "agris",
+       "agrum"
+      ],
+      [
+       "eis",
+       "eum"
+      ],
+      [
+       "filiis",
+       "filium"
+      ],
+      [
+       "illis",
+       "illum"
+      ],
+      [
+       "jumentis",
+       "jumentum"
+      ],
+      [
+       "meis",
+       "meum"
+      ]
+     ]
+    },
+    "ending:is>o": {
+     "cores": 14,
+     "C": 0.2540149692967219,
+     "z": 2.7003323838471407,
+     "shift": [
+      [
+       "prev-end:o",
+       0.214
+      ],
+      [
+       "prev-end:is",
+       -0.168
+      ],
+      [
+       "next-front:",
+       -0.14
+      ],
+      [
+       "next-end:o",
+       0.117
+      ]
+     ],
+     "examples": [
+      [
+       "agris",
+       "agro"
+      ],
+      [
+       "annis",
+       "anno"
+      ],
+      [
+       "eis",
+       "eo"
+      ],
+      [
+       "eris",
+       "ero"
+      ],
+      [
+       "estis",
+       "esto"
+      ],
+      [
+       "filiis",
+       "filio"
+      ]
+     ]
+    },
+    "ending:->a": {
+     "cores": 8,
+     "C": -0.011200823737091553,
+     "z": -0.13407225731329359,
+     "shift": [
+      [
+       "next-front:",
+       0.173
+      ],
+      [
+       "next-front:m",
+       -0.127
+      ],
+      [
+       "next-end:",
+       0.11
+      ],
+      [
+       "prev-end:a",
+       0.098
+      ]
+     ],
+     "examples": [
+      [
+       "ad",
+       "ada"
+      ],
+      [
+       "alter",
+       "altera"
+      ],
+      [
+       "e",
+       "ea"
+      ],
+      [
+       "fili",
+       "filia"
+      ],
+      [
+       "me",
+       "mea"
+      ],
+      [
+       "omni",
+       "omnia"
+      ]
+     ]
+    },
+    "ending:i>us": {
+     "cores": 11,
+     "C": 0.29274123115573486,
+     "z": 2.4559583870812842,
+     "shift": [
+      [
+       "prev-end:i",
+       -0.184
+      ],
+      [
+       "next-end:nt",
+       -0.179
+      ],
+      [
+       "next-front:s",
+       -0.153
+      ],
+      [
+       "next-end:i",
+       -0.142
+      ]
+     ],
+     "examples": [
+      [
+       "dei",
+       "deus"
+      ],
+      [
+       "domini",
+       "dominus"
+      ],
+      [
+       "egressi",
+       "egressus"
+      ],
+      [
+       "filii",
+       "filius"
+      ],
+      [
+       "ingressi",
+       "ingressus"
+      ],
+      [
+       "mei",
+       "meus"
+      ]
+     ]
+    },
+    "ending:o>us": {
+     "cores": 11,
+     "C": 0.26093998550829955,
+     "z": 2.6476194967787845,
+     "shift": [
+      [
+       "prev-end:o",
+       -0.214
+      ],
+      [
+       "next-end:o",
+       -0.151
+      ],
+      [
+       "prev-end:r",
+       0.126
+      ],
+      [
+       "prev-end:us",
+       0.125
+      ]
+     ],
+     "examples": [
+      [
+       "deo",
+       "deus"
+      ],
+      [
+       "domino",
+       "dominus"
+      ],
+      [
+       "domo",
+       "domus"
+      ],
+      [
+       "filio",
+       "filius"
+      ],
+      [
+       "meo",
+       "meus"
+      ],
+      [
+       "mortuo",
+       "mortuus"
+      ]
+     ]
+    },
+    "front:->m": {
+     "cores": 9,
+     "C": 0.18919758171605322,
+     "z": 1.9248127370290307,
+     "shift": [
+      [
+       "next-end:t",
+       0.142
+      ],
+      [
+       "prev-front:p",
+       0.125
+      ],
+      [
+       "prev-end:it",
+       -0.115
+      ],
+      [
+       "prev-end:um",
+       0.109
+      ]
+     ],
+     "examples": [
+      [
+       "e",
+       "me"
+      ],
+      [
+       "ea",
+       "mea"
+      ],
+      [
+       "eam",
+       "meam"
+      ],
+      [
+       "ei",
+       "mei"
+      ],
+      [
+       "eis",
+       "meis"
+      ],
+      [
+       "eo",
+       "meo"
+      ]
+     ]
+    },
+    "ending:->um": {
+     "cores": 9,
+     "C": 0.23129485620221177,
+     "z": 2.9472906248012816,
+     "shift": [
+      [
+       "next-end:um",
+       0.187
+      ],
+      [
+       "prev-end:um",
+       0.142
+      ],
+      [
+       "next-end:us",
+       -0.126
+      ],
+      [
+       "prev-front:",
+       -0.121
+      ]
+     ],
+     "examples": [
+      [
+       "alter",
+       "alterum"
+      ],
+      [
+       "de",
+       "deum"
+      ],
+      [
+       "e",
+       "eum"
+      ],
+      [
+       "fili",
+       "filium"
+      ],
+      [
+       "me",
+       "meum"
+      ],
+      [
+       "omni",
+       "omnium"
+      ]
+     ]
+    },
+    "ending:->i": {
+     "cores": 9,
+     "C": 0.05509069014475934,
+     "z": 0.6036075846439084,
+     "shift": [
+      [
+       "next-front:m",
+       -0.13
+      ],
+      [
+       "prev-front:",
+       -0.114
+      ],
+      [
+       "prev-front:s",
+       0.086
+      ],
+      [
+       "prev-end:a",
+       -0.084
+      ]
+     ],
+     "examples": [
+      [
+       "de",
+       "dei"
+      ],
+      [
+       "e",
+       "ei"
+      ],
+      [
+       "fili",
+       "filii"
+      ],
+      [
+       "her",
+       "heri"
+      ],
+      [
+       "me",
+       "mei"
+      ],
+      [
+       "quas",
+       "quasi"
+      ]
+     ]
+    },
+    "ending:->o": {
+     "cores": 8,
+     "C": 0.1428441169473907,
+     "z": 1.7093042107916874,
+     "shift": [
+      [
+       "prev-front:",
+       -0.214
+      ],
+      [
+       "prev-front:d",
+       0.182
+      ],
+      [
+       "prev-end:o",
+       0.119
+      ],
+      [
+       "next-end:o",
+       0.089
+      ]
+     ],
+     "examples": [
+      [
+       "alter",
+       "altero"
+      ],
+      [
+       "de",
+       "deo"
+      ],
+      [
+       "e",
+       "eo"
+      ],
+      [
+       "est",
+       "esto"
+      ],
+      [
+       "fili",
+       "filio"
+      ],
+      [
+       "me",
+       "meo"
+      ]
+     ]
+    },
+    "ending:e>is": {
+     "cores": 13,
+     "C": 0.22127875851528808,
+     "z": 2.385777711091548,
+     "shift": [
+      [
+       "prev-end:",
+       -0.26
+      ],
+      [
+       "prev-front:i",
+       -0.208
+      ],
+      [
+       "next-end:o",
+       -0.176
+      ],
+      [
+       "prev-front:",
+       0.162
+      ]
+     ],
+     "examples": [
+      [
+       "die",
+       "diis"
+      ],
+      [
+       "flumine",
+       "fluminis"
+      ],
+      [
+       "fratre",
+       "fratris"
+      ],
+      [
+       "homine",
+       "hominis"
+      ],
+      [
+       "ille",
+       "illis"
+      ],
+      [
+       "itinere",
+       "itineris"
+      ]
+     ]
+    },
+    "ending:e>i": {
+     "cores": 12,
+     "C": 0.022817526376964496,
+     "z": 0.30632616296732873,
+     "shift": [
+      [
+       "next-end:t",
+       -0.141
+      ],
+      [
+       "next-end:o",
+       0.091
+      ],
+      [
+       "prev-front:a",
+       -0.09
+      ],
+      [
+       "prev-front:m",
+       0.064
+      ]
+     ],
+     "examples": [
+      [
+       "domine",
+       "domini"
+      ],
+      [
+       "forte",
+       "forti"
+      ],
+      [
+       "fratre",
+       "fratri"
+      ],
+      [
+       "ille",
+       "illi"
+      ],
+      [
+       "ipse",
+       "ipsi"
+      ],
+      [
+       "iste",
+       "isti"
+      ]
+     ]
+    },
+    "ending:->is": {
+     "cores": 9,
+     "C": 0.030127239579878,
+     "z": 0.3010342575734197,
+     "shift": [
+      [
+       "next-end:us",
+       -0.164
+      ],
+      [
+       "prev-front:",
+       -0.127
+      ],
+      [
+       "next-end:",
+       0.111
+      ],
+      [
+       "prev-end:us",
+       0.097
+      ]
+     ],
+     "examples": [
+      [
+       "e",
+       "eis"
+      ],
+      [
+       "erit",
+       "eritis"
+      ],
+      [
+       "est",
+       "estis"
+      ],
+      [
+       "faciet",
+       "facietis"
+      ],
+      [
+       "fili",
+       "filiis"
+      ],
+      [
+       "me",
+       "meis"
+      ]
+     ]
+    },
+    "ending:e>em": {
+     "cores": 11,
+     "C": 0.03443092569211691,
+     "z": 0.467896129452113,
+     "shift": [
+      [
+       "next-end:o",
+       -0.125
+      ],
+      [
+       "next-end:a",
+       -0.106
+      ],
+      [
+       "next-end:am",
+       0.105
+      ],
+      [
+       "prev-front:a",
+       0.096
+      ]
+     ],
+     "examples": [
+      [
+       "die",
+       "diem"
+      ],
+      [
+       "facie",
+       "faciem"
+      ],
+      [
+       "fratre",
+       "fratrem"
+      ],
+      [
+       "homine",
+       "hominem"
+      ],
+      [
+       "monte",
+       "montem"
+      ],
+      [
+       "omne",
+       "omnem"
+      ]
+     ]
+    },
+    "ending:->t": {
+     "cores": 11,
+     "C": -0.008844650333364616,
+     "z": -0.04304721857076196,
+     "shift": [
+      [
+       "next-front:i",
+       0.158
+      ],
+      [
+       "next-front:p",
+       -0.093
+      ],
+      [
+       "next-front:",
+       -0.09
+      ],
+      [
+       "next-end:em",
+       -0.082
+      ]
+     ],
+     "examples": [
+      [
+       "a",
+       "at"
+      ],
+      [
+       "audivi",
+       "audivit"
+      ],
+      [
+       "dimitte",
+       "dimittet"
+      ],
+      [
+       "dixi",
+       "dixit"
+      ],
+      [
+       "e",
+       "et"
+      ],
+      [
+       "es",
+       "est"
+      ]
+     ]
+    }
+   }
+  },
+  "deu1912": {
+   "kit": {
+    "front": [
+     "",
+     "s",
+     "g",
+     "h",
+     "b",
+     "ge",
+     "w",
+     "e",
+     "a",
+     "m"
+    ],
+    "ending": [
+     "",
+     "n",
+     "en",
+     "e",
+     "t",
+     "r",
+     "s",
+     "te",
+     "er",
+     "ten",
+     "gen",
+     "g",
+     "h",
+     "l",
+     "st",
+     "m",
+     "et",
+     "d",
+     "hen",
+     "es"
+    ]
+   },
+   "eligible": 28,
+   "consistent": 9,
+   "share": 0.32142857142857145,
+   "median_z": 2.7319110047278814,
+   "pairs": {
+    "ending:en>t": {
+     "cores": 12,
+     "C": 0.10232539301696637,
+     "z": 1.2462845968580647
+    },
+    "ending:->n": {
+     "cores": 55,
+     "C": 0.18185208781638632,
+     "z": 4.624935844335551
+    },
+    "ending:->en": {
+     "cores": 30,
+     "C": 0.14619884993047239,
+     "z": 3.3184925907409566
+    },
+    "ending:->e": {
+     "cores": 25,
+     "C": 0.20480668692916087,
+     "z": 3.082501920824496
+    },
+    "ending:->er": {
+     "cores": 14,
+     "C": 0.09036112141345996,
+     "z": 1.0311647217601791
+    },
+    "ending:->es": {
+     "cores": 15,
+     "C": 0.2741029912591975,
+     "z": 2.765381048780262
+    },
+    "ending:e>en": {
+     "cores": 44,
+     "C": 0.15739151839888219,
+     "z": 3.8126294861592154
+    },
+    "front:->s": {
+     "cores": 9,
+     "C": 0.16417628073182758,
+     "z": 2.2533673508220633
+    },
+    "front:->m": {
+     "cores": 8,
+     "C": 0.31690720642076353,
+     "z": 2.601831472316633
+    },
+    "ending:m>n": {
+     "cores": 14,
+     "C": 0.3356619482483985,
+     "z": 4.021824962003884
+    },
+    "ending:m>r": {
+     "cores": 12,
+     "C": 0.21742627786705768,
+     "z": 2.766927631650193
+    },
+    "ending:m>s": {
+     "cores": 8,
+     "C": 0.62154487549483,
+     "z": 2.710778375617045
+    },
+    "ending:->s": {
+     "cores": 35,
+     "C": 0.321865815135759,
+     "z": 5.153940114532419
+    },
+    "ending:n>r": {
+     "cores": 17,
+     "C": 0.1591329171159979,
+     "z": 2.1159767222161503
+    },
+    "ending:en>er": {
+     "cores": 13,
+     "C": 0.23747981605051202,
+     "z": 2.7530436338387183
+    },
+    "front:s>w": {
+     "cores": 8,
+     "C": -0.011101589280266406,
+     "z": -0.12649869458681107
+    },
+    "ending:en>te": {
+     "cores": 9,
+     "C": 0.31489878606263616,
+     "z": 2.5696489085850986
+    },
+    "ending:n>s": {
+     "cores": 10,
+     "C": 0.492496265456064,
+     "z": 3.021241283123484
+    },
+    "ending:r>s": {
+     "cores": 10,
+     "C": 0.45314456742254033,
+     "z": 3.0073375840969048
+    },
+    "ending:er>es": {
+     "cores": 8,
+     "C": 0.543581673818079,
+     "z": 2.9156582171288226
+    },
+    "ending:te>ten": {
+     "cores": 11,
+     "C": 0.24409625021462233,
+     "z": 2.70916336491738
+    },
+    "ending:e>es": {
+     "cores": 14,
+     "C": 0.33940403449083056,
+     "z": 2.9212570813067917
+    },
+    "ending:->r": {
+     "cores": 12,
+     "C": 0.17188243095746572,
+     "z": 2.039595809547362
+    },
+    "ending:->m": {
+     "cores": 10,
+     "C": 0.4055258429610893,
+     "z": 3.3145940823764892
+    },
+    "ending:e>er": {
+     "cores": 9,
+     "C": 0.2095959147203126,
+     "z": 2.0575654852778755
+    },
+    "ending:->t": {
+     "cores": 8,
+     "C": 0.1685082317744559,
+     "z": 1.8139772720607572
+    },
+    "ending:e>t": {
+     "cores": 8,
+     "C": 0.04949051034743914,
+     "z": 0.6109258885286188
+    },
+    "front:m>s": {
+     "cores": 8,
+     "C": 0.22658251130090457,
+     "z": 2.379888978687114
+    }
+   }
+  },
+  "turytc": {
+   "kit": {
+    "front": [
+     "",
+     "k",
+     "y",
+     "b",
+     "g",
+     "a",
+     "s",
+     "d",
+     "e",
+     "ya"
+    ],
+    "ending": [
+     "",
+     "n",
+     "ı",
+     "a",
+     "i",
+     "r",
+     "e",
+     "ın",
+     "m",
+     "k",
+     "in",
+     "an",
+     "z",
+     "ar",
+     "u",
+     "en",
+     "nı",
+     "lar",
+     "er",
+     "da"
+    ]
+   },
+   "eligible": 19,
+   "consistent": 0,
+   "share": 0.0,
+   "median_z": 0.8762710071530506,
+   "pairs": {
+    "ending:->n": {
+     "cores": 53,
+     "C": 0.009928973020031593,
+     "z": 0.3049857748368482
+    },
+    "ending:a>an": {
+     "cores": 10,
+     "C": 0.09910385343926675,
+     "z": 1.2454875281884752
+    },
+    "ending:->nı": {
+     "cores": 11,
+     "C": 0.08130508586966188,
+     "z": 1.0471606068480344
+    },
+    "ending:ı>ın": {
+     "cores": 16,
+     "C": -0.055795762384078164,
+     "z": -0.8734073374346943
+    },
+    "ending:->m": {
+     "cores": 17,
+     "C": 0.06270377638688909,
+     "z": 0.8762710071530506
+    },
+    "ending:e>i": {
+     "cores": 11,
+     "C": 0.00922667341194519,
+     "z": 0.13620784777681302
+    },
+    "ending:->ın": {
+     "cores": 13,
+     "C": 0.074791938116409,
+     "z": 1.0904366590344894
+    },
+    "ending:->e": {
+     "cores": 10,
+     "C": 0.14982986902687692,
+     "z": 1.6985252071911252
+    },
+    "ending:i>in": {
+     "cores": 13,
+     "C": 0.0379593114144316,
+     "z": 0.5784430495836199
+    },
+    "ending:a>ı": {
+     "cores": 12,
+     "C": -0.03417963062758909,
+     "z": -0.4712931724464896
+    },
+    "ending:a>ın": {
+     "cores": 15,
+     "C": 0.0810375632357709,
+     "z": 1.2525566937286683
+    },
+    "front:b>s": {
+     "cores": 10,
+     "C": -0.08155260514461612,
+     "z": -0.9474185412010147
+    },
+    "ending:->i": {
+     "cores": 15,
+     "C": 0.07752201194675391,
+     "z": 1.6083152134375553
+    },
+    "ending:->in": {
+     "cores": 9,
+     "C": 0.040152347457830063,
+     "z": 0.516466202686118
+    },
+    "ending:->lar": {
+     "cores": 9,
+     "C": 0.03469721638639235,
+     "z": 0.4421357449198452
+    },
+    "ending:->ı": {
+     "cores": 14,
+     "C": -0.04894334730213223,
+     "z": -1.0245123709387192
+    },
+    "ending:a>da": {
+     "cores": 11,
+     "C": 0.16199171808726484,
+     "z": 1.6439349942347745
+    },
+    "ending:e>in": {
+     "cores": 9,
+     "C": 0.24337790994815015,
+     "z": 2.3004656655786633
+    },
+    "ending:->a": {
+     "cores": 11,
+     "C": 0.07108408701077334,
+     "z": 1.0353111796299086
+    }
+   }
+  },
+  "eng-kjv": {
+   "kit": {
+    "front": [
+     "",
+     "s",
+     "b",
+     "h",
+     "m",
+     "w",
+     "a",
+     "c",
+     "t",
+     "p"
+    ],
+    "ending": [
+     "",
+     "d",
+     "s",
+     "e",
+     "ed",
+     "t",
+     "h",
+     "n",
+     "r",
+     "y",
+     "er",
+     "th",
+     "l",
+     "es",
+     "g",
+     "ng",
+     "st",
+     "ing",
+     "ah",
+     "'s"
+    ]
+   },
+   "eligible": 6,
+   "consistent": 1,
+   "share": 0.16666666666666666,
+   "median_z": 1.469845130596057,
+   "pairs": {
+    "front:->s": {
+     "cores": 10,
+     "C": -0.14334112762938112,
+     "z": -1.3058293291431202
+    },
+    "ending:->'s": {
+     "cores": 14,
+     "C": 0.38671655346287537,
+     "z": 4.110660365706656
+    },
+    "ending:->s": {
+     "cores": 21,
+     "C": 0.1011303576079491,
+     "z": 1.287665714534413
+    },
+    "ending:->n": {
+     "cores": 10,
+     "C": 0.2811322676441914,
+     "z": 2.440904398238225
+    },
+    "front:t>w": {
+     "cores": 9,
+     "C": 0.15981592089094473,
+     "z": 1.6520245466577008
+    },
+    "ending:->ed": {
+     "cores": 9,
+     "C": 0.1400203051488136,
+     "z": 1.2646752008378537
+    }
+   }
+  },
+  "indayt": {
+   "kit": {
+    "front": [
+     "",
+     "m",
+     "me",
+     "b",
+     "k",
+     "s",
+     "d",
+     "t",
+     "be",
+     "p"
+    ],
+    "ending": [
+     "",
+     "a",
+     "n",
+     "an",
+     "ya",
+     "nya",
+     "u",
+     "h",
+     "ah",
+     "kan",
+     "i",
+     "lah",
+     "mu",
+     "ku",
+     "t",
+     "g",
+     "ng",
+     "r",
+     "nnya",
+     "k"
+    ]
+   },
+   "eligible": 8,
+   "consistent": 4,
+   "share": 0.5,
+   "median_z": 2.8124390498904352,
+   "pairs": {
+    "ending:->nya": {
+     "cores": 56,
+     "C": 0.21457596971184573,
+     "z": 5.629871404900401
+    },
+    "ending:->mu": {
+     "cores": 30,
+     "C": 0.1541056744301869,
+     "z": 3.011753275167111
+    },
+    "ending:->ku": {
+     "cores": 21,
+     "C": 0.16065128356481873,
+     "z": 3.0692496088203907
+    },
+    "ending:mu>nya": {
+     "cores": 21,
+     "C": 0.2113087074922894,
+     "z": 3.587243039033684
+    },
+    "ending:ku>nya": {
+     "cores": 16,
+     "C": 0.1368367685759819,
+     "z": 2.216030923989241
+    },
+    "ending:ku>mu": {
+     "cores": 16,
+     "C": -0.028611296803228117,
+     "z": -0.39528619627758416
+    },
+    "ending:->lah": {
+     "cores": 18,
+     "C": 0.1651164692414796,
+     "z": 2.613124824613759
+    },
+    "ending:n>nnya": {
+     "cores": 14,
+     "C": 0.14889915290392822,
+     "z": 1.958165824470454
+    }
+   }
+  },
+  "generator_31": {
+   "kit": {
+    "front": [
+     "",
+     "c",
+     "o",
+     "ch",
+     "a",
+     "y",
+     "s",
+     "d",
+     "sh",
+     "k"
+    ],
+    "ending": [
+     "",
+     "l",
+     "r",
+     "y",
+     "ol",
+     "m",
+     "ar",
+     "al",
+     "or",
+     "dy",
+     "n",
+     "d",
+     "om",
+     "in",
+     "am",
+     "edy",
+     "s",
+     "o",
+     "iin",
+     "hol"
+    ]
+   },
+   "eligible": 112,
+   "consistent": 85,
+   "share": 0.7589285714285714,
+   "median_z": 4.121993000755699,
+   "pairs": {
+    "ending:l>r": {
+     "cores": 157,
+     "C": 0.17404115531632786,
+     "z": 8.997538842405875
+    },
+    "ending:ol>y": {
+     "cores": 53,
+     "C": 0.23688258571049928,
+     "z": 6.42637228745878
+    },
+    "ending:ol>or": {
+     "cores": 79,
+     "C": 0.15079716639727903,
+     "z": 5.478030121162355
+    },
+    "front:->ch": {
+     "cores": 123,
+     "C": 0.0970134344572486,
+     "z": 3.5277204539920297
+    },
+    "ending:->om": {
+     "cores": 16,
+     "C": -0.07786815500632663,
+     "z": -0.694366844098652
+    },
+    "ending:l>m": {
+     "cores": 69,
+     "C": 0.6217227087868485,
+     "z": 8.302259660647065
+    },
+    "ending:ol>om": {
+     "cores": 33,
+     "C": 0.6078635151026249,
+     "z": 5.75051571599715
+    },
+    "front:->o": {
+     "cores": 100,
+     "C": 0.07191054674273724,
+     "z": 2.468927642041605
+    },
+    "front:->y": {
+     "cores": 71,
+     "C": 0.1264836717507335,
+     "z": 3.9967065861347852
+    },
+    "front:->k": {
+     "cores": 35,
+     "C": 0.4065058020702386,
+     "z": 4.746644979348899
+    },
+    "front:sh>y": {
+     "cores": 36,
+     "C": 0.13703014843846134,
+     "z": 3.198923414582151
+    },
+    "ending:dy>y": {
+     "cores": 21,
+     "C": 0.21626675610242754,
+     "z": 4.385680827960411
+    },
+    "ending:dy>ol": {
+     "cores": 31,
+     "C": 0.27343287514479353,
+     "z": 5.53684023272561
+    },
+    "ending:dy>or": {
+     "cores": 23,
+     "C": 0.20364430984565263,
+     "z": 3.797518793542015
+    },
+    "ending:dy>om": {
+     "cores": 12,
+     "C": 0.5254889011243109,
+     "z": 3.441954441913435
+    },
+    "ending:dy>edy": {
+     "cores": 30,
+     "C": 0.21075864437041159,
+     "z": 3.0875295760894748
+    },
+    "ending:dy>o": {
+     "cores": 18,
+     "C": 0.2945000458051556,
+     "z": 4.3914058431742085
+    },
+    "front:c>s": {
+     "cores": 46,
+     "C": 0.191226886580308,
+     "z": 5.575633234200035
+    },
+    "front:ch>o": {
+     "cores": 52,
+     "C": 0.0067117732468684336,
+     "z": 0.23516275533168468
+    },
+    "front:ch>y": {
+     "cores": 43,
+     "C": 0.022646601652649857,
+     "z": 0.6178085982093667
+    },
+    "front:ch>sh": {
+     "cores": 46,
+     "C": 0.191226886580308,
+     "z": 5.539371924339761
+    },
+    "front:ch>k": {
+     "cores": 15,
+     "C": 0.16915811625704621,
+     "z": 1.5433683824458277
+    },
+    "ending:->y": {
+     "cores": 43,
+     "C": 0.19441587304377306,
+     "z": 4.881695432702602
+    },
+    "ending:->ol": {
+     "cores": 51,
+     "C": 0.23730823770125573,
+     "z": 5.0593849810864375
+    },
+    "ending:->ar": {
+     "cores": 42,
+     "C": 0.28085272740479233,
+     "z": 5.763245966414237
+    },
+    "ending:->al": {
+     "cores": 43,
+     "C": 0.2991729742204681,
+     "z": 5.616044598784118
+    },
+    "ending:->or": {
+     "cores": 38,
+     "C": 0.19517689530194735,
+     "z": 3.623251675156154
+    },
+    "ending:->d": {
+     "cores": 11,
+     "C": 0.3092496751619993,
+     "z": 2.9985654784177127
+    },
+    "ending:edy>y": {
+     "cores": 23,
+     "C": 0.2597607181096158,
+     "z": 4.023294618453902
+    },
+    "ending:edy>ol": {
+     "cores": 32,
+     "C": 0.250919516943481,
+     "z": 4.7193633898241245
+    },
+    "ending:edy>or": {
+     "cores": 27,
+     "C": 0.2652448072090499,
+     "z": 4.77736189798522
+    },
+    "ending:edy>o": {
+     "cores": 19,
+     "C": 0.25668845724733375,
+     "z": 3.922162838163348
+    },
+    "ending:or>y": {
+     "cores": 46,
+     "C": 0.19302479341323212,
+     "z": 4.680415434808518
+    },
+    "ending:in>n": {
+     "cores": 50,
+     "C": 0.055725617883895795,
+     "z": 1.4798673627646037
+    },
+    "ending:iin>l": {
+     "cores": 32,
+     "C": 0.17743082163794505,
+     "z": 4.043769719554449
+    },
+    "ending:iin>r": {
+     "cores": 37,
+     "C": 0.09410445992748911,
+     "z": 2.463630903418663
+    },
+    "ending:iin>in": {
+     "cores": 34,
+     "C": -0.044529445043687735,
+     "z": -1.0873537464518273
+    },
+    "front:->d": {
+     "cores": 56,
+     "C": 0.1215147925373045,
+     "z": 3.4794289831844813
+    },
+    "front:->sh": {
+     "cores": 57,
+     "C": 0.15766530914953703,
+     "z": 3.841079985224849
+    },
+    "ending:->am": {
+     "cores": 15,
+     "C": 0.3452397854477809,
+     "z": 2.0736163693264618
+    },
+    "ending:d>y": {
+     "cores": 17,
+     "C": 0.2602763041575314,
+     "z": 3.814076580174391
+    },
+    "ending:d>ol": {
+     "cores": 23,
+     "C": 0.3184276422625479,
+     "z": 4.975078579792537
+    },
+    "ending:d>or": {
+     "cores": 17,
+     "C": 0.26424147758873967,
+     "z": 3.7362235192112188
+    },
+    "ending:d>dy": {
+     "cores": 34,
+     "C": 0.22547353018537275,
+     "z": 4.813192373427976
+    },
+    "ending:d>om": {
+     "cores": 12,
+     "C": 0.4830035852912054,
+     "z": 3.3863950708331387
+    },
+    "ending:d>o": {
+     "cores": 17,
+     "C": 0.21133727812192993,
+     "z": 3.1805215644576332
+    },
+    "front:a>o": {
+     "cores": 28,
+     "C": 0.06592701917653804,
+     "z": 1.4440275156588416
+    },
+    "ending:ar>y": {
+     "cores": 48,
+     "C": 0.21877380574471275,
+     "z": 5.516970849083929
+    },
+    "ending:ar>ol": {
+     "cores": 75,
+     "C": 0.26478610098181504,
+     "z": 8.706210437239186
+    },
+    "ending:ar>or": {
+     "cores": 69,
+     "C": 0.14485502164830721,
+     "z": 4.596891479954438
+    },
+    "ending:ar>om": {
+     "cores": 32,
+     "C": 0.5941789109585145,
+     "z": 5.396412310327473
+    },
+    "ending:ar>o": {
+     "cores": 27,
+     "C": 0.303655345248765,
+     "z": 4.721706138826413
+    },
+    "front:ch>d": {
+     "cores": 19,
+     "C": 0.14850845003383906,
+     "z": 2.772176228312787
+    },
+    "ending:->l": {
+     "cores": 32,
+     "C": 0.296025415339627,
+     "z": 5.304911939877563
+    },
+    "ending:->r": {
+     "cores": 28,
+     "C": 0.25123124494280635,
+     "z": 4.465277170187474
+    },
+    "ending:o>y": {
+     "cores": 29,
+     "C": 0.0231931150255283,
+     "z": 0.42932841159197227
+    },
+    "ending:o>ol": {
+     "cores": 31,
+     "C": 0.2970181078405412,
+     "z": 5.507561268950911
+    },
+    "ending:o>or": {
+     "cores": 27,
+     "C": 0.2542608011524538,
+     "z": 4.343562985994301
+    },
+    "front:d>s": {
+     "cores": 17,
+     "C": -0.04409961370254795,
+     "z": -0.7928881026616768
+    },
+    "front:d>sh": {
+     "cores": 15,
+     "C": 0.16233926058926526,
+     "z": 2.53552650580766
+    },
+    "front:d>k": {
+     "cores": 20,
+     "C": 0.3832616080763344,
+     "z": 3.585381685916209
+    },
+    "ending:->m": {
+     "cores": 20,
+     "C": 0.4728347794150863,
+     "z": 3.928741145339411
+    },
+    "ending:o>om": {
+     "cores": 19,
+     "C": 0.4465487797550625,
+     "z": 3.686032357539893
+    },
+    "ending:d>edy": {
+     "cores": 24,
+     "C": 0.33367710651286436,
+     "z": 4.566076919361025
+    },
+    "front:o>sh": {
+     "cores": 39,
+     "C": 0.16074958763705136,
+     "z": 4.149614560002794
+    },
+    "ending:l>n": {
+     "cores": 27,
+     "C": 0.28151235125983587,
+     "z": 4.514303719899013
+    },
+    "ending:al>ol": {
+     "cores": 80,
+     "C": 0.2185099169954003,
+     "z": 7.474072883868632
+    },
+    "ending:al>ar": {
+     "cores": 69,
+     "C": 0.16555941535517396,
+     "z": 5.313276329142867
+    },
+    "ending:al>or": {
+     "cores": 68,
+     "C": 0.28069045235591694,
+     "z": 8.55810749378389
+    },
+    "ending:al>am": {
+     "cores": 31,
+     "C": 0.5919174965595899,
+     "z": 5.518453760095042
+    },
+    "ending:al>edy": {
+     "cores": 28,
+     "C": 0.30805784262116737,
+     "z": 5.361242457032531
+    },
+    "front:o>y": {
+     "cores": 77,
+     "C": 0.04081782531574213,
+     "z": 1.6297634092678785
+    },
+    "front:o>s": {
+     "cores": 10,
+     "C": 0.09245158064483085,
+     "z": 1.3177761059014184
+    },
+    "ending:al>dy": {
+     "cores": 25,
+     "C": 0.2895277663146353,
+     "z": 5.1261002773410755
+    },
+    "ending:al>d": {
+     "cores": 20,
+     "C": 0.38144081098834764,
+     "z": 4.722305025208689
+    },
+    "front:k>o": {
+     "cores": 24,
+     "C": 0.18545967633096586,
+     "z": 2.381930113285315
+    },
+    "front:k>y": {
+     "cores": 20,
+     "C": 0.29074129357638023,
+     "z": 3.0359859368170388
+    },
+    "front:k>s": {
+     "cores": 14,
+     "C": 0.4359980767425438,
+     "z": 3.1385212644595573
+    },
+    "ending:n>r": {
+     "cores": 40,
+     "C": 0.20041227660409972,
+     "z": 4.9349841623398785
+    },
+    "ending:in>r": {
+     "cores": 46,
+     "C": 0.11475638280478288,
+     "z": 3.0505551820642784
+    },
+    "ending:in>m": {
+     "cores": 24,
+     "C": 0.6559101561526348,
+     "z": 4.4580563746555795
+    },
+    "ending:iin>m": {
+     "cores": 23,
+     "C": 0.6575533082945992,
+     "z": 4.746661619131403
+    },
+    "ending:iin>n": {
+     "cores": 25,
+     "C": 0.2606718252149283,
+     "z": 4.087199483761619
+    },
+    "ending:m>r": {
+     "cores": 74,
+     "C": 0.602122742820236,
+     "z": 8.306385607448444
+    },
+    "ending:om>or": {
+     "cores": 33,
+     "C": 0.5924975977778799,
+     "z": 5.446886134338897
+    },
+    "ending:edy>om": {
+     "cores": 15,
+     "C": 0.5950285117092429,
+     "z": 3.944900176606793
+    },
+    "ending:al>y": {
+     "cores": 49,
+     "C": 0.25801913388137576,
+     "z": 6.32541410859235
+    },
+    "ending:al>om": {
+     "cores": 35,
+     "C": 0.5851357872994613,
+     "z": 6.091996028362886
+    },
+    "front:k>sh": {
+     "cores": 23,
+     "C": 0.23572373480898,
+     "z": 3.183767618346377
+    },
+    "ending:ar>dy": {
+     "cores": 26,
+     "C": 0.2178688070437535,
+     "z": 4.316081153216235
+    },
+    "ending:ar>d": {
+     "cores": 18,
+     "C": 0.32817576119722086,
+     "z": 4.270210836824197
+    },
+    "ending:ar>edy": {
+     "cores": 28,
+     "C": 0.28242070937314884,
+     "z": 4.830426182892144
+    },
+    "ending:al>o": {
+     "cores": 27,
+     "C": 0.30818570641066506,
+     "z": 4.83739074759239
+    },
+    "ending:m>n": {
+     "cores": 21,
+     "C": 0.5479794500299016,
+     "z": 3.9455622614202936
+    },
+    "ending:am>y": {
+     "cores": 23,
+     "C": 0.48035419096274173,
+     "z": 5.012890056187364
+    },
+    "ending:am>ol": {
+     "cores": 30,
+     "C": 0.5907936187300973,
+     "z": 5.362937220806258
+    },
+    "ending:am>ar": {
+     "cores": 32,
+     "C": 0.5555127125187787,
+     "z": 5.729182437698058
+    },
+    "ending:am>or": {
+     "cores": 29,
+     "C": 0.5751271791697841,
+     "z": 5.3862688498094915
+    },
+    "ending:am>om": {
+     "cores": 24,
+     "C": 0.008475506090175444,
+     "z": 0.14017126493762602
+    },
+    "ending:am>edy": {
+     "cores": 17,
+     "C": 0.46870813173295883,
+     "z": 4.094371441508604
+    },
+    "ending:am>o": {
+     "cores": 16,
+     "C": 0.3381746823225824,
+     "z": 2.987076756084011
+    },
+    "ending:d>s": {
+     "cores": 10,
+     "C": 0.05616918031549848,
+     "z": 0.8136879669051227
+    },
+    "front:->s": {
+     "cores": 20,
+     "C": -0.018967461476169033,
+     "z": -0.4167712524278992
+    },
+    "ending:in>l": {
+     "cores": 33,
+     "C": 0.21977232380439687,
+     "z": 4.871236016975413
+    },
+    "front:d>o": {
+     "cores": 10,
+     "C": 0.08817388943778096,
+     "z": 1.1214999888620019
+    },
+    "front:d>y": {
+     "cores": 8,
+     "C": 0.23303965599892773,
+     "z": 2.320657563343291
+    },
+    "ending:om>y": {
+     "cores": 28,
+     "C": 0.4461621001433453,
+     "z": 5.233047986463387
+    },
+    "front:s>y": {
+     "cores": 9,
+     "C": 0.13307705072994316,
+     "z": 1.393897982709098
+    },
+    "front:s>sh": {
+     "cores": 10,
+     "C": 0.057270748313768625,
+     "z": 0.614009905987442
+    },
+    "ending:am>dy": {
+     "cores": 14,
+     "C": 0.5436079368165687,
+     "z": 3.6568377103528333
+    },
+    "ending:am>d": {
+     "cores": 15,
+     "C": 0.45582564338072745,
+     "z": 3.938342805522002
+    },
+    "front:ch>s": {
+     "cores": 10,
+     "C": -0.004292800389286982,
+     "z": -0.048805080570434124
+    }
+   }
+  },
+  "generator_32": {
+   "kit": {
+    "front": [
+     "",
+     "c",
+     "ch",
+     "o",
+     "a",
+     "y",
+     "s",
+     "sh",
+     "k",
+     "d"
+    ],
+    "ending": [
+     "",
+     "l",
+     "r",
+     "y",
+     "ol",
+     "m",
+     "al",
+     "ar",
+     "dy",
+     "n",
+     "or",
+     "in",
+     "d",
+     "om",
+     "am",
+     "o",
+     "edy",
+     "hdy",
+     "iin",
+     "hy"
+    ]
+   },
+   "eligible": 107,
+   "consistent": 74,
+   "share": 0.6915887850467289,
+   "median_z": 3.927238555218765,
+   "pairs": {
+    "front:->o": {
+     "cores": 90,
+     "C": 0.11155380850509396,
+     "z": 3.927238555218765
+    },
+    "front:c>s": {
+     "cores": 46,
+     "C": 0.17528805647180992,
+     "z": 4.86421460313476
+    },
+    "front:ch>sh": {
+     "cores": 46,
+     "C": 0.17528805647180992,
+     "z": 4.8071889001339025
+    },
+    "ending:l>r": {
+     "cores": 125,
+     "C": 0.16534775492414192,
+     "z": 7.665308863088835
+    },
+    "ending:l>m": {
+     "cores": 59,
+     "C": 0.5775476074687229,
+     "z": 6.9263947605196945
+    },
+    "ending:ol>y": {
+     "cores": 45,
+     "C": 0.2765597492361091,
+     "z": 6.7312802995155785
+    },
+    "ending:ol>or": {
+     "cores": 55,
+     "C": 0.14003997552827152,
+     "z": 4.309360509293766
+    },
+    "ending:ol>om": {
+     "cores": 31,
+     "C": 0.5575473320232905,
+     "z": 5.038316253665081
+    },
+    "front:->y": {
+     "cores": 57,
+     "C": 0.07887056199165486,
+     "z": 2.3167440296405277
+    },
+    "front:->k": {
+     "cores": 34,
+     "C": 0.35743359922571477,
+     "z": 6.045972212953435
+    },
+    "front:sh>y": {
+     "cores": 27,
+     "C": 0.08064559331917596,
+     "z": 1.7823129616329143
+    },
+    "ending:dy>y": {
+     "cores": 33,
+     "C": 0.32803043745055543,
+     "z": 6.346387728019704
+    },
+    "ending:dy>ol": {
+     "cores": 30,
+     "C": 0.2626764355984703,
+     "z": 5.438378942615461
+    },
+    "ending:dy>or": {
+     "cores": 25,
+     "C": 0.28671122909658053,
+     "z": 4.797315806326334
+    },
+    "ending:dy>om": {
+     "cores": 14,
+     "C": 0.5300047164446049,
+     "z": 3.5466249590948027
+    },
+    "ending:dy>o": {
+     "cores": 20,
+     "C": 0.32996373882044405,
+     "z": 4.692319199942381
+    },
+    "ending:dy>edy": {
+     "cores": 37,
+     "C": 0.09614022210582047,
+     "z": 2.121563597758274
+    },
+    "ending:hdy>hy": {
+     "cores": 19,
+     "C": 0.40773730489979004,
+     "z": 5.470525127289729
+    },
+    "ending:or>y": {
+     "cores": 33,
+     "C": 0.23964788037065823,
+     "z": 4.798897502894689
+    },
+    "front:->sh": {
+     "cores": 53,
+     "C": 0.14976701994108768,
+     "z": 4.1837697184313445
+    },
+    "front:ch>o": {
+     "cores": 37,
+     "C": 0.009012313445354513,
+     "z": 0.24840239092192382
+    },
+    "front:ch>y": {
+     "cores": 29,
+     "C": 0.02765773998773869,
+     "z": 0.674662979845509
+    },
+    "front:ch>k": {
+     "cores": 16,
+     "C": 0.22045169959271949,
+     "z": 2.9817056880076067
+    },
+    "ending:->al": {
+     "cores": 27,
+     "C": 0.18342874095746461,
+     "z": 2.663481507012431
+    },
+    "ending:->d": {
+     "cores": 17,
+     "C": 0.24552411790873954,
+     "z": 3.840479454731896
+    },
+    "ending:edy>y": {
+     "cores": 25,
+     "C": 0.3529011478996764,
+     "z": 5.57512591291994
+    },
+    "ending:edy>ol": {
+     "cores": 31,
+     "C": 0.3090435541154889,
+     "z": 5.712597591358779
+    },
+    "ending:edy>or": {
+     "cores": 25,
+     "C": 0.3046922099620792,
+     "z": 4.70235434662997
+    },
+    "ending:edy>om": {
+     "cores": 18,
+     "C": 0.6333337023983923,
+     "z": 4.143471142486197
+    },
+    "ending:edy>o": {
+     "cores": 19,
+     "C": 0.3297427975904698,
+     "z": 4.533120384097255
+    },
+    "ending:in>l": {
+     "cores": 26,
+     "C": 0.15890577283204055,
+     "z": 3.1696577872765213
+    },
+    "ending:in>r": {
+     "cores": 50,
+     "C": 0.10860004317405245,
+     "z": 3.2546876779672638
+    },
+    "ending:in>n": {
+     "cores": 67,
+     "C": 0.043682682213593074,
+     "z": 1.349033116729022
+    },
+    "ending:iin>r": {
+     "cores": 34,
+     "C": 0.14175191363403383,
+     "z": 3.5395736742602493
+    },
+    "ending:iin>in": {
+     "cores": 41,
+     "C": 0.0002846651381484862,
+     "z": -0.023079424399649436
+    },
+    "front:ch>d": {
+     "cores": 16,
+     "C": 0.13734962101095383,
+     "z": 2.2247478186459695
+    },
+    "ending:n>r": {
+     "cores": 53,
+     "C": 0.10880738558057837,
+     "z": 3.1316869625797983
+    },
+    "ending:iin>n": {
+     "cores": 32,
+     "C": 0.17759565471890454,
+     "z": 3.1373193561231014
+    },
+    "front:o>y": {
+     "cores": 57,
+     "C": 0.02224445271243266,
+     "z": 0.6912793464782205
+    },
+    "ending:al>y": {
+     "cores": 44,
+     "C": 0.2618832266840646,
+     "z": 6.248776081322942
+    },
+    "ending:al>dy": {
+     "cores": 32,
+     "C": 0.2997700170050679,
+     "z": 5.979975725457275
+    },
+    "ending:al>o": {
+     "cores": 28,
+     "C": 0.16759008494118016,
+     "z": 3.1816392496305363
+    },
+    "front:->ch": {
+     "cores": 144,
+     "C": 0.13664733917561012,
+     "z": 6.2829539404138774
+    },
+    "front:k>sh": {
+     "cores": 21,
+     "C": 0.3099285697215753,
+     "z": 4.543024022905174
+    },
+    "ending:d>l": {
+     "cores": 8,
+     "C": 0.20606107800051832,
+     "z": 3.017183635562683
+    },
+    "front:a>o": {
+     "cores": 24,
+     "C": 0.1290268576747439,
+     "z": 2.438049351241342
+    },
+    "ending:ar>y": {
+     "cores": 40,
+     "C": 0.25845063725651735,
+     "z": 5.484596668793996
+    },
+    "ending:ar>ol": {
+     "cores": 70,
+     "C": 0.24668087388892915,
+     "z": 7.810486898689966
+    },
+    "ending:ar>or": {
+     "cores": 54,
+     "C": 0.11911290409224823,
+     "z": 3.819369323180085
+    },
+    "ending:ar>o": {
+     "cores": 28,
+     "C": 0.188569749935717,
+     "z": 3.9179113709133317
+    },
+    "ending:al>ol": {
+     "cores": 65,
+     "C": 0.18211979874363451,
+     "z": 5.987382903413736
+    },
+    "ending:ar>dy": {
+     "cores": 30,
+     "C": 0.25670565591093975,
+     "z": 5.26093327314015
+    },
+    "ending:ar>d": {
+     "cores": 14,
+     "C": 0.21933971471699068,
+     "z": 3.319914492875763
+    },
+    "ending:->l": {
+     "cores": 30,
+     "C": 0.25246409937389974,
+     "z": 5.296591167256557
+    },
+    "ending:->r": {
+     "cores": 29,
+     "C": 0.16398232230745663,
+     "z": 3.3767571255817255
+    },
+    "ending:->m": {
+     "cores": 19,
+     "C": 0.6008068339750369,
+     "z": 4.326336083188615
+    },
+    "ending:o>y": {
+     "cores": 33,
+     "C": -0.0018077119486315514,
+     "z": -0.03704985441675818
+    },
+    "ending:o>ol": {
+     "cores": 29,
+     "C": 0.25548983602872105,
+     "z": 5.15794528485567
+    },
+    "ending:o>or": {
+     "cores": 28,
+     "C": 0.17023161658138516,
+     "z": 3.3826169886815007
+    },
+    "ending:o>om": {
+     "cores": 18,
+     "C": 0.5809780485045513,
+     "z": 4.433352847993628
+    },
+    "ending:->ol": {
+     "cores": 35,
+     "C": 0.2431286786154874,
+     "z": 4.38421371142743
+    },
+    "ending:->or": {
+     "cores": 23,
+     "C": 0.1649953181514028,
+     "z": 2.4362402781700565
+    },
+    "front:->d": {
+     "cores": 48,
+     "C": 0.01443018610954478,
+     "z": 0.3827474301116358
+    },
+    "ending:ar>om": {
+     "cores": 31,
+     "C": 0.5493351829964844,
+     "z": 5.120817272498907
+    },
+    "ending:ar>edy": {
+     "cores": 28,
+     "C": 0.2665395307763347,
+     "z": 4.928035950587448
+    },
+    "front:o>s": {
+     "cores": 9,
+     "C": 0.16947085567786382,
+     "z": 2.3620382183589905
+    },
+    "front:o>sh": {
+     "cores": 28,
+     "C": 0.08041469213687522,
+     "z": 1.9767518597752587
+    },
+    "ending:l>n": {
+     "cores": 24,
+     "C": 0.21336163141072625,
+     "z": 3.4397361321756414
+    },
+    "ending:al>ar": {
+     "cores": 64,
+     "C": 0.16446575613752712,
+     "z": 5.4445993315058665
+    },
+    "ending:al>d": {
+     "cores": 12,
+     "C": 0.20054629739720195,
+     "z": 2.9240430344467367
+    },
+    "ending:al>am": {
+     "cores": 24,
+     "C": 0.5485920964635839,
+     "z": 4.591201257238397
+    },
+    "ending:al>edy": {
+     "cores": 28,
+     "C": 0.2911850027688296,
+     "z": 5.154047357059168
+    },
+    "front:k>o": {
+     "cores": 23,
+     "C": 0.3231794699106516,
+     "z": 4.551251425380522
+    },
+    "front:k>y": {
+     "cores": 24,
+     "C": 0.3855678655899189,
+     "z": 5.5065442035500185
+    },
+    "front:k>s": {
+     "cores": 12,
+     "C": 0.21978910841843022,
+     "z": 2.3136708912583988
+    },
+    "ending:in>m": {
+     "cores": 23,
+     "C": 0.6474148236319521,
+     "z": 4.47957711758533
+    },
+    "ending:iin>l": {
+     "cores": 24,
+     "C": 0.114410191165066,
+     "z": 2.120025598629911
+    },
+    "ending:iin>m": {
+     "cores": 15,
+     "C": 0.7310887510343214,
+     "z": 3.5172805515739216
+    },
+    "ending:m>r": {
+     "cores": 63,
+     "C": 0.5848857525452482,
+     "z": 7.445820480525734
+    },
+    "ending:om>or": {
+     "cores": 27,
+     "C": 0.557424332804606,
+     "z": 5.041356240127754
+    },
+    "ending:al>or": {
+     "cores": 52,
+     "C": 0.19161570648141396,
+     "z": 5.538955429363596
+    },
+    "ending:al>om": {
+     "cores": 30,
+     "C": 0.569364671602007,
+     "z": 5.09929015100679
+    },
+    "ending:om>y": {
+     "cores": 21,
+     "C": 0.532015746917059,
+     "z": 4.505958551006458
+    },
+    "ending:m>n": {
+     "cores": 24,
+     "C": 0.562918718272332,
+     "z": 4.471010409240825
+    },
+    "ending:am>y": {
+     "cores": 19,
+     "C": 0.44989376132038394,
+     "z": 3.7960115587015126
+    },
+    "ending:am>ol": {
+     "cores": 24,
+     "C": 0.5973749249425705,
+     "z": 4.50512841398772
+    },
+    "ending:am>ar": {
+     "cores": 25,
+     "C": 0.5664116422694246,
+     "z": 4.628686715079093
+    },
+    "ending:am>or": {
+     "cores": 22,
+     "C": 0.5598524701252416,
+     "z": 4.244534100105671
+    },
+    "ending:am>om": {
+     "cores": 18,
+     "C": 0.09539686299412244,
+     "z": 1.3257865796904778
+    },
+    "ending:am>o": {
+     "cores": 16,
+     "C": 0.501224897381487,
+     "z": 3.9631694427269384
+    },
+    "ending:am>edy": {
+     "cores": 16,
+     "C": 0.5754338945992655,
+     "z": 3.9388351278954974
+    },
+    "ending:->y": {
+     "cores": 23,
+     "C": 0.12509663810247612,
+     "z": 2.082344316188929
+    },
+    "ending:d>y": {
+     "cores": 9,
+     "C": 0.16574778575423077,
+     "z": 1.722378911008014
+    },
+    "ending:d>ol": {
+     "cores": 14,
+     "C": 0.1569476834138073,
+     "z": 2.4135179693999964
+    },
+    "ending:d>dy": {
+     "cores": 19,
+     "C": 0.16074027990550457,
+     "z": 2.8245669497928705
+    },
+    "ending:d>or": {
+     "cores": 8,
+     "C": 0.10679466784594704,
+     "z": 1.3417929971270188
+    },
+    "ending:d>edy": {
+     "cores": 11,
+     "C": 0.2294999821063648,
+     "z": 2.365035219193633
+    },
+    "ending:->ar": {
+     "cores": 37,
+     "C": 0.20294485384918495,
+     "z": 4.094691085830008
+    },
+    "ending:->om": {
+     "cores": 10,
+     "C": 0.26243087376254587,
+     "z": 1.325127410661354
+    },
+    "front:d>o": {
+     "cores": 12,
+     "C": 0.17478733465360366,
+     "z": 2.7458602275990978
+    },
+    "front:d>y": {
+     "cores": 10,
+     "C": 0.16345273985202363,
+     "z": 2.1770074094181497
+    },
+    "front:d>s": {
+     "cores": 12,
+     "C": -0.014424617113452559,
+     "z": -0.22700312257242927
+    },
+    "front:d>sh": {
+     "cores": 8,
+     "C": 0.23010532757086474,
+     "z": 2.2304388681640948
+    },
+    "front:d>k": {
+     "cores": 15,
+     "C": 0.3053920704800583,
+     "z": 3.2935118612858982
+    },
+    "front:->s": {
+     "cores": 14,
+     "C": 0.1796311999926239,
+     "z": 2.840969669916657
+    },
+    "ending:am>dy": {
+     "cores": 14,
+     "C": 0.4866358909984667,
+     "z": 3.8105603415472604
+    },
+    "front:s>y": {
+     "cores": 10,
+     "C": 0.2597536488574423,
+     "z": 3.380589643111098
+    }
+   }
+  },
+  "generator_33": {
+   "kit": {
+    "front": [
+     "",
+     "c",
+     "ch",
+     "o",
+     "a",
+     "y",
+     "s",
+     "d",
+     "sh",
+     "k"
+    ],
+    "ending": [
+     "",
+     "l",
+     "r",
+     "y",
+     "dy",
+     "ol",
+     "al",
+     "ar",
+     "m",
+     "or",
+     "n",
+     "hdy",
+     "d",
+     "in",
+     "am",
+     "edy",
+     "o",
+     "om",
+     "s",
+     "iin"
+    ]
+   },
+   "eligible": 107,
+   "consistent": 61,
+   "share": 0.5700934579439252,
+   "median_z": 3.3897256894686487,
+   "pairs": {
+    "front:c>s": {
+     "cores": 50,
+     "C": 0.009842802103271453,
+     "z": 0.3011461788939433
+    },
+    "front:ch>sh": {
+     "cores": 50,
+     "C": 0.009842802103271453,
+     "z": 0.3551985098210122
+    },
+    "ending:l>r": {
+     "cores": 138,
+     "C": 0.15955127953713122,
+     "z": 7.729886956287912
+    },
+    "ending:l>m": {
+     "cores": 54,
+     "C": 0.5844152251078741,
+     "z": 6.719213342678298
+    },
+    "ending:ol>or": {
+     "cores": 58,
+     "C": 0.16551867914078283,
+     "z": 4.875286514373018
+    },
+    "ending:ol>om": {
+     "cores": 23,
+     "C": 0.6355769875330257,
+     "z": 4.418815014854805
+    },
+    "ending:ol>y": {
+     "cores": 30,
+     "C": 0.10176346029437715,
+     "z": 2.290553637549078
+    },
+    "front:->o": {
+     "cores": 93,
+     "C": 0.0800043692172143,
+     "z": 2.9705686609774826
+    },
+    "front:->y": {
+     "cores": 66,
+     "C": 0.004747296377119079,
+     "z": 0.12409268026531053
+    },
+    "front:->d": {
+     "cores": 43,
+     "C": 0.14810187198816796,
+     "z": 3.457784823676379
+    },
+    "front:->k": {
+     "cores": 37,
+     "C": 0.3713312023859318,
+     "z": 5.598260536928604
+    },
+    "ending:->y": {
+     "cores": 30,
+     "C": 0.09551815170536518,
+     "z": 2.1037071371058333
+    },
+    "ending:->ol": {
+     "cores": 40,
+     "C": 0.23962834197137006,
+     "z": 4.448077241261824
+    },
+    "ending:->al": {
+     "cores": 42,
+     "C": 0.18947787915922354,
+     "z": 4.2031441946254775
+    },
+    "ending:->ar": {
+     "cores": 47,
+     "C": 0.258476254895913,
+     "z": 5.49103841739585
+    },
+    "ending:->or": {
+     "cores": 27,
+     "C": 0.19288206613819295,
+     "z": 3.3960519902857573
+    },
+    "ending:dy>y": {
+     "cores": 23,
+     "C": 0.22569721248385863,
+     "z": 4.171543342693689
+    },
+    "ending:dy>ol": {
+     "cores": 39,
+     "C": 0.2759539311371458,
+     "z": 6.138789341889754
+    },
+    "ending:dy>or": {
+     "cores": 34,
+     "C": 0.28598328740479956,
+     "z": 5.996737763182179
+    },
+    "ending:dy>edy": {
+     "cores": 26,
+     "C": 0.16538035072857854,
+     "z": 2.6652610711554963
+    },
+    "ending:dy>o": {
+     "cores": 19,
+     "C": 0.14530833606012153,
+     "z": 2.1587220500151103
+    },
+    "ending:dy>om": {
+     "cores": 14,
+     "C": 0.5876982884823345,
+     "z": 3.7475624768761
+    },
+    "ending:in>l": {
+     "cores": 25,
+     "C": 0.057764479723742435,
+     "z": 1.0505337973598086
+    },
+    "ending:in>r": {
+     "cores": 41,
+     "C": 0.08257225218977526,
+     "z": 2.1569278352491543
+    },
+    "ending:in>n": {
+     "cores": 49,
+     "C": 0.09322133442886003,
+     "z": 2.496706440246613
+    },
+    "front:ch>o": {
+     "cores": 37,
+     "C": 0.08846004724005796,
+     "z": 2.1540165027405864
+    },
+    "front:ch>y": {
+     "cores": 26,
+     "C": 0.10971551431919427,
+     "z": 2.0766427388237543
+    },
+    "front:ch>k": {
+     "cores": 21,
+     "C": 0.28208018369482646,
+     "z": 3.3897256894686487
+    },
+    "ending:edy>y": {
+     "cores": 11,
+     "C": 0.19924610058873268,
+     "z": 2.5261990761145796
+    },
+    "ending:edy>ol": {
+     "cores": 18,
+     "C": 0.335569777654191,
+     "z": 4.158021073728087
+    },
+    "ending:edy>or": {
+     "cores": 16,
+     "C": 0.28617005162691583,
+     "z": 3.8920286569370255
+    },
+    "ending:edy>o": {
+     "cores": 10,
+     "C": 0.20966671813498589,
+     "z": 2.5077886086441348
+    },
+    "ending:edy>om": {
+     "cores": 10,
+     "C": 0.49405233579140023,
+     "z": 3.130389820752091
+    },
+    "ending:or>y": {
+     "cores": 30,
+     "C": 0.1386143696130757,
+     "z": 2.9273744552381666
+    },
+    "front:->ch": {
+     "cores": 103,
+     "C": 0.09353509716756575,
+     "z": 3.7653799768379437
+    },
+    "front:->sh": {
+     "cores": 52,
+     "C": 0.09978460804844556,
+     "z": 2.678884260871401
+    },
+    "ending:am>dy": {
+     "cores": 20,
+     "C": 0.3856666202090484,
+     "z": 4.214965027180239
+    },
+    "front:a>o": {
+     "cores": 15,
+     "C": 0.07669552676750992,
+     "z": 1.2866680062729206
+    },
+    "ending:ar>ol": {
+     "cores": 73,
+     "C": 0.24847941702678836,
+     "z": 8.209974653626743
+    },
+    "front:d>sh": {
+     "cores": 10,
+     "C": 0.155527732827634,
+     "z": 2.0966559526412243
+    },
+    "front:d>k": {
+     "cores": 16,
+     "C": 0.46805529146526814,
+     "z": 4.185089211511128
+    },
+    "ending:->l": {
+     "cores": 21,
+     "C": 0.2273437653172929,
+     "z": 4.288906004481014
+    },
+    "ending:->r": {
+     "cores": 20,
+     "C": 0.13250087280823067,
+     "z": 2.1280229191527527
+    },
+    "ending:->m": {
+     "cores": 15,
+     "C": 0.6266540824766307,
+     "z": 3.8667872212305596
+    },
+    "ending:o>y": {
+     "cores": 19,
+     "C": -0.030992706601891667,
+     "z": -0.545074694550099
+    },
+    "ending:o>ol": {
+     "cores": 20,
+     "C": 0.2344127771289243,
+     "z": 4.242876972402453
+    },
+    "ending:o>or": {
+     "cores": 19,
+     "C": 0.14015196634551258,
+     "z": 2.1900494264276404
+    },
+    "ending:o>om": {
+     "cores": 14,
+     "C": 0.5973245638794566,
+     "z": 3.8456476958422527
+    },
+    "front:->s": {
+     "cores": 16,
+     "C": 0.04612348244366873,
+     "z": 0.6827990080983185
+    },
+    "ending:ar>or": {
+     "cores": 63,
+     "C": 0.1854619232219894,
+     "z": 5.811899735171828
+    },
+    "ending:ar>om": {
+     "cores": 24,
+     "C": 0.6111872297882935,
+     "z": 4.524025557766278
+    },
+    "front:sh>y": {
+     "cores": 18,
+     "C": 0.016516514456685828,
+     "z": 0.28224816083342724
+    },
+    "ending:ar>y": {
+     "cores": 34,
+     "C": 0.1593326035045261,
+     "z": 3.412019907510157
+    },
+    "ending:ar>dy": {
+     "cores": 43,
+     "C": 0.3323324476740137,
+     "z": 7.070118561457065
+    },
+    "ending:ar>edy": {
+     "cores": 18,
+     "C": 0.3377638628084394,
+     "z": 4.29709645222813
+    },
+    "front:o>sh": {
+     "cores": 25,
+     "C": 0.04988812152400688,
+     "z": 1.0116961312701553
+    },
+    "ending:al>dy": {
+     "cores": 33,
+     "C": 0.2153114082005537,
+     "z": 4.276856704775597
+    },
+    "ending:al>ar": {
+     "cores": 73,
+     "C": 0.15045795821435687,
+     "z": 5.477226211467592
+    },
+    "ending:al>d": {
+     "cores": 22,
+     "C": 0.12762729747627424,
+     "z": 2.3315947283329153
+    },
+    "ending:al>edy": {
+     "cores": 17,
+     "C": 0.28058254270797023,
+     "z": 3.443205711808988
+    },
+    "front:o>y": {
+     "cores": 72,
+     "C": -0.021979950379289438,
+     "z": -0.770192568956499
+    },
+    "ending:l>n": {
+     "cores": 22,
+     "C": 0.1888392109933047,
+     "z": 3.0555730993736403
+    },
+    "ending:al>ol": {
+     "cores": 72,
+     "C": 0.10096200182389808,
+     "z": 3.3711293140920446
+    },
+    "front:k>s": {
+     "cores": 10,
+     "C": 0.2640427884007289,
+     "z": 2.4468062319307275
+    },
+    "ending:n>r": {
+     "cores": 42,
+     "C": -0.0026635200854268374,
+     "z": -0.06780029730892405
+    },
+    "ending:in>m": {
+     "cores": 20,
+     "C": 0.5925836036886017,
+     "z": 3.979622806455085
+    },
+    "ending:iin>l": {
+     "cores": 27,
+     "C": 0.10456078215609484,
+     "z": 2.2328243782509154
+    },
+    "ending:iin>r": {
+     "cores": 30,
+     "C": 0.005619854223073853,
+     "z": 0.08157379961077182
+    },
+    "ending:iin>m": {
+     "cores": 12,
+     "C": 0.7416488670507991,
+     "z": 3.174914132055042
+    },
+    "ending:iin>n": {
+     "cores": 23,
+     "C": 0.2895173680166642,
+     "z": 3.9269040879319284
+    },
+    "ending:iin>in": {
+     "cores": 31,
+     "C": 0.013951716347855333,
+     "z": 0.3085362573499721
+    },
+    "front:k>o": {
+     "cores": 23,
+     "C": 0.24827938678475373,
+     "z": 3.0253565624280156
+    },
+    "front:k>y": {
+     "cores": 18,
+     "C": 0.2011560246363262,
+     "z": 2.2890146694115083
+    },
+    "ending:m>r": {
+     "cores": 62,
+     "C": 0.5882301021809397,
+     "z": 7.477983341110678
+    },
+    "ending:om>or": {
+     "cores": 22,
+     "C": 0.6440588499956235,
+     "z": 4.627198037833233
+    },
+    "ending:al>or": {
+     "cores": 58,
+     "C": 0.15875678093400208,
+     "z": 4.655613061303142
+    },
+    "ending:al>y": {
+     "cores": 30,
+     "C": 0.13289016301774753,
+     "z": 2.677240781045647
+    },
+    "ending:al>o": {
+     "cores": 20,
+     "C": 0.16305617763333263,
+     "z": 2.888064475556353
+    },
+    "ending:ar>d": {
+     "cores": 25,
+     "C": 0.2402861082436035,
+     "z": 4.285833690760506
+    },
+    "ending:ar>o": {
+     "cores": 19,
+     "C": 0.20420129586507166,
+     "z": 3.492584832670378
+    },
+    "ending:->am": {
+     "cores": 9,
+     "C": 0.3278818233984268,
+     "z": 1.6018528985047347
+    },
+    "ending:d>y": {
+     "cores": 16,
+     "C": 0.094476992610676,
+     "z": 1.4355053287006176
+    },
+    "ending:d>ol": {
+     "cores": 23,
+     "C": 0.1954220786948911,
+     "z": 3.5192292177554902
+    },
+    "ending:d>or": {
+     "cores": 20,
+     "C": 0.20120344866160464,
+     "z": 3.2956319860633365
+    },
+    "front:ch>d": {
+     "cores": 11,
+     "C": 0.05489772841456879,
+     "z": 0.6963083280818486
+    },
+    "ending:am>ol": {
+     "cores": 28,
+     "C": 0.51833282336498,
+     "z": 5.063566553774571
+    },
+    "ending:am>ar": {
+     "cores": 28,
+     "C": 0.5537283834314535,
+     "z": 4.851008048116356
+    },
+    "ending:am>or": {
+     "cores": 25,
+     "C": 0.4790792003131562,
+     "z": 4.606440214135738
+    },
+    "ending:am>d": {
+     "cores": 16,
+     "C": 0.35510730324690776,
+     "z": 3.736246956497432
+    },
+    "ending:am>edy": {
+     "cores": 12,
+     "C": 0.4811595429837952,
+     "z": 3.128288930362333
+    },
+    "ending:d>dy": {
+     "cores": 24,
+     "C": 0.1468824237582794,
+     "z": 2.9295149922469204
+    },
+    "ending:d>o": {
+     "cores": 12,
+     "C": 0.15469792093863713,
+     "z": 2.1434721983171237
+    },
+    "ending:d>om": {
+     "cores": 14,
+     "C": 0.49393848536439927,
+     "z": 3.90946703940551
+    },
+    "ending:->om": {
+     "cores": 11,
+     "C": 0.2871470301856363,
+     "z": 1.5508061541128138
+    },
+    "front:k>sh": {
+     "cores": 18,
+     "C": 0.2813433843673921,
+     "z": 4.0060214421483895
+    },
+    "ending:al>am": {
+     "cores": 26,
+     "C": 0.5047361612431839,
+     "z": 4.489789800417004
+    },
+    "ending:d>edy": {
+     "cores": 14,
+     "C": 0.2844492424918488,
+     "z": 3.7138578776083846
+    },
+    "front:d>s": {
+     "cores": 14,
+     "C": -0.0123669838750702,
+     "z": -0.19169638067827238
+    },
+    "ending:al>om": {
+     "cores": 25,
+     "C": 0.5690730568305369,
+     "z": 4.5941407756678885
+    },
+    "ending:m>n": {
+     "cores": 19,
+     "C": 0.5681868776914456,
+     "z": 4.195332389314336
+    },
+    "ending:dy>s": {
+     "cores": 8,
+     "C": 0.2510550004010549,
+     "z": 2.2756756166797767
+    },
+    "ending:am>y": {
+     "cores": 16,
+     "C": 0.4898934993702987,
+     "z": 4.015872757882571
+    },
+    "ending:d>s": {
+     "cores": 11,
+     "C": 0.05697047552326104,
+     "z": 0.6079389469746094
+    },
+    "ending:am>om": {
+     "cores": 22,
+     "C": 0.051084712008828186,
+     "z": 0.6682191011570289
+    },
+    "ending:om>y": {
+     "cores": 16,
+     "C": 0.5925715273132268,
+     "z": 4.432292945450571
+    },
+    "ending:am>o": {
+     "cores": 14,
+     "C": 0.5263583872059889,
+     "z": 3.618539934619429
+    },
+    "ending:ar>s": {
+     "cores": 8,
+     "C": 0.22220040993493184,
+     "z": 2.2531783465025392
+    }
+   }
+  }
+ },
+ "shuffled": {
+  "VOYNICH": {
+   "eligible": 117,
+   "consistent": 0,
+   "share": 0.0,
+   "median_z": 0.02121912223467272
+  },
+  "hboWLC": {
+   "eligible": 43,
+   "consistent": 0,
+   "share": 0.0,
+   "median_z": -0.47363186622099734
+  },
+  "latVUC": {
+   "eligible": 33,
+   "consistent": 0,
+   "share": 0.0,
+   "median_z": -0.07395312285633907
+  }
+ },
+ "validated": true,
+ "verdict": "BETWEEN",
+ "factor": "none",
+ "runtime_s": 58.55858016014099
+}

@@ -507,3 +507,10 @@ the second picture type where labels do not track what is drawn. Unscored becaus
 
 **After E074.** Voynich words are built from a small set of freely combining pieces, more so than any language tested
 and as much as the copy generator.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-27 | E075 piece swaps shift the word's neighbours consistently? (`PIECE_EFFECTS.md`; Arham's question) | VALID (finds Hebrew ve-, ha-, -o, vay-, le-; Latin case endings and agreement; shuffled 0). Voynich 93 of 117 swaps consistent (0.795); languages 0.00–0.50; generator 0.57–0.76. BETWEEN (0.04 above the generator, margin 0.05). Voynich jobs: line-start pieces d-/s-/y-, line-end -m/-y, junction q- after -edy, ending agreement (-edy near -edy) | none | 0.0739 | 0.8938 | 0.0281 | 0.0041 |
+
+**After E075.** Voynich pieces behave like grammar pieces (position markers, a junction rule, agreement between
+neighbouring endings), more regularly than any language tested, and almost exactly as regularly as the copy generator.
