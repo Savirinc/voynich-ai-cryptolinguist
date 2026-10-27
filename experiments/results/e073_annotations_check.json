@@ -1,0 +1,742 @@
+[
+ {
+  "page": "f72r1",
+  "ring": "outer",
+  "clock": "11:56",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 1,
+  "FACING": "F"
+ },
+ {
+  "page": "f72r1",
+  "ring": "outer",
+  "clock": "1:00",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 1,
+  "FACING": "R"
+ },
+ {
+  "page": "f72r1",
+  "ring": "outer",
+  "clock": "1:52",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": "?",
+  "HANDSTAR": 1,
+  "FACING": "F"
+ },
+ {
+  "page": "f72r1",
+  "ring": "outer",
+  "clock": "2:45",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 1,
+  "HANDSTAR": 1,
+  "FACING": "R"
+ },
+ {
+  "page": "f72r1",
+  "ring": "outer",
+  "clock": "3:40",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 1,
+  "FACING": "F"
+ },
+ {
+  "page": "f72r1",
+  "ring": "outer",
+  "clock": "5:05",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 1,
+  "FACING": "?"
+ },
+ {
+  "page": "f72r1",
+  "ring": "outer",
+  "clock": "6:54",
+  "BARREL": 0,
+  "CLOTHED": "?",
+  "HEAD": 1,
+  "HANDSTAR": 1,
+  "FACING": "F"
+ },
+ {
+  "page": "f72r1",
+  "ring": "outer",
+  "clock": "8:20",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 1,
+  "FACING": "F"
+ },
+ {
+  "page": "f72r1",
+  "ring": "outer",
+  "clock": "9:30",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 1,
+  "FACING": "R"
+ },
+ {
+  "page": "f72r1",
+  "ring": "outer",
+  "clock": "10:32",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 1,
+  "FACING": "R"
+ },
+ {
+  "page": "f72r1",
+  "ring": "inner",
+  "clock": "12:05",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 1,
+  "HANDSTAR": 1,
+  "FACING": "F"
+ },
+ {
+  "page": "f72r1",
+  "ring": "inner",
+  "clock": "2:07",
+  "BARREL": "?",
+  "CLOTHED": 0,
+  "HEAD": 1,
+  "HANDSTAR": 1,
+  "FACING": "F"
+ },
+ {
+  "page": "f72r1",
+  "ring": "inner",
+  "clock": "4:20",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 1,
+  "FACING": "F"
+ },
+ {
+  "page": "f72r1",
+  "ring": "inner",
+  "clock": "6:38",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 1,
+  "FACING": "F"
+ },
+ {
+  "page": "f72r1",
+  "ring": "inner",
+  "clock": "8:30",
+  "BARREL": 1,
+  "CLOTHED": "?",
+  "HEAD": "?",
+  "HANDSTAR": "?",
+  "FACING": "?"
+ },
+ {
+  "page": "f70v2",
+  "ring": "outer",
+  "clock": "12:08",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 0,
+  "FACING": "F"
+ },
+ {
+  "page": "f70v2",
+  "ring": "outer",
+  "clock": "11:43",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 0,
+  "FACING": "F"
+ },
+ {
+  "page": "f70v2",
+  "ring": "outer",
+  "clock": "11:17",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 0,
+  "FACING": "F"
+ },
+ {
+  "page": "f70v2",
+  "ring": "outer",
+  "clock": "10:41",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 1,
+  "FACING": "L"
+ },
+ {
+  "page": "f70v2",
+  "ring": "outer",
+  "clock": "10:08",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 1,
+  "FACING": "L"
+ },
+ {
+  "page": "f70v2",
+  "ring": "outer",
+  "clock": "9:19",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": "?",
+  "FACING": "F"
+ },
+ {
+  "page": "f70v2",
+  "ring": "outer",
+  "clock": "8:29",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 1,
+  "FACING": "F"
+ },
+ {
+  "page": "f70v2",
+  "ring": "outer",
+  "clock": "7:48",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 0,
+  "FACING": "F"
+ },
+ {
+  "page": "f70v2",
+  "ring": "outer",
+  "clock": "6:58",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 0,
+  "FACING": "F"
+ },
+ {
+  "page": "f70v2",
+  "ring": "outer",
+  "clock": "6:20",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 0,
+  "FACING": "L"
+ },
+ {
+  "page": "f70v2",
+  "ring": "outer",
+  "clock": "5:31",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 1,
+  "FACING": "F"
+ },
+ {
+  "page": "f70v2",
+  "ring": "outer",
+  "clock": "4:46",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 0,
+  "FACING": "F"
+ },
+ {
+  "page": "f70v2",
+  "ring": "outer",
+  "clock": "4:10",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 1,
+  "HANDSTAR": 1,
+  "FACING": "F"
+ },
+ {
+  "page": "f70v2",
+  "ring": "outer",
+  "clock": "3:27",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 1,
+  "HANDSTAR": 1,
+  "FACING": "R"
+ },
+ {
+  "page": "f70v2",
+  "ring": "outer",
+  "clock": "2:44",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 1,
+  "HANDSTAR": 0,
+  "FACING": "R"
+ },
+ {
+  "page": "f70v2",
+  "ring": "outer",
+  "clock": "2:10",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 1,
+  "HANDSTAR": 0,
+  "FACING": "F"
+ },
+ {
+  "page": "f70v2",
+  "ring": "outer",
+  "clock": "1:35",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 1,
+  "HANDSTAR": 1,
+  "FACING": "F"
+ },
+ {
+  "page": "f70v2",
+  "ring": "outer",
+  "clock": "1:04",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 1,
+  "FACING": "F"
+ },
+ {
+  "page": "f70v2",
+  "ring": "outer",
+  "clock": "12:28",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 1,
+  "HANDSTAR": 1,
+  "FACING": "F"
+ },
+ {
+  "page": "f70v2",
+  "ring": "inner",
+  "clock": "11:17",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 1,
+  "FACING": "F"
+ },
+ {
+  "page": "f70v2",
+  "ring": "inner",
+  "clock": "12:21",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": "?",
+  "FACING": "F"
+ },
+ {
+  "page": "f70v2",
+  "ring": "inner",
+  "clock": "10:10",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 0,
+  "FACING": "F"
+ },
+ {
+  "page": "f70v2",
+  "ring": "inner",
+  "clock": "8:53",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 0,
+  "FACING": "F"
+ },
+ {
+  "page": "f70v2",
+  "ring": "inner",
+  "clock": "7:32",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 0,
+  "FACING": "F"
+ },
+ {
+  "page": "f70v2",
+  "ring": "inner",
+  "clock": "6:14",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": "?",
+  "FACING": "F"
+ },
+ {
+  "page": "f70v2",
+  "ring": "inner",
+  "clock": "5:07",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 1,
+  "FACING": "F"
+ },
+ {
+  "page": "f70v2",
+  "ring": "inner",
+  "clock": "3:59",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 1,
+  "FACING": "F"
+ },
+ {
+  "page": "f70v2",
+  "ring": "inner",
+  "clock": "2:43",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 1,
+  "FACING": "F"
+ },
+ {
+  "page": "f70v2",
+  "ring": "inner",
+  "clock": "1:25",
+  "BARREL": 1,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 0,
+  "FACING": "F"
+ },
+ {
+  "page": "f72v2",
+  "ring": "outer",
+  "clock": "11:26",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 1,
+  "FACING": "R"
+ },
+ {
+  "page": "f72v2",
+  "ring": "outer",
+  "clock": "12:10",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": "?",
+  "FACING": "R"
+ },
+ {
+  "page": "f72v2",
+  "ring": "outer",
+  "clock": "1:02",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 1,
+  "FACING": "F"
+ },
+ {
+  "page": "f72v2",
+  "ring": "outer",
+  "clock": "1:48",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": "?",
+  "FACING": "R"
+ },
+ {
+  "page": "f72v2",
+  "ring": "outer",
+  "clock": "2:41",
+  "BARREL": 0,
+  "CLOTHED": "?",
+  "HEAD": "?",
+  "HANDSTAR": "?",
+  "FACING": "?"
+ },
+ {
+  "page": "f72v2",
+  "ring": "outer",
+  "clock": "3:25",
+  "BARREL": 0,
+  "CLOTHED": "?",
+  "HEAD": "?",
+  "HANDSTAR": "?",
+  "FACING": "?"
+ },
+ {
+  "page": "f72v2",
+  "ring": "outer",
+  "clock": "4:12",
+  "BARREL": 0,
+  "CLOTHED": "?",
+  "HEAD": "?",
+  "HANDSTAR": "?",
+  "FACING": "?"
+ },
+ {
+  "page": "f72v2",
+  "ring": "outer",
+  "clock": "4:48",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": "?",
+  "FACING": "F"
+ },
+ {
+  "page": "f72v2",
+  "ring": "outer",
+  "clock": "5:22",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": "?",
+  "FACING": "F"
+ },
+ {
+  "page": "f72v2",
+  "ring": "outer",
+  "clock": "5:57",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": "?",
+  "FACING": "F"
+ },
+ {
+  "page": "f72v2",
+  "ring": "outer",
+  "clock": "6:26",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": "?",
+  "FACING": "F"
+ },
+ {
+  "page": "f72v2",
+  "ring": "outer",
+  "clock": "7:02",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 1,
+  "FACING": "F"
+ },
+ {
+  "page": "f72v2",
+  "ring": "outer",
+  "clock": "7:33",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": "?",
+  "FACING": "L"
+ },
+ {
+  "page": "f72v2",
+  "ring": "outer",
+  "clock": "8:08",
+  "BARREL": 0,
+  "CLOTHED": "?",
+  "HEAD": "?",
+  "HANDSTAR": "?",
+  "FACING": "?"
+ },
+ {
+  "page": "f72v2",
+  "ring": "outer",
+  "clock": "8:36",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": "?",
+  "HANDSTAR": "?",
+  "FACING": "?"
+ },
+ {
+  "page": "f72v2",
+  "ring": "outer",
+  "clock": "9:13",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": "?",
+  "FACING": "?"
+ },
+ {
+  "page": "f72v2",
+  "ring": "outer",
+  "clock": "9:44",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": "?",
+  "FACING": "R"
+ },
+ {
+  "page": "f72v2",
+  "ring": "outer",
+  "clock": "10:28",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 1,
+  "FACING": "R"
+ },
+ {
+  "page": "f72v2",
+  "ring": "inner",
+  "clock": "10:59",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 1,
+  "FACING": "F"
+ },
+ {
+  "page": "f72v2",
+  "ring": "inner",
+  "clock": "12:17",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 0,
+  "FACING": "R"
+ },
+ {
+  "page": "f72v2",
+  "ring": "inner",
+  "clock": "1:12",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 0,
+  "FACING": "R"
+ },
+ {
+  "page": "f72v2",
+  "ring": "inner",
+  "clock": "2:16",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 0,
+  "FACING": "R"
+ },
+ {
+  "page": "f72v2",
+  "ring": "inner",
+  "clock": "3:23",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": "?",
+  "FACING": "R"
+ },
+ {
+  "page": "f72v2",
+  "ring": "inner",
+  "clock": "4:32",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": "?",
+  "FACING": "?"
+ },
+ {
+  "page": "f72v2",
+  "ring": "inner",
+  "clock": "5:34",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 1,
+  "FACING": "F"
+ },
+ {
+  "page": "f72v2",
+  "ring": "inner",
+  "clock": "6:28",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": 1,
+  "FACING": "F"
+ },
+ {
+  "page": "f72v2",
+  "ring": "inner",
+  "clock": "7:26",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": "?",
+  "FACING": "L"
+ },
+ {
+  "page": "f72v2",
+  "ring": "inner",
+  "clock": "8:07",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": "?",
+  "FACING": "L"
+ },
+ {
+  "page": "f72v2",
+  "ring": "inner",
+  "clock": "9:00",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": "?",
+  "FACING": "L"
+ },
+ {
+  "page": "f72v2",
+  "ring": "inner",
+  "clock": "9:52",
+  "BARREL": 0,
+  "CLOTHED": 0,
+  "HEAD": 0,
+  "HANDSTAR": "?",
+  "FACING": "L"
+ }
+]

@@ -1,0 +1,2962 @@
+[
+{
+"page": "f70v1",
+"ring": "outer",
+"clock": "12:00",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "R"
+},
+{
+"page": "f70v1",
+"ring": "outer",
+"clock": "10:33",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f70v1",
+"ring": "outer",
+"clock": "01:16",
+"BARREL": 1,
+"CLOTHED": "?",
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f70v1",
+"ring": "outer",
+"clock": "09:10",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f70v1",
+"ring": "outer",
+"clock": "02:33",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "R"
+},
+{
+"page": "f70v1",
+"ring": "outer",
+"clock": "08:06",
+"BARREL": "?",
+"CLOTHED": 1,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f70v1",
+"ring": "outer",
+"clock": "06:58",
+"BARREL": "?",
+"CLOTHED": 1,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f70v1",
+"ring": "outer",
+"clock": "05:46",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": "?",
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f70v1",
+"ring": "outer",
+"clock": "04:26",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f70v1",
+"ring": "outer",
+"clock": "03:34",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f70v1",
+"ring": "inner",
+"clock": "11:50",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f70v1",
+"ring": "inner",
+"clock": "10:32",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f70v1",
+"ring": "inner",
+"clock": "01:48",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f70v1",
+"ring": "inner",
+"clock": "08:18",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f70v1",
+"ring": "inner",
+"clock": "05:10",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f70v2",
+"ring": "outer",
+"clock": "12:06",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f70v2",
+"ring": "outer",
+"clock": "11:44",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f70v2",
+"ring": "outer",
+"clock": "11:20",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f70v2",
+"ring": "outer",
+"clock": "10:43",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "L"
+},
+{
+"page": "f70v2",
+"ring": "outer",
+"clock": "10:08",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "L"
+},
+{
+"page": "f70v2",
+"ring": "outer",
+"clock": "09:17",
+"BARREL": 1,
+"CLOTHED": "?",
+"HEAD": "?",
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f70v2",
+"ring": "outer",
+"clock": "08:31",
+"BARREL": 1,
+"CLOTHED": "?",
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f70v2",
+"ring": "outer",
+"clock": "07:48",
+"BARREL": 1,
+"CLOTHED": "?",
+"HEAD": "?",
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f70v2",
+"ring": "outer",
+"clock": "06:56",
+"BARREL": 1,
+"CLOTHED": "?",
+"HEAD": "?",
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f70v2",
+"ring": "outer",
+"clock": "06:16",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f70v2",
+"ring": "outer",
+"clock": "05:28",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f70v2",
+"ring": "outer",
+"clock": "04:47",
+"BARREL": 1,
+"CLOTHED": 1,
+"HEAD": 1,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f70v2",
+"ring": "outer",
+"clock": "04:06",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 1,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f70v2",
+"ring": "outer",
+"clock": "03:27",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 1,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f70v2",
+"ring": "outer",
+"clock": "02:44",
+"BARREL": 1,
+"CLOTHED": "?",
+"HEAD": 1,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f70v2",
+"ring": "outer",
+"clock": "02:08",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 1,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f70v2",
+"ring": "outer",
+"clock": "01:33",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 1,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f70v2",
+"ring": "outer",
+"clock": "01:01",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f70v2",
+"ring": "outer",
+"clock": "12:29",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 1,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f70v2",
+"ring": "inner",
+"clock": "12:17",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f70v2",
+"ring": "inner",
+"clock": "11:18",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f70v2",
+"ring": "inner",
+"clock": "10:10",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f70v2",
+"ring": "inner",
+"clock": "08:50",
+"BARREL": 1,
+"CLOTHED": "?",
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f70v2",
+"ring": "inner",
+"clock": "07:24",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f70v2",
+"ring": "inner",
+"clock": "06:12",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f70v2",
+"ring": "inner",
+"clock": "05:01",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f70v2",
+"ring": "inner",
+"clock": "03:56",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f70v2",
+"ring": "inner",
+"clock": "02:38",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f70v2",
+"ring": "inner",
+"clock": "01:23",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f71r",
+"ring": "outer",
+"clock": "11:52",
+"BARREL": 1,
+"CLOTHED": 1,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f71r",
+"ring": "outer",
+"clock": "10:52",
+"BARREL": 1,
+"CLOTHED": 1,
+"HEAD": 1,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f71r",
+"ring": "outer",
+"clock": "12:41",
+"BARREL": 1,
+"CLOTHED": 1,
+"HEAD": "?",
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f71r",
+"ring": "outer",
+"clock": "09:52",
+"BARREL": 1,
+"CLOTHED": "?",
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f71r",
+"ring": "outer",
+"clock": "01:51",
+"BARREL": 1,
+"CLOTHED": 1,
+"HEAD": "?",
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f71r",
+"ring": "outer",
+"clock": "02:50",
+"BARREL": 1,
+"CLOTHED": 1,
+"HEAD": 1,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f71r",
+"ring": "outer",
+"clock": "08:50",
+"BARREL": 1,
+"CLOTHED": "?",
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f71r",
+"ring": "outer",
+"clock": "07:20",
+"BARREL": 1,
+"CLOTHED": 1,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f71r",
+"ring": "outer",
+"clock": "05:54",
+"BARREL": 1,
+"CLOTHED": 1,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f71r",
+"ring": "outer",
+"clock": "04:27",
+"BARREL": 1,
+"CLOTHED": 1,
+"HEAD": "?",
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f71r",
+"ring": "inner",
+"clock": "10:44",
+"BARREL": 1,
+"CLOTHED": 1,
+"HEAD": 1,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f71r",
+"ring": "inner",
+"clock": "12:21",
+"BARREL": 1,
+"CLOTHED": 1,
+"HEAD": 1,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f71r",
+"ring": "inner",
+"clock": "02:42",
+"BARREL": 1,
+"CLOTHED": 1,
+"HEAD": "?",
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f71r",
+"ring": "inner",
+"clock": "08:34",
+"BARREL": 1,
+"CLOTHED": "?",
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f71r",
+"ring": "inner",
+"clock": "05:48",
+"BARREL": 1,
+"CLOTHED": 1,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f71v",
+"ring": "outer",
+"clock": "12:00",
+"BARREL": 1,
+"CLOTHED": 1,
+"HEAD": 1,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f71v",
+"ring": "outer",
+"clock": "11:05",
+"BARREL": 1,
+"CLOTHED": 1,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f71v",
+"ring": "outer",
+"clock": "01:04",
+"BARREL": 1,
+"CLOTHED": 1,
+"HEAD": 1,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f71v",
+"ring": "outer",
+"clock": "09:54",
+"BARREL": 1,
+"CLOTHED": 1,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f71v",
+"ring": "outer",
+"clock": "02:10",
+"BARREL": 1,
+"CLOTHED": 1,
+"HEAD": "?",
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f71v",
+"ring": "outer",
+"clock": "03:06",
+"BARREL": 1,
+"CLOTHED": 1,
+"HEAD": 1,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f71v",
+"ring": "outer",
+"clock": "08:48",
+"BARREL": 1,
+"CLOTHED": 1,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f71v",
+"ring": "outer",
+"clock": "07:24",
+"BARREL": 1,
+"CLOTHED": "?",
+"HEAD": "?",
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f71v",
+"ring": "outer",
+"clock": "05:51",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f71v",
+"ring": "outer",
+"clock": "04:35",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f71v",
+"ring": "inner",
+"clock": "12:00",
+"BARREL": 1,
+"CLOTHED": 1,
+"HEAD": 1,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f71v",
+"ring": "inner",
+"clock": "10:08",
+"BARREL": "?",
+"CLOTHED": 1,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f71v",
+"ring": "inner",
+"clock": "02:18",
+"BARREL": "?",
+"CLOTHED": 1,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f71v",
+"ring": "inner",
+"clock": "08:28",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": "?",
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f71v",
+"ring": "inner",
+"clock": "05:41",
+"BARREL": "?",
+"CLOTHED": 1,
+"HEAD": 1,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72r1",
+"ring": "outer",
+"clock": "11:52",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f72r1",
+"ring": "outer",
+"clock": "12:59",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f72r1",
+"ring": "outer",
+"clock": "10:38",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f72r1",
+"ring": "outer",
+"clock": "01:55",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72r1",
+"ring": "outer",
+"clock": "09:35",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f72r1",
+"ring": "outer",
+"clock": "02:43",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72r1",
+"ring": "outer",
+"clock": "08:21",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f72r1",
+"ring": "outer",
+"clock": "03:40",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f72r1",
+"ring": "outer",
+"clock": "06:52",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f72r1",
+"ring": "outer",
+"clock": "05:01",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f72r1",
+"ring": "inner",
+"clock": "12:08",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f72r1",
+"ring": "inner",
+"clock": "02:02",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": "?",
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72r1",
+"ring": "inner",
+"clock": "09:00",
+"BARREL": 1,
+"CLOTHED": "?",
+"HEAD": "?",
+"HANDSTAR": "?",
+"FACING": "?"
+},
+{
+"page": "f72r1",
+"ring": "inner",
+"clock": "06:38",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72r1",
+"ring": "inner",
+"clock": "04:19",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72r2",
+"ring": "top",
+"clock": "10:39",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f72r2",
+"ring": "top",
+"clock": "11:15",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f72r2",
+"ring": "top",
+"clock": "11:49",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f72r2",
+"ring": "top",
+"clock": "12:17",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72r2",
+"ring": "top",
+"clock": "12:48",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": "?",
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f72r2",
+"ring": "middle",
+"clock": "09:32",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f72r2",
+"ring": "middle",
+"clock": "09:06",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f72r2",
+"ring": "middle",
+"clock": "10:09",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f72r2",
+"ring": "middle",
+"clock": "10:57",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f72r2",
+"ring": "middle",
+"clock": "11:45",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f72r2",
+"ring": "middle",
+"clock": "12:18",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f72r2",
+"ring": "middle",
+"clock": "12:57",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f72r2",
+"ring": "middle",
+"clock": "01:46",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72r2",
+"ring": "middle",
+"clock": "02:44",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72r2",
+"ring": "middle",
+"clock": "03:52",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72r2",
+"ring": "middle",
+"clock": "05:04",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f72r2",
+"ring": "middle",
+"clock": "06:08",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f72r2",
+"ring": "middle",
+"clock": "06:52",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f72r2",
+"ring": "middle",
+"clock": "07:30",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72r2",
+"ring": "middle",
+"clock": "08:08",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72r2",
+"ring": "middle",
+"clock": "08:37",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72r2",
+"ring": "inner",
+"clock": "09:00",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72r2",
+"ring": "inner",
+"clock": "10:40",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": "?",
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f72r2",
+"ring": "inner",
+"clock": "11:39",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f72r2",
+"ring": "inner",
+"clock": "12:31",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f72r2",
+"ring": "inner",
+"clock": "01:32",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72r2",
+"ring": "inner",
+"clock": "03:05",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72r2",
+"ring": "inner",
+"clock": "05:08",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f72r2",
+"ring": "inner",
+"clock": "06:35",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f72r2",
+"ring": "inner",
+"clock": "07:34",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f72r3",
+"ring": "outer",
+"clock": "12:01",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f72r3",
+"ring": "outer",
+"clock": "11:21",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": "?",
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f72r3",
+"ring": "outer",
+"clock": "10:36",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f72r3",
+"ring": "outer",
+"clock": "09:48",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f72r3",
+"ring": "outer",
+"clock": "12:45",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f72r3",
+"ring": "outer",
+"clock": "01:27",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f72r3",
+"ring": "outer",
+"clock": "02:16",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f72r3",
+"ring": "outer",
+"clock": "03:42",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f72r3",
+"ring": "outer",
+"clock": "05:05",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f72r3",
+"ring": "outer",
+"clock": "06:13",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f72r3",
+"ring": "outer",
+"clock": "07:08",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f72r3",
+"ring": "outer",
+"clock": "08:06",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f72r3",
+"ring": "middle",
+"clock": "12:00",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f72r3",
+"ring": "middle",
+"clock": "11:07",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f72r3",
+"ring": "middle",
+"clock": "10:11",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f72r3",
+"ring": "middle",
+"clock": "09:02",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f72r3",
+"ring": "middle",
+"clock": "12:52",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f72r3",
+"ring": "middle",
+"clock": "01:34",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f72r3",
+"ring": "middle",
+"clock": "02:20",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f72r3",
+"ring": "middle",
+"clock": "03:13",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f72r3",
+"ring": "middle",
+"clock": "04:48",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f72r3",
+"ring": "middle",
+"clock": "06:42",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f72r3",
+"ring": "middle",
+"clock": "08:00",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f72r3",
+"ring": "inner",
+"clock": "12:00",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f72r3",
+"ring": "inner",
+"clock": "10:44",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f72r3",
+"ring": "inner",
+"clock": "09:16",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f72r3",
+"ring": "inner",
+"clock": "01:25",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f72r3",
+"ring": "inner",
+"clock": "03:09",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": "?",
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f72r3",
+"ring": "inner",
+"clock": "05:44",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f72r3",
+"ring": "inner",
+"clock": "07:36",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f72v1",
+"ring": "outer",
+"clock": "08:53",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v1",
+"ring": "outer",
+"clock": "09:30",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v1",
+"ring": "outer",
+"clock": "10:02",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v1",
+"ring": "outer",
+"clock": "10:37",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v1",
+"ring": "outer",
+"clock": "11:24",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v1",
+"ring": "outer",
+"clock": "11:46",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v1",
+"ring": "outer",
+"clock": "12:53",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v1",
+"ring": "outer",
+"clock": "01:39",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v1",
+"ring": "outer",
+"clock": "02:10",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v1",
+"ring": "outer",
+"clock": "02:44",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v1",
+"ring": "outer",
+"clock": "03:22",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v1",
+"ring": "outer",
+"clock": "03:51",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v1",
+"ring": "outer",
+"clock": "04:25",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v1",
+"ring": "outer",
+"clock": "05:07",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v1",
+"ring": "outer",
+"clock": "05:42",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v1",
+"ring": "outer",
+"clock": "06:13",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v1",
+"ring": "outer",
+"clock": "06:50",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v1",
+"ring": "outer",
+"clock": "07:30",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v1",
+"ring": "outer",
+"clock": "08:13",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v1",
+"ring": "outer",
+"clock": "12:21",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 1,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f72v1",
+"ring": "inner",
+"clock": "11:14",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v1",
+"ring": "inner",
+"clock": "12:07",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v1",
+"ring": "inner",
+"clock": "09:56",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v1",
+"ring": "inner",
+"clock": "09:00",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v1",
+"ring": "inner",
+"clock": "01:24",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v1",
+"ring": "inner",
+"clock": "03:24",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v1",
+"ring": "inner",
+"clock": "04:33",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v1",
+"ring": "inner",
+"clock": "05:32",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v1",
+"ring": "inner",
+"clock": "06:38",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v1",
+"ring": "inner",
+"clock": "07:46",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v2",
+"ring": "outer",
+"clock": "09:18",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v2",
+"ring": "outer",
+"clock": "09:49",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v2",
+"ring": "outer",
+"clock": "10:34",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v2",
+"ring": "outer",
+"clock": "11:30",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v2",
+"ring": "outer",
+"clock": "12:18",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v2",
+"ring": "outer",
+"clock": "01:01",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v2",
+"ring": "outer",
+"clock": "01:50",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v2",
+"ring": "outer",
+"clock": "02:34",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v2",
+"ring": "outer",
+"clock": "03:32",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v2",
+"ring": "outer",
+"clock": "04:17",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v2",
+"ring": "outer",
+"clock": "04:47",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v2",
+"ring": "outer",
+"clock": "05:24",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v2",
+"ring": "outer",
+"clock": "05:54",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v2",
+"ring": "outer",
+"clock": "06:28",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v2",
+"ring": "outer",
+"clock": "07:05",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v2",
+"ring": "outer",
+"clock": "07:37",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v2",
+"ring": "outer",
+"clock": "08:34",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v2",
+"ring": "inner",
+"clock": "11:05",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v2",
+"ring": "inner",
+"clock": "12:16",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v2",
+"ring": "inner",
+"clock": "09:55",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v2",
+"ring": "inner",
+"clock": "09:01",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v2",
+"ring": "inner",
+"clock": "01:06",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v2",
+"ring": "inner",
+"clock": "02:13",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v2",
+"ring": "inner",
+"clock": "03:18",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v2",
+"ring": "inner",
+"clock": "04:33",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v2",
+"ring": "inner",
+"clock": "05:31",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v2",
+"ring": "inner",
+"clock": "06:26",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v2",
+"ring": "inner",
+"clock": "07:28",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v2",
+"ring": "inner",
+"clock": "08:10",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v3",
+"ring": "outer",
+"clock": "09:06",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v3",
+"ring": "outer",
+"clock": "09:46",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v3",
+"ring": "outer",
+"clock": "10:33",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v3",
+"ring": "outer",
+"clock": "11:04",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v3",
+"ring": "outer",
+"clock": "11:36",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v3",
+"ring": "outer",
+"clock": "12:06",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v3",
+"ring": "outer",
+"clock": "12:36",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v3",
+"ring": "outer",
+"clock": "01:12",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v3",
+"ring": "outer",
+"clock": "01:45",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v3",
+"ring": "outer",
+"clock": "02:22",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v3",
+"ring": "outer",
+"clock": "03:12",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v3",
+"ring": "outer",
+"clock": "03:38",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v3",
+"ring": "outer",
+"clock": "04:13",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v3",
+"ring": "outer",
+"clock": "05:13",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v3",
+"ring": "outer",
+"clock": "06:05",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v3",
+"ring": "outer",
+"clock": "06:57",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v3",
+"ring": "outer",
+"clock": "07:53",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v3",
+"ring": "outer",
+"clock": "08:32",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v3",
+"ring": "inner",
+"clock": "11:42",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v3",
+"ring": "inner",
+"clock": "10:50",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v3",
+"ring": "inner",
+"clock": "12:30",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v3",
+"ring": "inner",
+"clock": "01:28",
+"BARREL": 1,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v3",
+"ring": "inner",
+"clock": "02:12",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v3",
+"ring": "inner",
+"clock": "03:00",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v3",
+"ring": "inner",
+"clock": "04:04",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v3",
+"ring": "inner",
+"clock": "05:04",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v3",
+"ring": "inner",
+"clock": "06:18",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v3",
+"ring": "inner",
+"clock": "07:40",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f72v3",
+"ring": "inner",
+"clock": "08:28",
+"BARREL": "?",
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f73r",
+"ring": "top",
+"clock": "11:18",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": "?",
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f73r",
+"ring": "top",
+"clock": "11:48",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f73r",
+"ring": "top",
+"clock": "12:24",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 1,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f73r",
+"ring": "top",
+"clock": "12:46",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "R"
+},
+{
+"page": "f73r",
+"ring": "outer",
+"clock": "09:26",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f73r",
+"ring": "outer",
+"clock": "10:08",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f73r",
+"ring": "outer",
+"clock": "10:49",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f73r",
+"ring": "outer",
+"clock": "11:24",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f73r",
+"ring": "outer",
+"clock": "11:59",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f73r",
+"ring": "outer",
+"clock": "12:48",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f73r",
+"ring": "outer",
+"clock": "01:25",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f73r",
+"ring": "outer",
+"clock": "02:14",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f73r",
+"ring": "outer",
+"clock": "03:00",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f73r",
+"ring": "outer",
+"clock": "03:46",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f73r",
+"ring": "outer",
+"clock": "04:40",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f73r",
+"ring": "outer",
+"clock": "05:31",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f73r",
+"ring": "outer",
+"clock": "06:18",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f73r",
+"ring": "outer",
+"clock": "07:10",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f73r",
+"ring": "outer",
+"clock": "07:45",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f73r",
+"ring": "outer",
+"clock": "08:36",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f73r",
+"ring": "inner",
+"clock": "11:19",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f73r",
+"ring": "inner",
+"clock": "12:35",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f73r",
+"ring": "inner",
+"clock": "10:12",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f73r",
+"ring": "inner",
+"clock": "09:27",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f73r",
+"ring": "inner",
+"clock": "02:01",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f73r",
+"ring": "inner",
+"clock": "03:38",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f73r",
+"ring": "inner",
+"clock": "05:05",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f73r",
+"ring": "inner",
+"clock": "06:15",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f73r",
+"ring": "inner",
+"clock": "07:28",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f73r",
+"ring": "inner",
+"clock": "08:42",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f73v",
+"ring": "top",
+"clock": "11:13",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f73v",
+"ring": "top",
+"clock": "11:36",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": 1,
+"FACING": "F"
+},
+{
+"page": "f73v",
+"ring": "top",
+"clock": "12:05",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "F"
+},
+{
+"page": "f73v",
+"ring": "top",
+"clock": "12:38",
+"BARREL": 0,
+"CLOTHED": 0,
+"HEAD": 0,
+"HANDSTAR": "?",
+"FACING": "R"
+},
+{
+"page": "f73v",
+"ring": "outer",
+"clock": "11:47",
+"BARREL": 1,
+"CLOTHED": 1,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f73v",
+"ring": "outer",
+"clock": "12:30",
+"BARREL": 0,
+"CLOTHED": 1,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f73v",
+"ring": "outer",
+"clock": "01:05",
+"BARREL": 1,
+"CLOTHED": "?",
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f73v",
+"ring": "outer",
+"clock": "01:42",
+"BARREL": 0,
+"CLOTHED": 1,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f73v",
+"ring": "outer",
+"clock": "02:23",
+"BARREL": 0,
+"CLOTHED": 1,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f73v",
+"ring": "outer",
+"clock": "02:58",
+"BARREL": "?",
+"CLOTHED": "?",
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f73v",
+"ring": "outer",
+"clock": "03:35",
+"BARREL": 0,
+"CLOTHED": "?",
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f73v",
+"ring": "outer",
+"clock": "04:16",
+"BARREL": 0,
+"CLOTHED": "?",
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f73v",
+"ring": "outer",
+"clock": "05:08",
+"BARREL": 0,
+"CLOTHED": "?",
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f73v",
+"ring": "outer",
+"clock": "05:52",
+"BARREL": 0,
+"CLOTHED": "?",
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f73v",
+"ring": "outer",
+"clock": "06:48",
+"BARREL": 0,
+"CLOTHED": "?",
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f73v",
+"ring": "outer",
+"clock": "07:33",
+"BARREL": 0,
+"CLOTHED": "?",
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f73v",
+"ring": "outer",
+"clock": "08:12",
+"BARREL": 0,
+"CLOTHED": "?",
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f73v",
+"ring": "outer",
+"clock": "08:50",
+"BARREL": 0,
+"CLOTHED": "?",
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f73v",
+"ring": "outer",
+"clock": "09:32",
+"BARREL": 1,
+"CLOTHED": "?",
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f73v",
+"ring": "outer",
+"clock": "10:24",
+"BARREL": 0,
+"CLOTHED": 1,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f73v",
+"ring": "inner",
+"clock": "12:02",
+"BARREL": 0,
+"CLOTHED": 1,
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f73v",
+"ring": "inner",
+"clock": "11:10",
+"BARREL": 0,
+"CLOTHED": "?",
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f73v",
+"ring": "inner",
+"clock": "10:05",
+"BARREL": 0,
+"CLOTHED": "?",
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f73v",
+"ring": "inner",
+"clock": "09:10",
+"BARREL": 0,
+"CLOTHED": "?",
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f73v",
+"ring": "inner",
+"clock": "01:00",
+"BARREL": 0,
+"CLOTHED": "?",
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f73v",
+"ring": "inner",
+"clock": "02:05",
+"BARREL": 0,
+"CLOTHED": "?",
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f73v",
+"ring": "inner",
+"clock": "03:40",
+"BARREL": 0,
+"CLOTHED": "?",
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f73v",
+"ring": "inner",
+"clock": "05:10",
+"BARREL": 0,
+"CLOTHED": "?",
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+},
+{
+"page": "f73v",
+"ring": "inner",
+"clock": "07:20",
+"BARREL": 0,
+"CLOTHED": "?",
+"HEAD": 0,
+"HANDSTAR": 0,
+"FACING": "F"
+}
+]

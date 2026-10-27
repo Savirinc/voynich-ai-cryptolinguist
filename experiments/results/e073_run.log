@@ -1,0 +1,14 @@
+figures 296, labels 293; per page Counter({'f72r2': 30, 'f72r3': 30, 'f72v1': 30, 'f73r': 30, 'f70v2': 29, 'f72v2': 29, 'f72v3': 29, 'f73v': 29, 'f70v1': 15, 'f71r': 15, 'f71v': 15, 'f72r1': 15})
+[check 1] transcriber-note agreement 1.000 on 40 calls (bar 0.90)
+[check 2] second annotator matched 74 figures; kappa {'BARREL': 0.7476828012358393, 'CLOTHED': 0.0, 'HEAD': 0.7142857142857143, 'HANDSTAR': 0.3187889581478184, 'FACING': 0.12667946257197707}; kept ['BARREL', 'HEAD']
+[check 3] joined 291/293 (0.99), mean angular error 6.5 deg
+[validity] VOID
+[primary] same-label pairs 49 SIM 0.815 z -0.20 (0/10 > 3)
+[reported] cross-page same-label pairs 42 SIM 0.802 z -0.19
+[reported] same-remainder pairs 110 SIM 0.786 z -0.85
+[reported] feature BARREL: SIM 0.583 z -0.21 (24 pairs)
+[reported] feature CLOTHED: SIM 0.811 z -1.27 (37 pairs)
+[reported] feature HEAD: SIM 0.881 z -0.68 (42 pairs)
+[reported] feature HANDSTAR: SIM 0.545 z +0.31 (33 pairs)
+[reported] feature FACING: SIM 1.000 z +1.24 (49 pairs)
+VERDICT VOID | factor none

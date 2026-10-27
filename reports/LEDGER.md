@@ -493,3 +493,10 @@ figures) are weakened; title + name is the one left with an untested prediction,
 **After E072.** *ot/ok* comes off like a marker, but the copy generator makes the same pattern, so it is a fact about
 Voynich's sign-order rules rather than evidence for language. *ot* and *ok* behave as one piece. The title + name
 reading remains the one open reading of the label class.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-27 | E073 do same-label zodiac figures look alike? (`ZODIAC_ATTRIBUTES.md`) | VOID: transcriber-note check 100%, join 99% (6.5°), but only 2 of 5 features passed the kappa ≥ 0.5 reliability bar (CLOTHED failed at 98% raw agreement because nearly all check-page figures are naked; HANDSTAR, FACING genuinely disagree). Unscored: same-label pairs z −0.20 (49 pairs), cross-page −0.19, same remainder −0.85; would read NO LINK (M × 1.5) had CLOTHED been kept; rule not amended after the result was seen | none | 0.0739 | 0.8938 | 0.0281 | 0.0041 |
+
+**After E073.** No sign that figures with the same label look alike, on 296 annotated zodiac figures; with E055 this is
+the second picture type where labels do not track what is drawn. Unscored because the reliability check failed.
