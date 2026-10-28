@@ -1,0 +1,25 @@
+hboWLC: model chunks 18525, vocab 10995, plaintext letters 474247
+aramaic_onkelos: model chunks 4987, vocab 4283, plaintext letters 135482
+judeoarabic_saadia: model chunks 4895, vocab 4304, plaintext letters 133999
+talmud: model chunks 11610, vocab 8504, plaintext letters 303117
+latVUC: model chunks 36734, vocab 17015, plaintext letters 1303829
+turytc: model chunks 28517, vocab 16602, plaintext letters 1118623
+deu1912: model chunks 41857, vocab 9618, plaintext letters 1272171
+arb-vd: model chunks 26077, vocab 16498, plaintext letters 708187
+hboWLC               cracks [(1.0, 0.797), (1.0, 0.8)] ctrlA 0.827 -> NOT VALIDATED | A 0.749 agr 0.48 no claim | B 0.812 agr 0.85 ctrlB 0.840 no claim
+   A sample: להב ידה הלוא ·ת ·ב יואל וית הלוי ומאתו ·ה
+aramaic_onkelos      cracks [(1.0, 0.724), (0.977, 0.681)] ctrlA 0.754 -> NOT VALIDATED | A 0.700 agr 1.00 no claim | B 0.742 agr 0.99 ctrlB 0.773 no claim
+   A sample: ואלין ·א ·א ובית ליה ·י ובית ·א ובי הוי ·ת ·ד ·א
+judeoarabic_saadia   cracks [(1.0, 0.71), (1.0, 0.672)] ctrlA 0.737 -> NOT VALIDATED | A 0.710 agr 1.00 no claim | B 0.758 agr 0.94 ctrlB 0.773 no claim
+   A sample: ·ל ·א ·ו אתא אפי אלו אלאלי אלא ·פ ·י ·א לנא למא
+talmud               cracks [(1.0, 0.777), (1.0, 0.792)] ctrlA 0.801 -> NOT VALIDATED | A 0.793 agr 0.66 no claim | B 0.785 agr 0.64 ctrlB 0.829 no claim
+   A sample: אהא מרה הכי ותאמר ואימת הכי מרשות ·א ·ה
+latVUC               cracks [(1.0, 0.724), (1.0, 0.699)] ctrlA 0.507 -> VALIDATED T=0.603 | A 0.426 agr 1.00 no claim | B 0.465 agr 0.75 ctrlB 0.477 no claim
+   A sample: ·r ·a ·t ·i ·n ·a ·a stent ·i ner ·t ·i ·n ·a ·s ·t ·i ·n mensa
+turytc               cracks [(1.0, 0.803), (1.0, 0.777)] ctrlA 0.719 -> VALIDATED T=0.748 | A 0.713 agr 1.00 no claim | B 0.731 agr 0.99 ctrlB 0.787 no claim
+   A sample: ·k ·a dana ·a ·o ·l ard anak ·l ara olan ·m arta
+deu1912              cracks [(1.0, 0.808), (1.0, 0.844)] ctrlA 0.708 -> VALIDATED T=0.758 | A 0.639 agr 0.69 no claim | B 0.700 agr 0.58 ctrlB 0.709 no claim
+   A sample: ·r ·e ·s ·a ·b ·e enden sauer dan ·e ·n ·d augen ·t ·e
+arb-vd               cracks [(1.0, 0.862), (1.0, 0.825)] ctrlA 0.949 -> NOT VALIDATED | A 0.912 agr 1.00 no claim | B 0.913 agr 0.65 ctrlB 0.916 no claim
+   A sample: لاب يدا افوا نبي تال وينا فوي ·ت ·ل انعا
+VERDICT NO CLAIM, partly validated | 66277s

@@ -131,3 +131,9 @@ Latin) to +5.8 (Hebrew + Greek), with Latin + German +4.1: no pattern that singl
 | Latin + Turkish (comparison) | 1.00 / 1.00 | 0.617 | 0.443 | 0.462 | 0.405 (agreement 0.19) | 0.463 |
 Every mixture cracks its own hidden text perfectly; on Voynich every mixture scores below the threshold, and all but one
 (Hebrew + Latin on B, 0.427 vs 0.414, still far below its threshold 0.621) below its own pseudo-Voynich imitations.
+
+## E087: spaceless, line-by-line attack (after E086)
+Hebrew, Aramaic, Judeo-Arabic, Talmud with spaces removed and each line decoded alone: the decoder cracked every
+known answer (98–100% accuracy), but the coverage yardstick failed its known-answer check in consonantal scripts
+(imitations 0.74–0.83 vs correct decodes 0.67–0.80), so the Hebrew family is **untested** in this form. Latin, Turkish,
+German were validated: no claim. Details: `SPACELESS_ATTACK.md`. Next (E088): a yardstick validated on Hebrew first.

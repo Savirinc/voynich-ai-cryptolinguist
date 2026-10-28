@@ -576,3 +576,7 @@ identifications.
 **After E086.** Two assumptions behind every attack fail: Voynich's spaces are set by the glyph rules (like a verbose
 cipher's), and its lines do not continue one another (unlike any language's running text, like the copy generator).
 New measured facts: C25 (mechanical spaces), C26 (line independence).
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-28 | E087 spaceless line-by-line letter attack, 8 languages (`SPACELESS_ATTACK.md`; amendments 1–2 crash fixes) | Cracks 0.98–1.00 everywhere. Validated, no claim: Latin (A 0.426 vs ctrl 0.507), Turkish (0.713 vs 0.719), German (0.639 vs 0.708). Not validated (coverage score fails in consonantal scripts): Hebrew, Aramaic, Judeo-Arabic, Talmud, Arabic | none | 0.1005 | 0.8682 | 0.0273 | 0.004 |
