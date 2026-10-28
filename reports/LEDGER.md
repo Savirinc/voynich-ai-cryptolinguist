@@ -584,3 +584,7 @@ New measured facts: C25 (mechanical spaces), C26 (line independence).
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-28 | E088 spaceless line-by-line attack, Hebrew family and Arabic, yardstick chosen on known answers (`SPACELESS_HEBREW.md`) | PAIR yardstick validates 5/5 (cracks 0.98–1.00). Voynich A at or below imitations for all 5; B: Hebrew −1.26 vs imitations −1.34, threshold −1.02; others at/below or unstable. NO CLAIM, validated | recorded in the Hebrew campaign | 0.1005 | 0.8682 | 0.0273 | 0.004 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-28 | E089 spaceless line-by-line attack with 7 mixed-language models; E089b seed check (`SPACELESS_MIXTURES.md`) | COVER5 yardstick validates 7/7. No claim anywhere; near miss Hebrew+Aramaic+Judeo-Arabic on B (0.172 vs threshold 0.175, imitations 0.114) fails the seed check 0/10 (nine seeds 0.096). NO CLAIM, validated | recorded in the Hebrew campaign | 0.1005 | 0.8682 | 0.0273 | 0.004 |

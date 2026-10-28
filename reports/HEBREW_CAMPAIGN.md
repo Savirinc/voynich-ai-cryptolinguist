@@ -149,3 +149,8 @@ Judeo-Arabic, H6 Naibbe-type cipher, mixtures (Talmud, Hebrew + Aramaic / Judeo-
 spaceless line-by-line form (Hebrew, Aramaic, Judeo-Arabic, Talmud). Failed: proof by construction (E083).
 Open: abbreviated Hebrew (acronyms, notarikon), codes with filler signs or several signs per letter in fixed groups,
 codes that reorder letters within a line, Ladino, Judeo-Italian, Judeo-Persian.
+
+## E089 / E089b: spaceless line-by-line with mixed-language models
+Hebrew + Aramaic, + Judeo-Arabic, three-way, Hebrew + Latin, Hebrew + Turkish (and two non-Hebrew mixtures): all
+validated, no claim. The three-way mixture on B came within 0.003 of the threshold once; the rule-8 seed check gave
+0 of 10 passes (nine seeds 0.096). Details: `SPACELESS_MIXTURES.md`.

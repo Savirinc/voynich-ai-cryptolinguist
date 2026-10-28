@@ -1,0 +1,11 @@
+seed 89101: COVER5 0.096 agreement 1.00 fail
+seed 89102: COVER5 0.096 agreement 1.00 fail
+seed 89103: COVER5 0.096 agreement 1.00 fail
+seed 89104: COVER5 0.096 agreement 1.00 fail
+seed 89105: COVER5 0.096 agreement 1.00 fail
+seed 89106: COVER5 0.096 agreement 0.59 fail
+seed 89107: COVER5 0.096 agreement 1.00 fail
+seed 89108: COVER5 0.096 agreement 1.00 fail
+seed 89109: COVER5 0.096 agreement 1.00 fail
+seed 89110: COVER5 0.169 agreement 0.99 fail
+threshold 0.1753, B controls max 0.1135; 0/10 seeds pass -> NO CLAIM (<= 2/10 pass) | 179s

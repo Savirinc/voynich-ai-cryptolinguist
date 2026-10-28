@@ -44,10 +44,10 @@ Read this first in every session. It carries the full working context; details l
    `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`. Clear background jobs after reading them.
 5. **Occam's rule** (`reports/OCCAM.md`): test the simplest hypothesis first; add a layer only when a measured fact
    forces it.
-6. **Check earlier reports first:** `reports/SUMMARY.md` (E001–E029a), `reports/LEDGER.md`, the reports E030–E088
+6. **Check earlier reports first:** `reports/SUMMARY.md` (E001–E029a), `reports/LEDGER.md`, the reports E030–E089
    (`reports/CLEANUP_ROUND.md` is E059, `reports/INGREDIENT_LINK.md` E060, `reports/STEM_STREAM.md` E061,
    `reports/SCRIBE_TABLES.md` E062, `reports/WIDE_ATTACK.md` E063, `reports/EARLY_AUDIT.md` E064,
-   `reports/SYLLABLE_GONOGO.md` E065, `reports/WORD_INDIVIDUALITY_V3.md` E066, `reports/GIBBERISH_VOCABULARY.md` E067, `reports/GIBBERISH_BATTERY.md` E068, `reports/WORD_PARTNERS.md` E069, `reports/CONTENT_PARTNERS.md` E070, `reports/LABEL_STEP0.md` step 0, `reports/LABEL_TRUNCATION.md` E071, `reports/FRONT_PIECES.md` E072, `reports/ZODIAC_ATTRIBUTES.md` E073, `reports/SLOT_COVERAGE.md` E074, `reports/PIECE_EFFECTS.md` E075, `reports/LIGHT_HEAVY_PIECES.md` E076, `reports/LABEL_ODDNESS.md` E077, `reports/SKELETON_TRAITS.md` E078, `reports/SKELETON_MATCH.md` E079, `reports/HEBREW_CAMPAIGN.md` E080–E084, `reports/SAME_PLANT_PAGES.md` E085, `reports/SPACES_AND_LINES.md` E086, `reports/SPACELESS_ATTACK.md` E087, `reports/SPACELESS_HEBREW.md` E088), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
+   `reports/SYLLABLE_GONOGO.md` E065, `reports/WORD_INDIVIDUALITY_V3.md` E066, `reports/GIBBERISH_VOCABULARY.md` E067, `reports/GIBBERISH_BATTERY.md` E068, `reports/WORD_PARTNERS.md` E069, `reports/CONTENT_PARTNERS.md` E070, `reports/LABEL_STEP0.md` step 0, `reports/LABEL_TRUNCATION.md` E071, `reports/FRONT_PIECES.md` E072, `reports/ZODIAC_ATTRIBUTES.md` E073, `reports/SLOT_COVERAGE.md` E074, `reports/PIECE_EFFECTS.md` E075, `reports/LIGHT_HEAVY_PIECES.md` E076, `reports/LABEL_ODDNESS.md` E077, `reports/SKELETON_TRAITS.md` E078, `reports/SKELETON_MATCH.md` E079, `reports/HEBREW_CAMPAIGN.md` E080–E084, `reports/SAME_PLANT_PAGES.md` E085, `reports/SPACES_AND_LINES.md` E086, `reports/SPACELESS_ATTACK.md` E087, `reports/SPACELESS_HEBREW.md` E088, `reports/SPACELESS_MIXTURES.md` E089), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
 7. **Known answers first:** every attack must crack synthetic texts of its own class and make **zero false claims**
    on gibberish and wrong-language controls before it touches Voynich.
 8. **Seed check:** any pass or fail within about 0.5 sd gets a seed-replicate check (≥ 8 of 10 seeds) before it is
@@ -95,6 +95,8 @@ spaces = word breaks; spaceless and line-as-record attacks are the pre-registere
 **E087:** spaceless line attack: decoder cracks all known answers; Latin, Turkish, German no claim; Hebrew family and
 Arabic untested (coverage score fails in consonantal scripts). **E088:** with a word-pair yardstick chosen on known
 answers, Hebrew, Aramaic, Judeo-Arabic, Talmud, Arabic all validated, NO CLAIM (spaceless line form excluded).
+**E089:** spaceless with 7 mixed-language models: no claim; a near miss (Hebrew+Aramaic+Judeo-Arabic on B) failed the
+seed check 0/10.
 **Hebrew campaign open** (Arham, 2026-10-27; `reports/HEBREW_CAMPAIGN.md`): forms H1–H6; H1, H2 (E049, E080) and H3 morpheme code
 (E081) excluded on A and B; H4 syllables excluded by count; H6 class fails (E062); H5 Yiddish, Aramaic, Judeo-Arabic no claim
 (E063, E082). First pass complete: no form read better than pseudo-Voynich. Untested: boundary/order-changing codes,
@@ -244,7 +246,7 @@ readings tried; none ties the label class to meaning. Zodiac canvases are in `da
 - **Word kit** (front + middle + ending builder, coverage ladder; 2026-10-27): https://claude.ai/artifact/WbWEnBfhmD3Es8aCwwRf85
   (source `reports/artifacts/voynich_word_kit.html`; data `experiments/kit_build_voynich.py`).
 
-## 8. Experiment index after the stop rule (E030–E088)
+## 8. Experiment index after the stop rule (E030–E089)
 For E001–E029a see `reports/SUMMARY.md`.
 
 | Exp | Result |
@@ -305,3 +307,4 @@ For E001–E029a see `reports/SUMMARY.md`.
 | E086 | Spaces and lines (road 2): SPACES MECHANICAL (0.67 vs languages 0.13–0.50; Naibbe 0.67); LINES INDEPENDENT (z +0.2 vs +26 to +46). No factor |
 | E087 | Spaceless line-by-line attack (8 languages): cracks 0.98–1.00; Latin, Turkish, German validated, no claim; Hebrew, Aramaic, Judeo-Arabic, Talmud, Arabic not validated (coverage yardstick fails) |
 | E088 | Spaceless line attack for the Hebrew family and Arabic with a known-answer-chosen yardstick (word pairs): 5/5 VALIDATED, NO CLAIM |
+| E089 | Spaceless with mixed-language models (Hebrew+Aramaic/Judeo-Arabic/three-way/Latin/Turkish): 7/7 VALIDATED, NO CLAIM; near miss on B failed the rule-8 seed check 0/10 (E089b) |
