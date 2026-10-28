@@ -47,7 +47,7 @@ Read this first in every session. It carries the full working context; details l
 6. **Check earlier reports first:** `reports/SUMMARY.md` (E001–E029a), `reports/LEDGER.md`, the reports E030–E089
    (`reports/CLEANUP_ROUND.md` is E059, `reports/INGREDIENT_LINK.md` E060, `reports/STEM_STREAM.md` E061,
    `reports/SCRIBE_TABLES.md` E062, `reports/WIDE_ATTACK.md` E063, `reports/EARLY_AUDIT.md` E064,
-   `reports/SYLLABLE_GONOGO.md` E065, `reports/WORD_INDIVIDUALITY_V3.md` E066, `reports/GIBBERISH_VOCABULARY.md` E067, `reports/GIBBERISH_BATTERY.md` E068, `reports/WORD_PARTNERS.md` E069, `reports/CONTENT_PARTNERS.md` E070, `reports/LABEL_STEP0.md` step 0, `reports/LABEL_TRUNCATION.md` E071, `reports/FRONT_PIECES.md` E072, `reports/ZODIAC_ATTRIBUTES.md` E073, `reports/SLOT_COVERAGE.md` E074, `reports/PIECE_EFFECTS.md` E075, `reports/LIGHT_HEAVY_PIECES.md` E076, `reports/LABEL_ODDNESS.md` E077, `reports/SKELETON_TRAITS.md` E078, `reports/SKELETON_MATCH.md` E079, `reports/HEBREW_CAMPAIGN.md` E080–E084, `reports/SAME_PLANT_PAGES.md` E085, `reports/SPACES_AND_LINES.md` E086, `reports/SPACELESS_ATTACK.md` E087, `reports/SPACELESS_HEBREW.md` E088, `reports/SPACELESS_MIXTURES.md` E089, `reports/POWER_CHECK.md` E090), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
+   `reports/SYLLABLE_GONOGO.md` E065, `reports/WORD_INDIVIDUALITY_V3.md` E066, `reports/GIBBERISH_VOCABULARY.md` E067, `reports/GIBBERISH_BATTERY.md` E068, `reports/WORD_PARTNERS.md` E069, `reports/CONTENT_PARTNERS.md` E070, `reports/LABEL_STEP0.md` step 0, `reports/LABEL_TRUNCATION.md` E071, `reports/FRONT_PIECES.md` E072, `reports/ZODIAC_ATTRIBUTES.md` E073, `reports/SLOT_COVERAGE.md` E074, `reports/PIECE_EFFECTS.md` E075, `reports/LIGHT_HEAVY_PIECES.md` E076, `reports/LABEL_ODDNESS.md` E077, `reports/SKELETON_TRAITS.md` E078, `reports/SKELETON_MATCH.md` E079, `reports/HEBREW_CAMPAIGN.md` E080–E084, `reports/SAME_PLANT_PAGES.md` E085, `reports/SPACES_AND_LINES.md` E086, `reports/SPACELESS_ATTACK.md` E087, `reports/SPACELESS_HEBREW.md` E088, `reports/SPACELESS_MIXTURES.md` E089, `reports/POWER_CHECK.md` E090, `reports/LEDGER_AUDIT.md` E091), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
 7. **Known answers first:** every attack must crack synthetic texts of its own class and make **zero false claims**
    on gibberish and wrong-language controls before it touches Voynich.
 8. **Seed check:** any pass or fail within about 0.5 sd gets a seed-replicate check (≥ 8 of 10 seeds) before it is
@@ -103,8 +103,8 @@ seed check 0/10.
 abbreviated Hebrew (roshei teivot), Ladino, Judeo-Italian, Judeo-Persian. Texts: `data/external/hebrew_script/`.
 E083 proof by construction failed (not Hebrew-specific; order not Hebrew). E084 mixtures (Talmud, Hebrew+associates,
 Hebrew+Latin/Turkish): letter attack no claim; construction void on mixtures.
-**Ledger** (`reports/LEDGER.md`): **M 0.0887, L 0.8824, C 0.0254, O 0.0035** (after E090: letter-attack absence factors recomputed with measured power 0.467).
-**Approach checks (Arham, 2026-10-28; one at a time):** 1 power check (E090 done: decoder cracks out-of-genre texts, the dictionary gate misses them; Hebrew Bible-model searches exclude only Bible-like Hebrew), 2 ledger audit, 3 transcription/segmentation check, 4 explanation model.
+**Ledger** (`reports/LEDGER.md`): **M 0.4631, L 0.3604, C 0.0978, O 0.0788** (after E091 audit: E030 and E036 withdrawn, E066 at ×1.4, exact arithmetic; from the edges M 0.63/L 0.18 or M 0.30/L 0.53: undecided). Forms of L: unattested 0.288, alpha-known 0.284, syll 0.173, other 0.14, abbrev 0.115. Older ledger figures below are superseded.
+**Approach checks (Arham, 2026-10-28; one at a time):** 1 power check (E090 done: decoder cracks out-of-genre texts, the dictionary gate misses them; Hebrew Bible-model searches exclude only Bible-like Hebrew), 2 ledger audit (E091 done), 3 transcription/segmentation check, 4 explanation model.
 - **M** = meaningless; **L** = a real language in its own script; **C** = cipher or code; **O** = other.
 - **Honest range:** L about 0.17–0.89, M about 0.07–0.69, C about 0.03–0.12. **From the range edges M leads (0.69 vs
   0.17)**; at the point values L leads (0.89 vs 0.07). A two-horse race; treat M and L symmetrically. E066's × 3 is pre-registered; its empirical ratio is 1.4 (most real languages
@@ -247,7 +247,7 @@ readings tried; none ties the label class to meaning. Zodiac canvases are in `da
 - **Word kit** (front + middle + ending builder, coverage ladder; 2026-10-27): https://claude.ai/artifact/WbWEnBfhmD3Es8aCwwRf85
   (source `reports/artifacts/voynich_word_kit.html`; data `experiments/kit_build_voynich.py`).
 
-## 8. Experiment index after the stop rule (E030–E090)
+## 8. Experiment index after the stop rule (E030–E091)
 For E001–E029a see `reports/SUMMARY.md`.
 
 | Exp | Result |
@@ -310,3 +310,4 @@ For E001–E029a see `reports/SUMMARY.md`.
 | E088 | Spaceless line attack for the Hebrew family and Arabic with a known-answer-chosen yardstick (word pairs): 5/5 VALIDATED, NO CLAIM |
 | E089 | Spaceless with mixed-language models (Hebrew+Aramaic/Judeo-Arabic/three-way/Latin/Turkish): 7/7 VALIDATED, NO CLAIM; near miss on B failed the rule-8 seed check 0/10 (E089b) |
 | E090 | Approach check 1, attack power on out-of-genre texts: decoder cracks 30/30; gate finds Latin technical 10/10, Culpeper 4/10, Talmud 0/10 (below gibberish). ABSENCE FACTORS TOO STRONG: L × 1.152, C × 1.054 |
+| E091 | Approach check 2, ledger audit: rounding drift fixed; E030 L×3 and E036 L×10/C×3 withdrawn (basis overturned); E066 at ×1.4. Ledger M 0.463, L 0.360, C 0.098, O 0.079: M vs L undecided |

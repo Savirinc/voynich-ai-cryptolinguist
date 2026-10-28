@@ -1,0 +1,7 @@
+R0 exact recomputation: [0.0815, 0.8879, 0.0241, 0.0065] vs written (0.0887, 0.8824, 0.0254, 0.0035) ROUNDING DRIFT
+R0 exact   point: M 0.0815 L 0.8879 C 0.0241 O 0.0065  edge_M_high: M 0.1863 L 0.7612 C 0.0413 O 0.0111  edge_L_high: M 0.0384 L 0.9401 C 0.0170 O 0.0046
+R1 only    point: M 0.6489 L 0.2356 C 0.0639 O 0.0515  edge_M_high: M 0.7877 L 0.1073 C 0.0582 O 0.0469  edge_L_high: M 0.4799 L 0.3921 C 0.0709 O 0.0571
+R3 only    point: M 0.0398 L 0.9283 C 0.0252 O 0.0068  edge_M_high: M 0.0966 L 0.8453 C 0.0459 O 0.0123  edge_L_high: M 0.0183 L 0.9597 C 0.0174 O 0.0047
+R1+R2+R3   point: M 0.4631 L 0.3604 C 0.0978 O 0.0788  edge_M_high: M 0.6338 L 0.1849 C 0.1004 O 0.0808  edge_L_high: M 0.3010 L 0.5269 C 0.0953 O 0.0768
+R4 forms of L: {'unattested': 0.288, 'syll': 0.173, 'abbrev': 0.115, 'other': 0.14, 'alpha_known': 0.284}
+VERDICT AUDITED: point M leads, edge_M_high M leads, edge_L_high L leads

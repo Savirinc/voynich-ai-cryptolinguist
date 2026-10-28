@@ -1,0 +1,112 @@
+{
+ "experiment": "E091",
+ "reproduced": [
+  0.0815,
+  0.8879,
+  0.0241,
+  0.0065
+ ],
+ "reproduces": false,
+ "table": {
+  "R0 exact": {
+   "point": [
+    0.0815,
+    0.8879,
+    0.0241,
+    0.0065
+   ],
+   "edge_M_high": [
+    0.1863,
+    0.7612,
+    0.0413,
+    0.0111
+   ],
+   "edge_L_high": [
+    0.0384,
+    0.9401,
+    0.017,
+    0.0046
+   ]
+  },
+  "R1 only": {
+   "point": [
+    0.6489,
+    0.2356,
+    0.0639,
+    0.0515
+   ],
+   "edge_M_high": [
+    0.7877,
+    0.1073,
+    0.0582,
+    0.0469
+   ],
+   "edge_L_high": [
+    0.4799,
+    0.3921,
+    0.0709,
+    0.0571
+   ]
+  },
+  "R3 only": {
+   "point": [
+    0.0398,
+    0.9283,
+    0.0252,
+    0.0068
+   ],
+   "edge_M_high": [
+    0.0966,
+    0.8453,
+    0.0459,
+    0.0123
+   ],
+   "edge_L_high": [
+    0.0183,
+    0.9597,
+    0.0174,
+    0.0047
+   ]
+  },
+  "R1+R2+R3": {
+   "point": [
+    0.4631,
+    0.3604,
+    0.0978,
+    0.0788
+   ],
+   "edge_M_high": [
+    0.6338,
+    0.1849,
+    0.1004,
+    0.0808
+   ],
+   "edge_L_high": [
+    0.301,
+    0.5269,
+    0.0953,
+    0.0768
+   ]
+  }
+ },
+ "forms_of_L": {
+  "unattested": 0.288,
+  "syll": 0.173,
+  "abbrev": 0.115,
+  "other": 0.14,
+  "alpha_known": 0.284
+ },
+ "R1": {
+  "E030": "doubling languages explain Voynich's back-to-back repeats; E066 (and E064 Part C) show Voynich repeats family-level, unlike the doubling languages, which repeat word-specifically",
+  "E036": "Indonesian + free invented spellings reproduces Voynich word features; E066 shows Indonesian's repeats are word-specific (+4.8) where Voynich's are not (-1.2); E067/E068 show human gibberish also makes the one-off richness and near-copies E036 credited to invention"
+ },
+ "R2": [],
+ "R3": {
+  "E066": [
+   1.4,
+   1,
+   1
+  ]
+ },
+ "verdict": "AUDITED: point M leads, edge_M_high M leads, edge_L_high L leads"
+}

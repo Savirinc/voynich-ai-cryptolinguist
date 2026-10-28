@@ -595,3 +595,11 @@ New measured facts: C25 (mechanical spaces), C26 (line independence).
 
 **After E090.** The Bible-model Hebrew letter searches excluded only Bible-like Hebrew; a correctly decoded rabbinic-style
 text would have scored below gibberish. The Hebrew campaign's exclusions are re-scoped accordingly (`HEBREW_CAMPAIGN.md`).
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-28 | E091 approach check 2: ledger audit (`LEDGER_AUDIT.md`) | R0: written values had drifted through rounding (exact before audit M 0.0815, L 0.8879). R1: E030 L×3 and E036 L×10/C×3 withdrawn (basis overturned by E066, E064 Part C, E067/E068). R2: no double counting. R3: E066 at measured ×1.4. R4 forms of L: unattested 0.288, alpha-known 0.284, syll 0.173, other 0.14, abbrev 0.115. AUDITED | recomputed from the start: E030, E036 withdrawn; E066 ×1.4 | 0.4631 | 0.3604 | 0.0978 | 0.0788 |
+
+**After E091.** From the point start M leads (0.46 vs 0.36); from the range edges M 0.63 / L 0.18 or M 0.30 / L 0.53. The
+data do not decide between M and L; the earlier L lead came from two withdrawn factors. All later updates multiply these
+values without intermediate rounding.
