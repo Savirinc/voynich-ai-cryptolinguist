@@ -1,0 +1,10 @@
+[yardstick] COVER4: validates 4/5, mean normalised gap -2.628
+[yardstick] COVER5: validates 5/5, mean normalised gap +0.477
+[yardstick] PAIR: validates 5/5, mean normalised gap +0.582
+[yardstick] chosen: PAIR
+hboWLC               cracks [(1.0, -0.678), (1.0, -0.818)] ctrlA -1.218 -> VALIDATED T=-1.018 | A -1.577 agr 1.00 no claim | B -1.259 agr 1.00 ctrlB -1.341 no claim
+aramaic_onkelos      cracks [(0.99, -0.635), (1.0, -0.558)] ctrlA -1.720 -> VALIDATED T=-1.177 | A -1.776 agr 1.00 no claim | B -1.513 agr 0.63 ctrlB -1.480 no claim
+judeoarabic_saadia   cracks [(1.0, -0.657), (1.0, -0.689)] ctrlA -1.418 -> VALIDATED T=-1.054 | A -1.556 agr 1.00 no claim | B -1.680 agr 1.00 ctrlB -1.352 no claim
+talmud               cracks [(1.0, -0.732), (1.0, -0.721)] ctrlA -1.525 -> VALIDATED T=-1.129 | A -1.634 agr 0.56 no claim | B -1.967 agr 0.61 ctrlB -1.575 no claim
+arb-vd               cracks [(1.0, -1.325), (0.983, -1.356)] ctrlA -1.887 -> VALIDATED T=-1.622 | A -1.858 agr 1.00 no claim | B -1.326 agr 0.54 ctrlB -1.310 no claim
+VERDICT NO CLAIM, validated | yardstick PAIR | 1859s

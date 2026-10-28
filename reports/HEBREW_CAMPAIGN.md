@@ -137,3 +137,15 @@ Hebrew, Aramaic, Judeo-Arabic, Talmud with spaces removed and each line decoded 
 known answer (98–100% accuracy), but the coverage yardstick failed its known-answer check in consonantal scripts
 (imitations 0.74–0.83 vs correct decodes 0.67–0.80), so the Hebrew family is **untested** in this form. Latin, Turkish,
 German were validated: no claim. Details: `SPACELESS_ATTACK.md`. Next (E088): a yardstick validated on Hebrew first.
+
+## E088: spaceless, line-by-line, with a Hebrew-validated yardstick
+E087's gap repaired. Yardstick chosen on known answers only (word-pair association, PAIR: validates 5 of 5). Hebrew,
+Aramaic, Judeo-Arabic, Talmud, Arabic: all VALIDATED (cracks 0.98–1.00), NO CLAIM on A or B; Voynich at or below its
+imitations, Hebrew B slightly above its imitations but far below the threshold. Details: `SPACELESS_HEBREW.md`.
+
+## Campaign status after E088
+Excluded within scope: H1 letters (A, B), H2 reversed, H3 morpheme code, H4 syllables (count), H5 Yiddish, Aramaic,
+Judeo-Arabic, H6 Naibbe-type cipher, mixtures (Talmud, Hebrew + Aramaic / Judeo-Arabic / Latin / Turkish), and the
+spaceless line-by-line form (Hebrew, Aramaic, Judeo-Arabic, Talmud). Failed: proof by construction (E083).
+Open: abbreviated Hebrew (acronyms, notarikon), codes with filler signs or several signs per letter in fixed groups,
+codes that reorder letters within a line, Ladino, Judeo-Italian, Judeo-Persian.

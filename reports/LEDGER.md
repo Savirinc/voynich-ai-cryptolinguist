@@ -580,3 +580,7 @@ New measured facts: C25 (mechanical spaces), C26 (line independence).
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-28 | E087 spaceless line-by-line letter attack, 8 languages (`SPACELESS_ATTACK.md`; amendments 1–2 crash fixes) | Cracks 0.98–1.00 everywhere. Validated, no claim: Latin (A 0.426 vs ctrl 0.507), Turkish (0.713 vs 0.719), German (0.639 vs 0.708). Not validated (coverage score fails in consonantal scripts): Hebrew, Aramaic, Judeo-Arabic, Talmud, Arabic | none | 0.1005 | 0.8682 | 0.0273 | 0.004 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-28 | E088 spaceless line-by-line attack, Hebrew family and Arabic, yardstick chosen on known answers (`SPACELESS_HEBREW.md`) | PAIR yardstick validates 5/5 (cracks 0.98–1.00). Voynich A at or below imitations for all 5; B: Hebrew −1.26 vs imitations −1.34, threshold −1.02; others at/below or unstable. NO CLAIM, validated | recorded in the Hebrew campaign | 0.1005 | 0.8682 | 0.0273 | 0.004 |
