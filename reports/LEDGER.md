@@ -622,3 +622,7 @@ signs Voynich's spaces are as predictable as in languages.
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-28 | E095 (Test B, Arham) zodiac words vs own sign's meanings, 8 languages (`ZODIAC_MEANING.md`) | VOID: calibration failed (French/Occitan plant p 0.93; Latin and Hebrew only just p 0.01); wrong meanings cover 8–11 of 12 pages, so the zodiac text is too small to identify a key from meaning matches. Unscored Voynich max-T p 0.16; attribute sharing nil (season/words p 0.012, fails Holm) | none | 0.4631 | 0.3604 | 0.0978 | 0.0788 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-28 | E095b (Test B2, Arham) zodiac crib keys completed on the whole book, true vs 99 wrong cribs, 6 languages × A/B (`ZODIAC_CRIB_FULLBOOK.md`) | VOID: Latin calibration p 0.03 (two wrong cribs were repaired to the true key by the whole-book decoder); French/Occitan and Hebrew passed (p 0.01). Unscored Voynich max-T p 0.38; true crib in the middle of the wrong cribs everywhere (best German A p 0.06 alone) | none | 0.4631 | 0.3604 | 0.0978 | 0.0788 |

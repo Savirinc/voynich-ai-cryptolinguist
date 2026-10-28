@@ -1,0 +1,18 @@
+zodiac words (VOY23) per page: {'f70v2': 97, 'f70v1': 73, 'f71r': 68, 'f71v': 76, 'f72r1': 79, 'f72r2': 83, 'f72r3': 119, 'f72v3': 89, 'f72v2': 89, 'f72v1': 86, 'f73r': 76, 'f73v': 81} | A 8794 B 19488
+jobs 1500 | 6s
+CAL/latin                true -2.1974 (cov 12)  null mean -4.2358 sd 0.6615 max -2.1974  z +3.08 p 0.03
+CAL/french_occitan       true -2.0369 (cov 12)  null mean -5.0935 sd 0.5267 max -2.2637  z +5.80 p 0.01
+CAL/hebrew               true -2.7678 (cov 12)  null mean -4.5139 sd 0.2853 max -3.3887  z +6.12 p 0.01
+latin/A                  true -4.8432 (cov 8)  null mean -4.8491 sd 0.3031 max -4.2432  z +0.02 p 0.54
+latin/B                  true -4.4797 (cov 8)  null mean -4.6109 sd 0.3131 max -3.9853  z +0.42 p 0.37
+french_occitan/A         true -5.0574 (cov 9)  null mean -5.0921 sd 0.2690 max -4.5609  z +0.13 p 0.51
+french_occitan/B         true -4.4844 (cov 9)  null mean -4.7855 sd 0.2743 max -4.2324  z +1.10 p 0.12
+italian/A                true -5.1974 (cov 7)  null mean -5.2411 sd 0.4105 max -4.5082  z +0.11 p 0.54
+italian/B                true -4.7932 (cov 7)  null mean -4.9794 sd 0.4785 max -4.2372  z +0.39 p 0.39
+german/A                 true -4.8595 (cov 8)  null mean -5.2654 sd 0.2620 max -4.5824  z +1.55 p 0.06
+german/B                 true -5.4252 (cov 9)  null mean -5.1241 sd 0.2853 max -4.4680  z -1.06 p 0.79
+hebrew/A                 true -4.8462 (cov 10)  null mean -4.7329 sd 0.2962 max -4.2669  z -0.38 p 0.74
+hebrew/B                 true -4.5504 (cov 10)  null mean -4.5527 sd 0.3516 max -3.9214  z +0.01 p 0.61
+arabic/A                 true -4.4287 (cov 8)  null mean -4.4272 sd 0.1762 max -4.0506  z -0.01 p 0.50
+arabic/B                 true -4.3643 (cov 8)  null mean -4.3688 sd 0.2171 max -3.8438  z +0.02 p 0.46
+VERDICT VOID (calibration failed) | calibration {'CAL/latin': 0.03, 'CAL/french_occitan': 0.01, 'CAL/hebrew': 0.01} | 3737s

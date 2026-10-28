@@ -47,7 +47,7 @@ Read this first in every session. It carries the full working context; details l
 6. **Check earlier reports first:** `reports/SUMMARY.md` (E001–E029a), `reports/LEDGER.md`, the reports E030–E089
    (`reports/CLEANUP_ROUND.md` is E059, `reports/INGREDIENT_LINK.md` E060, `reports/STEM_STREAM.md` E061,
    `reports/SCRIBE_TABLES.md` E062, `reports/WIDE_ATTACK.md` E063, `reports/EARLY_AUDIT.md` E064,
-   `reports/SYLLABLE_GONOGO.md` E065, `reports/WORD_INDIVIDUALITY_V3.md` E066, `reports/GIBBERISH_VOCABULARY.md` E067, `reports/GIBBERISH_BATTERY.md` E068, `reports/WORD_PARTNERS.md` E069, `reports/CONTENT_PARTNERS.md` E070, `reports/LABEL_STEP0.md` step 0, `reports/LABEL_TRUNCATION.md` E071, `reports/FRONT_PIECES.md` E072, `reports/ZODIAC_ATTRIBUTES.md` E073, `reports/SLOT_COVERAGE.md` E074, `reports/PIECE_EFFECTS.md` E075, `reports/LIGHT_HEAVY_PIECES.md` E076, `reports/LABEL_ODDNESS.md` E077, `reports/SKELETON_TRAITS.md` E078, `reports/SKELETON_MATCH.md` E079, `reports/HEBREW_CAMPAIGN.md` E080–E084, `reports/SAME_PLANT_PAGES.md` E085, `reports/SPACES_AND_LINES.md` E086, `reports/SPACELESS_ATTACK.md` E087, `reports/SPACELESS_HEBREW.md` E088, `reports/SPACELESS_MIXTURES.md` E089, `reports/POWER_CHECK.md` E090, `reports/LEDGER_AUDIT.md` E091, `reports/TRANSCRIPTION_CHECK.md` E092, `reports/EXPLANATION_MODEL.md` E093, `reports/ZODIAC_ONLY_WORDS.md`, `reports/ZODIAC_PICTURES.md` E094, `reports/ZODIAC_MEANING.md` E095), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
+   `reports/SYLLABLE_GONOGO.md` E065, `reports/WORD_INDIVIDUALITY_V3.md` E066, `reports/GIBBERISH_VOCABULARY.md` E067, `reports/GIBBERISH_BATTERY.md` E068, `reports/WORD_PARTNERS.md` E069, `reports/CONTENT_PARTNERS.md` E070, `reports/LABEL_STEP0.md` step 0, `reports/LABEL_TRUNCATION.md` E071, `reports/FRONT_PIECES.md` E072, `reports/ZODIAC_ATTRIBUTES.md` E073, `reports/SLOT_COVERAGE.md` E074, `reports/PIECE_EFFECTS.md` E075, `reports/LIGHT_HEAVY_PIECES.md` E076, `reports/LABEL_ODDNESS.md` E077, `reports/SKELETON_TRAITS.md` E078, `reports/SKELETON_MATCH.md` E079, `reports/HEBREW_CAMPAIGN.md` E080–E084, `reports/SAME_PLANT_PAGES.md` E085, `reports/SPACES_AND_LINES.md` E086, `reports/SPACELESS_ATTACK.md` E087, `reports/SPACELESS_HEBREW.md` E088, `reports/SPACELESS_MIXTURES.md` E089, `reports/POWER_CHECK.md` E090, `reports/LEDGER_AUDIT.md` E091, `reports/TRANSCRIPTION_CHECK.md` E092, `reports/EXPLANATION_MODEL.md` E093, `reports/ZODIAC_ONLY_WORDS.md`, `reports/ZODIAC_PICTURES.md` E094, `reports/ZODIAC_MEANING.md` E095, `reports/ZODIAC_CRIB_FULLBOOK.md` E095b), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
 7. **Known answers first:** every attack must crack synthetic texts of its own class and make **zero false claims**
    on gibberish and wrong-language controls before it touches Voynich.
 8. **Seed check:** any pass or fail within about 0.5 sd gets a seed-replicate check (≥ 8 of 10 seeds) before it is
@@ -247,7 +247,7 @@ readings tried; none ties the label class to meaning. Zodiac canvases are in `da
 - **Word kit** (front + middle + ending builder, coverage ladder; 2026-10-27): https://claude.ai/artifact/WbWEnBfhmD3Es8aCwwRf85
   (source `reports/artifacts/voynich_word_kit.html`; data `experiments/kit_build_voynich.py`).
 
-## 8. Experiment index after the stop rule (E030–E095)
+## 8. Experiment index after the stop rule (E030–E095b)
 For E001–E029a see `reports/SUMMARY.md`.
 
 | Exp | Result |
@@ -315,3 +315,4 @@ For E001–E029a see `reports/SUMMARY.md`.
 | E093 | Approach check 4: process ladder P1–P4 best reproduces 5/12 solid facts (NO WORKING PROCESS); subject tracking VALID (Bibles +16/+14, controls −2.4/−5.0), Voynich z +1.2 INCONCLUSIVE; unscored lean towards tracking vs controls. Ledger unchanged |
 | E094 | Test A (Arham): zodiac pictures, month names masked: 12/12 match the later hand's months, but all 15 AI judges recognised the source (CLAUDE.md loads into sub-agents), so not blind; figures = degrees (15+15 on Aries/Taurus, 30 elsewhere). No factor. Lesson: AI sub-agents in this project cannot be blind judges |
 | E095 | Test B (Arham): zodiac words vs own sign's meanings (months ×2, sign, animal, planet, element, season; 8 languages): VOID, calibration failed (free key fits wrong meanings on 8–11/12 pages). Unscored max-T p 0.16 |
+| E095b | Test B2 (Arham): zodiac crib keys completed by the E047 decoder on all of A and B, true vs 99 wrong cribs, 6 languages: VOID (Latin calibration p 0.03; whole-book decoder repaired wrong cribs to the true key). Unscored max-T p 0.38, flat |
