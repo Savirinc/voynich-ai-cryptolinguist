@@ -1,0 +1,539 @@
+{
+ "experiment": "E090",
+ "seed": 90090,
+ "voynich_a_len": 8794,
+ "meta": {
+  "latin": {
+   "letters": "eiutasrnmodclpqbgfhxyzk",
+   "lm_words": 188891,
+   "texts": {
+    "in_genre": {
+     "words": 112424,
+     "letters_dropped": 0.0,
+     "plain_vocab_rate": 0.8536,
+     "files": {}
+    },
+    "latin_recipes_agriculture": {
+     "words": 173832,
+     "letters_dropped": 0.0,
+     "plain_vocab_rate": 0.5629,
+     "files": {
+      "apicius1.txt": "377fbe79a234f70f",
+      "apicius2.txt": "659a8e7c392584fc",
+      "apicius3.txt": "2b3435b424a7b57c",
+      "apicius4.txt": "d58b21c8077b4242",
+      "apicius5.txt": "b44a32380edad501",
+      "cato.agri.txt": "c56157896e6eb1f9",
+      "varro.rr1.txt": "52075ab767785916",
+      "varro.rr2.txt": "7a91879321900738",
+      "varro.rr3.txt": "4954e87b509d19af",
+      "columella.arbor.txt": "299185d2abef66cf",
+      "columella.rr1.txt": "a146585ff8c72867",
+      "columella.rr10.txt": "729d9ec8cb7f6a5c",
+      "columella.rr11.txt": "2971cc0575e14446",
+      "columella.rr12.txt": "23e5747a8c19c409",
+      "columella.rr2.txt": "04f5eb4ef5278fb0",
+      "columella.rr3.txt": "6e0a686bfde8fe6b",
+      "columella.rr4.txt": "33577ec4b8a8ca13",
+      "columella.rr5.txt": "0347bc6b60181934",
+      "columella.rr6.txt": "f1fdea8d826b22f4",
+      "columella.rr7.txt": "62a46cd2c862337b",
+      "columella.rr8.txt": "e1ae628a43595876",
+      "columella.rr9.txt": "31ec020644f5c47d"
+     }
+    }
+   }
+  },
+  "english": {
+   "letters": "etahonisdrlfumwcygbpvkj",
+   "lm_words": 290018,
+   "texts": {
+    "in_genre": {
+     "words": 163407,
+     "letters_dropped": 0.0021,
+     "plain_vocab_rate": 0.9621,
+     "files": {}
+    },
+    "culpeper_herbal_1652": {
+     "words": 253359,
+     "letters_dropped": 0.0035,
+     "plain_vocab_rate": 0.7124,
+     "files": {
+      "pg49513.txt": "d9bacb3247d798fc"
+     }
+    }
+   }
+  },
+  "hebrew": {
+   "letters": "יוהאמלרתבשנכעדחפקצגזסט",
+   "lm_words": 151074,
+   "texts": {
+    "in_genre": {
+     "words": 78341,
+     "letters_dropped": 0.0003,
+     "plain_vocab_rate": 0.7497,
+     "files": {}
+    },
+    "talmud_mishnah_gemara": {
+     "words": 193485,
+     "letters_dropped": 0.0,
+     "plain_vocab_rate": 0.4223,
+     "files": {
+      "talmud.txt": "7d78b50bb3115367"
+     }
+    }
+   }
+  }
+ },
+ "languages": {
+  "latin": {
+   "validated": true,
+   "threshold": 0.4760745629957244,
+   "controls": [
+    0.2164469742360695,
+    0.18166890580683684,
+    0.16897784131522517,
+    0.16619318181818182,
+    0.16744780570941628,
+    0.16302640970735188,
+    0.16731127345652486
+   ],
+   "controls_max": 0.2164469742360695,
+   "texts": {
+    "in_genre": {
+     "found": 10,
+     "cracked": 10,
+     "n": 10,
+     "rows": [
+      [
+       0.999,
+       0.736,
+       1.0
+      ],
+      [
+       0.999,
+       0.791,
+       1.0
+      ],
+      [
+       0.999,
+       0.808,
+       1.0
+      ],
+      [
+       1.0,
+       0.8,
+       1.0
+      ],
+      [
+       0.998,
+       0.785,
+       1.0
+      ],
+      [
+       0.999,
+       0.728,
+       1.0
+      ],
+      [
+       1.0,
+       0.805,
+       1.0
+      ],
+      [
+       0.998,
+       0.801,
+       1.0
+      ],
+      [
+       0.998,
+       0.823,
+       1.0
+      ],
+      [
+       1.0,
+       0.743,
+       1.0
+      ]
+     ]
+    },
+    "latin_recipes_agriculture": {
+     "found": 10,
+     "cracked": 10,
+     "n": 10,
+     "rows": [
+      [
+       0.999,
+       0.563,
+       1.0
+      ],
+      [
+       1.0,
+       0.525,
+       1.0
+      ],
+      [
+       1.0,
+       0.497,
+       1.0
+      ],
+      [
+       1.0,
+       0.516,
+       1.0
+      ],
+      [
+       0.999,
+       0.499,
+       1.0
+      ],
+      [
+       0.999,
+       0.493,
+       1.0
+      ],
+      [
+       0.998,
+       0.501,
+       1.0
+      ],
+      [
+       1.0,
+       0.514,
+       1.0
+      ],
+      [
+       0.999,
+       0.508,
+       1.0
+      ],
+      [
+       0.999,
+       0.562,
+       1.0
+      ]
+     ]
+    }
+   }
+  },
+  "english": {
+   "validated": true,
+   "threshold": 0.5897354366046883,
+   "controls": [
+    0.25056982221546875,
+    0.3235713154978629,
+    0.25010609704342907,
+    0.23197492163009403,
+    0.23530249110320284,
+    0.2289533560864619,
+    0.2289666854884246
+   ],
+   "controls_max": 0.3235713154978629,
+   "texts": {
+    "in_genre": {
+     "found": 10,
+     "cracked": 10,
+     "n": 10,
+     "rows": [
+      [
+       1.0,
+       0.857,
+       1.0
+      ],
+      [
+       1.0,
+       0.856,
+       1.0
+      ],
+      [
+       1.0,
+       0.864,
+       1.0
+      ],
+      [
+       1.0,
+       0.863,
+       1.0
+      ],
+      [
+       1.0,
+       0.864,
+       1.0
+      ],
+      [
+       1.0,
+       0.842,
+       1.0
+      ],
+      [
+       1.0,
+       0.882,
+       1.0
+      ],
+      [
+       1.0,
+       0.88,
+       1.0
+      ],
+      [
+       0.999,
+       0.841,
+       1.0
+      ],
+      [
+       0.999,
+       0.842,
+       1.0
+      ]
+     ]
+    },
+    "culpeper_herbal_1652": {
+     "found": 4,
+     "cracked": 10,
+     "n": 10,
+     "rows": [
+      [
+       0.999,
+       0.581,
+       1.0
+      ],
+      [
+       1.0,
+       0.555,
+       1.0
+      ],
+      [
+       0.998,
+       0.69,
+       1.0
+      ],
+      [
+       0.998,
+       0.682,
+       1.0
+      ],
+      [
+       0.998,
+       0.567,
+       1.0
+      ],
+      [
+       0.998,
+       0.682,
+       1.0
+      ],
+      [
+       1.0,
+       0.559,
+       1.0
+      ],
+      [
+       0.999,
+       0.548,
+       1.0
+      ],
+      [
+       1.0,
+       0.689,
+       1.0
+      ],
+      [
+       0.999,
+       0.579,
+       1.0
+      ]
+     ]
+    }
+   }
+  },
+  "hebrew": {
+   "validated": true,
+   "threshold": 0.5732321239620509,
+   "controls": [
+    0.3941708229426434,
+    0.3913304334783261,
+    0.5197302338929545,
+    0.5378378378378378,
+    0.5338208409506399,
+    0.5140885566417481,
+    0.5273251622206201
+   ],
+   "controls_max": 0.5378378378378378,
+   "texts": {
+    "in_genre": {
+     "found": 10,
+     "cracked": 10,
+     "n": 10,
+     "rows": [
+      [
+       1.0,
+       0.682,
+       1.0
+      ],
+      [
+       1.0,
+       0.609,
+       1.0
+      ],
+      [
+       1.0,
+       0.706,
+       1.0
+      ],
+      [
+       1.0,
+       0.633,
+       1.0
+      ],
+      [
+       1.0,
+       0.612,
+       1.0
+      ],
+      [
+       1.0,
+       0.608,
+       1.0
+      ],
+      [
+       1.0,
+       0.612,
+       1.0
+      ],
+      [
+       1.0,
+       0.677,
+       1.0
+      ],
+      [
+       1.0,
+       0.782,
+       1.0
+      ],
+      [
+       1.0,
+       0.741,
+       1.0
+      ]
+     ]
+    },
+    "talmud_mishnah_gemara": {
+     "found": 0,
+     "cracked": 10,
+     "n": 10,
+     "rows": [
+      [
+       0.993,
+       0.446,
+       1.0
+      ],
+      [
+       0.988,
+       0.367,
+       1.0
+      ],
+      [
+       0.969,
+       0.335,
+       1.0
+      ],
+      [
+       0.99,
+       0.417,
+       1.0
+      ],
+      [
+       1.0,
+       0.399,
+       1.0
+      ],
+      [
+       0.992,
+       0.426,
+       1.0
+      ],
+      [
+       0.981,
+       0.395,
+       1.0
+      ],
+      [
+       0.993,
+       0.331,
+       1.0
+      ],
+      [
+       0.989,
+       0.369,
+       1.0
+      ],
+      [
+       0.987,
+       0.4,
+       1.0
+      ]
+     ]
+    }
+   }
+  }
+ },
+ "powers": {
+  "latin": 1.0,
+  "english": 0.4,
+  "hebrew": 0.0
+ },
+ "p_out": 0.4666666666666666,
+ "verdict": "ABSENCE FACTORS TOO STRONG (p_out 0.467)",
+ "corrections": [
+  {
+   "entry": "E049-E050",
+   "L_old": 0.902,
+   "L_new": 0.9428,
+   "C_old": 0.92,
+   "C_new": 0.9533
+  },
+  {
+   "entry": "E052",
+   "L_old": 0.885,
+   "L_new": 0.9329
+  },
+  {
+   "entry": "E053",
+   "L_old": 0.958,
+   "L_new": 0.9755
+  },
+  {
+   "entry": "E063",
+   "L_old": 0.94,
+   "L_new": 0.965,
+   "C_old": 0.96,
+   "C_new": 0.9767
+  }
+ ],
+ "samples": {
+  "latin:in_genre:0": "aut continebit in ira sua misericordias suas et dixi nunc coepi haec mutatio dextlrae excelsi memor fui operum domini quia memor ero ab initio mirabiliu",
+  "latin:latin_recipes_agriculture:0": "uulsuiam quam tonsuram inuntam qui etiam nunc uellunt ante triduo habent ieiunas quod languidae minus aegre radices lanae retinent omnino tonsores in italiam primum uenisse",
+  "english:in_genre:0": "an a strong tower from the enemh i will abide in tyy tabernacle for ever i will toust io the coveot of thy wimgs selag",
+  "english:culpeper_herbal_1652:0": "pound sage wormwood costmary bail of each half a pound sallad oil twenty pounds yellow wa four pounds malaga wine two pounds of alb of",
+  "hebrew:in_genre:0": "שבעות להמ והוא מזכיר עונ להתפש פ לכנ כה אמר אדני יהוה יענ הזכרכמ עונכמ בהגלות פשעיכמ להראות חטאותיכמ בכל עלילותיכמ יענ הזכרכמ בכפ תתפשו",
+  "hebrew:talmud_mishnah_gemara:0": "דרבי אמר רבי מריקא אמר רבי אמי אמר רבי יהושע בנ לוי כתוב אחד אומר חצות לילה אקומ להודות לכ על משפטי צדקכ וכתחב אחד"
+ },
+ "locked_test_excluded": [
+  "1",
+  "102",
+  "105",
+  "114",
+  "30",
+  "35",
+  "38",
+  "51",
+  "52",
+  "56",
+  "75",
+  "8",
+  "86",
+  "87",
+  "9"
+ ],
+ "runtime_s": 1709.0659251213074
+}

@@ -588,3 +588,10 @@ New measured facts: C25 (mechanical spaces), C26 (line independence).
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-28 | E089 spaceless line-by-line attack with 7 mixed-language models; E089b seed check (`SPACELESS_MIXTURES.md`) | COVER5 yardstick validates 7/7. No claim anywhere; near miss Hebrew+Aramaic+Judeo-Arabic on B (0.172 vs threshold 0.175, imitations 0.114) fails the seed check 0/10 (nine seeds 0.096). NO CLAIM, validated | recorded in the Hebrew campaign | 0.1005 | 0.8682 | 0.0273 | 0.004 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-28 | E090 approach check 1: power of the letter attack on out-of-genre plaintexts (`POWER_CHECK.md`) | Decoder cracks 30/30 technical-text ciphers (Latin recipes/agriculture, Culpeper, Talmud) with Bible models, but the claim gate finds 10/10, 4/10, 0/10; correctly decoded Talmud (0.33–0.45) scores below pseudo-Voynich controls (0.54). p_out 0.467: ABSENCE FACTORS TOO STRONG | letter-attack absence factors recomputed with power 0.467: **L × 1.152, C × 1.054** (E049–E050, E052, E053, E063) | 0.0887 | 0.8824 | 0.0254 | 0.0035 |
+
+**After E090.** The Bible-model Hebrew letter searches excluded only Bible-like Hebrew; a correctly decoded rabbinic-style
+text would have scored below gibberish. The Hebrew campaign's exclusions are re-scoped accordingly (`HEBREW_CAMPAIGN.md`).

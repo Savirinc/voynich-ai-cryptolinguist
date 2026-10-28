@@ -154,3 +154,9 @@ codes that reorder letters within a line, Ladino, Judeo-Italian, Judeo-Persian.
 Hebrew + Aramaic, + Judeo-Arabic, three-way, Hebrew + Latin, Hebrew + Turkish (and two non-Hebrew mixtures): all
 validated, no claim. The three-way mixture on B came within 0.003 of the threshold once; the rule-8 seed check gave
 0 of 10 passes (nine seeds 0.096). Details: `SPACELESS_MIXTURES.md`.
+
+## E090 re-scope (2026-10-28)
+E090 (`POWER_CHECK.md`) showed the dictionary claim gate cannot detect a correctly decoded Talmud text with a Bible
+Hebrew model (0/10 found, all 10 cracked; lexrate 0.33–0.45 vs pseudo-Voynich 0.54). The letter-level exclusions with
+Bible models (H1, H2, H5 in E049, E080, E082) hold only for **Bible-like Hebrew**. E084 (Talmud model) covers
+Talmud-like text. Medieval technical or medical Hebrew is **not excluded** by any test so far.
