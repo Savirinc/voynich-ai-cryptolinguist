@@ -603,3 +603,10 @@ text would have scored below gibberish. The Hebrew campaign's exclusions are re-
 **After E091.** From the point start M leads (0.46 vs 0.36); from the range edges M 0.63 / L 0.18 or M 0.30 / L 0.53. The
 data do not decide between M and L; the earlier L lead came from two withdrawn factors. All later updates multiply these
 values without intermediate rounding.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-28 | E092 approach check 3: transcription and glyph-cut robustness (`TRANSCRIPTION_CHECK.md`) | Lines independent, E067, E068, E066 SURVIVE all 4 variants (Takahashi, Glen Claston v101, joined doubtful spaces, S3 glyph units). Spaces mechanical DEPENDS ON TRANSCRIPTION: PRED 0.67–0.68 with EVA letters, 0.42 with glyph groups as single signs (S3 and v101) | none (scored facts survive) | 0.4631 | 0.3604 | 0.0978 | 0.0788 |
+
+**After E092.** E086 Part A ("spaces mechanical") is restated: it holds for EVA letters only; with glyph groups as single
+signs Voynich's spaces are as predictable as in languages.

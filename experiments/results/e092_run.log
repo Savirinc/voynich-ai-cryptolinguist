@@ -1,0 +1,45 @@
+ZL {'lines': 3406, 'pages': 173, 'tokens': 28841, 'unclean': 224, 'types': 6077, 'hapax_share_of_types': 0.6781, 'symbols': 25, 'mean_word_len': 4.991}
+ZL_J {'lines': 3406, 'pages': 173, 'tokens': 26810, 'unclean': 221, 'types': 6876, 'hapax_share_of_types': 0.7141, 'symbols': 25, 'mean_word_len': 5.366}
+ZL_S3 {'lines': 3406, 'pages': 173, 'tokens': 28841, 'unclean': 224, 'types': 6077, 'hapax_share_of_types': 0.6781, 'symbols': 41, 'mean_word_len': 3.69}
+IT {'lines': 3394, 'pages': 172, 'tokens': 28555, 'unclean': 64, 'types': 6132, 'hapax_share_of_types': 0.6756, 'symbols': 21, 'mean_word_len': 5.06}
+GC {'lines': 3406, 'pages': 173, 'tokens': 30194, 'unclean': 249, 'types': 7230, 'hapax_share_of_types': 0.7003, 'symbols': 70, 'mean_word_len': 3.883}
+ZL     PRED 0.673 MECHANICAL | z +0.13 INDEPENDENT | T 112.1 H 0.615 GIBBERISH LIKE VOYNICH | M RULED DOWN (gibberish Voynich-like on at most one diagnostic feature) | E066 z -1.05 FAMILY-LEVEL (generator-like) | 50s
+         WL    v 5.012 lang 4.950 gib 4.914 diag False like None
+         WLSD  v 1.708 lang 2.471 gib 2.410 diag True like False
+         H2    v 1.983 lang 2.744 gib 2.980 diag True like False
+         END5  v 0.933 lang 0.758 gib 0.619 diag True like False
+         R     v 1.279 lang 0.154 gib 0.549 diag True like False
+         NR    v 1.229 lang 0.542 gib 1.314 diag True like True
+ZL_J   PRED 0.665 MECHANICAL | z -0.72 INDEPENDENT | T 116.1 H 0.653 GIBBERISH LIKE VOYNICH | M RULED DOWN (gibberish Voynich-like on at most one diagnostic feature) | E066 z -0.76 FAMILY-LEVEL (generator-like) | 99s
+         WL    v 5.402 lang 4.950 gib 4.914 diag True like False
+         WLSD  v 1.810 lang 2.471 gib 2.410 diag True like False
+         H2    v 1.983 lang 2.744 gib 2.980 diag True like False
+         END5  v 0.938 lang 0.758 gib 0.619 diag True like False
+         R     v 1.320 lang 0.154 gib 0.549 diag True like False
+         NR    v 1.341 lang 0.542 gib 1.314 diag True like True
+ZL_S3  PRED 0.425 NOT MECHANICAL | z +0.13 INDEPENDENT | T 112.1 H 0.615 GIBBERISH LIKE VOYNICH | M RULED DOWN (gibberish Voynich-like on at most one diagnostic feature) | E066 z -0.21 FAMILY-LEVEL (generator-like) | 147s
+         WL    v 3.712 lang 4.950 gib 4.914 diag True like False
+         WLSD  v 1.222 lang 2.471 gib 2.410 diag True like False
+         H2    v 2.363 lang 2.744 gib 2.980 diag True like False
+         END5  v 0.835 lang 0.758 gib 0.619 diag True like False
+         R     v 1.279 lang 0.154 gib 0.549 diag True like False
+         NR    v 1.245 lang 0.542 gib 1.314 diag True like True
+IT     PRED 0.681 MECHANICAL | z +0.80 INDEPENDENT | T 112.6 H 0.620 GIBBERISH LIKE VOYNICH | M RULED DOWN (gibberish Voynich-like on at most one diagnostic feature) | E066 z -1.04 FAMILY-LEVEL (generator-like) | 196s
+         WL    v 5.074 lang 4.950 gib 4.914 diag False like None
+         WLSD  v 1.660 lang 2.471 gib 2.410 diag True like False
+         H2    v 1.986 lang 2.744 gib 2.980 diag True like False
+         END5  v 0.938 lang 0.758 gib 0.619 diag True like False
+         R     v 1.311 lang 0.154 gib 0.549 diag True like False
+         NR    v 1.246 lang 0.542 gib 1.314 diag True like True
+GC     PRED 0.424 NOT MECHANICAL | z -0.59 INDEPENDENT | T 115.9 H 0.647 GIBBERISH LIKE VOYNICH | M RULED DOWN (gibberish Voynich-like on at most one diagnostic feature) | E066 z -0.69 FAMILY-LEVEL (generator-like) | 245s
+         WL    v 3.869 lang 4.950 gib 4.914 diag True like False
+         WLSD  v 1.451 lang 2.471 gib 2.410 diag True like False
+         H2    v 2.359 lang 2.744 gib 2.980 diag True like False
+         END5  v 0.855 lang 0.758 gib 0.619 diag True like False
+         R     v 1.006 lang 0.154 gib 0.549 diag True like False
+         NR    v 1.209 lang 0.542 gib 1.314 diag True like True
+F1: baseline MECHANICAL | DEPENDS ON TRANSCRIPTION ['ZL_S3', 'GC']
+F2: baseline INDEPENDENT | SURVIVES []
+F3: baseline GIBBERISH LIKE VOYNICH | SURVIVES []
+F4: baseline M RULED DOWN (gibberish Voynich-like on at most one diagnostic feature) | SURVIVES []
+F5: baseline FAMILY-LEVEL (generator-like) | SURVIVES []

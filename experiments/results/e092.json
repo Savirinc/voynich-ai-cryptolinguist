@@ -1,0 +1,455 @@
+{
+ "experiment": "E092",
+ "meta": {
+  "ZL": {
+   "lines": 3406,
+   "pages": 173,
+   "tokens": 28841,
+   "unclean": 224,
+   "types": 6077,
+   "hapax_share_of_types": 0.6781,
+   "symbols": 25,
+   "mean_word_len": 4.991
+  },
+  "ZL_J": {
+   "lines": 3406,
+   "pages": 173,
+   "tokens": 26810,
+   "unclean": 221,
+   "types": 6876,
+   "hapax_share_of_types": 0.7141,
+   "symbols": 25,
+   "mean_word_len": 5.366
+  },
+  "ZL_S3": {
+   "lines": 3406,
+   "pages": 173,
+   "tokens": 28841,
+   "unclean": 224,
+   "types": 6077,
+   "hapax_share_of_types": 0.6781,
+   "symbols": 41,
+   "mean_word_len": 3.69
+  },
+  "IT": {
+   "lines": 3394,
+   "pages": 172,
+   "tokens": 28555,
+   "unclean": 64,
+   "types": 6132,
+   "hapax_share_of_types": 0.6756,
+   "symbols": 21,
+   "mean_word_len": 5.06
+  },
+  "GC": {
+   "lines": 3406,
+   "pages": 173,
+   "tokens": 30194,
+   "unclean": 249,
+   "types": 7230,
+   "hapax_share_of_types": 0.7003,
+   "symbols": 70,
+   "mean_word_len": 3.883
+  }
+ },
+ "results": {
+  "ZL": {
+   "PRED": 0.672955516159272,
+   "F1": "MECHANICAL",
+   "cont_z": 0.1320833369787592,
+   "F2": "INDEPENDENT",
+   "T": 112.125,
+   "H": 0.6152666666666665,
+   "d_lang_T": -1.6240494580805727,
+   "d_gib_T": 0.28185331621528253,
+   "F3": "GIBBERISH LIKE VOYNICH",
+   "F4_detail": {
+    "rows": {
+     "WL": {
+      "voynich": 5.012233333333333,
+      "languages": 4.9504590163934425,
+      "gibberish": 4.913518518518519,
+      "diagnostic": false,
+      "voynich_like": null
+     },
+     "WLSD": {
+      "voynich": 1.7075962953255248,
+      "languages": 2.4712569068876316,
+      "gibberish": 2.410300727958201,
+      "diagnostic": true,
+      "voynich_like": false
+     },
+     "H2": {
+      "voynich": 1.9825099972078164,
+      "languages": 2.7437767560671373,
+      "gibberish": 2.979608167011823,
+      "diagnostic": true,
+      "voynich_like": false
+     },
+     "END5": {
+      "voynich": 0.9334666666666667,
+      "languages": 0.7577540983606558,
+      "gibberish": 0.6187037037037039,
+      "diagnostic": true,
+      "voynich_like": false
+     },
+     "R": {
+      "voynich": 1.2785920156987793,
+      "languages": 0.15438441347709336,
+      "gibberish": 0.5488668555240793,
+      "diagnostic": true,
+      "voynich_like": false
+     },
+     "NR": {
+      "voynich": 1.229223517737533,
+      "languages": 0.5424028155247044,
+      "gibberish": 1.3142857142857147,
+      "diagnostic": true,
+      "voynich_like": true
+     }
+    },
+    "F4": "M RULED DOWN (gibberish Voynich-like on at most one diagnostic feature)"
+   },
+   "F4": "M RULED DOWN (gibberish Voynich-like on at most one diagnostic feature)",
+   "fam_z": -1.0539257644845699,
+   "kept_words": 112,
+   "F5": "FAMILY-LEVEL (generator-like)"
+  },
+  "ZL_J": {
+   "PRED": 0.6646213712979022,
+   "F1": "MECHANICAL",
+   "cont_z": -0.7213921623028313,
+   "F2": "INDEPENDENT",
+   "T": 116.07,
+   "H": 0.6527666666666667,
+   "d_lang_T": -2.148104087447241,
+   "d_gib_T": -0.08357068879247453,
+   "F3": "GIBBERISH LIKE VOYNICH",
+   "F4_detail": {
+    "rows": {
+     "WL": {
+      "voynich": 5.401866666666667,
+      "languages": 4.9504590163934425,
+      "gibberish": 4.913518518518519,
+      "diagnostic": true,
+      "voynich_like": false
+     },
+     "WLSD": {
+      "voynich": 1.8097140078368137,
+      "languages": 2.4712569068876316,
+      "gibberish": 2.410300727958201,
+      "diagnostic": true,
+      "voynich_like": false
+     },
+     "H2": {
+      "voynich": 1.982985488655666,
+      "languages": 2.7437767560671373,
+      "gibberish": 2.979608167011823,
+      "diagnostic": true,
+      "voynich_like": false
+     },
+     "END5": {
+      "voynich": 0.9384666666666667,
+      "languages": 0.7577540983606558,
+      "gibberish": 0.6187037037037039,
+      "diagnostic": true,
+      "voynich_like": false
+     },
+     "R": {
+      "voynich": 1.319589013498086,
+      "languages": 0.15438441347709336,
+      "gibberish": 0.5488668555240793,
+      "diagnostic": true,
+      "voynich_like": false
+     },
+     "NR": {
+      "voynich": 1.3414277355178468,
+      "languages": 0.5424028155247044,
+      "gibberish": 1.3142857142857147,
+      "diagnostic": true,
+      "voynich_like": true
+     }
+    },
+    "F4": "M RULED DOWN (gibberish Voynich-like on at most one diagnostic feature)"
+   },
+   "F4": "M RULED DOWN (gibberish Voynich-like on at most one diagnostic feature)",
+   "fam_z": -0.7560002976440381,
+   "kept_words": 102,
+   "F5": "FAMILY-LEVEL (generator-like)"
+  },
+  "ZL_S3": {
+   "PRED": 0.4246651977224093,
+   "F1": "NOT MECHANICAL",
+   "cont_z": 0.1320833369787592,
+   "F2": "INDEPENDENT",
+   "T": 112.125,
+   "H": 0.6152666666666665,
+   "d_lang_T": -1.6240494580805727,
+   "d_gib_T": 0.28185331621528253,
+   "F3": "GIBBERISH LIKE VOYNICH",
+   "F4_detail": {
+    "rows": {
+     "WL": {
+      "voynich": 3.7124999999999995,
+      "languages": 4.9504590163934425,
+      "gibberish": 4.913518518518519,
+      "diagnostic": true,
+      "voynich_like": false
+     },
+     "WLSD": {
+      "voynich": 1.2223012996153566,
+      "languages": 2.4712569068876316,
+      "gibberish": 2.410300727958201,
+      "diagnostic": true,
+      "voynich_like": false
+     },
+     "H2": {
+      "voynich": 2.3625903251395113,
+      "languages": 2.7437767560671373,
+      "gibberish": 2.979608167011823,
+      "diagnostic": true,
+      "voynich_like": false
+     },
+     "END5": {
+      "voynich": 0.8346666666666667,
+      "languages": 0.7577540983606558,
+      "gibberish": 0.6187037037037039,
+      "diagnostic": true,
+      "voynich_like": false
+     },
+     "R": {
+      "voynich": 1.2785920156987793,
+      "languages": 0.15438441347709336,
+      "gibberish": 0.5488668555240793,
+      "diagnostic": true,
+      "voynich_like": false
+     },
+     "NR": {
+      "voynich": 1.2447589098532494,
+      "languages": 0.5424028155247044,
+      "gibberish": 1.3142857142857147,
+      "diagnostic": true,
+      "voynich_like": true
+     }
+    },
+    "F4": "M RULED DOWN (gibberish Voynich-like on at most one diagnostic feature)"
+   },
+   "F4": "M RULED DOWN (gibberish Voynich-like on at most one diagnostic feature)",
+   "fam_z": -0.21301594037814217,
+   "kept_words": 84,
+   "F5": "FAMILY-LEVEL (generator-like)"
+  },
+  "IT": {
+   "PRED": 0.6807502624768302,
+   "F1": "MECHANICAL",
+   "cont_z": 0.7969758519874898,
+   "F2": "INDEPENDENT",
+   "T": 112.595,
+   "H": 0.6195666666666666,
+   "d_lang_T": -1.7007670036484914,
+   "d_gib_T": 0.24395156594745832,
+   "F3": "GIBBERISH LIKE VOYNICH",
+   "F4_detail": {
+    "rows": {
+     "WL": {
+      "voynich": 5.0742666666666665,
+      "languages": 4.9504590163934425,
+      "gibberish": 4.913518518518519,
+      "diagnostic": false,
+      "voynich_like": null
+     },
+     "WLSD": {
+      "voynich": 1.6604618300014322,
+      "languages": 2.4712569068876316,
+      "gibberish": 2.410300727958201,
+      "diagnostic": true,
+      "voynich_like": false
+     },
+     "H2": {
+      "voynich": 1.9855711585914873,
+      "languages": 2.7437767560671373,
+      "gibberish": 2.979608167011823,
+      "diagnostic": true,
+      "voynich_like": false
+     },
+     "END5": {
+      "voynich": 0.9381,
+      "languages": 0.7577540983606558,
+      "gibberish": 0.6187037037037039,
+      "diagnostic": true,
+      "voynich_like": false
+     },
+     "R": {
+      "voynich": 1.3112533858655506,
+      "languages": 0.15438441347709336,
+      "gibberish": 0.5488668555240793,
+      "diagnostic": true,
+      "voynich_like": false
+     },
+     "NR": {
+      "voynich": 1.246458923512748,
+      "languages": 0.5424028155247044,
+      "gibberish": 1.3142857142857147,
+      "diagnostic": true,
+      "voynich_like": true
+     }
+    },
+    "F4": "M RULED DOWN (gibberish Voynich-like on at most one diagnostic feature)"
+   },
+   "F4": "M RULED DOWN (gibberish Voynich-like on at most one diagnostic feature)",
+   "fam_z": -1.0440825271607808,
+   "kept_words": 113,
+   "F5": "FAMILY-LEVEL (generator-like)"
+  },
+  "GC": {
+   "PRED": 0.42414662003548764,
+   "F1": "NOT MECHANICAL",
+   "cont_z": -0.590374827703894,
+   "F2": "INDEPENDENT",
+   "T": 115.89,
+   "H": 0.6468333333333334,
+   "d_lang_T": -2.450349731452785,
+   "d_gib_T": -0.07571447481610413,
+   "F3": "GIBBERISH LIKE VOYNICH",
+   "F4_detail": {
+    "rows": {
+     "WL": {
+      "voynich": 3.869133333333333,
+      "languages": 4.9504590163934425,
+      "gibberish": 4.913518518518519,
+      "diagnostic": true,
+      "voynich_like": false
+     },
+     "WLSD": {
+      "voynich": 1.4508548572260478,
+      "languages": 2.4712569068876316,
+      "gibberish": 2.410300727958201,
+      "diagnostic": true,
+      "voynich_like": false
+     },
+     "H2": {
+      "voynich": 2.359226647597859,
+      "languages": 2.7437767560671373,
+      "gibberish": 2.979608167011823,
+      "diagnostic": true,
+      "voynich_like": false
+     },
+     "END5": {
+      "voynich": 0.8550666666666666,
+      "languages": 0.7577540983606558,
+      "gibberish": 0.6187037037037039,
+      "diagnostic": true,
+      "voynich_like": false
+     },
+     "R": {
+      "voynich": 1.0061166330715237,
+      "languages": 0.15438441347709336,
+      "gibberish": 0.5488668555240793,
+      "diagnostic": true,
+      "voynich_like": false
+     },
+     "NR": {
+      "voynich": 1.2089028444772811,
+      "languages": 0.5424028155247044,
+      "gibberish": 1.3142857142857147,
+      "diagnostic": true,
+      "voynich_like": true
+     }
+    },
+    "F4": "M RULED DOWN (gibberish Voynich-like on at most one diagnostic feature)"
+   },
+   "F4": "M RULED DOWN (gibberish Voynich-like on at most one diagnostic feature)",
+   "fam_z": -0.6922066824881149,
+   "kept_words": 86,
+   "F5": "FAMILY-LEVEL (generator-like)"
+  }
+ },
+ "summary": {
+  "F1": {
+   "baseline": "MECHANICAL",
+   "variants": {
+    "ZL_J": "MECHANICAL",
+    "ZL_S3": "NOT MECHANICAL",
+    "IT": "MECHANICAL",
+    "GC": "NOT MECHANICAL"
+   },
+   "fails": [
+    "ZL_S3",
+    "GC"
+   ],
+   "status": "DEPENDS ON TRANSCRIPTION"
+  },
+  "F2": {
+   "baseline": "INDEPENDENT",
+   "variants": {
+    "ZL_J": "INDEPENDENT",
+    "ZL_S3": "INDEPENDENT",
+    "IT": "INDEPENDENT",
+    "GC": "INDEPENDENT"
+   },
+   "fails": [],
+   "status": "SURVIVES"
+  },
+  "F3": {
+   "baseline": "GIBBERISH LIKE VOYNICH",
+   "variants": {
+    "ZL_J": "GIBBERISH LIKE VOYNICH",
+    "ZL_S3": "GIBBERISH LIKE VOYNICH",
+    "IT": "GIBBERISH LIKE VOYNICH",
+    "GC": "GIBBERISH LIKE VOYNICH"
+   },
+   "fails": [],
+   "status": "SURVIVES"
+  },
+  "F4": {
+   "baseline": "M RULED DOWN (gibberish Voynich-like on at most one diagnostic feature)",
+   "variants": {
+    "ZL_J": "M RULED DOWN (gibberish Voynich-like on at most one diagnostic feature)",
+    "ZL_S3": "M RULED DOWN (gibberish Voynich-like on at most one diagnostic feature)",
+    "IT": "M RULED DOWN (gibberish Voynich-like on at most one diagnostic feature)",
+    "GC": "M RULED DOWN (gibberish Voynich-like on at most one diagnostic feature)"
+   },
+   "fails": [],
+   "status": "SURVIVES"
+  },
+  "F5": {
+   "baseline": "FAMILY-LEVEL (generator-like)",
+   "variants": {
+    "ZL_J": "FAMILY-LEVEL (generator-like)",
+    "ZL_S3": "FAMILY-LEVEL (generator-like)",
+    "IT": "FAMILY-LEVEL (generator-like)",
+    "GC": "FAMILY-LEVEL (generator-like)"
+   },
+   "fails": [],
+   "status": "SURVIVES"
+  }
+ },
+ "locked_test_excluded": [
+  "1",
+  "102",
+  "105",
+  "114",
+  "30",
+  "35",
+  "38",
+  "51",
+  "52",
+  "56",
+  "75",
+  "8",
+  "86",
+  "87",
+  "9"
+ ],
+ "files": {
+  "IT": [
+   "IT2a-n.txt",
+   "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5"
+  ],
+  "GC": [
+   "GC2a-n.txt",
+   "b09570cb6c993bc2d87134d115e60a978650a8a6495483ddbb1f6005a586096f"
+  ]
+ },
+ "runtime_s": 245.1589801311493
+}
