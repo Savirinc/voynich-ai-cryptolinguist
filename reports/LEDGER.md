@@ -614,3 +614,7 @@ signs Voynich's spaces are as predictable as in languages.
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-28 | E093 approach check 4: process ladder and subject tracking (`EXPLANATION_MODEL.md`) | Part 1: best model P4 (pieces + position + junctions + copying) reproduces 5 of 12 solid-fact items: NO WORKING PROCESS. Part 2: VALID (Bibles z +16, +14; generator −2.4, P\* −5.0); Voynich z +1.2 INCONCLUSIVE. Unscored: Voynich +0.006 vs meaningless controls with the same labels −0.007/−0.009 | none | 0.4631 | 0.3604 | 0.0978 | 0.0788 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-28 | E094 (Test A, Arham) zodiac pictures read blind with month names masked (`ZODIAC_PICTURES.md`) | ANNOTATION CONFIRMED 12/12 as scored, BUT all 15 AI judges recognised the source (project context loaded), so not blind; 9 of 12 pictures are unambiguous on their face. Figures 15 per Aries/Taurus page and 30 elsewhere = degrees of the sign; tubs and clothing on the spring pages only; no sun or moon | none (anchor test) | 0.4631 | 0.3604 | 0.0978 | 0.0788 |

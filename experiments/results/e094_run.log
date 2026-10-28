@@ -1,0 +1,40 @@
+[all_judges] ANNOTATION CONFIRMED (12/12)
+  f70v2  mars       expected Pisces      votes ['Pisces', 'Pisces', 'Pisces', 'Pisces', 'Pisces'] -> Pisces MATCH
+  f70v1  aberil     expected Aries       votes ['Aries', 'Aries', 'Aries', 'Aries', 'Aries'] -> Aries MATCH
+  f71r   aberil     expected Aries       votes ['Aries', 'Aries', 'Aries', 'Aries', 'Aries'] -> Aries MATCH
+  f71v   may        expected Taurus      votes ['Taurus', 'Taurus', 'Taurus', 'Taurus', 'Taurus'] -> Taurus MATCH
+  f72r1  may        expected Taurus      votes ['Taurus', 'Taurus', 'Taurus', 'Taurus', 'Taurus'] -> Taurus MATCH
+  f72r2  yony       expected Gemini      votes ['Gemini', 'Gemini', 'Gemini', 'Gemini', 'Gemini'] -> Gemini MATCH
+  f72r3  iollet     expected Cancer      votes ['Cancer', 'Cancer', 'Cancer', 'Cancer', 'Cancer'] -> Cancer MATCH
+  f72v3  augst      expected Leo         votes ['Leo', 'Leo', 'Leo', 'Leo', 'Leo'] -> Leo MATCH
+  f72v2  septembre  expected Virgo       votes ['Virgo', 'Virgo', 'Virgo', 'Virgo', 'Virgo'] -> Virgo MATCH
+  f72v1  octembre   expected Libra       votes ['Libra', 'Libra', 'Libra', 'Libra', 'Libra'] -> Libra MATCH
+  f73r   novembre   expected Scorpio     votes ['Scorpio', 'Scorpio', 'Scorpio', 'Scorpio', 'Scorpio'] -> Scorpio MATCH
+  f73v   decembre   expected Sagittarius votes ['Sagittarius', 'Sagittarius', 'Sagittarius', 'Sagittarius', 'Sagittarius'] -> Sagittarius MATCH
+[excluding_recognisers] NOT CONFIRMED (0/12)
+  f70v2  mars       expected Pisces      votes [] -> None no
+  f70v1  aberil     expected Aries       votes [] -> None no
+  f71r   aberil     expected Aries       votes [] -> None no
+  f71v   may        expected Taurus      votes [] -> None no
+  f72r1  may        expected Taurus      votes [] -> None no
+  f72r2  yony       expected Gemini      votes [] -> None no
+  f72r3  iollet     expected Cancer      votes [] -> None no
+  f72v3  augst      expected Leo         votes [] -> None no
+  f72v2  septembre  expected Virgo       votes [] -> None no
+  f72v1  octembre   expected Libra       votes [] -> None no
+  f73r   novembre   expected Scorpio     votes [] -> None no
+  f73v   decembre   expected Sagittarius votes [] -> None no
+degradation (correct / judges):
+  f70v2  Pisces      L0:2/2 L1:2/2 L2:2/2 L3:1/2 L4:2/2 L5:2/2
+  f70v1  Aries       L0:2/2 L1:2/2 L2:2/2 L3:0/2 L4:2/2 L5:0/2
+  f71r   Aries       L0:2/2 L1:2/2 L2:0/2 L3:0/2 L4:0/2 L5:2/2
+  f71v   Taurus      L0:2/2 L1:2/2 L2:0/2 L3:0/2 L4:0/2 L5:2/2
+  f72r1  Taurus      L0:2/2 L1:1/2 L2:0/2 L3:0/2 L4:2/2 L5:2/2
+  f72r2  Gemini      L0:2/2 L1:2/2 L2:1/2 L3:1/2 L4:2/2 L5:1/2
+  f72r3  Cancer      L0:2/2 L1:2/2 L2:0/2 L3:0/2 L4:0/2 L5:2/2
+  f72v3  Leo         L0:2/2 L1:0/2 L2:0/2 L3:0/2 L4:0/2 L5:0/2
+  f72v2  Virgo       L0:2/2 L1:0/2 L2:0/2 L3:0/2 L4:0/2 L5:1/2
+  f72v1  Libra       L0:2/2 L1:2/2 L2:0/2 L3:0/2 L4:2/2 L5:2/2
+  f73r   Scorpio     L0:2/2 L1:1/2 L2:1/2 L3:0/2 L4:0/2 L5:2/2
+  f73v   Sagittarius L0:2/2 L1:1/2 L2:0/2 L3:0/2 L4:0/2 L5:2/2
+figures per page (judges' median | E073 count): {'f70v2': (29, 29), 'f70v1': (15, 15), 'f71r': (15, 15), 'f71v': (15, 15), 'f72r1': (15, 15), 'f72r2': (30, 30), 'f72r3': (30, 30), 'f72v3': (30, 29), 'f72v2': (30, 29), 'f72v1': (30, 30), 'f73r': (30, 30), 'f73v': (30, 29)}

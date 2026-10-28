@@ -1,0 +1,1554 @@
+{
+ "judges": {
+  "CENTRE_L0_j1": "Yes: these are the zodiac roundels of the Voynich manuscript (Beinecke MS 408), the circular zodiac pages with nude/clothed figures in tubs holding stars and Voynich-script labels.",
+  "CENTRE_L0_j2": "Yes. After looking at all twelve: the script, nude figures in tubs and rings of stars match the zodiac section of the Voynich manuscript (Beinecke MS 408, about folios 70v-73v). That cycle has no Capricorn or Aquarius and two pages each for Aries and Taurus. I did not use this knowledge to choose the signs, but it agrees with them.",
+  "CENTRE_L1_j1": "Yes: these look like the zodiac medallions of the Voynich manuscript (Beinecke MS 408), folios f70v-f73v.",
+  "CENTRE_L1_j2": "Yes: the style (nymphs in barrels or tubs around rings of text, centre medallions with an animal, and the cursive script) looks like the zodiac section of the Voynich manuscript (Beinecke MS 408).",
+  "CENTRE_L2_j1": "yes, probably: the circular diagrams with small figures in tubs around a central emblem look like the zodiac section of the Voynich manuscript (Beinecke MS 408), but I could not confirm individual pages",
+  "CENTRE_L2_j2": "Yes, probably: the style (circular diagrams with a central animal or object, rings of text, figures in tubs/barrels, pale washes of green, blue and red) looks like the zodiac pages of the Voynich manuscript (Beinecke MS 408). Moderate confidence given the blur.",
+  "CENTRE_L3_j1": "Possibly. The style (red quadruped centre, circular diagrams, beige vellum, green/blue/red wash) is consistent with the zodiac medallions of the Voynich manuscript (Beinecke MS 408), but the images are too degraded to be sure.",
+  "CENTRE_L3_j2": "Possibly: the faded vellum, the small coloured figures arranged around circular diagrams, and the central animals resemble the zodiac section of the Voynich manuscript (Beinecke MS 408), but at this pixelation level this is a guess, not a confident recognition. I did not use this to choose signs.",
+  "CENTRE_L4_j1": "yes: the tubs/barrels with figures, ring layout and script style suggest the zodiac section of the Voynich manuscript (Beinecke MS 408)",
+  "CENTRE_L4_j2": "yes, probably: the style (zodiac-type central figures, small figures and script-like text around a circle) looks like the zodiac pages of the Voynich manuscript (Beinecke MS 408), though the degraded images make this uncertain",
+  "CENTRE_L5_j1": "Yes: the style (nude nymphs in tubs holding stars, concentric text rings in an unknown script, crossbow archer, fish pair) matches the zodiac section of the Voynich manuscript (Beinecke MS 408).",
+  "CENTRE_L5_j2": "yes - the zodiac section of the Voynich manuscript (Beinecke MS 408), recognised from the script and the nude figures with stars in tubs",
+  "FULL_j1": "yes: these look like the zodiac pages of the Voynich manuscript (Beinecke MS 408), with its unknown script and star-holding nude or tub-bound figures.",
+  "FULL_j2": "Yes: these are the zodiac pages of the Voynich manuscript (Beinecke MS 408), recognisable from the script, the nude star-holding women in tubs and the concentric rings.",
+  "FULL_j3": "yes: the zodiac section of the Voynich manuscript (Beinecke MS 408)"
+ },
+ "all_judges": {
+  "rows": {
+   "f70v2": {
+    "month": "mars",
+    "expected": "Pisces",
+    "votes": [
+     "Pisces",
+     "Pisces",
+     "Pisces",
+     "Pisces",
+     "Pisces"
+    ],
+    "majority": "Pisces",
+    "match": true
+   },
+   "f70v1": {
+    "month": "aberil",
+    "expected": "Aries",
+    "votes": [
+     "Aries",
+     "Aries",
+     "Aries",
+     "Aries",
+     "Aries"
+    ],
+    "majority": "Aries",
+    "match": true
+   },
+   "f71r": {
+    "month": "aberil",
+    "expected": "Aries",
+    "votes": [
+     "Aries",
+     "Aries",
+     "Aries",
+     "Aries",
+     "Aries"
+    ],
+    "majority": "Aries",
+    "match": true
+   },
+   "f71v": {
+    "month": "may",
+    "expected": "Taurus",
+    "votes": [
+     "Taurus",
+     "Taurus",
+     "Taurus",
+     "Taurus",
+     "Taurus"
+    ],
+    "majority": "Taurus",
+    "match": true
+   },
+   "f72r1": {
+    "month": "may",
+    "expected": "Taurus",
+    "votes": [
+     "Taurus",
+     "Taurus",
+     "Taurus",
+     "Taurus",
+     "Taurus"
+    ],
+    "majority": "Taurus",
+    "match": true
+   },
+   "f72r2": {
+    "month": "yony",
+    "expected": "Gemini",
+    "votes": [
+     "Gemini",
+     "Gemini",
+     "Gemini",
+     "Gemini",
+     "Gemini"
+    ],
+    "majority": "Gemini",
+    "match": true
+   },
+   "f72r3": {
+    "month": "iollet",
+    "expected": "Cancer",
+    "votes": [
+     "Cancer",
+     "Cancer",
+     "Cancer",
+     "Cancer",
+     "Cancer"
+    ],
+    "majority": "Cancer",
+    "match": true
+   },
+   "f72v3": {
+    "month": "augst",
+    "expected": "Leo",
+    "votes": [
+     "Leo",
+     "Leo",
+     "Leo",
+     "Leo",
+     "Leo"
+    ],
+    "majority": "Leo",
+    "match": true
+   },
+   "f72v2": {
+    "month": "septembre",
+    "expected": "Virgo",
+    "votes": [
+     "Virgo",
+     "Virgo",
+     "Virgo",
+     "Virgo",
+     "Virgo"
+    ],
+    "majority": "Virgo",
+    "match": true
+   },
+   "f72v1": {
+    "month": "octembre",
+    "expected": "Libra",
+    "votes": [
+     "Libra",
+     "Libra",
+     "Libra",
+     "Libra",
+     "Libra"
+    ],
+    "majority": "Libra",
+    "match": true
+   },
+   "f73r": {
+    "month": "novembre",
+    "expected": "Scorpio",
+    "votes": [
+     "Scorpio",
+     "Scorpio",
+     "Scorpio",
+     "Scorpio",
+     "Scorpio"
+    ],
+    "majority": "Scorpio",
+    "match": true
+   },
+   "f73v": {
+    "month": "decembre",
+    "expected": "Sagittarius",
+    "votes": [
+     "Sagittarius",
+     "Sagittarius",
+     "Sagittarius",
+     "Sagittarius",
+     "Sagittarius"
+    ],
+    "majority": "Sagittarius",
+    "match": true
+   }
+  },
+  "matches": 12,
+  "verdict": "ANNOTATION CONFIRMED (12/12)",
+  "judges_used": 5
+ },
+ "excluding_recognisers": {
+  "rows": {
+   "f70v2": {
+    "month": "mars",
+    "expected": "Pisces",
+    "votes": [],
+    "majority": null,
+    "match": false
+   },
+   "f70v1": {
+    "month": "aberil",
+    "expected": "Aries",
+    "votes": [],
+    "majority": null,
+    "match": false
+   },
+   "f71r": {
+    "month": "aberil",
+    "expected": "Aries",
+    "votes": [],
+    "majority": null,
+    "match": false
+   },
+   "f71v": {
+    "month": "may",
+    "expected": "Taurus",
+    "votes": [],
+    "majority": null,
+    "match": false
+   },
+   "f72r1": {
+    "month": "may",
+    "expected": "Taurus",
+    "votes": [],
+    "majority": null,
+    "match": false
+   },
+   "f72r2": {
+    "month": "yony",
+    "expected": "Gemini",
+    "votes": [],
+    "majority": null,
+    "match": false
+   },
+   "f72r3": {
+    "month": "iollet",
+    "expected": "Cancer",
+    "votes": [],
+    "majority": null,
+    "match": false
+   },
+   "f72v3": {
+    "month": "augst",
+    "expected": "Leo",
+    "votes": [],
+    "majority": null,
+    "match": false
+   },
+   "f72v2": {
+    "month": "septembre",
+    "expected": "Virgo",
+    "votes": [],
+    "majority": null,
+    "match": false
+   },
+   "f72v1": {
+    "month": "octembre",
+    "expected": "Libra",
+    "votes": [],
+    "majority": null,
+    "match": false
+   },
+   "f73r": {
+    "month": "novembre",
+    "expected": "Scorpio",
+    "votes": [],
+    "majority": null,
+    "match": false
+   },
+   "f73v": {
+    "month": "decembre",
+    "expected": "Sagittarius",
+    "votes": [],
+    "majority": null,
+    "match": false
+   }
+  },
+  "matches": 0,
+  "verdict": "NOT CONFIRMED (0/12)",
+  "judges_used": 0
+ },
+ "degradation": {
+  "f70v2": {
+   "L0": {
+    "votes": [
+     "Pisces",
+     "Pisces"
+    ],
+    "correct": 2,
+    "n": 2
+   },
+   "L1": {
+    "votes": [
+     "Pisces",
+     "Pisces"
+    ],
+    "correct": 2,
+    "n": 2
+   },
+   "L2": {
+    "votes": [
+     "Pisces",
+     "Pisces"
+    ],
+    "correct": 2,
+    "n": 2
+   },
+   "L3": {
+    "votes": [
+     "Pisces",
+     "none"
+    ],
+    "correct": 1,
+    "n": 2
+   },
+   "L4": {
+    "votes": [
+     "Pisces",
+     "Pisces"
+    ],
+    "correct": 2,
+    "n": 2
+   },
+   "L5": {
+    "votes": [
+     "Pisces",
+     "Pisces"
+    ],
+    "correct": 2,
+    "n": 2
+   }
+  },
+  "f70v1": {
+   "L0": {
+    "votes": [
+     "Aries",
+     "Aries"
+    ],
+    "correct": 2,
+    "n": 2
+   },
+   "L1": {
+    "votes": [
+     "Aries",
+     "Aries"
+    ],
+    "correct": 2,
+    "n": 2
+   },
+   "L2": {
+    "votes": [
+     "Aries",
+     "Aries"
+    ],
+    "correct": 2,
+    "n": 2
+   },
+   "L3": {
+    "votes": [
+     "none",
+     "none"
+    ],
+    "correct": 0,
+    "n": 2
+   },
+   "L4": {
+    "votes": [
+     "Aries",
+     "Aries"
+    ],
+    "correct": 2,
+    "n": 2
+   },
+   "L5": {
+    "votes": [
+     "Capricorn",
+     "Capricorn"
+    ],
+    "correct": 0,
+    "n": 2
+   }
+  },
+  "f71r": {
+   "L0": {
+    "votes": [
+     "Aries",
+     "Aries"
+    ],
+    "correct": 2,
+    "n": 2
+   },
+   "L1": {
+    "votes": [
+     "Aries",
+     "Aries"
+    ],
+    "correct": 2,
+    "n": 2
+   },
+   "L2": {
+    "votes": [
+     "none",
+     "none"
+    ],
+    "correct": 0,
+    "n": 2
+   },
+   "L3": {
+    "votes": [
+     "none",
+     "none"
+    ],
+    "correct": 0,
+    "n": 2
+   },
+   "L4": {
+    "votes": [
+     "none",
+     "none"
+    ],
+    "correct": 0,
+    "n": 2
+   },
+   "L5": {
+    "votes": [
+     "Aries",
+     "Aries"
+    ],
+    "correct": 2,
+    "n": 2
+   }
+  },
+  "f71v": {
+   "L0": {
+    "votes": [
+     "Taurus",
+     "Taurus"
+    ],
+    "correct": 2,
+    "n": 2
+   },
+   "L1": {
+    "votes": [
+     "Taurus",
+     "Taurus"
+    ],
+    "correct": 2,
+    "n": 2
+   },
+   "L2": {
+    "votes": [
+     "Aries",
+     "Aries"
+    ],
+    "correct": 0,
+    "n": 2
+   },
+   "L3": {
+    "votes": [
+     "none",
+     "none"
+    ],
+    "correct": 0,
+    "n": 2
+   },
+   "L4": {
+    "votes": [
+     "none",
+     "none"
+    ],
+    "correct": 0,
+    "n": 2
+   },
+   "L5": {
+    "votes": [
+     "Taurus",
+     "Taurus"
+    ],
+    "correct": 2,
+    "n": 2
+   }
+  },
+  "f72r1": {
+   "L0": {
+    "votes": [
+     "Taurus",
+     "Taurus"
+    ],
+    "correct": 2,
+    "n": 2
+   },
+   "L1": {
+    "votes": [
+     "Aries",
+     "Taurus"
+    ],
+    "correct": 1,
+    "n": 2
+   },
+   "L2": {
+    "votes": [
+     "Aries",
+     "Aries"
+    ],
+    "correct": 0,
+    "n": 2
+   },
+   "L3": {
+    "votes": [
+     "Aries",
+     "none"
+    ],
+    "correct": 0,
+    "n": 2
+   },
+   "L4": {
+    "votes": [
+     "Taurus",
+     "Taurus"
+    ],
+    "correct": 2,
+    "n": 2
+   },
+   "L5": {
+    "votes": [
+     "Taurus",
+     "Taurus"
+    ],
+    "correct": 2,
+    "n": 2
+   }
+  },
+  "f72r2": {
+   "L0": {
+    "votes": [
+     "Gemini",
+     "Gemini"
+    ],
+    "correct": 2,
+    "n": 2
+   },
+   "L1": {
+    "votes": [
+     "Gemini",
+     "Gemini"
+    ],
+    "correct": 2,
+    "n": 2
+   },
+   "L2": {
+    "votes": [
+     "Gemini",
+     "Libra"
+    ],
+    "correct": 1,
+    "n": 2
+   },
+   "L3": {
+    "votes": [
+     "Gemini",
+     "none"
+    ],
+    "correct": 1,
+    "n": 2
+   },
+   "L4": {
+    "votes": [
+     "Gemini",
+     "Gemini"
+    ],
+    "correct": 2,
+    "n": 2
+   },
+   "L5": {
+    "votes": [
+     "Virgo",
+     "Gemini"
+    ],
+    "correct": 1,
+    "n": 2
+   }
+  },
+  "f72r3": {
+   "L0": {
+    "votes": [
+     "Cancer",
+     "Cancer"
+    ],
+    "correct": 2,
+    "n": 2
+   },
+   "L1": {
+    "votes": [
+     "Cancer",
+     "Cancer"
+    ],
+    "correct": 2,
+    "n": 2
+   },
+   "L2": {
+    "votes": [
+     "none",
+     "none"
+    ],
+    "correct": 0,
+    "n": 2
+   },
+   "L3": {
+    "votes": [
+     "none",
+     "none"
+    ],
+    "correct": 0,
+    "n": 2
+   },
+   "L4": {
+    "votes": [
+     "Scorpio",
+     "Scorpio"
+    ],
+    "correct": 0,
+    "n": 2
+   },
+   "L5": {
+    "votes": [
+     "Cancer",
+     "Cancer"
+    ],
+    "correct": 2,
+    "n": 2
+   }
+  },
+  "f72v3": {
+   "L0": {
+    "votes": [
+     "Leo",
+     "Leo"
+    ],
+    "correct": 2,
+    "n": 2
+   },
+   "L1": {
+    "votes": [
+     "none",
+     "none"
+    ],
+    "correct": 0,
+    "n": 2
+   },
+   "L2": {
+    "votes": [
+     "none",
+     "none"
+    ],
+    "correct": 0,
+    "n": 2
+   },
+   "L3": {
+    "votes": [
+     "none",
+     "none"
+    ],
+    "correct": 0,
+    "n": 2
+   },
+   "L4": {
+    "votes": [
+     "none",
+     "none"
+    ],
+    "correct": 0,
+    "n": 2
+   },
+   "L5": {
+    "votes": [
+     "none",
+     "none"
+    ],
+    "correct": 0,
+    "n": 2
+   }
+  },
+  "f72v2": {
+   "L0": {
+    "votes": [
+     "Virgo",
+     "Virgo"
+    ],
+    "correct": 2,
+    "n": 2
+   },
+   "L1": {
+    "votes": [
+     "none",
+     "Sagittarius"
+    ],
+    "correct": 0,
+    "n": 2
+   },
+   "L2": {
+    "votes": [
+     "none",
+     "none"
+    ],
+    "correct": 0,
+    "n": 2
+   },
+   "L3": {
+    "votes": [
+     "none",
+     "none"
+    ],
+    "correct": 0,
+    "n": 2
+   },
+   "L4": {
+    "votes": [
+     "Sagittarius",
+     "none"
+    ],
+    "correct": 0,
+    "n": 2
+   },
+   "L5": {
+    "votes": [
+     "none",
+     "Virgo"
+    ],
+    "correct": 1,
+    "n": 2
+   }
+  },
+  "f72v1": {
+   "L0": {
+    "votes": [
+     "Libra",
+     "Libra"
+    ],
+    "correct": 2,
+    "n": 2
+   },
+   "L1": {
+    "votes": [
+     "Libra",
+     "Libra"
+    ],
+    "correct": 2,
+    "n": 2
+   },
+   "L2": {
+    "votes": [
+     "none",
+     "none"
+    ],
+    "correct": 0,
+    "n": 2
+   },
+   "L3": {
+    "votes": [
+     "none",
+     "none"
+    ],
+    "correct": 0,
+    "n": 2
+   },
+   "L4": {
+    "votes": [
+     "Libra",
+     "Libra"
+    ],
+    "correct": 2,
+    "n": 2
+   },
+   "L5": {
+    "votes": [
+     "Libra",
+     "Libra"
+    ],
+    "correct": 2,
+    "n": 2
+   }
+  },
+  "f73r": {
+   "L0": {
+    "votes": [
+     "Scorpio",
+     "Scorpio"
+    ],
+    "correct": 2,
+    "n": 2
+   },
+   "L1": {
+    "votes": [
+     "Scorpio",
+     "Leo"
+    ],
+    "correct": 1,
+    "n": 2
+   },
+   "L2": {
+    "votes": [
+     "none",
+     "Scorpio"
+    ],
+    "correct": 1,
+    "n": 2
+   },
+   "L3": {
+    "votes": [
+     "none",
+     "none"
+    ],
+    "correct": 0,
+    "n": 2
+   },
+   "L4": {
+    "votes": [
+     "Leo",
+     "none"
+    ],
+    "correct": 0,
+    "n": 2
+   },
+   "L5": {
+    "votes": [
+     "Scorpio",
+     "Scorpio"
+    ],
+    "correct": 2,
+    "n": 2
+   }
+  },
+  "f73v": {
+   "L0": {
+    "votes": [
+     "Sagittarius",
+     "Sagittarius"
+    ],
+    "correct": 2,
+    "n": 2
+   },
+   "L1": {
+    "votes": [
+     "Sagittarius",
+     "Virgo"
+    ],
+    "correct": 1,
+    "n": 2
+   },
+   "L2": {
+    "votes": [
+     "none",
+     "none"
+    ],
+    "correct": 0,
+    "n": 2
+   },
+   "L3": {
+    "votes": [
+     "none",
+     "none"
+    ],
+    "correct": 0,
+    "n": 2
+   },
+   "L4": {
+    "votes": [
+     "none",
+     "none"
+    ],
+    "correct": 0,
+    "n": 2
+   },
+   "L5": {
+    "votes": [
+     "Sagittarius",
+     "Sagittarius"
+    ],
+    "correct": 2,
+    "n": 2
+   }
+  }
+ },
+ "features": {
+  "f70v2": {
+   "n_human_figures_median": 29,
+   "n_human_figures": [
+    29,
+    29,
+    30
+   ],
+   "central_figure": [
+    "Two fish, one above the other, joined by a curved line (cord).",
+    "Two fish, one above the other, joined by a curved line or cord.",
+    "Two fish, one above the other, the lower one on a long blue curved line (like a cord or water)"
+   ],
+   "sign_reason": [
+    "Two fish tied by a cord is the classic Pisces image.",
+    "Two fish joined by a cord is the classic emblem of Pisces.",
+    "Two fish in the centre is the standard picture of Pisces"
+   ],
+   "rings": [
+    "Central disc, a decorative hatched band, inner ring and outer ring of figures, text bands.",
+    "Three or four bands: an inner band of about 10 figures in green tubs inside a hatched ring, and an outer band of about 20 figures in patterned barrels.",
+    "Central medallion, an inner ring of figures (some with green barrels) bounded by a band of hatched marks, and an outer ring of figures; text written along the circle lines and as labels beside figures"
+   ],
+   "figure_details": [
+    "Half-length women in barrels or tubs (striped, scaled, dotted, green-tinted), some with blue headcloths, some clothed; each holds a star.",
+    "Women shown from the waist up in barrels or tubs (green-painted, hatched, dotted or ribbed). Some wear blue head-cloths and some appear nude. Each holds a star on a string.",
+    "Mostly busts or half-figures emerging from tubs or barrels with striped, chequered or dotted patterns; some barrels green; several figures wear blue head-caps; each holds a star by a thread; some inverted because they are drawn radially"
+   ],
+   "celestial_objects": [
+    "About 30 stars; two extra stars in the central disc.",
+    "About 30 eight-pointed stars, two of them flanking the fish. No sun or moon.",
+    "One star per figure (about 30 eight-pointed stars) plus two stars in the centre; no sun or moon"
+   ],
+   "groupings": [
+    "About 10 inner and 20 outer.",
+    "An inner ring of about 10 and an outer ring of about 20. Evenly spaced.",
+    "Roughly 10 figures in inner ring and 20 in outer ring"
+   ],
+   "astro_concept": [
+    "Roughly 30 figures = degrees or days of Pisces.",
+    "About 30 figure-and-star units suggest the degrees of the sign or the days of the month. The stars might also mark constellation stars.",
+    "Thirty figures each with one star around one sign suggests the 30 degrees of the sign (or 30 days of the month the sun is in it); alternatively the individual stars of the constellation"
+   ],
+   "other": [
+    "Hatched band may represent a wall or tub rim.",
+    "There is a fold line across the page. A masked patch sits between the fish.",
+    "Hatched band between inner and outer rings is unusual; text appears in an unknown script"
+   ]
+  },
+  "f70v1": {
+   "n_human_figures_median": 15,
+   "n_human_figures": [
+    15,
+    15,
+    15
+   ],
+   "central_figure": [
+    "A light-coloured goat or ram with back-curving horns and a beard, standing on a small mound and eating from a green bush.",
+    "A green-grey goat or ram with curved horns and a beard, eating leaves from a small tree.",
+    "A goat-like horned animal with beard eating from a green bush, standing on a small blue-outlined mound"
+   ],
+   "sign_reason": [
+    "Horned goat/ram-like animal; no fish tail (so not Capricorn), not a bull. Rams were often drawn goat-like.",
+    "A horned, bearded, hoofed small animal on four ordinary legs. It is a ram or goat, with no fish tail (so not Capricorn) and not a bull. It matches img_489.",
+    "Horned caprine animal (ram/goat) on land with no fish tail, so not a sea-goat Capricorn; ram is the closer fit, but it looks goat-like so Capricorn is not excluded"
+   ],
+   "rings": [
+    "Central disc, inner ring, outer ring, with text circles.",
+    "Two text bands: about 5 figures inside and about 10 outside.",
+    "Central medallion, inner ring with about 5 figures, outer ring with about 10 figures; text bands on the circle lines"
+   ],
+   "figure_details": [
+    "Half-length women in tubs, barrels or striped/patterned containers (some with coin-like dots, scales, spirals); some partly clothed with headcloths; each holds a star on a line.",
+    "Women from the waist up in decorated tubs or barrels (hatched, dotted, spiral, one green-striped). Some appear clothed with patterned bodices, and some wear head-cloths. Each holds a star.",
+    "Mostly clothed women in robes or dresses, some emerging from tubs with patterned (scale, circle, striped) surfaces, one green-striped tub; each holds a star on a string; several drawn radially, upside down at the bottom"
+   ],
+   "celestial_objects": [
+    "About 15 eight-pointed stars; no sun or moon.",
+    "About 15 eight-pointed stars. No sun or moon.",
+    "About 15 stars, one per figure; no sun or moon"
+   ],
+   "groupings": [
+    "About 5 inner and 10 outer.",
+    "Inner ring about 5, outer ring about 10.",
+    "Inner 5, outer 10"
+   ],
+   "astro_concept": [
+    "Fifteen figures could be half of a 30-degree sign (paired with another page for the other half), or decans/days.",
+    "Each star-holding figure could be one degree or day; with about 15 it may be half of a 30-part sign split across two pages.",
+    "Fifteen figures could be half of the sign's 30 degrees (the other half on a companion page) or days of a half-month"
+   ],
+   "other": [
+    "Half of the sign's degrees perhaps; small reddish stain on left.",
+    "A masked patch sits under the animal. This is the darker-coloured counterpart to img_489.",
+    "Text in an unknown script; diagram cut off at the right edge"
+   ]
+  },
+  "f71r": {
+   "n_human_figures_median": 15,
+   "n_human_figures": [
+    15,
+    15,
+    15
+   ],
+   "central_figure": [
+    "A pale goat or ram with horns curving back, looking up, with a green branch, standing on green mounds.",
+    "A white or pale goat or ram with backward-curving horns and a beard, eating a leafy sprig.",
+    "A pale goat- or ram-like animal with curved horns eating a green plant, on a green hill"
+   ],
+   "sign_reason": [
+    "Horned goat/ram, no fish tail.",
+    "A horned, bearded, hoofed small animal (goat or ram) with an ordinary hind body, not a fish tail. Aries fits; Capricorn is the alternative, but there is no fish tail.",
+    "Horned caprine land animal with no fish tail; a ram fits best, though it looks goat-like"
+   ],
+   "rings": [
+    "Central disc, inner ring, outer ring, text bands.",
+    "Two text bands: about 5 figures inside and about 10 outside.",
+    "Central medallion, inner ring about 5 figures, outer ring about 10 figures, text on borders"
+   ],
+   "figure_details": [
+    "Half-length clothed people in red tunics, emerging from coloured (blue, green) tubs or boxes; each holds a star.",
+    "Clothed figures in red-tinted garments, some with hats or caps, in coloured tubs, barrels or crate-like boxes (blue, green, striped). Each holds a star on a string.",
+    "Clothed figures in red, green and blue, many emerging from rectangular tubs/boxes painted blue or green or striped; each holds a star on a string; lower ones inverted"
+   ],
+   "celestial_objects": [
+    "About 15 stars.",
+    "About 15 eight-pointed stars. No sun or moon.",
+    "About 15 stars; no sun or moon"
+   ],
+   "groupings": [
+    "About 5 inner and 10 outer.",
+    "Inner ring about 5, outer ring about 10.",
+    "Inner 5, outer 10"
+   ],
+   "astro_concept": [
+    "Fifteen figures likely half a sign's 30 degrees.",
+    "Each figure-and-star could be one degree or day; with about 15 it may be one half of a sign split over two pages, or a set of stars.",
+    "Fifteen figures: half of a sign's 30 degrees or a half-month"
+   ],
+   "other": [
+    "Similar to img_896.",
+    "Same style as img_941 (clothed, in tubs). A masked patch sits under the animal, and there is a brown stain at the right.",
+    "Very similar layout to img_896 and img_941"
+   ]
+  },
+  "f71v": {
+   "n_human_figures_median": 15,
+   "n_human_figures": [
+    15,
+    15,
+    15
+   ],
+   "central_figure": [
+    "A reddish/pink horned animal with long, upward horns, eating from a basket of green leaves.",
+    "A pinkish-red horned quadruped with long curved horns and hooves, reaching toward a basket of greenery.",
+    "A pinkish horned animal with cloven hooves and tail, feeding from a basket of green fodder"
+   ],
+   "sign_reason": [
+    "Horned quadruped with longer body and ox-like horns; could equally be a ram/goat (Aries) — horns are long and thin. Choose Taurus weakly.",
+    "The composition matches img_476 (red horned beast with a basket of leaves), and the reddish bovine body suggests a bull. A ram or goat (Aries) is possible because the horns are slender.",
+    "A horned cloven-hoofed animal fed from a basket, body heavy like a bull; horns are curved and could be a ram's, so Aries is possible"
+   ],
+   "rings": [
+    "Central disc, inner ring, outer ring, text bands.",
+    "Two text bands: an inner ring of about 5 figures and an outer ring of about 10.",
+    "Central medallion, inner ring about 5 figures, outer ring about 10 figures, text on borders"
+   ],
+   "figure_details": [
+    "Half-length clothed people in red tunics, several with green hats, emerging from tubs/boxes (one with arches); each holds a star on a line.",
+    "All the figures are clothed in red-washed garments. Several wear green hats. Most emerge from tubs, boxes or barrels, one with arches. Each holds a star on a line.",
+    "Clothed figures in red/pink garments, several with green round hats or caps, emerging from tubs (one tub with arches); each holds a star; lower figures drawn upside down"
+   ],
+   "celestial_objects": [
+    "About 15 eight-pointed stars.",
+    "About 15 eight-pointed stars, one per figure. No sun or moon.",
+    "About 15 stars, one per figure; no sun or moon"
+   ],
+   "groupings": [
+    "About 5 inner and 10 outer.",
+    "Inner ring about 5, outer ring about 10. The figures are evenly spaced and each has a label word.",
+    "Inner 5, outer 10"
+   ],
+   "astro_concept": [
+    "Fifteen figures: likely half a sign's 30 degrees, the other half on a companion page.",
+    "Each star-holding figure could stand for one degree or day of the sign. With about 15 it may be half of a 30-part sign (the page may be one of two halves), or the stars of the constellation.",
+    "Fifteen figures: half a sign's 30 degrees, or half a month, possibly continued on a companion diagram"
+   ],
+   "other": [
+    "Coloured clothing rather than nudes.",
+    "This is the clothed and coloured counterpart of the nude-figure style seen in other images. A masked patch sits under the animal.",
+    "Colouring in red and green"
+   ]
+  },
+  "f72r1": {
+   "n_human_figures_median": 15,
+   "n_human_figures": [
+    15,
+    25,
+    15
+   ],
+   "central_figure": [
+    "A solid red-brown bull-like animal with short horns and tufted tail, eating from a basket of green leaves, standing on green ground.",
+    "A red four-legged animal with tall horns curving upward, cloven hooves and a tufted tail. It reaches toward a basket of green foliage while standing on a green ground line.",
+    "A red bull-like horned animal feeding from a basket"
+   ],
+   "sign_reason": [
+    "Heavy cattle-like body, short horns and tufted tail point to a bull.",
+    "Horned hoofed quadruped. The heavy red body and the tail ending in a tuft look more like a bull than a ram or goat; the horns are tall and thin, which leaves some doubt (Aries is the alternative). No fish tail, so not Capricorn.",
+    "Heavy red bovine body, short horns and long tufted tail indicate a bull"
+   ],
+   "rings": [
+    "Central disc, inner ring, outer ring, text bands.",
+    "Three text bands. There are three figure zones: about 5 figures nearest the centre, about 10 in the middle and about 10-12 in the outer ring.",
+    "Central medallion, inner ring about 5 figures, outer ring about 10 figures; text on borders"
+   ],
+   "figure_details": [
+    "Nude women, some half-length in tubs (top inner), others full-length standing or lying radially; each holds a star.",
+    "Mostly nude women with long hair, standing or leaning. Some wear head-cloths or hats. One inner figure stands in a cylindrical tub or barrel. Each holds a string or arm out to a star.",
+    "Mostly nude women, some emerging from tubs, some with caps; each holds a star on a string"
+   ],
+   "celestial_objects": [
+    "About 15 eight-pointed stars.",
+    "About 25 eight-pointed stars, one per figure, some painted gold. No sun or moon.",
+    "About 15 stars; some stars have faces drawn in them; no separate sun or moon"
+   ],
+   "groupings": [
+    "About 5 inner and 10 outer.",
+    "The figures are spaced evenly around concentric rings, each with a short label word and its own star.",
+    "Inner 5, outer 10"
+   ],
+   "astro_concept": [
+    "Fifteen figures likely half of the sign's 30 degrees.",
+    "About 30 figures, each with a star, around a sign emblem would fit the 30 degrees of the sign (or the days of the month). Each star-holder could be one degree or day, possibly a star of the constellation.",
+    "Fifteen figures: half a sign's 30 degrees, half a month"
+   ],
+   "other": [
+    "Hole in the vellum at left of the inner ring.",
+    "There is a vellum hole at the left. A painted-over patch below the animal probably hid a word, perhaps a month name.",
+    "Hole in the vellum; a second diagram partly visible at left"
+   ]
+  },
+  "f72r2": {
+   "n_human_figures_median": 30,
+   "n_human_figures": [
+    32,
+    30,
+    30
+   ],
+   "central_figure": [
+    "A man in a green tunic and green hat and a woman in a long blue dress, facing each other and holding hands.",
+    "A couple, a man in a green tunic and hat and a woman in a blue gown, holding hands.",
+    "A man and a woman standing together holding hands"
+   ],
+   "sign_reason": [
+    "A pair of human figures, male and female, together is the standard medieval Gemini (twins often shown as a couple).",
+    "Two human figures paired together are the emblem of Gemini (the twins, often drawn as a couple).",
+    "A couple of two people together is the usual picture of the Twins (often shown as a man and woman)"
+   ],
+   "rings": [
+    "Central disc, inner ring of figures, outer ring of figures, text bands between and around.",
+    "Three text bands: about 10 in the inner ring and about 20 in the outer.",
+    "Central medallion, inner ring, outer ring"
+   ],
+   "figure_details": [
+    "Nude women standing (top) or lying radially; a few lower figures wear clothes or caps; no tubs; each holds a star on a line.",
+    "Mostly nude women standing or reclining. A few lower figures wear clothes or are in tub-like garments. Each holds a star.",
+    "Mostly nude women, a few clothed; some with caps; at the lower left a few appear to be in tubs or clothed; each with a star"
+   ],
+   "celestial_objects": [
+    "About 30 eight-pointed stars, one per figure; no sun or moon.",
+    "About 30 eight-pointed stars. No sun or moon.",
+    "About 30 stars; no sun or moon"
+   ],
+   "groupings": [
+    "About 10 inner and about 20 outer figures.",
+    "Concentric rings, evenly spaced. The central pair is the focal point.",
+    "Inner about 10, outer about 20"
+   ],
+   "astro_concept": [
+    "30 star-holding figures = likely the 30 degrees (or days) of the sign; the rings may separate parts of the sign.",
+    "About 30 star-holders fit the 30 degrees of the sign or the days of the month.",
+    "About 30 stars/figures: degrees of the sign or days of the month"
+   ],
+   "other": [
+    "Painted patch covers the lower centre between the couple.",
+    "A masked patch sits between the couple's lower bodies. This is a fold-out sheet.",
+    "Adjacent diagrams visible on a fold-out"
+   ]
+  },
+  "f72r3": {
+   "n_human_figures_median": 30,
+   "n_human_figures": [
+    30,
+    30,
+    30
+   ],
+   "central_figure": [
+    "Two crayfish or lobsters, one green and one red, one above the other.",
+    "Two crayfish or lobster-like crustaceans, one pale green and one red, stacked one above the other.",
+    "Two crustaceans (crayfish or lobsters), one green, one red"
+   ],
+   "sign_reason": [
+    "Crab/crayfish is Cancer.",
+    "Clawed, segmented crustaceans (crab or crayfish) are the emblem of Cancer.",
+    "Crab or crayfish creatures are the standard Cancer emblem"
+   ],
+   "rings": [
+    "Central disc, inner ring, outer ring, text bands.",
+    "Three text bands: inner about 10 figures, outer about 20.",
+    "Central medallion, inner ring, outer ring"
+   ],
+   "figure_details": [
+    "Nude women standing or reclining, no tubs; each holds a star.",
+    "Nude women standing (top) and reclining (sides and bottom). One wears a crown. No tubs. Each holds a star.",
+    "Nude women, standing at top and lying or radial elsewhere; one with a crown-like headdress; no tubs; each with a star"
+   ],
+   "celestial_objects": [
+    "About 30 stars.",
+    "About 30 eight-pointed stars. No sun or moon.",
+    "About 30 stars; no sun or moon"
+   ],
+   "groupings": [
+    "About 10 inner and 20 outer.",
+    "Concentric rings with evenly spaced figures.",
+    "Inner about 10, outer about 20"
+   ],
+   "astro_concept": [
+    "30 figures = degrees or days of Cancer.",
+    "About 30 figure-and-star units fit the 30 degrees of the sign or the days of the month.",
+    "About 30 stars/figures: degrees of the sign or days of the month"
+   ],
+   "other": [
+    "Two creatures shown.",
+    "A masked patch sits below the crustaceans. This is a fold-out sheet with adjacent diagrams visible.",
+    "Neighbouring diagram at left"
+   ]
+  },
+  "f72v3": {
+   "n_human_figures_median": 30,
+   "n_human_figures": [
+    30,
+    30,
+    30
+   ],
+   "central_figure": [
+    "A spotted cat-like beast with a heavy head, possibly a lion, with a red mark on its leg and a plant behind.",
+    "A four-legged feline beast (big cat, lion-like) with a heavy head and spotted body.",
+    "A lion- or big-cat-like animal with spotted coat, a plant behind it"
+   ],
+   "sign_reason": [
+    "Large feline body and head.",
+    "The central animal is a large cat with a big head and paws, which fits a lion. No horns or hooves.",
+    "Big-cat body and large head with mane-like outline indicate a lion"
+   ],
+   "rings": [
+    "Central disc, inner ring, outer ring, text bands.",
+    "Three text bands, with about 10 figures in the inner and middle rings and more in the outer ring.",
+    "Central medallion with circular text, inner ring, outer ring"
+   ],
+   "figure_details": [
+    "Nude women standing or reclining, no tubs; each holds a star.",
+    "Nude women, standing at the top and leaning or reclining at the sides and bottom. No tubs or clothing are evident. Each holds a star.",
+    "Nude women, standing at top, lying or radial elsewhere; no tubs; each with a star"
+   ],
+   "celestial_objects": [
+    "About 30 stars.",
+    "About 30 eight-pointed stars. No sun or moon.",
+    "About 30 stars; no sun or moon"
+   ],
+   "groupings": [
+    "About 10 inner and 20 outer.",
+    "Concentric rings, evenly spaced. The figures are crowded together in the outer ring.",
+    "Inner and outer rings"
+   ],
+   "astro_concept": [
+    "30 figures = degrees or days of Leo.",
+    "About 30 star-holders around the sign emblem suggest the degrees of the sign or the days of the month.",
+    "About 30 stars/figures: degrees of the sign or days of the month"
+   ],
+   "other": [
+    "Stains near top left.",
+    "There are stains at the upper left and a fold line. A masked patch sits under the animal.",
+    "Page is faded and stained; fold line crosses the left"
+   ]
+  },
+  "f72v2": {
+   "n_human_figures_median": 30,
+   "n_human_figures": [
+    31,
+    30,
+    30
+   ],
+   "central_figure": [
+    "A single figure in a blue, pleated, fan-like robe with a blue cap, one arm extended, a star beside the head and a small flower near the feet; gender ambiguous (soft face, long hair).",
+    "One person in a long blue robe and cap, apparently holding an object (perhaps a flower or sprig, obscured by the mask), with a small flower beside them.",
+    "A seated person in a long blue-patterned gown and blue cap, holding an object (partly masked); a small flower beside them"
+   ],
+   "sign_reason": [
+    "A single robed human figure holding/near a star with a flower and no animal or object attribute fits the maiden (Virgo); no scales, bow, jug or twins. Uncertain because the figure could be read as male.",
+    "A single robed human with a flower or plant is the usual Virgo emblem (a maiden holding a sprig or ear of grain). There is only one person, so not Gemini; there is no water vessel, so probably not Aquarius. The cap makes the gender ambiguous.",
+    "A single dressed seated figure, apparently female, with a flower is the usual depiction of the Virgin; but the figure could be read as male and the hand area is masked"
+   ],
+   "rings": [
+    "Central disc plus two figure rings (inner and outer), each bounded by text bands; text also written inside the central disc border.",
+    "Three text bands: about 10 in the inner ring and about 20 in the outer.",
+    "Central medallion with circular text, inner ring of figures, outer ring of figures; text on borders"
+   ],
+   "figure_details": [
+    "Nude women, no tubs or barrels; upper figures stand upright, lower ones lie or are drawn head-inward; each holds or touches a star by a line; a few have cloth or hair coverings.",
+    "The surrounding figures are nude women standing or reclining, with no tubs. Each holds a star. The central figure is clothed.",
+    "Nude women, some standing upright at the top, others lying around the circle radially; no tubs; each holds or touches a star"
+   ],
+   "celestial_objects": [
+    "About 30 eight-pointed stars, one per figure, plus one beside the central figure; no sun or moon.",
+    "About 30 eight-pointed stars, plus one beside the central figure.",
+    "About 30 stars; no sun or moon"
+   ],
+   "groupings": [
+    "Roughly 10 in the inner ring and about 20 in the outer ring.",
+    "Concentric rings, evenly spaced.",
+    "Inner ring about 10, outer ring about 20"
+   ],
+   "astro_concept": [
+    "About 30 figure+star pairs around one sign suggests the 30 degrees of a sign (or days of a solar month); split into rings possibly marks halves or decans.",
+    "About 30 star-holders fit the 30 degrees of the sign or the days of the month.",
+    "About 30 star-holding figures: degrees of the sign or days of the month"
+   ],
+   "other": [
+    "Folded/joined vellum with another circle at left edge; two painted patches near centre.",
+    "Two masked patches: one over the hands or held object, one below the centre.",
+    "A second circular diagram is partly visible on the left side of the image"
+   ]
+  },
+  "f72v1": {
+   "n_human_figures_median": 30,
+   "n_human_figures": [
+    30,
+    30,
+    30
+   ],
+   "central_figure": [
+    "A balance (pair of scales) with two hanging pans.",
+    "A pair of scales: a beam with two hanging pans on an upright stand.",
+    "A pair of balance scales hanging from a post"
+   ],
+   "sign_reason": [
+    "The balance is the unique attribute of Libra.",
+    "The central object is unmistakably a balance, the emblem of Libra.",
+    "The scales are the symbol of Libra"
+   ],
+   "rings": [
+    "Central disc, inner ring and outer ring of figures, multiple text bands.",
+    "Three text bands, with about 10 figures in the inner ring and about 20 in the outer ring.",
+    "Central medallion with text circle, inner ring, outer ring"
+   ],
+   "figure_details": [
+    "Nude women standing or reclining radially, no tubs; one figure at the top wears a crown; each holds a star.",
+    "Nude women. One is crowned with a cross-topped crown. No tubs. Each holds a star.",
+    "Nude women standing at top, lying or radial elsewhere; one wears a crown; no tubs; each with a star"
+   ],
+   "celestial_objects": [
+    "About 30 eight-pointed stars, some tinted blue.",
+    "About 30 eight-pointed stars. No sun or moon.",
+    "About 30 stars; no sun or moon"
+   ],
+   "groupings": [
+    "About 10 inner, 20 outer.",
+    "Evenly spaced figures in concentric rings.",
+    "Inner about 10, outer about 20"
+   ],
+   "astro_concept": [
+    "30 figures = degrees or days of Libra.",
+    "About 30 star-holders fit the 30 degrees of the sign (or the days of the month).",
+    "About 30 stars/figures: degrees of the sign or days of the month"
+   ],
+   "other": [
+    "Crowned figure in the outer ring top.",
+    "A masked patch sits under the scales.",
+    "Hole in vellum at right"
+   ]
+  },
+  "f73r": {
+   "n_human_figures_median": 30,
+   "n_human_figures": [
+    30,
+    30,
+    30
+   ],
+   "central_figure": [
+    "A small grey-green four-legged creature with a long curled tail, like a lizard, salamander or dog, with a large star above.",
+    "A small dark green beast like a lizard, salamander or dog, with an open snout and a looped tail, with a large star above it.",
+    "A green lizard- or salamander-like four-legged animal with a curled raised tail"
+   ],
+   "sign_reason": [
+    "A reptile/lizard-like creature with a curling tail is a known substitute for the scorpion; not a lion or goat.",
+    "The animal is not a scorpion as such, but a reptile- or dragon-like creature with a curled-up tail; a raised curling tail hints at a scorpion's stinger. It does not fit the lion, ram, bull, goat or fish. This is uncertain.",
+    "A small creature with an upturned curling tail like a sting suggests a scorpion drawn as a lizard/dragon; not a lion (no mane), not a crab"
+   ],
+   "rings": [
+    "Central disc, inner ring, outer ring, text bands.",
+    "Three text bands: about 10 in the inner ring and about 15-20 in the outer, with more at the top.",
+    "Central medallion with star and animal, inner ring, outer ring, plus an arc of figures at the top beyond the circle"
+   ],
+   "figure_details": [
+    "Nude women standing or reclining, no tubs; each holds a star.",
+    "Nude women. No tubs or clothing. Standing at the top, reclining and leaning around the rest. Each holds a star.",
+    "Nude women, standing at the top, lying or radial elsewhere; no tubs visible in the circle; each with a star"
+   ],
+   "celestial_objects": [
+    "About 30 stars plus one in the centre.",
+    "About 30 eight-pointed stars, plus one larger star above the central animal.",
+    "About 30 stars plus one large central star; no sun or moon"
+   ],
+   "groupings": [
+    "About 10 inner and 20 outer.",
+    "Concentric rings, evenly spaced.",
+    "Inner and outer rings, plus top arc"
+   ],
+   "astro_concept": [
+    "30 figures = degrees or days of the sign.",
+    "About 30 figure-and-star units fit the degrees of the sign or the days of the month. The large star above the animal might mark a bright star of the constellation.",
+    "About 30 stars/figures: degrees of the sign or days of the month"
+   ],
+   "other": [
+    "Neighbouring text at left edge.",
+    "A masked patch sits below the animal.",
+    "Masked patch under the animal"
+   ]
+  },
+  "f73v": {
+   "n_human_figures_median": 30,
+   "n_human_figures": [
+    31,
+    30,
+    30
+   ],
+   "central_figure": [
+    "A man in a blue tunic and hat aiming a crossbow.",
+    "A man in a blue tunic and wide-brimmed hat aiming or holding a crossbow.",
+    "A man in a blue tunic and broad hat holding a crossbow"
+   ],
+   "sign_reason": [
+    "The archer (here with a crossbow) is Sagittarius.",
+    "The central figure is an archer (crossbowman). Sagittarius is the archer sign; there is no other archer in the zodiac.",
+    "The archer of Sagittarius, shown as a man with a crossbow instead of a centaur with a bow"
+   ],
+   "rings": [
+    "Central disc, inner ring, outer ring, text bands.",
+    "Three text bands. The inner ring of figures has about 10, the outer ring about 15-20, and there is a partial row beyond at the top.",
+    "Central medallion with text circling it, inner ring of figures, outer ring of figures, and an extra arc of figures across the top"
+   ],
+   "figure_details": [
+    "Nude women standing or reclining, some with crowns or headdresses, no tubs; each holds a star.",
+    "Nude women, many reclining or leaning at angles. A few wear crowns or caps. No tubs are visible. Each holds a string to a star.",
+    "Nude women standing, reclining or drawn radially, some wearing crowns or headdresses; no tubs visible; each linked to a star"
+   ],
+   "celestial_objects": [
+    "About 30 stars.",
+    "About 30 eight-pointed stars. No sun or moon.",
+    "About 30 stars, one per figure; no sun or moon"
+   ],
+   "groupings": [
+    "About 10 inner and 20 outer.",
+    "Concentric rings, and a group of figures at the top outside the main circle. The figures are evenly spaced.",
+    "Inner and outer rings, plus top arc"
+   ],
+   "astro_concept": [
+    "30 figures = degrees or days of Sagittarius.",
+    "About 30 figure-and-star units around the sign emblem fit the 30 degrees of the sign or the days of the month.",
+    "About 30 figures with one star each suggests the 30 degrees of the sign or days of the month"
+   ],
+   "other": [
+    "Some figures crowned; green stains.",
+    "A masked patch sits by the archer's legs and another at the upper left. There are green stains at the lower left.",
+    "Masked patches near the top and at the figure's feet"
+   ]
+  }
+ },
+ "e073_page_features": {
+  "f70v1": {
+   "figures": 15,
+   "BARREL": 1.0,
+   "CLOTHED": 0.14,
+   "HEAD": 0.0,
+   "HANDSTAR": 0.53
+  },
+  "f70v2": {
+   "figures": 29,
+   "BARREL": 1.0,
+   "CLOTHED": 0.04,
+   "HEAD": 0.27,
+   "HANDSTAR": 0.41
+  },
+  "f71r": {
+   "figures": 15,
+   "BARREL": 1.0,
+   "CLOTHED": 1.0,
+   "HEAD": 0.36,
+   "HANDSTAR": 0.67
+  },
+  "f71v": {
+   "figures": 15,
+   "BARREL": 1.0,
+   "CLOTHED": 0.79,
+   "HEAD": 0.42,
+   "HANDSTAR": 0.6
+  },
+  "f72r1": {
+   "figures": 15,
+   "BARREL": 0.33,
+   "CLOTHED": 0.0,
+   "HEAD": 0.0,
+   "HANDSTAR": 0.44
+  },
+  "f72r2": {
+   "figures": 30,
+   "BARREL": 0.08,
+   "CLOTHED": 0.0,
+   "HEAD": 0.0,
+   "HANDSTAR": 0.63
+  },
+  "f72r3": {
+   "figures": 30,
+   "BARREL": 0.0,
+   "CLOTHED": 0.0,
+   "HEAD": 0.0,
+   "HANDSTAR": 1.0
+  },
+  "f72v1": {
+   "figures": 30,
+   "BARREL": 0.83,
+   "CLOTHED": 0.0,
+   "HEAD": 0.03,
+   "HANDSTAR": 0.03
+  },
+  "f72v2": {
+   "figures": 29,
+   "BARREL": 0.83,
+   "CLOTHED": 0.0,
+   "HEAD": 0.0,
+   "HANDSTAR": 0.0
+  },
+  "f72v3": {
+   "figures": 29,
+   "BARREL": 1.0,
+   "CLOTHED": 0.0,
+   "HEAD": 0.0,
+   "HANDSTAR": 0.0
+  },
+  "f73r": {
+   "figures": 30,
+   "BARREL": 0.0,
+   "CLOTHED": 0.0,
+   "HEAD": 0.03,
+   "HANDSTAR": 1.0
+  },
+  "f73v": {
+   "figures": 29,
+   "BARREL": 0.11,
+   "CLOTHED": 0.6,
+   "HEAD": 0.0,
+   "HANDSTAR": 0.07
+  }
+ },
+ "recognisers": [
+  "CENTRE_L0_j1",
+  "CENTRE_L0_j2",
+  "CENTRE_L1_j1",
+  "CENTRE_L1_j2",
+  "CENTRE_L2_j1",
+  "CENTRE_L2_j2",
+  "CENTRE_L4_j1",
+  "CENTRE_L4_j2",
+  "CENTRE_L5_j1",
+  "CENTRE_L5_j2",
+  "FULL_j1",
+  "FULL_j2",
+  "FULL_j3"
+ ]
+}
