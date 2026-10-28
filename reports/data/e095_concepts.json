@@ -1,0 +1,83 @@
+{
+ "_note": "E095 meaning lists, written before any matching. Per sign: two months (annotator's convention and the 15th-century Julian one, one month earlier), sign name, animal/figure, ruling planet, element, season. Hebrew and Arabic in consonantal transliteration (one ASCII letter per consonant: Hebrew A=aleph b g d h w z H=het T=tet y k l m n s E=ayin p c=tsadi q r S=shin t; Arabic A=alif b t V=tha j H=ha x=kha d D=dhal r z s S=shin C=sad Q=dad T=ta Z=za E=ayn G=ghayn f q k l m n h w y). Hebrew months follow the Sefer Yetzirah sign pairing (Nisan=Aries), plus the next/previous month for the two-convention rule.",
+ "signs": ["Pisces","Aries","Taurus","Gemini","Cancer","Leo","Virgo","Libra","Scorpio","Sagittarius"],
+ "pages": {"f70v2":"Pisces","f70v1":"Aries","f71r":"Aries","f71v":"Taurus","f72r1":"Taurus","f72r2":"Gemini","f72r3":"Cancer","f72v3":"Leo","f72v2":"Virgo","f72v1":"Libra","f73r":"Scorpio","f73v":"Sagittarius"},
+ "attributes": {
+  "Pisces": {"months": ["mar","feb"], "planet": "jupiter", "element": "water", "season": "winter"},
+  "Aries": {"months": ["apr","mar"], "planet": "mars", "element": "fire", "season": "spring"},
+  "Taurus": {"months": ["may","apr"], "planet": "venus", "element": "earth", "season": "spring"},
+  "Gemini": {"months": ["jun","may"], "planet": "mercury", "element": "air", "season": "spring"},
+  "Cancer": {"months": ["jul","jun"], "planet": "moon", "element": "water", "season": "summer"},
+  "Leo": {"months": ["aug","jul"], "planet": "sun", "element": "fire", "season": "summer"},
+  "Virgo": {"months": ["sep","aug"], "planet": "mercury", "element": "earth", "season": "summer"},
+  "Libra": {"months": ["oct","sep"], "planet": "venus", "element": "air", "season": "autumn"},
+  "Scorpio": {"months": ["nov","oct"], "planet": "mars", "element": "water", "season": "autumn"},
+  "Sagittarius": {"months": ["dec","nov"], "planet": "jupiter", "element": "fire", "season": "autumn"}
+ },
+ "languages": {
+  "latin": {
+   "months": {"feb":["februarius","februarii"],"mar":["martius","marcius","martii"],"apr":["aprilis","aprilis"],"may":["maius","maii"],"jun":["iunius","iunii"],"jul":["iulius","iulii"],"aug":["augustus","augusti"],"sep":["september","septembris"],"oct":["october","octobris"],"nov":["november","novembris"],"dec":["december","decembris"]},
+   "sign": {"Pisces":["pisces","piscis"],"Aries":["aries","arietis"],"Taurus":["taurus","tauri"],"Gemini":["gemini","geminorum"],"Cancer":["cancer","cancri"],"Leo":["leo","leonis"],"Virgo":["virgo","virginis"],"Libra":["libra","librae"],"Scorpio":["scorpio","scorpius","scorpionis"],"Sagittarius":["sagittarius","sagittarii"]},
+   "animal": {"Pisces":["piscis","pisces"],"Aries":["ovis","vervex","aries"],"Taurus":["bos","bovis","taurus"],"Gemini":["gemelli","fratres"],"Cancer":["cancer","gammarus"],"Leo":["leo"],"Virgo":["virgo","puella"],"Libra":["statera","bilanx","libra"],"Scorpio":["scorpio"],"Sagittarius":["sagitta","arcus","sagittarius"]},
+   "planet": {"jupiter":["iupiter","iovis","iuppiter"],"mars":["mars","martis"],"venus":["venus","veneris"],"mercury":["mercurius","mercurii"],"moon":["luna","lunae"],"sun":["sol","solis"]},
+   "element": {"fire":["ignis"],"earth":["terra"],"air":["aer","aeris"],"water":["aqua"]},
+   "season": {"spring":["ver","veris"],"summer":["aestas","estas"],"autumn":["autumnus"],"winter":["hiems","hiemps"]}
+  },
+  "french_occitan": {
+   "months": {"feb":["fevrier","febrier","feverier"],"mar":["mars","marz"],"apr":["avril","abril","aberil","avrill"],"may":["mai","may","mais"],"jun":["juin","jong","yony","iong","junh"],"jul":["juillet","iollet","julhet","juignet"],"aug":["aoust","augst","agost","aost"],"sep":["septembre","setembre"],"oct":["octobre","octembre","octobre"],"nov":["novembre"],"dec":["decembre","desembre","decebre"]},
+   "sign": {"Pisces":["poissons","peissons"],"Aries":["belier","mouton","moton"],"Taurus":["toreau","taurel","toro","taur"],"Gemini":["gemeaux","jumeaux","besons"],"Cancer":["cancre","escrevisse","cranc"],"Leo":["lion","leon"],"Virgo":["vierge","verge"],"Libra":["balance","balansa"],"Scorpio":["scorpion","escorpion"],"Sagittarius":["sagittaire","archier","arquier"]},
+   "animal": {"Pisces":["poisson","peis"],"Aries":["mouton","belier","aignel"],"Taurus":["boeuf","buef","taur"],"Gemini":["jumeaux","freres"],"Cancer":["escrevisse","cranc"],"Leo":["lion"],"Virgo":["pucelle","vierge"],"Libra":["balance"],"Scorpio":["scorpion"],"Sagittarius":["archier","arc","sajete"]},
+   "planet": {"jupiter":["jupiter","jovis"],"mars":["mars"],"venus":["venus"],"mercury":["mercure","mercuri"],"moon":["lune","luna"],"sun":["soleil","solelh","sol"]},
+   "element": {"fire":["feu","fuoc","foc"],"earth":["terre","terra"],"air":["air","aire"],"water":["eau","aigue","aiga"]},
+   "season": {"spring":["printemps","primevere","primavera"],"summer":["este","estiu"],"autumn":["autompne","autom"],"winter":["yver","hiver","ivern"]}
+  },
+  "catalan": {
+   "months": {"feb":["febrer"],"mar":["marc","mars"],"apr":["abril"],"may":["maig"],"jun":["juny"],"jul":["juliol"],"aug":["agost"],"sep":["setembre"],"oct":["octubre"],"nov":["novembre"],"dec":["desembre"]},
+   "sign": {"Pisces":["peixos","peix"],"Aries":["aries","moto","marra"],"Taurus":["taure","bou"],"Gemini":["bessons"],"Cancer":["cranc"],"Leo":["lleo"],"Virgo":["verge"],"Libra":["balanca"],"Scorpio":["escorpi","escorpio"],"Sagittarius":["sagitari","arquer"]},
+   "animal": {"Pisces":["peix"],"Aries":["moto","marra","be"],"Taurus":["bou","toro"],"Gemini":["bessons"],"Cancer":["cranc"],"Leo":["lleo"],"Virgo":["donzella","verge"],"Libra":["balanca"],"Scorpio":["escorpi"],"Sagittarius":["arquer","arc"]},
+   "planet": {"jupiter":["jupiter"],"mars":["mart"],"venus":["venus"],"mercury":["mercuri"],"moon":["lluna"],"sun":["sol"]},
+   "element": {"fire":["foc"],"earth":["terra"],"air":["aire"],"water":["aigua"]},
+   "season": {"spring":["primavera"],"summer":["estiu"],"autumn":["tardor"],"winter":["hivern"]}
+  },
+  "italian": {
+   "months": {"feb":["febbraio","febraio"],"mar":["marzo"],"apr":["aprile"],"may":["maggio"],"jun":["giugno"],"jul":["luglio"],"aug":["agosto"],"sep":["settembre"],"oct":["ottobre"],"nov":["novembre"],"dec":["dicembre"]},
+   "sign": {"Pisces":["pesci"],"Aries":["ariete","montone"],"Taurus":["toro"],"Gemini":["gemelli","gemini"],"Cancer":["cancro","granchio"],"Leo":["leone"],"Virgo":["vergine"],"Libra":["bilancia","libra"],"Scorpio":["scorpione"],"Sagittarius":["sagittario","arciere"]},
+   "animal": {"Pisces":["pesce"],"Aries":["montone","castrone"],"Taurus":["bue","toro"],"Gemini":["gemelli"],"Cancer":["granchio","gambero"],"Leo":["leone"],"Virgo":["vergine","pulzella"],"Libra":["bilancia","stadera"],"Scorpio":["scorpione"],"Sagittarius":["arciere","arco","saetta"]},
+   "planet": {"jupiter":["giove"],"mars":["marte"],"venus":["venere"],"mercury":["mercurio"],"moon":["luna"],"sun":["sole"]},
+   "element": {"fire":["fuoco"],"earth":["terra"],"air":["aria","aere"],"water":["acqua","aqua"]},
+   "season": {"spring":["primavera"],"summer":["estate","state"],"autumn":["autunno"],"winter":["inverno","verno"]}
+  },
+  "german": {
+   "months": {"feb":["hornung","februar"],"mar":["merz","marz","lenzing"],"apr":["april","aberelle"],"may":["mai","meie","meige"],"jun":["juni","brachmonat"],"jul":["juli","hewmonat","heumonat"],"aug":["august","augst","ougest"],"sep":["september","herbstmonat"],"oct":["oktober","weinmonat"],"nov":["november","wintermonat"],"dec":["dezember","christmonat"]},
+   "sign": {"Pisces":["fische","visch"],"Aries":["widder","wider"],"Taurus":["stier","ochse"],"Gemini":["zwilling","zwinlinc"],"Cancer":["krebs","krebz"],"Leo":["lowe","leu","lewe"],"Virgo":["jungfrau","juncfrouwe","maget"],"Libra":["waage","wage"],"Scorpio":["skorpion","scorpion"],"Sagittarius":["schutze","schutz"]},
+   "animal": {"Pisces":["fisch","visch"],"Aries":["widder","schaf"],"Taurus":["stier","ochse","rind"],"Gemini":["zwilling"],"Cancer":["krebs"],"Leo":["lowe","leu"],"Virgo":["magd","maget"],"Libra":["waage"],"Scorpio":["skorpion"],"Sagittarius":["schutze","bogen"]},
+   "planet": {"jupiter":["jupiter"],"mars":["mars"],"venus":["venus"],"mercury":["merkur","mercurius"],"moon":["mond","mane"],"sun":["sonne","sunne"]},
+   "element": {"fire":["feuer","fiur"],"earth":["erde","erde"],"air":["luft"],"water":["wasser"]},
+   "season": {"spring":["lenz","fruling"],"summer":["sommer","sumer"],"autumn":["herbst"],"winter":["winter"]}
+  },
+  "greek": {
+   "months": {"feb":["phebrouarios"],"mar":["martios"],"apr":["aprilios"],"may":["maios"],"jun":["iounios"],"jul":["ioulios"],"aug":["augoustos"],"sep":["septembrios"],"oct":["oktobrios"],"nov":["noembrios"],"dec":["dekembrios"]},
+   "sign": {"Pisces":["ichthyes"],"Aries":["krios"],"Taurus":["tauros"],"Gemini":["didymoi"],"Cancer":["karkinos"],"Leo":["leon"],"Virgo":["parthenos"],"Libra":["zygos","chelai"],"Scorpio":["skorpios"],"Sagittarius":["toxotes"]},
+   "animal": {"Pisces":["ichthys"],"Aries":["krios","probaton"],"Taurus":["tauros","bous"],"Gemini":["didymoi"],"Cancer":["karkinos"],"Leo":["leon"],"Virgo":["parthenos","kore"],"Libra":["zygos"],"Scorpio":["skorpios"],"Sagittarius":["toxotes","toxon"]},
+   "planet": {"jupiter":["zeus","dios"],"mars":["ares","areos"],"venus":["aphrodite"],"mercury":["hermes","hermou"],"moon":["selene"],"sun":["helios"]},
+   "element": {"fire":["pyr"],"earth":["ge"],"air":["aer"],"water":["hydor"]},
+   "season": {"spring":["ear"],"summer":["theros"],"autumn":["phthinoporon"],"winter":["cheimon"]}
+  },
+  "hebrew": {
+   "months": {"feb":["Sbt"],"mar":["Adr","nysn"],"apr":["nysn","Ayyr"],"may":["Ayyr","sywn"],"jun":["sywn","tmwz"],"jul":["tmwz","Ab"],"aug":["Ab","Alwl"],"sep":["Alwl","tSry"],"oct":["tSry","mrHSwn","HSwn"],"nov":["HSwn","mrHSwn","kslw"],"dec":["kslw","Tbt"]},
+   "sign": {"Pisces":["dgym"],"Aries":["Tlh"],"Taurus":["Swr"],"Gemini":["tAwmym","tAmym"],"Cancer":["srTn"],"Leo":["Aryh"],"Virgo":["btwlh"],"Libra":["mAznym"],"Scorpio":["Eqrb"],"Sagittarius":["qSt"]},
+   "animal": {"Pisces":["dg","dgym"],"Aries":["Tlh","Ayl","kbS"],"Taurus":["Swr","pr"],"Gemini":["tAwmym"],"Cancer":["srTn"],"Leo":["Aryh","Ary"],"Virgo":["btwlh","nErh"],"Libra":["mAznym"],"Scorpio":["Eqrb"],"Sagittarius":["qSt","qStt"]},
+   "planet": {"jupiter":["cdq"],"mars":["mAdym"],"venus":["nwgh"],"mercury":["kwkb"],"moon":["lbnh","yrH"],"sun":["Hmh","SmS"]},
+   "element": {"fire":["AS"],"earth":["Arc","Epr"],"air":["rwH","Awyr"],"water":["mym"]},
+   "season": {"spring":["Abyb"],"summer":["qyc"],"autumn":["stw"],"winter":["Hrp"]}
+  },
+  "arabic": {
+   "months": {"feb":["SbAT"],"mar":["ADAr"],"apr":["nysAn"],"may":["AyAr"],"jun":["Hzyrn","HzyrAn"],"jul":["tmwz"],"aug":["Ab"],"sep":["Aylwl"],"oct":["tSryn"],"nov":["tSryn"],"dec":["kAnwn"]},
+   "sign": {"Pisces":["Hwt"],"Aries":["Hml"],"Taurus":["Vwr"],"Gemini":["jwzA"],"Cancer":["srTAn"],"Leo":["Asd"],"Virgo":["snblh","EdrA"],"Libra":["myzAn"],"Scorpio":["Eqrb"],"Sagittarius":["qws","rAmy"]},
+   "animal": {"Pisces":["smk","Hwt"],"Aries":["kbS","Hml"],"Taurus":["Vwr","bqr"],"Gemini":["twAm"],"Cancer":["srTAn"],"Leo":["Asd"],"Virgo":["EdrA","bkr"],"Libra":["myzAn"],"Scorpio":["Eqrb"],"Sagittarius":["qws","rAmy"]},
+   "planet": {"jupiter":["mStry"],"mars":["mryx"],"venus":["zhrh"],"mercury":["EVArd"],"moon":["qmr"],"sun":["Sms"]},
+   "element": {"fire":["nAr"],"earth":["trAb","ArQ"],"air":["hwA"],"water":["mA"]},
+   "season": {"spring":["rbyE"],"summer":["Syf"],"autumn":["xryf"],"winter":["StA"]}
+  }
+ }
+}
