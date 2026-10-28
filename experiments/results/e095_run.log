@@ -1,0 +1,45 @@
+words per page W1/W2: {'f70v2': (28, 107), 'f70v1': (26, 77), 'f71r': (27, 74), 'f71v': (23, 84), 'f72r1': (22, 85), 'f72r2': (27, 92), 'f72r3': (50, 133), 'f72v3': (38, 99), 'f72v2': (33, 98), 'f72v1': (30, 93), 'f73r': (27, 84), 'f73v': (27, 87)}
+configs 32; candidates per config (true assignment): latin/K1/W1:625, latin/K1/W2:2095, latin/K2/W1:1102, latin/K2/W2:2332, french_occitan/K1/W1:734, french_occitan/K1/W2:2960 ... | 1s
+calibration latin: planted pages covered 11/12, null mean 8.22 max 10, p 0.010 | 3s
+calibration french_occitan: planted pages covered 9/12, null mean 9.31 max 11, p 0.930 | 5s
+calibration hebrew: planted pages covered 12/12, null mean 10.30 max 11, p 0.010 | 6s
+calibration latin_half: planted pages covered 10/12, null mean 8.11 max 10, p 0.020 | 8s
+latin/K1/W1                  real  4/12  null mean  4.29 sd 0.46 max  5  p 1.00 | 9s
+latin/K1/W2                  real  8/12  null mean  8.07 sd 0.59 max  9  p 0.86 | 10s
+latin/K2/W1                  real  6/12  null mean  6.16 sd 0.58 max  7  p 0.90 | 11s
+latin/K2/W2                  real 10/12  null mean  9.16 sd 0.55 max 10  p 0.25 | 13s
+french_occitan/K1/W1         real  5/12  null mean  4.45 sd 0.50 max  5  p 0.46 | 14s
+french_occitan/K1/W2         real  9/12  null mean  9.17 sd 0.59 max 11  p 0.91 | 16s
+french_occitan/K2/W1         real  7/12  null mean  6.40 sd 0.55 max  8  p 0.40 | 17s
+french_occitan/K2/W2         real 10/12  null mean 10.39 sd 0.60 max 12  p 0.95 | 20s
+catalan/K1/W1                real  4/12  null mean  4.03 sd 0.48 max  5  p 0.90 | 21s
+catalan/K1/W2                real  8/12  null mean  7.61 sd 0.68 max  9  p 0.52 | 22s
+catalan/K2/W1                real  7/12  null mean  5.59 sd 0.53 max  7  p 0.03 | 22s
+catalan/K2/W2                real  8/12  null mean  8.25 sd 0.76 max 10  p 0.83 | 24s
+italian/K1/W1                real  4/12  null mean  4.14 sd 0.43 max  5  p 0.97 | 24s
+italian/K1/W2                real  8/12  null mean  8.25 sd 0.67 max 10  p 0.88 | 25s
+italian/K2/W1                real  6/12  null mean  6.02 sd 0.62 max  7  p 0.82 | 26s
+italian/K2/W2                real  9/12  null mean  9.19 sd 0.71 max 11  p 0.85 | 28s
+german/K1/W1                 real  4/12  null mean  4.34 sd 0.52 max  6  p 0.99 | 28s
+german/K1/W2                 real  9/12  null mean  7.93 sd 0.57 max  9  p 0.14 | 30s
+german/K2/W1                 real  7/12  null mean  6.22 sd 0.58 max  8  p 0.29 | 31s
+german/K2/W2                 real  9/12  null mean  9.59 sd 0.62 max 11  p 0.99 | 33s
+greek/K1/W1                  real  3/12  null mean  3.47 sd 0.52 max  5  p 1.00 | 34s
+greek/K1/W2                  real  7/12  null mean  6.68 sd 0.69 max  9  p 0.61 | 35s
+greek/K2/W1                  real  5/12  null mean  5.27 sd 0.55 max  6  p 0.95 | 35s
+greek/K2/W2                  real  8/12  null mean  7.63 sd 0.56 max  9  p 0.59 | 36s
+hebrew/K1/W1                 real  5/12  null mean  4.65 sd 0.54 max  6  p 0.62 | 36s
+hebrew/K1/W2                 real  9/12  null mean  9.82 sd 0.59 max 11  p 1.00 | 37s
+hebrew/K2/W1                 real  6/12  null mean  6.68 sd 0.57 max  8  p 1.00 | 38s
+hebrew/K2/W2                 real 11/12  null mean 10.86 sd 0.55 max 12  p 0.77 | 39s
+arabic/K1/W1                 real  4/12  null mean  4.11 sd 0.51 max  5  p 0.92 | 39s
+arabic/K1/W2                 real  9/12  null mean  8.21 sd 0.66 max 10  p 0.31 | 40s
+arabic/K2/W1                 real  6/12  null mean  6.14 sd 0.55 max  8  p 0.92 | 40s
+arabic/K2/W2                 real 10/12  null mean  9.42 sd 0.62 max 11  p 0.44 | 42s
+  attribute planet/words       delta -0.0041 p 0.697
+  attribute planet/trigrams    delta -0.0429 p 0.967
+  attribute element/words      delta -0.0033 p 0.703
+  attribute element/trigrams   delta +0.0228 p 0.099
+  attribute season/words       delta +0.0144 p 0.012
+  attribute season/trigrams    delta +0.0053 p 0.359
+VERDICT VOID (calibration failed) | calibration [('latin', 11, 0.01), ('french_occitan', 9, 0.93), ('hebrew', 12, 0.01), ('latin_half', 10, 0.02)] | 43s

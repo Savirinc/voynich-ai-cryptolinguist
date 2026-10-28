@@ -618,3 +618,7 @@ signs Voynich's spaces are as predictable as in languages.
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-28 | E094 (Test A, Arham) zodiac pictures read blind with month names masked (`ZODIAC_PICTURES.md`) | ANNOTATION CONFIRMED 12/12 as scored, BUT all 15 AI judges recognised the source (project context loaded), so not blind; 9 of 12 pictures are unambiguous on their face. Figures 15 per Aries/Taurus page and 30 elsewhere = degrees of the sign; tubs and clothing on the spring pages only; no sun or moon | none (anchor test) | 0.4631 | 0.3604 | 0.0978 | 0.0788 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-28 | E095 (Test B, Arham) zodiac words vs own sign's meanings, 8 languages (`ZODIAC_MEANING.md`) | VOID: calibration failed (French/Occitan plant p 0.93; Latin and Hebrew only just p 0.01); wrong meanings cover 8–11 of 12 pages, so the zodiac text is too small to identify a key from meaning matches. Unscored Voynich max-T p 0.16; attribute sharing nil (season/words p 0.012, fails Holm) | none | 0.4631 | 0.3604 | 0.0978 | 0.0788 |
