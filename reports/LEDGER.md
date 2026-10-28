@@ -610,3 +610,7 @@ values without intermediate rounding.
 
 **After E092.** E086 Part A ("spaces mechanical") is restated: it holds for EVA letters only; with glyph groups as single
 signs Voynich's spaces are as predictable as in languages.
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-28 | E093 approach check 4: process ladder and subject tracking (`EXPLANATION_MODEL.md`) | Part 1: best model P4 (pieces + position + junctions + copying) reproduces 5 of 12 solid-fact items: NO WORKING PROCESS. Part 2: VALID (Bibles z +16, +14; generator −2.4, P\* −5.0); Voynich z +1.2 INCONCLUSIVE. Unscored: Voynich +0.006 vs meaningless controls with the same labels −0.007/−0.009 | none | 0.4631 | 0.3604 | 0.0978 | 0.0788 |

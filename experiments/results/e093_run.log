@@ -1,0 +1,18 @@
+Voynich DEV pages 173, tokens 28841; fronts ['', 'o', 'c', 'ch', 'q', 's', 'qo', 'sh', 'd', 'y']; endings ['', 'y', 'r', 'dy', 'n', 'l', 'in', 'ey', 'iin', 'hy', 'ar', 'aiin', 'ol', 'edy', 's', 'or', 'al', 'm', 'd', 'o']
+held-out bits/word {'P1': 13.188024344017363, 'P2': 13.103736162696988, 'P3': 13.398716624252438, 'P4': 13.04301705164373}; P4 copy params (c, a, k) (0.2, 0.3, 100); P* = P4 | 2s
+Voynich itself: B1_vocab pass, B2_vocab150 pass, B3_WL pass, B3_WLSD pass, B3_H2 pass, B3_END5 pass, B3_R pass, B3_NR pass, B4_family pass, B5_STAB pass, B6_PSO pass, B7_lines pass
+P1: reproduced 5/12 | B1_vocab 0/5, B2_vocab150 0/5, B3_WL 5/5, B3_WLSD 0/5, B3_H2 0/5, B3_END5 5/5, B3_R 0/5, B3_NR 0/5, B4_family 5/5, B5_STAB 0/5, B6_PSO 5/5, B7_lines 5/5 | 12s
+   sample: tey dal chol
+P2: reproduced 5/12 | B1_vocab 0/5, B2_vocab150 0/5, B3_WL 5/5, B3_WLSD 0/5, B3_H2 0/5, B3_END5 5/5, B3_R 0/5, B3_NR 0/5, B4_family 4/5, B5_STAB 0/5, B6_PSO 5/5, B7_lines 5/5 | 21s
+   sample: ykhdy dcal qotd
+P3: reproduced 5/12 | B1_vocab 0/5, B2_vocab150 0/5, B3_WL 5/5, B3_WLSD 0/5, B3_H2 0/5, B3_END5 5/5, B3_R 0/5, B3_NR 0/5, B4_family 5/5, B5_STAB 0/5, B6_PSO 5/5, B7_lines 5/5 | 29s
+   sample: yd dal shedy
+P4: reproduced 5/12 | B1_vocab 0/5, B2_vocab150 0/5, B3_WL 5/5, B3_WLSD 0/5, B3_H2 0/5, B3_END5 5/5, B3_R 0/5, B3_NR 0/5, B4_family 5/5, B5_STAB 0/5, B6_PSO 5/5, B7_lines 5/5 | 39s
+   sample: chs qey okm
+PART 1 NO WORKING PROCESS (P4 reproduces 5/12); not reproduced: ['B1_vocab', 'B2_vocab150', 'B3_WLSD', 'B3_H2', 'B3_R', 'B3_NR', 'B5_STAB']
+  latVUC     pairs 14365 same 2625 delta +0.0147 null -0.0000 ± 0.0009 z +15.98
+  eng-kjv    pairs 14706 same 2691 delta +0.0216 null -0.0000 ± 0.0015 z +14.30
+  generator  pairs 4650 same 3170 delta -0.0073 null -0.0000 ± 0.0031 z -2.39
+  P*_sample  pairs 4650 same 3170 delta -0.0085 null -0.0001 ± 0.0017 z -4.98
+  VOYNICH    pairs 4650 same 3170 delta +0.0058 null -0.0000 ± 0.0050 z +1.17
+PART 2 INCONCLUSIVE (Voynich z +1.17) | M x1 | 43s

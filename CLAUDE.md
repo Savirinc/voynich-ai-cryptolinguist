@@ -47,7 +47,7 @@ Read this first in every session. It carries the full working context; details l
 6. **Check earlier reports first:** `reports/SUMMARY.md` (E001–E029a), `reports/LEDGER.md`, the reports E030–E089
    (`reports/CLEANUP_ROUND.md` is E059, `reports/INGREDIENT_LINK.md` E060, `reports/STEM_STREAM.md` E061,
    `reports/SCRIBE_TABLES.md` E062, `reports/WIDE_ATTACK.md` E063, `reports/EARLY_AUDIT.md` E064,
-   `reports/SYLLABLE_GONOGO.md` E065, `reports/WORD_INDIVIDUALITY_V3.md` E066, `reports/GIBBERISH_VOCABULARY.md` E067, `reports/GIBBERISH_BATTERY.md` E068, `reports/WORD_PARTNERS.md` E069, `reports/CONTENT_PARTNERS.md` E070, `reports/LABEL_STEP0.md` step 0, `reports/LABEL_TRUNCATION.md` E071, `reports/FRONT_PIECES.md` E072, `reports/ZODIAC_ATTRIBUTES.md` E073, `reports/SLOT_COVERAGE.md` E074, `reports/PIECE_EFFECTS.md` E075, `reports/LIGHT_HEAVY_PIECES.md` E076, `reports/LABEL_ODDNESS.md` E077, `reports/SKELETON_TRAITS.md` E078, `reports/SKELETON_MATCH.md` E079, `reports/HEBREW_CAMPAIGN.md` E080–E084, `reports/SAME_PLANT_PAGES.md` E085, `reports/SPACES_AND_LINES.md` E086, `reports/SPACELESS_ATTACK.md` E087, `reports/SPACELESS_HEBREW.md` E088, `reports/SPACELESS_MIXTURES.md` E089, `reports/POWER_CHECK.md` E090, `reports/LEDGER_AUDIT.md` E091, `reports/TRANSCRIPTION_CHECK.md` E092), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
+   `reports/SYLLABLE_GONOGO.md` E065, `reports/WORD_INDIVIDUALITY_V3.md` E066, `reports/GIBBERISH_VOCABULARY.md` E067, `reports/GIBBERISH_BATTERY.md` E068, `reports/WORD_PARTNERS.md` E069, `reports/CONTENT_PARTNERS.md` E070, `reports/LABEL_STEP0.md` step 0, `reports/LABEL_TRUNCATION.md` E071, `reports/FRONT_PIECES.md` E072, `reports/ZODIAC_ATTRIBUTES.md` E073, `reports/SLOT_COVERAGE.md` E074, `reports/PIECE_EFFECTS.md` E075, `reports/LIGHT_HEAVY_PIECES.md` E076, `reports/LABEL_ODDNESS.md` E077, `reports/SKELETON_TRAITS.md` E078, `reports/SKELETON_MATCH.md` E079, `reports/HEBREW_CAMPAIGN.md` E080–E084, `reports/SAME_PLANT_PAGES.md` E085, `reports/SPACES_AND_LINES.md` E086, `reports/SPACELESS_ATTACK.md` E087, `reports/SPACELESS_HEBREW.md` E088, `reports/SPACELESS_MIXTURES.md` E089, `reports/POWER_CHECK.md` E090, `reports/LEDGER_AUDIT.md` E091, `reports/TRANSCRIPTION_CHECK.md` E092, `reports/EXPLANATION_MODEL.md` E093), and `reports/FORUM_SYNTHESIS.md` (what voynich.ninja already knows).
 7. **Known answers first:** every attack must crack synthetic texts of its own class and make **zero false claims**
    on gibberish and wrong-language controls before it touches Voynich.
 8. **Seed check:** any pass or fail within about 0.5 sd gets a seed-replicate check (≥ 8 of 10 seeds) before it is
@@ -247,7 +247,7 @@ readings tried; none ties the label class to meaning. Zodiac canvases are in `da
 - **Word kit** (front + middle + ending builder, coverage ladder; 2026-10-27): https://claude.ai/artifact/WbWEnBfhmD3Es8aCwwRf85
   (source `reports/artifacts/voynich_word_kit.html`; data `experiments/kit_build_voynich.py`).
 
-## 8. Experiment index after the stop rule (E030–E092)
+## 8. Experiment index after the stop rule (E030–E093)
 For E001–E029a see `reports/SUMMARY.md`.
 
 | Exp | Result |
@@ -312,3 +312,4 @@ For E001–E029a see `reports/SUMMARY.md`.
 | E090 | Approach check 1, attack power on out-of-genre texts: decoder cracks 30/30; gate finds Latin technical 10/10, Culpeper 4/10, Talmud 0/10 (below gibberish). ABSENCE FACTORS TOO STRONG: L × 1.152, C × 1.054 |
 | E091 | Approach check 2, ledger audit: rounding drift fixed; E030 L×3 and E036 L×10/C×3 withdrawn (basis overturned); E066 at ×1.4. Ledger M 0.463, L 0.360, C 0.098, O 0.079: M vs L undecided |
 | E092 | Approach check 3, transcription/glyph cut (Takahashi, Glen Claston, joined spaces, S3 units): lines independent, E066, E067, E068 SURVIVE; spaces mechanical DEPENDS ON TRANSCRIPTION (0.42 with glyph groups as one sign). Ledger unchanged |
+| E093 | Approach check 4: process ladder P1–P4 best reproduces 5/12 solid facts (NO WORKING PROCESS); subject tracking VALID (Bibles +16/+14, controls −2.4/−5.0), Voynich z +1.2 INCONCLUSIVE; unscored lean towards tracking vs controls. Ledger unchanged |
