@@ -626,3 +626,7 @@ signs Voynich's spaces are as predictable as in languages.
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-28 | E095b (Test B2, Arham) zodiac crib keys completed on the whole book, true vs 99 wrong cribs, 6 languages × A/B (`ZODIAC_CRIB_FULLBOOK.md`) | VOID: Latin calibration p 0.03 (two wrong cribs were repaired to the true key by the whole-book decoder); French/Occitan and Hebrew passed (p 0.01). Unscored Voynich max-T p 0.38; true crib in the middle of the wrong cribs everywhere (best German A p 0.06 alone) | none | 0.4631 | 0.3604 | 0.0978 | 0.0788 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-29 | E096 (Route 2, Arham) zodiac figure labels vs period degree tables, gender/light/terms (`DEGREE_TABLES.md`) | VALID (planted 10/10 in all columns; 0/20 false claims); Voynich NO LINK (z −0.03, +0.08, −0.74; max-T p 0.86). Strong class encoding excluded; weak encoding not | none (as pre-registered) | 0.4631 | 0.3604 | 0.0978 | 0.0788 |

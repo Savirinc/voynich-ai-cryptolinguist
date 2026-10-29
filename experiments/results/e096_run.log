@@ -1,0 +1,11 @@
+figures per sign: {'Pisces': 30, 'Aries': 30, 'Taurus': 30, 'Gemini': 29, 'Cancer': 30, 'Leo': 30, 'Virgo': 30, 'Libra': 30, 'Scorpio': 30, 'Sagittarius': 30} | rings per page: {'f70v2': [19, 10, 1], 'f70v1': [10, 5], 'f71r': [10, 5], 'f71v': [10, 5], 'f72r1': [10, 5], 'f72r2': [5, 15, 9], 'f72r3': [12, 11, 7], 'f72v3': [18, 12], 'f72v2': [18, 12], 'f72v1': [20, 10], 'f73r': [4, 16, 10], 'f73v': [4, 16, 10]}
+CAL planted gender fid 0.9: p [0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005] -> 10/10 at p<=0.01
+CAL planted light fid 0.9: p [0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005] -> 10/10 at p<=0.01
+CAL planted terms fid 0.9: p [0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005] -> 10/10 at p<=0.01
+descriptive, front fidelity 0.6: {'gender': 0.37, 'light': 0.425, 'terms': 0.1} | similarity-cluster plant, fidelity 0.8: {'gender': 0.055, 'light': 0.005, 'terms': 0.005}
+calibration PASSED | 21s
+false-claim control (tables rotated): max-T p [0.92, 0.895, 0.93, 0.95, 0.93, 0.885, 0.82, 0.87, 0.935, 0.915, 0.94, 0.895, 0.92, 0.825, 0.88, 0.855, 0.94, 0.875, 0.865, 0.935] -> 0/20 claims
+VOYNICH gender  D +0.5688 null +0.5706 sd 0.0508 z -0.03 p 0.515
+VOYNICH light   D +0.6759 null +0.6711 sd 0.0627 z +0.08 p 0.467
+VOYNICH terms   D +0.4479 null +0.4616 sd 0.0187 z -0.74 p 0.771
+VERDICT NO LINK (max-T 0.08, p 0.855) - no factor | 34s
