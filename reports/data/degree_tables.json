@@ -1,0 +1,2909 @@
+{
+ "source": "skyscript.co.uk/deginf.html (Lilly CA pp.116-118; * = Al-Biruni Elements 457-458 variant)",
+ "tables": {
+  "Aries": [
+   {
+    "deg": 1,
+    "term": "Jupiter",
+    "face": "Mars",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 2,
+    "term": "Jupiter",
+    "face": "Mars",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 3,
+    "term": "Jupiter",
+    "face": "Mars",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 4,
+    "term": "Jupiter",
+    "face": "Mars",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 5,
+    "term": "Jupiter",
+    "face": "Mars",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 6,
+    "term": "Jupiter",
+    "face": "Mars",
+    "gender": "M",
+    "light": "L",
+    "others": "Deep"
+   },
+   {
+    "deg": 7,
+    "term": "Venus",
+    "face": "Mars",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 8,
+    "term": "Venus",
+    "face": "Mars",
+    "gender": "M *",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 9,
+    "term": "Venus",
+    "face": "Mars",
+    "gender": "F",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 10,
+    "term": "Venus",
+    "face": "Mars",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 11,
+    "term": "Venus",
+    "face": "Sun",
+    "gender": "M",
+    "light": "D",
+    "others": "Deep"
+   },
+   {
+    "deg": 12,
+    "term": "Venus",
+    "face": "Sun",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 13,
+    "term": "Venus",
+    "face": "Sun",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 14,
+    "term": "Venus",
+    "face": "Sun",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 15,
+    "term": "Mercury",
+    "face": "Sun",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 16,
+    "term": "Mercury",
+    "face": "Sun",
+    "gender": "F",
+    "light": "D",
+    "others": "Deep"
+   },
+   {
+    "deg": 17,
+    "term": "Mercury",
+    "face": "Sun",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 18,
+    "term": "Mercury",
+    "face": "Sun",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 19,
+    "term": "Mercury",
+    "face": "Sun",
+    "gender": "F",
+    "light": "L",
+    "others": "I.F. , exalt"
+   },
+   {
+    "deg": 20,
+    "term": "Mercury",
+    "face": "Sun",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 21,
+    "term": "Mercury",
+    "face": "Venus",
+    "gender": "F",
+    "light": "V",
+    "others": "fall"
+   },
+   {
+    "deg": 22,
+    "term": "Mars",
+    "face": "Venus",
+    "gender": "F",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 23,
+    "term": "Mars",
+    "face": "Venus",
+    "gender": "M",
+    "light": "V",
+    "others": "Deep"
+   },
+   {
+    "deg": 24,
+    "term": "Mars",
+    "face": "Venus",
+    "gender": "M",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 25,
+    "term": "Mars",
+    "face": "Venus",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 26,
+    "term": "Mars",
+    "face": "Venus",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 27,
+    "term": "Saturn",
+    "face": "Venus",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 28,
+    "term": "Saturn",
+    "face": "Venus",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 29,
+    "term": "Saturn",
+    "face": "Venus",
+    "gender": "M",
+    "light": "L",
+    "others": "Deep"
+   },
+   {
+    "deg": 30,
+    "term": "Saturn",
+    "face": "Venus",
+    "gender": "M",
+    "light": "V",
+    "others": ""
+   }
+  ],
+  "Taurus": [
+   {
+    "deg": 1,
+    "term": "Venus",
+    "face": "Mercury",
+    "gender": "F",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 2,
+    "term": "Venus",
+    "face": "Mercury",
+    "gender": "F",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 3,
+    "term": "Venus",
+    "face": "Mercury",
+    "gender": "F",
+    "light": "D",
+    "others": "I.F. , exalt"
+   },
+   {
+    "deg": 4,
+    "term": "Venus",
+    "face": "Mercury",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 5,
+    "term": "Venus",
+    "face": "Mercury",
+    "gender": "F",
+    "light": "L",
+    "others": "Deep"
+   },
+   {
+    "deg": 6,
+    "term": "Venus",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "L",
+    "others": "Lame"
+   },
+   {
+    "deg": 7,
+    "term": "Venus",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "L",
+    "others": "Lame"
+   },
+   {
+    "deg": 8,
+    "term": "Venus",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "V",
+    "others": "Lame"
+   },
+   {
+    "deg": 9,
+    "term": "Mercury",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "V",
+    "others": "Lame"
+   },
+   {
+    "deg": 10,
+    "term": "Mercury",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "V",
+    "others": "Lame"
+   },
+   {
+    "deg": 11,
+    "term": "Mercury",
+    "face": "Moon",
+    "gender": "M",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 12,
+    "term": "Mercury",
+    "face": "Moon",
+    "gender": "F",
+    "light": "V",
+    "others": "Deep"
+   },
+   {
+    "deg": 13,
+    "term": "Mercury",
+    "face": "Moon",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 14,
+    "term": "Mercury",
+    "face": "Moon",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 15,
+    "term": "Mercury",
+    "face": "Moon",
+    "gender": "F",
+    "light": "L",
+    "others": "I.F."
+   },
+   {
+    "deg": 16,
+    "term": "Jupiter",
+    "face": "Moon",
+    "gender": "F",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 17,
+    "term": "Jupiter",
+    "face": "Moon",
+    "gender": "F",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 18,
+    "term": "Jupiter",
+    "face": "Moon",
+    "gender": "M",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 19,
+    "term": "Jupiter",
+    "face": "Moon",
+    "gender": "M",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 20,
+    "term": "Jupiter",
+    "face": "Moon",
+    "gender": "M",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 21,
+    "term": "Jupiter",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 22,
+    "term": "Jupiter",
+    "face": "Saturn",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 23,
+    "term": "Saturn",
+    "face": "Saturn",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 24,
+    "term": "Saturn",
+    "face": "Saturn",
+    "gender": "F",
+    "light": "L",
+    "others": "Deep"
+   },
+   {
+    "deg": 25,
+    "term": "Saturn",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "L",
+    "others": "Deep"
+   },
+   {
+    "deg": 26,
+    "term": "Saturn",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 27,
+    "term": "Mars",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "L",
+    "others": "I.F."
+   },
+   {
+    "deg": 28,
+    "term": "Mars",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 29,
+    "term": "Mars",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 30,
+    "term": "Mars",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   }
+  ],
+  "Gemini": [
+   {
+    "deg": 1,
+    "term": "Mercury",
+    "face": "Jupiter",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 2,
+    "term": "Mercury",
+    "face": "Jupiter",
+    "gender": "F",
+    "light": "L",
+    "others": "Deep"
+   },
+   {
+    "deg": 3,
+    "term": "Mercury",
+    "face": "Jupiter",
+    "gender": "F",
+    "light": "L",
+    "others": "exalt"
+   },
+   {
+    "deg": 4,
+    "term": "Mercury",
+    "face": "Jupiter",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 5,
+    "term": "Mercury",
+    "face": "Jupiter",
+    "gender": "F",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 6,
+    "term": "Mercury",
+    "face": "Jupiter",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 7,
+    "term": "Mercury",
+    "face": "Jupiter",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 8,
+    "term": "Jupiter",
+    "face": "Jupiter",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 9,
+    "term": "Jupiter",
+    "face": "Jupiter",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 10,
+    "term": "Jupiter",
+    "face": "Jupiter",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 11,
+    "term": "Jupiter",
+    "face": "Mars",
+    "gender": "M",
+    "light": "L",
+    "others": "I.F."
+   },
+   {
+    "deg": 12,
+    "term": "Jupiter",
+    "face": "Mars",
+    "gender": "M",
+    "light": "L",
+    "others": "Deep"
+   },
+   {
+    "deg": 13,
+    "term": "Jupiter",
+    "face": "Mars",
+    "gender": "M",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 14,
+    "term": "Venus",
+    "face": "Mars",
+    "gender": "M",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 15,
+    "term": "Venus",
+    "face": "Mars",
+    "gender": "M",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 16,
+    "term": "Venus",
+    "face": "Mars",
+    "gender": "M",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 17,
+    "term": "Venus",
+    "face": "Mars",
+    "gender": "F",
+    "light": "L",
+    "others": "Deep"
+   },
+   {
+    "deg": 18,
+    "term": "Venus",
+    "face": "Mars",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 19,
+    "term": "Venus",
+    "face": "Mars",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 20,
+    "term": "Venus",
+    "face": "Mars",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 21,
+    "term": "Venus",
+    "face": "Sun",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 22,
+    "term": "Saturn",
+    "face": "Sun",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 23,
+    "term": "Saturn",
+    "face": "Sun",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 24,
+    "term": "Saturn",
+    "face": "Sun",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 25,
+    "term": "Saturn",
+    "face": "Sun",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 26,
+    "term": "Mars",
+    "face": "Sun",
+    "gender": "M",
+    "light": "D",
+    "others": "Deep"
+   },
+   {
+    "deg": 27,
+    "term": "Mars",
+    "face": "Sun",
+    "gender": "F",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 28,
+    "term": "Mars",
+    "face": "Sun",
+    "gender": "F",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 29,
+    "term": "Mars",
+    "face": "Sun",
+    "gender": "F",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 30,
+    "term": "Mars",
+    "face": "Sun",
+    "gender": "F",
+    "light": "V",
+    "others": "Deep"
+   }
+  ],
+  "Cancer": [
+   {
+    "deg": 1,
+    "term": "Mars",
+    "face": "Venus",
+    "gender": "M",
+    "light": "L",
+    "others": "I.F."
+   },
+   {
+    "deg": 2,
+    "term": "Mars",
+    "face": "Venus",
+    "gender": "M",
+    "light": "L",
+    "others": "I.F."
+   },
+   {
+    "deg": 3,
+    "term": "Mars",
+    "face": "Venus",
+    "gender": "F",
+    "light": "L",
+    "others": "I.F."
+   },
+   {
+    "deg": 4,
+    "term": "Mars",
+    "face": "Venus",
+    "gender": "F",
+    "light": "L",
+    "others": "I.F."
+   },
+   {
+    "deg": 5,
+    "term": "Mars",
+    "face": "Venus",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 6,
+    "term": "Mars",
+    "face": "Venus",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 7,
+    "term": "Jupiter",
+    "face": "Venus",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 8,
+    "term": "Jupiter",
+    "face": "Venus",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 9,
+    "term": "Jupiter",
+    "face": "Venus",
+    "gender": "M",
+    "light": "L",
+    "others": "Lame"
+   },
+   {
+    "deg": 10,
+    "term": "Jupiter",
+    "face": "Venus",
+    "gender": "M",
+    "light": "L",
+    "others": "Lame"
+   },
+   {
+    "deg": 11,
+    "term": "Jupiter",
+    "face": "Mercury",
+    "gender": "F",
+    "light": "L",
+    "others": "Lame"
+   },
+   {
+    "deg": 12,
+    "term": "Jupiter",
+    "face": "Mercury",
+    "gender": "F",
+    "light": "L",
+    "others": "Deep , Lame"
+   },
+   {
+    "deg": 13,
+    "term": "Jupiter",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "D",
+    "others": "Lame"
+   },
+   {
+    "deg": 14,
+    "term": "Mercury",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "D",
+    "others": "Lame"
+   },
+   {
+    "deg": 15,
+    "term": "Mercury",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "V",
+    "others": "exalt , Lame , I.F."
+   },
+   {
+    "deg": 16,
+    "term": "Mercury",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 17,
+    "term": "Mercury",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "V",
+    "others": "Deep"
+   },
+   {
+    "deg": 18,
+    "term": "Mercury",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 19,
+    "term": "Mercury",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "S",
+    "others": ""
+   },
+   {
+    "deg": 20,
+    "term": "Mercury",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "S",
+    "others": ""
+   },
+   {
+    "deg": 21,
+    "term": "Venus",
+    "face": "Moon",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 22,
+    "term": "Venus",
+    "face": "Moon",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 23,
+    "term": "Venus",
+    "face": "Moon",
+    "gender": "M",
+    "light": "L",
+    "others": "Deep"
+   },
+   {
+    "deg": 24,
+    "term": "Venus",
+    "face": "Moon",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 25,
+    "term": "Venus",
+    "face": "Moon",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 26,
+    "term": "Venus",
+    "face": "Moon",
+    "gender": "F",
+    "light": "L",
+    "others": "Deep"
+   },
+   {
+    "deg": 27,
+    "term": "Venus",
+    "face": "Moon",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 28,
+    "term": "Saturn",
+    "face": "Moon",
+    "gender": "M",
+    "light": "L",
+    "others": "fall"
+   },
+   {
+    "deg": 29,
+    "term": "Saturn",
+    "face": "Moon",
+    "gender": "M",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 30,
+    "term": "Saturn",
+    "face": "Moon",
+    "gender": "M",
+    "light": "V",
+    "others": "Deep"
+   }
+  ],
+  "Leo": [
+   {
+    "deg": 1,
+    "term": "Saturn",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 2,
+    "term": "Saturn",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "D",
+    "others": "I.F."
+   },
+   {
+    "deg": 3,
+    "term": "Saturn",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 4,
+    "term": "Saturn",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 5,
+    "term": "Saturn",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "D",
+    "others": "I.F."
+   },
+   {
+    "deg": 6,
+    "term": "Saturn",
+    "face": "Saturn",
+    "gender": "F",
+    "light": "D",
+    "others": "Deep"
+   },
+   {
+    "deg": 7,
+    "term": "Mercury",
+    "face": "Saturn",
+    "gender": "F",
+    "light": "D",
+    "others": "I.F."
+   },
+   {
+    "deg": 8,
+    "term": "Mercury",
+    "face": "Saturn",
+    "gender": "F",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 9,
+    "term": "Mercury",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 10,
+    "term": "Mercury",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 11,
+    "term": "Mercury",
+    "face": "Jupiter",
+    "gender": "M",
+    "light": "S",
+    "others": ""
+   },
+   {
+    "deg": 12,
+    "term": "Mercury",
+    "face": "Jupiter",
+    "gender": "M",
+    "light": "S",
+    "others": ""
+   },
+   {
+    "deg": 13,
+    "term": "Mercury",
+    "face": "Jupiter",
+    "gender": "M",
+    "light": "S",
+    "others": "Deep"
+   },
+   {
+    "deg": 14,
+    "term": "Venus",
+    "face": "Jupiter",
+    "gender": "M",
+    "light": "S",
+    "others": ""
+   },
+   {
+    "deg": 15,
+    "term": "Venus",
+    "face": "Jupiter",
+    "gender": "M",
+    "light": "S",
+    "others": "Deep"
+   },
+   {
+    "deg": 16,
+    "term": "Venus",
+    "face": "Jupiter",
+    "gender": "F",
+    "light": "S",
+    "others": ""
+   },
+   {
+    "deg": 17,
+    "term": "Venus",
+    "face": "Jupiter",
+    "gender": "F",
+    "light": "S",
+    "others": ""
+   },
+   {
+    "deg": 18,
+    "term": "Venus",
+    "face": "Jupiter",
+    "gender": "F",
+    "light": "S",
+    "others": "Lame"
+   },
+   {
+    "deg": 19,
+    "term": "Venus",
+    "face": "Jupiter",
+    "gender": "F",
+    "light": "S",
+    "others": "I.F."
+   },
+   {
+    "deg": 20,
+    "term": "Jupiter",
+    "face": "Jupiter",
+    "gender": "F",
+    "light": "S",
+    "others": ""
+   },
+   {
+    "deg": 21,
+    "term": "Jupiter",
+    "face": "Mars",
+    "gender": "F",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 22,
+    "term": "Jupiter",
+    "face": "Mars",
+    "gender": "F",
+    "light": "V",
+    "others": "Deep"
+   },
+   {
+    "deg": 23,
+    "term": "Jupiter",
+    "face": "Mars",
+    "gender": "F",
+    "light": "V",
+    "others": "Deep"
+   },
+   {
+    "deg": 24,
+    "term": "Jupiter",
+    "face": "Mars",
+    "gender": "M",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 25,
+    "term": "Jupiter",
+    "face": "Mars",
+    "gender": "M",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 26,
+    "term": "Mars",
+    "face": "Mars",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 27,
+    "term": "Mars",
+    "face": "Mars",
+    "gender": "M",
+    "light": "L",
+    "others": "Lame"
+   },
+   {
+    "deg": 28,
+    "term": "Mars",
+    "face": "Mars",
+    "gender": "M",
+    "light": "L",
+    "others": "Deep , Lame"
+   },
+   {
+    "deg": 29,
+    "term": "Mars",
+    "face": "Mars",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 30,
+    "term": "Mars",
+    "face": "Mars",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   }
+  ],
+  "Virgo": [
+   {
+    "deg": 1,
+    "term": "Mercury",
+    "face": "Sun",
+    "gender": "F",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 2,
+    "term": "Mercury",
+    "face": "Sun",
+    "gender": "F",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 3,
+    "term": "Mercury",
+    "face": "Sun",
+    "gender": "F",
+    "light": "D",
+    "others": "I.F."
+   },
+   {
+    "deg": 4,
+    "term": "Mercury",
+    "face": "Sun",
+    "gender": "F",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 5,
+    "term": "Mercury",
+    "face": "Sun",
+    "gender": "F",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 6,
+    "term": "Mercury",
+    "face": "Sun",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 7,
+    "term": "Mercury",
+    "face": "Sun",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 8,
+    "term": "Venus",
+    "face": "Sun",
+    "gender": "F",
+    "light": "L",
+    "others": "Deep"
+   },
+   {
+    "deg": 9,
+    "term": "Venus",
+    "face": "Sun",
+    "gender": "M",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 10,
+    "term": "Venus",
+    "face": "Sun",
+    "gender": "M",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 11,
+    "term": "Venus",
+    "face": "Venus",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 12,
+    "term": "Venus",
+    "face": "Venus",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 13,
+    "term": "Venus",
+    "face": "Venus",
+    "gender": "F",
+    "light": "L",
+    "others": "Deep"
+   },
+   {
+    "deg": 14,
+    "term": "Jupiter",
+    "face": "Venus",
+    "gender": "F",
+    "light": "L",
+    "others": "I.F."
+   },
+   {
+    "deg": 15,
+    "term": "Jupiter",
+    "face": "Venus",
+    "gender": "F",
+    "light": "L",
+    "others": "exalt"
+   },
+   {
+    "deg": 16,
+    "term": "Jupiter",
+    "face": "Venus",
+    "gender": "F",
+    "light": "L",
+    "others": "Deep"
+   },
+   {
+    "deg": 17,
+    "term": "Jupiter",
+    "face": "Venus",
+    "gender": "F",
+    "light": "S",
+    "others": ""
+   },
+   {
+    "deg": 18,
+    "term": "Jupiter",
+    "face": "Venus",
+    "gender": "F",
+    "light": "S",
+    "others": ""
+   },
+   {
+    "deg": 19,
+    "term": "Saturn",
+    "face": "Venus",
+    "gender": "F",
+    "light": "S",
+    "others": ""
+   },
+   {
+    "deg": 20,
+    "term": "Saturn",
+    "face": "Venus",
+    "gender": "F",
+    "light": "S",
+    "others": "I.F."
+   },
+   {
+    "deg": 21,
+    "term": "Saturn",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "S",
+    "others": "Deep"
+   },
+   {
+    "deg": 22,
+    "term": "Saturn",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "S",
+    "others": "Deep"
+   },
+   {
+    "deg": 23,
+    "term": "Saturn",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 24,
+    "term": "Saturn",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 25,
+    "term": "Mars",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 26,
+    "term": "Mars",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 27,
+    "term": "Mars",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "V",
+    "others": "fall"
+   },
+   {
+    "deg": 28,
+    "term": "Mars",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 29,
+    "term": "Mars",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 30,
+    "term": "Mars",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   }
+  ],
+  "Libra": [
+   {
+    "deg": 1,
+    "term": "Saturn",
+    "face": "Moon",
+    "gender": "M",
+    "light": "L",
+    "others": "Deep"
+   },
+   {
+    "deg": 2,
+    "term": "Saturn",
+    "face": "Moon",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 3,
+    "term": "Saturn",
+    "face": "Moon",
+    "gender": "M",
+    "light": "L",
+    "others": "I.F."
+   },
+   {
+    "deg": 4,
+    "term": "Saturn",
+    "face": "Moon",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 5,
+    "term": "Saturn",
+    "face": "Moon",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 6,
+    "term": "Saturn",
+    "face": "Moon",
+    "gender": "F",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 7,
+    "term": "Venus",
+    "face": "Moon",
+    "gender": "F",
+    "light": "D",
+    "others": "Deep"
+   },
+   {
+    "deg": 8,
+    "term": "Venus",
+    "face": "Moon",
+    "gender": "F",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 9,
+    "term": "Venus",
+    "face": "Moon",
+    "gender": "F",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 10,
+    "term": "Venus",
+    "face": "Moon",
+    "gender": "F",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 11,
+    "term": "Venus",
+    "face": "Saturn",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 12,
+    "term": "Jupiter",
+    "face": "Saturn",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 13,
+    "term": "Jupiter",
+    "face": "Saturn",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 14,
+    "term": "Jupiter",
+    "face": "Saturn",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 15,
+    "term": "Jupiter",
+    "face": "Saturn",
+    "gender": "F",
+    "light": "L",
+    "others": "I.F."
+   },
+   {
+    "deg": 16,
+    "term": "Jupiter",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 17,
+    "term": "Jupiter",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 18,
+    "term": "Jupiter",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 19,
+    "term": "Jupiter",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "D",
+    "others": "fall"
+   },
+   {
+    "deg": 20,
+    "term": "Mercury",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "D",
+    "others": "Deep"
+   },
+   {
+    "deg": 21,
+    "term": "Mercury",
+    "face": "Jupiter",
+    "gender": "F",
+    "light": "D",
+    "others": "I.F. , exalt ,"
+   },
+   {
+    "deg": 22,
+    "term": "Mercury",
+    "face": "Jupiter",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 23,
+    "term": "Mercury",
+    "face": "Jupiter",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 24,
+    "term": "Mercury",
+    "face": "Jupiter",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 25,
+    "term": "Mars",
+    "face": "Jupiter",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 26,
+    "term": "Mars",
+    "face": "Jupiter",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 27,
+    "term": "Mars",
+    "face": "Jupiter",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 28,
+    "term": "Mars",
+    "face": "Jupiter",
+    "gender": "M",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 29,
+    "term": "Mars",
+    "face": "Jupiter",
+    "gender": "M",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 30,
+    "term": "Mars",
+    "face": "Jupiter",
+    "gender": "M",
+    "light": "V",
+    "others": "Deep"
+   }
+  ],
+  "Scorpio": [
+   {
+    "deg": 1,
+    "term": "Mars",
+    "face": "Mars",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 2,
+    "term": "Mars",
+    "face": "Mars",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 3,
+    "term": "Mars",
+    "face": "Mars",
+    "gender": "M",
+    "light": "D",
+    "others": "fall"
+   },
+   {
+    "deg": 4,
+    "term": "Mars",
+    "face": "Mars",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 5,
+    "term": "Mars",
+    "face": "Mars",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 6,
+    "term": "Mars",
+    "face": "Mars",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 7,
+    "term": "Jupiter",
+    "face": "Mars",
+    "gender": "F",
+    "light": "L",
+    "others": "I.F."
+   },
+   {
+    "deg": 8,
+    "term": "Jupiter",
+    "face": "Mars",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 9,
+    "term": "Jupiter",
+    "face": "Mars",
+    "gender": "F",
+    "light": "V",
+    "others": "Deep"
+   },
+   {
+    "deg": 10,
+    "term": "Jupiter",
+    "face": "Mars",
+    "gender": "F",
+    "light": "V",
+    "others": "Deep"
+   },
+   {
+    "deg": 11,
+    "term": "Jupiter",
+    "face": "Sun",
+    "gender": "F",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 12,
+    "term": "Jupiter",
+    "face": "Sun",
+    "gender": "F",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 13,
+    "term": "Jupiter",
+    "face": "Sun",
+    "gender": "F",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 14,
+    "term": "Jupiter",
+    "face": "Sun",
+    "gender": "F",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 15,
+    "term": "Venus",
+    "face": "Sun",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 16,
+    "term": "Venus",
+    "face": "Sun",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 17,
+    "term": "Venus",
+    "face": "Sun",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 18,
+    "term": "Venus",
+    "face": "Sun",
+    "gender": "F",
+    "light": "L",
+    "others": "I.F."
+   },
+   {
+    "deg": 19,
+    "term": "Venus",
+    "face": "Sun",
+    "gender": "F",
+    "light": "L",
+    "others": "Lame"
+   },
+   {
+    "deg": 20,
+    "term": "Venus",
+    "face": "Sun",
+    "gender": "F",
+    "light": "L",
+    "others": "I.F."
+   },
+   {
+    "deg": 21,
+    "term": "Venus",
+    "face": "Venus",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 22,
+    "term": "Mercury",
+    "face": "Venus",
+    "gender": "F",
+    "light": "L",
+    "others": "Deep"
+   },
+   {
+    "deg": 23,
+    "term": "Mercury",
+    "face": "Venus",
+    "gender": "F",
+    "light": "S",
+    "others": "Deep"
+   },
+   {
+    "deg": 24,
+    "term": "Mercury",
+    "face": "Venus",
+    "gender": "F",
+    "light": "S",
+    "others": ""
+   },
+   {
+    "deg": 25,
+    "term": "Mercury",
+    "face": "Venus",
+    "gender": "F",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 26,
+    "term": "Mercury",
+    "face": "Venus",
+    "gender": "M",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 27,
+    "term": "Mercury",
+    "face": "Venus",
+    "gender": "M",
+    "light": "V",
+    "others": "Deep"
+   },
+   {
+    "deg": 28,
+    "term": "Saturn",
+    "face": "Venus",
+    "gender": "M",
+    "light": "V",
+    "others": "Lame"
+   },
+   {
+    "deg": 29,
+    "term": "Saturn",
+    "face": "Venus",
+    "gender": "M",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 30,
+    "term": "Saturn",
+    "face": "Venus",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   }
+  ],
+  "Sagittarius": [
+   {
+    "deg": 1,
+    "term": "Jupiter",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "L",
+    "others": "Lame"
+   },
+   {
+    "deg": 2,
+    "term": "Jupiter",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 3,
+    "term": "Jupiter",
+    "face": "Mercury",
+    "gender": "F",
+    "light": "L",
+    "others": "fall"
+   },
+   {
+    "deg": 4,
+    "term": "Jupiter",
+    "face": "Mercury",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 5,
+    "term": "Jupiter",
+    "face": "Mercury",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 6,
+    "term": "Jupiter",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 7,
+    "term": "Jupiter",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "L",
+    "others": "Deep , Lame"
+   },
+   {
+    "deg": 8,
+    "term": "Jupiter",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "L",
+    "others": "Lame"
+   },
+   {
+    "deg": 9,
+    "term": "Venus",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 10,
+    "term": "Venus",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 11,
+    "term": "Venus",
+    "face": "Moon",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 12,
+    "term": "Venus",
+    "face": "Moon",
+    "gender": "M",
+    "light": "D",
+    "others": "Deep"
+   },
+   {
+    "deg": 13,
+    "term": "Venus",
+    "face": "Moon",
+    "gender": "F",
+    "light": "L",
+    "others": "I.F."
+   },
+   {
+    "deg": 14,
+    "term": "Venus",
+    "face": "Moon",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 15,
+    "term": "Mercury",
+    "face": "Moon",
+    "gender": "F",
+    "light": "L",
+    "others": "Deep"
+   },
+   {
+    "deg": 16,
+    "term": "Mercury",
+    "face": "Moon",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 17,
+    "term": "Mercury",
+    "face": "Moon",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 18,
+    "term": "Mercury",
+    "face": "Moon",
+    "gender": "F",
+    "light": "L",
+    "others": "Lame"
+   },
+   {
+    "deg": 19,
+    "term": "Mercury",
+    "face": "Moon",
+    "gender": "F",
+    "light": "L",
+    "others": "Lame"
+   },
+   {
+    "deg": 20,
+    "term": "Saturn",
+    "face": "Moon",
+    "gender": "F",
+    "light": "S",
+    "others": "I.F."
+   },
+   {
+    "deg": 21,
+    "term": "Saturn",
+    "face": "Saturn",
+    "gender": "F",
+    "light": "S",
+    "others": ""
+   },
+   {
+    "deg": 22,
+    "term": "Saturn",
+    "face": "Saturn",
+    "gender": "F",
+    "light": "S",
+    "others": ""
+   },
+   {
+    "deg": 23,
+    "term": "Saturn",
+    "face": "Saturn",
+    "gender": "F",
+    "light": "S",
+    "others": ""
+   },
+   {
+    "deg": 24,
+    "term": "Saturn",
+    "face": "Saturn",
+    "gender": "F",
+    "light": "L",
+    "others": "Deep"
+   },
+   {
+    "deg": 25,
+    "term": "Saturn",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 26,
+    "term": "Mars",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 27,
+    "term": "Mars",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "L",
+    "others": "Deep"
+   },
+   {
+    "deg": 28,
+    "term": "Mars",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 29,
+    "term": "Mars",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 30,
+    "term": "Mars",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "L",
+    "others": "Deep"
+   }
+  ],
+  "Capricorn": [
+   {
+    "deg": 1,
+    "term": "Venus",
+    "face": "Jupiter",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 2,
+    "term": "Venus",
+    "face": "Jupiter",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 3,
+    "term": "Venus",
+    "face": "Jupiter",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 4,
+    "term": "Venus",
+    "face": "Jupiter",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 5,
+    "term": "Venus",
+    "face": "Jupiter",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 6,
+    "term": "Venus",
+    "face": "Jupiter",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 7,
+    "term": "Mercury",
+    "face": "Jupiter",
+    "gender": "M",
+    "light": "D",
+    "others": "Deep"
+   },
+   {
+    "deg": 8,
+    "term": "Mercury",
+    "face": "Jupiter",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 9,
+    "term": "Mercury",
+    "face": "Jupiter",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 10,
+    "term": "Mercury",
+    "face": "Jupiter",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 11,
+    "term": "Mercury",
+    "face": "Mars",
+    "gender": "M",
+    "light": "S",
+    "others": ""
+   },
+   {
+    "deg": 12,
+    "term": "Mercury",
+    "face": "Mars",
+    "gender": "F",
+    "light": "S",
+    "others": "I.F."
+   },
+   {
+    "deg": 13,
+    "term": "Jupiter",
+    "face": "Mars",
+    "gender": "F",
+    "light": "S",
+    "others": "I.F."
+   },
+   {
+    "deg": 14,
+    "term": "Jupiter",
+    "face": "Mars",
+    "gender": "F",
+    "light": "S",
+    "others": "I.F."
+   },
+   {
+    "deg": 15,
+    "term": "Jupiter",
+    "face": "Mars",
+    "gender": "F",
+    "light": "S",
+    "others": "fall"
+   },
+   {
+    "deg": 16,
+    "term": "Jupiter",
+    "face": "Mars",
+    "gender": "F",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 17,
+    "term": "Jupiter",
+    "face": "Mars",
+    "gender": "F",
+    "light": "D",
+    "others": "Deep"
+   },
+   {
+    "deg": 18,
+    "term": "Jupiter",
+    "face": "Mars",
+    "gender": "F",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 19,
+    "term": "Jupiter",
+    "face": "Mars",
+    "gender": "F",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 20,
+    "term": "Mars",
+    "face": "Mars",
+    "gender": "M",
+    "light": "D",
+    "others": "I.F."
+   },
+   {
+    "deg": 21,
+    "term": "Mars",
+    "face": "Sun",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 22,
+    "term": "Mars",
+    "face": "Sun",
+    "gender": "M",
+    "light": "D",
+    "others": "Deep"
+   },
+   {
+    "deg": 23,
+    "term": "Mars",
+    "face": "Sun",
+    "gender": "M",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 24,
+    "term": "Mars",
+    "face": "Sun",
+    "gender": "M",
+    "light": "V",
+    "others": "Deep"
+   },
+   {
+    "deg": 25,
+    "term": "Mars",
+    "face": "Sun",
+    "gender": "M",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 26,
+    "term": "Saturn",
+    "face": "Sun",
+    "gender": "M",
+    "light": "D",
+    "others": "Lame"
+   },
+   {
+    "deg": 27,
+    "term": "Saturn",
+    "face": "Sun",
+    "gender": "M",
+    "light": "D",
+    "others": "Lame"
+   },
+   {
+    "deg": 28,
+    "term": "Saturn",
+    "face": "Sun",
+    "gender": "M",
+    "light": "D",
+    "others": "Lame , exalt."
+   },
+   {
+    "deg": 29,
+    "term": "Saturn",
+    "face": "Sun",
+    "gender": "M",
+    "light": "D",
+    "others": "Deep , Lame"
+   },
+   {
+    "deg": 30,
+    "term": "Saturn",
+    "face": "Sun",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   }
+  ],
+  "Aquarius": [
+   {
+    "deg": 1,
+    "term": "Saturn",
+    "face": "Venus",
+    "gender": "M",
+    "light": "S",
+    "others": "Deep"
+   },
+   {
+    "deg": 2,
+    "term": "Saturn",
+    "face": "Venus",
+    "gender": "M",
+    "light": "S",
+    "others": ""
+   },
+   {
+    "deg": 3,
+    "term": "Saturn",
+    "face": "Venus",
+    "gender": "M",
+    "light": "S",
+    "others": ""
+   },
+   {
+    "deg": 4,
+    "term": "Saturn",
+    "face": "Venus",
+    "gender": "M",
+    "light": "S",
+    "others": ""
+   },
+   {
+    "deg": 5,
+    "term": "Saturn",
+    "face": "Venus",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 6,
+    "term": "Saturn",
+    "face": "Venus",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 7,
+    "term": "Mercury",
+    "face": "Venus",
+    "gender": "F",
+    "light": "L",
+    "others": "I.F."
+   },
+   {
+    "deg": 8,
+    "term": "Mercury",
+    "face": "Venus",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 9,
+    "term": "Mercury",
+    "face": "Venus",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 10,
+    "term": "Mercury",
+    "face": "Venus",
+    "gender": "F",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 11,
+    "term": "Mercury",
+    "face": "Mercury",
+    "gender": "F",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 12,
+    "term": "Mercury",
+    "face": "Mercury",
+    "gender": "F",
+    "light": "D",
+    "others": "Deep"
+   },
+   {
+    "deg": 13,
+    "term": "Venus",
+    "face": "Mercury",
+    "gender": "F *",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 14,
+    "term": "Venus",
+    "face": "Mercury",
+    "gender": "F *",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 15,
+    "term": "Venus",
+    "face": "Mercury",
+    "gender": "F *",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 16,
+    "term": "Venus",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "L",
+    "others": "I.F."
+   },
+   {
+    "deg": 17,
+    "term": "Venus",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "L",
+    "others": "Deep , I.F."
+   },
+   {
+    "deg": 18,
+    "term": "Venus",
+    "face": "Mercury",
+    "gender": "M",
+    "light": "L",
+    "others": "Lame"
+   },
+   {
+    "deg": 19,
+    "term": "Venus",
+    "face": "Mercury",
+    "gender": "M *",
+    "light": "L",
+    "others": "Lame"
+   },
+   {
+    "deg": 20,
+    "term": "Venus",
+    "face": "Mercury",
+    "gender": "M *",
+    "light": "L",
+    "others": "I.F."
+   },
+   {
+    "deg": 21,
+    "term": "Jupiter",
+    "face": "Moon",
+    "gender": "M *",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 22,
+    "term": "Jupiter",
+    "face": "Moon",
+    "gender": "F",
+    "light": "V",
+    "others": "Deep"
+   },
+   {
+    "deg": 23,
+    "term": "Jupiter",
+    "face": "Moon",
+    "gender": "F",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 24,
+    "term": "Jupiter",
+    "face": "Moon",
+    "gender": "F",
+    "light": "V",
+    "others": "Deep"
+   },
+   {
+    "deg": 25,
+    "term": "Jupiter",
+    "face": "Moon",
+    "gender": "F",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 26,
+    "term": "Mars",
+    "face": "Moon",
+    "gender": "M *",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 27,
+    "term": "Mars",
+    "face": "Moon",
+    "gender": "M *",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 28,
+    "term": "Mars",
+    "face": "Moon",
+    "gender": "F *",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 29,
+    "term": "Mars",
+    "face": "Moon",
+    "gender": "F *",
+    "light": "L",
+    "others": "Deep"
+   },
+   {
+    "deg": 30,
+    "term": "Mars",
+    "face": "Moon",
+    "gender": "F *",
+    "light": "L",
+    "others": ""
+   }
+  ],
+  "Pisces": [
+   {
+    "deg": 1,
+    "term": "Venus",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 2,
+    "term": "Venus",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 3,
+    "term": "Venus",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 4,
+    "term": "Venus",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "D",
+    "others": "Deep"
+   },
+   {
+    "deg": 5,
+    "term": "Venus",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 6,
+    "term": "Venus",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 7,
+    "term": "Venus",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 8,
+    "term": "Venus",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 9,
+    "term": "Jupiter",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "L",
+    "others": "Deep"
+   },
+   {
+    "deg": 10,
+    "term": "Jupiter",
+    "face": "Saturn",
+    "gender": "M",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 11,
+    "term": "Jupiter",
+    "face": "Jupiter",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 12,
+    "term": "Jupiter",
+    "face": "Jupiter",
+    "gender": "F",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 13,
+    "term": "Jupiter",
+    "face": "Jupiter",
+    "gender": "F *",
+    "light": "D",
+    "others": "I.F."
+   },
+   {
+    "deg": 14,
+    "term": "Jupiter",
+    "face": "Jupiter",
+    "gender": "F *",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 15,
+    "term": "Mercury",
+    "face": "Jupiter",
+    "gender": "F *",
+    "light": "D",
+    "others": "fall"
+   },
+   {
+    "deg": 16,
+    "term": "Mercury",
+    "face": "Jupiter",
+    "gender": "F",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 17,
+    "term": "Mercury",
+    "face": "Jupiter",
+    "gender": "F",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 18,
+    "term": "Mercury",
+    "face": "Jupiter",
+    "gender": "F",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 19,
+    "term": "Mercury",
+    "face": "Jupiter",
+    "gender": "F",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 20,
+    "term": "Mercury",
+    "face": "Jupiter",
+    "gender": "F",
+    "light": "D",
+    "others": "I.F."
+   },
+   {
+    "deg": 21,
+    "term": "Mars",
+    "face": "Mars",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 22,
+    "term": "Mars",
+    "face": "Mars",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 23,
+    "term": "Mars",
+    "face": "Mars",
+    "gender": "M",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 24,
+    "term": "Mars",
+    "face": "Mars",
+    "gender": "F *",
+    "light": "V",
+    "others": "Deep"
+   },
+   {
+    "deg": 25,
+    "term": "Mars",
+    "face": "Mars",
+    "gender": "F *",
+    "light": "V",
+    "others": ""
+   },
+   {
+    "deg": 26,
+    "term": "Mars",
+    "face": "Mars",
+    "gender": "F *",
+    "light": "L",
+    "others": ""
+   },
+   {
+    "deg": 27,
+    "term": "Saturn",
+    "face": "Mars",
+    "gender": "F *",
+    "light": "L",
+    "others": "Deep exalt"
+   },
+   {
+    "deg": 28,
+    "term": "Saturn",
+    "face": "Mars",
+    "gender": "F *",
+    "light": "L",
+    "others": "Deep"
+   },
+   {
+    "deg": 29,
+    "term": "Saturn",
+    "face": "Mars",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   },
+   {
+    "deg": 30,
+    "term": "Saturn",
+    "face": "Mars",
+    "gender": "M",
+    "light": "D",
+    "others": ""
+   }
+  ]
+ }
+}
