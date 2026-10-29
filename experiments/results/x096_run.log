@@ -1,0 +1,12 @@
+latin/A {'true crib': np.float64(-4.843), 'wrong crib': np.float64(-4.906), 'no crib': np.float64(-3.896)}
+latin/B {'true crib': np.float64(-4.48), 'wrong crib': np.float64(-4.775), 'no crib': np.float64(-3.734)}
+french_occitan/A {'true crib': np.float64(-5.057), 'wrong crib': np.float64(-5.359), 'no crib': np.float64(-4.015)}
+french_occitan/B {'true crib': np.float64(-4.484), 'wrong crib': np.float64(-4.654), 'no crib': np.float64(-4.058)}
+italian/A {'true crib': np.float64(-5.197), 'wrong crib': np.float64(-5.266), 'no crib': np.float64(-4.123)}
+italian/B {'true crib': np.float64(-4.793), 'wrong crib': np.float64(-4.739), 'no crib': np.float64(-4.387)}
+german/A {'true crib': np.float64(-4.859), 'wrong crib': np.float64(-5.645), 'no crib': np.float64(-3.978)}
+german/B {'true crib': np.float64(-5.425), 'wrong crib': np.float64(-5.491), 'no crib': np.float64(-3.895)}
+hebrew/A {'true crib': np.float64(-4.846), 'wrong crib': np.float64(-4.381), 'no crib': np.float64(-3.738)}
+hebrew/B {'true crib': np.float64(-4.55), 'wrong crib': np.float64(-4.253), 'no crib': np.float64(-3.623)}
+arabic/A {'true crib': np.float64(-4.429), 'wrong crib': np.float64(-4.125), 'no crib': np.float64(-3.597)}
+arabic/B {'true crib': np.float64(-4.364), 'wrong crib': np.float64(-4.294), 'no crib': np.float64(-3.569)}
