@@ -1,0 +1,2327 @@
+{
+ "latin": {
+  "candidates": 338,
+  "words_with_any_fit": 124,
+  "keys": [
+   {
+    "key": {
+     "a": "i",
+     "l": "l",
+     "o": "u",
+     "r": "i",
+     "s": "i",
+     "ch": "i",
+     "e": "i",
+     "y": "i",
+     "k": "l",
+     "sh": "i",
+     "ckh": "l",
+     "c": "m",
+     "p": "a",
+     "dy": "i"
+    },
+    "matches": [
+     [
+      "solar",
+      "f72v3",
+      "Leo",
+      "iulii",
+      "iulii",
+      "month: July"
+     ],
+     [
+      "choleey",
+      "f72v3",
+      "Leo",
+      "iulii",
+      "iulii",
+      "month: July"
+     ],
+     [
+      "shoteey",
+      "f72r3",
+      "Cancer",
+      "iulii",
+      "iulii",
+      "month: July"
+     ],
+     [
+      "chocthar",
+      "f72r3",
+      "Cancer",
+      "iulii",
+      "iulii",
+      "month: July"
+     ],
+     [
+      "cpar",
+      "f71v",
+      "Taurus",
+      "maii",
+      "maii",
+      "month: May"
+     ],
+     [
+      "yoleeedy",
+      "f72v3",
+      "Leo",
+      "iulii",
+      "iulii",
+      "month: July"
+     ],
+     [
+      "chokees",
+      "f72r3",
+      "Cancer",
+      "iulii",
+      "iulii",
+      "month: July"
+     ],
+     [
+      "shokeedy",
+      "f72v3",
+      "Leo",
+      "iulii",
+      "iulii",
+      "month: July"
+     ]
+    ]
+   },
+   {
+    "key": {
+     "a": "i",
+     "d": "t",
+     "k": "a",
+     "l": "r",
+     "m": "s",
+     "o": "m",
+     "c": "m",
+     "p": "a",
+     "r": "i",
+     "ch": "i",
+     "e": "r",
+     "h": "a",
+     "s": "s",
+     "in": "u",
+     "y": "s",
+     "ir": "u"
+    },
+    "matches": [
+     [
+      "okldam",
+      "f71r",
+      "Aries",
+      "martis",
+      "martis",
+      "planet: mars"
+     ],
+     [
+      "cpar",
+      "f71v",
+      "Taurus",
+      "maii",
+      "maii",
+      "month: May"
+     ],
+     [
+      "otchr",
+      "f71v",
+      "Taurus",
+      "maii",
+      "maii",
+      "month: May"
+     ],
+     [
+      "ohes",
+      "f73r",
+      "Scorpio",
+      "mars",
+      "mars",
+      "planet: mars"
+     ],
+     [
+      "okeeees",
+      "f71r",
+      "Aries",
+      "mars",
+      "mars",
+      "planet: mars"
+     ],
+     [
+      "otainy",
+      "f72r1",
+      "Taurus",
+      "maius",
+      "maius",
+      "month: May"
+     ],
+     [
+      "okairy",
+      "f72r2",
+      "Gemini",
+      "maius",
+      "maius",
+      "month: May"
+     ]
+    ]
+   },
+   {
+    "key": {
+     "e": "r",
+     "h": "a",
+     "o": "m",
+     "s": "s",
+     "a": "i",
+     "ch": "t",
+     "k": "a",
+     "r": "i",
+     "d": "t",
+     "l": "r",
+     "m": "i",
+     "ir": "u",
+     "y": "s",
+     "in": "u",
+     "c": "m",
+     "p": "a"
+    },
+    "matches": [
+     [
+      "ohes",
+      "f73r",
+      "Scorpio",
+      "mars",
+      "mars",
+      "planet: mars"
+     ],
+     [
+      "otechar",
+      "f71r",
+      "Aries",
+      "martii",
+      "martii",
+      "month: March"
+     ],
+     [
+      "okldam",
+      "f71r",
+      "Aries",
+      "martii",
+      "martii",
+      "month: March"
+     ],
+     [
+      "okairy",
+      "f72r2",
+      "Gemini",
+      "maius",
+      "maius",
+      "month: May"
+     ],
+     [
+      "otainy",
+      "f72r1",
+      "Taurus",
+      "maius",
+      "maius",
+      "month: May"
+     ],
+     [
+      "okeeees",
+      "f71r",
+      "Aries",
+      "mars",
+      "mars",
+      "planet: mars"
+     ],
+     [
+      "cpar",
+      "f71v",
+      "Taurus",
+      "maii",
+      "maii",
+      "month: May"
+     ]
+    ]
+   }
+  ]
+ },
+ "french_occitan": {
+  "candidates": 451,
+  "words_with_any_fit": 135,
+  "keys": [
+   {
+    "key": {
+     "a": "t",
+     "cph": "u",
+     "l": "a",
+     "y": "r",
+     "e": "u",
+     "k": "a",
+     "o": "e",
+     "ch": "s",
+     "m": "e",
+     "ckh": "l",
+     "dy": "o",
+     "s": "n",
+     "f": "r",
+     "i": "u",
+     "iin": "e",
+     "n": "s"
+    },
+    "matches": [
+     [
+      "alcphy",
+      "f71v",
+      "Taurus",
+      "taur",
+      "taur",
+      "animal/figure of Taurus"
+     ],
+     [
+      "okee",
+      "f72r3",
+      "Cancer",
+      "eau",
+      "eau",
+      "element: water"
+     ],
+     [
+      "alcphy",
+      "f71v",
+      "Taurus",
+      "taur",
+      "taur",
+      "sign name: Taurus"
+     ],
+     [
+      "ocham",
+      "f72v3",
+      "Leo",
+      "este",
+      "este",
+      "season: summer"
+     ],
+     [
+      "ckhodys",
+      "f72v3",
+      "Leo",
+      "leon",
+      "leon",
+      "sign name: Leo"
+     ],
+     [
+      "alif",
+      "f72r1",
+      "Taurus",
+      "taur",
+      "taur",
+      "sign name: Taurus"
+     ],
+     [
+      "onaiin",
+      "f72v2",
+      "Virgo",
+      "este",
+      "este",
+      "season: summer"
+     ],
+     [
+      "alif",
+      "f72r1",
+      "Taurus",
+      "taur",
+      "taur",
+      "animal/figure of Taurus"
+     ],
+     [
+      "ateey",
+      "f71v",
+      "Taurus",
+      "taur",
+      "taur",
+      "animal/figure of Taurus"
+     ],
+     [
+      "ateey",
+      "f71v",
+      "Taurus",
+      "taur",
+      "taur",
+      "sign name: Taurus"
+     ]
+    ]
+   },
+   {
+    "key": {
+     "a": "m",
+     "l": "a",
+     "o": "r",
+     "s": "s",
+     "f": "s",
+     "i": "i",
+     "dy": "c",
+     "e": "a",
+     "r": "r",
+     "y": "c",
+     "d": "f",
+     "p": "o",
+     "ckh": "u",
+     "sh": "e",
+     "ch": "e",
+     "g": "u"
+    },
+    "matches": [
+     [
+      "alos",
+      "f70v2",
+      "Pisces",
+      "mars",
+      "mars",
+      "month: March"
+     ],
+     [
+      "alif",
+      "f72r1",
+      "Taurus",
+      "mais",
+      "mais",
+      "month: May"
+     ],
+     [
+      "eeeody",
+      "f73v",
+      "Sagittarius",
+      "arc",
+      "arc",
+      "animal/figure of Sagittarius"
+     ],
+     [
+      "eery",
+      "f73v",
+      "Sagittarius",
+      "arc",
+      "arc",
+      "animal/figure of Sagittarius"
+     ],
+     [
+      "dpy",
+      "f73v",
+      "Sagittarius",
+      "foc",
+      "foc",
+      "element: fire"
+     ],
+     [
+      "shecth",
+      "f70v2",
+      "Pisces",
+      "eau",
+      "eau",
+      "element: water"
+     ],
+     [
+      "cheeg",
+      "f72r3",
+      "Cancer",
+      "eau",
+      "eau",
+      "element: water"
+     ]
+    ]
+   },
+   {
+    "key": {
+     "a": "m",
+     "l": "a",
+     "o": "r",
+     "s": "z",
+     "d": "a",
+     "p": "r",
+     "y": "c",
+     "ckh": "u",
+     "e": "a",
+     "sh": "e",
+     "ch": "a",
+     "h": "i",
+     "dy": "c",
+     "f": "s",
+     "i": "i",
+     "r": "r"
+    },
+    "matches": [
+     [
+      "alos",
+      "f70v2",
+      "Pisces",
+      "marz",
+      "marz",
+      "month: March"
+     ],
+     [
+      "dpy",
+      "f73v",
+      "Sagittarius",
+      "arc",
+      "arc",
+      "animal/figure of Sagittarius"
+     ],
+     [
+      "shecth",
+      "f70v2",
+      "Pisces",
+      "eau",
+      "eau",
+      "element: water"
+     ],
+     [
+      "chho",
+      "f72r2",
+      "Gemini",
+      "air",
+      "air",
+      "element: air"
+     ],
+     [
+      "eeeody",
+      "f73v",
+      "Sagittarius",
+      "arc",
+      "arc",
+      "animal/figure of Sagittarius"
+     ],
+     [
+      "alif",
+      "f72r1",
+      "Taurus",
+      "mais",
+      "mais",
+      "month: May"
+     ],
+     [
+      "eery",
+      "f73v",
+      "Sagittarius",
+      "arc",
+      "arc",
+      "animal/figure of Sagittarius"
+     ]
+    ]
+   }
+  ]
+ },
+ "catalan": {
+  "candidates": 237,
+  "words_with_any_fit": 100,
+  "keys": [
+   {
+    "key": {
+     "ch": "i",
+     "k": "a",
+     "o": "m",
+     "r": "g",
+     "a": "t",
+     "d": "m",
+     "l": "o",
+     "e": "r",
+     "s": "t",
+     "ckh": "o",
+     "h": "t",
+     "y": "o",
+     "cph": "r",
+     "f": "o",
+     "i": "r",
+     "dy": "a",
+     "sh": "r"
+    },
+    "matches": [
+     [
+      "otchr",
+      "f71v",
+      "Taurus",
+      "maig",
+      "maig",
+      "month: May"
+     ],
+     [
+      "dlal",
+      "f70v1",
+      "Aries",
+      "moto",
+      "moto",
+      "sign name: Aries"
+     ],
+     [
+      "okeeees",
+      "f71r",
+      "Aries",
+      "mart",
+      "mart",
+      "planet: mars"
+     ],
+     [
+      "ockhhy",
+      "f71r",
+      "Aries",
+      "moto",
+      "moto",
+      "animal/figure of Aries"
+     ],
+     [
+      "alcphy",
+      "f71v",
+      "Taurus",
+      "toro",
+      "toro",
+      "animal/figure of Taurus"
+     ],
+     [
+      "alif",
+      "f72r1",
+      "Taurus",
+      "toro",
+      "toro",
+      "animal/figure of Taurus"
+     ],
+     [
+      "otshshdy",
+      "f70v1",
+      "Aries",
+      "marra",
+      "marra",
+      "animal/figure of Aries"
+     ],
+     [
+      "ockhhy",
+      "f71r",
+      "Aries",
+      "moto",
+      "moto",
+      "sign name: Aries"
+     ],
+     [
+      "otshshdy",
+      "f70v1",
+      "Aries",
+      "marra",
+      "marra",
+      "sign name: Aries"
+     ],
+     [
+      "dlal",
+      "f70v1",
+      "Aries",
+      "moto",
+      "moto",
+      "animal/figure of Aries"
+     ]
+    ]
+   },
+   {
+    "key": {
+     "e": "r",
+     "h": "a",
+     "o": "m",
+     "s": "t",
+     "a": "t",
+     "d": "m",
+     "l": "o",
+     "ch": "i",
+     "k": "a",
+     "r": "g",
+     "dy": "a",
+     "sh": "r",
+     "cph": "r",
+     "y": "o",
+     "f": "o",
+     "i": "r"
+    },
+    "matches": [
+     [
+      "ohes",
+      "f73r",
+      "Scorpio",
+      "mart",
+      "mart",
+      "planet: mars"
+     ],
+     [
+      "dlal",
+      "f70v1",
+      "Aries",
+      "moto",
+      "moto",
+      "sign name: Aries"
+     ],
+     [
+      "otchr",
+      "f71v",
+      "Taurus",
+      "maig",
+      "maig",
+      "month: May"
+     ],
+     [
+      "otshshdy",
+      "f70v1",
+      "Aries",
+      "marra",
+      "marra",
+      "animal/figure of Aries"
+     ],
+     [
+      "okeeees",
+      "f71r",
+      "Aries",
+      "mart",
+      "mart",
+      "planet: mars"
+     ],
+     [
+      "otshshdy",
+      "f70v1",
+      "Aries",
+      "marra",
+      "marra",
+      "sign name: Aries"
+     ],
+     [
+      "alcphy",
+      "f71v",
+      "Taurus",
+      "toro",
+      "toro",
+      "animal/figure of Taurus"
+     ],
+     [
+      "alif",
+      "f72r1",
+      "Taurus",
+      "toro",
+      "toro",
+      "animal/figure of Taurus"
+     ],
+     [
+      "dlal",
+      "f70v1",
+      "Aries",
+      "moto",
+      "moto",
+      "animal/figure of Aries"
+     ]
+    ]
+   },
+   {
+    "key": {
+     "ch": "i",
+     "k": "a",
+     "o": "m",
+     "r": "g",
+     "e": "r",
+     "s": "t",
+     "d": "f",
+     "p": "o",
+     "y": "c",
+     "dy": "a",
+     "sh": "r",
+     "ckh": "a",
+     "h": "r",
+     "a": "t",
+     "f": "o",
+     "i": "r",
+     "l": "o"
+    },
+    "matches": [
+     [
+      "otchr",
+      "f71v",
+      "Taurus",
+      "maig",
+      "maig",
+      "month: May"
+     ],
+     [
+      "okeeees",
+      "f71r",
+      "Aries",
+      "mart",
+      "mart",
+      "planet: mars"
+     ],
+     [
+      "dpy",
+      "f73v",
+      "Sagittarius",
+      "foc",
+      "foc",
+      "element: fire"
+     ],
+     [
+      "otshshdy",
+      "f70v1",
+      "Aries",
+      "marra",
+      "marra",
+      "sign name: Aries"
+     ],
+     [
+      "ockhhy",
+      "f71r",
+      "Aries",
+      "marc",
+      "marc",
+      "month: March"
+     ],
+     [
+      "alif",
+      "f72r1",
+      "Taurus",
+      "toro",
+      "toro",
+      "animal/figure of Taurus"
+     ],
+     [
+      "otshshdy",
+      "f70v1",
+      "Aries",
+      "marra",
+      "marra",
+      "animal/figure of Aries"
+     ]
+    ]
+   }
+  ]
+ },
+ "italian": {
+  "candidates": 255,
+  "words_with_any_fit": 132,
+  "keys": [
+   {
+    "key": {
+     "ch": "s",
+     "e": "t",
+     "l": "a",
+     "o": "t",
+     "y": "e",
+     "a": "r",
+     "c": "t",
+     "p": "o",
+     "r": "o",
+     "k": "a",
+     "sh": "s",
+     "s": "e",
+     "dy": "e"
+    },
+    "matches": [
+     [
+      "choleey",
+      "f72v3",
+      "Leo",
+      "state",
+      "state",
+      "season: summer"
+     ],
+     [
+      "cpar",
+      "f71v",
+      "Taurus",
+      "toro",
+      "toro",
+      "sign name: Taurus"
+     ],
+     [
+      "shoteey",
+      "f72r3",
+      "Cancer",
+      "state",
+      "state",
+      "season: summer"
+     ],
+     [
+      "chekoy",
+      "f72r3",
+      "Cancer",
+      "state",
+      "state",
+      "season: summer"
+     ],
+     [
+      "cpar",
+      "f71v",
+      "Taurus",
+      "toro",
+      "toro",
+      "animal/figure of Taurus"
+     ],
+     [
+      "chokees",
+      "f72r3",
+      "Cancer",
+      "state",
+      "state",
+      "season: summer"
+     ],
+     [
+      "shokeedy",
+      "f72v3",
+      "Leo",
+      "state",
+      "state",
+      "season: summer"
+     ]
+    ]
+   },
+   {
+    "key": {
+     "ch": "a",
+     "dy": "e",
+     "e": "t",
+     "k": "s",
+     "o": "e",
+     "y": "t",
+     "a": "t",
+     "d": "s",
+     "ir": "a",
+     "n": "e",
+     "iin": "a",
+     "m": "e",
+     "p": "s",
+     "iir": "a",
+     "l": "e",
+     "r": "s"
+    },
+    "matches": [
+     [
+      "otycheedy",
+      "f72v3",
+      "Leo",
+      "estate",
+      "estate",
+      "season: summer"
+     ],
+     [
+      "odairan",
+      "f72v3",
+      "Leo",
+      "estate",
+      "estate",
+      "season: summer"
+     ],
+     [
+      "opaiinam",
+      "f72v2",
+      "Virgo",
+      "estate",
+      "estate",
+      "season: summer"
+     ],
+     [
+      "oraiiral",
+      "f72r3",
+      "Cancer",
+      "estate",
+      "estate",
+      "season: summer"
+     ],
+     [
+      "oraiinam",
+      "f72r3",
+      "Cancer",
+      "estate",
+      "estate",
+      "season: summer"
+     ],
+     [
+      "otychal",
+      "f72v2",
+      "Virgo",
+      "estate",
+      "estate",
+      "season: summer"
+     ]
+    ]
+   },
+   {
+    "key": {
+     "e": "u",
+     "k": "q",
+     "o": "c",
+     "s": "a",
+     "a": "r",
+     "l": "i",
+     "y": "a",
+     "dy": "a",
+     "sh": "a",
+     "c": "t",
+     "p": "o",
+     "r": "o",
+     "ch": "a"
+    },
+    "matches": [
+     [
+      "soteees",
+      "f73r",
+      "Scorpio",
+      "acqua",
+      "acqua",
+      "element: water"
+     ],
+     [
+      "yaly",
+      "f72v1",
+      "Libra",
+      "aria",
+      "aria",
+      "element: air"
+     ],
+     [
+      "shaldy",
+      "f72v1",
+      "Libra",
+      "aria",
+      "aria",
+      "element: air"
+     ],
+     [
+      "cpar",
+      "f71v",
+      "Taurus",
+      "toro",
+      "toro",
+      "animal/figure of Taurus"
+     ],
+     [
+      "chokees",
+      "f72r3",
+      "Cancer",
+      "acqua",
+      "acqua",
+      "element: water"
+     ],
+     [
+      "shoteey",
+      "f72r3",
+      "Cancer",
+      "acqua",
+      "acqua",
+      "element: water"
+     ],
+     [
+      "cpar",
+      "f71v",
+      "Taurus",
+      "toro",
+      "toro",
+      "sign name: Taurus"
+     ]
+    ]
+   }
+  ]
+ },
+ "german": {
+  "candidates": 349,
+  "words_with_any_fit": 116,
+  "keys": [
+   {
+    "key": {
+     "a": "e",
+     "e": "d",
+     "k": "r",
+     "y": "e",
+     "g": "e",
+     "ckh": "l",
+     "dy": "w",
+     "o": "e",
+     "s": "e",
+     "f": "e",
+     "i": "d",
+     "l": "r",
+     "ch": "d",
+     "r": "e",
+     "cph": "d",
+     "sh": "r"
+    },
+    "matches": [
+     [
+      "ateey",
+      "f71v",
+      "Taurus",
+      "erde",
+      "erde",
+      "element: earth"
+     ],
+     [
+      "yteeg",
+      "f72v2",
+      "Virgo",
+      "erde",
+      "erde",
+      "element: earth"
+     ],
+     [
+      "ckhodys",
+      "f72v3",
+      "Leo",
+      "lewe",
+      "lewe",
+      "sign name: Leo"
+     ],
+     [
+      "ateey",
+      "f71v",
+      "Taurus",
+      "erde",
+      "erde",
+      "element: earth"
+     ],
+     [
+      "alif",
+      "f72r1",
+      "Taurus",
+      "erde",
+      "erde",
+      "element: earth"
+     ],
+     [
+      "otchr",
+      "f71v",
+      "Taurus",
+      "erde",
+      "erde",
+      "element: earth"
+     ],
+     [
+      "alif",
+      "f72r1",
+      "Taurus",
+      "erde",
+      "erde",
+      "element: earth"
+     ],
+     [
+      "alcphy",
+      "f71v",
+      "Taurus",
+      "erde",
+      "erde",
+      "element: earth"
+     ],
+     [
+      "yteeg",
+      "f72v2",
+      "Virgo",
+      "erde",
+      "erde",
+      "element: earth"
+     ],
+     [
+      "osheo",
+      "f71v",
+      "Taurus",
+      "erde",
+      "erde",
+      "element: earth"
+     ],
+     [
+      "osheo",
+      "f71v",
+      "Taurus",
+      "erde",
+      "erde",
+      "element: earth"
+     ],
+     [
+      "alcphy",
+      "f71v",
+      "Taurus",
+      "erde",
+      "erde",
+      "element: earth"
+     ],
+     [
+      "otchr",
+      "f71v",
+      "Taurus",
+      "erde",
+      "erde",
+      "element: earth"
+     ]
+    ]
+   },
+   {
+    "key": {
+     "a": "u",
+     "f": "e",
+     "l": "e",
+     "o": "f",
+     "s": "r",
+     "d": "i",
+     "e": "u",
+     "iin": "e",
+     "r": "e",
+     "y": "r",
+     "ckh": "i",
+     "h": "u",
+     "ch": "i",
+     "m": "r",
+     "k": "i"
+    },
+    "matches": [
+     [
+      "ofals",
+      "f73v",
+      "Sagittarius",
+      "feuer",
+      "feuer",
+      "element: fire"
+     ],
+     [
+      "odees",
+      "f73v",
+      "Sagittarius",
+      "fiur",
+      "fiur",
+      "element: fire"
+     ],
+     [
+      "oraiiny",
+      "f73v",
+      "Sagittarius",
+      "feuer",
+      "feuer",
+      "element: fire"
+     ],
+     [
+      "ockhhy",
+      "f71r",
+      "Aries",
+      "fiur",
+      "fiur",
+      "element: fire"
+     ],
+     [
+      "ocham",
+      "f72v3",
+      "Leo",
+      "fiur",
+      "fiur",
+      "element: fire"
+     ],
+     [
+      "okeeees",
+      "f71r",
+      "Aries",
+      "fiur",
+      "fiur",
+      "element: fire"
+     ]
+    ]
+   },
+   {
+    "key": {
+     "a": "u",
+     "ch": "i",
+     "m": "r",
+     "o": "f",
+     "e": "u",
+     "k": "i",
+     "s": "r",
+     "ckh": "i",
+     "h": "u",
+     "y": "r",
+     "iin": "e",
+     "r": "e",
+     "d": "i",
+     "dy": "t",
+     "l": "f",
+     "sh": "l"
+    },
+    "matches": [
+     [
+      "ocham",
+      "f72v3",
+      "Leo",
+      "fiur",
+      "fiur",
+      "element: fire"
+     ],
+     [
+      "okeeees",
+      "f71r",
+      "Aries",
+      "fiur",
+      "fiur",
+      "element: fire"
+     ],
+     [
+      "ockhhy",
+      "f71r",
+      "Aries",
+      "fiur",
+      "fiur",
+      "element: fire"
+     ],
+     [
+      "oraiiny",
+      "f73v",
+      "Sagittarius",
+      "feuer",
+      "feuer",
+      "element: fire"
+     ],
+     [
+      "odees",
+      "f73v",
+      "Sagittarius",
+      "fiur",
+      "fiur",
+      "element: fire"
+     ],
+     [
+      "shaldy",
+      "f72v1",
+      "Libra",
+      "luft",
+      "luft",
+      "element: air"
+     ]
+    ]
+   }
+  ]
+ },
+ "greek": {
+  "candidates": 147,
+  "words_with_any_fit": 95,
+  "keys": [
+   {
+    "key": {
+     "e": "e",
+     "h": "r",
+     "o": "a",
+     "s": "s",
+     "iin": "e",
+     "y": "r",
+     "d": "p",
+     "p": "y",
+     "a": "a",
+     "r": "r",
+     "z": "e",
+     "dy": "o",
+     "k": "r",
+     "l": "s",
+     "ch": "o"
+    },
+    "matches": [
+     [
+      "ohes",
+      "f73r",
+      "Scorpio",
+      "ares",
+      "ares",
+      "planet: mars"
+     ],
+     [
+      "oiiny",
+      "f72v1",
+      "Libra",
+      "aer",
+      "aer",
+      "element: air"
+     ],
+     [
+      "dpy",
+      "f73v",
+      "Sagittarius",
+      "pyr",
+      "pyr",
+      "element: fire"
+     ],
+     [
+      "zar",
+      "f70v1",
+      "Aries",
+      "ear",
+      "ear",
+      "season: spring"
+     ],
+     [
+      "oteedyl",
+      "f73r",
+      "Scorpio",
+      "areos",
+      "areos",
+      "planet: mars"
+     ],
+     [
+      "okeeees",
+      "f71r",
+      "Aries",
+      "ares",
+      "ares",
+      "planet: mars"
+     ],
+     [
+      "okechs",
+      "f73r",
+      "Scorpio",
+      "areos",
+      "areos",
+      "planet: mars"
+     ]
+    ]
+   },
+   {
+    "key": {
+     "a": "o",
+     "e": "e",
+     "k": "r",
+     "o": "a",
+     "s": "s",
+     "d": "p",
+     "p": "y",
+     "y": "r",
+     "h": "r",
+     "ch": "o",
+     "iin": "e",
+     "dy": "o",
+     "l": "s"
+    },
+    "matches": [
+     [
+      "oteas",
+      "f73r",
+      "Scorpio",
+      "areos",
+      "areos",
+      "planet: mars"
+     ],
+     [
+      "dpy",
+      "f73v",
+      "Sagittarius",
+      "pyr",
+      "pyr",
+      "element: fire"
+     ],
+     [
+      "ohes",
+      "f73r",
+      "Scorpio",
+      "ares",
+      "ares",
+      "planet: mars"
+     ],
+     [
+      "okechs",
+      "f73r",
+      "Scorpio",
+      "areos",
+      "areos",
+      "planet: mars"
+     ],
+     [
+      "oiiny",
+      "f72v1",
+      "Libra",
+      "aer",
+      "aer",
+      "element: air"
+     ],
+     [
+      "okeeees",
+      "f71r",
+      "Aries",
+      "ares",
+      "ares",
+      "planet: mars"
+     ],
+     [
+      "oteedyl",
+      "f73r",
+      "Scorpio",
+      "areos",
+      "areos",
+      "planet: mars"
+     ]
+    ]
+   },
+   {
+    "key": {
+     "dy": "o",
+     "e": "e",
+     "k": "r",
+     "o": "a",
+     "y": "s",
+     "s": "s",
+     "a": "b",
+     "cph": "u",
+     "l": "o",
+     "ckh": "r",
+     "h": "e",
+     "f": "s",
+     "i": "u",
+     "ch": "o"
+    },
+    "matches": [
+     [
+      "oteedyy",
+      "f73r",
+      "Scorpio",
+      "areos",
+      "areos",
+      "planet: mars"
+     ],
+     [
+      "okeeees",
+      "f71r",
+      "Aries",
+      "ares",
+      "ares",
+      "planet: mars"
+     ],
+     [
+      "alcphy",
+      "f71v",
+      "Taurus",
+      "bous",
+      "bous",
+      "animal/figure of Taurus"
+     ],
+     [
+      "ockhhy",
+      "f71r",
+      "Aries",
+      "ares",
+      "ares",
+      "planet: mars"
+     ],
+     [
+      "alif",
+      "f72r1",
+      "Taurus",
+      "bous",
+      "bous",
+      "animal/figure of Taurus"
+     ],
+     [
+      "okechs",
+      "f73r",
+      "Scorpio",
+      "areos",
+      "areos",
+      "planet: mars"
+     ]
+    ]
+   }
+  ]
+ },
+ "hebrew": {
+  "candidates": 236,
+  "words_with_any_fit": 73,
+  "keys": [
+   {
+    "key": {
+     "e": "r",
+     "k": "A",
+     "y": "c",
+     "a": "s",
+     "f": "n",
+     "i": "w",
+     "l": "y",
+     "h": "S",
+     "o": "t",
+     "s": "y",
+     "c": "n",
+     "p": "y",
+     "r": "n",
+     "ckh": "p",
+     "sh": "H",
+     "ch": "y",
+     "g": "H",
+     "d": "A"
+    },
+    "matches": [
+     [
+      "teeey",
+      "f71v",
+      "Taurus",
+      "Arc",
+      "Arc",
+      "element: earth"
+     ],
+     [
+      "alif",
+      "f72r1",
+      "Taurus",
+      "sywn",
+      "sywn",
+      "month: May"
+     ],
+     [
+      "ohes",
+      "f73r",
+      "Scorpio",
+      "tSry",
+      "tSry",
+      "month: October"
+     ],
+     [
+      "cpar",
+      "f71v",
+      "Taurus",
+      "nysn",
+      "nysn",
+      "month: April"
+     ],
+     [
+      "shecth",
+      "f70v2",
+      "Pisces",
+      "Hrp",
+      "Hrp",
+      "season: winter"
+     ],
+     [
+      "cheeg",
+      "f72r3",
+      "Cancer",
+      "yrH",
+      "yrH",
+      "planet: moon"
+     ],
+     [
+      "del",
+      "f72v3",
+      "Leo",
+      "Ary",
+      "Ary",
+      "animal/figure of Leo"
+     ]
+    ]
+   },
+   {
+    "key": {
+     "ch": "m",
+     "e": "y",
+     "g": "m",
+     "a": "A",
+     "k": "y",
+     "y": "r",
+     "ckh": "m",
+     "sh": "m",
+     "f": "r",
+     "i": "y",
+     "l": "y",
+     "o": "y",
+     "cph": "y",
+     "d": "r",
+     "iin": "w"
+    },
+    "matches": [
+     [
+      "cheeg",
+      "f72r3",
+      "Cancer",
+      "mym",
+      "mym",
+      "element: water"
+     ],
+     [
+      "ateey",
+      "f71v",
+      "Taurus",
+      "Ayyr",
+      "Ayyr",
+      "month: April"
+     ],
+     [
+      "shecth",
+      "f70v2",
+      "Pisces",
+      "mym",
+      "mym",
+      "element: water"
+     ],
+     [
+      "alif",
+      "f72r1",
+      "Taurus",
+      "Ayyr",
+      "Ayyr",
+      "month: May"
+     ],
+     [
+      "alif",
+      "f72r1",
+      "Taurus",
+      "Ayyr",
+      "Ayyr",
+      "month: April"
+     ],
+     [
+      "aloy",
+      "f72r2",
+      "Gemini",
+      "Ayyr",
+      "Ayyr",
+      "month: May"
+     ],
+     [
+      "alcphy",
+      "f71v",
+      "Taurus",
+      "Ayyr",
+      "Ayyr",
+      "month: May"
+     ],
+     [
+      "aiinod",
+      "f72v1",
+      "Libra",
+      "Awyr",
+      "Awyr",
+      "element: air"
+     ],
+     [
+      "ateey",
+      "f71v",
+      "Taurus",
+      "Ayyr",
+      "Ayyr",
+      "month: May"
+     ],
+     [
+      "alcphy",
+      "f71v",
+      "Taurus",
+      "Ayyr",
+      "Ayyr",
+      "month: April"
+     ]
+    ]
+   },
+   {
+    "key": {
+     "a": "w",
+     "d": "A",
+     "e": "l",
+     "l": "l",
+     "iin": "l",
+     "n": "l",
+     "o": "A",
+     "c": "s",
+     "p": "y",
+     "r": "n",
+     "ckh": "y",
+     "h": "y",
+     "y": "r",
+     "dy": "H",
+     "f": "y",
+     "ch": "l",
+     "m": "l",
+     "k": "A"
+    },
+    "matches": [
+     [
+      "deeal",
+      "f72v3",
+      "Leo",
+      "Alwl",
+      "Alwl",
+      "month: August"
+     ],
+     [
+      "onaiin",
+      "f72v2",
+      "Virgo",
+      "Alwl",
+      "Alwl",
+      "month: September"
+     ],
+     [
+      "cpar",
+      "f71v",
+      "Taurus",
+      "sywn",
+      "sywn",
+      "month: May"
+     ],
+     [
+      "ockhhy",
+      "f71r",
+      "Aries",
+      "Ayyr",
+      "Ayyr",
+      "month: April"
+     ],
+     [
+      "onaiin",
+      "f72v2",
+      "Virgo",
+      "Alwl",
+      "Alwl",
+      "month: August"
+     ],
+     [
+      "fydy",
+      "f72r3",
+      "Cancer",
+      "yrH",
+      "yrH",
+      "planet: moon"
+     ],
+     [
+      "ocham",
+      "f72v3",
+      "Leo",
+      "Alwl",
+      "Alwl",
+      "month: August"
+     ],
+     [
+      "tean",
+      "f72v1",
+      "Libra",
+      "Alwl",
+      "Alwl",
+      "month: September"
+     ]
+    ]
+   }
+  ]
+ },
+ "arabic": {
+  "candidates": 218,
+  "words_with_any_fit": 88,
+  "keys": [
+   {
+    "key": {
+     "a": "A",
+     "l": "y",
+     "o": "A",
+     "y": "r",
+     "ch": "A",
+     "k": "y",
+     "r": "r",
+     "in": "y",
+     "m": "r",
+     "s": "r",
+     "z": "n",
+     "d": "n",
+     "p": "A",
+     "ckh": "D",
+     "h": "A",
+     "e": "A",
+     "f": "r",
+     "i": "A",
+     "cph": "A"
+    },
+    "matches": [
+     [
+      "aloy",
+      "f72r2",
+      "Gemini",
+      "AyAr",
+      "AyAr",
+      "month: May"
+     ],
+     [
+      "otchr",
+      "f71v",
+      "Taurus",
+      "AyAr",
+      "AyAr",
+      "month: May"
+     ],
+     [
+      "ainam",
+      "f72r1",
+      "Taurus",
+      "AyAr",
+      "AyAr",
+      "month: May"
+     ],
+     [
+      "chtos",
+      "f71v",
+      "Taurus",
+      "AyAr",
+      "AyAr",
+      "month: May"
+     ],
+     [
+      "zar",
+      "f70v1",
+      "Aries",
+      "nAr",
+      "nAr",
+      "element: fire"
+     ],
+     [
+      "dpy",
+      "f73v",
+      "Sagittarius",
+      "nAr",
+      "nAr",
+      "element: fire"
+     ],
+     [
+      "ockhhy",
+      "f71r",
+      "Aries",
+      "ADAr",
+      "ADAr",
+      "month: March"
+     ],
+     [
+      "ateey",
+      "f71v",
+      "Taurus",
+      "AyAr",
+      "AyAr",
+      "month: May"
+     ],
+     [
+      "alif",
+      "f72r1",
+      "Taurus",
+      "AyAr",
+      "AyAr",
+      "month: May"
+     ],
+     [
+      "alcphy",
+      "f71v",
+      "Taurus",
+      "AyAr",
+      "AyAr",
+      "month: May"
+     ]
+    ]
+   },
+   {
+    "key": {
+     "dy": "r",
+     "e": "n",
+     "o": "A",
+     "a": "A",
+     "l": "y",
+     "y": "r",
+     "ch": "A",
+     "k": "y",
+     "s": "r",
+     "r": "r",
+     "z": "n",
+     "cph": "A",
+     "d": "n",
+     "p": "A",
+     "in": "y",
+     "m": "r",
+     "ckh": "D",
+     "h": "A",
+     "f": "r",
+     "i": "A"
+    },
+    "matches": [
+     [
+      "eeeody",
+      "f73v",
+      "Sagittarius",
+      "nAr",
+      "nAr",
+      "element: fire"
+     ],
+     [
+      "aloy",
+      "f72r2",
+      "Gemini",
+      "AyAr",
+      "AyAr",
+      "month: May"
+     ],
+     [
+      "chtos",
+      "f71v",
+      "Taurus",
+      "AyAr",
+      "AyAr",
+      "month: May"
+     ],
+     [
+      "otchr",
+      "f71v",
+      "Taurus",
+      "AyAr",
+      "AyAr",
+      "month: May"
+     ],
+     [
+      "zar",
+      "f70v1",
+      "Aries",
+      "nAr",
+      "nAr",
+      "element: fire"
+     ],
+     [
+      "alcphy",
+      "f71v",
+      "Taurus",
+      "AyAr",
+      "AyAr",
+      "month: May"
+     ],
+     [
+      "dpy",
+      "f73v",
+      "Sagittarius",
+      "nAr",
+      "nAr",
+      "element: fire"
+     ],
+     [
+      "ainam",
+      "f72r1",
+      "Taurus",
+      "AyAr",
+      "AyAr",
+      "month: May"
+     ],
+     [
+      "ockhhy",
+      "f71r",
+      "Aries",
+      "ADAr",
+      "ADAr",
+      "month: March"
+     ],
+     [
+      "alif",
+      "f72r1",
+      "Taurus",
+      "AyAr",
+      "AyAr",
+      "month: May"
+     ]
+    ]
+   },
+   {
+    "key": {
+     "a": "A",
+     "e": "A",
+     "k": "y",
+     "y": "r",
+     "ch": "A",
+     "o": "A",
+     "s": "r",
+     "r": "r",
+     "f": "r",
+     "i": "A",
+     "l": "y",
+     "in": "y",
+     "m": "r",
+     "cph": "A",
+     "ckh": "D",
+     "h": "A",
+     "c": "A",
+     "p": "y",
+     "z": "n"
+    },
+    "matches": [
+     [
+      "ateey",
+      "f71v",
+      "Taurus",
+      "AyAr",
+      "AyAr",
+      "month: May"
+     ],
+     [
+      "chtos",
+      "f71v",
+      "Taurus",
+      "AyAr",
+      "AyAr",
+      "month: May"
+     ],
+     [
+      "otchr",
+      "f71v",
+      "Taurus",
+      "AyAr",
+      "AyAr",
+      "month: May"
+     ],
+     [
+      "alif",
+      "f72r1",
+      "Taurus",
+      "AyAr",
+      "AyAr",
+      "month: May"
+     ],
+     [
+      "ainam",
+      "f72r1",
+      "Taurus",
+      "AyAr",
+      "AyAr",
+      "month: May"
+     ],
+     [
+      "alcphy",
+      "f71v",
+      "Taurus",
+      "AyAr",
+      "AyAr",
+      "month: May"
+     ],
+     [
+      "ockhhy",
+      "f71r",
+      "Aries",
+      "ADAr",
+      "ADAr",
+      "month: March"
+     ],
+     [
+      "aloy",
+      "f72r2",
+      "Gemini",
+      "AyAr",
+      "AyAr",
+      "month: May"
+     ],
+     [
+      "cpar",
+      "f71v",
+      "Taurus",
+      "AyAr",
+      "AyAr",
+      "month: May"
+     ],
+     [
+      "zar",
+      "f70v1",
+      "Aries",
+      "nAr",
+      "nAr",
+      "element: fire"
+     ]
+    ]
+   }
+  ]
+ },
+ "star names": {
+  "candidates": 439,
+  "words_with_any_fit": 135,
+  "keys": [
+   {
+    "key": {
+     "a": "r",
+     "ch": "d",
+     "dy": "h",
+     "e": "i",
+     "l": "a",
+     "o": "c",
+     "sh": "m",
+     "cph": "n",
+     "y": "a",
+     "c": "m",
+     "p": "i",
+     "r": "a",
+     "ir": "s",
+     "k": "u",
+     "f": "a",
+     "i": "n"
+    },
+    "matches": [
+     [
+      "chealdy",
+      "f72r3",
+      "Cancer",
+      "Dirah",
+      "dirah",
+      "fixed star at Cancer 6 deg"
+     ],
+     [
+      "sheealody",
+      "f71v",
+      "Taurus",
+      "Mirach",
+      "mirach",
+      "fixed star at Taurus 1 deg"
+     ],
+     [
+      "alcphy",
+      "f71v",
+      "Taurus",
+      "Rana",
+      "rana",
+      "fixed star at Taurus 21 deg"
+     ],
+     [
+      "cpar",
+      "f71v",
+      "Taurus",
+      "Mira",
+      "mira",
+      "fixed star at Taurus 2 deg"
+     ],
+     [
+      "okairy",
+      "f72r2",
+      "Gemini",
+      "Cursa",
+      "cursa",
+      "fixed star at Gemini 16 deg"
+     ],
+     [
+      "alif",
+      "f72r1",
+      "Taurus",
+      "Rana",
+      "rana",
+      "fixed star at Taurus 21 deg"
+     ]
+    ]
+   },
+   {
+    "key": {
+     "dy": "m",
+     "e": "r",
+     "k": "y",
+     "o": "s",
+     "y": "a",
+     "a": "r",
+     "f": "a",
+     "i": "n",
+     "l": "a",
+     "c": "m",
+     "p": "i",
+     "r": "a",
+     "cph": "n",
+     "ch": "m",
+     "s": "a"
+    },
+    "matches": [
+     [
+      "oteedyy",
+      "f73r",
+      "Scorpio",
+      "Syrma",
+      "syrma",
+      "fixed star at Scorpio 4 deg"
+     ],
+     [
+      "alif",
+      "f72r1",
+      "Taurus",
+      "Rana",
+      "rana",
+      "fixed star at Taurus 21 deg"
+     ],
+     [
+      "cpar",
+      "f71v",
+      "Taurus",
+      "Mira",
+      "mira",
+      "fixed star at Taurus 2 deg"
+     ],
+     [
+      "alcphy",
+      "f71v",
+      "Taurus",
+      "Rana",
+      "rana",
+      "fixed star at Taurus 21 deg"
+     ],
+     [
+      "okechs",
+      "f73r",
+      "Scorpio",
+      "Syrma",
+      "syrma",
+      "fixed star at Scorpio 4 deg"
+     ],
+     [
+      "oteedyl",
+      "f73r",
+      "Scorpio",
+      "Syrma",
+      "syrma",
+      "fixed star at Scorpio 4 deg"
+     ]
+    ]
+   },
+   {
+    "key": {
+     "a": "a",
+     "ch": "h",
+     "iin": "l",
+     "l": "m",
+     "e": "h",
+     "o": "a",
+     "sh": "z",
+     "k": "i",
+     "qo": "b",
+     "dy": "n",
+     "d": "h",
+     "p": "a",
+     "y": "n",
+     "r": "a"
+    },
+    "matches": [
+     [
+      "chalaiin",
+      "f72r1",
+      "Taurus",
+      "Hamal",
+      "hamal",
+      "fixed star at Taurus 8 deg"
+     ],
+     [
+      "osheo",
+      "f71v",
+      "Taurus",
+      "Azha",
+      "azha",
+      "fixed star at Taurus 9 deg"
+     ],
+     [
+      "qoteeal",
+      "f70v2",
+      "Pisces",
+      "Biham",
+      "biham",
+      "fixed star at Pisces 7 deg"
+     ],
+     [
+      "eeeody",
+      "f73v",
+      "Sagittarius",
+      "Han",
+      "han",
+      "fixed star at Sagittarius 10 deg"
+     ],
+     [
+      "dpy",
+      "f73v",
+      "Sagittarius",
+      "Han",
+      "han",
+      "fixed star at Sagittarius 10 deg"
+     ],
+     [
+      "eery",
+      "f73v",
+      "Sagittarius",
+      "Han",
+      "han",
+      "fixed star at Sagittarius 10 deg"
+     ]
+    ]
+   }
+  ]
+ }
+}
