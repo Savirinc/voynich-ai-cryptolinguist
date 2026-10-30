@@ -1,0 +1,125 @@
+Voynich tokens 28841 types 6077 | band 5165-6989
+bible:arb-vd                 types   9999 Q3 581.58
+bible:asmfb                  types   4584 Q3 111.48
+bible:azb                    types   7266 Q3 618.60
+bible:bba                    types   2117 Q3 25.82
+bible:bqcsim                 types   4923 Q3 12.41
+bible:cebulb                 types   2849 Q3 6.07
+bible:cekak                  types   1943 Q3 14.88
+bible:ces1613                types   5672 Q3 53.05
+bible:cth                    types   2010 Q3 7.57
+bible:dan1931                types   3678 Q3 26.29
+bible:deu1912                types   3854 Q3 18.85
+bible:eng-kjv                types   2071 Q3 9.94
+bible:ewe                    types   3540 Q3 20.52
+bible:fraLSG                 types   3225 Q3 21.72
+bible:gax                    types   5466 Q3 69.02
+bible:grcbyz                 types   5657 Q3 24.74
+bible:hausa                  types   3149 Q3 13.91
+bible:haw1868                types   1117 Q3 4.89
+bible:hboWLC                 types  13987 Q3 627.27
+bible:hch                    types  10405 Q3 46.04
+bible:hil                    types   2481 Q3 5.21
+bible:hne                    types   2147 Q3 18.82
+bible:hrv                    types   7793 Q3 23.31
+bible:hun                    types   6503 Q3 13.59
+bible:iloulb                 types   4529 Q3 4.34
+bible:indayt                 types   2270 Q3 47.71
+bible:ita1885                types   3597 Q3 27.74
+bible:kik                    types   5076 Q3 33.68
+bible:latVUC                 types   7742 Q3 12.94
+bible:lin                    types   2594 Q3 5.62
+bible:luo                    types   4656 Q3 40.68
+bible:mal                    types   9787 Q3 37.86
+bible:meu                    types   2854 Q3 9.24
+bible:mri2012                types   1331 Q3 5.63
+bible:nheBl                  types   4353 Q3 5.85
+bible:nld                    types   2895 Q3 14.41
+bible:nya                    types   5194 Q3 50.38
+bible:pan                    types   3627 Q3 18.75
+bible:pesOPV                 types   3940 Q3 12.22
+bible:polubg                 types   5634 Q3 49.81
+bible:rmc                    types   3536 Q3 20.61
+bible:ron1924                types   3521 Q3 29.40
+bible:shr                    types   9623 Q3 167.35
+bible:slk                    types   6237 Q3 36.87
+bible:sna                    types   8183 Q3 373.73
+bible:srp1865                types   5601 Q3 19.34
+bible:suzBl                  types   1889 Q3 29.64
+bible:swe                    types   3678 Q3 28.99
+bible:swhulb                 types   4867 Q3 22.77
+bible:tam2017                types  11746 Q3 222.98
+bible:tglulb                 types   3254 Q3 4.94
+bible:tod                    types   2632 Q3 12.59
+bible:ton                    types   1217 Q3 10.83
+bible:turytc                 types   7393 Q3 342.70
+bible:uigara                 types   6674 Q3 109.21
+bible:ukr1871                types   6093 Q3 17.23
+bible:urd                    types   2932 Q3 24.19
+bible:yap                    types   2133 Q3 8.70
+bible:ydd                    types   3282 Q3 16.14
+bible:yor                    types   1736 Q3 23.38
+bible:zlmKSZI                types   3422 Q3 24.78
+other:pliny                  types   9167 Q3 40.27
+other:pliny_abbrev           types   8012 Q3 8.29
+other:avicenna               types   8626 Q3 73.65
+other:quran                  types   8798 Q3 366.44
+other:mahabharata            types  14998 Q3 166.23
+other:lojban_alice           types   1753 Q3 6.59
+other:culpeper               types   3696 Q3 16.54
+other:latin_farming          types   9136 Q3 32.78
+gen default_s11  types   3834 Q3 3.31
+gen default_s12  types   4467 Q3 1.86
+gen default_s13  types   3926 Q3 2.73
+gen default_s14  types   4163 Q3 2.80
+gen default_s15  types   3666 Q3 3.02
+gen err10_s11  types   4542 Q3 2.23
+gen err10_s12  types   4474 Q3 4.45
+gen err10_s13  types   4885 Q3 2.61
+gen err10_s14  types   4865 Q3 2.47
+gen err10_s15  types   4650 Q3 2.96
+gen err10_reuse0_pos0_s11  types   4856 Q3 9.44
+gen err10_reuse0_pos0_s12  types   5159 Q3 4.25
+gen err10_reuse0_pos0_s13  types   4807 Q3 5.25
+gen err10_reuse0_pos0_s14  types   4721 Q3 5.36
+gen err10_reuse0_pos0_s15  types   5188 Q3 2.88
+gen err10_position_s11  types   5744 Q3 3.43
+gen err10_position_s12  types   5493 Q3 1.72
+gen err10_position_s13  types   5922 Q3 2.53
+gen err10_position_s14  types   6025 Q3 2.57
+gen err10_position_s15  types   5703 Q3 2.14
+gen random_morphhi_s11  types   6558 Q3 1.30
+gen random_morphhi_s12  types   6302 Q3 0.67
+gen random_morphhi_s13  types   6319 Q3 5.79
+gen random_morphhi_s14  types   6431 Q3 4.29
+gen random_morphhi_s15  types   5961 Q3 6.54
+gen err2_random_s11  types   7003 Q3 3.33
+gen err2_random_s12  types   7117 Q3 3.12
+gen err2_random_s13  types   6940 Q3 3.18
+gen err2_random_s14  types   7246 Q3 2.00
+gen err2_random_s15  types   7046 Q3 2.00
+gen random_s11  types   6975 Q3 2.94
+gen random_s12  types   6924 Q3 3.33
+gen random_s13  types   6999 Q3 0.56
+gen random_s14  types   6913 Q3 1.30
+gen random_s15  types   7011 Q3 2.50
+gen err5_random_s11  types   7551 Q3 2.00
+gen err5_random_s12  types   7686 Q3 2.50
+gen err5_random_s13  types   7469 Q3 0.40
+gen err5_random_s14  types   7322 Q3 0.67
+gen err5_random_s15  types   7346 Q3 3.12
+gen none_s11  types   8497 Q3 33.81
+gen none_s12  types   8448 Q3 17.62
+gen none_s13  types   8354 Q3 18.00
+gen none_s14  types   8986 Q3 16.89
+gen none_s15  types   9360 Q3 17.62
+gen err10_none_s11  types   9707 Q3 27.14
+gen err10_none_s12  types   9991 Q3 8.67
+gen err10_none_s13  types  10032 Q3 10.83
+gen err10_none_s14  types   9635 Q3 11.54
+gen err10_none_s15  types   9955 Q3 7.50
+matched: L* 10 ['bible:ces1613', 'bible:gax', 'bible:grcbyz', 'bible:hun', 'bible:nya', 'bible:polubg', 'bible:slk', 'bible:srp1865', 'bible:uigara', 'bible:ukr1871'] | G* 15 | L* p10 16.869 min 13.590 | G* max 6.538 | VALID True
+VOYNICH Q3 10.797 (RP 236, shuffle 20.9)
+VERDICT BETWEEN | net M x 3 relative to the post-E099 ledger
+done 325s
+EXIT 0

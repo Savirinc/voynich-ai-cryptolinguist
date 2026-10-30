@@ -1,5 +1,7 @@
 # E099 (Arham, Reddit idea R3): does the Voynich reuse multi-word phrases?
 
+> **Superseded by E100 (`MATCHED_PHRASES.md`):** with richness-matched controls the Voynich is BETWEEN; the M × 1/3 below is withdrawn.
+
 - **Pre-registration:** `E099_PREREG.md` (sha256 3332a9ed…).
 - **Amendment:** `E099_AMENDMENT.md`, an indentation fix before any run.
 - **Script:** `experiments/e099_phrase_repeats_v2.py`.

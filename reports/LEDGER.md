@@ -642,3 +642,7 @@ signs Voynich's spaces are as predictable as in languages.
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-30 | E099 (Arham, Reddit R3) multi-word phrase reuse beyond shuffle, 69 meaningful texts vs copy generator (`PHRASE_REPEATS.md`) | VALID (meaningful p10 6.50 > generator max 4.75). Voynich Q3 11.9: PHRASES LIKE LANGUAGE. **Fragile:** raw repeated triples 236 are below every meaningful text (≥ 344) and inside the generator range; Q3 is high because the Voynich's rich vocabulary makes chance triples rare; no richness-matched control. Zero repeated 4- and 5-word sequences (meaningful ≥ 60; generator 0–59) | **M × 1/3** (as pre-registered; flagged for a richness-matched check) | 0.2424 | 0.5336 | 0.1003 | 0.1237 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-30 | E100 (Arham) E099 redone with richness-matched controls: 10 Bibles and 15 generator stretches within Voynich types ± 15% (`MATCHED_PHRASES.md`) | VALID (L* p10 16.9 > G* max 6.54). Voynich Q3 10.8: BETWEEN (above matched generator, below every matched language). Unscored: raw triples 236 vs generator ≤ 97, languages ≥ 1,270; 4-word repeats 0 vs languages ≥ 223, generator 0–4; generator without glyph checks reaches Q3 7.5–34 at higher richness | **E099's M × 1/3 withdrawn** (net M × 3; supersedes E099's scoring as pre-registered) | 0.4897 | 0.3594 | 0.0676 | 0.0833 |
