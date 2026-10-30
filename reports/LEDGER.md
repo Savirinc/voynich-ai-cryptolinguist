@@ -634,3 +634,7 @@ signs Voynich's spaces are as predictable as in languages.
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-30 | E097 (Arham) one key for the whole book, 10 regional period languages mixed by line in one sound alphabet, shorthand values, zodiac anchor (`ONE_KEY_MANY_SCRIPTS.md`) | VALID (5/6 synthetic books cracked, TEST 3/4; 0/6 false claims). Voynich NO CLAIM: held-out real-word share 0.131 vs threshold 0.306 (controls 0.085–0.132); held-out zodiac pages 0/6 (p 1.0); best fit from the free start, read almost all as Hebrew (as shuffled Voynich is) | searched sub-form of L-alpha-known × 0.8: **L × 0.943**. Forms of L: unattested 0.305, alpha-known 0.241, syll 0.183, other 0.148, abbrev 0.122 | 0.4728 | 0.3469 | 0.0998 | 0.0804 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-30 | E098 (Arham) five untested period cipher classes on E032's 13 features, 5 plaintext languages, 245 sets per class (`CIPHER_CLASSES.md`) | All 5 VALID (planted 0 fails, generator 4–7). Voynich: nomenclator, null words, rotating tables, abbreviation+cipher CLASS FAILS (best 5–6 fails, seed checks 5–7); in-word sorting PARTIAL (5, seed check 4). Every class fails repeats (R) and glyph predictability (h2) | class shares × 1/3 (K1 0.20, K3 0.12, K4 0.10, K5 0.10), K2 none: **C × 0.653**. Within C: K1 0.102, K2 0.122, K3 0.061, K4 0.051, K5 0.051, rest 0.612 | 0.4897 | 0.3594 | 0.0676 | 0.0833 |

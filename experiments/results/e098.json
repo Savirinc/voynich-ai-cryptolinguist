@@ -1,0 +1,723 @@
+{
+ "experiment": "E098",
+ "seed": 98098,
+ "targets": {
+  "generator": {
+   "R": 2.5878410019550135,
+   "NR": 2.3460820895522385,
+   "wl_mean": 4.48587080891786,
+   "types": 3829.0,
+   "h2": 2.0486090370951526,
+   "I_word": 0.47145638858566324,
+   "top_word": 0.4787430683918669,
+   "PERS_30": 0.581587265941012,
+   "COV_30": 0.9708333333333333,
+   "type_hapax": 0.5184121180464873,
+   "zipf_slope": -0.8457141781218472,
+   "NSUF95": 17.0,
+   "DIST": 0.3238472230228729
+  },
+  "plant_K1": {
+   "R": 0.020160492743696464,
+   "NR": 1.1933581626319056,
+   "wl_mean": 5.473111195866995,
+   "types": 3494.0,
+   "h2": 2.543799003068681,
+   "I_word": 0.3407607392728473,
+   "top_word": 0.46651785714285715,
+   "PERS_30": 0.4862005016579024,
+   "COV_30": 0.9791666666666666,
+   "type_hapax": 0.540927303949628,
+   "zipf_slope": -0.8067560476058848,
+   "NSUF95": 56.0,
+   "DIST": 0.20221128894450816
+  },
+  "plant_K2": {
+   "R": 0.019597481492426943,
+   "NR": 0.46222222222222226,
+   "wl_mean": 5.785791061336292,
+   "types": 2897.0,
+   "h2": 2.4005840789963186,
+   "I_word": 0.5462253512946802,
+   "top_word": 0.694949494949495,
+   "PERS_30": 0.5259432912831151,
+   "COV_30": 0.9791666666666666,
+   "type_hapax": 0.47462892647566446,
+   "zipf_slope": -0.8509527014038821,
+   "NSUF95": 60.0,
+   "DIST": 0.6085005327786233
+  },
+  "plant_K3": {
+   "R": 0.5016433712494315,
+   "NR": 0.7980204144757191,
+   "wl_mean": 5.071703477688014,
+   "types": 2782.0,
+   "h2": 2.7015243943291707,
+   "I_word": 0.20969768249620957,
+   "top_word": 0.36455696202531646,
+   "PERS_30": 0.7482591355525315,
+   "COV_30": 0.9958333333333333,
+   "type_hapax": 0.5222861250898634,
+   "zipf_slope": -0.8492458225352916,
+   "NSUF95": 50.0,
+   "DIST": 0.21586843099465824
+  },
+  "plant_K4": {
+   "R": 0.07779089396629375,
+   "NR": 0.7963988919667588,
+   "wl_mean": 6.46860372386533,
+   "types": 10642.0,
+   "h2": 3.087551702684409,
+   "I_word": 0.469024387571457,
+   "top_word": 0.3786231884057971,
+   "PERS_30": 0.4299296148890618,
+   "COV_30": 0.9791666666666666,
+   "type_hapax": 0.6614358203345236,
+   "zipf_slope": -0.6459159426793696,
+   "NSUF95": 231.0,
+   "DIST": 0.09586659556828166
+  },
+  "plant_K5": {
+   "R": 0.056805346833040934,
+   "NR": 0.5111762550384756,
+   "wl_mean": 4.084948510800596,
+   "types": 2298.0,
+   "h2": 2.62889647038768,
+   "I_word": 0.4175611699454216,
+   "top_word": 0.4908350305498982,
+   "PERS_30": 0.37227728376280483,
+   "COV_30": 0.9166666666666666,
+   "type_hapax": 0.37902523933855525,
+   "zipf_slope": -0.7934493044275988,
+   "NSUF95": 7.0,
+   "DIST": 0.18363728470111446
+  },
+  "VOYNICH": {
+   "R": 2.6480568594638263,
+   "NR": 2.0293988591487495,
+   "wl_mean": 4.991158420304428,
+   "types": 6077.0,
+   "h2": 2.0972418403055824,
+   "I_word": 0.38654787050325906,
+   "top_word": 0.2854368932038835,
+   "PERS_30": 0.2642662379130992,
+   "COV_30": 0.9166666666666666,
+   "type_hapax": 0.6781306565739674,
+   "zipf_slope": -0.6525392877550396,
+   "NSUF95": 30.0,
+   "DIST": 0.42959397918352626
+  }
+ },
+ "classes": {
+  "K1": {
+   "plant_best": [
+    "('plant_K1', 'K1', ('S', 80), 'german')",
+    0,
+    []
+   ],
+   "generator_best": [
+    "('generator', 'K1', ('S', 30), 'german')",
+    4,
+    [
+     "R",
+     "NR",
+     "wl_mean",
+     "h2"
+    ]
+   ],
+   "valid": true,
+   "voynich_best": [
+    "('VOYNICH', 'K1', ('S', 50), 'hebrew')",
+    5,
+    [
+     "R",
+     "h2",
+     "type_hapax",
+     "zipf_slope",
+     "DIST"
+    ],
+    {
+     "R": 7.93,
+     "NR": 1.21,
+     "wl_mean": -2.48,
+     "types": -0.63,
+     "h2": -17.07,
+     "I_word": -2.89,
+     "top_word": -2.64,
+     "PERS_30": -0.44,
+     "COV_30": 1.24,
+     "type_hapax": 3.22,
+     "zipf_slope": 3.48,
+     "NSUF95": -2.35,
+     "DIST": 7.43
+    }
+   ],
+   "voynich_all_sets": {
+    "('S', 30)|latin": 8,
+    "('S', 30)|italian": 10,
+    "('S', 30)|german": 9,
+    "('S', 30)|occitan": 12,
+    "('S', 30)|hebrew": 7,
+    "('S', 50)|latin": 9,
+    "('S', 50)|italian": 8,
+    "('S', 50)|german": 9,
+    "('S', 50)|occitan": 12,
+    "('S', 50)|hebrew": 5,
+    "('S', 80)|latin": 8,
+    "('S', 80)|italian": 10,
+    "('S', 80)|german": 8,
+    "('S', 80)|occitan": 12,
+    "('S', 80)|hebrew": 5,
+    "('S', 120)|latin": 7,
+    "('S', 120)|italian": 10,
+    "('S', 120)|german": 10,
+    "('S', 120)|occitan": 12,
+    "('S', 120)|hebrew": 6,
+    "('S', 180)|latin": 8,
+    "('S', 180)|italian": 10,
+    "('S', 180)|german": 9,
+    "('S', 180)|occitan": 12,
+    "('S', 180)|hebrew": 10,
+    "('S', 260)|latin": 8,
+    "('S', 260)|italian": 10,
+    "('S', 260)|german": 8,
+    "('S', 260)|occitan": 12,
+    "('S', 260)|hebrew": 5,
+    "('S', 380)|latin": 8,
+    "('S', 380)|italian": 10,
+    "('S', 380)|german": 10,
+    "('S', 380)|occitan": 12,
+    "('S', 380)|hebrew": 6,
+    "('S', 550)|latin": 8,
+    "('S', 550)|italian": 10,
+    "('S', 550)|german": 9,
+    "('S', 550)|occitan": 12,
+    "('S', 550)|hebrew": 6,
+    "('S', 800)|latin": 8,
+    "('S', 800)|italian": 8,
+    "('S', 800)|german": 10,
+    "('S', 800)|occitan": 12,
+    "('S', 800)|hebrew": 7
+   },
+   "raw": "CLASS FAILS",
+   "voynich_best_lines_z": [
+    21.631620279220385
+   ],
+   "voynich_sample": [
+    "al pkdy oekdydo",
+    "ain achsal ykad",
+    "lqoiinea daiin diindychkady"
+   ],
+   "seed_check": [
+    5,
+    [
+     "R",
+     "wl_mean",
+     "h2",
+     "zipf_slope",
+     "DIST"
+    ]
+   ],
+   "verdict": "CLASS FAILS",
+   "share_factor": 0.3333333333333333
+  },
+  "K2": {
+   "plant_best": [
+    "('plant_K2', 'K2', ('S', 'sort'), 'german')",
+    0,
+    []
+   ],
+   "generator_best": [
+    "('generator', 'K2', ('S', 'reverse'), 'german')",
+    5,
+    [
+     "R",
+     "NR",
+     "wl_mean",
+     "h2",
+     "NSUF95"
+    ]
+   ],
+   "valid": true,
+   "voynich_best": [
+    "('VOYNICH', 'K2', ('S', 'sort'), 'hebrew')",
+    5,
+    [
+     "R",
+     "NR",
+     "h2",
+     "type_hapax",
+     "DIST"
+    ],
+    {
+     "R": 7.74,
+     "NR": 8.07,
+     "wl_mean": -2.02,
+     "types": 0.78,
+     "h2": -5.09,
+     "I_word": -1.23,
+     "top_word": -1.03,
+     "PERS_30": -1.14,
+     "COV_30": 0.2,
+     "type_hapax": 6.32,
+     "zipf_slope": 2.38,
+     "NSUF95": -2.02,
+     "DIST": -4.05
+    }
+   ],
+   "voynich_all_sets": {
+    "('S', 'reverse')|latin": 8,
+    "('S', 'reverse')|italian": 10,
+    "('S', 'reverse')|german": 10,
+    "('S', 'reverse')|occitan": 12,
+    "('S', 'reverse')|hebrew": 6,
+    "('S', 'sort')|latin": 8,
+    "('S', 'sort')|italian": 10,
+    "('S', 'sort')|german": 10,
+    "('S', 'sort')|occitan": 12,
+    "('S', 'sort')|hebrew": 5,
+    "('S', 'perm')|latin": 7,
+    "('S', 'perm')|italian": 9,
+    "('S', 'perm')|german": 9,
+    "('S', 'perm')|occitan": 10,
+    "('S', 'perm')|hebrew": 6
+   },
+   "raw": "CLASS FAILS",
+   "voynich_best_lines_z": [
+    3.5812508712818154
+   ],
+   "voynich_sample": [
+    "oy kell oeer",
+    "kell dkrdy oy",
+    "kell dkrdy kell"
+   ],
+   "seed_check": [
+    4,
+    [
+     "R",
+     "NR",
+     "h2",
+     "type_hapax"
+    ]
+   ],
+   "verdict": "PARTIAL",
+   "share_factor": 1.0
+  },
+  "K3": {
+   "plant_best": [
+    "('plant_K3', 'K3', ('S', 0.2), 'italian')",
+    0,
+    []
+   ],
+   "generator_best": [
+    "('generator', 'K3', ('S', 0.25), 'hebrew')",
+    4,
+    [
+     "R",
+     "NR",
+     "h2",
+     "NSUF95"
+    ]
+   ],
+   "valid": true,
+   "voynich_best": [
+    "('VOYNICH', 'K3', ('S', 0.1), 'hebrew')",
+    6,
+    [
+     "R",
+     "NR",
+     "h2",
+     "PERS_30",
+     "NSUF95",
+     "DIST"
+    ],
+    {
+     "R": 10.79,
+     "NR": 5.1,
+     "wl_mean": -0.56,
+     "types": -0.25,
+     "h2": -17.56,
+     "I_word": -0.79,
+     "top_word": -1.09,
+     "PERS_30": -5.37,
+     "COV_30": -1.91,
+     "type_hapax": 2.25,
+     "zipf_slope": 2.01,
+     "NSUF95": -4.87,
+     "DIST": 6.23
+    }
+   ],
+   "voynich_all_sets": {
+    "('S', 0.1)|latin": 10,
+    "('S', 0.1)|italian": 8,
+    "('S', 0.1)|german": 8,
+    "('S', 0.1)|occitan": 11,
+    "('S', 0.1)|hebrew": 6,
+    "('S', 0.15)|latin": 9,
+    "('S', 0.15)|italian": 10,
+    "('S', 0.15)|german": 9,
+    "('S', 0.15)|occitan": 10,
+    "('S', 0.15)|hebrew": 7,
+    "('S', 0.2)|latin": 11,
+    "('S', 0.2)|italian": 10,
+    "('S', 0.2)|german": 10,
+    "('S', 0.2)|occitan": 10,
+    "('S', 0.2)|hebrew": 7,
+    "('S', 0.25)|latin": 11,
+    "('S', 0.25)|italian": 10,
+    "('S', 0.25)|german": 9,
+    "('S', 0.25)|occitan": 11,
+    "('S', 0.25)|hebrew": 7,
+    "('S', 0.3)|latin": 12,
+    "('S', 0.3)|italian": 10,
+    "('S', 0.3)|german": 8,
+    "('S', 0.3)|occitan": 12,
+    "('S', 0.3)|hebrew": 7,
+    "('S', 0.35)|latin": 12,
+    "('S', 0.35)|italian": 8,
+    "('S', 0.35)|german": 10,
+    "('S', 0.35)|occitan": 11,
+    "('S', 0.35)|hebrew": 7,
+    "('S', 0.4)|latin": 11,
+    "('S', 0.4)|italian": 9,
+    "('S', 0.4)|german": 8,
+    "('S', 0.4)|occitan": 11,
+    "('S', 0.4)|hebrew": 6,
+    "('S', 0.45)|latin": 11,
+    "('S', 0.45)|italian": 10,
+    "('S', 0.45)|german": 9,
+    "('S', 0.45)|occitan": 9,
+    "('S', 0.45)|hebrew": 7,
+    "('S', 0.5)|latin": 11,
+    "('S', 0.5)|italian": 10,
+    "('S', 0.5)|german": 10,
+    "('S', 0.5)|occitan": 9,
+    "('S', 0.5)|hebrew": 9,
+    "('V', 0.1)|latin": 10,
+    "('V', 0.1)|italian": 11,
+    "('V', 0.1)|german": 12,
+    "('V', 0.1)|occitan": 11,
+    "('V', 0.1)|hebrew": 11,
+    "('V', 0.15)|latin": 11,
+    "('V', 0.15)|italian": 11,
+    "('V', 0.15)|german": 11,
+    "('V', 0.15)|occitan": 11,
+    "('V', 0.15)|hebrew": 11,
+    "('V', 0.2)|latin": 10,
+    "('V', 0.2)|italian": 11,
+    "('V', 0.2)|german": 10,
+    "('V', 0.2)|occitan": 11,
+    "('V', 0.2)|hebrew": 10,
+    "('V', 0.25)|latin": 11,
+    "('V', 0.25)|italian": 10,
+    "('V', 0.25)|german": 10,
+    "('V', 0.25)|occitan": 10,
+    "('V', 0.25)|hebrew": 10,
+    "('V', 0.3)|latin": 10,
+    "('V', 0.3)|italian": 9,
+    "('V', 0.3)|german": 9,
+    "('V', 0.3)|occitan": 10,
+    "('V', 0.3)|hebrew": 10,
+    "('V', 0.35)|latin": 10,
+    "('V', 0.35)|italian": 11,
+    "('V', 0.35)|german": 9,
+    "('V', 0.35)|occitan": 10,
+    "('V', 0.35)|hebrew": 10,
+    "('V', 0.4)|latin": 11,
+    "('V', 0.4)|italian": 10,
+    "('V', 0.4)|german": 11,
+    "('V', 0.4)|occitan": 11,
+    "('V', 0.4)|hebrew": 10,
+    "('V', 0.45)|latin": 10,
+    "('V', 0.45)|italian": 10,
+    "('V', 0.45)|german": 10,
+    "('V', 0.45)|occitan": 10,
+    "('V', 0.45)|hebrew": 10,
+    "('V', 0.5)|latin": 10,
+    "('V', 0.5)|italian": 10,
+    "('V', 0.5)|german": 10,
+    "('V', 0.5)|occitan": 10,
+    "('V', 0.5)|hebrew": 10
+   },
+   "raw": "CLASS FAILS",
+   "voynich_best_lines_z": [
+    35.38555834149374
+   ],
+   "voynich_sample": [
+    "dyiae dyoych chash",
+    "eod aerdyl chedy",
+    "kome smm shak"
+   ],
+   "seed_check": [
+    7,
+    [
+     "R",
+     "NR",
+     "h2",
+     "PERS_30",
+     "type_hapax",
+     "NSUF95",
+     "DIST"
+    ]
+   ],
+   "verdict": "CLASS FAILS",
+   "share_factor": 0.3333333333333333
+  },
+  "K4": {
+   "plant_best": [
+    "('plant_K4', 'K4', ('S', '4lines'), 'italian')",
+    0,
+    []
+   ],
+   "generator_best": [
+    "('generator', 'K4', ('S', '6lines'), 'latin')",
+    7,
+    [
+     "wl_mean",
+     "types",
+     "h2",
+     "PERS_30",
+     "type_hapax",
+     "NSUF95",
+     "DIST"
+    ]
+   ],
+   "valid": true,
+   "voynich_best": [
+    "('VOYNICH', 'K4', ('S', '4lines'), 'german')",
+    6,
+    [
+     "wl_mean",
+     "types",
+     "h2",
+     "zipf_slope",
+     "NSUF95",
+     "DIST"
+    ],
+    {
+     "R": -0.29,
+     "NR": 0.68,
+     "wl_mean": -10.38,
+     "types": -10.81,
+     "h2": -22.81,
+     "I_word": -1.4,
+     "top_word": -0.13,
+     "PERS_30": -0.74,
+     "COV_30": -1.23,
+     "type_hapax": 1.51,
+     "zipf_slope": -6.75,
+     "NSUF95": -10.16,
+     "DIST": 32.63
+    }
+   ],
+   "voynich_all_sets": {
+    "('S', 'line')|latin": 11,
+    "('S', 'line')|italian": 11,
+    "('S', 'line')|german": 10,
+    "('S', 'line')|occitan": 12,
+    "('S', 'line')|hebrew": 8,
+    "('S', '2lines')|latin": 8,
+    "('S', '2lines')|italian": 11,
+    "('S', '2lines')|german": 8,
+    "('S', '2lines')|occitan": 8,
+    "('S', '2lines')|hebrew": 7,
+    "('S', '3lines')|latin": 10,
+    "('S', '3lines')|italian": 9,
+    "('S', '3lines')|german": 8,
+    "('S', '3lines')|occitan": 8,
+    "('S', '3lines')|hebrew": 7,
+    "('S', '4lines')|latin": 7,
+    "('S', '4lines')|italian": 9,
+    "('S', '4lines')|german": 6,
+    "('S', '4lines')|occitan": 10,
+    "('S', '4lines')|hebrew": 6,
+    "('S', '6lines')|latin": 8,
+    "('S', '6lines')|italian": 8,
+    "('S', '6lines')|german": 7,
+    "('S', '6lines')|occitan": 10,
+    "('S', '6lines')|hebrew": 8,
+    "('S', '8lines')|latin": 7,
+    "('S', '8lines')|italian": 9,
+    "('S', '8lines')|german": 8,
+    "('S', '8lines')|occitan": 10,
+    "('S', '8lines')|hebrew": 8,
+    "('S', '12lines')|latin": 9,
+    "('S', '12lines')|italian": 9,
+    "('S', '12lines')|german": 10,
+    "('S', '12lines')|occitan": 10,
+    "('S', '12lines')|hebrew": 10,
+    "('S', 'page')|latin": 10,
+    "('S', 'page')|italian": 11,
+    "('S', 'page')|german": 10,
+    "('S', 'page')|occitan": 11,
+    "('S', 'page')|hebrew": 10,
+    "('V', 'line')|latin": 11,
+    "('V', 'line')|italian": 11,
+    "('V', 'line')|german": 11,
+    "('V', 'line')|occitan": 11,
+    "('V', 'line')|hebrew": 11,
+    "('V', '2lines')|latin": 11,
+    "('V', '2lines')|italian": 11,
+    "('V', '2lines')|german": 11,
+    "('V', '2lines')|occitan": 11,
+    "('V', '2lines')|hebrew": 11,
+    "('V', '3lines')|latin": 11,
+    "('V', '3lines')|italian": 11,
+    "('V', '3lines')|german": 11,
+    "('V', '3lines')|occitan": 12,
+    "('V', '3lines')|hebrew": 11,
+    "('V', '4lines')|latin": 11,
+    "('V', '4lines')|italian": 11,
+    "('V', '4lines')|german": 11,
+    "('V', '4lines')|occitan": 12,
+    "('V', '4lines')|hebrew": 11,
+    "('V', '6lines')|latin": 11,
+    "('V', '6lines')|italian": 11,
+    "('V', '6lines')|german": 11,
+    "('V', '6lines')|occitan": 11,
+    "('V', '6lines')|hebrew": 11,
+    "('V', '8lines')|latin": 11,
+    "('V', '8lines')|italian": 11,
+    "('V', '8lines')|german": 11,
+    "('V', '8lines')|occitan": 11,
+    "('V', '8lines')|hebrew": 11,
+    "('V', '12lines')|latin": 11,
+    "('V', '12lines')|italian": 12,
+    "('V', '12lines')|german": 11,
+    "('V', '12lines')|occitan": 11,
+    "('V', '12lines')|hebrew": 11,
+    "('V', 'page')|latin": 11,
+    "('V', 'page')|italian": 10,
+    "('V', 'page')|german": 10,
+    "('V', 'page')|occitan": 10,
+    "('V', 'page')|hebrew": 10
+   },
+   "raw": "CLASS FAILS",
+   "voynich_best_lines_z": [
+    47.291540297186984
+   ],
+   "voynich_sample": [
+    "esckh irp imskiinckh",
+    "rhckhckhiiin fckhin eschiiin",
+    "iniinckh kckhsiniinckhirifcph ohckh"
+   ],
+   "seed_check": [
+    6,
+    [
+     "wl_mean",
+     "types",
+     "h2",
+     "zipf_slope",
+     "NSUF95",
+     "DIST"
+    ]
+   ],
+   "verdict": "CLASS FAILS",
+   "share_factor": 0.3333333333333333
+  },
+  "K5": {
+   "plant_best": [
+    "('plant_K5', 'K5', ('S', 'first2last2'), 'italian')",
+    0,
+    []
+   ],
+   "generator_best": [
+    "('generator', 'K5', ('S', 'first2last2'), 'hebrew')",
+    5,
+    [
+     "R",
+     "NR",
+     "h2",
+     "type_hapax",
+     "zipf_slope"
+    ]
+   ],
+   "valid": true,
+   "voynich_best": [
+    "('VOYNICH', 'K5', ('S', 'novowel'), 'hebrew')",
+    5,
+    [
+     "R",
+     "NR",
+     "h2",
+     "zipf_slope",
+     "DIST"
+    ],
+    {
+     "R": 12.81,
+     "NR": 3.21,
+     "wl_mean": -1.46,
+     "types": -0.43,
+     "h2": -17.62,
+     "I_word": -1.97,
+     "top_word": -1.83,
+     "PERS_30": -0.45,
+     "COV_30": 0.59,
+     "type_hapax": 2.94,
+     "zipf_slope": 3.72,
+     "NSUF95": -2.83,
+     "DIST": 4.58
+    }
+   ],
+   "voynich_all_sets": {
+    "('S', 'novowel')|latin": 6,
+    "('S', 'novowel')|italian": 9,
+    "('S', 'novowel')|german": 8,
+    "('S', 'novowel')|occitan": 11,
+    "('S', 'novowel')|hebrew": 5,
+    "('S', 'first3')|latin": 9,
+    "('S', 'first3')|italian": 10,
+    "('S', 'first3')|german": 9,
+    "('S', 'first3')|occitan": 10,
+    "('S', 'first3')|hebrew": 7,
+    "('S', 'first2last2')|latin": 7,
+    "('S', 'first2last2')|italian": 7,
+    "('S', 'first2last2')|german": 9,
+    "('S', 'first2last2')|occitan": 11,
+    "('S', 'first2last2')|hebrew": 7
+   },
+   "raw": "CLASS FAILS",
+   "voynich_best_lines_z": [
+    29.72776678205
+   ],
+   "voynich_sample": [
+    "odykya oypr dyerm",
+    "schqoykl qodye qoshkl",
+    "okak ldma qodye"
+   ],
+   "seed_check": [
+    7,
+    [
+     "R",
+     "NR",
+     "h2",
+     "type_hapax",
+     "zipf_slope",
+     "NSUF95",
+     "DIST"
+    ]
+   ],
+   "verdict": "CLASS FAILS",
+   "share_factor": 0.3333333333333333
+  }
+ },
+ "locked_test_excluded": [
+  "1",
+  "102",
+  "105",
+  "114",
+  "30",
+  "35",
+  "38",
+  "51",
+  "52",
+  "56",
+  "75",
+  "8",
+  "86",
+  "87",
+  "9"
+ ],
+ "C_factor": 0.6533333333333333,
+ "runtime_s": 12120.03418302536
+}

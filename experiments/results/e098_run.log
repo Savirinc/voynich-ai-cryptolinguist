@@ -1,0 +1,23 @@
+plaintext words {'latin': 301267, 'italian': 434624, 'german': 389872, 'occitan': 34481, 'hebrew': 229370}
+Voynich DEV pages 173, tokens 28841
+target generator  R 2.59 NR 2.35 wl_mean 4.49 types 3.83e+03 h2 2.05 I_word 0.471 top_word 0.479 PERS_30 0.582 COV_30 0.971 type_hapax 0.518 zipf_slope -0.846 NSUF95 17 DIST 0.324
+target plant_K1   R 0.0202 NR 1.19 wl_mean 5.47 types 3.49e+03 h2 2.54 I_word 0.341 top_word 0.467 PERS_30 0.486 COV_30 0.979 type_hapax 0.541 zipf_slope -0.807 NSUF95 56 DIST 0.202
+target plant_K2   R 0.0196 NR 0.462 wl_mean 5.79 types 2.9e+03 h2 2.4 I_word 0.546 top_word 0.695 PERS_30 0.526 COV_30 0.979 type_hapax 0.475 zipf_slope -0.851 NSUF95 60 DIST 0.609
+target plant_K3   R 0.502 NR 0.798 wl_mean 5.07 types 2.78e+03 h2 2.7 I_word 0.21 top_word 0.365 PERS_30 0.748 COV_30 0.996 type_hapax 0.522 zipf_slope -0.849 NSUF95 50 DIST 0.216
+target plant_K4   R 0.0778 NR 0.796 wl_mean 6.47 types 1.06e+04 h2 3.09 I_word 0.469 top_word 0.379 PERS_30 0.43 COV_30 0.979 type_hapax 0.661 zipf_slope -0.646 NSUF95 231 DIST 0.0959
+target plant_K5   R 0.0568 NR 0.511 wl_mean 4.08 types 2.3e+03 h2 2.63 I_word 0.418 top_word 0.491 PERS_30 0.372 COV_30 0.917 type_hapax 0.379 zipf_slope -0.793 NSUF95 7 DIST 0.184
+target VOYNICH    R 2.65 NR 2.03 wl_mean 4.99 types 6.08e+03 h2 2.1 I_word 0.387 top_word 0.285 PERS_30 0.264 COV_30 0.917 type_hapax 0.678 zipf_slope -0.653 NSUF95 30 DIST 0.43
+jobs 7350 | 26s
+main pass done | 12043s
+K1: valid True plant ["('plant_K1', 'K1', ('S', 80), 'german')", 0] generator ["('generator', 'K1', ('S', 30), 'german')", 4] | VOYNICH best ["('VOYNICH', 'K1', ('S', 50), 'hebrew')", 5] fails ['R', 'h2', 'type_hapax', 'zipf_slope', 'DIST'] -> CLASS FAILS
+K2: valid True plant ["('plant_K2', 'K2', ('S', 'sort'), 'german')", 0] generator ["('generator', 'K2', ('S', 'reverse'), 'german')", 5] | VOYNICH best ["('VOYNICH', 'K2', ('S', 'sort'), 'hebrew')", 5] fails ['R', 'NR', 'h2', 'type_hapax', 'DIST'] -> CLASS FAILS
+K3: valid True plant ["('plant_K3', 'K3', ('S', 0.2), 'italian')", 0] generator ["('generator', 'K3', ('S', 0.25), 'hebrew')", 4] | VOYNICH best ["('VOYNICH', 'K3', ('S', 0.1), 'hebrew')", 6] fails ['R', 'NR', 'h2', 'PERS_30', 'NSUF95', 'DIST'] -> CLASS FAILS
+K4: valid True plant ["('plant_K4', 'K4', ('S', '4lines'), 'italian')", 0] generator ["('generator', 'K4', ('S', '6lines'), 'latin')", 7] | VOYNICH best ["('VOYNICH', 'K4', ('S', '4lines'), 'german')", 6] fails ['wl_mean', 'types', 'h2', 'zipf_slope', 'NSUF95', 'DIST'] -> CLASS FAILS
+K5: valid True plant ["('plant_K5', 'K5', ('S', 'first2last2'), 'italian')", 0] generator ["('generator', 'K5', ('S', 'first2last2'), 'hebrew')", 5] | VOYNICH best ["('VOYNICH', 'K5', ('S', 'novowel'), 'hebrew')", 5] fails ['R', 'NR', 'h2', 'zipf_slope', 'DIST'] -> CLASS FAILS
+K1: seed check ('VOYNICH', 'K1', ('S', 50), 'hebrew') fails 5 ['R', 'wl_mean', 'h2', 'zipf_slope', 'DIST']
+K2: seed check ('VOYNICH', 'K2', ('S', 'sort'), 'hebrew') fails 4 ['R', 'NR', 'h2', 'type_hapax']
+K3: seed check ('VOYNICH', 'K3', ('S', 0.1), 'hebrew') fails 7 ['R', 'NR', 'h2', 'PERS_30', 'type_hapax', 'NSUF95', 'DIST']
+K4: seed check ('VOYNICH', 'K4', ('S', '4lines'), 'german') fails 6 ['wl_mean', 'types', 'h2', 'zipf_slope', 'NSUF95', 'DIST']
+K5: seed check ('VOYNICH', 'K5', ('S', 'novowel'), 'hebrew') fails 7 ['R', 'NR', 'h2', 'type_hapax', 'zipf_slope', 'NSUF95', 'DIST']
+VERDICTS K1 CLASS FAILS K2 PARTIAL K3 CLASS FAILS K4 CLASS FAILS K5 CLASS FAILS | C x 0.6533
+done 12120s
