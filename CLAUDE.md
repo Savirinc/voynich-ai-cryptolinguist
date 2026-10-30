@@ -103,7 +103,7 @@ seed check 0/10.
 abbreviated Hebrew (roshei teivot), Ladino, Judeo-Italian, Judeo-Persian. Texts: `data/external/hebrew_script/`.
 E083 proof by construction failed (not Hebrew-specific; order not Hebrew). E084 mixtures (Talmud, Hebrew+associates,
 Hebrew+Latin/Turkish): letter attack no claim; construction void on mixtures.
-**Ledger** (`reports/LEDGER.md`): **M 0.4897, L 0.3594, C 0.0676, O 0.0833** after E098 (E091 audit: E030 and E036 withdrawn, E066 at ×1.4, exact arithmetic; from the edges M 0.63/L 0.18 or M 0.30/L 0.53: undecided). Forms of L (after E097): unattested 0.305, alpha-known 0.241, syll 0.183, other 0.148, abbrev 0.122. Older ledger figures below are superseded.
+**Ledger** (`reports/LEDGER.md`): **M 0.2424, L 0.5336, C 0.1003, O 0.1237** after E099 (E099's M × 1/3 is flagged fragile) (E091 audit: E030 and E036 withdrawn, E066 at ×1.4, exact arithmetic; from the edges M 0.63/L 0.18 or M 0.30/L 0.53: undecided). Forms of L (after E097): unattested 0.305, alpha-known 0.241, syll 0.183, other 0.148, abbrev 0.122. Older ledger figures below are superseded.
 **Approach checks (Arham, 2026-10-28; one at a time):** 1 power check (E090 done: decoder cracks out-of-genre texts, the dictionary gate misses them; Hebrew Bible-model searches exclude only Bible-like Hebrew), 2 ledger audit (E091 done), 3 transcription check (E092 done: four facts survive; spaces-mechanical holds only for EVA letters), 3 transcription/segmentation check, 4 explanation model.
 - **M** = meaningless; **L** = a real language in its own script; **C** = cipher or code; **O** = other.
 - **Honest range:** L about 0.17–0.89, M about 0.07–0.69, C about 0.03–0.12. **From the range edges M leads (0.69 vs
@@ -320,3 +320,4 @@ For E001–E029a see `reports/SUMMARY.md`.
 | E096 | Route 2 (Arham): zodiac figure labels vs period degree tables (Lilly/al-Biruni: gender, light, terms): VALID, NO LINK (max-T p 0.86); strong encoding excluded |
 | E097 | One key, 10 regional period languages mixed by line + shorthand, zodiac anchor (Arham): VALID, NO CLAIM (held-out 0.131 vs 0.306; held-out zodiac 0/6). L × 0.943; ledger M 0.473, L 0.347, C 0.100, O 0.080 |
 | E098 | Five untested period cipher classes (Arham): nomenclator, null words, rotating tables, abbreviation+cipher CLASS FAILS; in-word sorting PARTIAL; all fail repeats and glyph predictability. C × 0.653; ledger M 0.490, L 0.359, C 0.068, O 0.083 |
+| E099 | Phrase reuse (Reddit R3): Q3 11.9 PHRASES LIKE LANGUAGE, M × 1/3, FRAGILE (raw repeated triples below every language, inside generator range; no richness-matched control; zero 4-word repeats). Ledger M 0.242, L 0.534, C 0.100, O 0.124 |

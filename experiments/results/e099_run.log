@@ -1,0 +1,84 @@
+Voynich DEV lines 3406 tokens 28841
+bible:arb-vd                 Q3 367.34  Q4 1212.00  Q5 467.00
+bible:asmfb                  Q3 91.46  Q4 1016.36  Q5 443.00
+bible:azb                    Q3 529.54  Q4 1729.00  Q5 935.00
+bible:bba                    Q3 27.32  Q4 820.40  Q5 811.00
+bible:bqcsim                 Q3 23.84  Q4 865.77  Q5 1082.00
+bible:cebulb                 Q3 6.06  Q4 82.33  Q5 702.63
+bible:cekak                  Q3 10.62  Q4 293.52  Q5 809.00
+bible:ces1613                Q3 35.98  Q4 589.09  Q5 266.00
+bible:cth                    Q3 7.50  Q4 137.77  Q5 501.67
+bible:dan1931                Q3 12.86  Q4 372.20  Q5 462.00
+bible:deu1912                Q3 15.42  Q4 251.71  Q5 160.00
+bible:eng-kjv                Q3 7.17  Q4 166.67  Q5 856.36
+bible:ewe                    Q3 16.25  Q4 338.95  Q5 192.00
+bible:fraLSG                 Q3 20.71  Q4 703.20  Q5 639.00
+bible:gax                    Q3 138.98  Q4 962.50  Q5 439.00
+bible:grcbyz                 Q3 21.91  Q4 593.33  Q5 462.00
+bible:hausa                  Q3 11.27  Q4 248.54  Q5 257.00
+bible:haw1868                Q3 4.28  Q4 73.85  Q5 1067.73
+bible:hboWLC                 Q3 956.09  Q4 1084.00  Q5 599.00
+bible:hch                    Q3 81.12  Q4 724.00  Q5 329.00
+bible:hil                    Q3 4.95  Q4 58.05  Q5 420.00
+bible:hne                    Q3 17.18  Q4 678.45  Q5 1899.00
+bible:hrv                    Q3 11.03  Q4 108.82  Q5 34.00
+bible:hun                    Q3 9.69  Q4 143.81  Q5 98.00
+bible:iloulb                 Q3 3.63  Q4 24.79  Q5 185.62
+bible:indayt                 Q3 18.63  Q4 230.00  Q5 121.82
+bible:ita1885                Q3 35.69  Q4 1678.57  Q5 1149.00
+bible:kik                    Q3 24.15  Q4 429.55  Q5 225.00
+bible:latVUC                 Q3 18.39  Q4 488.07  Q5 502.73
+bible:lin                    Q3 4.64  Q4 46.57  Q5 447.22
+bible:luo                    Q3 31.41  Q4 999.41  Q5 618.18
+bible:mal                    Q3 87.80  Q4 614.00  Q5 231.00
+bible:meu                    Q3 11.67  Q4 292.53  Q5 702.00
+bible:mri2012                Q3 6.05  Q4 136.19  Q5 1338.82
+bible:nheBl                  Q3 7.88  Q4 174.75  Q5 493.64
+bible:nld                    Q3 7.89  Q4 145.00  Q5 606.36
+bible:nya                    Q3 25.03  Q4 470.00  Q5 151.00
+bible:pan                    Q3 17.78  Q4 341.03  Q5 349.00
+bible:pesOPV                 Q3 10.40  Q4 173.91  Q5 385.00
+bible:polubg                 Q3 31.67  Q4 435.00  Q5 192.00
+bible:rmc                    Q3 13.40  Q4 285.17  Q5 248.00
+bible:ron1924                Q3 25.33  Q4 892.50  Q5 1314.00
+bible:shr                    Q3 86.94  Q4 256.00  Q5 89.00
+bible:slk                    Q3 35.10  Q4 343.64  Q5 130.00
+bible:sna                    Q3 394.31  Q4 591.00  Q5 216.00
+bible:srp1865                Q3 14.77  Q4 316.00  Q5 185.00
+bible:suzBl                  Q3 33.65  Q4 879.38  Q5 938.00
+bible:swe                    Q3 25.19  Q4 505.00  Q5 332.00
+bible:swhulb                 Q3 19.89  Q4 240.00  Q5 154.00
+bible:tam2017                Q3 750.77  Q4 324.00  Q5 131.00
+bible:tglulb                 Q3 5.65  Q4 81.45  Q5 344.67
+bible:tod                    Q3 12.45  Q4 394.29  Q5 557.00
+bible:ton                    Q3 9.84  Q4 305.97  Q5 1530.91
+bible:turytc                 Q3 90.71  Q4 461.00  Q5 157.00
+bible:uigara                 Q3 331.82  Q4 846.00  Q5 310.00
+bible:ukr1871                Q3 32.81  Q4 753.85  Q5 411.00
+bible:urd                    Q3 12.81  Q4 314.29  Q5 344.00
+bible:yap                    Q3 7.92  Q4 121.14  Q5 797.69
+bible:ydd                    Q3 19.57  Q4 464.58  Q5 376.00
+bible:yor                    Q3 17.15  Q4 510.00  Q5 329.00
+bible:zlmKSZI                Q3 42.46  Q4 1340.67  Q5 780.00
+other:pliny                  Q3 47.77  Q4 61.00  Q5 16.00
+other:pliny_abbrev           Q3 11.20  Q4 56.43  Q5 17.00
+other:avicenna               Q3 87.36  Q4 163.00  Q5 43.00
+other:quran                  Q3 358.72  Q4 1001.00  Q5 396.00
+other:mahabharata            Q3 111.29  Q4 99.00  Q5 43.00
+other:lojban_alice           Q3 6.61  Q4 120.04  Q5 910.77
+other:culpeper               Q3 11.00  Q4 307.06  Q5 723.00
+other:latin_farming          Q3 90.09  Q4 160.00  Q5 84.00
+gen0 Q3 4.42
+gen1 Q3 4.75
+gen2 Q3 3.17
+gen3 Q3 2.54
+gen4 Q3 2.02
+gen5 Q3 3.00
+gen6 Q3 3.40
+gen7 Q3 3.99
+gen8 Q3 2.66
+gen9 Q3 3.16
+meaningful Q3 p10 6.500 min 3.627 (n 69) | generator max 4.753 | VALID True | 153s
+VOYNICH Q3 11.910 (RP 236, shuffle 18.9) Q4 1.000 (RP 0, shuffle 0.0) Q5 1.000 (RP 0, shuffle 0.0)
+VERDICT PHRASES LIKE LANGUAGE | M x 0.333
+done 154s

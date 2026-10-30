@@ -638,3 +638,7 @@ signs Voynich's spaces are as predictable as in languages.
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-30 | E098 (Arham) five untested period cipher classes on E032's 13 features, 5 plaintext languages, 245 sets per class (`CIPHER_CLASSES.md`) | All 5 VALID (planted 0 fails, generator 4–7). Voynich: nomenclator, null words, rotating tables, abbreviation+cipher CLASS FAILS (best 5–6 fails, seed checks 5–7); in-word sorting PARTIAL (5, seed check 4). Every class fails repeats (R) and glyph predictability (h2) | class shares × 1/3 (K1 0.20, K3 0.12, K4 0.10, K5 0.10), K2 none: **C × 0.653**. Within C: K1 0.102, K2 0.122, K3 0.061, K4 0.051, K5 0.051, rest 0.612 | 0.4897 | 0.3594 | 0.0676 | 0.0833 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-30 | E099 (Arham, Reddit R3) multi-word phrase reuse beyond shuffle, 69 meaningful texts vs copy generator (`PHRASE_REPEATS.md`) | VALID (meaningful p10 6.50 > generator max 4.75). Voynich Q3 11.9: PHRASES LIKE LANGUAGE. **Fragile:** raw repeated triples 236 are below every meaningful text (≥ 344) and inside the generator range; Q3 is high because the Voynich's rich vocabulary makes chance triples rare; no richness-matched control. Zero repeated 4- and 5-word sequences (meaningful ≥ 60; generator 0–59) | **M × 1/3** (as pre-registered; flagged for a richness-matched check) | 0.2424 | 0.5336 | 0.1003 | 0.1237 |
