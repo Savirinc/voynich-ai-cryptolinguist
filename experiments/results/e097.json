@@ -1,0 +1,1221 @@
+{
+ "info": {
+  "latin": {
+   "lm_words": 188856,
+   "held_words": 112411
+  },
+  "italian": {
+   "lm_words": 274317,
+   "held_words": 160307
+  },
+  "occitan": {
+   "lm_words": 23688,
+   "held_words": 10793
+  },
+  "catalan": {
+   "lm_words": 178780,
+   "held_words": 44372
+  },
+  "french": {
+   "lm_words": 278398,
+   "held_words": 159997
+  },
+  "german": {
+   "lm_words": 247945,
+   "held_words": 141927
+  },
+  "czech": {
+   "lm_words": 216524,
+   "held_words": 122688
+  },
+  "greek": {
+   "lm_words": 85063,
+   "held_words": 55430
+  },
+  "hebrew": {
+   "lm_words": 151029,
+   "held_words": 78341
+  },
+  "arabic": {
+   "lm_words": 155933,
+   "held_words": 85055
+  }
+ },
+ "seconds": 57013,
+ "books": {
+  "D1 latin": {
+   "lexrate": 0.7394736842105263,
+   "lexrate_types": 0.484212266490329,
+   "zodiac_pages_hit": 6,
+   "zodiac_p": 0.001388888888888889,
+   "line_languages": {
+    "latin": 2272,
+    "occitan": 64,
+    "italian": 20,
+    "greek": 19,
+    "catalan": 16,
+    "french": 14,
+    "czech": 7,
+    "german": 5,
+    "hebrew": 2
+   },
+   "zodiac_hits": {
+    "f70v1": [
+     [
+      "ignis",
+      [
+       [
+        "latin",
+        "ignis",
+        "element: fire"
+       ]
+      ]
+     ],
+     [
+      "kerb",
+      [
+       [
+        "star name",
+        "Kerb",
+        "fixed star at Aries 2 deg"
+       ]
+      ]
+     ]
+    ],
+    "f71v": [
+     [
+      "misam",
+      [
+       [
+        "star name",
+        "Misam",
+        "fixed star at Taurus 28 deg"
+       ]
+      ]
+     ],
+     [
+      "terra",
+      [
+       [
+        "latin",
+        "terra",
+        "element: earth"
+       ],
+       [
+        "french",
+        "terra",
+        "element: earth"
+       ],
+       [
+        "occitan",
+        "terra",
+        "element: earth"
+       ]
+      ]
+     ]
+    ],
+    "f72r2": [
+     [
+      "merkurii",
+      [
+       [
+        "latin",
+        "mercurii",
+        "planet: mercury"
+       ]
+      ]
+     ]
+    ],
+    "f72v3": [
+     [
+      "adafera",
+      [
+       [
+        "star name",
+        "Adhafera",
+        "fixed star at Leo 28 deg"
+       ]
+      ]
+     ]
+    ],
+    "f72v1": [
+     [
+      "diadem",
+      [
+       [
+        "star name",
+        "Diadem",
+        "fixed star at Libra 9 deg"
+       ]
+      ]
+     ]
+    ],
+    "f73v": [
+     [
+      "posterior",
+      [
+       [
+        "star name",
+        "Posterior",
+        "fixed star at Sagittarius 4 deg"
+       ]
+      ]
+     ]
+    ]
+   },
+   "agreement": 1.0,
+   "best_start_before_refit": "free",
+   "objective": -180600.29792099472,
+   "objective_before_refit": -180600.29792099472,
+   "stage1_coverage": 6,
+   "key": {
+    "o": "b",
+    "k": "u",
+    "ch": "d",
+    "y": "r",
+    "a": "k",
+    "l": "l",
+    "e": "s",
+    "d": "i",
+    "r": "g",
+    "iin": "f",
+    "sh": "c",
+    "qo": "w",
+    "s": "-er",
+    "ckh": "e",
+    "dy": "e",
+    "m": "p",
+    "p": "m",
+    "in": "-um",
+    "i": "t",
+    "ir": "i",
+    "f": "o",
+    "cph": "n",
+    "h": "a"
+   },
+   "accuracy": 0.998401795429815,
+   "claim": true
+  },
+  "D2 catalan+latin": {
+   "lexrate": 0.800422558101739,
+   "lexrate_types": 0.5998882889592255,
+   "zodiac_pages_hit": 6,
+   "zodiac_p": 0.001388888888888889,
+   "line_languages": {
+    "latin": 1109,
+    "catalan": 1090,
+    "occitan": 136,
+    "french": 24,
+    "greek": 19,
+    "italian": 17,
+    "german": 12,
+    "czech": 8,
+    "arabic": 3,
+    "hebrew": 1
+   },
+   "zodiac_hits": {
+    "f70v1": [
+     [
+      "aries",
+      [
+       [
+        "latin",
+        "aries",
+        "sign name: Aries"
+       ],
+       [
+        "latin",
+        "aries",
+        "animal/figure of Aries"
+       ],
+       [
+        "catalan",
+        "aries",
+        "sign name: Aries"
+       ]
+      ]
+     ]
+    ],
+    "f71v": [
+     [
+      "maius",
+      [
+       [
+        "latin",
+        "maius",
+        "month: May"
+       ]
+      ]
+     ]
+    ],
+    "f72r2": [
+     [
+      "kursa",
+      [
+       [
+        "star name",
+        "Cursa",
+        "fixed star at Gemini 16 deg"
+       ]
+      ]
+     ]
+    ],
+    "f72v3": [
+     [
+      "kokab",
+      [
+       [
+        "star name",
+        "Kochab",
+        "fixed star at Leo 14 deg"
+       ]
+      ]
+     ]
+    ],
+    "f72v1": [
+     [
+      "seginus",
+      [
+       [
+        "star name",
+        "Seginus",
+        "fixed star at Libra 18 deg"
+       ]
+      ]
+     ]
+    ],
+    "f73v": [
+     [
+      "arker",
+      [
+       [
+        "catalan",
+        "arquer",
+        "sign name: Sagittarius"
+       ],
+       [
+        "catalan",
+        "arquer",
+        "animal/figure of Sagittarius"
+       ]
+      ]
+     ]
+    ]
+   },
+   "agreement": 1.0,
+   "best_start_before_refit": "free",
+   "objective": -154552.67870531607,
+   "objective_before_refit": -154552.67870531607,
+   "stage1_coverage": 6,
+   "key": {
+    "o": "-um",
+    "k": "a",
+    "ch": "j",
+    "y": "-er",
+    "a": "m",
+    "l": "k",
+    "e": "i",
+    "d": "v",
+    "r": "u",
+    "iin": "t",
+    "sh": "w",
+    "qo": "g",
+    "s": "b",
+    "ckh": "f",
+    "dy": "p",
+    "m": "o",
+    "p": "c",
+    "in": "e",
+    "i": "r",
+    "ir": "l",
+    "f": "n",
+    "cph": "s",
+    "h": "d"
+   },
+   "accuracy": 1.0,
+   "claim": true
+  },
+  "T1 italian+hebrew": {
+   "lexrate": 0.27258743523316065,
+   "lexrate_types": 0.13721727210418094,
+   "zodiac_pages_hit": 5,
+   "zodiac_p": 0.001388888888888889,
+   "line_languages": {
+    "italian": 1069,
+    "occitan": 795,
+    "latin": 122,
+    "greek": 105,
+    "catalan": 105,
+    "czech": 89,
+    "french": 67,
+    "german": 35,
+    "hebrew": 18,
+    "arabic": 14
+   },
+   "zodiac_hits": {
+    "f70v1": [],
+    "f71v": [
+     [
+      "mira",
+      [
+       [
+        "star name",
+        "Mira",
+        "fixed star at Taurus 2 deg"
+       ]
+      ]
+     ]
+    ],
+    "f72r2": [
+     [
+      "ekka",
+      [
+       [
+        "star name",
+        "Hecka",
+        "fixed star at Gemini 25 deg"
+       ]
+      ]
+     ]
+    ],
+    "f72v3": [
+     [
+      "estate",
+      [
+       [
+        "italian",
+        "estate",
+        "season: summer"
+       ]
+      ]
+     ]
+    ],
+    "f72v1": [
+     [
+      "stadera",
+      [
+       [
+        "italian",
+        "stadera",
+        "animal/figure of Libra"
+       ]
+      ]
+     ],
+     [
+      "air",
+      [
+       [
+        "french",
+        "air",
+        "element: air"
+       ],
+       [
+        "occitan",
+        "air",
+        "element: air"
+       ]
+      ]
+     ]
+    ],
+    "f73v": [
+     [
+      "arko",
+      [
+       [
+        "italian",
+        "arco",
+        "animal/figure of Sagittarius"
+       ]
+      ]
+     ]
+    ]
+   },
+   "agreement": 1.0,
+   "best_start_before_refit": "anchor key 2",
+   "objective": -219771.21767959683,
+   "objective_before_refit": -254764.4746996768,
+   "stage1_coverage": 6,
+   "key": {
+    "o": "i",
+    "k": "s",
+    "ch": "r",
+    "y": "a",
+    "a": "n",
+    "l": "m",
+    "e": "p",
+    "d": "o",
+    "r": "e",
+    "iin": "k",
+    "sh": "u",
+    "qo": "s",
+    "s": "a",
+    "ckh": "i",
+    "dy": "s",
+    "m": "d",
+    "p": "u",
+    "in": "o",
+    "i": "t",
+    "ir": "a",
+    "f": "l",
+    "cph": "-er",
+    "h": "e"
+   },
+   "accuracy": 0.7111571974680018,
+   "claim": false
+  },
+  "T2 czech+german+latin": {
+   "lexrate": 0.699156653481603,
+   "lexrate_types": 0.47968992248062015,
+   "zodiac_pages_hit": 6,
+   "zodiac_p": 0.001388888888888889,
+   "line_languages": {
+    "latin": 860,
+    "czech": 708,
+    "german": 691,
+    "occitan": 66,
+    "italian": 33,
+    "greek": 24,
+    "french": 19,
+    "catalan": 16,
+    "hebrew": 1,
+    "arabic": 1
+   },
+   "zodiac_hits": {
+    "f70v1": [
+     [
+      "uerteks",
+      [
+       [
+        "star name",
+        "Vertex",
+        "fixed star at Aries 28 deg"
+       ]
+      ]
+     ]
+    ],
+    "f71v": [
+     [
+      "alcione",
+      [
+       [
+        "star name",
+        "Alcyone",
+        "fixed star at Taurus 30 deg"
+       ]
+      ]
+     ]
+    ],
+    "f72r2": [
+     [
+      "mintaka",
+      [
+       [
+        "star name",
+        "Mintaka",
+        "fixed star at Gemini 23 deg"
+       ]
+      ]
+     ]
+    ],
+    "f72v3": [
+     [
+      "assellus",
+      [
+       [
+        "star name",
+        "Assellus",
+        "fixed star at Leo 8 deg"
+       ],
+       [
+        "star name",
+        "Assellus",
+        "fixed star at Leo 9 deg"
+       ]
+      ]
+     ]
+    ],
+    "f72v1": [
+     [
+      "giena",
+      [
+       [
+        "star name",
+        "Gienah",
+        "fixed star at Libra 11 deg"
+       ]
+      ]
+     ]
+    ],
+    "f73v": [
+     [
+      "kuma",
+      [
+       [
+        "star name",
+        "Kuma",
+        "fixed star at Sagittarius 11 deg"
+       ]
+      ]
+     ]
+    ]
+   },
+   "agreement": 1.0,
+   "best_start_before_refit": "free",
+   "objective": -179509.46010097532,
+   "objective_before_refit": -179509.46010097532,
+   "stage1_coverage": 6,
+   "key": {
+    "o": "m",
+    "k": "i",
+    "ch": "-is",
+    "y": "j",
+    "a": "-er",
+    "l": "o",
+    "e": "x",
+    "d": "f",
+    "r": "c",
+    "iin": "p",
+    "sh": "d",
+    "qo": "l",
+    "s": "u",
+    "ckh": "r",
+    "dy": "n",
+    "m": "s",
+    "p": "t",
+    "in": "g",
+    "i": "e",
+    "ir": "k",
+    "f": "b",
+    "cph": "a",
+    "h": "v"
+   },
+   "accuracy": 1.0,
+   "claim": true
+  },
+  "T3 greek+arabic+latin": {
+   "lexrate": 0.5061172408616678,
+   "lexrate_types": 0.3308955223880597,
+   "zodiac_pages_hit": 3,
+   "zodiac_p": 0.008333333333333333,
+   "line_languages": {
+    "latin": 801,
+    "arabic": 726,
+    "greek": 704,
+    "occitan": 64,
+    "german": 27,
+    "hebrew": 25,
+    "czech": 20,
+    "italian": 18,
+    "catalan": 18,
+    "french": 16
+   },
+   "zodiac_hits": {
+    "f70v1": [],
+    "f71v": [
+     [
+      "amal",
+      [
+       [
+        "star name",
+        "Hamal",
+        "fixed star at Taurus 8 deg"
+       ]
+      ]
+     ]
+    ],
+    "f72r2": [
+     [
+      "nial",
+      [
+       [
+        "star name",
+        "Nihal",
+        "fixed star at Gemini 20 deg"
+       ]
+      ]
+     ]
+    ],
+    "f72v3": [
+     [
+      "regulus",
+      [
+       [
+        "star name",
+        "Regulus",
+        "fixed star at Leo 30 deg"
+       ]
+      ]
+     ]
+    ],
+    "f72v1": [],
+    "f73v": []
+   },
+   "agreement": 0.8498985801217038,
+   "best_start_before_refit": "anchor key 6",
+   "objective": -210526.61153201494,
+   "objective_before_refit": -210526.61153201494,
+   "stage1_coverage": 6,
+   "key": {
+    "o": "n",
+    "k": "e",
+    "ch": "g",
+    "y": "s",
+    "a": "a",
+    "l": "m",
+    "e": "m",
+    "d": "d",
+    "r": "o",
+    "iin": "r",
+    "sh": "f",
+    "qo": "j",
+    "s": "l",
+    "ckh": "t",
+    "dy": "-is",
+    "m": "p",
+    "p": "a",
+    "in": "b",
+    "i": "q",
+    "ir": "h",
+    "f": "-er",
+    "cph": "i",
+    "h": "u"
+   },
+   "accuracy": 0.9203166917490022,
+   "claim": true
+  },
+  "T4 occitan+catalan": {
+   "lexrate": 0.785861852151262,
+   "lexrate_types": 0.5006195786864932,
+   "zodiac_pages_hit": 6,
+   "zodiac_p": 0.001388888888888889,
+   "line_languages": {
+    "catalan": 1729,
+    "occitan": 569,
+    "french": 33,
+    "greek": 30,
+    "italian": 22,
+    "latin": 14,
+    "german": 13,
+    "czech": 8,
+    "arabic": 1
+   },
+   "zodiac_hits": {
+    "f70v1": [
+     [
+      "erakis",
+      [
+       [
+        "star name",
+        "Erakis",
+        "fixed star at Aries 10 deg"
+       ]
+      ]
+     ]
+    ],
+    "f71v": [
+     [
+      "ruka",
+      [
+       [
+        "star name",
+        "Rucha",
+        "fixed star at Taurus 18 deg"
+       ]
+      ]
+     ]
+    ],
+    "f72r2": [
+     [
+      "primevere",
+      [
+       [
+        "french",
+        "primevere",
+        "season: spring"
+       ],
+       [
+        "occitan",
+        "primevere",
+        "season: spring"
+       ]
+      ]
+     ]
+    ],
+    "f72v3": [
+     [
+      "presepe",
+      [
+       [
+        "star name",
+        "Praesepe",
+        "fixed star at Leo 8 deg"
+       ]
+      ]
+     ]
+    ],
+    "f72v1": [
+     [
+      "porrima",
+      [
+       [
+        "star name",
+        "Porrima",
+        "fixed star at Libra 11 deg"
+       ]
+      ]
+     ]
+    ],
+    "f73v": [
+     [
+      "desebre",
+      [
+       [
+        "french",
+        "decebre",
+        "month: December"
+       ],
+       [
+        "occitan",
+        "decebre",
+        "month: December"
+       ]
+      ]
+     ]
+    ]
+   },
+   "agreement": 1.0,
+   "best_start_before_refit": "free",
+   "objective": -137697.8269663925,
+   "objective_before_refit": -137697.8269663925,
+   "stage1_coverage": 6,
+   "key": {
+    "o": "m",
+    "k": "t",
+    "ch": "k",
+    "y": "e",
+    "a": "a",
+    "l": "f",
+    "e": "g",
+    "d": "a",
+    "r": "i",
+    "iin": "v",
+    "sh": "s",
+    "qo": "Z",
+    "s": "o",
+    "ckh": "r",
+    "dy": "n",
+    "m": "S",
+    "p": "u",
+    "in": "p",
+    "i": "d",
+    "ir": "l",
+    "f": "b",
+    "cph": "-er",
+    "h": "j"
+   },
+   "accuracy": 0.9941186278819482,
+   "claim": true
+  },
+  "DC1 generator": {
+   "lexrate": 0.2592449027056361,
+   "lexrate_types": 0.09922178988326848,
+   "zodiac_pages_hit": 0,
+   "zodiac_p": 1.0,
+   "line_languages": {
+    "greek": 1970,
+    "latin": 143,
+    "occitan": 137,
+    "french": 75,
+    "italian": 34,
+    "catalan": 32,
+    "czech": 16,
+    "german": 12
+   },
+   "zodiac_hits": {
+    "f70v1": [],
+    "f71v": [],
+    "f72r2": [],
+    "f72v3": [],
+    "f72v1": [],
+    "f73v": []
+   },
+   "agreement": 0.1622952816889152,
+   "best_start_before_refit": "free",
+   "objective": -184933.83915953457,
+   "objective_before_refit": -191438.90394868545,
+   "stage1_coverage": 6,
+   "key": {
+    "o": "i",
+    "k": "e",
+    "ch": "t",
+    "y": "a",
+    "a": "o",
+    "l": "s",
+    "e": "r",
+    "d": "e",
+    "r": "n",
+    "iin": "n",
+    "sh": "m",
+    "qo": "i",
+    "s": "i",
+    "ckh": "d",
+    "dy": "i",
+    "m": "s",
+    "p": "k",
+    "in": "s",
+    "i": "p",
+    "ir": "n",
+    "f": "v",
+    "cph": "l",
+    "h": "r"
+   },
+   "claim": false
+  },
+  "DC2 voynich shuffled": {
+   "lexrate": 0.18150879183210436,
+   "lexrate_types": 0.12735478806907377,
+   "zodiac_pages_hit": 0,
+   "zodiac_p": 1.0,
+   "line_languages": {
+    "hebrew": 2083,
+    "arabic": 309,
+    "catalan": 11,
+    "occitan": 10,
+    "italian": 4,
+    "german": 2
+   },
+   "zodiac_hits": {
+    "f70v1": [],
+    "f71v": [],
+    "f72r2": [],
+    "f72v3": [],
+    "f72v1": [],
+    "f73v": []
+   },
+   "agreement": 0.3329229096374946,
+   "best_start_before_refit": "free",
+   "objective": -259994.9515918644,
+   "objective_before_refit": -282156.4958442272,
+   "stage1_coverage": 6,
+   "key": {
+    "o": "j",
+    "k": "w",
+    "ch": "t",
+    "y": "l",
+    "a": "m",
+    "l": "h",
+    "e": "q",
+    "d": "r",
+    "r": "b",
+    "iin": "S",
+    "sh": "w",
+    "qo": "m",
+    "s": "k",
+    "ckh": "n",
+    "dy": "k",
+    "m": "d",
+    "p": "x",
+    "in": "n",
+    "i": "p",
+    "ir": "S",
+    "f": "c",
+    "cph": "g",
+    "h": "s"
+   },
+   "claim": false
+  },
+  "TC1 generator": {
+   "lexrate": 0.33639864811758236,
+   "lexrate_types": 0.08464965573106521,
+   "zodiac_pages_hit": 0,
+   "zodiac_p": 1.0,
+   "line_languages": {
+    "greek": 1889,
+    "occitan": 232,
+    "latin": 114,
+    "catalan": 64,
+    "french": 62,
+    "german": 34,
+    "italian": 15,
+    "czech": 7,
+    "arabic": 2
+   },
+   "zodiac_hits": {
+    "f70v1": [],
+    "f71v": [],
+    "f72r2": [],
+    "f72v3": [],
+    "f72v1": [],
+    "f73v": []
+   },
+   "agreement": 0.9898810243304381,
+   "best_start_before_refit": "free",
+   "objective": -178157.52487117724,
+   "objective_before_refit": -183221.8653164081,
+   "stage1_coverage": 6,
+   "key": {
+    "o": "o",
+    "k": "r",
+    "ch": "t",
+    "y": "e",
+    "a": "i",
+    "l": "n",
+    "e": "a",
+    "d": "t",
+    "r": "s",
+    "iin": "s",
+    "sh": "k",
+    "qo": "e",
+    "s": "m",
+    "ckh": "p",
+    "dy": "s",
+    "m": "n",
+    "p": "d",
+    "in": "s",
+    "i": "a",
+    "ir": "s",
+    "f": "g",
+    "cph": "T",
+    "h": "m"
+   },
+   "claim": false
+  },
+  "TC2 voynich shuffled": {
+   "lexrate": 0.19228587634713556,
+   "lexrate_types": 0.13167398731088337,
+   "zodiac_pages_hit": 0,
+   "zodiac_p": 1.0,
+   "line_languages": {
+    "hebrew": 2079,
+    "arabic": 304,
+    "catalan": 17,
+    "occitan": 12,
+    "italian": 4,
+    "czech": 2,
+    "german": 1
+   },
+   "zodiac_hits": {
+    "f70v1": [],
+    "f71v": [],
+    "f72r2": [],
+    "f72v3": [],
+    "f72v1": [],
+    "f73v": []
+   },
+   "agreement": 0.19490861410045254,
+   "best_start_before_refit": "free",
+   "objective": -260266.1230173562,
+   "objective_before_refit": -281619.1830038832,
+   "stage1_coverage": 6,
+   "key": {
+    "o": "m",
+    "k": "l",
+    "ch": "q",
+    "y": "k",
+    "a": "j",
+    "l": "t",
+    "e": "w",
+    "d": "q",
+    "r": "b",
+    "iin": "r",
+    "sh": "n",
+    "qo": "S",
+    "s": "h",
+    "ckh": "t",
+    "dy": "h",
+    "m": "w",
+    "p": "d",
+    "in": "w",
+    "i": "b",
+    "ir": "x",
+    "f": "p",
+    "cph": "g",
+    "h": "c"
+   },
+   "claim": false
+  },
+  "TC3 T1 shuffled": {
+   "lexrate": 0.1466104443723646,
+   "lexrate_types": 0.10533624280896647,
+   "zodiac_pages_hit": 0,
+   "zodiac_p": 1.0,
+   "line_languages": {
+    "hebrew": 2082,
+    "arabic": 295,
+    "catalan": 16,
+    "occitan": 15,
+    "latin": 5,
+    "italian": 4,
+    "french": 1,
+    "german": 1
+   },
+   "zodiac_hits": {
+    "f70v1": [],
+    "f71v": [],
+    "f72r2": [],
+    "f72v3": [],
+    "f72v1": [],
+    "f73v": []
+   },
+   "agreement": 0.3097983377957996,
+   "best_start_before_refit": "free",
+   "objective": -273352.06041507376,
+   "objective_before_refit": -287149.8895321446,
+   "stage1_coverage": 6,
+   "key": {
+    "o": "b",
+    "k": "r",
+    "ch": "j",
+    "y": "p",
+    "a": "w",
+    "l": "q",
+    "e": "t",
+    "d": "j",
+    "r": "l",
+    "iin": "t",
+    "sh": "w",
+    "qo": "n",
+    "s": "w",
+    "ckh": "m",
+    "dy": "S",
+    "m": "l",
+    "p": "S",
+    "in": "d",
+    "i": "h",
+    "ir": "k",
+    "f": "m",
+    "cph": "x",
+    "h": "q"
+   },
+   "claim": false
+  },
+  "TC4 generator, anchor planted": {
+   "lexrate": 0.3261690162545258,
+   "lexrate_types": 0.09720483938256154,
+   "zodiac_pages_hit": 1,
+   "zodiac_p": 0.3333333333333333,
+   "line_languages": {
+    "greek": 1987,
+    "latin": 137,
+    "occitan": 129,
+    "french": 73,
+    "catalan": 38,
+    "italian": 33,
+    "czech": 14,
+    "german": 7,
+    "arabic": 1
+   },
+   "zodiac_hits": {
+    "f70v1": [],
+    "f71v": [],
+    "f72r2": [],
+    "f72v3": [],
+    "f72v1": [
+     [
+      "aere",
+      [
+       [
+        "italian",
+        "aere",
+        "element: air"
+       ]
+      ]
+     ]
+    ],
+    "f73v": []
+   },
+   "agreement": 0.8780026805044847,
+   "best_start_before_refit": "free",
+   "objective": -182578.27478270332,
+   "objective_before_refit": -195429.23047108782,
+   "stage1_coverage": 6,
+   "key": {
+    "o": "i",
+    "k": "e",
+    "ch": "t",
+    "y": "a",
+    "a": "o",
+    "l": "s",
+    "e": "r",
+    "d": "i",
+    "r": "n",
+    "iin": "n",
+    "sh": "m",
+    "qo": "e",
+    "s": "i",
+    "ckh": "d",
+    "dy": "e",
+    "m": "s",
+    "p": "k",
+    "in": "s",
+    "i": "p",
+    "ir": "n",
+    "f": "v",
+    "cph": "l",
+    "h": "s"
+   },
+   "claim": false
+  },
+  "VOYNICH": {
+   "lexrate": 0.47553885422575154,
+   "lexrate_types": 0.1309328968903437,
+   "zodiac_pages_hit": 0,
+   "zodiac_p": 1.0,
+   "line_languages": {
+    "hebrew": 2217,
+    "arabic": 178,
+    "occitan": 8,
+    "catalan": 8,
+    "german": 5,
+    "italian": 3
+   },
+   "zodiac_hits": {
+    "f70v1": [],
+    "f71v": [],
+    "f72r2": [],
+    "f72v3": [],
+    "f72v1": [],
+    "f73v": []
+   },
+   "agreement": 0.14807234117402499,
+   "best_start_before_refit": "free",
+   "objective": -200906.7364010968,
+   "objective_before_refit": -205842.1305507837,
+   "stage1_coverage": 6,
+   "key": {
+    "o": "w",
+    "k": "q",
+    "ch": "k",
+    "y": "h",
+    "a": "j",
+    "l": "n",
+    "e": "l",
+    "d": "b",
+    "r": "t",
+    "iin": "m",
+    "sh": "q",
+    "qo": "b",
+    "s": "m",
+    "ckh": "S",
+    "dy": "h",
+    "m": "m",
+    "p": "S",
+    "in": "m",
+    "i": "d",
+    "ir": "r",
+    "f": "x",
+    "cph": "p",
+    "h": "r"
+   },
+   "claim": false
+  }
+ },
+ "threshold": 0.3057835272797014,
+ "validation": {
+  "threshold": 0.3057835272797014,
+  "test_cracks_claimed": "3",
+  "false_claims": [],
+  "valid": true
+ },
+ "verdict": "NO CLAIM"
+}

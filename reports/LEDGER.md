@@ -630,3 +630,7 @@ signs Voynich's spaces are as predictable as in languages.
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-29 | E096 (Route 2, Arham) zodiac figure labels vs period degree tables, gender/light/terms (`DEGREE_TABLES.md`) | VALID (planted 10/10 in all columns; 0/20 false claims); Voynich NO LINK (z −0.03, +0.08, −0.74; max-T p 0.86). Strong class encoding excluded; weak encoding not | none (as pre-registered) | 0.4631 | 0.3604 | 0.0978 | 0.0788 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-30 | E097 (Arham) one key for the whole book, 10 regional period languages mixed by line in one sound alphabet, shorthand values, zodiac anchor (`ONE_KEY_MANY_SCRIPTS.md`) | VALID (5/6 synthetic books cracked, TEST 3/4; 0/6 false claims). Voynich NO CLAIM: held-out real-word share 0.131 vs threshold 0.306 (controls 0.085–0.132); held-out zodiac pages 0/6 (p 1.0); best fit from the free start, read almost all as Hebrew (as shuffled Voynich is) | searched sub-form of L-alpha-known × 0.8: **L × 0.943**. Forms of L: unattested 0.305, alpha-known 0.241, syll 0.183, other 0.148, abbrev 0.122 | 0.4728 | 0.3469 | 0.0998 | 0.0804 |

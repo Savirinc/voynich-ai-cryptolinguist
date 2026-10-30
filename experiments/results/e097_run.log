@@ -1,0 +1,33 @@
+corpora {'latin': {'lm_words': 188856, 'held_words': 112411}, 'italian': {'lm_words': 274317, 'held_words': 160307}, 'occitan': {'lm_words': 23688, 'held_words': 10793}, 'catalan': {'lm_words': 178780, 'held_words': 44372}, 'french': {'lm_words': 278398, 'held_words': 159997}, 'german': {'lm_words': 247945, 'held_words': 141927}, 'czech': {'lm_words': 216524, 'held_words': 122688}, 'greek': {'lm_words': 85063, 'held_words': 55430}, 'hebrew': {'lm_words': 151029, 'held_words': 78341}, 'arabic': {'lm_words': 155933, 'held_words': 85055}} 13s
+material sizes {'Pisces': 88, 'Aries': 86, 'Taurus': 100, 'Gemini': 113, 'Cancer': 90, 'Leo': 87, 'Virgo': 82, 'Libra': 79, 'Scorpio': 68, 'Sagittarius': 105}
+voynich lines 4541 train 2122 held 2419
+stage1 D1 latin: coverage 6/6, keys 8, cand {'f70v2': 761, 'f71r': 414, 'f72r1': 704, 'f72r3': 1181, 'f72v2': 630, 'f73r': 333}
+stage1 D2 catalan+latin: coverage 6/6, keys 8, cand {'f70v2': 652, 'f71r': 463, 'f72r1': 813, 'f72r3': 871, 'f72v2': 476, 'f73r': 304}
+stage1 T1 italian+hebrew: coverage 6/6, keys 8, cand {'f70v2': 643, 'f71r': 450, 'f72r1': 1247, 'f72r3': 1582, 'f72v2': 573, 'f73r': 460}
+stage1 T2 czech+german+latin: coverage 6/6, keys 8, cand {'f70v2': 1020, 'f71r': 630, 'f72r1': 880, 'f72r3': 939, 'f72v2': 476, 'f73r': 421}
+stage1 T3 greek+arabic+latin: coverage 6/6, keys 8, cand {'f70v2': 888, 'f71r': 356, 'f72r1': 718, 'f72r3': 846, 'f72v2': 637, 'f73r': 238}
+stage1 T4 occitan+catalan: coverage 6/6, keys 8, cand {'f70v2': 516, 'f71r': 426, 'f72r1': 577, 'f72r3': 721, 'f72v2': 406, 'f73r': 244}
+stage1 DC1 generator: coverage 6/6, keys 8, cand {'f70v2': 673, 'f71r': 534, 'f72r1': 866, 'f72r3': 703, 'f72v2': 390, 'f73r': 439}
+stage1 DC2 voynich shuffled: coverage 6/6, keys 8, cand {'f70v2': 1024, 'f71r': 618, 'f72r1': 1052, 'f72r3': 1120, 'f72v2': 505, 'f73r': 446}
+stage1 TC1 generator: coverage 6/6, keys 8, cand {'f70v2': 633, 'f71r': 429, 'f72r1': 854, 'f72r3': 899, 'f72v2': 479, 'f73r': 346}
+stage1 TC2 voynich shuffled: coverage 6/6, keys 8, cand {'f70v2': 1044, 'f71r': 485, 'f72r1': 1206, 'f72r3': 1120, 'f72v2': 517, 'f73r': 456}
+stage1 TC3 T1 shuffled: coverage 6/6, keys 8, cand {'f70v2': 791, 'f71r': 364, 'f72r1': 1229, 'f72r3': 1419, 'f72v2': 532, 'f73r': 407}
+stage1 TC4 generator, anchor planted: coverage 6/6, keys 8, cand {'f70v2': 829, 'f71r': 682, 'f72r1': 737, 'f72r3': 989, 'f72v2': 479, 'f73r': 303}
+stage1 VOYNICH: coverage 6/6, keys 8, cand {'f70v2': 909, 'f71r': 415, 'f72r1': 938, 'f72r3': 1098, 'f72v2': 752, 'f73r': 467}
+jobs 117 | 157s
+stage 2 starts done | 2131s
+D1 latin                         lex 0.739 zodiac 6/6 p 0.001 agr 1.00 acc 1.00 types 0.484 langs [('latin', 2272), ('occitan', 64), ('italian', 20)]
+D2 catalan+latin                 lex 0.800 zodiac 6/6 p 0.001 agr 1.00 acc 1.00 types 0.600 langs [('latin', 1109), ('catalan', 1090), ('occitan', 136)]
+T1 italian+hebrew                lex 0.273 zodiac 5/6 p 0.001 agr 1.00 acc 0.71 types 0.137 langs [('italian', 1069), ('occitan', 795), ('latin', 122)]
+T2 czech+german+latin            lex 0.699 zodiac 6/6 p 0.001 agr 1.00 acc 1.00 types 0.480 langs [('latin', 860), ('czech', 708), ('german', 691)]
+T3 greek+arabic+latin            lex 0.506 zodiac 3/6 p 0.008 agr 0.85 acc 0.92 types 0.331 langs [('latin', 801), ('arabic', 726), ('greek', 704)]
+T4 occitan+catalan               lex 0.786 zodiac 6/6 p 0.001 agr 1.00 acc 0.99 types 0.501 langs [('catalan', 1729), ('occitan', 569), ('french', 33)]
+DC1 generator                    lex 0.259 zodiac 0/6 p 1.000 agr 0.16 acc nan types 0.099 langs [('greek', 1970), ('latin', 143), ('occitan', 137)]
+DC2 voynich shuffled             lex 0.182 zodiac 0/6 p 1.000 agr 0.33 acc nan types 0.127 langs [('hebrew', 2083), ('arabic', 309), ('catalan', 11)]
+TC1 generator                    lex 0.336 zodiac 0/6 p 1.000 agr 0.99 acc nan types 0.085 langs [('greek', 1889), ('occitan', 232), ('latin', 114)]
+TC2 voynich shuffled             lex 0.192 zodiac 0/6 p 1.000 agr 0.19 acc nan types 0.132 langs [('hebrew', 2079), ('arabic', 304), ('catalan', 17)]
+TC3 T1 shuffled                  lex 0.147 zodiac 0/6 p 1.000 agr 0.31 acc nan types 0.105 langs [('hebrew', 2082), ('arabic', 295), ('catalan', 16)]
+TC4 generator, anchor planted    lex 0.326 zodiac 1/6 p 0.333 agr 0.88 acc nan types 0.097 langs [('greek', 1987), ('latin', 137), ('occitan', 129)]
+VOYNICH                          lex 0.476 zodiac 0/6 p 1.000 agr 0.15 acc nan types 0.131 langs [('hebrew', 2217), ('arabic', 178), ('occitan', 8)]
+validation {'threshold': 0.3057835272797014, 'test_cracks_claimed': np.int64(3), 'false_claims': [], 'valid': True} | VERDICT NO CLAIM
+done 57013s
