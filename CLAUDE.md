@@ -330,3 +330,4 @@ For E001–E029a see `reports/SUMMARY.md`.
 | E106 | Paragraph-initial gallows as capitals (Reddit R7): VALID; DECORATIVE, marginal (remainder is an ordinary word 63% vs 56% mid-line, z +2.2; rule 8 check 9/10). No factor |
 | E107 | Gallows as decoration anywhere (Arham, kashida idea): with/without-gallows word pairs used in partly different contexts, CD 0.71: PARTLY, like the generator (0.52–0.93); bench gallows nearer decorative (4 pairs). No factor |
 | E108 | Gallows shapes from images (Arham): scribes differ WEAKLY (p ≈ 0.01; scribe 1 taller, upright); word-initial gallows NOT LARGER by rule (width +10.6%, p 0.0095); line-initial +17% taller, +41% wider (unscored). No factor |
+| R16 | f57v ring (descriptive): a 17-sign sequence written 4 times; f in copies 1–2, p in 3–4; uses signs absent from prose (`F57V_RING.md`). No factor |

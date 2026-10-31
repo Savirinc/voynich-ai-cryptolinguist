@@ -30,7 +30,7 @@ Fincher, the Naibbe author).
 | R13 | AB and BA word-pair symmetry (Fincher) | 1um5ejs | vs languages, gibberish, generator | M or L | **Done (E104):** GENERATOR-LIKE, M × 3 |
 | R14 | Quire 20 as an alphabetical glossary | rl7lgv | are paragraph-first words ordered? glyph order chosen on one half, tested on the other | L |
 | R15 | Maltese (not in E049–E063) | pnmh1l | E047/E088 attack with a Maltese Bible | L |
-| R16 | f57v inner ring: a 17-glyph sequence repeats 4 times | i6pktp | check in the transcription; ties into the p vs f lead | — |
+| R16 | f57v inner ring: a 17-glyph sequence repeats 4 times | i6pktp | check in the transcription; ties into the p vs f lead | — | **Done (F57V_RING.md):** confirmed; f→p swap at the half-way point; rare signs |
 
 **New controls and resources mentioned:**
 - **Controls:** Enochian (Dee/Kelley); Codex Seraphinianus transliteration (known meaningless); the "hibou" generator;
