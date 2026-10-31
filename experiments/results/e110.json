@@ -1,0 +1,199 @@
+{
+ "experiment": "E110",
+ "seed": 110110,
+ "frames": 83,
+ "tokens": 484,
+ "known_answers": {
+  "latVUC:contrastive": {
+   "pair": [
+    "s",
+    "t"
+   ],
+   "frames": 40,
+   "tokens": 2785,
+   "share_p_lt_0.01": 1.0,
+   "median_p": 0.0004997501249375312
+  },
+  "latVUC:allograph": {
+   "pair": [
+    "t",
+    "T"
+   ],
+   "frames": 287,
+   "tokens": 6716,
+   "share_p_lt_0.01": 0.0,
+   "median_p": 0.3728135932033983
+  },
+  "ita1885:contrastive": {
+   "pair": [
+    "r",
+    "l"
+   ],
+   "frames": 13,
+   "tokens": 635,
+   "share_p_lt_0.01": 0.85,
+   "median_p": 0.0004997501249375312
+  },
+  "ita1885:allograph": {
+   "pair": [
+    "t",
+    "T"
+   ],
+   "frames": 182,
+   "tokens": 1894,
+   "share_p_lt_0.01": 0.0,
+   "median_p": 0.35982008995502246
+  }
+ },
+ "valid": true,
+ "locked_test_excluded": [
+  "1",
+  "102",
+  "105",
+  "114",
+  "30",
+  "35",
+  "38",
+  "51",
+  "52",
+  "56",
+  "75",
+  "8",
+  "86",
+  "87",
+  "9"
+ ],
+ "G": 179.5536412784111,
+ "p": 0.4741051789642072,
+ "verdict": "SAME-LETTER-LIKE",
+ "frames_by_f_share": [
+  [
+   "p",
+   "f",
+   6,
+   9
+  ],
+  [
+   "cphy",
+   "cfhy",
+   8,
+   5
+  ],
+  [
+   "opar",
+   "ofar",
+   11,
+   6
+  ],
+  [
+   "qopchedy",
+   "qofchedy",
+   23,
+   8
+  ],
+  [
+   "pchor",
+   "fchor",
+   7,
+   2
+  ],
+  [
+   "opchdy",
+   "ofchdy",
+   15,
+   4
+  ],
+  [
+   "opchy",
+   "ofchy",
+   12,
+   3
+  ],
+  [
+   "pchedy",
+   "fchedy",
+   30,
+   7
+  ],
+  [
+   "qopchdy",
+   "qofchdy",
+   10,
+   2
+  ],
+  [
+   "opaiin",
+   "ofaiin",
+   11,
+   2
+  ],
+  [
+   "pol",
+   "fol",
+   14,
+   2
+  ],
+  [
+   "opal",
+   "ofal",
+   8,
+   1
+  ],
+  [
+   "cphol",
+   "cfhol",
+   9,
+   1
+  ],
+  [
+   "pchdy",
+   "fchdy",
+   9,
+   1
+  ],
+  [
+   "opchey",
+   "ofchey",
+   24,
+   2
+  ],
+  [
+   "opchedy",
+   "ofchedy",
+   39,
+   3
+  ],
+  [
+   "pcheol",
+   "fcheol",
+   9,
+   0
+  ],
+  [
+   "qopchey",
+   "qofchey",
+   7,
+   0
+  ],
+  [
+   "chcphy",
+   "chcfhy",
+   8,
+   0
+  ],
+  [
+   "ypchedy",
+   "yfchedy",
+   6,
+   0
+  ],
+  [
+   "cphey",
+   "cfhey",
+   7,
+   0
+  ]
+ ],
+ "f_pages": 79,
+ "f_pages_shared_with_p": 15
+}

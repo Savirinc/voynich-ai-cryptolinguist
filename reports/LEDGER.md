@@ -682,3 +682,7 @@ signs Voynich's spaces are as predictable as in languages.
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-31 | E109 (Arham) f and p in opposite halves of other rings (f57v excluded) (`FP_HALVES.md`) | VALID (perfect split caught 99.5%, false alarms 1.5%; 80% split only 10%). 7 rings with both letters: TOTAL 6.47, p 0.041 → WEAK; rule 8 check E109b 10/10 p 0.039–0.046 (clause omitted from the prereg). No consistent f-before-p order (4 vs 3) | none (pre-registered) | 0.7422 | 0.1816 | 0.0342 | 0.0421 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-31 | E110 (Arham) p vs f: same letter or different? 113 minimal pairs, word-specific choice beyond scribe/paragraph/slot (`PF_SAME_OR_DIFFERENT.md`) | VALID (real letter pairs caught 17–20/20; planted second forms 0/20). Voynich G 179.6, p 0.47: SAME-LETTER-LIKE. Every common pair favours p (e.g. opchedy 39:3); only p/f alone leans f | none (pre-registered) | 0.7422 | 0.1816 | 0.0342 | 0.0421 |

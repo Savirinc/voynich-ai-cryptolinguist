@@ -1,0 +1,10 @@
+Voynich frames 83 tokens 484 (p 398, f 86)
+latVUC contrastive ('s', 't'): {'pair': ('s', 't'), 'frames': 40, 'tokens': 2785, 'share_p_lt_0.01': 1.0, 'median_p': 0.0004997501249375312}
+latVUC allograph ('t', 'T'): {'pair': ('t', 'T'), 'frames': 287, 'tokens': 6716, 'share_p_lt_0.01': 0.0, 'median_p': 0.3728135932033983}
+ita1885 contrastive ('r', 'l'): {'pair': ('r', 'l'), 'frames': 13, 'tokens': 635, 'share_p_lt_0.01': 0.85, 'median_p': 0.0004997501249375312}
+ita1885 allograph ('t', 'T'): {'pair': ('t', 'T'), 'frames': 182, 'tokens': 1894, 'share_p_lt_0.01': 0.0, 'median_p': 0.35982008995502246}
+VALID True
+VOYNICH G 179.6 p 0.4741 -> SAME-LETTER-LIKE
+frames (>=6 tokens) by f share: [('p', 'f', 6, 9), ('cphy', 'cfhy', 8, 5), ('opar', 'ofar', 11, 6), ('qopchedy', 'qofchedy', 23, 8), ('pchor', 'fchor', 7, 2), ('opchdy', 'ofchdy', 15, 4), ('opchy', 'ofchy', 12, 3), ('pchedy', 'fchedy', 30, 7), ('qopchdy', 'qofchdy', 10, 2), ('opaiin', 'ofaiin', 11, 2), ('pol', 'fol', 14, 2), ('opal', 'ofal', 8, 1), ('cphol', 'cfhol', 9, 1), ('pchdy', 'fchdy', 9, 1), ('opchey', 'ofchey', 24, 2), ('opchedy', 'ofchedy', 39, 3), ('pcheol', 'fcheol', 9, 0), ('qopchey', 'qofchey', 7, 0), ('chcphy', 'chcfhy', 8, 0), ('ypchedy', 'yfchedy', 6, 0), ('cphey', 'cfhey', 7, 0)]
+co-location: f-version pages 79, also with p-version 15
+EXIT 0
