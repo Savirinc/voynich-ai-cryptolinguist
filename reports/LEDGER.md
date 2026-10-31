@@ -662,3 +662,7 @@ signs Voynich's spaces are as predictable as in languages.
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-31 | E104 (Arham, Reddit R13) AB/BA word-pair order preference beyond a coin (`PAIR_REVERSAL.md`) | VALID (meaningful p10 0.544 > generator p90 0.519). Voynich ASYM 0.179 (sd 0.021), inside the generator band, 12 sd below the lowest of 69 meaningful texts (0.428); 89% of recurring pairs occur in both orders. Unscored robustness: 0.191 without near-copy pairs; Latin verse keeps order (Ovid 0.56, Vergil 0.58) | **M × 3** (as pre-registered) | 0.7422 | 0.1816 | 0.0342 | 0.0421 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-31 | E105 (Arham, Reddit R11) vowel harmony with o/a/y, position-preserving null (`VOWEL_HARMONY.md`) | VALID (harmony languages ≥ +0.516, non-harmony ≤ +0.154). Voynich −0.001: NO HARMONY (generator 0.000–0.020; with e, +0.031 like Latin) | none (pre-registered: absence is not evidence for M) | 0.7422 | 0.1816 | 0.0342 | 0.0421 |

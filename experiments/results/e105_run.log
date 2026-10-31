@@ -1,0 +1,90 @@
+harmony    turytc     I 0.9324 null 0.0075 excess +0.9249 pairs 19510
+harmony    hun        I 0.5273 null 0.0118 excess +0.5155 pairs 13591
+harmony    azb        I 0.8522 null 0.0129 excess +0.8392 pairs 18719
+nonharmony latVUC     I 0.0341 null 0.0037 excess +0.0305 pairs 16315
+nonharmony ita1885    I 0.0432 null 0.0041 excess +0.0392 pairs 8412
+nonharmony deu1912    I 0.1655 null 0.0112 excess +0.1543 pairs 5470
+nonharmony ces1613    I 0.0831 null 0.0182 excess +0.0650 pairs 8283
+nonharmony polubg     I 0.1320 null 0.0062 excess +0.1257 pairs 10507
+nonharmony eng-kjv    I 0.0963 null 0.0061 excess +0.0903 pairs 3833
+nonharmony fraLSG     I 0.1726 null 0.0218 excess +0.1508 pairs 8235
+nonharmony nld        I 0.1213 null 0.0042 excess +0.1171 pairs 6580
+nonharmony dan1931    I 0.0574 null 0.0160 excess +0.0415 pairs 3420
+nonharmony swe        I 0.0428 null 0.0099 excess +0.0329 pairs 8234
+nonharmony ron1924    I 0.0000 null 0.0000 excess +0.0000 pairs 0
+nonharmony hrv        I 0.0127 null 0.0021 excess +0.0106 pairs 13813
+nonharmony slk        I 0.1189 null 0.0140 excess +0.1049 pairs 10914
+nonharmony lit        I 0.1045 null 0.0095 excess +0.0950 pairs 18352
+nonharmony indayt     I 0.1352 null 0.0322 excess +0.1029 pairs 9319
+nonharmony tglulb     I 0.0986 null 0.0088 excess +0.0898 pairs 6793
+nonharmony hausa      I 0.0934 null 0.0058 excess +0.0876 pairs 5367
+nonharmony mri2012    I 0.1264 null 0.0241 excess +0.1022 pairs 2977
+nonharmony haw1868    I 0.0941 null 0.0053 excess +0.0887 pairs 3376
+nonharmony cebulb     I 0.0668 null 0.0101 excess +0.0567 pairs 5179
+nonharmony hil        I 0.0657 null 0.0168 excess +0.0490 pairs 5961
+nonharmony iloulb     I 0.0906 null 0.0083 excess +0.0823 pairs 11446
+generator  e032_gen0                I 0.0091 null 0.0010 excess +0.0081
+generator  e032_gen1                I 0.0106 null 0.0008 excess +0.0098
+generator  e032_gen2                I 0.0159 null 0.0007 excess +0.0152
+generator  e032_gen3                I 0.0032 null 0.0010 excess +0.0022
+generator  e032_gen4                I 0.0071 null 0.0009 excess +0.0062
+generator  e032_gen5                I 0.0037 null 0.0009 excess +0.0028
+generator  e032_gen6                I 0.0069 null 0.0009 excess +0.0060
+generator  e032_gen7                I 0.0039 null 0.0007 excess +0.0033
+generator  e032_gen8                I 0.0091 null 0.0007 excess +0.0084
+generator  e032_gen9                I 0.0084 null 0.0006 excess +0.0078
+generator  e100_default_s11         I 0.0114 null 0.0010 excess +0.0104
+generator  e100_default_s12         I 0.0032 null 0.0008 excess +0.0025
+generator  e100_default_s13         I 0.0068 null 0.0009 excess +0.0058
+generator  e100_default_s14         I 0.0038 null 0.0006 excess +0.0032
+generator  e100_default_s15         I 0.0104 null 0.0010 excess +0.0094
+generator  e100_err10_none_s11      I 0.0104 null 0.0003 excess +0.0101
+generator  e100_err10_none_s12      I 0.0021 null 0.0004 excess +0.0017
+generator  e100_err10_none_s13      I 0.0055 null 0.0005 excess +0.0050
+generator  e100_err10_none_s14      I 0.0043 null 0.0006 excess +0.0037
+generator  e100_err10_none_s15      I 0.0102 null 0.0005 excess +0.0097
+generator  e100_err10_position_s11  I 0.0086 null 0.0004 excess +0.0082
+generator  e100_err10_position_s12  I 0.0008 null 0.0006 excess +0.0002
+generator  e100_err10_position_s13  I 0.0048 null 0.0008 excess +0.0040
+generator  e100_err10_position_s14  I 0.0013 null 0.0006 excess +0.0007
+generator  e100_err10_position_s15  I 0.0012 null 0.0008 excess +0.0004
+generator  e100_err10_reuse0_pos0_s11 I 0.0078 null 0.0008 excess +0.0070
+generator  e100_err10_reuse0_pos0_s12 I 0.0076 null 0.0006 excess +0.0071
+generator  e100_err10_reuse0_pos0_s13 I 0.0040 null 0.0004 excess +0.0035
+generator  e100_err10_reuse0_pos0_s14 I 0.0075 null 0.0007 excess +0.0068
+generator  e100_err10_reuse0_pos0_s15 I 0.0021 null 0.0005 excess +0.0015
+generator  e100_err10_s11           I 0.0030 null 0.0007 excess +0.0023
+generator  e100_err10_s12           I 0.0054 null 0.0007 excess +0.0047
+generator  e100_err10_s13           I 0.0078 null 0.0007 excess +0.0071
+generator  e100_err10_s14           I 0.0065 null 0.0006 excess +0.0059
+generator  e100_err10_s15           I 0.0052 null 0.0007 excess +0.0045
+generator  e100_err2_random_s11     I 0.0064 null 0.0008 excess +0.0056
+generator  e100_err2_random_s12     I 0.0071 null 0.0008 excess +0.0063
+generator  e100_err2_random_s13     I 0.0054 null 0.0007 excess +0.0046
+generator  e100_err2_random_s14     I 0.0084 null 0.0013 excess +0.0072
+generator  e100_err2_random_s15     I 0.0128 null 0.0004 excess +0.0124
+generator  e100_err5_random_s11     I 0.0071 null 0.0006 excess +0.0065
+generator  e100_err5_random_s12     I 0.0068 null 0.0005 excess +0.0063
+generator  e100_err5_random_s13     I 0.0029 null 0.0007 excess +0.0022
+generator  e100_err5_random_s14     I 0.0077 null 0.0004 excess +0.0072
+generator  e100_err5_random_s15     I 0.0044 null 0.0009 excess +0.0035
+generator  e100_none_s11            I 0.0044 null 0.0007 excess +0.0037
+generator  e100_none_s12            I 0.0069 null 0.0007 excess +0.0062
+generator  e100_none_s13            I 0.0094 null 0.0006 excess +0.0088
+generator  e100_none_s14            I 0.0202 null 0.0003 excess +0.0199
+generator  e100_none_s15            I 0.0022 null 0.0005 excess +0.0017
+generator  e100_random_morphhi_s11  I 0.0026 null 0.0007 excess +0.0019
+generator  e100_random_morphhi_s12  I 0.0022 null 0.0005 excess +0.0016
+generator  e100_random_morphhi_s13  I 0.0035 null 0.0006 excess +0.0029
+generator  e100_random_morphhi_s14  I 0.0018 null 0.0009 excess +0.0009
+generator  e100_random_morphhi_s15  I 0.0074 null 0.0006 excess +0.0067
+generator  e100_random_s11          I 0.0043 null 0.0006 excess +0.0037
+generator  e100_random_s12          I 0.0050 null 0.0007 excess +0.0043
+generator  e100_random_s13          I 0.0062 null 0.0006 excess +0.0056
+generator  e100_random_s14          I 0.0142 null 0.0016 excess +0.0126
+generator  e100_random_s15          I 0.0116 null 0.0005 excess +0.0110
+harmony min +0.5155 | non-harmony max +0.1543 | generator max +0.0199 | VALID True
+VOYNICH (o,a,y) I 0.0044 null 0.0057 excess -0.0013 (sd 0.0015) | (o,a,y,e) excess +0.0313
+VERDICT NO HARMONY | M x 1
+done 22s
+EXIT 0

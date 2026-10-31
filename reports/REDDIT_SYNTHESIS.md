@@ -25,7 +25,7 @@ Fincher, the Naibbe author).
 | R8 | Original leaf order (Layfield & Fagin Davis, Digital Medievalist) | 1oik97p, 1x00hs6, 1xfluhl | neighbouring-page vocabulary more continuous in the reconstructed order? (C24) | L |
 | R9 | Verse/chant metre | 8c08ay, 80nx9b, hlbndb | regular within-line length vs verse and prose | L |
 | R10 | Dice word generator, one die per slot, no copying | czs0g6, iuvmly | a period-plausible M process for the 13-feature battery | M |
-| R11 | Vowel harmony with o/a/y as vowels | 4hmqxa | vowel agreement within words; Turkish, Hungarian, Finnish as positive controls | L |
+| R11 | Vowel harmony with o/a/y as vowels | 4hmqxa | vowel agreement within words; Turkish, Hungarian, Finnish as positive controls | L | **Done (E105):** NO HARMONY |
 | R12 | Gallows as section markers (t zodiac, f herbal, p pharma) | 1sj3vlq, 1kzhkjt | controlled for paragraph first lines | — |
 | R13 | AB and BA word-pair symmetry (Fincher) | 1um5ejs | vs languages, gibberish, generator | M or L | **Done (E104):** GENERATOR-LIKE, M × 3 |
 | R14 | Quire 20 as an alphabetical glossary | rl7lgv | are paragraph-first words ordered? glyph order chosen on one half, tested on the other | L |
