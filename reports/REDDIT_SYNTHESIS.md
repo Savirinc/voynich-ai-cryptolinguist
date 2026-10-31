@@ -24,7 +24,7 @@ Fincher, the Naibbe author).
 | R7 | Paragraph-initial gallows are decorative capitals (85% of paragraphs start with one) | slu7jf, 12vrnwm, oyeayi, 1qavl2o | remove the first gallows: does the rest become an ordinary word? (E072-style) | — | **Done (E106):** DECORATIVE, marginal |
 | R8 | Original leaf order (Layfield & Fagin Davis, Digital Medievalist) | 1oik97p, 1x00hs6, 1xfluhl | neighbouring-page vocabulary more continuous in the reconstructed order? (C24) | L |
 | R9 | Verse/chant metre | 8c08ay, 80nx9b, hlbndb | regular within-line length vs verse and prose | L |
-| R10 | Dice word generator, one die per slot, no copying | czs0g6, iuvmly | a period-plausible M process for the 13-feature battery | M |
+| R10 | Dice word generator, one die per slot, no copying | czs0g6, iuvmly | a period-plausible M process for the 13-feature battery | M | **Done (E114):** CLASS FAILS (best 7/13 fails), M × 0.90 |
 | R11 | Vowel harmony with o/a/y as vowels | 4hmqxa | vowel agreement within words; Turkish, Hungarian, Finnish as positive controls | L | **Done (E105):** NO HARMONY |
 | R12 | Gallows as section markers (t zodiac, f herbal, p pharma) | 1sj3vlq, 1kzhkjt | controlled for paragraph first lines | — | **Done (E113):** SECTION-SPECIFIC within scribe (mainly scribe 1 t/k herbal vs pharma); Reddit's p/f version not supported |
 | R13 | AB and BA word-pair symmetry (Fincher) | 1um5ejs | vs languages, gibberish, generator | M or L | **Done (E104):** GENERATOR-LIKE, M × 3 |

@@ -1,0 +1,16 @@
+Voynich DEV pages 173, tokens 28841
+generator: written share (8, 24, 16) 0.580 (10, 30, 20) 0.652 (13, 39, 26) 0.776 (17, 51, 34) 0.833 (20, 60, 40) 0.854 (25, 75, 50) 0.881
+plant: written share (8, 24, 16) 0.620 (10, 30, 20) 0.776 (13, 39, 26) 0.952 (17, 51, 34) 0.997 (20, 60, 40) 0.999 (25, 75, 50) 0.999
+VOYNICH: written share (8, 24, 16) 0.578 (10, 30, 20) 0.686 (13, 39, 26) 0.788 (17, 51, 34) 0.841 (20, 60, 40) 0.865 (25, 75, 50) 0.889
+target generator  R 2.59 NR 2.33 wl_mean 4.49 types 3.83e+03 h2 2.05 I_word 0.471 top_word 0.479 PERS_30 0.582 COV_30 0.971 type_hapax 0.518 zipf_slope -0.846 NSUF95 25 DIST 0.285
+target plant      R 1.6 NR 1.33 wl_mean 4.58 types 5.61e+03 h2 2.27 I_word 0.0633 top_word 0.0135 PERS_30 0.692 COV_30 1 type_hapax 0.494 zipf_slope -0.443 NSUF95 22 DIST 0.506
+target VOYNICH    R 2.65 NR 2.12 wl_mean 4.99 types 6.08e+03 h2 2.1 I_word 0.387 top_word 0.285 PERS_30 0.264 COV_30 0.917 type_hapax 0.678 zipf_slope -0.653 NSUF95 32 DIST 0.396
+jobs 7560 | 10s
+main pass done | 8199s
+valid True plant ["('d66', 12, (17, 51, 34))", 1, ['type_hapax']] generator ["('2d6', 3, (13, 39, 26))", 6, ['types', 'h2', 'I_word', 'top_word', 'type_hapax', 'zipf_slope']]
+VOYNICH best ('2d6', 'page', (20, 60, 40)) fails 7 ['NR', 'types', 'h2', 'I_word', 'top_word', 'type_hapax', 'zipf_slope'] -> CLASS FAILS
+z R -2.7 NR -4.5 wl_mean -3.0 types -37.5 h2 -11.6 I_word +9.4 top_word +11.5 PERS_30 -0.1 COV_30 -0.8 type_hapax +13.2 zipf_slope -20.3 NSUF95 +1.5 DIST +0.9
+seed check fails 9 ['R', 'NR', 'wl_mean', 'types', 'h2', 'I_word', 'top_word', 'type_hapax', 'zipf_slope']
+VERDICT CLASS FAILS | M x 0.9000
+done 8221s
+EXIT 0

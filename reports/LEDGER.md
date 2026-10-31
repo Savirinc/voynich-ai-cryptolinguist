@@ -690,3 +690,7 @@ signs Voynich's spaces are as predictable as in languages.
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-31 | E113 (Arham, Reddit R12) gallows mix by section within scribe, rotation null (`GALLOWS_BY_SECTION.md`) | VALID (planted 10/10, false alarms 0/10). Voynich G 276.5, p 0.0015: SECTION-SPECIFIC, driven by scribe 1 herbal t/k 1.06 vs pharma 0.24 (same in prose alone); other scribes not significant alone. Reddit's "f herbal, p pharma" not supported (p/f rare outside paragraph lines) | none (pre-registered) | 0.7422 | 0.1816 | 0.0342 | 0.0421 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-31 | E114 (Arham, Reddit R10) dice word generator, one roll per slot, no copying; 252 sets on E032's 13 features (`DICE_GENERATOR.md`) | VALID (planted 1 fail, copy generator 6). Voynich best set (2d6, new tables every page, 20/60/40) 7 fails: NR, types, h2, I_word, top_word, once-used share, Zipf; seed check 9 fails: CLASS FAILS. Every set fails the once-used share; dice spread use too evenly (Zipf −0.22 vs −0.65) | **M × 0.90** (dice share 0.15 × 1/3, as pre-registered) | 0.7215 | 0.1961 | 0.0369 | 0.0455 |
