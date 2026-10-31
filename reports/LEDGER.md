@@ -670,3 +670,7 @@ signs Voynich's spaces are as predictable as in languages.
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-31 | E106 (Arham, Reddit R7) paragraph-initial gallows as decorative capitals (`GALLOWS_CAPITALS.md`) | VALID (planted 9/10, unplanted false alarms 2/10). Voynich: removing the gallows leaves an ordinary word 63.2% vs 55.7% mid-line, D +0.075 (z +2.21; planted p10 +0.044): DECORATIVE, marginal. Rule 8 check (E106b; omitted from the prereg, run before scoring): 9/10 seeds z > 2. Remainders are mid-line words (ol, chedy, chor, chol) | none (pre-registered) | 0.7422 | 0.1816 | 0.0342 | 0.0421 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-31 | E107 (Arham) gallows as kashida-like decoration anywhere: context difference of with/without-gallows pairs (`GALLOWS_CONTEXT.md`) | VALID (planted decoration ≤ 0.003, real minimal pairs ≥ 0.839). Voynich 0.705 (13 pairs): PARTLY, at the generator's level (0.52–0.93). Unscored: bench gallows (cth-) pairs nearer interchangeable (median 0.42, 4 pairs) than plain gallows (0.73, 9) | none | 0.7422 | 0.1816 | 0.0342 | 0.0421 |
