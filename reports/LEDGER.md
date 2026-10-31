@@ -678,3 +678,7 @@ signs Voynich's spaces are as predictable as in languages.
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-31 | E108 (Arham) gallows shapes by scribe and at word starts, 37 allowed full-res pages, 1,252 blind-labelled crops (`GALLOWS_SHAPES.md`) | Scribes: WEAK (page classifier 48% vs 32% chance, p 0.016; herbal only 71% vs 43%, p 0.010; rule 8 check E108b p 0.007–0.015, omitted from the prereg); scribe 1 taller and more upright. Word starts: NOT LARGER (width +10.6%, p 0.0095 misses 0.005; height +3%). Unscored: line-initial gallows +17% taller, +41% wider; bench gallows taller (3.49 vs 3.05) | none (pre-registered) | 0.7422 | 0.1816 | 0.0342 | 0.0421 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-31 | E109 (Arham) f and p in opposite halves of other rings (f57v excluded) (`FP_HALVES.md`) | VALID (perfect split caught 99.5%, false alarms 1.5%; 80% split only 10%). 7 rings with both letters: TOTAL 6.47, p 0.041 → WEAK; rule 8 check E109b 10/10 p 0.039–0.046 (clause omitted from the prereg). No consistent f-before-p order (4 vs 3) | none (pre-registered) | 0.7422 | 0.1816 | 0.0342 | 0.0421 |
