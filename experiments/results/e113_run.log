@@ -1,0 +1,17 @@
+eligible scribes: {'1': Counter({'H': 76, 'P': 12}), '2': Counter({'H': 20, 'B': 17}), '3': Counter({'S': 20, 'H': 7}), '4': Counter({'Z': 12, 'A': 7, 'C': 6})} tokens 23899
+gen0: unplanted p 0.7346 | planted p 0.0005
+gen1: unplanted p 0.0535 | planted p 0.0015
+gen2: unplanted p 0.1264 | planted p 0.0005
+gen3: unplanted p 0.6727 | planted p 0.0015
+gen4: unplanted p 0.8236 | planted p 0.0140
+gen5: unplanted p 0.3083 | planted p 0.0025
+gen6: unplanted p 0.9070 | planted p 0.0085
+gen7: unplanted p 0.7611 | planted p 0.0025
+gen8: unplanted p 0.4648 | planted p 0.0040
+gen9: unplanted p 0.8751 | planted p 0.0005
+VALID True
+VOYNICH G 276.5 p 0.0015 -> SECTION-SPECIFIC
+per scribe (G, p) {'1': (np.float64(213.0456048557466), np.float64(0.014492753623188406)), '2': (np.float64(18.77962584447549), np.float64(0.07596201899050475)), '3': (np.float64(12.966384525178052), np.float64(0.527736131934033)), '4': (np.float64(31.747161150554064), np.float64(0.20239880059970014))}
+tables {'1': {'H': {'t': 1177, 'k': 1107, 'p': 42, 'f': 16}, 'P': {'t': 109, 'k': 455, 'f': 2, 'p': 2}}, '2': {'B': {'t': 725, 'k': 1582, 'p': 45, 'f': 11}, 'H': {'t': 264, 'k': 680, 'p': 19, 'f': 19}}, '3': {'H': {'t': 96, 'k': 165, 'p': 8, 'f': 4}, 'S': {'t': 1047, 'k': 2424, 'p': 50, 'f': 12}}, '4': {'A': {'t': 47, 'k': 105, 'p': 7, 'f': 4}, 'C': {'t': 93, 'k': 73, 'p': 11, 'f': 5}, 'Z': {'t': 88, 'k': 98, 'p': 18, 'f': 17}}}
+p+f merged (np.float64(263.5307251486568), np.float64(0.0009995002498750624)) | with paragraph lines (np.float64(288.46121902591244), np.float64(0.0004997501249375312))
+EXIT 0

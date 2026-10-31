@@ -686,3 +686,7 @@ signs Voynich's spaces are as predictable as in languages.
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-31 | E110 (Arham) p vs f: same letter or different? 113 minimal pairs, word-specific choice beyond scribe/paragraph/slot (`PF_SAME_OR_DIFFERENT.md`) | VALID (real letter pairs caught 17–20/20; planted second forms 0/20). Voynich G 179.6, p 0.47: SAME-LETTER-LIKE. Every common pair favours p (e.g. opchedy 39:3); only p/f alone leans f | none (pre-registered) | 0.7422 | 0.1816 | 0.0342 | 0.0421 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-31 | E113 (Arham, Reddit R12) gallows mix by section within scribe, rotation null (`GALLOWS_BY_SECTION.md`) | VALID (planted 10/10, false alarms 0/10). Voynich G 276.5, p 0.0015: SECTION-SPECIFIC, driven by scribe 1 herbal t/k 1.06 vs pharma 0.24 (same in prose alone); other scribes not significant alone. Reddit's "f herbal, p pharma" not supported (p/f rare outside paragraph lines) | none (pre-registered) | 0.7422 | 0.1816 | 0.0342 | 0.0421 |
