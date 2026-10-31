@@ -1,0 +1,11 @@
+V1_ZL_cos: pages 154 pairs 2525 | L band +0.034..+0.333 (n 69) | G band -0.098..+0.139 (n 60) | VALID False
+  VOYNICH COMPACT -0.021 (sd 0.114) side G | groups B|2|B -0.030 B|3|S +0.041 A|1|P -0.074 A|1|H +0.283
+V2_ZL_jac: pages 154 pairs 2525 | L band +0.098..+0.411 (n 69) | G band -0.058..+0.166 (n 60) | VALID False
+  VOYNICH COMPACT -0.006 (sd 0.116) side G | groups B|2|B -0.036 B|3|S +0.063 A|1|P -0.045 A|1|H +0.296
+V3_IT_cos: pages 153 pairs 2459 | L band -0.022..+0.374 (n 69) | G band -0.101..+0.182 (n 60) | VALID False
+  VOYNICH COMPACT +0.041 (sd 0.121) side - | groups B|2|B +0.007 B|3|S +0.089 A|1|P +0.026 A|1|H +0.313
+V4_GC_cos: pages 152 pairs 2400 | L band +0.067..+0.351 (n 69) | G band -0.106..+0.180 (n 60) | VALID False
+  VOYNICH COMPACT +0.077 (sd 0.106) side - | groups B|2|B +0.058 B|3|S +0.197 A|1|P -0.024 A|1|H +0.327
+VERDICT VOID (0 valid variants) | M x 1
+done 40s
+EXIT 0

@@ -654,3 +654,7 @@ signs Voynich's spaces are as predictable as in languages.
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-31 | E102 (Arham, Reddit R1) vocabulary drift with page distance, same Currier/scribe/section, different sheets (`VOCAB_DRIFT.md`) | VOID: meaningful band +0.24 to +0.41 overlaps generator band +0.20 to +0.42; Voynich +0.397. Unscored: in compact sections (bathing, stars, pharma) languages drift (medians +0.13 to +0.23), generator, Naibbe and Voynich do not (−0.07 to +0.04); herbal A Voynich +0.28 high. Pharma pages are closer to far herbal A pages (0.325) than to near other pages (0.303): the Reddit claim is not supported | none | 0.4897 | 0.3594 | 0.0676 | 0.0833 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-31 | E103 (Arham) section-by-section drift in bathing/stars/pharma, confirmatory over 4 variants (ZL cosine, ZL Jaccard, Takahashi, Glen Claston) (`SECTION_DRIFT.md`) | VOID: bands overlap in all 4 variants (medians: languages +0.18 to +0.27, generator +0.02 to +0.05). Unscored: Voynich −0.02 to +0.08, below most languages; Culpeper's herbal catalogue also does not drift (−0.03 to +0.09); herbal A drifts in all transcriptions (+0.28 to +0.33) | none | 0.4897 | 0.3594 | 0.0676 | 0.0833 |
