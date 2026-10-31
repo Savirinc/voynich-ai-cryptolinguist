@@ -1,0 +1,21 @@
+Voynich lines 3406 tokens 28841 | H 9762 S 9959 B 5489
+gen gen0     A: D -0.0046 planted +0.1032 | B: Z +0.92 planted +5.56
+gen gen1     A: D -0.0078 planted +0.1182 | B: Z -0.17 planted +4.33
+gen gen2     A: D +0.0049 planted +0.1086 | B: Z +0.75 planted +4.84
+gen gen3     A: D -0.0000 planted +0.1217 | B: Z -7.92 planted +0.49
+gen gen4     A: D +0.0009 planted +0.1071 | B: Z -1.68 planted +4.45
+gen gen5     A: D +0.0086 planted +0.1191 | B: Z -3.28 planted +3.11
+gen gen6     A: D -0.0027 planted +0.1087 | B: Z -0.84 planted +3.95
+gen gen7     A: D -0.0041 planted +0.1066 | B: Z +5.13 planted +9.45
+gen gen8     A: D -0.0008 planted +0.1037 | B: Z +3.10 planted +5.49
+gen gen9     A: D -0.0045 planted +0.1021 | B: Z +2.06 planted +7.88
+lang latVUC   A: D +0.0028 planted +0.1052 | B: Z -1.25 planted +17.08
+lang ita1885  A: D -0.0003 planted +0.1514 | B: Z +2.28 planted +17.80
+lang deu1912  A: D +0.0008 planted +0.1696 | B: Z -1.73 planted +22.28
+lang ces1613  A: D +0.0015 planted +0.0885 | B: Z +1.30 planted +14.27
+lang turytc   A: D +0.0004 planted +0.0858 | B: Z -1.52 planted +14.81
+A: planted-gen p10 +0.1031 unplanted max +0.0086 p90 +0.0053 VALID True | B: planted-gen Z>2 9/10, unplanted Z<=2 7/10 VALID False
+VOYNICH A: last 0.238 mid 0.100 D +0.1380 (sd 0.0082) -> SQUEEZE-LIKE | by section H +0.081 S +0.134 B +0.097
+VOYNICH B: rates H 0.148 S 0.117 B 0.091 gap -0.042 Z -8.87 -> VOID
+done 11s
+EXIT 0
