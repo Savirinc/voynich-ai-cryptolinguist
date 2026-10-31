@@ -97,3 +97,32 @@ pointer to what *f* and *p* do.
 - **Order of copies:** reading from the divider (the transcribers' start), the copies run *f* (10–1 o'clock, top),
   *f* (1:30–4:30, right), *p* (4:30–7, bottom), *p* (7:30–10, left). So *f* covers the top and right half and *p*
   the bottom and left half.
+
+## X112 numeral check, face labels and comparisons (Arham, 2026-10-31; unscored)
+**1. Are the 18 ring signs a count (degree or hour labels)? Probably not.**
+- **Repeats:** a count of 18 single-sign labels needs 18 different signs. The list repeats *r* (places 4 and 13) and
+  *v* (places 5 and 11), so it has 16 distinct signs.
+- **Letter numerals:** with 5° labels in a letter-numeral system (Greek, Hebrew, Arabic *abjad*: 5, 10, 10+5, 20, 20+5 …),
+  every second label carries the same "+5" sign, and the marks would pair up. Neither the signs nor the gaps
+  alternate; the only tight pair is *@169 v*.
+- **Not the script's own alphabet:** the list lacks the script's commonest glyphs *e, h, a, i, s, n, q* (ranks 2, 3, 5,
+  8, 11, 14, 15). It includes ultra-rare ones: *v* (1 use in all prose), *x* (18), and *@169–@172* (none). Its
+  ordinary members are *o, y, c, d, k, l, r, t*, ranks 1–13.
+- **Conclusion:** a special sign set, not a simple numbering and not an alphabet listing of the script.
+
+**2. Comparisons** (public-domain images in `data/external/comparison_images_x112/`):
+- **Chaucer-type astrolabe plate:** an outer degree ring numbered every 10° and ticked every 5°, and a ring of 24 single
+  capital letters, one per hour. Single signs, one per division, each written once.
+- **Byrhtferth's diagram** (St John's College Oxford MS 17, f. 7v, about 1110): four cardinal roundels (elements,
+  winds), four seasons and ages, and the letters A-D-A-M at the corners. Every quarter carries different words.
+- **Wheel of Fortune** (Carmina Burana): four figures in rotation with four different labels.
+- **None** has one list repeated per quarter.
+
+**3. The four labels near the faces** (ZL lines 6–9: *otodarag, oparairdly, olkeedal, otardaly*):
+- **Four different words,** none used in running prose. Their nearest prose words are *otodar, opaiiral, okeedal,
+  otardam*.
+- **Not variants of one word:** they are no more alike than four random labels of the book (mean normalised edit
+  distance 0.667 vs 0.764, p 0.13).
+- **Typical label shape:** all start *o* + a tall letter or *l* (*ot, op, ol, ot*), the book's ordinary label class.
+- **Fit:** consistent with four different names, as in Byrhtferth-type wheels (four seasons, winds or elements). The
+  transcription does not say which label sits by which face.
