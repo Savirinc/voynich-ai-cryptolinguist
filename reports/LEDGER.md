@@ -658,3 +658,7 @@ signs Voynich's spaces are as predictable as in languages.
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-31 | E103 (Arham) section-by-section drift in bathing/stars/pharma, confirmatory over 4 variants (ZL cosine, ZL Jaccard, Takahashi, Glen Claston) (`SECTION_DRIFT.md`) | VOID: bands overlap in all 4 variants (medians: languages +0.18 to +0.27, generator +0.02 to +0.05). Unscored: Voynich −0.02 to +0.08, below most languages; Culpeper's herbal catalogue also does not drift (−0.03 to +0.09); herbal A drifts in all transcriptions (+0.28 to +0.33) | none | 0.4897 | 0.3594 | 0.0676 | 0.0833 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-31 | E104 (Arham, Reddit R13) AB/BA word-pair order preference beyond a coin (`PAIR_REVERSAL.md`) | VALID (meaningful p10 0.544 > generator p90 0.519). Voynich ASYM 0.179 (sd 0.021), inside the generator band, 12 sd below the lowest of 69 meaningful texts (0.428); 89% of recurring pairs occur in both orders. Unscored robustness: 0.191 without near-copy pairs; Latin verse keeps order (Ovid 0.56, Vergil 0.58) | **M × 3** (as pre-registered) | 0.7422 | 0.1816 | 0.0342 | 0.0421 |

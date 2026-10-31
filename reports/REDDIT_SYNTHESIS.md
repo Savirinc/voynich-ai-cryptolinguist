@@ -27,7 +27,7 @@ Fincher, the Naibbe author).
 | R10 | Dice word generator, one die per slot, no copying | czs0g6, iuvmly | a period-plausible M process for the 13-feature battery | M |
 | R11 | Vowel harmony with o/a/y as vowels | 4hmqxa | vowel agreement within words; Turkish, Hungarian, Finnish as positive controls | L |
 | R12 | Gallows as section markers (t zodiac, f herbal, p pharma) | 1sj3vlq, 1kzhkjt | controlled for paragraph first lines | — |
-| R13 | AB and BA word-pair symmetry (Fincher) | 1um5ejs | vs languages, gibberish, generator | M or L |
+| R13 | AB and BA word-pair symmetry (Fincher) | 1um5ejs | vs languages, gibberish, generator | M or L | **Done (E104):** GENERATOR-LIKE, M × 3 |
 | R14 | Quire 20 as an alphabetical glossary | rl7lgv | are paragraph-first words ordered? glyph order chosen on one half, tested on the other | L |
 | R15 | Maltese (not in E049–E063) | pnmh1l | E047/E088 attack with a Maltese Bible | L |
 | R16 | f57v inner ring: a 17-glyph sequence repeats 4 times | i6pktp | check in the transcription; ties into the p vs f lead | — |
