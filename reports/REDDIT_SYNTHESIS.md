@@ -21,7 +21,7 @@ Fincher, the Naibbe author).
 | R4 | One word codes one plaintext letter (Trithemius "Ave Maria" type); three-wheel word cipher (Zandbergen arXiv 2104.12548) | eaxi7z, oyeayi, 15gjhdf | simulate, score on E032's 13 features (classes not in E098) | C |
 | R5 | Untested published verbose ciphers: Griffoynich (Feaster), Zandbergen's "NOT the Solution", Polygraphia III, Firth's sorting cipher | 1oii3rm, 1q3n62s, 1szxxtg | simulate, 13 features | C |
 | R6 | Text squeezed around drawings: words before a drawing gap vs before a normal line end; standalone s before breaks | as5xxr, j1s5ib, 15b1ucr, 1574jxc | a filler process adapts word length; split real words rejoin across the break | M or L |
-| R7 | Paragraph-initial gallows are decorative capitals (85% of paragraphs start with one) | slu7jf, 12vrnwm, oyeayi, 1qavl2o | remove the first gallows: does the rest become an ordinary word? (E072-style) | — |
+| R7 | Paragraph-initial gallows are decorative capitals (85% of paragraphs start with one) | slu7jf, 12vrnwm, oyeayi, 1qavl2o | remove the first gallows: does the rest become an ordinary word? (E072-style) | — | **Done (E106):** DECORATIVE, marginal |
 | R8 | Original leaf order (Layfield & Fagin Davis, Digital Medievalist) | 1oik97p, 1x00hs6, 1xfluhl | neighbouring-page vocabulary more continuous in the reconstructed order? (C24) | L |
 | R9 | Verse/chant metre | 8c08ay, 80nx9b, hlbndb | regular within-line length vs verse and prose | L |
 | R10 | Dice word generator, one die per slot, no copying | czs0g6, iuvmly | a period-plausible M process for the 13-feature battery | M |

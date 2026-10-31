@@ -1,0 +1,18 @@
+Voynich lines 3406 paragraph-start lines 629 tokens 28841
+gen0: unplanted D -0.006 z -0.11 (n 37) | planted R_para 0.907 R_mid 0.825 D +0.082 z +5.02
+gen1: unplanted D +0.031 z +1.06 (n 34) | planted R_para 0.889 R_mid 0.844 D +0.045 z +2.39
+gen2: unplanted D -0.035 z -0.77 (n 46) | planted R_para 0.905 R_mid 0.819 D +0.086 z +4.50
+gen3: unplanted D +0.047 z +6.99 (n 38) | planted R_para 0.872 R_mid 0.836 D +0.036 z +1.63
+gen4: unplanted D +0.016 z +0.37 (n 40) | planted R_para 0.894 R_mid 0.796 D +0.098 z +5.10
+gen5: unplanted D +0.024 z +0.47 (n 35) | planted R_para 0.888 R_mid 0.799 D +0.089 z +4.60
+gen6: unplanted D +0.031 z +0.76 (n 44) | planted R_para 0.887 R_mid 0.818 D +0.070 z +2.50
+gen7: unplanted D +0.036 z +0.99 (n 40) | planted R_para 0.862 R_mid 0.796 D +0.066 z +3.29
+gen8: unplanted D +0.062 z +2.04 (n 35) | planted R_para 0.887 R_mid 0.797 D +0.090 z +4.12
+gen9: unplanted D -0.049 z -1.07 (n 47) | planted R_para 0.906 R_mid 0.786 D +0.121 z +6.14
+planted z>2 9/10 | unplanted |z|<=2 8/10 | planted D p10 +0.044 | VALID True
+VOYNICH R_para 0.632 R_mid 0.557 D +0.075 z +2.21 (n 519, 1063) by gallows {'t': 0.684931506849315, 'k': 0.5373134328358209, 'p': 0.6357142857142857, 'f': 0.5384615384615384}
+  top remainders [('ol', 20), ('chedy', 13), ('chor', 10), ('chol', 8), ('chedar', 8), ('cheol', 7), ('shol', 7), ('olaiin', 7), ('shedy', 7), ('odaiin', 6), ('cho', 5), ('or', 5)]
+  top first words of other lines [('daiin', 127), ('y', 55), ('saiin', 53), ('dain', 38), ('dar', 31), ('sol', 30), ('sain', 30), ('ol', 29), ('sar', 29), ('qokeey', 25), ('or', 25), ('sor', 25)]
+VERDICT DECORATIVE (no factor)
+done 2s
+EXIT 0

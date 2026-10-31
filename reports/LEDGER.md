@@ -666,3 +666,7 @@ signs Voynich's spaces are as predictable as in languages.
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-31 | E105 (Arham, Reddit R11) vowel harmony with o/a/y, position-preserving null (`VOWEL_HARMONY.md`) | VALID (harmony languages ≥ +0.516, non-harmony ≤ +0.154). Voynich −0.001: NO HARMONY (generator 0.000–0.020; with e, +0.031 like Latin) | none (pre-registered: absence is not evidence for M) | 0.7422 | 0.1816 | 0.0342 | 0.0421 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-31 | E106 (Arham, Reddit R7) paragraph-initial gallows as decorative capitals (`GALLOWS_CAPITALS.md`) | VALID (planted 9/10, unplanted false alarms 2/10). Voynich: removing the gallows leaves an ordinary word 63.2% vs 55.7% mid-line, D +0.075 (z +2.21; planted p10 +0.044): DECORATIVE, marginal. Rule 8 check (E106b; omitted from the prereg, run before scoring): 9/10 seeds z > 2. Remainders are mid-line words (ol, chedy, chor, chol) | none (pre-registered) | 0.7422 | 0.1816 | 0.0342 | 0.0421 |
