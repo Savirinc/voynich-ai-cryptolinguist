@@ -674,3 +674,7 @@ signs Voynich's spaces are as predictable as in languages.
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-31 | E107 (Arham) gallows as kashida-like decoration anywhere: context difference of with/without-gallows pairs (`GALLOWS_CONTEXT.md`) | VALID (planted decoration ≤ 0.003, real minimal pairs ≥ 0.839). Voynich 0.705 (13 pairs): PARTLY, at the generator's level (0.52–0.93). Unscored: bench gallows (cth-) pairs nearer interchangeable (median 0.42, 4 pairs) than plain gallows (0.73, 9) | none | 0.7422 | 0.1816 | 0.0342 | 0.0421 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-31 | E108 (Arham) gallows shapes by scribe and at word starts, 37 allowed full-res pages, 1,252 blind-labelled crops (`GALLOWS_SHAPES.md`) | Scribes: WEAK (page classifier 48% vs 32% chance, p 0.016; herbal only 71% vs 43%, p 0.010; rule 8 check E108b p 0.007–0.015, omitted from the prereg); scribe 1 taller and more upright. Word starts: NOT LARGER (width +10.6%, p 0.0095 misses 0.005; height +3%). Unscored: line-initial gallows +17% taller, +41% wider; bench gallows taller (3.49 vs 3.05) | none (pre-registered) | 0.7422 | 0.1816 | 0.0342 | 0.0421 |
