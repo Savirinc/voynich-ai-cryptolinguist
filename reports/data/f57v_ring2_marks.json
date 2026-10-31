@@ -1,0 +1,6 @@
+{"signs": ["o","l","d","r","v","x","k","m","f/p","@169","v2","t","r2","@170","@171","y","c","@172"],
+ "copy1": [47,51.5,56.5,61,65,70.5,75.5,79.5,84.5,89,91.5,95.5,100,105,113.5,120.5,126.5,131.5],
+ "copy2": [136.5,140.5,146,151.5,155.5,160.5,165.5,170,174.5,179.5,181,186.5,191,195.5,200.5,206.5,211.5,216.5],
+ "copy3": [221,224.5,228.5,231.5,236,239.5,244,247.5,254,258.5,260.5,266,273,278,284,291,295,298],
+ "copy4": [308.5,313,318.5,324,328.5,335,340.5,344.5,349,354.5,356.5,363.5,370,376,382.5,389.8,394.5,401],
+ "note": "angles in degrees clockwise from 12 o'clock about the fitted centre (1734.1,1456.8) of the f57v full-res image; read by eye from 0.1-degree scaled strips, about +-0.7 degree; copy4 values past 360 wrap. A faint radial line at about 303.5 degrees separates copy3's last mark from copy4's first."}

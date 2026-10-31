@@ -63,3 +63,37 @@ decoration), so nothing is scored. It is a lead for the queued "p vs f" question
 in a quarter-by-quarter cycle on f57v and in a list on f66r. That fits a notation (numbers, a calendar or compass
 cycle, a sign table) better than running text. The *f/p* split between the two halves of the circle is the clearest
 pointer to what *f* and *p* do.
+
+## X111 ring measurement from the image (Arham, 2026-10-31; unscored)
+**Method.**
+- **Unrolling:** the centre of the ruled circles was fitted on the full-resolution image (1734, 1457 px), and ring 2
+  was unrolled into a straight strip.
+- **Reading:** every mark's angle was read by eye on 30° strips with a 0.1° scale (about ±0.7°).
+- **Data:** the readings are in `reports/data/f57v_ring2_marks.json`. Angles run clockwise from 12 o'clock.
+
+**1. There are 72 marks, 18 per copy, not 17.**
+- The transcription token `@169;v` is two separate marks on the vellum: a hooked stroke, then a small *v*-like sign
+  1.5–2.5° later.
+- So each copy is *o l d r v x k m f/p @169 v t r @170 @171 y c @172*: 18 marks, 4 × 18 = 72.
+- This agrees with Nick Pelling's count of 72, though not with his explanation (two signs merged into a fake gallows):
+  here the extra mark is the one that the transcription itself joins.
+
+**2. The spacing averages exactly 5°, but it is freehand, not an instrument scale.**
+- **Spacing:** with 72 marks, the mean gap is necessarily 5.00°. The individual gaps vary from 1.5° to 10.5°
+  (sd 1.4°, 28% of a step).
+- **Layout:** the gaps follow the same layout in every copy. The pair *@169 v* is always close (about 2°), and *@170*
+  and *@171* (the large compound sign) always take about 6.5–7°.
+- **Copy lengths:** the copies are not equal. The copy written first, starting just after a faint radial line at
+  about 303.5° (10 o'clock), spans 98.5°; the others span 89.5°, 84.5° and 87.5°. The scribe started wide and then
+  squeezed the rest to close the circle.
+- **Conclusion:** this is a written sequence fitted to a drawn circle, not marks at engraved, measured divisions. A
+  hand-drawn copy of an instrument would also look like this, so it neither proves nor rules out an instrument.
+
+**3. Each copy points at a face.**
+- **Centres:** the copies are centred at about 5°, 89°, 176° and 260°. The faces sit at about 0°, 90°, 180° and
+  270–285°.
+- **The *f/p* mark** sits about 37–41° into each copy, at 349°, 84.5°, 174.5° and 254°: within about 5–15° of the
+  face direction in every quarter.
+- **Order of copies:** reading from the divider (the transcribers' start), the copies run *f* (10–1 o'clock, top),
+  *f* (1:30–4:30, right), *p* (4:30–7, bottom), *p* (7:30–10, left). So *f* covers the top and right half and *p*
+  the bottom and left half.
