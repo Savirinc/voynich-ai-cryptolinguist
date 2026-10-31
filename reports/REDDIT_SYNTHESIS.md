@@ -15,7 +15,7 @@ Fincher, the Naibbe author).
 ## Most promising NEW testable ideas (merged, not ranked by belief)
 | # | Idea | Posts | Test | Who could win |
 |---|---|---|---|---|
-| R1 | Vocabulary drifts with position in the book, not topic (late small-plant pages do not return to herbal words; Naibbe shows no drift) | 1v4hiiz | page similarity vs folio distance, controlling for Currier, section, scribe, sheet; Voynich vs generator, Naibbe, real books | M or L |
+| R1 | Vocabulary drifts with position in the book, not topic (late small-plant pages do not return to herbal words; Naibbe shows no drift) | 1v4hiiz | page similarity vs folio distance, controlling for Currier, section, scribe, sheet; Voynich vs generator, Naibbe, real books | M or L | **Done (E102):** VOID (bands overlap); unscored: no drift in compact sections, like the generator; pharma claim not supported |
 | R2 | Rare words are two common words with the space dropped (Zattera slot order fits 95–99% of top types) | 1bxvr5t, 1d74ac3 | share of hapaxes that split into two slot-valid words vs shuffled, languages, generator; could undercut E067 | M or L | **Done (E101):** 31% of once-used words cut into two common words, but the generator does the same and joins in Voynich-like text are undetectable from the words alone; line-end excess is mostly the line-end forms; E067 unaffected (re-spacing 111.9 → 109.1) |
 | R3 | Repeated multi-word sequences almost absent (only two 4-word repeats) | w2esca | repeated 3–5-gram counts vs 60 languages, generator, human gibberish | M or L |
 | R4 | One word codes one plaintext letter (Trithemius "Ave Maria" type); three-wheel word cipher (Zandbergen arXiv 2104.12548) | eaxi7z, oyeayi, 15gjhdf | simulate, score on E032's 13 features (classes not in E098) | C |

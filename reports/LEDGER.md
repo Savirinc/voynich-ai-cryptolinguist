@@ -650,3 +650,7 @@ signs Voynich's spaces are as predictable as in languages.
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-31 | E101 (Arham, Reddit R2 follow-up) glued-looking words at line ends and in the bathing section (`GLUE_WHERE.md`) | A: VALID, Voynich D +0.138 SQUEEZE-LIKE (controls ≤ +0.009; planted p10 +0.103), but line-end words are rarer in general and end in *-dy/-am/-om*; among rare words 62% vs 54%: mostly the known line-end forms. B: VOID (generator false positives 3/10); unscored bathing has fewer glued words (Z −8.9). Unscored census: 31% of once-used words cut into two common words; scribes 1–3 equal | none (pre-registered) | 0.4897 | 0.3594 | 0.0676 | 0.0833 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-10-31 | E102 (Arham, Reddit R1) vocabulary drift with page distance, same Currier/scribe/section, different sheets (`VOCAB_DRIFT.md`) | VOID: meaningful band +0.24 to +0.41 overlaps generator band +0.20 to +0.42; Voynich +0.397. Unscored: in compact sections (bathing, stars, pharma) languages drift (medians +0.13 to +0.23), generator, Naibbe and Voynich do not (−0.07 to +0.04); herbal A Voynich +0.28 high. Pharma pages are closer to far herbal A pages (0.325) than to near other pages (0.303): the Reddit claim is not supported | none | 0.4897 | 0.3594 | 0.0676 | 0.0833 |
