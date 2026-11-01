@@ -1,0 +1,698 @@
+{
+ "experiment": "E117",
+ "seed": 117117,
+ "N": 28841,
+ "results": {
+  "meaningful": {
+   "bible:arb-vd": {
+    "HEAD": -0.3766212354281368,
+    "n_entries": 68,
+    "tokens": 28911
+   },
+   "bible:asmfb": {
+    "HEAD": -0.6534000256272048,
+    "n_entries": 110,
+    "tokens": 28901
+   },
+   "bible:azb": {
+    "HEAD": -0.44489191671292716,
+    "n_entries": 63,
+    "tokens": 29059
+   },
+   "bible:bba": {
+    "HEAD": -0.4089080349081271,
+    "n_entries": 91,
+    "tokens": 29132
+   },
+   "bible:bqcsim": {
+    "HEAD": -0.3244341617270679,
+    "n_entries": 36,
+    "tokens": 28865
+   },
+   "bible:cebulb": {
+    "HEAD": -0.1250725115399678,
+    "n_entries": 92,
+    "tokens": 28993
+   },
+   "bible:cekak": {
+    "HEAD": 0.14268395424273528,
+    "n_entries": 54,
+    "tokens": 29148
+   },
+   "bible:ces1613": {
+    "HEAD": 0.020122706737770356,
+    "n_entries": 46,
+    "tokens": 28869
+   },
+   "bible:cth": {
+    "HEAD": -0.2356544702178166,
+    "n_entries": 52,
+    "tokens": 29422
+   },
+   "bible:dan1931": {
+    "HEAD": -0.7217666380443144,
+    "n_entries": 40,
+    "tokens": 29149
+   },
+   "bible:deu1912": {
+    "HEAD": -0.14046524233792002,
+    "n_entries": 41,
+    "tokens": 29429
+   },
+   "bible:eng-kjv": {
+    "HEAD": -0.27402047811800073,
+    "n_entries": 40,
+    "tokens": 29109
+   },
+   "bible:ewe": {
+    "HEAD": -0.46909812651014754,
+    "n_entries": 41,
+    "tokens": 29424
+   },
+   "bible:fraLSG": {
+    "HEAD": -1.2254535717258277,
+    "n_entries": 33,
+    "tokens": 29383
+   },
+   "bible:gax": {
+    "HEAD": -0.2408445726437845,
+    "n_entries": 72,
+    "tokens": 29198
+   },
+   "bible:grcbyz": {
+    "HEAD": 0.13128655789252267,
+    "n_entries": 75,
+    "tokens": 28997
+   },
+   "bible:hausa": {
+    "HEAD": -0.19222520974740037,
+    "n_entries": 41,
+    "tokens": 29307
+   },
+   "bible:haw1868": {
+    "HEAD": 0.1696694024977847,
+    "n_entries": 60,
+    "tokens": 29335
+   },
+   "bible:hboWLC": {
+    "HEAD": -0.3078472765738106,
+    "n_entries": 65,
+    "tokens": 28849
+   },
+   "bible:hch": {
+    "HEAD": -0.34371515991457363,
+    "n_entries": 75,
+    "tokens": 29287
+   },
+   "bible:hil": {
+    "HEAD": -0.000615961768841464,
+    "n_entries": 45,
+    "tokens": 29189
+   },
+   "bible:hne": {
+    "HEAD": -0.4818907219406385,
+    "n_entries": 35,
+    "tokens": 29608
+   },
+   "bible:hrv": {
+    "HEAD": -0.11176715017476527,
+    "n_entries": 54,
+    "tokens": 29450
+   },
+   "bible:hun": {
+    "HEAD": -0.14851644236504286,
+    "n_entries": 69,
+    "tokens": 29085
+   },
+   "bible:iloulb": {
+    "HEAD": -0.9572713294444486,
+    "n_entries": 37,
+    "tokens": 29566
+   },
+   "bible:indayt": {
+    "HEAD": -0.444525322715045,
+    "n_entries": 43,
+    "tokens": 29085
+   },
+   "bible:ita1885": {
+    "HEAD": -0.5011913230021593,
+    "n_entries": 90,
+    "tokens": 28902
+   },
+   "bible:kik": {
+    "HEAD": -0.47448249519548386,
+    "n_entries": 34,
+    "tokens": 29508
+   },
+   "bible:latVUC": {
+    "HEAD": -0.08923777214166202,
+    "n_entries": 130,
+    "tokens": 29189
+   },
+   "bible:lin": {
+    "HEAD": -0.5696421712870263,
+    "n_entries": 89,
+    "tokens": 28977
+   },
+   "bible:luo": {
+    "HEAD": 0.08625039045740487,
+    "n_entries": 72,
+    "tokens": 28921
+   },
+   "bible:mal": {
+    "HEAD": -0.7482875423779716,
+    "n_entries": 71,
+    "tokens": 29021
+   },
+   "bible:meu": {
+    "HEAD": 0.03502777351129441,
+    "n_entries": 76,
+    "tokens": 29217
+   },
+   "bible:mri2012": {
+    "HEAD": -0.08124073920760405,
+    "n_entries": 26,
+    "tokens": 29349
+   },
+   "bible:nheBl": {
+    "HEAD": 0.2704858761229703,
+    "n_entries": 55,
+    "tokens": 29117
+   },
+   "bible:nld": {
+    "HEAD": -0.3946558710450019,
+    "n_entries": 39,
+    "tokens": 28957
+   },
+   "bible:nya": {
+    "HEAD": -0.6038765419506217,
+    "n_entries": 51,
+    "tokens": 29106
+   },
+   "bible:pan": {
+    "HEAD": -0.6042406937957858,
+    "n_entries": 37,
+    "tokens": 29707
+   },
+   "bible:pesOPV": {
+    "HEAD": 0.07189962455839155,
+    "n_entries": 50,
+    "tokens": 29390
+   },
+   "bible:polubg": {
+    "HEAD": 0.03186036975920117,
+    "n_entries": 55,
+    "tokens": 29038
+   },
+   "bible:rmc": {
+    "HEAD": -0.3280550551620956,
+    "n_entries": 43,
+    "tokens": 29149
+   },
+   "bible:ron1924": {
+    "HEAD": 0.059108686493910836,
+    "n_entries": 63,
+    "tokens": 29015
+   },
+   "bible:shr": {
+    "HEAD": -0.906266189277832,
+    "n_entries": 34,
+    "tokens": 28957
+   },
+   "bible:slk": {
+    "HEAD": -0.3886483954228018,
+    "n_entries": 46,
+    "tokens": 29164
+   },
+   "bible:sna": {
+    "HEAD": -0.25834727980973876,
+    "n_entries": 88,
+    "tokens": 28915
+   },
+   "bible:srp1865": {
+    "HEAD": -0.02651444416333135,
+    "n_entries": 47,
+    "tokens": 28893
+   },
+   "bible:suzBl": {
+    "HEAD": -0.149270324586833,
+    "n_entries": 46,
+    "tokens": 29436
+   },
+   "bible:swe": {
+    "HEAD": -0.4756864526166899,
+    "n_entries": 25,
+    "tokens": 29036
+   },
+   "bible:swhulb": {
+    "HEAD": -0.09914339854410084,
+    "n_entries": 77,
+    "tokens": 29022
+   },
+   "bible:tam2017": {
+    "HEAD": -0.3031725216356508,
+    "n_entries": 65,
+    "tokens": 28924
+   },
+   "bible:tglulb": {
+    "HEAD": -0.10018270004995655,
+    "n_entries": 29,
+    "tokens": 28953
+   },
+   "bible:tod": {
+    "HEAD": -0.557596172227187,
+    "n_entries": 39,
+    "tokens": 29699
+   },
+   "bible:ton": {
+    "HEAD": -0.3723199245463149,
+    "n_entries": 29,
+    "tokens": 29015
+   },
+   "bible:turytc": {
+    "HEAD": -1.2120919759746833,
+    "n_entries": 59,
+    "tokens": 29067
+   },
+   "bible:uigara": {
+    "HEAD": -0.9859365684939405,
+    "n_entries": 48,
+    "tokens": 28907
+   },
+   "bible:ukr1871": {
+    "HEAD": 0.24813235871919537,
+    "n_entries": 58,
+    "tokens": 28956
+   },
+   "bible:urd": {
+    "HEAD": -0.13469491843932302,
+    "n_entries": 63,
+    "tokens": 29290
+   },
+   "bible:yap": {
+    "HEAD": -0.36226291581393677,
+    "n_entries": 32,
+    "tokens": 29872
+   },
+   "bible:ydd": {
+    "HEAD": -0.0715310766725293,
+    "n_entries": 60,
+    "tokens": 29115
+   },
+   "bible:yor": {
+    "HEAD": -0.5363654724898569,
+    "n_entries": 34,
+    "tokens": 29008
+   },
+   "bible:zlmKSZI": {
+    "HEAD": -0.08997464505010436,
+    "n_entries": 32,
+    "tokens": 28841
+   },
+   "other:culpeper": {
+    "HEAD": 0.7380065789713068,
+    "n_entries": 74,
+    "tokens": 29166
+   }
+  },
+  "generator": {
+   "e032_seed1": {
+    "HEAD": 0.0711134345974635,
+    "n_entries": 109,
+    "tokens": 29072
+   },
+   "e032_seed10": {
+    "HEAD": 0.038258220033277654,
+    "n_entries": 112,
+    "tokens": 28865
+   },
+   "e032_seed2": {
+    "HEAD": -0.021996016836484746,
+    "n_entries": 109,
+    "tokens": 28853
+   },
+   "e032_seed3": {
+    "HEAD": -0.06328061248777386,
+    "n_entries": 107,
+    "tokens": 28940
+   },
+   "e032_seed4": {
+    "HEAD": 0.02595615287984331,
+    "n_entries": 113,
+    "tokens": 28971
+   },
+   "e032_seed5": {
+    "HEAD": -0.11022472174081553,
+    "n_entries": 112,
+    "tokens": 28856
+   },
+   "e032_seed6": {
+    "HEAD": 0.19779475627572046,
+    "n_entries": 109,
+    "tokens": 28864
+   },
+   "e032_seed7": {
+    "HEAD": 0.04580931264180005,
+    "n_entries": 111,
+    "tokens": 29010
+   },
+   "e032_seed8": {
+    "HEAD": 0.031818660461347945,
+    "n_entries": 112,
+    "tokens": 28937
+   },
+   "e032_seed9": {
+    "HEAD": 0.007066938085604483,
+    "n_entries": 112,
+    "tokens": 28947
+   },
+   "e100_default_s11": {
+    "HEAD": 0.10958703106309836,
+    "n_entries": 109,
+    "tokens": 28917
+   },
+   "e100_default_s12": {
+    "HEAD": 0.02244749359484885,
+    "n_entries": 113,
+    "tokens": 29112
+   },
+   "e100_default_s13": {
+    "HEAD": -0.16567545009132698,
+    "n_entries": 111,
+    "tokens": 28869
+   },
+   "e100_default_s14": {
+    "HEAD": -0.13993771070953095,
+    "n_entries": 113,
+    "tokens": 28987
+   },
+   "e100_default_s15": {
+    "HEAD": -0.1470658009975649,
+    "n_entries": 110,
+    "tokens": 28845
+   },
+   "e100_err10_none_s11": {
+    "HEAD": -0.3159640402738063,
+    "n_entries": 118,
+    "tokens": 28886
+   },
+   "e100_err10_none_s12": {
+    "HEAD": -0.01496744600010068,
+    "n_entries": 122,
+    "tokens": 29024
+   },
+   "e100_err10_none_s13": {
+    "HEAD": -0.1432374047099842,
+    "n_entries": 121,
+    "tokens": 28981
+   },
+   "e100_err10_none_s14": {
+    "HEAD": -0.3934312201391537,
+    "n_entries": 127,
+    "tokens": 28961
+   },
+   "e100_err10_none_s15": {
+    "HEAD": -0.06605431384697602,
+    "n_entries": 126,
+    "tokens": 29078
+   },
+   "e100_err10_position_s11": {
+    "HEAD": -0.15617179766943248,
+    "n_entries": 114,
+    "tokens": 29068
+   },
+   "e100_err10_position_s12": {
+    "HEAD": -0.16063161852522226,
+    "n_entries": 115,
+    "tokens": 28928
+   },
+   "e100_err10_position_s13": {
+    "HEAD": -0.128795244594247,
+    "n_entries": 115,
+    "tokens": 29075
+   },
+   "e100_err10_position_s14": {
+    "HEAD": -0.17943622905753281,
+    "n_entries": 114,
+    "tokens": 28895
+   },
+   "e100_err10_position_s15": {
+    "HEAD": -0.16083535512420527,
+    "n_entries": 111,
+    "tokens": 29079
+   },
+   "e100_err10_reuse0_pos0_s11": {
+    "HEAD": 0.05671764413040438,
+    "n_entries": 112,
+    "tokens": 28920
+   },
+   "e100_err10_reuse0_pos0_s12": {
+    "HEAD": 0.1769888161324522,
+    "n_entries": 113,
+    "tokens": 28924
+   },
+   "e100_err10_reuse0_pos0_s13": {
+    "HEAD": 0.03595403765687588,
+    "n_entries": 113,
+    "tokens": 29023
+   },
+   "e100_err10_reuse0_pos0_s14": {
+    "HEAD": 0.05133530504205611,
+    "n_entries": 108,
+    "tokens": 28961
+   },
+   "e100_err10_reuse0_pos0_s15": {
+    "HEAD": 0.043213852611329207,
+    "n_entries": 114,
+    "tokens": 29030
+   },
+   "e100_err10_s11": {
+    "HEAD": 0.04783186472840882,
+    "n_entries": 111,
+    "tokens": 29017
+   },
+   "e100_err10_s12": {
+    "HEAD": 0.20120586181047279,
+    "n_entries": 107,
+    "tokens": 29098
+   },
+   "e100_err10_s13": {
+    "HEAD": 0.056175095053070626,
+    "n_entries": 110,
+    "tokens": 28887
+   },
+   "e100_err10_s14": {
+    "HEAD": 0.17265576538897645,
+    "n_entries": 110,
+    "tokens": 28863
+   },
+   "e100_err10_s15": {
+    "HEAD": 0.02916414776460439,
+    "n_entries": 109,
+    "tokens": 28865
+   },
+   "e100_err2_random_s11": {
+    "HEAD": 0.3918869869276209,
+    "n_entries": 120,
+    "tokens": 29030
+   },
+   "e100_err2_random_s12": {
+    "HEAD": 0.37145545658878903,
+    "n_entries": 121,
+    "tokens": 29011
+   },
+   "e100_err2_random_s13": {
+    "HEAD": 0.3757746642336565,
+    "n_entries": 118,
+    "tokens": 29009
+   },
+   "e100_err2_random_s14": {
+    "HEAD": 0.2940810856798995,
+    "n_entries": 120,
+    "tokens": 28923
+   },
+   "e100_err2_random_s15": {
+    "HEAD": 0.3643334372192984,
+    "n_entries": 121,
+    "tokens": 28923
+   },
+   "e100_err5_random_s11": {
+    "HEAD": 0.3787735126344723,
+    "n_entries": 120,
+    "tokens": 28930
+   },
+   "e100_err5_random_s12": {
+    "HEAD": 0.42043079992951143,
+    "n_entries": 119,
+    "tokens": 28843
+   },
+   "e100_err5_random_s13": {
+    "HEAD": 0.2576198220411175,
+    "n_entries": 120,
+    "tokens": 28842
+   },
+   "e100_err5_random_s14": {
+    "HEAD": 0.465292038477982,
+    "n_entries": 119,
+    "tokens": 29067
+   },
+   "e100_err5_random_s15": {
+    "HEAD": 0.5212232527722583,
+    "n_entries": 118,
+    "tokens": 28943
+   },
+   "e100_none_s11": {
+    "HEAD": -0.23831746370529303,
+    "n_entries": 129,
+    "tokens": 28969
+   },
+   "e100_none_s12": {
+    "HEAD": -0.20218621411557036,
+    "n_entries": 126,
+    "tokens": 28937
+   },
+   "e100_none_s13": {
+    "HEAD": -0.12491351375008912,
+    "n_entries": 127,
+    "tokens": 29020
+   },
+   "e100_none_s14": {
+    "HEAD": -0.006964024802753284,
+    "n_entries": 124,
+    "tokens": 29013
+   },
+   "e100_none_s15": {
+    "HEAD": -0.11622288054536539,
+    "n_entries": 123,
+    "tokens": 28885
+   },
+   "e100_random_morphhi_s11": {
+    "HEAD": 0.31664857467779606,
+    "n_entries": 115,
+    "tokens": 28922
+   },
+   "e100_random_morphhi_s12": {
+    "HEAD": 0.39162860675341593,
+    "n_entries": 116,
+    "tokens": 28865
+   },
+   "e100_random_morphhi_s13": {
+    "HEAD": 0.33114197499243836,
+    "n_entries": 115,
+    "tokens": 28968
+   },
+   "e100_random_morphhi_s14": {
+    "HEAD": 0.20774210300859008,
+    "n_entries": 114,
+    "tokens": 29069
+   },
+   "e100_random_morphhi_s15": {
+    "HEAD": 0.3941502054091398,
+    "n_entries": 115,
+    "tokens": 29045
+   },
+   "e100_random_s11": {
+    "HEAD": 0.2748909914849122,
+    "n_entries": 121,
+    "tokens": 28901
+   },
+   "e100_random_s12": {
+    "HEAD": 0.2945765434817673,
+    "n_entries": 117,
+    "tokens": 28846
+   },
+   "e100_random_s13": {
+    "HEAD": 0.3337821291486031,
+    "n_entries": 119,
+    "tokens": 28863
+   },
+   "e100_random_s14": {
+    "HEAD": 0.2055148153619603,
+    "n_entries": 121,
+    "tokens": 29070
+   },
+   "e100_random_s15": {
+    "HEAD": 0.45776800797158307,
+    "n_entries": 119,
+    "tokens": 29086
+   },
+   "dice_seed1": {
+    "HEAD": 0.014554260382562063,
+    "n_entries": 173,
+    "tokens": 28841
+   },
+   "dice_seed2": {
+    "HEAD": 0.024416554059652044,
+    "n_entries": 173,
+    "tokens": 28841
+   },
+   "dice_seed3": {
+    "HEAD": 0.07982242885086724,
+    "n_entries": 173,
+    "tokens": 28841
+   },
+   "dice_seed4": {
+    "HEAD": 0.08356546361587389,
+    "n_entries": 173,
+    "tokens": 28841
+   },
+   "dice_seed5": {
+    "HEAD": 0.0016429412908427745,
+    "n_entries": 173,
+    "tokens": 28841
+   },
+   "dice_seed6": {
+    "HEAD": -0.044422072093957446,
+    "n_entries": 173,
+    "tokens": 28841
+   },
+   "dice_seed7": {
+    "HEAD": -0.05340553503835498,
+    "n_entries": 173,
+    "tokens": 28841
+   },
+   "dice_seed8": {
+    "HEAD": 0.029097129614008257,
+    "n_entries": 173,
+    "tokens": 28841
+   },
+   "dice_seed9": {
+    "HEAD": 0.01874270839403351,
+    "n_entries": 173,
+    "tokens": 28841
+   },
+   "dice_seed10": {
+    "HEAD": 0.06688012694157254,
+    "n_entries": 173,
+    "tokens": 28841
+   }
+  }
+ },
+ "L_band": [
+  -0.7149299768026034,
+  0.08481531386750352
+ ],
+ "G_band": [
+  -0.16065199218512055,
+  0.38005902204636666
+ ],
+ "valid": false,
+ "locked_test_excluded": [
+  "1",
+  "102",
+  "105",
+  "114",
+  "30",
+  "35",
+  "38",
+  "51",
+  "52",
+  "56",
+  "75",
+  "8",
+  "86",
+  "87",
+  "9"
+ ],
+ "runtime_s": 34.86748385429382
+}

@@ -1,0 +1,7 @@
+page-first               mean surprisal 11.70 bits  n 1357
+other                    mean surprisal 10.20 bits  n 23046
+para-first (mid-page)    mean surprisal 11.10 bits  n 3809
+Voynich page-unique share head/rest 0.236 / 0.136
+Culpeper head/rest 0.094 / 0.047
+generator err5_random_s15 head/rest 0.211 / 0.143
+generator default_s11 head/rest 0.112 / 0.105
