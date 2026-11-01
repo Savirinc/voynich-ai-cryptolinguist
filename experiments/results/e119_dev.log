@@ -1,0 +1,84 @@
+Voynich prose lines 3406 tokens 28841 para-first 629 | label types 788
+pos culpeper ENRICH +0.0544 n 304 base 0.205
+pos planted seed1      ENRICH +0.2307 n 149
+pos planted seed10     ENRICH +0.1926 n 150
+pos planted seed2      ENRICH +0.1932 n 149
+pos planted seed3      ENRICH +0.2237 n 149
+pos planted seed4      ENRICH +0.2026 n 147
+pos planted seed5      ENRICH +0.2035 n 150
+pos planted seed6      ENRICH +0.2208 n 148
+pos planted seed7      ENRICH +0.1948 n 150
+pos planted seed8      ENRICH +0.2184 n 149
+pos planted seed9      ENRICH +0.2083 n 148
+null seed1                    ENRICH +0.0042 n 108 base 0.153
+null seed10                   ENRICH +0.0205 n 107 base 0.157
+null seed2                    ENRICH +0.0038 n 97 base 0.155
+null seed3                    ENRICH -0.0116 n 100 base 0.149
+null seed4                    ENRICH +0.0092 n 99 base 0.156
+null seed5                    ENRICH -0.0282 n 103 base 0.161
+null seed6                    ENRICH -0.0064 n 106 base 0.150
+null seed7                    ENRICH +0.0073 n 119 base 0.153
+null seed8                    ENRICH -0.0067 n 89 base 0.159
+null seed9                    ENRICH -0.0244 n 97 base 0.149
+null default_s11              ENRICH +0.0046 n 107 base 0.168
+null default_s12              ENRICH -0.0087 n 101 base 0.155
+null default_s13              ENRICH -0.0181 n 128 base 0.162
+null default_s14              ENRICH -0.0013 n 107 base 0.160
+null default_s15              ENRICH -0.0037 n 118 base 0.166
+null err10_none_s11           ENRICH -0.0078 n 97 base 0.157
+null err10_none_s12           ENRICH -0.0103 n 114 base 0.160
+null err10_none_s13           ENRICH -0.0075 n 110 base 0.153
+null err10_none_s14           ENRICH +0.0268 n 85 base 0.157
+null err10_none_s15           ENRICH +0.0022 n 102 base 0.161
+null err10_position_s11       ENRICH -0.0146 n 132 base 0.168
+null err10_position_s12       ENRICH -0.0099 n 139 base 0.166
+null err10_position_s13       ENRICH -0.0256 n 149 base 0.159
+null err10_position_s14       ENRICH -0.0114 n 151 base 0.166
+null err10_position_s15       ENRICH -0.0131 n 151 base 0.160
+null err10_reuse0_pos0_s11    ENRICH -0.0208 n 121 base 0.155
+null err10_reuse0_pos0_s12    ENRICH -0.0205 n 121 base 0.157
+null err10_reuse0_pos0_s13    ENRICH -0.0294 n 127 base 0.162
+null err10_reuse0_pos0_s14    ENRICH -0.0296 n 121 base 0.156
+null err10_reuse0_pos0_s15    ENRICH -0.0086 n 121 base 0.154
+null err10_s11                ENRICH -0.0008 n 117 base 0.152
+null err10_s12                ENRICH -0.0122 n 119 base 0.155
+null err10_s13                ENRICH +0.0092 n 125 base 0.161
+null err10_s14                ENRICH +0.0265 n 114 base 0.149
+null err10_s15                ENRICH -0.0309 n 115 base 0.158
+null err2_random_s11          ENRICH +0.0172 n 177 base 0.155
+null err2_random_s12          ENRICH -0.0031 n 168 base 0.158
+null err2_random_s13          ENRICH +0.0278 n 162 base 0.154
+null err2_random_s14          ENRICH -0.0146 n 189 base 0.164
+null err2_random_s15          ENRICH +0.0083 n 168 base 0.163
+null err5_random_s11          ENRICH -0.0037 n 180 base 0.160
+null err5_random_s12          ENRICH +0.0205 n 187 base 0.157
+null err5_random_s13          ENRICH -0.0146 n 187 base 0.159
+null err5_random_s14          ENRICH +0.0124 n 179 base 0.164
+null err5_random_s15          ENRICH +0.0062 n 194 base 0.159
+null none_s11                 ENRICH -0.0434 n 75 base 0.154
+null none_s12                 ENRICH +0.0049 n 79 base 0.161
+null none_s13                 ENRICH -0.0404 n 69 base 0.159
+null none_s14                 ENRICH +0.0275 n 74 base 0.162
+null none_s15                 ENRICH -0.0205 n 78 base 0.163
+null random_morphhi_s11       ENRICH +0.0204 n 175 base 0.156
+null random_morphhi_s12       ENRICH +0.0131 n 177 base 0.163
+null random_morphhi_s13       ENRICH -0.0156 n 167 base 0.158
+null random_morphhi_s14       ENRICH +0.0188 n 178 base 0.158
+null random_morphhi_s15       ENRICH +0.0247 n 160 base 0.162
+null random_s11               ENRICH -0.0009 n 173 base 0.150
+null random_s12               ENRICH -0.0004 n 174 base 0.158
+null random_s13               ENRICH +0.0099 n 195 base 0.153
+null random_s14               ENRICH +0.0184 n 167 base 0.157
+null random_s15               ENRICH +0.0236 n 158 base 0.161
+null dice_seed1               ENRICH -0.0044 n 203
+null dice_seed2               ENRICH -0.0221 n 200
+null dice_seed3               ENRICH +0.0129 n 201
+null dice_seed4               ENRICH +0.0065 n 201
+null dice_seed5               ENRICH +0.0002 n 187
+null dice_seed6               ENRICH +0.0024 n 203
+null dice_seed7               ENRICH +0.0083 n 191
+null dice_seed8               ENRICH +0.0267 n 189
+null dice_seed9               ENRICH -0.0097 n 183
+null dice_seed10              ENRICH -0.0051 n 212
+null max +0.0278 p90 +0.0208 | positives min +0.0544 | VALID True
+done 3s
