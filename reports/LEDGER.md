@@ -694,3 +694,7 @@ signs Voynich's spaces are as predictable as in languages.
 | Date | Test | Outcome | Bayes factors | M | L | C | O |
 |---|---|---|---|---|---|---|---|
 | 2026-10-31 | E114 (Arham, Reddit R10) dice word generator, one roll per slot, no copying; 252 sets on E032's 13 features (`DICE_GENERATOR.md`) | VALID (planted 1 fail, copy generator 6). Voynich best set (2d6, new tables every page, 20/60/40) 7 fails: NR, types, h2, I_word, top_word, once-used share, Zipf; seed check 9 fails: CLASS FAILS. Every set fails the once-used share; dice spread use too evenly (Zipf −0.22 vs −0.65) | **M × 0.90** (dice share 0.15 × 1/3, as pre-registered) | 0.7215 | 0.1961 | 0.0369 | 0.0455 |
+
+| Date | Test | Outcome | Bayes factors | M | L | C | O |
+|---|---|---|---|---|---|---|---|
+| 2026-11-01 | E116 (Arham, move 2) phrase repeats after merging the five spelling families (q-, d, l/r, k/t, e-runs), richness-matched to the merged Voynich (`MERGED_PHRASES.md`) | VALID (L* 12, p10 5.23; G* 27 merged copy-generator stretches, max 3.84). Merged Voynich Q3 2.41 (RP3 1,713 vs shuffle 709; RP4 86 vs languages ≥ 728): NO PHRASES. Power check: five planted free variants cut language RP3 to 18–238, so free spelling could have hidden phrases, but undoing the Voynich's alternations does not restore them | **M × 3** (as pre-registered) | 0.8860 | 0.0803 | 0.0151 | 0.0186 |

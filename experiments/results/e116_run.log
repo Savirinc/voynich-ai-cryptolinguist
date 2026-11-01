@@ -1,0 +1,146 @@
+Voynich tokens 28841 types 6077 merged types 3478 | band 2956-4000
+bible:arb-vd               types   8520 Q3  318.78 RP3 3123
+bible:asmfb                types   4961 Q3   76.73 RP3 3705
+bible:azb                  types   6686 Q3  127.06 RP3 2286
+bible:bba                  types   2375 Q3   19.37 RP3 7183
+bible:bqcsim               types   5176 Q3   10.92 RP3 2372
+bible:cebulb               types   2692 Q3    6.12 RP3 8189
+bible:cekak                types   1626 Q3   12.41 RP3 8048
+bible:ces1613              types   6036 Q3   34.49 RP3 2389
+bible:cth                  types   1988 Q3    8.21 RP3 7843
+bible:dan1931              types   3789 Q3   20.24 RP3 4147 | with 5 planted variants: types 10068 Q3 6.07 RP3 97
+bible:deu1912              types   3640 Q3   18.10 RP3 2860 | with 5 planted variants: types 9895 Q3 9.05 RP3 18
+bible:eng-kjv              types   2169 Q3   11.02 RP3 5899
+bible:ewe                  types   2942 Q3   19.63 RP3 6289
+bible:fraLSG               types   4140 Q3   19.49 RP3 3761
+bible:gax                  types   5645 Q3  108.43 RP3 2585
+bible:grcbyz               types   6370 Q3   25.05 RP3 2351
+bible:hausa                types   2835 Q3   13.81 RP3 5847
+bible:haw1868              types   1184 Q3    4.03 RP3 10422
+bible:hboWLC               types  18376 Q3  362.73 RP3 398
+bible:hch                  types   7448 Q3   76.28 RP3 2478
+bible:hil                  types   3207 Q3    5.01 RP3 6438 | with 5 planted variants: types 8308 Q3 4.74 RP3 26
+bible:hne                  types   3145 Q3   13.02 RP3 4447 | with 5 planted variants: types 7418 Q3 14.98 RP3 238
+bible:hrv                  types   6722 Q3   43.85 RP3 1740
+bible:hun                  types   6140 Q3   15.49 RP3 3711
+bible:iloulb               types   3912 Q3    5.11 RP3 6969 | with 5 planted variants: types 10042 Q3 2.78 RP3 207
+bible:indayt               types   3473 Q3   18.35 RP3 3481 | with 5 planted variants: types 11250 Q3 12.50 RP3 24
+bible:ita1885              types   3030 Q3   36.59 RP3 8092 | with 5 planted variants: types 8914 Q3 28.82 RP3 231
+bible:kik                  types   4595 Q3   29.50 RP3 4645
+bible:latVUC               types   6833 Q3   12.12 RP3 1942
+bible:lin                  types   2489 Q3    5.65 RP3 7578
+bible:luo                  types   4269 Q3   20.99 RP3 2995
+bible:mal                  types   9158 Q3   69.02 RP3 2946
+bible:meu                  types   2725 Q3   14.02 RP3 6241
+bible:mri2012              types   1445 Q3    4.93 RP3 9290
+bible:nheBl                types   3558 Q3    6.32 RP3 4203 | with 5 planted variants: types 10133 Q3 8.62 RP3 24
+bible:nld                  types   3697 Q3   10.55 RP3 3144 | with 5 planted variants: types 9422 Q3 15.74 RP3 84
+bible:nya                  types   5683 Q3   48.56 RP3 3175
+bible:pan                  types   2770 Q3   17.65 RP3 5801
+bible:pesOPV               types   4434 Q3    8.23 RP3 2641
+bible:polubg               types   5869 Q3   51.50 RP3 3161
+bible:rmc                  types   2828 Q3   28.16 RP3 7113
+bible:ron1924              types   4531 Q3   19.87 RP3 3135
+bible:shr                  types   8306 Q3   71.08 RP3 1705
+bible:slk                  types   6211 Q3   31.28 RP3 1444
+bible:sna                  types   7710 Q3  238.62 RP3 1896
+bible:srp1865              types   4698 Q3   14.33 RP3 3069
+bible:suzBl                types   2533 Q3   33.37 RP3 7403
+bible:swe                  types   4941 Q3   53.30 RP3 3469
+bible:swhulb               types   5917 Q3   15.75 RP3 2477
+bible:tam2017              types   9400 Q3  228.31 RP3 1015
+bible:tglulb               types   2645 Q3    6.99 RP3 8740
+bible:tod                  types   2353 Q3   12.54 RP3 5527
+bible:ton                  types   1402 Q3    9.05 RP3 8824
+bible:turytc               types   7610 Q3  303.14 RP3 2318
+bible:uigara               types   6777 Q3  156.36 RP3 2274
+bible:ukr1871              types   5290 Q3   35.80 RP3 3771
+bible:urd                  types   3563 Q3   18.03 RP3 3916 | with 5 planted variants: types 8424 Q3 12.90 RP3 88
+bible:yap                  types   2129 Q3    9.39 RP3 7470
+bible:ydd                  types   3325 Q3   18.06 RP3 4333 | with 5 planted variants: types 9424 Q3 27.08 RP3 64
+bible:yor                  types   1796 Q3   17.94 RP3 5026
+bible:zlmKSZI              types   3229 Q3   30.99 RP3 3363 | with 5 planted variants: types 10771 Q3 16.88 RP3 26
+other:pliny                types  11020 Q3   22.12 RP3 145
+other:pliny_abbrev         types  10274 Q3    5.38 RP3 365
+other:avicenna             types   7326 Q3   83.14 RP3 1084
+other:quran                types   8642 Q3  311.55 RP3 2616
+other:mahabharata          types  14833 Q3  148.67 RP3 445
+other:lojban_alice         types   1763 Q3    6.47 RP3 8614
+other:culpeper             types   2499 Q3   16.55 RP3 8381
+other:latin_farming        types  10049 Q3   22.60 RP3 277
+e032_gen0                  types   3829 -> merged   2210 Q3    1.51 RP4 83
+e032_gen1                  types   3845 -> merged   2266 Q3    1.67 RP4 70
+e032_gen2                  types   4179 -> merged   2417 Q3    1.37 RP4 60
+e032_gen3                  types   4157 -> merged   2426 Q3    1.48 RP4 12
+e032_gen4                  types   4303 -> merged   2500 Q3    1.48 RP4 8
+e032_gen5                  types   4097 -> merged   2391 Q3    1.52 RP4 18
+e032_gen6                  types   4116 -> merged   2294 Q3    1.58 RP4 36
+e032_gen7                  types   4247 -> merged   2460 Q3    1.58 RP4 30
+e032_gen8                  types   4193 -> merged   2471 Q3    1.48 RP4 20
+e032_gen9                  types   3787 -> merged   2271 Q3    1.59 RP4 33
+e100_default_s11           types   3834 -> merged   2228 Q3    1.49 RP4 26
+e100_default_s12           types   4467 -> merged   2453 Q3    1.39 RP4 12
+e100_default_s13           types   3926 -> merged   2253 Q3    1.34 RP4 27
+e100_default_s14           types   4163 -> merged   2376 Q3    1.57 RP4 25
+e100_default_s15           types   3666 -> merged   2161 Q3    1.40 RP4 69
+e100_err10_none_s11        types   9707 -> merged   6564 Q3   21.69 RP4 4
+e100_err10_none_s12        types   9991 -> merged   7136 Q3   12.20 RP4 2
+e100_err10_none_s13        types  10032 -> merged   6720 Q3   16.35 RP4 4
+e100_err10_none_s14        types   9635 -> merged   6601 Q3   19.75 RP4 4
+e100_err10_none_s15        types   9955 -> merged   6823 Q3   13.72 RP4 0
+e100_err10_position_s11    types   5744 -> merged   3275 Q3    1.80 RP4 8
+e100_err10_position_s12    types   5493 -> merged   3258 Q3    1.41 RP4 0
+e100_err10_position_s13    types   5922 -> merged   3380 Q3    1.36 RP4 2
+e100_err10_position_s14    types   6025 -> merged   3423 Q3    1.50 RP4 4
+e100_err10_position_s15    types   5703 -> merged   3240 Q3    1.48 RP4 11
+e100_err10_reuse0_pos0_s11 types   4856 -> merged   2915 Q3    2.26 RP4 51
+e100_err10_reuse0_pos0_s12 types   5159 -> merged   2999 Q3    1.63 RP4 8
+e100_err10_reuse0_pos0_s13 types   4807 -> merged   2829 Q3    1.54 RP4 35
+e100_err10_reuse0_pos0_s14 types   4721 -> merged   2706 Q3    1.73 RP4 83
+e100_err10_reuse0_pos0_s15 types   5188 -> merged   2983 Q3    1.76 RP4 10
+e100_err10_s11             types   4542 -> merged   2625 Q3    1.33 RP4 22
+e100_err10_s12             types   4474 -> merged   2648 Q3    1.53 RP4 82
+e100_err10_s13             types   4885 -> merged   2947 Q3    1.18 RP4 12
+e100_err10_s14             types   4865 -> merged   2851 Q3    1.37 RP4 8
+e100_err10_s15             types   4650 -> merged   2777 Q3    1.46 RP4 17
+e100_err2_random_s11       types   7003 -> merged   3597 Q3    3.01 RP4 0
+e100_err2_random_s12       types   7117 -> merged   3711 Q3    2.51 RP4 0
+e100_err2_random_s13       types   6940 -> merged   3530 Q3    3.04 RP4 0
+e100_err2_random_s14       types   7246 -> merged   3802 Q3    2.99 RP4 0
+e100_err2_random_s15       types   7046 -> merged   3568 Q3    1.87 RP4 0
+e100_err5_random_s11       types   7551 -> merged   3886 Q3    3.65 RP4 0
+e100_err5_random_s12       types   7686 -> merged   3986 Q3    3.28 RP4 0
+e100_err5_random_s13       types   7469 -> merged   3932 Q3    3.84 RP4 0
+e100_err5_random_s14       types   7322 -> merged   3676 Q3    3.08 RP4 0
+e100_err5_random_s15       types   7346 -> merged   3925 Q3    2.51 RP4 0
+e100_none_s11              types   8497 -> merged   5811 Q3   15.71 RP4 2
+e100_none_s12              types   8448 -> merged   6260 Q3   10.33 RP4 6
+e100_none_s13              types   8354 -> merged   5956 Q3    9.75 RP4 6
+e100_none_s14              types   8986 -> merged   6587 Q3   11.03 RP4 6
+e100_none_s15              types   9360 -> merged   6901 Q3   15.56 RP4 4
+e100_random_morphhi_s11    types   6558 -> merged   3684 Q3    1.69 RP4 0
+e100_random_morphhi_s12    types   6302 -> merged   3482 Q3    3.42 RP4 0
+e100_random_morphhi_s13    types   6319 -> merged   3561 Q3    3.07 RP4 0
+e100_random_morphhi_s14    types   6431 -> merged   3521 Q3    3.02 RP4 2
+e100_random_morphhi_s15    types   5961 -> merged   3305 Q3    2.12 RP4 0
+e100_random_s11            types   6975 -> merged   3459 Q3    3.37 RP4 0
+e100_random_s12            types   6924 -> merged   3635 Q3    2.06 RP4 0
+e100_random_s13            types   6999 -> merged   3596 Q3    3.14 RP4 0
+e100_random_s14            types   6913 -> merged   3542 Q3    3.05 RP4 0
+e100_random_s15            types   7011 -> merged   3633 Q3    3.24 RP4 0
+dice_seed1                 types  10882 -> merged   4897 Q3    1.36 RP4 0
+dice_seed2                 types  10933 -> merged   4884 Q3    1.15 RP4 0
+dice_seed3                 types  10793 -> merged   4788 Q3    1.11 RP4 0
+dice_seed4                 types  10633 -> merged   4644 Q3    0.83 RP4 0
+dice_seed5                 types  10573 -> merged   4525 Q3    1.00 RP4 0
+dice_seed6                 types  10621 -> merged   4704 Q3    0.45 RP4 0
+dice_seed7                 types  10695 -> merged   4643 Q3    2.50 RP4 0
+dice_seed8                 types  10594 -> merged   4815 Q3    1.58 RP4 0
+dice_seed9                 types  10695 -> merged   4723 Q3    0.42 RP4 0
+dice_seed10                types  10793 -> merged   4760 Q3    1.67 RP4 0
+matched: L* 12 ['bible:dan1931', 'bible:deu1912', 'bible:hil', 'bible:hne', 'bible:iloulb', 'bible:indayt', 'bible:ita1885', 'bible:nheBl', 'bible:nld', 'bible:urd', 'bible:ydd', 'bible:zlmKSZI'] | G* 27 | L* p10 5.229 min 5.014 | G* max 3.844 | VALID True
+VOYNICH merged Q3 2.415 (RP3 1713, shuffle 708.8) RP4 86
+VERDICT NO PHRASES | M x 3
+steps alone {'q': {'types': 5688, 'Q3': 8.264669163545568, 'RP3': 330, 'RP4': 2}, 'd': {'types': 5042, 'Q3': 5.342789598108747, 'RP3': 451, 'RP4': 6}, 'l': {'types': 5588, 'Q3': 7.536945812807882, 'RP3': 305, 'RP4': 2}, 'k': {'types': 5484, 'Q3': 8.772919605077574, 'RP3': 310, 'RP4': 2}, 'e': {'types': 5621, 'Q3': 9.971181556195965, 'RP3': 345, 'RP4': 2}}
+done 655s
+EXIT 0
