@@ -1,0 +1,24 @@
+lexicons [4000, 4000] | pages 173 | sheets 47
+setting {'COPY': 0.4, 'MUT': 0.5, 'LEXP': 0.35, 'LAG': 16, 'SIGMA': 0.1} fails 5 ['NR', 'h2', 'top_word', 'PERS_30', 'type_hapax']
+setting {'COPY': 0.4, 'MUT': 0.5, 'LEXP': 0.2, 'LAG': 8, 'SIGMA': 0.1} fails 6 ['NR', 'h2', 'top_word', 'PERS_30', 'type_hapax', 'NSUF95']
+setting {'COPY': 0.4, 'MUT': 0.5, 'LEXP': 0.2, 'LAG': 8, 'SIGMA': 0.25} fails 6 ['R', 'NR', 'h2', 'top_word', 'PERS_30', 'type_hapax']
+setting {'COPY': 0.55, 'MUT': 0.5, 'LEXP': 0.2, 'LAG': 8, 'SIGMA': 0.1} fails 6 ['R', 'h2', 'I_word', 'top_word', 'type_hapax', 'NSUF95']
+setting {'COPY': 0.4, 'MUT': 0.7, 'LEXP': 0.35, 'LAG': 16, 'SIGMA': 0.25} fails 7 ['NR', 'types', 'h2', 'top_word', 'PERS_30', 'type_hapax', 'DIST']
+setting {'COPY': 0.4, 'MUT': 0.5, 'LEXP': 0.35, 'LAG': 8, 'SIGMA': 0.25} fails 7 ['R', 'NR', 'h2', 'I_word', 'top_word', 'PERS_30', 'type_hapax']
+setting {'COPY': 0.4, 'MUT': 0.7, 'LEXP': 0.2, 'LAG': 16, 'SIGMA': 0.25} fails 7 ['NR', 'types', 'h2', 'I_word', 'top_word', 'type_hapax', 'NSUF95']
+setting {'COPY': 0.4, 'MUT': 0.7, 'LEXP': 0.35, 'LAG': 8, 'SIGMA': 0.25} fails 7 ['NR', 'types', 'h2', 'top_word', 'PERS_30', 'type_hapax', 'DIST']
+setting {'COPY': 0.4, 'MUT': 0.5, 'LEXP': 0.2, 'LAG': 16, 'SIGMA': 0.25} fails 7 ['NR', 'types', 'h2', 'top_word', 'PERS_30', 'type_hapax', 'NSUF95']
+setting {'COPY': 0.55, 'MUT': 0.5, 'LEXP': 0.2, 'LAG': 16, 'SIGMA': 0.25} fails 7 ['NR', 'h2', 'I_word', 'top_word', 'PERS_30', 'type_hapax', 'DIST']
+BEST {'COPY': 0.4, 'MUT': 0.5, 'LEXP': 0.35, 'LAG': 16, 'SIGMA': 0.1} battery fails 5 ['NR', 'h2', 'top_word', 'PERS_30', 'type_hapax'] | sample ['pin dair tod', 'pin olchedyo pin']
+H1: Voynich 12.88 | band 9.66..16.1 | process mean 2.049 (sd 0.573) -> no
+H2: Voynich 0 | band -1..20 | process mean 0.4 (sd 0.894) -> YES
+H3: Voynich 0.1773 | band -1..0.3 | process mean -0.01949 (sd 0.0233) -> YES
+H4: Voynich -1.109 | band -2..2 | process mean -0.8069 (sd 0.725) -> YES
+H5: Voynich 111.1 | band 103.1..119.1 | process mean 96.13 (sd 0.661) -> no
+H6: Voynich 1.291 | band 1.1..99 | process mean 0.9355 (sd 0.0171) -> no
+H7: Voynich 0.8859 | band 0.6..1.2 | process mean -0.03053 (sd 0.062) -> no
+H8: Voynich 0.1321 | band -3..3 | process mean -0.06741 (sd 0.632) -> YES
+H9: Voynich 0.07158 | band 0.055..0.083 | process mean 0.06155 (sd 0.00698) -> YES
+H10: Voynich 0.001209 | band 0.00083..0.0016 | process mean 0.0005593 (sd 6.47e-05) -> no
+VERDICT NO WORKING PROCESS: battery fails 5, held-out 5/10 | M x 0.9
+done 87s
