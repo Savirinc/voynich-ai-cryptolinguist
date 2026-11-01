@@ -1,0 +1,1122 @@
+{
+ "experiment": "E118",
+ "seed": 118118,
+ "A": {
+  "results": [
+   {
+    "name": "A:8806:he:key0",
+    "lang": "he",
+    "n_words": 8806,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -107567.35307954234,
+    "best_score": -107567.35307954234,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:8806:he:key1",
+    "lang": "he",
+    "n_words": 8806,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -104812.05822613947,
+    "best_score": -104812.05822613947,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:8806:he:key2",
+    "lang": "he",
+    "n_words": 8806,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -93617.56195723303,
+    "best_score": -93617.56195723303,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:8806:he:key3",
+    "lang": "he",
+    "n_words": 8806,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -105136.6780315538,
+    "best_score": -105136.6780315538,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:8806:tr:key0",
+    "lang": "tr",
+    "n_words": 8806,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -105503.16130801517,
+    "best_score": -104728.1379537789,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:8806:tr:key1",
+    "lang": "tr",
+    "n_words": 8806,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -106604.87820962374,
+    "best_score": -106338.58075057232,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:8806:tr:key2",
+    "lang": "tr",
+    "n_words": 8806,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -106495.22431775375,
+    "best_score": -106254.28868224402,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:8806:tr:key3",
+    "lang": "tr",
+    "n_words": 8806,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -105728.9883273032,
+    "best_score": -105710.69565549964,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:8806:la:key0",
+    "lang": "la",
+    "n_words": 8806,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -95282.06525093614,
+    "best_score": -94626.75732091986,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:8806:la:key1",
+    "lang": "la",
+    "n_words": 8806,
+    "accuracy": 0.9999540915872833,
+    "agreement": 1.0,
+    "true_score": -113717.39700156353,
+    "best_score": -112372.81628031447,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:8806:la:key2",
+    "lang": "la",
+    "n_words": 8806,
+    "accuracy": 0.999953872411089,
+    "agreement": 1.0,
+    "true_score": -111505.58031507896,
+    "best_score": -110430.45919027536,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:8806:la:key3",
+    "lang": "la",
+    "n_words": 8806,
+    "accuracy": 0.9990394977275922,
+    "agreement": 1.0,
+    "true_score": -101111.73857865903,
+    "best_score": -100354.72106427595,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:8806:generator",
+    "lang": "la",
+    "n_words": 8806,
+    "accuracy": null,
+    "agreement": 1.0,
+    "true_score": null,
+    "best_score": -119701.2818577759,
+    "spurious_restarts": null
+   },
+   {
+    "name": "A:4400:he:key0",
+    "lang": "he",
+    "n_words": 4400,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -53977.893995388615,
+    "best_score": -53977.893995388615,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:4400:he:key1",
+    "lang": "he",
+    "n_words": 4400,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -45597.118528770996,
+    "best_score": -45597.118528770996,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:4400:he:key2",
+    "lang": "he",
+    "n_words": 4400,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -42069.28744183519,
+    "best_score": -42069.28744183519,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:4400:he:key3",
+    "lang": "he",
+    "n_words": 4400,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -48460.97632380238,
+    "best_score": -48460.97632380238,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:4400:tr:key0",
+    "lang": "tr",
+    "n_words": 4400,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -57478.848070311295,
+    "best_score": -57458.53467160737,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:4400:tr:key1",
+    "lang": "tr",
+    "n_words": 4400,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -56462.386706276375,
+    "best_score": -56452.44721806446,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:4400:tr:key2",
+    "lang": "tr",
+    "n_words": 4400,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -51962.115588636494,
+    "best_score": -51571.94467033149,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:4400:tr:key3",
+    "lang": "tr",
+    "n_words": 4400,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -47534.43583189615,
+    "best_score": -47517.584189044996,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:4400:la:key0",
+    "lang": "la",
+    "n_words": 4400,
+    "accuracy": 0.999953353857636,
+    "agreement": 1.0,
+    "true_score": -52197.67798254068,
+    "best_score": -51432.98556490875,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:4400:la:key1",
+    "lang": "la",
+    "n_words": 4400,
+    "accuracy": 0.9979521252389187,
+    "agreement": 1.0,
+    "true_score": -49043.94329625428,
+    "best_score": -48859.04372030712,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:4400:la:key2",
+    "lang": "la",
+    "n_words": 4400,
+    "accuracy": 0.9997098926602843,
+    "agreement": 1.0,
+    "true_score": -52776.47581736875,
+    "best_score": -52127.022673159576,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:4400:la:key3",
+    "lang": "la",
+    "n_words": 4400,
+    "accuracy": 0.9997603068072867,
+    "agreement": 1.0,
+    "true_score": -51279.28119509296,
+    "best_score": -51127.14616336974,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:4400:generator",
+    "lang": "la",
+    "n_words": 4400,
+    "accuracy": null,
+    "agreement": 1.0,
+    "true_score": null,
+    "best_score": -57916.98028390871,
+    "spurious_restarts": null
+   },
+   {
+    "name": "A:2000:he:key0",
+    "lang": "he",
+    "n_words": 2000,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -24075.010999355585,
+    "best_score": -24075.010999355585,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:2000:he:key1",
+    "lang": "he",
+    "n_words": 2000,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -20768.28470380987,
+    "best_score": -20768.28470380987,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:2000:he:key2",
+    "lang": "he",
+    "n_words": 2000,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -23985.259767788604,
+    "best_score": -23985.259767788604,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:2000:he:key3",
+    "lang": "he",
+    "n_words": 2000,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -23405.142736621423,
+    "best_score": -23405.142736621423,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:2000:tr:key0",
+    "lang": "tr",
+    "n_words": 2000,
+    "accuracy": 0.9983857183553319,
+    "agreement": 1.0,
+    "true_score": -26361.985092610877,
+    "best_score": -26218.942752939292,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:2000:tr:key1",
+    "lang": "tr",
+    "n_words": 2000,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -23197.921610407306,
+    "best_score": -23069.747311535957,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:2000:tr:key2",
+    "lang": "tr",
+    "n_words": 2000,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -23025.62234354422,
+    "best_score": -22842.928094914776,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:2000:tr:key3",
+    "lang": "tr",
+    "n_words": 2000,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -23887.288145936374,
+    "best_score": -23870.965639695198,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:2000:la:key0",
+    "lang": "la",
+    "n_words": 2000,
+    "accuracy": 0.9998968540484786,
+    "agreement": 1.0,
+    "true_score": -23876.20414468618,
+    "best_score": -23851.05001071055,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:2000:la:key1",
+    "lang": "la",
+    "n_words": 2000,
+    "accuracy": 0.9996814948508335,
+    "agreement": 1.0,
+    "true_score": -23595.644937805482,
+    "best_score": -23390.524068527535,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:2000:la:key2",
+    "lang": "la",
+    "n_words": 2000,
+    "accuracy": 0.9992902048266071,
+    "agreement": 1.0,
+    "true_score": -24553.55369293544,
+    "best_score": -24393.75011066318,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:2000:la:key3",
+    "lang": "la",
+    "n_words": 2000,
+    "accuracy": 0.9997873471557682,
+    "agreement": 1.0,
+    "true_score": -24128.62315480183,
+    "best_score": -24081.22937281243,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:2000:generator",
+    "lang": "la",
+    "n_words": 2000,
+    "accuracy": null,
+    "agreement": 1.0,
+    "true_score": null,
+    "best_score": -26699.192499614175,
+    "spurious_restarts": null
+   },
+   {
+    "name": "A:1000:he:key0",
+    "lang": "he",
+    "n_words": 1000,
+    "accuracy": 0.9917380660954712,
+    "agreement": 1.0,
+    "true_score": -10629.447805076743,
+    "best_score": -10623.419156880971,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:1000:he:key1",
+    "lang": "he",
+    "n_words": 1000,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -9964.428376842487,
+    "best_score": -9964.428376842487,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:1000:he:key2",
+    "lang": "he",
+    "n_words": 1000,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -9771.445174829383,
+    "best_score": -9771.445174829383,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:1000:he:key3",
+    "lang": "he",
+    "n_words": 1000,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -10971.908819747909,
+    "best_score": -10971.908819747909,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:1000:tr:key0",
+    "lang": "tr",
+    "n_words": 1000,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -12807.874026630761,
+    "best_score": -12687.160133306037,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:1000:tr:key1",
+    "lang": "tr",
+    "n_words": 1000,
+    "accuracy": 0.9986328125,
+    "agreement": 1.0,
+    "true_score": -12122.60474390375,
+    "best_score": -12029.256669392846,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:1000:tr:key2",
+    "lang": "tr",
+    "n_words": 1000,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -13991.886172940103,
+    "best_score": -13991.886172940103,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:1000:tr:key3",
+    "lang": "tr",
+    "n_words": 1000,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -12365.031710179157,
+    "best_score": -12212.522185942438,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:1000:la:key0",
+    "lang": "la",
+    "n_words": 1000,
+    "accuracy": 0.9997791031588248,
+    "agreement": 1.0,
+    "true_score": -10436.267296610653,
+    "best_score": -10237.987860483014,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:1000:la:key1",
+    "lang": "la",
+    "n_words": 1000,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -11130.044301140448,
+    "best_score": -11081.185167334788,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:1000:la:key2",
+    "lang": "la",
+    "n_words": 1000,
+    "accuracy": 0.9993746091307066,
+    "agreement": 1.0,
+    "true_score": -12153.10999670061,
+    "best_score": -12095.4267291163,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:1000:la:key3",
+    "lang": "la",
+    "n_words": 1000,
+    "accuracy": 0.9997979389775712,
+    "agreement": 1.0,
+    "true_score": -12442.35798806747,
+    "best_score": -12157.21152634653,
+    "spurious_restarts": "0"
+   },
+   {
+    "name": "A:1000:generator",
+    "lang": "la",
+    "n_words": 1000,
+    "accuracy": null,
+    "agreement": 1.0,
+    "true_score": null,
+    "best_score": -13578.34751087785,
+    "spurious_restarts": null
+   },
+   {
+    "name": "A:500:he:key0",
+    "lang": "he",
+    "n_words": 500,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -5744.322939397337,
+    "best_score": -5744.322939397337,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:500:he:key1",
+    "lang": "he",
+    "n_words": 500,
+    "accuracy": 0.9842767295597484,
+    "agreement": 1.0,
+    "true_score": -6170.870927368129,
+    "best_score": -6161.926248431661,
+    "spurious_restarts": "0"
+   },
+   {
+    "name": "A:500:he:key2",
+    "lang": "he",
+    "n_words": 500,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -4900.983728589287,
+    "best_score": -4900.983728589287,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:500:he:key3",
+    "lang": "he",
+    "n_words": 500,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -5990.764972637935,
+    "best_score": -5990.764972637935,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:500:tr:key0",
+    "lang": "tr",
+    "n_words": 500,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -5373.474540716543,
+    "best_score": -5336.321281935466,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:500:tr:key1",
+    "lang": "tr",
+    "n_words": 500,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -5730.980852569491,
+    "best_score": -5722.470412744858,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:500:tr:key2",
+    "lang": "tr",
+    "n_words": 500,
+    "accuracy": 0.9995826377295493,
+    "agreement": 1.0,
+    "true_score": -5442.7428696546585,
+    "best_score": -5385.140223686749,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:500:tr:key3",
+    "lang": "tr",
+    "n_words": 500,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -6984.104169005398,
+    "best_score": -6984.104169005398,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:500:la:key0",
+    "lang": "la",
+    "n_words": 500,
+    "accuracy": 0.9995728321230244,
+    "agreement": 1.0,
+    "true_score": -5686.729727382067,
+    "best_score": -5653.979555671761,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:500:la:key1",
+    "lang": "la",
+    "n_words": 500,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -5937.13888393643,
+    "best_score": -5856.649280762055,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:500:la:key2",
+    "lang": "la",
+    "n_words": 500,
+    "accuracy": 0.9978586723768736,
+    "agreement": 1.0,
+    "true_score": -5633.763374201919,
+    "best_score": -5502.83292644455,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:500:la:key3",
+    "lang": "la",
+    "n_words": 500,
+    "accuracy": 0.9995565410199556,
+    "agreement": 1.0,
+    "true_score": -5922.068998463525,
+    "best_score": -5881.885060932218,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:500:generator",
+    "lang": "la",
+    "n_words": 500,
+    "accuracy": null,
+    "agreement": 1.0,
+    "true_score": null,
+    "best_score": -6760.175738611216,
+    "spurious_restarts": null
+   },
+   {
+    "name": "A:250:he:key0",
+    "lang": "he",
+    "n_words": 250,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -2958.1880323737855,
+    "best_score": -2958.1880323737855,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:250:he:key1",
+    "lang": "he",
+    "n_words": 250,
+    "accuracy": 0.9965116279069768,
+    "agreement": 1.0,
+    "true_score": -2748.1461704891162,
+    "best_score": -2748.000062118586,
+    "spurious_restarts": "0"
+   },
+   {
+    "name": "A:250:he:key2",
+    "lang": "he",
+    "n_words": 250,
+    "accuracy": 0.9662162162162162,
+    "agreement": 1.0,
+    "true_score": -3030.348401052606,
+    "best_score": -3020.7023131069554,
+    "spurious_restarts": "0"
+   },
+   {
+    "name": "A:250:he:key3",
+    "lang": "he",
+    "n_words": 250,
+    "accuracy": 0.9939320388349514,
+    "agreement": 1.0,
+    "true_score": -3065.1556075897843,
+    "best_score": -3056.6967530204047,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:250:tr:key0",
+    "lang": "tr",
+    "n_words": 250,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -2706.163918743753,
+    "best_score": -2706.163918743753,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:250:tr:key1",
+    "lang": "tr",
+    "n_words": 250,
+    "accuracy": 0.9960191082802548,
+    "agreement": 1.0,
+    "true_score": -3371.394698496614,
+    "best_score": -3361.630331443027,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:250:tr:key2",
+    "lang": "tr",
+    "n_words": 250,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -2601.6710625530886,
+    "best_score": -2542.9540255369225,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:250:tr:key3",
+    "lang": "tr",
+    "n_words": 250,
+    "accuracy": 0.9976923076923077,
+    "agreement": 1.0,
+    "true_score": -2996.5374554688206,
+    "best_score": -2965.8158830773996,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:250:la:key0",
+    "lang": "la",
+    "n_words": 250,
+    "accuracy": 0.9980525803310614,
+    "agreement": 1.0,
+    "true_score": -2787.248799656581,
+    "best_score": -2739.996414523725,
+    "spurious_restarts": "0"
+   },
+   {
+    "name": "A:250:la:key1",
+    "lang": "la",
+    "n_words": 250,
+    "accuracy": 0.9982847341337907,
+    "agreement": 1.0,
+    "true_score": -2944.46222811233,
+    "best_score": -2913.3754308374573,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:250:la:key2",
+    "lang": "la",
+    "n_words": 250,
+    "accuracy": 0.998406374501992,
+    "agreement": 1.0,
+    "true_score": -2802.8723908623565,
+    "best_score": -2754.987087859469,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:250:la:key3",
+    "lang": "la",
+    "n_words": 250,
+    "accuracy": 0.9991708126036484,
+    "agreement": 1.0,
+    "true_score": -3286.395796504004,
+    "best_score": -3269.4372505762803,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:250:generator",
+    "lang": "la",
+    "n_words": 250,
+    "accuracy": null,
+    "agreement": 1.0,
+    "true_score": null,
+    "best_score": -3198.8916807899022,
+    "spurious_restarts": null
+   },
+   {
+    "name": "A:125:he:key0",
+    "lang": "he",
+    "n_words": 125,
+    "accuracy": 0.9494949494949495,
+    "agreement": 1.0,
+    "true_score": -1454.664021600541,
+    "best_score": -1425.0963721872138,
+    "spurious_restarts": "0"
+   },
+   {
+    "name": "A:125:he:key1",
+    "lang": "he",
+    "n_words": 125,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -1685.9944400030854,
+    "best_score": -1679.25974049682,
+    "spurious_restarts": "0"
+   },
+   {
+    "name": "A:125:he:key2",
+    "lang": "he",
+    "n_words": 125,
+    "accuracy": 0.9400428265524625,
+    "agreement": 1.0,
+    "true_score": -1592.0759337941126,
+    "best_score": -1553.1066098146594,
+    "spurious_restarts": "0"
+   },
+   {
+    "name": "A:125:he:key3",
+    "lang": "he",
+    "n_words": 125,
+    "accuracy": 0.9956709956709957,
+    "agreement": 1.0,
+    "true_score": -1556.3088865083396,
+    "best_score": -1554.1340885235213,
+    "spurious_restarts": "0"
+   },
+   {
+    "name": "A:125:tr:key0",
+    "lang": "tr",
+    "n_words": 125,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -1720.500595698594,
+    "best_score": -1720.500595698594,
+    "spurious_restarts": "0"
+   },
+   {
+    "name": "A:125:tr:key1",
+    "lang": "tr",
+    "n_words": 125,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -1509.629175593715,
+    "best_score": -1509.629175593715,
+    "spurious_restarts": "0"
+   },
+   {
+    "name": "A:125:tr:key2",
+    "lang": "tr",
+    "n_words": 125,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -1448.3851006899158,
+    "best_score": -1448.3851006899158,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:125:tr:key3",
+    "lang": "tr",
+    "n_words": 125,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -1433.8149016711322,
+    "best_score": -1419.689869626717,
+    "spurious_restarts": "0"
+   },
+   {
+    "name": "A:125:la:key0",
+    "lang": "la",
+    "n_words": 125,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -1431.1959678744606,
+    "best_score": -1420.926258271774,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:125:la:key1",
+    "lang": "la",
+    "n_words": 125,
+    "accuracy": 0.9798994974874372,
+    "agreement": 1.0,
+    "true_score": -1534.0687105470306,
+    "best_score": -1515.6397991969804,
+    "spurious_restarts": "0"
+   },
+   {
+    "name": "A:125:la:key2",
+    "lang": "la",
+    "n_words": 125,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -1595.8979176489208,
+    "best_score": -1595.8979176489208,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:125:la:key3",
+    "lang": "la",
+    "n_words": 125,
+    "accuracy": 1.0,
+    "agreement": 1.0,
+    "true_score": -1484.6422604947034,
+    "best_score": -1484.6422604947034,
+    "spurious_restarts": 0
+   },
+   {
+    "name": "A:125:generator",
+    "lang": "la",
+    "n_words": 125,
+    "accuracy": null,
+    "agreement": 1.0,
+    "true_score": null,
+    "best_score": -1403.4364899584634,
+    "spurious_restarts": null
+   }
+  ],
+  "summary": {
+   "125": {
+    "cracks": 12,
+    "of": 12,
+    "spurious_texts": 0,
+    "generator_agreement": [
+     1.0
+    ]
+   },
+   "250": {
+    "cracks": 12,
+    "of": 12,
+    "spurious_texts": 0,
+    "generator_agreement": [
+     1.0
+    ]
+   },
+   "500": {
+    "cracks": 12,
+    "of": 12,
+    "spurious_texts": 0,
+    "generator_agreement": [
+     1.0
+    ]
+   },
+   "1000": {
+    "cracks": 12,
+    "of": 12,
+    "spurious_texts": 0,
+    "generator_agreement": [
+     1.0
+    ]
+   },
+   "2000": {
+    "cracks": 12,
+    "of": 12,
+    "spurious_texts": 0,
+    "generator_agreement": [
+     1.0
+    ]
+   },
+   "4400": {
+    "cracks": 12,
+    "of": 12,
+    "spurious_texts": 0,
+    "generator_agreement": [
+     1.0
+    ]
+   },
+   "8806": {
+    "cracks": 12,
+    "of": 12,
+    "spurious_texts": 0,
+    "generator_agreement": [
+     1.0
+    ]
+   }
+  },
+  "U1": 125,
+  "verdict": "DECIDABLE-WITH-MARGIN"
+ },
+ "B": {
+  "results": [
+   {
+    "lang": "he",
+    "model": "disjoint",
+    "accuracy": 0.036857251828993444,
+    "restart_accuracies": [
+     0.036857251828993444,
+     0.035921084567109324,
+     0.03966575361464582,
+     0.01560278769806872
+    ],
+    "agreement": 0.587600984709268,
+    "true_score": -156173.046875,
+    "best_score": -123944.0703125,
+    "spurious": true,
+    "oracle_score": -124665.7109375,
+    "oracle_accuracy": 0.1114732498873132,
+    "true_accuracy": 0.5669706320862661,
+    "oracle_drift": true,
+    "rank_baseline": 0.020422315453694394,
+    "ceiling": 0.5669706320862661,
+    "code_types": 9663,
+    "per_word_bits_true": 7.812416097332945
+   },
+   {
+    "lang": "he",
+    "model": "in-sample",
+    "accuracy": 0.5646128775007802,
+    "restart_accuracies": [
+     0.5646128775007802,
+     0.5631912901771783,
+     0.5632953087618321,
+     0.5620817586075378
+    ],
+    "agreement": 0.995388509413682,
+    "true_score": -99123.296875,
+    "best_score": -99194.3203125,
+    "spurious": false,
+    "oracle_score": -99241.375,
+    "oracle_accuracy": 0.563017925869422,
+    "true_accuracy": 0.5669706320862661,
+    "oracle_drift": false,
+    "rank_baseline": 0.5669706320862661,
+    "ceiling": 0.5669706320862661,
+    "code_types": 9663,
+    "per_word_bits_true": 4.958553704512031
+   },
+   {
+    "lang": "tr",
+    "model": "disjoint",
+    "accuracy": 0.2034950244443674,
+    "restart_accuracies": [
+     0.2034950244443674,
+     0.15089629347110017,
+     0.15977254602822372,
+     0.11039839117922402
+    ],
+    "agreement": 0.5636073645157935,
+    "true_score": -148712.59375,
+    "best_score": -126359.8046875,
+    "spurious": true,
+    "oracle_score": -126653.671875,
+    "oracle_accuracy": 0.3085537949446968,
+    "true_accuracy": 0.6316701917409244,
+    "oracle_drift": true,
+    "rank_baseline": 0.0423702368156444,
+    "ceiling": 0.6316701917409244,
+    "code_types": 8263,
+    "per_word_bits_true": 7.439213644967409
+   },
+   {
+    "lang": "tr",
+    "model": "in-sample",
+    "accuracy": 0.624908983738428,
+    "restart_accuracies": [
+     0.624908983738428,
+     0.6241808536458514,
+     0.6023716237301064,
+     0.5860060330779099
+    ],
+    "agreement": 0.9910197288582226,
+    "true_score": -98951.6796875,
+    "best_score": -99480.7734375,
+    "spurious": false,
+    "oracle_score": -99014.890625,
+    "oracle_accuracy": 0.6287923442321695,
+    "true_accuracy": 0.6316701917409244,
+    "oracle_drift": false,
+    "rank_baseline": 0.6316701917409244,
+    "ceiling": 0.6316701917409244,
+    "code_types": 8263,
+    "per_word_bits_true": 4.949968709181325
+   },
+   {
+    "lang": "la",
+    "model": "disjoint",
+    "accuracy": 0.23823723171873376,
+    "restart_accuracies": [
+     0.23823723171873376,
+     0.2229464997746264,
+     0.22849415762282863,
+     0.23497798273291495
+    ],
+    "agreement": 0.5976561145591346,
+    "true_score": -156721.46875,
+    "best_score": -131503.671875,
+    "spurious": true,
+    "oracle_score": -131282.34375,
+    "oracle_accuracy": 0.39925800076280293,
+    "true_accuracy": 0.7475468950452481,
+    "oracle_drift": true,
+    "rank_baseline": 0.14361499254533477,
+    "ceiling": 0.7475468950452481,
+    "code_types": 6267,
+    "per_word_bits_true": 7.839850407990973
+   },
+   {
+    "lang": "la",
+    "model": "in-sample",
+    "accuracy": 0.7443916646440831,
+    "restart_accuracies": [
+     0.7443916646440831,
+     0.7439409174439167,
+     0.7432821330744427,
+     0.7405776498734441
+    ],
+    "agreement": 0.9950764536597205,
+    "true_score": -104329.8671875,
+    "best_score": -104594.4453125,
+    "spurious": false,
+    "oracle_score": -104345.296875,
+    "oracle_accuracy": 0.7465067091987102,
+    "true_accuracy": 0.7475468950452481,
+    "oracle_drift": false,
+    "rank_baseline": 0.7475468950452481,
+    "ceiling": 0.7475468950452481,
+    "code_types": 6267,
+    "per_word_bits_true": 5.219007697919918
+   }
+  ],
+  "verdict": "UNDECIDABLE"
+ },
+ "runtime_s": 2341.1482219696045
+}

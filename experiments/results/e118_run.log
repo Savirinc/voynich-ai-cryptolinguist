@@ -1,0 +1,101 @@
+A:125:generator          acc None agree 1.000 spurious None
+A:125:he:key0            acc 0.949 agree 1.000 spurious 0
+A:125:he:key1            acc 1.0 agree 1.000 spurious 0
+A:125:he:key2            acc 0.94 agree 1.000 spurious 0
+A:125:he:key3            acc 0.996 agree 1.000 spurious 0
+A:125:la:key0            acc 1.0 agree 1.000 spurious 0
+A:125:la:key1            acc 0.98 agree 1.000 spurious 0
+A:125:la:key2            acc 1.0 agree 1.000 spurious 0
+A:125:la:key3            acc 1.0 agree 1.000 spurious 0
+A:125:tr:key0            acc 1.0 agree 1.000 spurious 0
+A:125:tr:key1            acc 1.0 agree 1.000 spurious 0
+A:125:tr:key2            acc 1.0 agree 1.000 spurious 0
+A:125:tr:key3            acc 1.0 agree 1.000 spurious 0
+A:250:generator          acc None agree 1.000 spurious None
+A:250:he:key0            acc 1.0 agree 1.000 spurious 0
+A:250:he:key1            acc 0.997 agree 1.000 spurious 0
+A:250:he:key2            acc 0.966 agree 1.000 spurious 0
+A:250:he:key3            acc 0.994 agree 1.000 spurious 0
+A:250:la:key0            acc 0.998 agree 1.000 spurious 0
+A:250:la:key1            acc 0.998 agree 1.000 spurious 0
+A:250:la:key2            acc 0.998 agree 1.000 spurious 0
+A:250:la:key3            acc 0.999 agree 1.000 spurious 0
+A:250:tr:key0            acc 1.0 agree 1.000 spurious 0
+A:250:tr:key1            acc 0.996 agree 1.000 spurious 0
+A:250:tr:key2            acc 1.0 agree 1.000 spurious 0
+A:250:tr:key3            acc 0.998 agree 1.000 spurious 0
+A:500:generator          acc None agree 1.000 spurious None
+A:500:he:key0            acc 1.0 agree 1.000 spurious 0
+A:500:he:key1            acc 0.984 agree 1.000 spurious 0
+A:500:he:key2            acc 1.0 agree 1.000 spurious 0
+A:500:he:key3            acc 1.0 agree 1.000 spurious 0
+A:500:la:key0            acc 1.0 agree 1.000 spurious 0
+A:500:la:key1            acc 1.0 agree 1.000 spurious 0
+A:500:la:key2            acc 0.998 agree 1.000 spurious 0
+A:500:la:key3            acc 1.0 agree 1.000 spurious 0
+A:500:tr:key0            acc 1.0 agree 1.000 spurious 0
+A:500:tr:key1            acc 1.0 agree 1.000 spurious 0
+A:500:tr:key2            acc 1.0 agree 1.000 spurious 0
+A:500:tr:key3            acc 1.0 agree 1.000 spurious 0
+A:1000:generator         acc None agree 1.000 spurious None
+A:1000:he:key0           acc 0.992 agree 1.000 spurious 0
+A:1000:he:key1           acc 1.0 agree 1.000 spurious 0
+A:1000:he:key2           acc 1.0 agree 1.000 spurious 0
+A:1000:he:key3           acc 1.0 agree 1.000 spurious 0
+A:1000:la:key0           acc 1.0 agree 1.000 spurious 0
+A:1000:la:key1           acc 1.0 agree 1.000 spurious 0
+A:1000:la:key2           acc 0.999 agree 1.000 spurious 0
+A:1000:la:key3           acc 1.0 agree 1.000 spurious 0
+A:1000:tr:key0           acc 1.0 agree 1.000 spurious 0
+A:1000:tr:key1           acc 0.999 agree 1.000 spurious 0
+A:1000:tr:key2           acc 1.0 agree 1.000 spurious 0
+A:1000:tr:key3           acc 1.0 agree 1.000 spurious 0
+A:2000:generator         acc None agree 1.000 spurious None
+A:2000:he:key0           acc 1.0 agree 1.000 spurious 0
+A:2000:he:key1           acc 1.0 agree 1.000 spurious 0
+A:2000:he:key2           acc 1.0 agree 1.000 spurious 0
+A:2000:he:key3           acc 1.0 agree 1.000 spurious 0
+A:2000:la:key0           acc 1.0 agree 1.000 spurious 0
+A:2000:la:key1           acc 1.0 agree 1.000 spurious 0
+A:2000:la:key2           acc 0.999 agree 1.000 spurious 0
+A:2000:la:key3           acc 1.0 agree 1.000 spurious 0
+A:2000:tr:key0           acc 0.998 agree 1.000 spurious 0
+A:2000:tr:key1           acc 1.0 agree 1.000 spurious 0
+A:2000:tr:key2           acc 1.0 agree 1.000 spurious 0
+A:2000:tr:key3           acc 1.0 agree 1.000 spurious 0
+A:4400:generator         acc None agree 1.000 spurious None
+A:4400:he:key0           acc 1.0 agree 1.000 spurious 0
+A:4400:he:key1           acc 1.0 agree 1.000 spurious 0
+A:4400:he:key2           acc 1.0 agree 1.000 spurious 0
+A:4400:he:key3           acc 1.0 agree 1.000 spurious 0
+A:4400:la:key0           acc 1.0 agree 1.000 spurious 0
+A:4400:la:key1           acc 0.998 agree 1.000 spurious 0
+A:4400:la:key2           acc 1.0 agree 1.000 spurious 0
+A:4400:la:key3           acc 1.0 agree 1.000 spurious 0
+A:4400:tr:key0           acc 1.0 agree 1.000 spurious 0
+A:4400:tr:key1           acc 1.0 agree 1.000 spurious 0
+A:4400:tr:key2           acc 1.0 agree 1.000 spurious 0
+A:4400:tr:key3           acc 1.0 agree 1.000 spurious 0
+A:8806:generator         acc None agree 1.000 spurious None
+A:8806:he:key0           acc 1.0 agree 1.000 spurious 0
+A:8806:he:key1           acc 1.0 agree 1.000 spurious 0
+A:8806:he:key2           acc 1.0 agree 1.000 spurious 0
+A:8806:he:key3           acc 1.0 agree 1.000 spurious 0
+A:8806:la:key0           acc 1.0 agree 1.000 spurious 0
+A:8806:la:key1           acc 1.0 agree 1.000 spurious 0
+A:8806:la:key2           acc 1.0 agree 1.000 spurious 0
+A:8806:la:key3           acc 0.999 agree 1.000 spurious 0
+A:8806:tr:key0           acc 1.0 agree 1.000 spurious 0
+A:8806:tr:key1           acc 1.0 agree 1.000 spurious 0
+A:8806:tr:key2           acc 1.0 agree 1.000 spurious 0
+A:8806:tr:key3           acc 1.0 agree 1.000 spurious 0
+K1 summary {125: {'cracks': 12, 'of': 12, 'spurious_texts': 0, 'generator_agreement': [1.0]}, 250: {'cracks': 12, 'of': 12, 'spurious_texts': 0, 'generator_agreement': [1.0]}, 500: {'cracks': 12, 'of': 12, 'spurious_texts': 0, 'generator_agreement': [1.0]}, 1000: {'cracks': 12, 'of': 12, 'spurious_texts': 0, 'generator_agreement': [1.0]}, 2000: {'cracks': 12, 'of': 12, 'spurious_texts': 0, 'generator_agreement': [1.0]}, 4400: {'cracks': 12, 'of': 12, 'spurious_texts': 0, 'generator_agreement': [1.0]}, 8806: {'cracks': 12, 'of': 12, 'spurious_texts': 0, 'generator_agreement': [1.0]}} | U1 125 | VERDICT K1 DECIDABLE-WITH-MARGIN
+K3 he [disjoint]: acc 0.037 (restarts [0.037, 0.036, 0.04, 0.016], rank baseline 0.020, ceiling 0.567) | best -123944 vs true -156173 spurious True | agree 0.588
+K3 he [in-sample]: acc 0.565 (restarts [0.565, 0.563, 0.563, 0.562], rank baseline 0.567, ceiling 0.567) | best -99194 vs true -99123 spurious False | agree 0.995
+K3 tr [disjoint]: acc 0.203 (restarts [0.203, 0.151, 0.16, 0.11], rank baseline 0.042, ceiling 0.632) | best -126360 vs true -148713 spurious True | agree 0.564
+K3 tr [in-sample]: acc 0.625 (restarts [0.625, 0.624, 0.602, 0.586], rank baseline 0.632, ceiling 0.632) | best -99481 vs true -98952 spurious False | agree 0.991
+K3 la [disjoint]: acc 0.238 (restarts [0.238, 0.223, 0.228, 0.235], rank baseline 0.144, ceiling 0.748) | best -131504 vs true -156721 spurious True | agree 0.598
+K3 la [in-sample]: acc 0.744 (restarts [0.744, 0.744, 0.743, 0.741], rank baseline 0.748, ceiling 0.748) | best -104594 vs true -104330 spurious False | agree 0.995
+VERDICT K3 UNDECIDABLE
+done 2341s
+EXIT 0
