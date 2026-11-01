@@ -1,0 +1,213 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=2.4cm]{geometry}
+\usepackage{booktabs,tabularx,amsmath,hyperref,microtype}
+\usepackage[numbers,sort&compress]{natbib}
+\hypersetup{colorlinks=true,linkcolor=black,citecolor=blue,urlcolor=blue}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+
+\title{The Voynich Manuscript under Pre-Registered Tests:\\
+Letter Ciphers Excluded, Word Codes Untestable, and No Signature of Language}
+\author{Arham Partap Jain\\ \small Savir Platforms Private Limited\\ \small \texttt{[email]}}
+\date{Preprint draft, November 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We report a programme of about 120 experiments on the text of the Voynich Manuscript (Beinecke MS~408). For every scored experiment, the decision rule was written, locked and hashed before the test was run. Every attack was first validated on texts with known answers and on meaningless controls, and 15 leaves were withheld from all analysis.
+
+Three results stand.
+\begin{enumerate}
+\item \emph{Letter ciphers are excluded where tested, and attackable.} A validated letter-substitution attack (many-to-one homophones, 12\% spelling slips) finds no plaintext in about 60 languages on either Currier dialect. A length ladder shows the same attack recovers keys from as few as 125 words, about 70 times less text than one dialect provides.
+\item \emph{Whole-word codes are statistically untestable at this length.} Even with the most attacker-friendly code, wrong codebooks score better than the true one in all three test languages, so only external cribs could test this class.
+\item \emph{The text never falls on the language side.} In 11 validated tests that separate meaningful text from copy-generated text, the manuscript falls on the meaningless side in six (including zero repeated four-word phrases, word-pair order indistinguishable from a generator, and label words that do not behave like names). None places it on the language side.
+\end{enumerate}
+
+Yet no meaningless process tested, including a new one built from recent published rules, reproduces more than about half of the manuscript's established facts. We report a Bayesian ledger over four hypotheses as an illustration. A sensitivity analysis shows the preference for a meaningless process survives every variant (0.54--0.96), but that its strength rests mainly on two related word-order tests. All code, pre-registrations, results and failures are public.
+\end{abstract}
+
+\section{Introduction}
+Proposed decipherments of the Voynich Manuscript are many; proposals that make a prediction checked on held-out text are, to our knowledge, none. Statistical studies have characterised the text in detail \citep{montemurro2013keywords,sterneck2021topic,gaskell2022gibberish,bowern2022enciphered,zattera2022slot,rozanova2026units,parisel2026currier,parisel2026layered}. Generators have been proposed that imitate it without meaning \citep{timm2019generating,quimqu2026scribe}, and ciphers that imitate it with meaning \citep{greshko2025naibbe,hermes2022polygraphia}. A recent calibrated comparison of 16 such accounts \citep{zhang2026voynich} concludes that word statistics alone cannot settle whether the text means anything.
+
+This paper contributes a complementary approach, not a decipherment. We kept four hypotheses alive throughout:
+\begin{itemize}
+\item \textbf{M}: meaningless, produced by a process without a message;
+\item \textbf{L}: a real language in its own script;
+\item \textbf{C}: a known language hidden by a cipher or code;
+\item \textbf{O}: anything else.
+\end{itemize}
+Each test was pre-registered with a decision rule. We report:
+\begin{enumerate}
+\item which cipher classes can and cannot be attacked at the manuscript's length (\S\ref{sec:cipher});
+\item every validated test that separates meaningful from meaningless text (\S\ref{sec:meaning});
+\item how far meaningless processes get towards reproducing the text (\S\ref{sec:process});
+\item a Bayesian synthesis with an explicit sensitivity analysis (\S\ref{sec:bayes}).
+\end{enumerate}
+
+\section{Methods}
+\paragraph{Data.} We used the Zandbergen--Landini ZL3b EVA transliteration. Fifteen of the 100 physical leaves (text and images) were locked before any analysis and never used. The remaining DEV leaves give 28{,}841 clean prose tokens (6{,}077 word types), with Currier language, scribe, sheet (bifolium), section, line and paragraph markers. Robustness to transcription and glyph segmentation was checked against Takahashi and Glen Claston transcriptions and against segmentations that treat glyph groups as single signs.
+
+\paragraph{Controls.} The controls were:
+\begin{itemize}
+\item about 60 Bible translations, with tokenisation corrected for Indic scripts;
+\item 69 further meaningful texts, including Culpeper's herbal, Latin agricultural texts, Pliny and abbreviated Pliny, and the human-written gibberish and meaningful texts of \citet{gaskell2022gibberish};
+\item the Timm--Schinner copy generator (published code, 60 runs over a declared parameter grid);
+\item dice-table generators and our own process models.
+\end{itemize}
+Where a statistic depends on vocabulary richness, controls were matched to the manuscript's type count (within $\pm$15\%).
+
+\paragraph{Protocol.} For every test:
+\begin{enumerate}
+\item The question, data, statistic, validity condition, decision table and Bayes factor for each outcome were written in a pre-registration file. That file and the analysis script were made read-only and their SHA-256 hashes committed before the run.
+\item A test was \emph{valid} only if its known-answer controls separated as required. An invalid test was reported as VOID and scored nothing.
+\item The number of variants of any test family was declared in advance (no model-hunting).
+\item Near-boundary results required agreement in at least 8 of 10 seed replicates.
+\item Bugs were fixed only through locked amendments.
+\end{enumerate}
+The full ledger, including withdrawn results, is public.
+
+\section{Which cipher classes can be attacked?}\label{sec:cipher}
+\paragraph{Letter ciphers.} The class (``VOY23'') writes a language letter by letter with the 23 commonest Voynich-A signs. Homophones are allowed, and 12\% of words receive a random sign edit. The attack anneals many-to-one keys under a 4-gram Kneser--Ney model trained on disjoint text.
+
+The attack was validated before use: it recovers 97--100\% of letters on planted ciphers. It made zero false claims on 588 copy-generator and pseudo-Voynich controls in a 49-language run, and it recovered the key of 30/30 out-of-genre technical texts. Run on Voynich A (8{,}794 words) and B (19{,}488 words), it found no plaintext in any of about 60 languages (Hebrew, Turkish, Latin, Czech, Arabic, German and others), nor in Hebrew-script Aramaic and Judeo-Arabic, nor with spaces ignored, nor in mixed-language models.
+
+\paragraph{Unicity, measured.} Shannon's unicity distance \citep{shannon1949secrecy} asks how much ciphertext is needed before only the true key fits. We measured it rather than computing it. Across a ladder of 125 to 8{,}806 words (4 keys $\times$ 3 languages per length), the attack recovered 12/12 keys at every length. No wrong key ever scored as well as the true key. The letter-cipher class is therefore decidable with a large margin, and the absence results above are informative.
+
+\paragraph{Whole-word codes.} We built the most attacker-friendly word code: one plaintext word for one code word, one-to-one, with the true key always representable. We attacked it at full manuscript length (28{,}841 tokens) with a word-bigram model from disjoint text and $4\times 2\times10^7$ annealing steps. The attack decoded 4\%, 20\% and 24\% of tokens (Hebrew, Turkish, Latin), against ceilings of 57--75\%.
+
+Decisively, in all three languages the best key found \emph{outscored the true key}. A search started at the true key drifted away from it to better-scoring wrong keys. With a perfect in-sample model the true key was stable. The limit is therefore the information available in the text, not the search. Word codes, including nomenclator-type codes, cannot be tested statistically at this length. This agrees with \citet{zhang2026voynich}, whose two-key nomenclator could not be excluded in 9 of 16 languages.
+
+\section{Does the text behave like meaningful text?}\label{sec:meaning}
+Table~\ref{tab:meaning} lists every valid pre-registered test that separates meaningful from meaningless text by known answers. Each row gives the manuscript's value against the bands its controls established.
+
+\begin{table}[ht]\small
+\caption{Validated tests between meaningful and meaningless text. ``Meaningless'' bands are the copy generator unless stated.}\label{tab:meaning}
+\begin{tabularx}{\textwidth}{@{}lYrrrl@{}}\toprule
+Test & Statistic & Voynich & Meaningful & Meaningless & Side\\\midrule
+E066 & word-specific repetition beyond shape family, $z$ & $-1.2$ & $+4$ to $+14$\textsuperscript{a} & $-0.3$ to $+2.0$ & meaningless\\
+E067 & distinct words per 150 tokens & 112 & 95 (Bibles) & 115 (human gibberish) & meaningless\\
+E085 & same-plant herbal pages share words, $p$ & 0.61 & 0.0001 (Culpeper) & -- & no link\\
+E100 & phrase reuse $Q_3$, richness-matched & 10.8 & $\ge 13.6$ & $\le 6.5$ & between\\
+E100 & repeated four-word phrases & 0 & $\ge 223$ & 0--4 & meaningless\\
+E104 & word-pair order asymmetry & 0.18 & $\ge 0.43$ & 0.10--0.52\textsuperscript{b} & meaningless\\
+E116 & $Q_3$ after merging five spelling alternations & 2.41 & $\ge 5.01$ & $\le 3.84$ & meaningless\\
+E119 & label words in paragraph-first lines (excess share) & $-0.033$ & $+0.054$ (Culpeper) & $\le +0.028$ & meaningless\\
+E069 & common-word partner persistence & 0.073 & p10 0.083 & $\le 0.053$ & between\\
+E070 & content-word partner persistence & 0.004 & $\ge 0.018$ & -- & below all languages\\
+E093 & vocabulary shared by same-subject pages, $z$ & $+1.2$ & $+14, +16$ & $-2.4, -5.0$ & inconclusive\\\bottomrule
+\end{tabularx}
+\footnotesize \textsuperscript{a}Only 4 of 15 measurable languages separate from the generator on this test; 11 are family-level like the manuscript. \textsuperscript{b}Generator p10--p90; the 69 meaningful texts range 0.43--0.70.
+\end{table}
+
+None of the eleven places the manuscript on the language side. The two most informative are about word order:
+\begin{itemize}
+\item \textbf{Phrases (E100, E116).} Real texts of matched richness repeat hundreds of four-word phrases; the manuscript repeats none. One explanation would be that free spelling hides phrases, since the manuscript produces near-copies through five alternations (e/ee, r/l, t/k, d$\pm$, q$\pm$). A power check showed that such variation \emph{can} hide phrases in real texts. But merging the five alternations in the manuscript does not restore them.
+\item \textbf{Pair order (E104).} Recurring word pairs occur in both orders as often as chance predicts (89\% of recurring pairs are seen both ways). This is 12 standard deviations below the least order-bound meaningful text.
+\end{itemize}
+
+Two exploratory, unscored analyses failed validation and are reported only descriptively:
+\begin{itemize}
+\item \textbf{Long-range letter mutual information.} The manuscript is above all 69 meaningful texts but within the generator range.
+\item \textbf{Page-opening surprisal.} The manuscript is above all 132 controls, but language and generator bands overlap.
+\end{itemize}
+
+\section{Can a meaningless process produce the text?}\label{sec:process}
+The case for M would be strongest if a process were shown to produce the text. Table~\ref{tab:process} summarises every process tested.
+
+\begin{table}[ht]\small
+\caption{Meaningless processes against the manuscript.}\label{tab:process}
+\begin{tabularx}{\textwidth}{@{}lYl@{}}\toprule
+Test & Process & Result\\\midrule
+E032/E064 & Timm--Schinner copy generator \citep{timm2019generating}, published settings, 1 and 5 scribes & 7/13 features fail\\
+E068 & 36 humans writing gibberish \citep{gaskell2022gibberish} & Voynich-like on 1 of 5 features\\
+E093 & four-level process ladder & 5/12 facts\\
+E114 & dice-roll word tables, 252 declared settings & best fails 7/13\\
+E120 & ``habit writer'' (after \citet{quimqu2026scribe} and \citet{parisel2026currier}), tuned on 13 features & 5/13 fail; 5/10 held-out facts\\\bottomrule
+\end{tabularx}
+\end{table}
+
+The habit writer (E120) has the following components:
+\begin{itemize}
+\item two per-folio habit states;
+\item sessions per vellum sheet;
+\item copy-and-change from nearby words or the word above;
+\item habit words, plus new words from a letter chain;
+\item line and paragraph position habits.
+\end{itemize}
+It was tuned only on the 13-feature battery and then scored once on ten held-out facts. It reproduced five:
+\begin{itemize}
+\item no repeated four-word phrases;
+\item order-free word pairs;
+\item family-level repetition;
+\item independent lines;
+\item weak common-word partners.
+\end{itemize}
+It failed five:
+\begin{itemize}
+\item short-phrase reuse ($Q_3$ 2.0 vs 12.9);
+\item vocabulary richness (96 vs 111 distinct words per 150 tokens);
+\item vocabulary shared by pages of the same sheet (ratio 0.94 vs 1.29);
+\item page-opening surprisal ($-0.03$ vs $+0.89$);
+\item long-range letter mutual information ($5.6$ vs $12.1\times10^{-4}$).
+\end{itemize}
+We offer these five as the current target list for any meaningless account.
+
+\section{Bayesian synthesis and its sensitivity}\label{sec:bayes}
+Each pre-registration fixed a Bayes factor per outcome. Absent results from validated searches were discounted by a declared rule. A mid-programme audit withdrew two early results whose basis had been overturned and corrected an over-strong absence factor. The audited ledger stood at M 0.46, L 0.36, C 0.10, O 0.08. The pre-registered factors since then give \textbf{M 0.91, L 0.06, C 0.01, O 0.01}.
+
+The factor sizes ($\times3$, $\times1.5$, $\times0.9$) are judgements, not measurements, so we present the ledger as an illustration. Table~\ref{tab:sens} varies them.
+
+\begin{table}[ht]\small
+\caption{Sensitivity of the ledger (M and L shown).}\label{tab:sens}
+\begin{tabularx}{\textwidth}{@{}Yrr@{}}\toprule
+Variant & M & L\\\midrule
+As pre-registered & 0.91 & 0.06\\
+Every factor halved in log-strength & 0.75 & 0.17\\
+Every $\times3$ replaced by $\times1.4$ (an empirically measured ratio) & 0.70 & 0.21\\
+Without the pair-order test (E104) & 0.78 & 0.16\\
+Without both word-order tests (E104, E116) & 0.54 & 0.33\\
+Start from the audit's L-favoured edge, factors halved & 0.60 & 0.31\\\bottomrule
+\end{tabularx}
+\end{table}
+
+M leads in every variant. The size of the lead rests mainly on the two related word-order tests.
+
+\section{Discussion}
+\paragraph{What is excluded.} Within the stated scopes the following are excluded:
+\begin{itemize}
+\item letter-by-letter encipherment of about 60 known languages (an attackable class);
+\item several Hebrew-script forms;
+\item a syllabary;
+\item abbreviated Latin labels;
+\item number labels;
+\item five period cipher designs judged on the statistical shape of their output.
+\end{itemize}
+
+\paragraph{What remains.} The following remain open:
+\begin{itemize}
+\item whole-word codes, which are untestable without cribs;
+\item two-key and word-class ciphers with heavy miscopying \citep{zhang2026voynich};
+\item a language with no surviving text;
+\item a meaningless process better than any yet built.
+\end{itemize}
+Several recent findings deserve the same pre-registered treatment: the per-folio habit switch \citep{parisel2026currier}, the within-word direction split \citep{parisel2026layered}, edge coupling at word boundaries \citep{rozanova2026units}, drawing-edge effects \citep{steckley2024intent}, and the single-sheet (``singulion'') structure \citep{layfield2026singulion}.
+
+\paragraph{A correction census.} The transcription marks 16 possible corrections in 28{,}841 words. All six we could locate in high-resolution images are glyph-level re-inkings or blots. None is a word-level repair such as a skipped word restored. Without correction rates from comparable copied and invented manuscripts, this observation is unscored.
+
+\paragraph{Limitations.}
+\begin{itemize}
+\item Factor sizes are judgements (\S\ref{sec:bayes}).
+\item Most tests use one transcription. Four core facts survived a change of transcription; one did not.
+\item Several tests were proposed after earlier results were seen. Pre-registration fixed each test's rule, but not which tests we chose to run.
+\item AI assistants recognise the manuscript and so cannot act as blind judges. One test that relied on them was reported as not blind.
+\end{itemize}
+
+\section*{Data and code availability}
+All scripts, pre-registrations (with hashes), results, logs, withdrawn results and the full ledger: \url{https://github.com/Savirinc/voynich-ai-cryptolinguist} (MIT). External texts are listed but not redistributed.
+
+\section*{Use of AI}
+The experiments were designed, coded, run and written up in collaboration with Claude (Anthropic), an AI model, working under the protocol described here. The author directed the programme, chose the order of tests and approved every pre-registration. The author takes responsibility for the content. Literature leads found by AI agents were each verified against their official pages before citation.
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+\end{document}
