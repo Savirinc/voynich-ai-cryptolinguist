@@ -6,10 +6,15 @@ on known answers before it touches the manuscript.**
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Cite this](https://img.shields.io/badge/cite-CITATION.cff-green.svg)](CITATION.cff)
 
-> **Status: no decipherment.** Nothing in this repository is a translation of the Voynich Manuscript. What it
-> contains is validated tools, about 25 pre-registered experiments (null results included), and a hypothesis
-> space that has been narrowed down step by step.
-> **Start here: [`reports/SUMMARY.md`](reports/SUMMARY.md)**, a plain-language summary of everything done so far.
+> **Status (1 Nov 2026): no decipherment.** About 120 pre-registered experiments (nulls included), weighed with
+> Bayes' rule.
+> - **Current estimate:** meaningless **0.91**, language 0.06, cipher 0.01, other 0.01.
+> - **How to read that number:** it is a ledger that stays open, not a verdict. No meaningless process yet reproduces
+>   the whole text.
+>
+> **Start here: [`reports/THE_STORY.md`](reports/THE_STORY.md)**, the full story in plain language: how we decide,
+> what we did, how the numbers moved, and what evidence would change them. Every factor is in
+> [`reports/LEDGER.md`](reports/LEDGER.md).
 
 ## Why another Voynich project?
 Most failed Voynich "solutions" share the same flaws:
